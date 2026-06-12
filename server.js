@@ -764,6 +764,14 @@ app.post('/api/settings', (req, res) => {
   }
   if (googleSheetsUrl !== undefined) {
     currentSettings.googleSheetsUrl = googleSheetsUrl.trim();
+    // Write public config.json for static frontend
+    try {
+      const configPath = path.join(publicDir, 'config.json');
+      fs.writeFileSync(configPath, JSON.stringify({ googleSheetsUrl: currentSettings.googleSheetsUrl }, null, 2), 'utf8');
+      console.log(`[Settings] Updated public/config.json with Google Sheets URL.`);
+    } catch (err) {
+      console.error("Failed to write public/config.json:", err);
+    }
   }
 
   saveSettings(currentSettings);

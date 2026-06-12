@@ -1,6 +1,7 @@
 // Public Blog State
 let state = {
-  posts: []
+  posts: [],
+  googleSheetsUrl: ''
 };
 
 // Cache DOM Elements
@@ -15,8 +16,24 @@ const inputSubscribeEmail = document.getElementById('input-subscribe-email');
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   initEventListeners();
-  loadPosts();
+  loadConfig().then(() => {
+    loadPosts();
+  });
 });
+
+// Load Config file config.json if present
+async function loadConfig() {
+  try {
+    const response = await fetch('/config.json');
+    if (response.ok) {
+      const config = await response.json();
+      state.googleSheetsUrl = config.googleSheetsUrl || '';
+      console.log("Loaded public config.json. Google Sheets URL:", state.googleSheetsUrl);
+    }
+  } catch (e) {
+    console.log("No config.json found or failed to load. Defaulting to relative endpoints.");
+  }
+}
 
 function initEventListeners() {
   // Modal Close
@@ -218,12 +235,34 @@ async function handleSubscribeNewsletter(e) {
   const originalText = submitBtn.innerText;
   submitBtn.innerText = 'Subscribing...';
 
-  // Construct Netlify Form-encoded payload
+  // 1. If static frontend has Google Sheets configured, send it directly to Sheets (CORS-safe simple text request)
+  if (state.googleSheetsUrl) {
+    try {
+      console.log("[Newsletter] Sending subscription directly to Google Sheets...");
+      await fetch(state.googleSheetsUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'text/plain;charset=utf-8'
+        },
+        body: JSON.stringify({ email, action: 'subscribe' }),
+        redirect: 'follow'
+      });
+      alert("Subscription successful! You are added to the newsletter list.");
+      inputSubscribeEmail.value = '';
+      submitBtn.disabled = false;
+      submitBtn.innerText = originalText;
+      return;
+    } catch (err) {
+      console.error("[Newsletter] Direct Sheets subscribe failed, trying fallbacks...", err);
+    }
+  }
+
+  // 2. Netlify Form submission (as standard HTML form urlencoded)
   const formData = new FormData(formSubscribe);
   const searchParams = new URLSearchParams(formData);
 
   try {
-    // Attempt local API post if running on local server, otherwise it hits Netlify
+    // Attempt local API post if running on local server, otherwise it hits Netlify Forms handler
     const response = await fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
