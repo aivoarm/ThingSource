@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ThingSource — Autonomous Origins Researcher</title>
+  <title>ThingSource — Curious Origins & Accidental Genius</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,195 +27,49 @@
         <span class="logo-dot"></span>
         <h1>ThingSource</h1>
       </div>
-      <nav>
-        <button id="nav-blog" class="nav-btn active">Blog Feed</button>
-        <button id="nav-console" class="nav-btn">Agent Console</button>
-      </nav>
+      <div class="subtext" style="font-family: var(--font-display); font-size: 0.9rem; font-weight: 500; color: var(--text-muted); text-transform: uppercase; letter-spacing: 2px;">
+        Curious Origins
+      </div>
     </div>
   </header>
 
   <!-- Main Container -->
   <main class="container">
     
-    <!-- SECTION 1: BLOG FEED -->
-    <section id="blog-section" class="active-section">
-      <!-- Hero Banner (Latest Post) -->
-      <div id="latest-post-container" class="hero-post-skeleton">
-        <!-- Will be dynamically populated -->
-        <div class="skeleton-image"></div>
-        <div class="skeleton-content">
-          <div class="skeleton-line tag"></div>
-          <div class="skeleton-line title"></div>
-          <div class="skeleton-line text"></div>
-          <div class="skeleton-line button"></div>
-        </div>
+    <!-- Hero Banner (Latest Post) -->
+    <div id="latest-post-container" class="hero-post-skeleton">
+      <div class="skeleton-image"></div>
+      <div class="skeleton-content">
+        <div class="skeleton-line tag"></div>
+        <div class="skeleton-line title"></div>
+        <div class="skeleton-line text"></div>
+        <div class="skeleton-line button"></div>
       </div>
+    </div>
 
-      <!-- Newsletter Subscription Card -->
-      <div class="card newsletter-signup-card" style="margin-top: -1.5rem; margin-bottom: 3rem;">
-        <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: center; text-align: center; padding: 1rem 0;">
-          <h3 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; margin-bottom: 0;">Origin Stories in Your Inbox</h3>
-          <p class="card-desc" style="margin-bottom: 1rem; max-width: 600px;">Subscribe to get interesting origin research and trivia delivered directly to your inbox when the agent writes a new post.</p>
-          <form id="form-subscribe" style="display: flex; gap: 0.75rem; width: 100%; max-width: 500px; flex-wrap: wrap;">
-            <input type="email" id="input-subscribe-email" placeholder="Enter your email address" required style="flex-grow: 1; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid var(--border-glass); background: rgba(7, 9, 19, 0.6); color: #fff;">
-            <button type="submit" class="btn btn-primary" style="width: auto; padding: 0.75rem 1.5rem;">Subscribe</button>
-          </form>
-        </div>
-      </div>
-
-      <!-- Feed Grid Header -->
-      <div class="feed-header">
-        <h2>More Interesting Discoveries</h2>
-      </div>
-
-      <!-- Grid of older posts -->
-      <div id="posts-grid" class="posts-grid">
-        <!-- Will be populated dynamically -->
-      </div>
-    </section>
-
-    <!-- SECTION 2: AGENT CONSOLE (SETTINGS & CONTROLS) -->
-    <section id="console-section">
-      <div class="console-grid">
+    <!-- Newsletter Subscription Card (Integrated with Netlify Forms) -->
+    <div class="card newsletter-signup-card" style="margin-top: -1.5rem; margin-bottom: 3rem;">
+      <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: center; text-align: center; padding: 1rem 0;">
+        <h3 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; margin-bottom: 0;">Origin Stories in Your Inbox</h3>
+        <p class="card-desc" style="margin-bottom: 1rem; max-width: 600px;">Subscribe to get interesting origin research and trivia delivered directly to your inbox when new discoveries are published.</p>
         
-        <!-- Control Panel Left Column -->
-        <div class="control-column">
-          
-          <!-- Agent Status & Run Trigger -->
-          <div class="card status-card">
-            <h3>Agent Status</h3>
-            <div class="status-indicator">
-              <span id="status-badge" class="badge badge-idle">
-                <span class="pulse-dot"></span>
-                <span id="status-text">Idle</span>
-              </span>
-              <span id="last-run-label" class="subtext">Last Run: Never</span>
-            </div>
-            
-            <div class="action-buttons">
-              <button id="btn-run-agent" class="btn btn-primary">
-                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                Run Agent Now
-              </button>
-            </div>
-          </div>
-
-          <!-- Queue New Topic -->
-          <div class="card queue-card">
-            <h3>Queue Custom Topic</h3>
-            <p class="card-desc">Specify a topic for the agent to research next. If empty, the agent autonomously discovers interesting origins.</p>
-            <form id="form-queue-topic">
-              <div class="form-group">
-                <label for="input-topic">Topic to Research</label>
-                <input type="text" id="input-topic" placeholder="e.g. why is the sky blue, origin of potato chips" required>
-              </div>
-              <button type="submit" class="btn btn-secondary">Add to Queue</button>
-            </form>
-
-            <div class="queue-list-container">
-              <h4>Upcoming Queue (<span id="queue-count">0</span>)</h4>
-              <ul id="queue-items-list">
-                <!-- Topics in queue will be shown here -->
-              </ul>
-            </div>
-          </div>
-
-          <!-- Subscriber Management -->
-          <div class="card subscribers-card">
-            <h3>Active Subscribers (<span id="subscribers-count">0</span>)</h3>
-            <p class="card-desc">Email addresses receiving the newsletter broadcast.</p>
-            <div class="queue-list-container" style="margin-top: 0; padding-top: 0; border-top: none;">
-              <ul id="subscribers-list" style="max-height: 200px; overflow-y: auto;">
-                <!-- Subscribers will be shown here -->
-              </ul>
-            </div>
-          </div>
-
-          <!-- Settings -->
-          <div class="card settings-card">
-            <h3>Agent Settings</h3>
-            <form id="form-settings">
-              <div class="form-group">
-                <label for="input-api-key">Gemini API Key</label>
-                <div class="input-password-wrapper">
-                  <input type="password" id="input-api-key" placeholder="Paste your GEMINI_API_KEY">
-                  <button type="button" id="btn-toggle-key" class="btn-icon">👁️</button>
-                </div>
-                <span class="subtext">Required to use Gemini Flash. Stored locally on server.</span>
-              </div>
-
-              <div class="form-group">
-                <label for="select-schedule">Run Schedule</label>
-                <select id="select-schedule">
-                  <option value="manual">Manual Trigger Only</option>
-                  <option value="*/10 * * * *">Every 10 Minutes (Testing)</option>
-                  <option value="*/30 * * * *">Every 30 Minutes</option>
-                  <option value="0 * * * *">Every Hour</option>
-                  <option value="0 */12 * * *">Every 12 Hours</option>
-                  <option value="0 12 * * *">Once a Day (Noon)</option>
-                  <option value="custom">Custom Cron Expression</option>
-                </select>
-              </div>
-
-              <div class="form-group hidden" id="custom-cron-group">
-                <label for="input-cron">Cron Expression</label>
-                <input type="text" id="input-cron" placeholder="* * * * *">
-                <span class="subtext">Standard crontab format: minute, hour, day, month, day-of-week</span>
-              </div>
-
-              <div class="form-group">
-                <label for="input-webhook-url">Remote Webhook URL</label>
-                <input type="url" id="input-webhook-url" placeholder="e.g. https://blog.armanayva.com/api/posts">
-                <span class="subtext">Endpoint to POST newly created articles as JSON.</span>
-              </div>
-
-              <div class="form-group">
-                <label for="input-webhook-secret">Webhook Auth Token (Secret)</label>
-                <input type="password" id="input-webhook-secret" placeholder="Optional Bearer token">
-                <span class="subtext">Sent in the Authorization header.</span>
-              </div>
-
-              <div class="form-group" style="border-top: 1px solid rgba(255,255,255,0.05); padding-top: 1rem; margin-top: 1.5rem;">
-                <label for="input-resend-key">Resend API Key</label>
-                <div class="input-password-wrapper">
-                  <input type="password" id="input-resend-key" placeholder="Paste your re_xxxxxxxx API key">
-                  <button type="button" id="btn-toggle-resend-key" class="btn-icon">👁️</button>
-                </div>
-                <span class="subtext">Required to broadcast newsletters. Stored on server.</span>
-              </div>
-
-              <div class="form-group">
-                <label for="input-resend-sender">Resend Sender Email</label>
-                <input type="email" id="input-resend-sender" placeholder="onboarding@resend.dev">
-                <span class="subtext">Domain email verified on Resend. Defaults to onboarding@resend.dev.</span>
-              </div>
-
-              <button type="submit" class="btn btn-primary">Save Settings</button>
-            </form>
-          </div>
-
-        </div>
-
-        <!-- Terminal Logs Right Column -->
-        <div class="terminal-column">
-          <div class="card terminal-card">
-            <div class="terminal-header">
-              <div class="terminal-buttons">
-                <span class="term-dot close"></span>
-                <span class="term-dot minimize"></span>
-                <span class="term-dot expand"></span>
-              </div>
-              <span class="terminal-title">agent_research.log</span>
-              <button id="btn-clear-logs" class="btn-text">Clear Log File</button>
-            </div>
-            <div id="terminal-body" class="terminal-body">
-              <div class="log-line system">[SYSTEM] Ready. Log buffer listening.</div>
-            </div>
-          </div>
-        </div>
-
+        <form id="form-subscribe" name="newsletter" method="POST" data-netlify="true" style="display: flex; gap: 0.75rem; width: 100%; max-width: 500px; flex-wrap: wrap;">
+          <input type="hidden" name="form-name" value="newsletter">
+          <input type="email" name="email" id="input-subscribe-email" placeholder="Enter your email address" required style="flex-grow: 1; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid var(--border-glass); background: rgba(7, 9, 19, 0.6); color: #fff;">
+          <button type="submit" class="btn btn-primary" style="width: auto; padding: 0.75rem 1.5rem;">Subscribe</button>
+        </form>
       </div>
-    </section>
+    </div>
+
+    <!-- Feed Grid Header -->
+    <div class="feed-header">
+      <h2>More Interesting Discoveries</h2>
+    </div>
+
+    <!-- Grid of older posts -->
+    <div id="posts-grid" class="posts-grid">
+      <!-- Will be populated dynamically -->
+    </div>
 
   </main>
 
@@ -232,10 +86,10 @@
 
   <!-- Footer -->
   <footer>
-    <p>Powered by Gemini Flash & Antigravity IDE Scheduler. Built in 2026.</p>
+    <p>Powered by Gemini Flash. Built in 2026.</p>
   </footer>
 
-  <!-- Local Script -->
+  <!-- Public Site Frontend Script -->
   <script src="app.js"></script>
 </body>
 </html>

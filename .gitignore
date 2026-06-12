@@ -4,10 +4,6 @@ node_modules/
 # Local Environment variables (contains credentials/API keys)
 .env
 
-# Dynamic/Downloaded media assets
-public/images/*.jpg
-public/images/*.png
-public/images/*.jpeg
 
 # Local Data Stores & Logs
 data/settings.json

@@ -259,8 +259,8 @@ async function runAgent(customTopic = null) {
     }
     
     // Step 5: Save post to database
-    log("Saving post to data/posts.json...");
-    const postsPath = path.join(dataDir, 'posts.json');
+    log("Saving post to public/posts.json...");
+    const postsPath = path.join(publicDir, 'posts.json');
     let posts = [];
     if (fs.existsSync(postsPath)) {
       try {

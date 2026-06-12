@@ -13,7 +13,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 const dataDir = path.join(__dirname, 'data');
-const postsPath = path.join(dataDir, 'posts.json');
+const publicDir = path.join(__dirname, 'public');
+const postsPath = path.join(publicDir, 'posts.json');
 const settingsPath = path.join(dataDir, 'settings.json');
 const logPath = path.join(dataDir, 'agent_run.log');
 const subscribersPath = path.join(dataDir, 'subscribers.json');

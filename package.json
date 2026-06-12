@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "agent": "node agent.js"
+    "agent": "node agent.js",
+    "run-and-push": "node agent.js && git add public/posts.json public/images/ && git commit -m \"chore: auto-publish new discovery\" && git push"
   },
   "dependencies": {
     "@google/genai": "latest",
