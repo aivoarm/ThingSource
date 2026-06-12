@@ -1,3 +1,5 @@
 {
-  "googleSheetsUrl": "https://script.google.com/macros/s/AKfycbzSjQnaCHVBozruegdQ63WvZEs-aGk8Wmn4KnubjsiizbETQZN6QcpeinS2FkYxjOSIjw/exec"
+  "googleSheetsUrl": "https://script.google.com/macros/s/AKfycbzSjQnaCHVBozruegdQ63WvZEs-aGk8Wmn4KnubjsiizbETQZN6QcpeinS2FkYxjOSIjw/exec",
+  "resendAudienceId": "",
+  "resendApiKey": ""
 }

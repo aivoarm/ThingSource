@@ -1,7 +1,9 @@
 // Public Blog State
 let state = {
   posts: [],
-  googleSheetsUrl: ''
+  googleSheetsUrl: '',
+  resendAudienceId: '',
+  resendApiKey: ''
 };
 
 // Cache DOM Elements
@@ -28,7 +30,9 @@ async function loadConfig() {
     if (response.ok) {
       const config = await response.json();
       state.googleSheetsUrl = config.googleSheetsUrl || '';
-      console.log("Loaded public config.json. Google Sheets URL:", state.googleSheetsUrl);
+      state.resendAudienceId = config.resendAudienceId || '';
+      state.resendApiKey = config.resendApiKey || '';
+      console.log("Loaded public config.json.");
     }
   } catch (e) {
     console.log("No config.json found or failed to load. Defaulting to relative endpoints.");
@@ -254,6 +258,31 @@ async function handleSubscribeNewsletter(e) {
       return;
     } catch (err) {
       console.error("[Newsletter] Direct Sheets subscribe failed, trying fallbacks...", err);
+    }
+  }
+
+  // 2. If Resend Audience is configured, subscribe directly via Resend Contacts API
+  if (state.resendAudienceId && state.resendApiKey) {
+    try {
+      console.log("[Newsletter] Sending subscription to Resend Contacts...");
+      const resendRes = await fetch('https://api.resend.com/contacts', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${state.resendApiKey}`,
+          'Content-Type': 'application/json',
+          'User-Agent': 'ThingSource/1.0'
+        },
+        body: JSON.stringify({ email, audienceId: state.resendAudienceId, unsubscribed: false })
+      });
+      if (resendRes.ok || resendRes.status === 409) {
+        alert("Subscription successful! You are added to the newsletter list.");
+        inputSubscribeEmail.value = '';
+        submitBtn.disabled = false;
+        submitBtn.innerText = originalText;
+        return;
+      }
+    } catch (err) {
+      console.error("[Newsletter] Resend Contacts subscribe failed, trying fallbacks...", err);
     }
   }
 

@@ -124,6 +124,7 @@ function getSettings() {
     webhookSecret: '',
     resendApiKey: process.env.RE_API || process.env.RESEND_API_KEY || '',
     resendSender: process.env.SENDER_EMAIL || 'onboarding@resend.dev',
+    resendAudienceId: process.env.RESEND_AUDIENCE_ID || '',
     googleSheetsUrl: process.env.GOOGLE_SHEETS_URL || ''
   };
 
@@ -138,6 +139,9 @@ function getSettings() {
       }
       if ((!merged.resendApiKey || merged.resendApiKey.startsWith('your_') || merged.resendApiKey.includes('test')) && (process.env.RE_API || process.env.RESEND_API_KEY)) {
         merged.resendApiKey = process.env.RE_API || process.env.RESEND_API_KEY;
+      }
+      if (!merged.resendAudienceId && process.env.RESEND_AUDIENCE_ID) {
+        merged.resendAudienceId = process.env.RESEND_AUDIENCE_ID;
       }
       if ((!merged.apiKey || merged.apiKey.startsWith('your_')) && process.env.GEMINI_API_KEY) {
         merged.apiKey = process.env.GEMINI_API_KEY;
@@ -306,7 +310,17 @@ function generateSvgBanner(post) {
   `.trim();
 }
 
-// Helper: Load subscribers (from Google Sheets if configured, otherwise local JSON)
+// Helper: Build Resend API auth headers
+function resendHeaders(apiKey) {
+  return {
+    'Authorization': `Bearer ${apiKey}`,
+    'Content-Type': 'application/json',
+    'User-Agent': 'ThingSource/1.0'
+  };
+}
+
+// Helper: Load subscribers
+// Priority: 1) Google Sheets  2) Resend Contacts  3) Local JSON
 async function getSubscribersList(settings) {
   const sheetsUrl = settings.googleSheetsUrl || process.env.GOOGLE_SHEETS_URL;
   if (sheetsUrl) {
@@ -321,6 +335,29 @@ async function getSubscribersList(settings) {
       console.error(`[Subscribers] Error connecting to Google Sheets:`, err.message);
     }
   }
+
+  // Resend Contacts API
+  const resendKey = settings.resendApiKey;
+  const audienceId = settings.resendAudienceId;
+  if (resendKey && audienceId) {
+    try {
+      console.log(`[Subscribers] Fetching contacts from Resend Audience: ${audienceId}`);
+      const response = await fetch(`https://api.resend.com/audiences/${audienceId}/contacts`, {
+        headers: resendHeaders(resendKey)
+      });
+      if (response.ok) {
+        const data = await response.json();
+        const contacts = (data.data || data.contacts || []);
+        // Return only subscribed contacts mapped to { email, date } shape
+        return contacts
+          .filter(c => !c.unsubscribed)
+          .map(c => ({ email: c.email, date: c.created_at || new Date().toISOString() }));
+      }
+      console.error(`[Subscribers] Resend Contacts fetch failed: ${response.status} ${await response.text()}`);
+    } catch (err) {
+      console.error(`[Subscribers] Error connecting to Resend Contacts API:`, err.message);
+    }
+  }
   
   // Local fallback
   if (fs.existsSync(subscribersPath)) {
@@ -333,7 +370,8 @@ async function getSubscribersList(settings) {
   return [];
 }
 
-// Helper: Save subscriber (to Google Sheets if configured, otherwise local JSON)
+// Helper: Add subscriber
+// Priority: 1) Google Sheets  2) Resend Contacts  3) Local JSON
 async function addSubscriber(email, settings) {
   const trimmed = email.trim().toLowerCase();
   const sheetsUrl = settings.googleSheetsUrl || process.env.GOOGLE_SHEETS_URL;
@@ -356,6 +394,37 @@ async function addSubscriber(email, settings) {
       return { success: false, error: err.message };
     }
   }
+
+  // Resend Contacts API
+  const resendKey = settings.resendApiKey;
+  const audienceId = settings.resendAudienceId;
+  if (resendKey && audienceId) {
+    try {
+      console.log(`[Subscribers] Adding contact to Resend Audience: ${trimmed}`);
+      const response = await fetch('https://api.resend.com/contacts', {
+        method: 'POST',
+        headers: resendHeaders(resendKey),
+        body: JSON.stringify({
+          email: trimmed,
+          audienceId,
+          unsubscribed: false
+        })
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        // 409 = already exists — treat as success
+        if (response.status === 409) {
+          return { success: true };
+        }
+        throw new Error(data.message || data.error || `HTTP error ${response.status}`);
+      }
+      console.log(`[Subscribers] Resend contact created: ${data.id}`);
+      return { success: true };
+    } catch (err) {
+      console.error(`[Subscribers] Resend Contacts add failed:`, err.message);
+      return { success: false, error: err.message };
+    }
+  }
   
   // Local fallback
   let subscribers = [];
@@ -374,7 +443,8 @@ async function addSubscriber(email, settings) {
   return { success: true };
 }
 
-// Helper: Remove subscriber (from Google Sheets if configured, otherwise local JSON)
+// Helper: Remove subscriber
+// Priority: 1) Google Sheets  2) Resend Contacts  3) Local JSON
 async function removeSubscriber(email, settings) {
   const trimmed = email.trim().toLowerCase();
   const sheetsUrl = settings.googleSheetsUrl || process.env.GOOGLE_SHEETS_URL;
@@ -394,6 +464,29 @@ async function removeSubscriber(email, settings) {
       return { success: true };
     } catch (err) {
       console.error(`[Subscribers] Google Sheets remove failed:`, err.message);
+      return { success: false, error: err.message };
+    }
+  }
+
+  // Resend Contacts API
+  const resendKey = settings.resendApiKey;
+  const audienceId = settings.resendAudienceId;
+  if (resendKey && audienceId) {
+    try {
+      console.log(`[Subscribers] Unsubscribing contact from Resend Audience: ${trimmed}`);
+      // PATCH to mark as unsubscribed (non-destructive) using email as identifier
+      const response = await fetch(`https://api.resend.com/audiences/${audienceId}/contacts/${encodeURIComponent(trimmed)}`, {
+        method: 'PATCH',
+        headers: resendHeaders(resendKey),
+        body: JSON.stringify({ unsubscribed: true })
+      });
+      if (!response.ok && response.status !== 404) {
+        const data = await response.json().catch(() => ({}));
+        throw new Error(data.message || data.error || `HTTP error ${response.status}`);
+      }
+      return { success: true };
+    } catch (err) {
+      console.error(`[Subscribers] Resend Contacts remove failed:`, err.message);
       return { success: false, error: err.message };
     }
   }
@@ -665,6 +758,14 @@ function setupCronSchedule() {
 function syncPublicConfig() {
   const settings = getSettings();
   const configPath = path.join(publicDir, 'config.json');
+  
+  const newConfig = {
+    googleSheetsUrl: settings.googleSheetsUrl || '',
+    resendAudienceId: settings.resendAudienceId || '',
+    // Only expose the API key if an audience is configured (safe to expose for contact creation only)
+    resendApiKey: (settings.resendAudienceId && settings.resendApiKey) ? settings.resendApiKey : ''
+  };
+
   let currentConfig = {};
   if (fs.existsSync(configPath)) {
     try {
@@ -674,10 +775,11 @@ function syncPublicConfig() {
     }
   }
   
-  if (currentConfig.googleSheetsUrl !== settings.googleSheetsUrl) {
+  const changed = JSON.stringify(currentConfig) !== JSON.stringify(newConfig);
+  if (changed) {
     try {
-      fs.writeFileSync(configPath, JSON.stringify({ googleSheetsUrl: settings.googleSheetsUrl }, null, 2), 'utf8');
-      console.log(`[Startup] Synced public/config.json with Google Sheets URL: ${settings.googleSheetsUrl}`);
+      fs.writeFileSync(configPath, JSON.stringify(newConfig, null, 2), 'utf8');
+      console.log(`[Startup] Synced public/config.json (Sheets: ${newConfig.googleSheetsUrl ? 'yes' : 'no'}, Resend Audience: ${newConfig.resendAudienceId ? 'yes' : 'no'})`);
     } catch (err) {
       console.error("[Startup] Failed to sync public/config.json:", err);
     }
@@ -844,13 +946,14 @@ app.get('/api/settings', adminAuth, (req, res) => {
     hasResendApiKey: !!settings.resendApiKey,
     resendApiKeyLength: settings.resendApiKey ? settings.resendApiKey.length : 0,
     resendSender: settings.resendSender || 'onboarding@resend.dev',
+    resendAudienceId: settings.resendAudienceId || '',
     googleSheetsUrl: settings.googleSheetsUrl || ''
   });
 });
 
 // API: Update Settings
 app.post('/api/settings', adminAuth, (req, res) => {
-  const { apiKey, cronSchedule, topicsQueue, webhookUrl, webhookSecret, resendApiKey, resendSender, googleSheetsUrl } = req.body;
+  const { apiKey, cronSchedule, topicsQueue, webhookUrl, webhookSecret, resendApiKey, resendSender, resendAudienceId, googleSheetsUrl } = req.body;
   const currentSettings = getSettings();
 
   if (apiKey !== undefined) {
@@ -877,6 +980,9 @@ app.post('/api/settings', adminAuth, (req, res) => {
   }
   if (resendSender !== undefined) {
     currentSettings.resendSender = resendSender.trim();
+  }
+  if (resendAudienceId !== undefined) {
+    currentSettings.resendAudienceId = resendAudienceId.trim();
   }
   if (googleSheetsUrl !== undefined) {
     currentSettings.googleSheetsUrl = googleSheetsUrl.trim();
