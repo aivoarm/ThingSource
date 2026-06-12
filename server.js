@@ -11,67 +11,83 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
+// Helper: Parse Cookie from Request headers
+const getCookie = (req, name) => {
+  const rc = req.headers.cookie;
+  if (!rc) return null;
+  const cookies = rc.split(';').reduce((acc, cookie) => {
+    const parts = cookie.split('=');
+    acc[parts.shift().trim()] = decodeURIComponent(parts.join('='));
+    return acc;
+  }, {});
+  return cookies[name] || null;
+};
+
 // Admin Authentication Middleware
 const adminAuth = (req, res, next) => {
   const adminPassword = process.env.ADMIN_PASSWORD;
   if (!adminPassword) {
     return next();
   }
-  const clientPassword = req.headers['x-admin-password'] || req.query.password;
+  const clientPassword = req.headers['x-admin-password'] || req.query.password || getCookie(req, 'admin_password');
   if (clientPassword === adminPassword) {
     return next();
   }
   return res.status(401).json({ error: "Unauthorized. Invalid admin password." });
 };
 
-// GET: Secure Admin Dashboard Login
-app.get('/admin.html', (req, res, next) => {
+// POST: Login Endpoint
+app.post('/api/login', (req, res) => {
+  const { password } = req.body;
+  const adminPassword = process.env.ADMIN_PASSWORD;
+  
+  if (!adminPassword) {
+    return res.status(500).json({ error: "Admin password is not configured on the server." });
+  }
+  
+  if (password === adminPassword) {
+    res.setHeader('Set-Cookie', `admin_password=${encodeURIComponent(password)}; Path=/; HttpOnly; SameSite=Strict; Max-Age=604800`);
+    return res.json({ success: true });
+  }
+  
+  return res.status(401).json({ error: "Invalid password." });
+});
+
+// POST: Logout Endpoint
+app.post('/api/logout', (req, res) => {
+  res.setHeader('Set-Cookie', 'admin_password=; Path=/; HttpOnly; SameSite=Strict; Expires=Thu, 01 Jan 1970 00:00:00 GMT');
+  return res.json({ success: true });
+});
+
+// GET: Secure Admin Dashboard Route
+app.get('/admin', (req, res) => {
   const adminPassword = process.env.ADMIN_PASSWORD;
   if (!adminPassword) {
-    return next();
+    return res.sendFile(path.join(__dirname, 'admin', 'admin.html'));
   }
   
-  const clientPassword = req.query.password;
-  if (clientPassword === adminPassword) {
-    return next();
+  const cookiePassword = getCookie(req, 'admin_password');
+  if (cookiePassword === adminPassword) {
+    return res.sendFile(path.join(__dirname, 'admin', 'admin.html'));
   }
   
-  res.send(`
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>ThingSource Login</title>
-      <link rel="stylesheet" href="styles.css">
-      <style>
-        body { display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: 'Inter', sans-serif; background-color: #070913; color: #fff; }
-        .login-card { max-width: 380px; width: 100%; padding: 2.5rem; background: rgba(13, 17, 39, 0.7); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; backdrop-filter: blur(12px); box-shadow: 0 8px 32px rgba(0,0,0,0.3); text-align: center; z-index: 10; }
-        h2 { font-family: 'Outfit', sans-serif; font-weight: 700; margin-bottom: 1.5rem; color: #fff; }
-        input { width: 100%; padding: 0.75rem 1rem; margin-bottom: 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(7, 9, 19, 0.6); color: #fff; box-sizing: border-box; }
-        button { width: 100%; padding: 0.75rem; border-radius: 8px; border: none; background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%); color: #fff; font-weight: bold; cursor: pointer; }
-        .error { color: #f87171; font-size: 0.85rem; margin-bottom: 1rem; }
-      </style>
-    </head>
-    <body>
-      <div class="glow-orb orb-1"></div>
-      <div class="login-card">
-        <h2>ThingSource Console</h2>
-        <form method="GET" action="/admin.html">
-          <input type="password" name="password" placeholder="Enter Admin Password" required autofocus>
-          \${clientPassword ? '<div class="error">Invalid password. Try again.</div>' : ''}
-          <button type="submit">Unlock Console</button>
-        </form>
-      </div>
-      <script>
-        const params = new URLSearchParams(window.location.search);
-        if (params.has('password')) {
-          localStorage.setItem('adminPassword', params.get('password'));
-        }
-      </script>
-    </body>
-    </html>
-  `);
+  return res.sendFile(path.join(__dirname, 'admin', 'login.html'));
+});
+
+// GET: Secure Admin JS Route
+app.get('/admin.js', (req, res) => {
+  const adminPassword = process.env.ADMIN_PASSWORD;
+  const cookiePassword = getCookie(req, 'admin_password');
+  
+  if (adminPassword && cookiePassword !== adminPassword) {
+    return res.status(401).send('Unauthorized');
+  }
+  return res.sendFile(path.join(__dirname, 'admin', 'admin.js'));
+});
+
+// Redirect legacy /admin.html requests
+app.get('/admin.html', (req, res) => {
+  res.redirect('/admin');
 });
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -114,7 +130,19 @@ function getSettings() {
   if (fs.existsSync(settingsPath)) {
     try {
       const saved = JSON.parse(fs.readFileSync(settingsPath, 'utf8'));
-      return { ...defaultSettings, ...saved };
+      const merged = { ...defaultSettings, ...saved };
+      
+      // Override placeholders/defaults if the environment variable has a real value
+      if ((!merged.googleSheetsUrl || merged.googleSheetsUrl.includes('AKfycbytest')) && process.env.GOOGLE_SHEETS_URL) {
+        merged.googleSheetsUrl = process.env.GOOGLE_SHEETS_URL;
+      }
+      if ((!merged.resendApiKey || merged.resendApiKey.startsWith('your_') || merged.resendApiKey.includes('test')) && (process.env.RE_API || process.env.RESEND_API_KEY)) {
+        merged.resendApiKey = process.env.RE_API || process.env.RESEND_API_KEY;
+      }
+      if ((!merged.apiKey || merged.apiKey.startsWith('your_')) && process.env.GEMINI_API_KEY) {
+        merged.apiKey = process.env.GEMINI_API_KEY;
+      }
+      return merged;
     } catch (e) {
       console.error("Failed to read settings.json, using defaults:", e);
     }
@@ -633,8 +661,32 @@ function setupCronSchedule() {
   console.log(`[Scheduler] Successfully scheduled cron job: "${schedule}"`);
 }
 
-// Start Cron Scheduler on startup
+// Sync public/config.json on startup
+function syncPublicConfig() {
+  const settings = getSettings();
+  const configPath = path.join(publicDir, 'config.json');
+  let currentConfig = {};
+  if (fs.existsSync(configPath)) {
+    try {
+      currentConfig = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+    } catch (e) {
+      // ignore
+    }
+  }
+  
+  if (currentConfig.googleSheetsUrl !== settings.googleSheetsUrl) {
+    try {
+      fs.writeFileSync(configPath, JSON.stringify({ googleSheetsUrl: settings.googleSheetsUrl }, null, 2), 'utf8');
+      console.log(`[Startup] Synced public/config.json with Google Sheets URL: ${settings.googleSheetsUrl}`);
+    } catch (err) {
+      console.error("[Startup] Failed to sync public/config.json:", err);
+    }
+  }
+}
+
+// Start Cron Scheduler and sync config on startup
 setupCronSchedule();
+syncPublicConfig();
 
 // GET: Unsubscribe Route
 app.get('/unsubscribe', async (req, res) => {
