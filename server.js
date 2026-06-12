@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const cron = require('node-cron');
+const { Resend } = require('resend');
 const { runAgent } = require('./agent');
 
 require('dotenv').config();
@@ -124,7 +125,7 @@ function getSettings() {
     webhookSecret: '',
     resendApiKey: process.env.RE_API || process.env.RESEND_API_KEY || '',
     resendSender: process.env.SENDER_EMAIL || 'onboarding@resend.dev',
-    resendAudienceId: process.env.RESEND_AUDIENCE_ID || '',
+    resendSegmentId: process.env.RESEND_SEGMENT_ID || '',
     googleSheetsUrl: process.env.GOOGLE_SHEETS_URL || ''
   };
 
@@ -133,6 +134,11 @@ function getSettings() {
       const saved = JSON.parse(fs.readFileSync(settingsPath, 'utf8'));
       const merged = { ...defaultSettings, ...saved };
       
+      // Migrate old field name
+      if (!merged.resendSegmentId && merged.resendAudienceId) {
+        merged.resendSegmentId = merged.resendAudienceId;
+      }
+      
       // Override placeholders/defaults if the environment variable has a real value
       if ((!merged.googleSheetsUrl || merged.googleSheetsUrl.includes('AKfycbytest')) && process.env.GOOGLE_SHEETS_URL) {
         merged.googleSheetsUrl = process.env.GOOGLE_SHEETS_URL;
@@ -140,8 +146,8 @@ function getSettings() {
       if ((!merged.resendApiKey || merged.resendApiKey.startsWith('your_') || merged.resendApiKey.includes('test')) && (process.env.RE_API || process.env.RESEND_API_KEY)) {
         merged.resendApiKey = process.env.RE_API || process.env.RESEND_API_KEY;
       }
-      if (!merged.resendAudienceId && process.env.RESEND_AUDIENCE_ID) {
-        merged.resendAudienceId = process.env.RESEND_AUDIENCE_ID;
+      if (!merged.resendSegmentId && process.env.RESEND_SEGMENT_ID) {
+        merged.resendSegmentId = process.env.RESEND_SEGMENT_ID;
       }
       if ((!merged.apiKey || merged.apiKey.startsWith('your_')) && process.env.GEMINI_API_KEY) {
         merged.apiKey = process.env.GEMINI_API_KEY;
@@ -310,17 +316,15 @@ function generateSvgBanner(post) {
   `.trim();
 }
 
-// Helper: Build Resend API auth headers
-function resendHeaders(apiKey) {
-  return {
-    'Authorization': `Bearer ${apiKey}`,
-    'Content-Type': 'application/json',
-    'User-Agent': 'ThingSource/1.0'
-  };
+// Helper: Get (or lazily create) a Resend SDK instance
+function getResendClient(settings) {
+  const key = settings.resendApiKey;
+  if (!key) return null;
+  return new Resend(key);
 }
 
 // Helper: Load subscribers
-// Priority: 1) Google Sheets  2) Resend Contacts  3) Local JSON
+// Priority: 1) Google Sheets  2) Resend Contacts (segment)  3) Local JSON
 async function getSubscribersList(settings) {
   const sheetsUrl = settings.googleSheetsUrl || process.env.GOOGLE_SHEETS_URL;
   if (sheetsUrl) {
@@ -336,26 +340,20 @@ async function getSubscribersList(settings) {
     }
   }
 
-  // Resend Contacts API
-  const resendKey = settings.resendApiKey;
-  const audienceId = settings.resendAudienceId;
-  if (resendKey && audienceId) {
+  // Resend Contacts API (official SDK)
+  const resend = getResendClient(settings);
+  const segmentId = settings.resendSegmentId;
+  if (resend && segmentId) {
     try {
-      console.log(`[Subscribers] Fetching contacts from Resend Audience: ${audienceId}`);
-      const response = await fetch(`https://api.resend.com/audiences/${audienceId}/contacts`, {
-        headers: resendHeaders(resendKey)
-      });
-      if (response.ok) {
-        const data = await response.json();
-        const contacts = (data.data || data.contacts || []);
-        // Return only subscribed contacts mapped to { email, date } shape
-        return contacts
-          .filter(c => !c.unsubscribed)
-          .map(c => ({ email: c.email, date: c.created_at || new Date().toISOString() }));
-      }
-      console.error(`[Subscribers] Resend Contacts fetch failed: ${response.status} ${await response.text()}`);
+      console.log(`[Subscribers] Fetching contacts from Resend Segment: ${segmentId}`);
+      const { data, error } = await resend.contacts.list({ segmentId });
+      if (error) throw new Error(error.message);
+      const contacts = data?.data || [];
+      return contacts
+        .filter(c => !c.unsubscribed)
+        .map(c => ({ email: c.email, date: c.created_at || new Date().toISOString() }));
     } catch (err) {
-      console.error(`[Subscribers] Error connecting to Resend Contacts API:`, err.message);
+      console.error(`[Subscribers] Resend contacts.list failed:`, err.message);
     }
   }
   
@@ -371,7 +369,7 @@ async function getSubscribersList(settings) {
 }
 
 // Helper: Add subscriber
-// Priority: 1) Google Sheets  2) Resend Contacts  3) Local JSON
+// Priority: 1) Google Sheets  2) Resend Contacts + Segment  3) Local JSON
 async function addSubscriber(email, settings) {
   const trimmed = email.trim().toLowerCase();
   const sheetsUrl = settings.googleSheetsUrl || process.env.GOOGLE_SHEETS_URL;
@@ -395,33 +393,36 @@ async function addSubscriber(email, settings) {
     }
   }
 
-  // Resend Contacts API
-  const resendKey = settings.resendApiKey;
-  const audienceId = settings.resendAudienceId;
-  if (resendKey && audienceId) {
+  // Resend Contacts + Segments SDK
+  const resend = getResendClient(settings);
+  const segmentId = settings.resendSegmentId;
+  if (resend) {
     try {
-      console.log(`[Subscribers] Adding contact to Resend Audience: ${trimmed}`);
-      const response = await fetch('https://api.resend.com/contacts', {
-        method: 'POST',
-        headers: resendHeaders(resendKey),
-        body: JSON.stringify({
-          email: trimmed,
-          audienceId,
-          unsubscribed: false
-        })
+      console.log(`[Subscribers] Creating Resend contact: ${trimmed}`);
+      // Step 1: Ensure the contact exists (upsert)
+      const { data: contactData, error: contactErr } = await resend.contacts.create({
+        email: trimmed,
+        unsubscribed: false
       });
-      const data = await response.json();
-      if (!response.ok) {
-        // 409 = already exists — treat as success
-        if (response.status === 409) {
-          return { success: true };
+      if (contactErr) {
+        // If contact already exists (409-style message), it's fine
+        if (!contactErr.message?.toLowerCase().includes('already')) {
+          throw new Error(contactErr.message);
         }
-        throw new Error(data.message || data.error || `HTTP error ${response.status}`);
       }
-      console.log(`[Subscribers] Resend contact created: ${data.id}`);
+      // Step 2: Add to segment if configured
+      if (segmentId) {
+        console.log(`[Subscribers] Adding to Resend Segment: ${segmentId}`);
+        const { error: segErr } = await resend.contacts.segments.add({
+          email: trimmed,
+          segmentId
+        });
+        if (segErr) console.warn(`[Subscribers] Segment add warning:`, segErr.message);
+      }
+      console.log(`[Subscribers] Resend contact ready: ${trimmed}`);
       return { success: true };
     } catch (err) {
-      console.error(`[Subscribers] Resend Contacts add failed:`, err.message);
+      console.error(`[Subscribers] Resend add failed:`, err.message);
       return { success: false, error: err.message };
     }
   }
@@ -444,7 +445,7 @@ async function addSubscriber(email, settings) {
 }
 
 // Helper: Remove subscriber
-// Priority: 1) Google Sheets  2) Resend Contacts  3) Local JSON
+// Priority: 1) Google Sheets  2) Resend Contacts (segment remove)  3) Local JSON
 async function removeSubscriber(email, settings) {
   const trimmed = email.trim().toLowerCase();
   const sheetsUrl = settings.googleSheetsUrl || process.env.GOOGLE_SHEETS_URL;
@@ -468,25 +469,30 @@ async function removeSubscriber(email, settings) {
     }
   }
 
-  // Resend Contacts API
-  const resendKey = settings.resendApiKey;
-  const audienceId = settings.resendAudienceId;
-  if (resendKey && audienceId) {
+  // Resend Contacts SDK
+  const resend = getResendClient(settings);
+  const segmentId = settings.resendSegmentId;
+  if (resend) {
     try {
-      console.log(`[Subscribers] Unsubscribing contact from Resend Audience: ${trimmed}`);
-      // PATCH to mark as unsubscribed (non-destructive) using email as identifier
-      const response = await fetch(`https://api.resend.com/audiences/${audienceId}/contacts/${encodeURIComponent(trimmed)}`, {
-        method: 'PATCH',
-        headers: resendHeaders(resendKey),
-        body: JSON.stringify({ unsubscribed: true })
-      });
-      if (!response.ok && response.status !== 404) {
-        const data = await response.json().catch(() => ({}));
-        throw new Error(data.message || data.error || `HTTP error ${response.status}`);
+      if (segmentId) {
+        // Remove from the segment (contact still exists but no longer in this list)
+        console.log(`[Subscribers] Removing from Resend Segment: ${trimmed}`);
+        const { error: segErr } = await resend.contacts.segments.remove({
+          email: trimmed,
+          segmentId
+        });
+        if (segErr) console.warn(`[Subscribers] Segment remove warning:`, segErr.message);
+      } else {
+        // No segment — mark as unsubscribed globally
+        console.log(`[Subscribers] Unsubscribing Resend contact: ${trimmed}`);
+        const { data: contact } = await resend.contacts.get({ email: trimmed });
+        if (contact?.id) {
+          await resend.contacts.update({ id: contact.id, unsubscribed: true });
+        }
       }
       return { success: true };
     } catch (err) {
-      console.error(`[Subscribers] Resend Contacts remove failed:`, err.message);
+      console.error(`[Subscribers] Resend remove failed:`, err.message);
       return { success: false, error: err.message };
     }
   }
@@ -761,9 +767,9 @@ function syncPublicConfig() {
   
   const newConfig = {
     googleSheetsUrl: settings.googleSheetsUrl || '',
-    resendAudienceId: settings.resendAudienceId || '',
-    // Only expose the API key if an audience is configured (safe to expose for contact creation only)
-    resendApiKey: (settings.resendAudienceId && settings.resendApiKey) ? settings.resendApiKey : ''
+    resendSegmentId: settings.resendSegmentId || '',
+    // Only expose the API key if a segment is configured (safe to expose for contact creation only)
+    resendApiKey: (settings.resendSegmentId && settings.resendApiKey) ? settings.resendApiKey : ''
   };
 
   let currentConfig = {};
@@ -946,18 +952,17 @@ app.get('/api/settings', adminAuth, (req, res) => {
     hasResendApiKey: !!settings.resendApiKey,
     resendApiKeyLength: settings.resendApiKey ? settings.resendApiKey.length : 0,
     resendSender: settings.resendSender || 'onboarding@resend.dev',
-    resendAudienceId: settings.resendAudienceId || '',
+    resendSegmentId: settings.resendSegmentId || '',
     googleSheetsUrl: settings.googleSheetsUrl || ''
   });
 });
 
 // API: Update Settings
 app.post('/api/settings', adminAuth, (req, res) => {
-  const { apiKey, cronSchedule, topicsQueue, webhookUrl, webhookSecret, resendApiKey, resendSender, resendAudienceId, googleSheetsUrl } = req.body;
+  const { apiKey, cronSchedule, topicsQueue, webhookUrl, webhookSecret, resendApiKey, resendSender, resendSegmentId, googleSheetsUrl } = req.body;
   const currentSettings = getSettings();
 
   if (apiKey !== undefined) {
-    // If user provided a placeholder or actual key, save it
     currentSettings.apiKey = apiKey;
   }
   if (cronSchedule !== undefined) {
@@ -981,12 +986,13 @@ app.post('/api/settings', adminAuth, (req, res) => {
   if (resendSender !== undefined) {
     currentSettings.resendSender = resendSender.trim();
   }
-  if (resendAudienceId !== undefined) {
-    currentSettings.resendAudienceId = resendAudienceId.trim();
+  if (resendSegmentId !== undefined) {
+    currentSettings.resendSegmentId = resendSegmentId.trim();
+    // Update syncPublicConfig
+    syncPublicConfig();
   }
   if (googleSheetsUrl !== undefined) {
     currentSettings.googleSheetsUrl = googleSheetsUrl.trim();
-    // Write public config.json for static frontend
     try {
       const configPath = path.join(publicDir, 'config.json');
       fs.writeFileSync(configPath, JSON.stringify({ googleSheetsUrl: currentSettings.googleSheetsUrl }, null, 2), 'utf8');
@@ -997,9 +1003,8 @@ app.post('/api/settings', adminAuth, (req, res) => {
   }
 
   saveSettings(currentSettings);
-  
-  // Re-initialize cron schedule
   setupCronSchedule();
+  syncPublicConfig();
 
   res.json({ success: true, message: "Settings updated successfully." });
 });

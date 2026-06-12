@@ -44,7 +44,7 @@ const inputWebhookSecret = document.getElementById('input-webhook-secret');
 const inputResendKey = document.getElementById('input-resend-key');
 const btnToggleResendKey = document.getElementById('btn-toggle-resend-key');
 const inputResendSender = document.getElementById('input-resend-sender');
-const inputAudienceId = document.getElementById('input-audience-id');
+const inputSegmentId = document.getElementById('input-segment-id');
 const inputSheetsUrl = document.getElementById('input-sheets-url');
 
 let statusPollingInterval = null;
@@ -226,7 +226,7 @@ async function loadSettings() {
 
     inputWebhookUrl.value = data.webhookUrl || '';
     inputWebhookSecret.value = data.webhookSecret || '';
-    inputAudienceId.value = data.resendAudienceId || '';
+    inputSegmentId.value = data.resendSegmentId || '';
     inputSheetsUrl.value = data.googleSheetsUrl || '';
 
     renderQueueList();
@@ -303,7 +303,7 @@ async function handleSaveSettings(e) {
   const webhookSecret = inputWebhookSecret.value.trim();
   const resendApiKey = inputResendKey.value.trim();
   const resendSender = inputResendSender.value.trim();
-  const resendAudienceId = inputAudienceId.value.trim();
+  const resendSegmentId = inputSegmentId.value.trim();
   const googleSheetsUrl = inputSheetsUrl.value.trim();
 
   const body = {};
@@ -313,7 +313,7 @@ async function handleSaveSettings(e) {
   body.webhookSecret = webhookSecret;
   if (resendApiKey) body.resendApiKey = resendApiKey;
   body.resendSender = resendSender;
-  body.resendAudienceId = resendAudienceId;
+  body.resendSegmentId = resendSegmentId;
   body.googleSheetsUrl = googleSheetsUrl;
 
   try {

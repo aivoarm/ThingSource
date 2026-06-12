@@ -2,7 +2,7 @@
 let state = {
   posts: [],
   googleSheetsUrl: '',
-  resendAudienceId: '',
+  resendSegmentId: '',
   resendApiKey: ''
 };
 
@@ -30,7 +30,7 @@ async function loadConfig() {
     if (response.ok) {
       const config = await response.json();
       state.googleSheetsUrl = config.googleSheetsUrl || '';
-      state.resendAudienceId = config.resendAudienceId || '';
+      state.resendSegmentId = config.resendSegmentId || '';
       state.resendApiKey = config.resendApiKey || '';
       console.log("Loaded public config.json.");
     }
@@ -261,18 +261,17 @@ async function handleSubscribeNewsletter(e) {
     }
   }
 
-  // 2. If Resend Audience is configured, subscribe directly via Resend Contacts API
-  if (state.resendAudienceId && state.resendApiKey) {
+  // 2. If Resend Segment is configured, subscribe directly via Resend Contacts API
+  if (state.resendSegmentId && state.resendApiKey) {
     try {
       console.log("[Newsletter] Sending subscription to Resend Contacts...");
       const resendRes = await fetch('https://api.resend.com/contacts', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${state.resendApiKey}`,
-          'Content-Type': 'application/json',
-          'User-Agent': 'ThingSource/1.0'
+          'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ email, audienceId: state.resendAudienceId, unsubscribed: false })
+        body: JSON.stringify({ email, unsubscribed: false })
       });
       if (resendRes.ok || resendRes.status === 409) {
         alert("Subscription successful! You are added to the newsletter list.");
