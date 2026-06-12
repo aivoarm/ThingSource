@@ -44,6 +44,7 @@ const inputWebhookSecret = document.getElementById('input-webhook-secret');
 const inputResendKey = document.getElementById('input-resend-key');
 const btnToggleResendKey = document.getElementById('btn-toggle-resend-key');
 const inputResendSender = document.getElementById('input-resend-sender');
+const inputSheetsUrl = document.getElementById('input-sheets-url');
 
 let statusPollingInterval = null;
 
@@ -190,6 +191,7 @@ async function loadSettings() {
 
     inputWebhookUrl.value = data.webhookUrl || '';
     inputWebhookSecret.value = data.webhookSecret || '';
+    inputSheetsUrl.value = data.googleSheetsUrl || '';
 
     renderQueueList();
     loadSubscribers();
@@ -265,6 +267,7 @@ async function handleSaveSettings(e) {
   const webhookSecret = inputWebhookSecret.value.trim();
   const resendApiKey = inputResendKey.value.trim();
   const resendSender = inputResendSender.value.trim();
+  const googleSheetsUrl = inputSheetsUrl.value.trim();
 
   const body = {};
   if (apiKey) body.apiKey = apiKey;
@@ -273,6 +276,7 @@ async function handleSaveSettings(e) {
   body.webhookSecret = webhookSecret;
   if (resendApiKey) body.resendApiKey = resendApiKey;
   body.resendSender = resendSender;
+  body.googleSheetsUrl = googleSheetsUrl;
 
   try {
     const response = await fetch('/api/settings', {

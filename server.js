@@ -43,7 +43,8 @@ function getSettings() {
     webhookUrl: '',
     webhookSecret: '',
     resendApiKey: process.env.RE_API || process.env.RESEND_API_KEY || '',
-    resendSender: process.env.SENDER_EMAIL || 'onboarding@resend.dev'
+    resendSender: process.env.SENDER_EMAIL || 'onboarding@resend.dev',
+    googleSheetsUrl: process.env.GOOGLE_SHEETS_URL || ''
   };
 
   if (fs.existsSync(settingsPath)) {
@@ -213,6 +214,116 @@ function generateSvgBanner(post) {
   `.trim();
 }
 
+// Helper: Load subscribers (from Google Sheets if configured, otherwise local JSON)
+async function getSubscribersList(settings) {
+  const sheetsUrl = settings.googleSheetsUrl || process.env.GOOGLE_SHEETS_URL;
+  if (sheetsUrl) {
+    try {
+      console.log(`[Subscribers] Fetching list from Google Sheets: ${sheetsUrl}`);
+      const response = await fetch(sheetsUrl);
+      if (response.ok) {
+        return await response.json();
+      }
+      console.error(`[Subscribers] Failed to fetch from Google Sheets: ${response.status}`);
+    } catch (err) {
+      console.error(`[Subscribers] Error connecting to Google Sheets:`, err.message);
+    }
+  }
+  
+  // Local fallback
+  if (fs.existsSync(subscribersPath)) {
+    try {
+      return JSON.parse(fs.readFileSync(subscribersPath, 'utf8'));
+    } catch (e) {
+      console.error("Error reading subscribers file:", e);
+    }
+  }
+  return [];
+}
+
+// Helper: Save subscriber (to Google Sheets if configured, otherwise local JSON)
+async function addSubscriber(email, settings) {
+  const trimmed = email.trim().toLowerCase();
+  const sheetsUrl = settings.googleSheetsUrl || process.env.GOOGLE_SHEETS_URL;
+  
+  if (sheetsUrl) {
+    try {
+      console.log(`[Subscribers] Adding subscriber to Google Sheets: ${trimmed}`);
+      const response = await fetch(sheetsUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: trimmed, action: 'subscribe' })
+      });
+      const data = await response.json();
+      if (!response.ok || !data.success) {
+        throw new Error(data.error || `HTTP error ${response.status}`);
+      }
+      return { success: true };
+    } catch (err) {
+      console.error(`[Subscribers] Google Sheets save failed:`, err.message);
+      return { success: false, error: err.message };
+    }
+  }
+  
+  // Local fallback
+  let subscribers = [];
+  if (fs.existsSync(subscribersPath)) {
+    try {
+      subscribers = JSON.parse(fs.readFileSync(subscribersPath, 'utf8'));
+    } catch (e) {
+      console.error("Error reading subscribers database:", e);
+    }
+  }
+  if (subscribers.some(sub => sub.email === trimmed)) {
+    return { success: false, error: "Already subscribed!" };
+  }
+  subscribers.push({ email: trimmed, date: new Date().toISOString() });
+  fs.writeFileSync(subscribersPath, JSON.stringify(subscribers, null, 2), 'utf8');
+  return { success: true };
+}
+
+// Helper: Remove subscriber (from Google Sheets if configured, otherwise local JSON)
+async function removeSubscriber(email, settings) {
+  const trimmed = email.trim().toLowerCase();
+  const sheetsUrl = settings.googleSheetsUrl || process.env.GOOGLE_SHEETS_URL;
+  
+  if (sheetsUrl) {
+    try {
+      console.log(`[Subscribers] Removing subscriber from Google Sheets: ${trimmed}`);
+      const response = await fetch(sheetsUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: trimmed, action: 'unsubscribe' })
+      });
+      const data = await response.json();
+      if (!response.ok || !data.success) {
+        throw new Error(data.error || `HTTP error ${response.status}`);
+      }
+      return { success: true };
+    } catch (err) {
+      console.error(`[Subscribers] Google Sheets remove failed:`, err.message);
+      return { success: false, error: err.message };
+    }
+  }
+  
+  // Local fallback
+  if (fs.existsSync(subscribersPath)) {
+    try {
+      let subscribers = JSON.parse(fs.readFileSync(subscribersPath, 'utf8'));
+      const initialLength = subscribers.length;
+      subscribers = subscribers.filter(sub => sub.email !== trimmed);
+      if (subscribers.length === initialLength) {
+        return { success: false, error: "Subscriber not found." };
+      }
+      fs.writeFileSync(subscribersPath, JSON.stringify(subscribers, null, 2), 'utf8');
+      return { success: true };
+    } catch (e) {
+      return { success: false, error: e.message };
+    }
+  }
+  return { success: false, error: "No subscribers found." };
+}
+
 // Helper: Broadcast Email Newsletter via Resend
 async function sendNewsletter(post, settings) {
   const apiKey = settings.resendApiKey;
@@ -224,14 +335,7 @@ async function sendNewsletter(post, settings) {
   }
 
   // Load active subscribers
-  let subscribers = [];
-  if (fs.existsSync(subscribersPath)) {
-    try {
-      subscribers = JSON.parse(fs.readFileSync(subscribersPath, 'utf8'));
-    } catch (e) {
-      console.error("Error reading subscribers file:", e);
-    }
-  }
+  const subscribers = await getSubscribersList(settings);
 
   if (subscribers.length === 0) {
     console.log("[Newsletter] No active subscribers found. Skipping email broadcast.");
@@ -469,67 +573,56 @@ function setupCronSchedule() {
 setupCronSchedule();
 
 // GET: Unsubscribe Route
-app.get('/unsubscribe', (req, res) => {
+app.get('/unsubscribe', async (req, res) => {
   const { email } = req.query;
   if (!email) {
     return res.status(400).send('<h1>Error</h1><p>Email parameter is missing.</p>');
   }
   
-  if (fs.existsSync(subscribersPath)) {
-    try {
-      let subscribers = JSON.parse(fs.readFileSync(subscribersPath, 'utf8'));
-      const initialLength = subscribers.length;
-      const trimmed = email.trim().toLowerCase();
-      subscribers = subscribers.filter(sub => sub.email !== trimmed);
-      
-      if (subscribers.length === initialLength) {
-        return res.send(`
-          <html>
-          <head>
-            <title>Unsubscribe - ThingSource</title>
-            <style>
-              body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #fdfbf7; color: #292524; }
-              .card { max-width: 400px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; border: 1px solid #e7e2d4; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-              h1 { color: #dc2626; }
-            </style>
-          </head>
-          <body>
-            <div class="card">
-              <h1>Not Found</h1>
-              <p>Email address <strong>${email}</strong> was not found in our subscriber list.</p>
-            </div>
-          </body>
-          </html>
-        `);
-      }
-      
-      fs.writeFileSync(subscribersPath, JSON.stringify(subscribers, null, 2), 'utf8');
-      return res.send(`
-        <html>
-        <head>
-          <title>Unsubscribed - ThingSource</title>
-          <style>
-            body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #fdfbf7; color: #292524; }
-            .card { max-width: 400px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; border: 1px solid #e7e2d4; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-            h1 { color: #16a34a; }
-            a { display: inline-block; margin-top: 20px; color: #8b5cf6; text-decoration: none; font-weight: bold; }
-          </style>
-        </head>
-        <body>
-          <div class="card">
-            <h1>Unsubscribed</h1>
-            <p>You have been successfully unsubscribed from the <strong>ThingSource</strong> newsletter.</p>
-            <p>We're sorry to see you go!</p>
-            <a href="/">Go back to Homepage</a>
-          </div>
-        </body>
-        </html>
-      `);
-    } catch (e) {
-      return res.status(500).send('<h1>Error</h1><p>Failed to unsubscribe. Please try again later.</p>');
-    }
+  const settings = getSettings();
+  const result = await removeSubscriber(email, settings);
+  if (result.success) {
+    return res.send(`
+      <html>
+      <head>
+        <title>Unsubscribed - ThingSource</title>
+        <style>
+          body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #fdfbf7; color: #292524; }
+          .card { max-width: 400px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; border: 1px solid #e7e2d4; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+          h1 { color: #16a34a; }
+          a { display: inline-block; margin-top: 20px; color: #8b5cf6; text-decoration: none; font-weight: bold; }
+        </style>
+      </head>
+      <body>
+        <div class="card">
+          <h1>Unsubscribed</h1>
+          <p>You have been successfully unsubscribed from the <strong>ThingSource</strong> newsletter.</p>
+          <p>We're sorry to see you go!</p>
+          <a href="/">Go back to Homepage</a>
+        </div>
+      </body>
+      </html>
+    `);
+  } else {
+    return res.send(`
+      <html>
+      <head>
+        <title>Unsubscribe - ThingSource</title>
+        <style>
+          body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #fdfbf7; color: #292524; }
+          .card { max-width: 400px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; border: 1px solid #e7e2d4; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+          h1 { color: #dc2626; }
+        </style>
+      </head>
+      <body>
+        <div class="card">
+          <h1>Error</h1>
+          <p>${result.error || 'Email was not found in subscribers list.'}</p>
+        </div>
+      </body>
+      </html>
+    `);
   }
-  return res.status(404).send('<h1>Error</h1><p>No subscribers list found.</p>');
 });
 
 // GET: Dynamic SVG Banner Route for posts
@@ -634,13 +727,14 @@ app.get('/api/settings', (req, res) => {
     webhookSecret: settings.webhookSecret || '',
     hasResendApiKey: !!settings.resendApiKey,
     resendApiKeyLength: settings.resendApiKey ? settings.resendApiKey.length : 0,
-    resendSender: settings.resendSender || 'onboarding@resend.dev'
+    resendSender: settings.resendSender || 'onboarding@resend.dev',
+    googleSheetsUrl: settings.googleSheetsUrl || ''
   });
 });
 
 // API: Update Settings
 app.post('/api/settings', (req, res) => {
-  const { apiKey, cronSchedule, topicsQueue, webhookUrl, webhookSecret, resendApiKey, resendSender } = req.body;
+  const { apiKey, cronSchedule, topicsQueue, webhookUrl, webhookSecret, resendApiKey, resendSender, googleSheetsUrl } = req.body;
   const currentSettings = getSettings();
 
   if (apiKey !== undefined) {
@@ -667,6 +761,9 @@ app.post('/api/settings', (req, res) => {
   }
   if (resendSender !== undefined) {
     currentSettings.resendSender = resendSender.trim();
+  }
+  if (googleSheetsUrl !== undefined) {
+    currentSettings.googleSheetsUrl = googleSheetsUrl.trim();
   }
 
   saveSettings(currentSettings);
@@ -707,69 +804,42 @@ app.post('/api/posts/:id/publish', async (req, res) => {
 });
 
 // API: Subscribe Newsletter
-app.post('/api/subscribe', (req, res) => {
+app.post('/api/subscribe', async (req, res) => {
   const { email } = req.body;
   if (!email || !email.includes('@')) {
     return res.status(400).json({ error: "Invalid email address." });
   }
 
-  let subscribers = [];
-  if (fs.existsSync(subscribersPath)) {
-    try {
-      subscribers = JSON.parse(fs.readFileSync(subscribersPath, 'utf8'));
-    } catch (e) {
-      console.error("Error reading subscribers database:", e);
-    }
+  const settings = getSettings();
+  const result = await addSubscriber(email, settings);
+  if (result.success) {
+    res.json({ success: true, message: "Subscription successful!" });
+  } else {
+    res.status(500).json({ error: result.error || "Subscription failed." });
   }
-
-  const trimmed = email.trim().toLowerCase();
-  if (subscribers.some(sub => sub.email === trimmed)) {
-    return res.status(409).json({ error: "You are already subscribed to the newsletter!" });
-  }
-
-  subscribers.push({ email: trimmed, date: new Date().toISOString() });
-  fs.writeFileSync(subscribersPath, JSON.stringify(subscribers, null, 2), 'utf8');
-  res.json({ success: true, message: "Subscription successful!" });
 });
 
 // API: Get Subscribers List (Admin)
-app.get('/api/subscribers', (req, res) => {
-  let subscribers = [];
-  if (fs.existsSync(subscribersPath)) {
-    try {
-      subscribers = JSON.parse(fs.readFileSync(subscribersPath, 'utf8'));
-    } catch (e) {
-      console.error("Error reading subscribers:", e);
-    }
-  }
-  res.json(subscribers);
+app.get('/api/subscribers', async (req, res) => {
+  const settings = getSettings();
+  const list = await getSubscribersList(settings);
+  res.json(list);
 });
 
 // API: Unsubscribe (Admin or Link)
-app.delete('/api/subscribers', (req, res) => {
+app.delete('/api/subscribers', async (req, res) => {
   const { email } = req.body;
   if (!email) {
     return res.status(400).json({ error: "Email parameter required." });
   }
 
-  if (fs.existsSync(subscribersPath)) {
-    try {
-      let subscribers = JSON.parse(fs.readFileSync(subscribersPath, 'utf8'));
-      const initialLength = subscribers.length;
-      const trimmed = email.trim().toLowerCase();
-      subscribers = subscribers.filter(sub => sub.email !== trimmed);
-      
-      if (subscribers.length === initialLength) {
-        return res.status(404).json({ error: "Email address not found in subscribers." });
-      }
-
-      fs.writeFileSync(subscribersPath, JSON.stringify(subscribers, null, 2), 'utf8');
-      return res.json({ success: true, message: "Unsubscribed successfully." });
-    } catch (e) {
-      return res.status(500).json({ error: "Failed to modify subscribers database." });
-    }
+  const settings = getSettings();
+  const result = await removeSubscriber(email, settings);
+  if (result.success) {
+    return res.json({ success: true, message: "Unsubscribed successfully." });
+  } else {
+    return res.status(500).json({ error: result.error || "Failed to unsubscribe." });
   }
-  return res.status(404).json({ error: "No subscribers found." });
 });
 
 app.listen(PORT, () => {
