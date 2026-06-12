@@ -10,6 +10,10 @@ data/settings.json
 data/subscribers.json
 data/agent_run.log
 
+# Admin Console (local only, do not deploy to Netlify)
+public/admin.html
+public/admin.js
+
 # System/IDE files
 .DS_Store
 .vscode/

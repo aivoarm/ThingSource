@@ -10,6 +10,70 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
+
+// Admin Authentication Middleware
+const adminAuth = (req, res, next) => {
+  const adminPassword = process.env.ADMIN_PASSWORD;
+  if (!adminPassword) {
+    return next();
+  }
+  const clientPassword = req.headers['x-admin-password'] || req.query.password;
+  if (clientPassword === adminPassword) {
+    return next();
+  }
+  return res.status(401).json({ error: "Unauthorized. Invalid admin password." });
+};
+
+// GET: Secure Admin Dashboard Login
+app.get('/admin.html', (req, res, next) => {
+  const adminPassword = process.env.ADMIN_PASSWORD;
+  if (!adminPassword) {
+    return next();
+  }
+  
+  const clientPassword = req.query.password;
+  if (clientPassword === adminPassword) {
+    return next();
+  }
+  
+  res.send(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ThingSource Login</title>
+      <link rel="stylesheet" href="styles.css">
+      <style>
+        body { display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; font-family: 'Inter', sans-serif; background-color: #070913; color: #fff; }
+        .login-card { max-width: 380px; width: 100%; padding: 2.5rem; background: rgba(13, 17, 39, 0.7); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; backdrop-filter: blur(12px); box-shadow: 0 8px 32px rgba(0,0,0,0.3); text-align: center; z-index: 10; }
+        h2 { font-family: 'Outfit', sans-serif; font-weight: 700; margin-bottom: 1.5rem; color: #fff; }
+        input { width: 100%; padding: 0.75rem 1rem; margin-bottom: 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(7, 9, 19, 0.6); color: #fff; box-sizing: border-box; }
+        button { width: 100%; padding: 0.75rem; border-radius: 8px; border: none; background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%); color: #fff; font-weight: bold; cursor: pointer; }
+        .error { color: #f87171; font-size: 0.85rem; margin-bottom: 1rem; }
+      </style>
+    </head>
+    <body>
+      <div class="glow-orb orb-1"></div>
+      <div class="login-card">
+        <h2>ThingSource Console</h2>
+        <form method="GET" action="/admin.html">
+          <input type="password" name="password" placeholder="Enter Admin Password" required autofocus>
+          \${clientPassword ? '<div class="error">Invalid password. Try again.</div>' : ''}
+          <button type="submit">Unlock Console</button>
+        </form>
+      </div>
+      <script>
+        const params = new URLSearchParams(window.location.search);
+        if (params.has('password')) {
+          localStorage.setItem('adminPassword', params.get('password'));
+        }
+      </script>
+    </body>
+    </html>
+  `);
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 const dataDir = path.join(__dirname, 'data');
@@ -660,7 +724,7 @@ app.get('/api/posts', (req, res) => {
 });
 
 // API: Delete Post
-app.delete('/api/posts/:id', (req, res) => {
+app.delete('/api/posts/:id', adminAuth, (req, res) => {
   const { id } = req.params;
   if (fs.existsSync(postsPath)) {
     try {
@@ -680,7 +744,7 @@ app.delete('/api/posts/:id', (req, res) => {
 });
 
 // API: Get App Status and Logs
-app.get('/api/status', (req, res) => {
+app.get('/api/status', adminAuth, (req, res) => {
   let logs = "";
   if (fs.existsSync(logPath)) {
     try {
@@ -703,7 +767,7 @@ app.get('/api/status', (req, res) => {
 });
 
 // API: Run Agent Now (Manual Trigger)
-app.post('/api/run-agent', (req, res) => {
+app.post('/api/run-agent', adminAuth, (req, res) => {
   const { topic } = req.body;
   if (agentState.isRunning) {
     return res.status(409).json({ error: "Agent is already running." });
@@ -716,7 +780,7 @@ app.post('/api/run-agent', (req, res) => {
 });
 
 // API: Get Current Settings (excluding sensitive API key characters in responses, but we can return length/status)
-app.get('/api/settings', (req, res) => {
+app.get('/api/settings', adminAuth, (req, res) => {
   const settings = getSettings();
   res.json({
     hasApiKey: !!settings.apiKey,
@@ -733,7 +797,7 @@ app.get('/api/settings', (req, res) => {
 });
 
 // API: Update Settings
-app.post('/api/settings', (req, res) => {
+app.post('/api/settings', adminAuth, (req, res) => {
   const { apiKey, cronSchedule, topicsQueue, webhookUrl, webhookSecret, resendApiKey, resendSender, googleSheetsUrl } = req.body;
   const currentSettings = getSettings();
 
@@ -783,7 +847,7 @@ app.post('/api/settings', (req, res) => {
 });
 
 // API: Publish Post to Webhook (Manual Trigger)
-app.post('/api/posts/:id/publish', async (req, res) => {
+app.post('/api/posts/:id/publish', adminAuth, async (req, res) => {
   const { id } = req.params;
   const settings = getSettings();
   if (!settings.webhookUrl) {
@@ -828,14 +892,14 @@ app.post('/api/subscribe', async (req, res) => {
 });
 
 // API: Get Subscribers List (Admin)
-app.get('/api/subscribers', async (req, res) => {
+app.get('/api/subscribers', adminAuth, async (req, res) => {
   const settings = getSettings();
   const list = await getSubscribersList(settings);
   res.json(list);
 });
 
 // API: Unsubscribe (Admin or Link)
-app.delete('/api/subscribers', async (req, res) => {
+app.delete('/api/subscribers', adminAuth, async (req, res) => {
   const { email } = req.body;
   if (!email) {
     return res.status(400).json({ error: "Email parameter required." });
