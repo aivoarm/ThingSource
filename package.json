@@ -1,0 +1,16 @@
+{
+  "name": "thingsource",
+  "version": "1.0.0",
+  "description": "Autonomous agent that researches interesting things and blogs about them using Gemini Flash with Google Search Grounding.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "agent": "node agent.js"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "node-cron": "latest"
+  }
+}
