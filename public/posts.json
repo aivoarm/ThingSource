@@ -1,5 +1,56 @@
 [
   {
+    "topic": "Caesar Salad",
+    "title": "The Caesar Salad Was Invented During a Kitchen Emergency in Tijuana",
+    "category": "Food & Drink",
+    "summary": "The world's most iconic salad wasn't crafted by a culinary genius in a French kitchen — it was thrown together in desperation by an Italian immigrant in a Tijuana restaurant on a busy Fourth of July weekend in 1924. The story of how romaine lettuce, raw egg, and Worcestershire sauce became a global phenomenon is stranger than most people ever suspect.",
+    "sections": [
+      {
+        "heading": "A Holiday Rush and an Empty Kitchen",
+        "content": "In late June or early July of 1924, Caesar Cardini — an Italian-born chef and restaurateur — was running dangerously low on supplies at his Caesar's Place restaurant in Tijuana, Mexico. American tourists had flooded across the border to drink legally during Prohibition, and Cardini was nearly out of ingredients. Facing a packed house and bare shelves, he improvised a salad from what remained: romaine lettuce, olive oil, Worcestershire sauce, lemon juice, a coddled egg, croutons, and Parmesan cheese."
+      },
+      {
+        "heading": "Why Tijuana? Blame Prohibition.",
+        "content": "Caesar Cardini had originally emigrated to the United States from Italy and ran restaurants on both sides of the California-Mexico border. He operated in San Diego during the week but kept his Tijuana establishment, Caesar's Place, as a haven for American clientele who wanted to drink freely during Prohibition, which ran from 1920 to 1933. The cross-border dining culture of that era directly created the conditions that gave birth to the salad — without Prohibition, Cardini likely never would have been so overwhelmed with American guests that weekend."
+      },
+      {
+        "heading": "The Original Recipe Had No Anchovies",
+        "content": "This surprises nearly everyone: the original Caesar salad contained no anchovies. Cardini's daughter Rosa later confirmed this explicitly, insisting her father considered anchovies a corruption of his original vision. The Worcestershire sauce provided the savory, umami-like depth that many people later mistook for anchovy flavor, and over time chefs began adding actual anchovies to approximate or enhance that quality. Today, most restaurant versions and many bottled dressings include anchovies, making the anchovy-free original a historical footnote."
+      },
+      {
+        "heading": "Hollywood Comes to Tijuana",
+        "content": "The salad rapidly became fashionable because of an unlikely marketing force: Hollywood celebrities. In the 1920s and 1930s, stars from nearby Los Angeles regularly made the trip to Tijuana to dine at Caesar's Place, and the tableside preparation — Cardini would dramatically toss the salad himself on a cart — became part of the theater of dining out. Figures including Clark Gable and W.C. Fields were reported to be fans. This celebrity endorsement launched the dish into American culinary consciousness long before food media existed in its modern form."
+      },
+      {
+        "heading": "The Patent, the Bottled Dressing, and the Legal Battles",
+        "content": "Caesar Cardini was savvy enough to know he had something valuable. He eventually moved to Los Angeles and in 1948 trademarked Caesar Salad Dressing, beginning to sell it commercially under the Caesar Cardini brand — a product still available in grocery stores today. His brother Alex, who also worked at the restaurant, claimed he had actually invented the salad or at least significantly improved it, creating a family dispute that persisted for decades. Alex's version, which he called 'Aviator Salad,' reportedly did include anchovies, further muddying the historical waters."
+      },
+      {
+        "heading": "Official Recognition From an Unlikely Source",
+        "content": "In 1953, the International Society of Epicures in Paris declared the Caesar salad to be the greatest recipe to originate from the Americas in fifty years — a remarkable honor for a dish invented out of desperation in a border town. This legitimization helped cement the salad's place not just in American cuisine but in global fine dining. Today it appears on menus from Tokyo to Buenos Aires, and the basic formula Cardini improvised that frantic July weekend has remained almost entirely intact for over a century."
+      }
+    ],
+    "funFacts": [
+      "Caesar Cardini was born in Lago Maggiore, Italy in 1896 and never formally trained as a chef — he was largely self-taught.",
+      "The original salad was meant to be eaten with the fingers, with whole romaine leaves draped over the side of the plate for guests to pick up dramatically.",
+      "Cardini's bottled Caesar dressing brand still exists and is sold in supermarkets across North America, nearly 80 years after he first commercialized it."
+    ],
+    "imageKeywords": [
+      "Caesar salad",
+      "Tijuana 1920s restaurant"
+    ],
+    "citations": [
+      "https://www.smithsonianmag.com/arts-culture/the-birth-of-the-caesar-salad-1238699/",
+      "https://www.latimes.com/food/story/2019-07-03/caesar-salad-history-origin-caesar-cardini",
+      "https://www.britannica.com/topic/Caesar-salad"
+    ],
+    "id": "1781365678920-caesar-salad",
+    "date": "2026-06-13T15:47:58.934Z",
+    "images": [
+      "https://images.unsplash.com/featured/?Caesar%20salad"
+    ]
+  },
+  {
     "topic": "Worcestershire Sauce",
     "title": "The Accidental Condiment: How a Failed Experiment Became Britain's Most Mysterious Sauce",
     "category": "Food & Drink",
