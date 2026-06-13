@@ -1,6 +1,6 @@
 function getPostImage(post) {
-  // If agent stored a real image URL, use it
-  if (post.images && post.images[0] && post.images[0].startsWith("http")) {
+  // If agent stored a real image URL (external or local path), use it
+  if (post.images && post.images[0]) {
     return `<div class="image-container shimmer">
       <img 
         src="${post.images[0]}" 
