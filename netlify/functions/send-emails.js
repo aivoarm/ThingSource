@@ -91,6 +91,8 @@ exports.handler = async (event) => {
         </p>
         <div>
           <a href="https://open.spotify.com/artist/1DukxxMpzFcNZx5iIJiSK4" target="_blank" style="background-color: #0D7A6B; color: #F8F6F1; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 38px; text-align: center; text-decoration: none; width: 180px; -webkit-text-size-adjust: none; mso-hide: all; border-radius: 4px;">Listen on Spotify →</a>
+          <br>
+          <a href="https://www.armanayva.com" target="_blank" style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11px; color: #0D7A6B; text-decoration: none; opacity: 0.7; margin-top: 8px; display: inline-block;">armanayva.com ↗</a>
         </div>
       </td>
     </tr>

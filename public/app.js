@@ -198,8 +198,14 @@ function openPost(id) {
            border-radius: 4px;
          ">
          Visit My Spotify Profile →
-      </a>
-    </div>
+       </a>
+       <div style="margin-top: 12px;">
+         <a href="https://www.armanayva.com" target="_blank" rel="noopener noreferrer"
+            style="font-family: 'Inter', sans-serif; font-size: 11px; color: #0D7A6B; text-decoration: none; opacity: 0.7;">
+           armanayva.com ↗
+         </a>
+       </div>
+     </div>
   `;
 
   // Render Markdown sections using marked.js, injecting the ad between section 1 and 2
