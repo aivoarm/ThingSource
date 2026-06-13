@@ -25,10 +25,14 @@ function buildPlainTextEmail(post, unsubUrl) {
   }
 
   text += `---\n`;
-  text += `SPONSORED BY\n`;
-  text += `Arman Ayva — Digital creator and technology `;
-  text += `enthusiast passionate about AI and automation.\n`;
-  text += `Search "Arman Ayva" to explore his work.\n\n`;
+  text += `♪ SPONSORED BY ARMAN AYVA\n\n`;
+  text += `ThingSource is built and maintained by Arman Ayva,\n`;
+  text += `a digital creator passionate about AI and automation.\n\n`;
+  text += `Arman also makes original music on Spotify.\n`;
+  text += `Every stream directly supports ThingSource and\n`;
+  text += `keeps it free for everyone.\n\n`;
+  text += `To say thank you: search "Arman Ayva" on Spotify\n`;
+  text += `and give his music a listen. It costs you nothing.\n\n`;
 
   const postUrl = `https://thingsource.netlify.app/blog/?id=${post.id}`;
   text += `---\n`;
@@ -88,14 +92,20 @@ function buildEmailHtml(post, unsubUrl) {
   <!-- Fun facts -->
   ${funFactsHtml}
 
-  <!-- Sponsor block — plain text only, no links -->
-  <div style="background:#F8F6F1;border-radius:8px;padding:16px 20px;margin:24px 0">
-    <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 8px">Sponsored by</p>
-    <p style="font-size:16px;font-weight:bold;color:#1C1C1E;margin:0 0 6px">Arman Ayva</p>
-    <p style="font-size:14px;color:#555;line-height:1.6;margin:0">
-      Digital creator and technology enthusiast passionate about AI, automation, and building innovative tools.
-      Search &ldquo;Arman Ayva&rdquo; to explore his work.
+  <!-- Sponsor block — Spotify music promotion -->
+  <div style="background:#F8F6F1;border-radius:8px;padding:20px 24px;margin:32px 0;border-left:4px solid #0D7A6B">
+    <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 12px;font-family:Arial,sans-serif">♪ Sponsored by</p>
+    <p style="font-size:18px;font-weight:bold;color:#1C1C1E;margin:0 0 8px;font-family:Georgia,serif">Arman Ayva</p>
+    <p style="font-size:14px;color:#444;line-height:1.7;margin:0 0 12px;font-family:Arial,sans-serif">
+      ThingSource is created and maintained by <strong>Arman Ayva</strong> — a digital creator, educator, and technology enthusiast who builds AI-powered tools and automated systems.
     </p>
+    <p style="font-size:14px;color:#444;line-height:1.7;margin:0 0 16px;font-family:Arial,sans-serif">
+      Arman also creates and releases original music on Spotify. Every stream directly supports the cost of running ThingSource and keeps it free for all readers. If you enjoy these daily stories, the best way to say thank you is to search <strong>&ldquo;Arman Ayva&rdquo;</strong> on Spotify and give his music a listen.
+    </p>
+    <div style="background:#1DB954;border-radius:6px;display:inline-block;padding:2px 12px 4px">
+      <p style="font-size:13px;color:white;font-weight:bold;margin:0;font-family:Arial,sans-serif">▶ Search &ldquo;Arman Ayva&rdquo; on Spotify</p>
+    </div>
+    <p style="font-size:12px;color:#999;margin:12px 0 0;font-family:Arial,sans-serif">Your streams cost nothing and mean everything. Thank you for supporting independent creators.</p>
   </div>
 
   <!-- Share block -->
