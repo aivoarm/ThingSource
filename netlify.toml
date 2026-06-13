@@ -1,7 +1,6 @@
 [build]
   publish = "public"
 
-# Cache rules
 [[headers]]
   for = "/*.html"
   [headers.values]
@@ -12,6 +11,8 @@
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
-# Functions config
 [functions]
   directory = "netlify/functions"
+
+[functions."agent"]
+  schedule = "0 7 * * *"

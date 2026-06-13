@@ -13,9 +13,7 @@
     "@google/genai": "^1.0.0",
     "@netlify/blobs": "^8.0.0",
     "@netlify/functions": "^2.0.0",
-    "dotenv": "latest",
-    "express": "latest",
-    "node-cron": "latest",
-    "resend": "^4.0.0"
+    "resend": "^4.0.0",
+    "dotenv": "^16.0.0"
   }
 }

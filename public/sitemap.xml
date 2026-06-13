@@ -10,44 +10,5 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://thingsource.netlify.app/blog/?id=1781285721277-tiramisu-origin-brothels</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://thingsource.netlify.app/blog/?id=1781285246380-nightmare-etymology-demon-sleep-paralysis</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://thingsource.netlify.app/blog/?id=1781275786876-history-of-forks</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://thingsource.netlify.app/blog/?id=1781275515236-origin-of-coffee</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://thingsource.netlify.app/blog/?id=1781275112169-origin-of-coffee</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://thingsource.netlify.app/blog/?id=1781273593617-worcestershire-sauce-origin</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://thingsource.netlify.app/blog/?id=1781273508233-potato-chips-origin</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://thingsource.netlify.app/blog/?id=sample-croissant</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
+
 </urlset>
