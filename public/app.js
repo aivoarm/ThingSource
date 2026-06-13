@@ -15,10 +15,10 @@ const inputSubscribeEmail = document.getElementById('input-subscribe-email');
 // Image fallback handler
 function handleImageError(img) {
   const fallbacks = [
-    "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=800", // Library/History
-    "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800", // Science/Invention
-    "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800", // Coffee/Food
-    "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800"  // Generic/Culture
+    "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?q=80&w=800", // Warm gold/vintage paper texture
+    "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800", // Warm abstract paint shapes
+    "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?q=80&w=800", // Warm minimalist brush strokes
+    "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=800"  // Warm minimalist lines/light
   ];
   img.onerror = null; // prevent infinite loop
   img.src = fallbacks[Math.floor(Math.random() * fallbacks.length)];
