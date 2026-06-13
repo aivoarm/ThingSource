@@ -4,32 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ThingSource — Curious Origins & Accidental Genius</title>
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <!-- Marked.js for rendering markdown sections -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <!-- Local Stylesheet -->
   <link rel="stylesheet" href="styles.css">
+  <!-- Marked.js for rendering markdown sections -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-
-  <!-- Background Glowing Orbs -->
-  <div class="glow-orb orb-1"></div>
-  <div class="glow-orb orb-2"></div>
-  <div class="glow-orb orb-3"></div>
 
   <!-- Header -->
   <header>
     <div class="header-container">
-      <div class="logo">
-        <span class="logo-dot"></span>
+      <div class="logo-group" onclick="window.location.href='/'">
         <h1>ThingSource</h1>
+        <span class="tagline">Curious Origins</span>
       </div>
-      <div class="subtext" style="font-family: var(--font-display); font-size: 0.9rem; font-weight: 500; color: var(--text-muted); text-transform: uppercase; letter-spacing: 2px;">
-        Curious Origins
-      </div>
+      <nav>
+        <a href="/blog/" class="nav-btn">Blog</a>
+        <a href="#subscribe-section" class="nav-btn btn-subscribe-nav">Subscribe</a>
+      </nav>
     </div>
   </header>
 
@@ -37,33 +29,29 @@
   <main class="container">
     
     <!-- Hero Banner (Latest Post) -->
-    <div id="latest-post-container" class="hero-post-skeleton">
-      <div class="skeleton-image"></div>
-      <div class="skeleton-content">
-        <div class="skeleton-line tag"></div>
-        <div class="skeleton-line title"></div>
-        <div class="skeleton-line text"></div>
-        <div class="skeleton-line button"></div>
-      </div>
+    <div id="latest-post-container">
+      <!-- Will be populated dynamically -->
     </div>
 
-    <!-- Newsletter Subscription Card (Integrated with Netlify Forms) -->
-    <div class="card newsletter-signup-card" style="margin-top: -1.5rem; margin-bottom: 3rem;">
-      <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: center; text-align: center; padding: 1rem 0;">
-        <h3 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; margin-bottom: 0;">Origin Stories in Your Inbox</h3>
-        <p class="card-desc" style="margin-bottom: 1rem; max-width: 600px;">Subscribe to get interesting origin research and trivia delivered directly to your inbox when new discoveries are published.</p>
-        
-        <form id="form-subscribe" name="newsletter" method="POST" data-netlify="true" style="display: flex; gap: 0.75rem; width: 100%; max-width: 500px; flex-wrap: wrap;">
-          <input type="hidden" name="form-name" value="newsletter">
-          <input type="email" name="email" id="input-subscribe-email" placeholder="Enter your email address" required style="flex-grow: 1; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid var(--border-glass); background: rgba(7, 9, 19, 0.6); color: #fff;">
-          <button type="submit" class="btn btn-primary" style="width: auto; padding: 0.75rem 1.5rem;">Subscribe</button>
+    <!-- Newsletter Subscription Card -->
+    <div id="subscribe-section" class="subscribe-section-wrapper">
+      <h3 class="subscribe-heading">One curious story, every morning.</h3>
+      <p class="subscribe-subheading">Join readers who love discovering where things come from.</p>
+      
+      <div id="subscribe-form-container">
+        <form id="form-subscribe" class="subscribe-form">
+          <input type="email" id="input-subscribe-email" class="subscribe-input" placeholder="Enter your email address" required>
+          <button type="submit" class="subscribe-btn">Subscribe</button>
         </form>
+      </div>
+      <div class="subscribe-count">
+        Join <span id="subscriber-count-val">...</span> curious readers
       </div>
     </div>
 
     <!-- Feed Grid Header -->
-    <div class="feed-header">
-      <h2>More Interesting Discoveries</h2>
+    <div class="feed-header" style="margin-bottom: 2rem;">
+      <h2 style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--text-dark);">More Interesting Discoveries</h2>
     </div>
 
     <!-- Grid of older posts -->
@@ -75,9 +63,9 @@
 
   <!-- Modal Article Reader -->
   <div id="reader-modal" class="modal">
-    <div class="modal-backdrop"></div>
+    <div class="modal-backdrop" onclick="closeModal()"></div>
     <div class="modal-container">
-      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <button class="modal-close" id="modal-close-btn" onclick="closeModal()">&times;</button>
       <div id="modal-content" class="modal-content">
         <!-- Populated dynamically -->
       </div>
@@ -86,7 +74,16 @@
 
   <!-- Footer -->
   <footer>
-    <p>Powered by Gemini Flash. Built in 2026.</p>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h3>ThingSource</h3>
+        <span>Curious Origins Daily</span>
+      </div>
+      <div class="footer-right">
+        <a href="/blog/rss.xml">RSS Feed</a>
+        <span>&copy; 2026. All rights reserved.</span>
+      </div>
+    </div>
   </footer>
 
   <!-- Public Site Frontend Script -->

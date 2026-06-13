@@ -4,10 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog — ThingSource</title>
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <!-- Marked.js for rendering markdown sections -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <!-- Local Stylesheet (inherited from root) -->
@@ -16,21 +12,16 @@
 </head>
 <body>
 
-  <!-- Background Glowing Orbs -->
-  <div class="glow-orb orb-1"></div>
-  <div class="glow-orb orb-2"></div>
-  <div class="glow-orb orb-3"></div>
-
   <!-- Header -->
   <header>
     <div class="header-container">
-      <div class="logo" style="cursor: pointer;" onclick="window.location.href='/'">
-        <span class="logo-dot"></span>
+      <div class="logo-group" onclick="window.location.href='/'">
         <h1>ThingSource</h1>
+        <span class="tagline">Curious Origins</span>
       </div>
-      <nav style="display: flex; align-items: center; gap: 1rem;">
-        <a href="/" class="nav-btn" style="color: var(--text-muted); text-decoration: none; font-weight: 500; font-size: 0.9rem; font-family: var(--font-display);">Home</a>
-        <a href="/blog/" class="nav-btn active" style="color: #fff; text-decoration: none; font-weight: 500; font-size: 0.9rem; font-family: var(--font-display); border-bottom: 2px solid var(--accent-red); padding-bottom: 2px;">Blog</a>
+      <nav>
+        <a href="/blog/" class="nav-btn active">Blog</a>
+        <a href="#subscribe-section" class="nav-btn btn-subscribe-nav">Subscribe</a>
       </nav>
     </div>
   </header>
@@ -40,13 +31,10 @@
     
     <!-- Blog Listing Section (Default Mode) -->
     <div id="blog-list-view">
-      <div class="feed-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+      <div class="feed-header" style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2.5rem; flex-wrap: wrap; gap: 1rem;">
         <div>
-          <h2 style="margin-bottom: 0.25rem;">Daily Discoveries</h2>
-          <p class="subtext" style="margin: 0;">Exploring the accidental genius behind everyday things.</p>
-        </div>
-        <div style="font-size: 0.9rem; color: var(--text-muted); font-family: var(--font-display); background: rgba(255,255,255,0.03); border: 1px solid var(--border-glass); padding: 0.5rem 1rem; border-radius: 8px;">
-          👥 Joined by <span id="subscriber-count-span" style="font-weight: 600; color: #fff;">...</span> readers
+          <h2 style="font-family: var(--font-serif); font-size: 2.2rem; color: var(--text-dark); margin-bottom: 0.25rem;">Daily Discoveries</h2>
+          <p style="font-family: var(--font-sans); color: var(--text-muted); margin: 0; font-size: 1rem;">Exploring the accidental genius behind everyday things.</p>
         </div>
       </div>
 
@@ -56,73 +44,63 @@
       </div>
 
       <!-- Newsletter Signup -->
-      <div class="card newsletter-signup-card" style="margin-top: 4rem; margin-bottom: 3rem;">
-        <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: center; text-align: center; padding: 1.5rem 0;">
-          <h3 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; margin-bottom: 0;">Get Daily Origin Stories</h3>
-          <p class="card-desc" style="margin-bottom: 1.5rem; max-width: 600px;">Join our list of curious minds. Receive one surprising origin tale in your inbox every morning.</p>
-          
-          <form id="form-blog-subscribe" style="display: flex; gap: 0.75rem; width: 100%; max-width: 500px; flex-wrap: wrap;">
-            <input type="email" id="input-blog-email" placeholder="Enter your email address" required style="flex-grow: 1; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid var(--border-glass); background: rgba(7, 9, 19, 0.6); color: #fff;">
-            <button type="submit" class="btn btn-primary" style="width: auto; padding: 0.75rem 1.5rem;">Subscribe</button>
+      <div id="subscribe-section" class="subscribe-section-wrapper" style="margin-top: 4rem;">
+        <h3 class="subscribe-heading">One curious story, every morning.</h3>
+        <p class="subscribe-subheading">Join readers who love discovering where things come from.</p>
+        
+        <div id="subscribe-form-container">
+          <form id="form-blog-subscribe" class="subscribe-form">
+            <input type="email" id="input-blog-email" class="subscribe-input" placeholder="Enter your email address" required style="max-width: 420px;">
+            <button type="submit" class="subscribe-btn">Subscribe</button>
           </form>
+        </div>
+        <div class="subscribe-count">
+          Join <span id="subscriber-count-span">...</span> curious readers
         </div>
       </div>
     </div>
 
     <!-- Blog Detail Section (Single Post Mode) -->
     <div id="blog-detail-view" style="display: none;">
-      <a href="/blog/" id="btn-back-blog" style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-muted); text-decoration: none; font-weight: 500; font-family: var(--font-display); margin-bottom: 2rem; transition: color 0.2s;">
-        ← Back to all stories
+      <a href="/blog/" id="btn-back-blog" style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--accent-teal); text-decoration: none; font-weight: 600; font-family: var(--font-sans); margin-bottom: 2rem;">
+        &larr; Back to all stories
       </a>
       
-      <article class="hero-post" style="border: 1px solid var(--border-glass); background: rgba(7, 9, 19, 0.4); backdrop-filter: blur(12px); border-radius: 16px; overflow: hidden; margin-bottom: 3rem;">
-        <div style="padding: 2.5rem; display: flex; flex-direction: column; gap: 1.5rem;">
-          <div style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
-            <span id="detail-category" class="badge" style="background: rgba(239, 68, 68, 0.1); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.2); font-weight: 600; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1px;">...</span>
-            <span id="detail-date" style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-display);">...</span>
-          </div>
-
-          <h1 id="detail-title" style="font-family: var(--font-display); font-size: 2.5rem; font-weight: 800; line-height: 1.2; color: #fff; margin: 0;">...</h1>
-          
-          <p id="detail-summary" style="font-size: 1.25rem; font-family: var(--font-serif); line-height: 1.6; color: rgba(255,255,255,0.85); font-style: italic; border-left: 3px solid var(--accent-red); padding-left: 1.5rem; margin: 0.5rem 0 1rem 0;"></p>
-
-          <!-- Main content wrapper -->
-          <div style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; margin-top: 1rem;">
-            <!-- Sections content -->
-            <div id="detail-sections" style="display: flex; flex-direction: column; gap: 2rem; font-family: var(--font-serif); font-size: 1.1rem; line-height: 1.8; color: rgba(255,255,255,0.75);">
-              <!-- Rendered sections -->
-            </div>
-            
-            <!-- Sidebar with fun facts -->
-            <div id="detail-funfacts-box" style="border-top: 1px solid var(--border-glass); padding-top: 2rem;">
-              <h4 style="font-family: var(--font-display); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-red); margin-top: 0; margin-bottom: 1rem;">Fun Facts</h4>
-              <ul id="detail-funfacts" style="padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.75rem; line-height: 1.6; margin: 0;">
-                <!-- Fun facts -->
-              </ul>
-            </div>
-          </div>
-
-          <!-- Citations / Sources -->
-          <div id="detail-citations-box" style="border-top: 1px solid var(--border-glass); padding-top: 1.5rem; margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">
-            <strong style="color: #fff; font-family: var(--font-display);">Sources &amp; Citations:</strong>
-            <ul id="detail-citations" style="margin: 0.5rem 0 0 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
-              <!-- Citations -->
-            </ul>
-          </div>
-        </div>
-      </article>
+      <div id="post-detail-content">
+        <!-- Will be populated dynamically -->
+      </div>
     </div>
 
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>Powered by Gemini Flash. Built in 2026. <a href="/blog/rss.xml" style="color: var(--text-muted); text-decoration: none; margin-left: 10px;">RSS Feed</a></p>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h3>ThingSource</h3>
+        <span>Curious Origins Daily</span>
+      </div>
+      <div class="footer-right">
+        <a href="/blog/rss.xml">RSS Feed</a>
+        <span>&copy; 2026. All rights reserved.</span>
+      </div>
+    </div>
   </footer>
 
   <script>
-    // Client-side Blog Script
     let blogPosts = [];
+
+    // Image fallback handler
+    function handleImageError(img) {
+      const fallbacks = [
+        "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=800", // Library/History
+        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800", // Science/Invention
+        "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800", // Coffee/Food
+        "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800"  // Generic/Culture
+      ];
+      img.onerror = null; // prevent infinite loop
+      img.src = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+    }
 
     document.addEventListener('DOMContentLoaded', async () => {
       await loadSubscriberCount();
@@ -138,7 +116,7 @@
           const email = emailInput.value.trim();
           if (!email) return;
 
-          const btn = form.querySelector('button');
+          const btn = form.querySelector('.subscribe-btn');
           btn.disabled = true;
           btn.textContent = 'Subscribing...';
 
@@ -149,13 +127,25 @@
               body: JSON.stringify({ email })
             });
             const data = await res.json();
-            alert(data.message || data.error);
-            if (res.ok) emailInput.value = '';
+            if (res.ok) {
+              document.getElementById('subscribe-form-container').innerHTML = `
+                <div class="subscribe-success-msg">You're in! Check your inbox for a welcome email.</div>
+              `;
+              const span = document.getElementById('subscriber-count-span');
+              if (span) {
+                const curVal = parseInt(span.textContent);
+                if (!isNaN(curVal)) span.textContent = curVal + 1;
+              }
+            } else {
+              alert(data.message || data.error);
+            }
           } catch (err) {
             alert('Failed to subscribe. Please try again.');
           } finally {
-            btn.disabled = false;
-            btn.textContent = 'Subscribe';
+            if (btn) {
+              btn.disabled = false;
+              btn.textContent = 'Subscribe';
+            }
           }
         });
       }
@@ -178,7 +168,6 @@
         const response = await fetch('/posts.json');
         if (!response.ok) throw new Error();
         const posts = await response.json();
-        // Hide drafts unless in deploy preview URL
         const isPreview = window.location.hostname.includes('deploy-preview');
         blogPosts = posts.filter(p => !p.draft || isPreview);
       } catch (err) {
@@ -190,7 +179,7 @@
       const params = new URLSearchParams(window.location.search);
       const postId = params.get('id');
       
-      if (postId) {
+      if (postId && blogPosts.length > 0) {
         const post = blogPosts.find(p => p.id === postId);
         if (post) {
           renderPostDetail(post);
@@ -201,31 +190,44 @@
       renderPostList();
     }
 
+    // Call router after posts load successfully to handle deep links correctly
+    const originalLoadPosts = loadBlogPosts;
+    loadBlogPosts = async () => {
+      await originalLoadPosts();
+      router();
+    };
+
     function renderPostList() {
       document.getElementById('blog-detail-view').style.display = 'none';
       document.getElementById('blog-list-view').style.display = 'block';
 
       const grid = document.getElementById('blog-posts-grid');
       if (blogPosts.length === 0) {
-        grid.innerHTML = '<p class="subtext">No articles found.</p>';
+        grid.innerHTML = '<p style="color: var(--text-muted);">No articles found.</p>';
         return;
       }
 
       grid.innerHTML = blogPosts.map(post => {
-        const isDraft = post.draft;
+        const pDate = new Date(post.date).toLocaleDateString(undefined, {month: 'short', day: 'numeric', year: 'numeric'});
+        const kw = post.imageKeywords?.[0] || post.topic || 'history';
+        const cat = post.category || '';
+        const thumbUrl = `https://source.unsplash.com/800x500/?${encodeURIComponent(kw)},${encodeURIComponent(cat)}`;
+        
         return `
-          <div class="card post-card" style="display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--border-glass); background: rgba(7, 9, 19, 0.4); border-radius: 12px; overflow: hidden; padding: 1.5rem; transition: transform 0.2s, box-shadow 0.2s;">
-            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-              <div style="display: flex; justify-content: space-between; align-items: center;">
-                <span class="badge" style="font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 12px; text-transform: uppercase; background: rgba(255,255,255,0.05); border: 1px solid var(--border-glass); color: var(--text-muted);">${post.category}</span>
-                ${isDraft ? `<span class="badge" style="font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 12px; background: rgba(239,68,68,0.2); border: 1px solid rgba(239,68,68,0.4); color: #fca5a5;">DRAFT</span>` : ''}
-              </div>
-              <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color: #fff; margin: 0; line-height: 1.3;">${post.title}</h3>
-              <p class="card-desc" style="font-size: 0.95rem; line-height: 1.5; color: var(--text-muted); margin: 0;">${post.summary}</p>
+          <div class="post-card" onclick="window.location.href='/blog/?id=${post.id}'">
+            <div class="post-card-img-wrapper">
+              <img src="${thumbUrl}" alt="${post.title}" loading="lazy" onerror="handleImageError(this)">
             </div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border-glass);">
-              <span style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-display);">${new Date(post.date).toLocaleDateString(undefined, {month: 'short', day: 'numeric', year: 'numeric'})}</span>
-              <a href="/blog/?id=${post.id}" style="color: var(--accent-red); font-weight: 600; text-decoration: none; font-size: 0.9rem; font-family: var(--font-display);">Read More →</a>
+            <div class="post-card-content">
+              <div>
+                <span class="badge" style="background-color: var(--accent-teal); font-size: 0.7rem; padding: 0.25rem 0.6rem;">${post.category || 'Discovery'}</span>
+              </div>
+              <h3 class="post-card-title">${escapeHtml(post.title)}</h3>
+              <p class="post-card-excerpt">${escapeHtml(post.summary)}</p>
+              <div class="post-card-meta">
+                <span>📅 ${pDate}</span>
+                <a href="/blog/?id=${post.id}">Read more &rarr;</a>
+              </div>
             </div>
           </div>
         `;
@@ -236,41 +238,69 @@
       document.getElementById('blog-list-view').style.display = 'none';
       document.getElementById('blog-detail-view').style.display = 'block';
 
-      document.getElementById('detail-category').textContent = post.category;
-      document.getElementById('detail-date').textContent = new Date(post.date).toLocaleDateString(undefined, {month: 'long', day: 'numeric', year: 'numeric'});
-      document.getElementById('detail-title').textContent = post.title;
-      document.getElementById('detail-summary').textContent = post.summary;
+      const detailDiv = document.getElementById('post-detail-content');
+      const dateStr = new Date(post.date).toLocaleDateString(undefined, {month: 'long', day: 'numeric', year: 'numeric'});
+      const kw = post.imageKeywords?.[0] || post.topic || 'history';
+      const cat = post.category || '';
+      const coverImage = `https://source.unsplash.com/800x500/?${encodeURIComponent(kw)},${encodeURIComponent(cat)}`;
 
-      // Render sections with marked
-      const sectionsDiv = document.getElementById('detail-sections');
-      sectionsDiv.innerHTML = post.sections.map(sec => `
-        <div>
-          <h3 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 0.75rem;">${sec.heading}</h3>
-          <div>${marked.parse(sec.content)}</div>
-        </div>
+      // Render sections
+      const renderedSections = post.sections.map(sec => `
+        <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-dark); margin-top: 2rem; margin-bottom: 1rem;">${escapeHtml(sec.heading)}</h3>
+        <p style="margin-bottom: 1.5rem;">${marked.parse(sec.content)}</p>
       `).join('');
 
       // Fun facts
-      const factsBox = document.getElementById('detail-funfacts-box');
-      const factsUl = document.getElementById('detail-funfacts');
-      if (post.funFacts && post.funFacts.length > 0) {
-        factsBox.style.display = 'block';
-        factsUl.innerHTML = post.funFacts.map(fact => `<li style="margin-bottom: 0.5rem; color: rgba(255,255,255,0.75);">${fact}</li>`).join('');
-      } else {
-        factsBox.style.display = 'none';
-      }
+      const factsHtml = post.funFacts && post.funFacts.length > 0 
+        ? `
+          <div class="fun-facts-box">
+            <h4>Did you know?</h4>
+            <ul>
+              ${post.funFacts.map(fact => `<li>${escapeHtml(fact)}</li>`).join('')}
+            </ul>
+          </div>
+        ` : '';
 
       // Citations
-      const citationsBox = document.getElementById('detail-citations-box');
-      const citationsUl = document.getElementById('detail-citations');
-      if (post.citations && post.citations.length > 0) {
-        citationsBox.style.display = 'block';
-        citationsUl.innerHTML = post.citations.map(link => `
-          <li><a href="${link}" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); text-decoration: underline; transition: color 0.2s;">${link}</a></li>
-        `).join('');
-      } else {
-        citationsBox.style.display = 'none';
-      }
+      const citationsHtml = post.citations && post.citations.length > 0
+        ? `
+          <div class="citations-box">
+            <strong>Sources & Citations:</strong>
+            <ul>
+              ${post.citations.map(link => `
+                <li><a href="${link}" target="_blank" rel="noopener noreferrer">${escapeHtml(link)}</a></li>
+              `).join('')}
+            </ul>
+          </div>
+        ` : '';
+
+      detailDiv.innerHTML = `
+        <div class="post-detail-container">
+          <div style="margin-bottom: 1.5rem;">
+            <span class="badge">${post.category || 'Discovery'}</span>
+          </div>
+          <h1 class="post-detail-title" style="font-size: 2.6rem;">${escapeHtml(post.title)}</h1>
+          <div class="post-detail-meta">
+            <span>📅 ${dateStr}</span>
+            <span>🔍 Topic: ${escapeHtml(post.topic)}</span>
+          </div>
+          <img class="post-detail-hero-image" src="${coverImage}" alt="${post.title}" style="margin-bottom: 2rem;" onerror="handleImageError(this)">
+          <div class="post-detail-body">
+            ${renderedSections}
+          </div>
+          ${factsHtml}
+          ${citationsHtml}
+        </div>
+      `;
+    }
+
+    function escapeHtml(unsafe) {
+      return unsafe
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
     }
   </script>
 </body>

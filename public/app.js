@@ -12,26 +12,46 @@ const modalContent = document.getElementById('modal-content');
 const formSubscribe = document.getElementById('form-subscribe');
 const inputSubscribeEmail = document.getElementById('input-subscribe-email');
 
+// Image fallback handler
+function handleImageError(img) {
+  const fallbacks = [
+    "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=800", // Library/History
+    "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800", // Science/Invention
+    "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800", // Coffee/Food
+    "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800"  // Generic/Culture
+  ];
+  img.onerror = null; // prevent infinite loop
+  img.src = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+}
+
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   initEventListeners();
   loadPosts();
+  loadSubscriberCount();
 });
 
 function initEventListeners() {
-  // Modal Close
-  modalCloseBtn.addEventListener('click', closeModal);
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeModal();
-  });
-
-  // Newsletter Subscription Form (Netlify Serverless Function)
   if (formSubscribe) {
     formSubscribe.addEventListener('submit', handleSubscribeNewsletter);
   }
 }
 
-// Load Posts from Static file posts.json (works on Netlify and Localhost)
+// Fetch subscriber count
+async function loadSubscriberCount() {
+  try {
+    const res = await fetch('/.netlify/functions/count');
+    if (res.ok) {
+      const data = await res.json();
+      const countVal = document.getElementById('subscriber-count-val');
+      if (countVal) countVal.textContent = data.count;
+    }
+  } catch (err) {
+    console.error("Failed to load count:", err);
+  }
+}
+
+// Load Posts from Static file posts.json
 async function loadPosts() {
   try {
     const response = await fetch('/posts.json');
@@ -40,70 +60,89 @@ async function loadPosts() {
     renderBlog();
   } catch (err) {
     console.error("Error loading blog posts:", err);
-    postsGrid.innerHTML = `<p class="error-msg">Error loading discoveries: ${err.message}</p>`;
+    if (postsGrid) {
+      postsGrid.innerHTML = `<p class="error-msg">Error loading discoveries: ${err.message}</p>`;
+    }
   }
 }
 
 // Render Blog Feed
 function renderBlog() {
   if (state.posts.length === 0) {
-    latestPostContainer.className = "card";
-    latestPostContainer.innerHTML = `
-      <div style="text-align: center; padding: 4rem 2rem; width: 100%;">
-        <h3>No Discoveries Yet</h3>
-        <p class="card-desc">The research agent hasn't compiled any articles yet. Stay tuned!</p>
-      </div>
-    `;
-    postsGrid.innerHTML = '';
+    if (latestPostContainer) {
+      latestPostContainer.className = "hero-post-card";
+      latestPostContainer.innerHTML = `
+        <div style="text-align: center; padding: 4rem 2rem; width: 100%;">
+          <h3 style="font-family: var(--font-serif); font-size: 1.5rem;">No Discoveries Yet</h3>
+          <p>The research agent hasn't compiled any articles yet. Stay tuned!</p>
+        </div>
+      `;
+    }
+    if (postsGrid) postsGrid.innerHTML = '';
     return;
   }
 
   // Render Latest Post (Hero)
   const latest = state.posts[0];
   const dateStr = new Date(latest.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
-  const coverImage = latest.images && latest.images.length > 0 ? latest.images[0] : 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800';
+  
+  // Construct dynamic Unsplash Source URL using post keywords + category
+  const keyword = latest.imageKeywords?.[0] || latest.topic || 'history';
+  const categoryWord = latest.category || '';
+  const unsplashUrl = `https://source.unsplash.com/800x500/?${encodeURIComponent(keyword)},${encodeURIComponent(categoryWord)}`;
 
-  latestPostContainer.className = "hero-post-card";
-  latestPostContainer.innerHTML = `
-    <div class="hero-image-wrapper">
-      <img src="${coverImage}" alt="${latest.title}">
-      <div class="hero-overlay"></div>
-    </div>
-    <div class="hero-content">
-      <span class="tag-badge">${latest.category || 'Discovery'}</span>
-      <h2 class="hero-title">${escapeHtml(latest.title)}</h2>
-      <p class="hero-summary">${escapeHtml(latest.summary)}</p>
-      <div class="post-meta">
-        <span>📅 ${dateStr}</span>
-        <span>🔍 Topic: ${escapeHtml(latest.topic)}</span>
+  if (latestPostContainer) {
+    latestPostContainer.className = "hero-post-card";
+    latestPostContainer.innerHTML = `
+      <div class="hero-image-wrapper">
+        <img src="${unsplashUrl}" alt="${latest.title}" onerror="handleImageError(this)">
       </div>
-      <div class="hero-actions" style="margin-top: 0.5rem; width: 100%;">
-        <button class="btn btn-primary" onclick="openPost('${latest.id}')" style="width: auto; align-self: flex-start;">Read Full Article</button>
+      <div class="hero-content">
+        <div>
+          <span class="badge" style="margin-bottom: 0.75rem;">${latest.category || 'Discovery'}</span>
+        </div>
+        <h2 class="hero-title">${escapeHtml(latest.title)}</h2>
+        <p class="hero-summary">${escapeHtml(latest.summary)}</p>
+        <div class="post-meta">
+          <span>📅 ${dateStr}</span>
+          <span>🔍 Topic: ${escapeHtml(latest.topic)}</span>
+        </div>
+        <div class="hero-actions" style="margin-top: 1rem;">
+          <button class="btn btn-primary" onclick="openPost('${latest.id}')">Read Full Article</button>
+        </div>
       </div>
-    </div>
-  `;
+    `;
+  }
 
   // Render Grid of older posts
   const older = state.posts.slice(1);
+  if (!postsGrid) return;
+  
   if (older.length === 0) {
-    postsGrid.innerHTML = `<div class="subtext" style="grid-column: 1/-1; text-align: center; padding: 2rem;">More discoveries will appear here as research continues.</div>`;
+    postsGrid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: var(--text-muted);">More discoveries will appear here as research continues.</div>`;
     return;
   }
 
   postsGrid.innerHTML = older.map(post => {
     const pDate = new Date(post.date).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
-    const thumb = post.images && post.images.length > 0 ? post.images[0] : 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=600';
+    const kw = post.imageKeywords?.[0] || post.topic || 'history';
+    const cat = post.category || '';
+    const thumbUrl = `https://source.unsplash.com/800x500/?${encodeURIComponent(kw)},${encodeURIComponent(cat)}`;
+    
     return `
       <div class="post-card" onclick="openPost('${post.id}')">
         <div class="post-card-img-wrapper">
-          <img src="${thumb}" alt="${post.title}" loading="lazy">
+          <img src="${thumbUrl}" alt="${post.title}" loading="lazy" onerror="handleImageError(this)">
         </div>
-        <div class="post-card-body">
-          <span class="tag-badge" style="margin-bottom: 0.5rem;">${post.category || 'Discovery'}</span>
+        <div class="post-card-content">
+          <div>
+            <span class="badge" style="background-color: var(--accent-teal); font-size: 0.7rem; padding: 0.25rem 0.6rem;">${post.category || 'Discovery'}</span>
+          </div>
           <h3 class="post-card-title">${escapeHtml(post.title)}</h3>
-          <p class="post-card-summary">${escapeHtml(post.summary)}</p>
-          <div class="post-card-footer">
+          <p class="post-card-excerpt">${escapeHtml(post.summary)}</p>
+          <div class="post-card-meta">
             <span>📅 ${pDate}</span>
+            <a href="javascript:void(0)">Read more &rarr;</a>
           </div>
         </div>
       </div>
@@ -117,35 +156,22 @@ function openPost(id) {
   if (!post) return;
 
   const dateStr = new Date(post.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
-  const coverImage = post.images && post.images.length > 0 ? post.images[0] : 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800';
+  const kw = post.imageKeywords?.[0] || post.topic || 'history';
+  const cat = post.category || '';
+  const coverImage = `https://source.unsplash.com/800x500/?${encodeURIComponent(kw)},${encodeURIComponent(cat)}`;
   
   // Render Markdown sections using marked.js
   const renderedSections = post.sections.map(sec => `
     <h3>${escapeHtml(sec.heading)}</h3>
-    <div>${marked.parse(sec.content)}</div>
+    <p>${marked.parse(sec.content)}</p>
   `).join('');
-
-  // Auxiliary images
-  let galleryHtml = '';
-  if (post.images && post.images.length > 1) {
-    const extraImages = post.images.slice(1);
-    galleryHtml = `
-      <div class="article-gallery">
-        ${extraImages.map(img => `
-          <div class="gallery-img-wrapper">
-            <img src="${img}" alt="Secondary research image" loading="lazy">
-          </div>
-        `).join('')}
-      </div>
-    `;
-  }
 
   // Fun facts
   const factsHtml = post.funFacts && post.funFacts.length > 0 
     ? `
-      <div class="sidebar-box">
-        <h4>Fun Facts</h4>
-        <ul class="fun-fact-list">
+      <div class="fun-facts-box">
+        <h4>Did you know?</h4>
+        <ul>
           ${post.funFacts.map(fact => `<li>${escapeHtml(fact)}</li>`).join('')}
         </ul>
       </div>
@@ -154,12 +180,12 @@ function openPost(id) {
   // Citations
   const citationsHtml = post.citations && post.citations.length > 0
     ? `
-      <div class="sidebar-box">
-        <h4>Sources & Citations</h4>
-        <ul class="sources-list">
+      <div class="citations-box">
+        <strong>Sources & Citations:</strong>
+        <ul>
           ${post.citations.map(link => `
             <li>
-              <a href="${link}" target="_blank" rel="noopener noreferrer">${escapeHtml(link.substring(0, 35))}...</a>
+              <a href="${link}" target="_blank" rel="noopener noreferrer">${escapeHtml(link)}</a>
             </li>
           `).join('')}
         </ul>
@@ -167,33 +193,21 @@ function openPost(id) {
     ` : '';
 
   modalContent.innerHTML = `
-    <!-- Header -->
-    <div class="article-header">
-      <img class="article-header-bg" src="${coverImage}" alt="${post.title}">
-      <div class="article-header-overlay"></div>
-      <div class="article-header-content">
-        <span class="tag-badge">${post.category || 'Discovery'}</span>
-        <h2 class="hero-title" style="font-size: 2.25rem;">${escapeHtml(post.title)}</h2>
-        <div class="post-meta" style="margin-bottom: 0;">
-          <span>📅 ${dateStr}</span>
-          <span>🔍 Topic: ${escapeHtml(post.topic)}</span>
-        </div>
+    <div class="post-detail-container">
+      <div style="margin-bottom: 1.5rem;">
+        <span class="badge">${post.category || 'Discovery'}</span>
       </div>
-    </div>
- 
-    <!-- Body Layout -->
-    <div class="article-body-grid">
-      <!-- Main Content -->
-      <div class="article-text">
+      <h1 class="post-detail-title">${escapeHtml(post.title)}</h1>
+      <div class="post-detail-meta">
+        <span>📅 ${dateStr}</span>
+        <span>🔍 Topic: ${escapeHtml(post.topic)}</span>
+      </div>
+      <img class="post-detail-hero-image" src="${coverImage}" alt="${post.title}" onerror="handleImageError(this)">
+      <div class="post-detail-body">
         ${renderedSections}
-        ${galleryHtml}
       </div>
-      
-      <!-- Sidebar info -->
-      <div class="article-sidebar">
-        ${factsHtml}
-        ${citationsHtml}
-      </div>
+      ${factsHtml}
+      ${citationsHtml}
     </div>
   `;
 
@@ -207,13 +221,13 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
-// Handle Subscription form submit (captures Netlify Function endpoint)
+// Handle Subscription form submit
 async function handleSubscribeNewsletter(e) {
   e.preventDefault();
   const email = inputSubscribeEmail.value.trim();
   if (!email) return;
 
-  const submitBtn = formSubscribe.querySelector('button[type="submit"]');
+  const submitBtn = formSubscribe.querySelector('.subscribe-btn');
   submitBtn.disabled = true;
   const originalText = submitBtn.innerText;
   submitBtn.innerText = 'Subscribing...';
@@ -226,15 +240,25 @@ async function handleSubscribeNewsletter(e) {
     });
     
     const data = await response.json();
-    alert(data.message || data.error);
     if (response.ok) {
-      inputSubscribeEmail.value = '';
+      document.getElementById('subscribe-form-container').innerHTML = `
+        <div class="subscribe-success-msg">You're in! Check your inbox for a welcome email.</div>
+      `;
+      const valEl = document.getElementById('subscriber-count-val');
+      if (valEl) {
+        const curVal = parseInt(valEl.textContent);
+        if (!isNaN(curVal)) valEl.textContent = curVal + 1;
+      }
+    } else {
+      alert(data.message || data.error);
     }
   } catch (err) {
     alert("Failed to subscribe. Please try again.");
   } finally {
-    submitBtn.disabled = false;
-    submitBtn.innerText = originalText;
+    if (submitBtn) {
+      submitBtn.disabled = false;
+      submitBtn.innerText = originalText;
+    }
   }
 }
 
@@ -247,4 +271,3 @@ function escapeHtml(unsafe) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
-
