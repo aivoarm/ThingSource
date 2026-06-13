@@ -2,6 +2,46 @@ const { GoogleGenAI } = require("@google/genai");
 const { getStore } = require("@netlify/blobs");
 const { Resend } = require("resend");
 
+async function generateWithFallback(ai, geminiParams, claudePromptOverride = null) {
+  try {
+    const response = await ai.models.generateContent(geminiParams);
+    console.log("Model used: Gemini");
+    return response.text;
+  } catch (err) {
+    const is429 = err.message?.includes("429") || 
+                  err.message?.includes("RESOURCE_EXHAUSTED") ||
+                  err.message?.includes("quota");
+    
+    if (!is429 || !process.env.ANTHROPIC_API_KEY) throw err;
+    
+    console.log("Gemini rate limited. Falling back to Claude...");
+    
+    const promptContent = claudePromptOverride || geminiParams.contents;
+    
+    const claudeRes = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "x-api-key": process.env.ANTHROPIC_API_KEY,
+        "anthropic-version": "2023-06-01",
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-6",
+        max_tokens: 4000,
+        messages: [{ 
+          role: "user", 
+          content: promptContent 
+        }],
+      }),
+    });
+    
+    const data = await claudeRes.json();
+    if (!claudeRes.ok) throw new Error(data.error?.message || "Claude API error");
+    console.log("Model used: Claude (fallback)");
+    return data.content[0].text;
+  }
+}
+
 async function runAgent() {
   const log = (msg) => console.log(`[agent] ${msg}`);
   log("Starting agent execution...");
@@ -24,13 +64,19 @@ Return ONLY a raw JSON object with two fields:
 - "title": A catchy headline for this research.
 Do not wrap it in markdown block tags. Return only the raw JSON.`;
 
-  const topicResponse = await ai.models.generateContent({
-    model: 'gemini-2.5-flash',
-    contents: topicPrompt,
-  });
+  let topicText;
+  try {
+    topicText = await generateWithFallback(ai, {
+      model: 'gemini-2.5-flash',
+      contents: topicPrompt,
+    });
+  } catch (err) {
+    log(`Failed to select topic: ${err.message}`);
+    throw err;
+  }
 
   try {
-    let text = topicResponse.text.trim();
+    let text = topicText.trim();
     if (text.startsWith("```")) {
       text = text.replace(/```json|```/g, "").trim();
     }
@@ -39,7 +85,7 @@ Do not wrap it in markdown block tags. Return only the raw JSON.`;
     blogTitleSuggestion = data.title;
     log(`Decided to research: "${topic}" (Suggested Headline: "${blogTitleSuggestion}")`);
   } catch (parseError) {
-    log(`Failed to parse suggested topic JSON. Using fallback. Response was: ${topicResponse.text}`);
+    log(`Failed to parse suggested topic JSON. Using fallback. Response was: ${topicText}`);
     topic = "croissant origin";
   }
 
@@ -49,15 +95,21 @@ Do not wrap it in markdown block tags. Return only the raw JSON.`;
 Using the Google Search tool, find the authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
 Provide a detailed factual report. Make sure to identify specific references and citations where appropriate.`;
 
-  const researchResponse = await ai.models.generateContent({
-    model: 'gemini-2.5-flash',
-    contents: researchPrompt,
-    config: {
-      tools: [{ googleSearch: {} }],
-    },
-  });
+  const claudeResearchPrompt = `Using your training knowledge, research the following topic thoroughly: ${topic}. Provide detailed origins, key dates, historical context, notable figures, and surprising trivia.`;
 
-  const researchText = researchResponse.text;
+  let researchText;
+  try {
+    researchText = await generateWithFallback(ai, {
+      model: 'gemini-2.5-flash',
+      contents: researchPrompt,
+      config: {
+        tools: [{ googleSearch: {} }],
+      },
+    }, claudeResearchPrompt);
+  } catch (err) {
+    log(`Failed research phase: ${err.message}`);
+    throw err;
+  }
   log("Research phase complete.");
 
   // Step 3: Compile research into structured Blog Post JSON
@@ -96,23 +148,29 @@ Format the response as a JSON object matching this schema:
 Ensure the content is detailed, historically accurate, and written in a captivating storytelling voice.
 Do not include any JSON wrapper other than the JSON object itself. Do not write markdown tags around it.`;
 
-  const blogResponse = await ai.models.generateContent({
-    model: 'gemini-2.5-flash',
-    contents: blogPrompt,
-    config: {
-      responseMimeType: 'application/json',
-    }
-  });
+  let blogText;
+  try {
+    blogText = await generateWithFallback(ai, {
+      model: 'gemini-2.5-flash',
+      contents: blogPrompt,
+      config: {
+        responseMimeType: 'application/json',
+      }
+    });
+  } catch (err) {
+    log(`Failed to compile blog post: ${err.message}`);
+    throw err;
+  }
 
   let postData;
   try {
-    let text = blogResponse.text.trim();
+    let text = blogText.trim();
     if (text.startsWith("```")) {
       text = text.replace(/```json|```/g, "").trim();
     }
     postData = JSON.parse(text);
   } catch (parseError) {
-    log(`Failed to parse blog post JSON. Response was: ${blogResponse.text}`);
+    log(`Failed to parse blog post JSON. Response was: ${blogText}`);
     throw new Error("Invalid JSON returned from Gemini compiler.");
   }
 
