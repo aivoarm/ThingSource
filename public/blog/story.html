@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How ThingSource Was Built — The Agentic Era Story</title>
+
+  <!-- Primary Meta -->
+  <meta name="description" content="How one developer built a fully automated, self-sustaining digital magazine for $0.00 using Claude, Antigravity IDE, and the power of agentic AI.">
+  <link rel="canonical" href="https://thingsource.netlify.app/blog/story.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Dawn of the Agentic Era — How I Built an Autopilot Digital Magazine for $0.00">
+  <meta property="og:description" content="How one developer built a fully automated, self-sustaining digital magazine using Claude and Antigravity IDE.">
+  <meta property="og:image" content="https://thingsource.netlify.app/social-card.png">
+  <meta property="og:url" content="https://thingsource.netlify.app/blog/story.html">
+
+  <!-- Fonts + Stylesheet -->
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    /* Story page specific overrides */
+    .story-wrapper {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    .story-hero {
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .story-badge {
+      display: inline-block;
+      background-color: var(--accent-amber-light);
+      color: var(--accent-amber);
+      border: 1px solid var(--accent-amber);
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 0.3rem 0.8rem;
+      border-radius: 3px;
+      margin-bottom: 1rem;
+    }
+
+    .story-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      line-height: 1.2;
+      color: var(--text-dark);
+      margin-bottom: 1rem;
+    }
+
+    .story-byline {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .story-byline a {
+      color: var(--accent-teal);
+      font-weight: 600;
+    }
+
+    /* Rendered markdown body */
+    #story-body {
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      line-height: 1.85;
+      color: var(--text-dark);
+    }
+
+    #story-body h1 { display: none; } /* Title already shown in hero */
+
+    #story-body h2 {
+      font-family: var(--font-serif);
+      font-size: 1.55rem;
+      color: var(--text-dark);
+      margin: 2.5rem 0 0.75rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    #story-body h3 {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      margin: 1.8rem 0 0.5rem;
+    }
+
+    #story-body p {
+      margin: 0 0 1.2rem;
+    }
+
+    #story-body strong {
+      font-weight: 700;
+      color: var(--text-dark);
+    }
+
+    #story-body a {
+      color: var(--accent-teal);
+      border-bottom: 1px solid rgba(13,122,107,0.3);
+      transition: var(--transition-smooth);
+    }
+    #story-body a:hover {
+      color: var(--accent-amber);
+      border-bottom-color: var(--accent-amber);
+    }
+
+    #story-body ul, #story-body ol {
+      padding-left: 1.5rem;
+      margin: 0 0 1.2rem;
+    }
+    #story-body li {
+      margin-bottom: 0.4rem;
+    }
+
+    #story-body hr {
+      border: none;
+      border-top: 1px solid var(--border-color);
+      margin: 2.5rem 0;
+    }
+
+    #story-body blockquote {
+      border-left: 4px solid var(--accent-teal);
+      margin: 1.5rem 0;
+      padding: 0.75rem 1.25rem;
+      background: var(--accent-amber-light);
+      border-radius: 0 4px 4px 0;
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    /* Table styling */
+    #story-body table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.9rem;
+    }
+    #story-body th {
+      background-color: var(--accent-teal);
+      color: #fff;
+      text-align: left;
+      padding: 0.6rem 0.9rem;
+      font-weight: 600;
+    }
+    #story-body td {
+      padding: 0.55rem 0.9rem;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: top;
+    }
+    #story-body tr:nth-child(even) td {
+      background-color: #f9f7f3;
+    }
+
+    /* Inline code */
+    #story-body code {
+      background: #F0EDE6;
+      padding: 0.15em 0.4em;
+      border-radius: 3px;
+      font-size: 0.88em;
+      font-family: 'SFMono-Regular', Consolas, monospace;
+    }
+
+    /* Back link */
+    .story-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--accent-teal);
+      margin-bottom: 2rem;
+      transition: var(--transition-smooth);
+    }
+    .story-back:hover { color: var(--accent-amber); }
+
+    .story-footer-cta {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: linear-gradient(135deg, #0D7A6B 0%, #0a5d51 100%);
+      border-radius: 8px;
+      text-align: center;
+      color: #fff;
+    }
+    .story-footer-cta h3 {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+    .story-footer-cta p {
+      font-size: 0.9rem;
+      opacity: 0.85;
+      margin-bottom: 1.2rem;
+    }
+    .story-footer-cta a {
+      display: inline-block;
+      background: #fff;
+      color: var(--accent-teal) !important;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.4rem;
+      border-radius: 4px;
+      border-bottom: none !important;
+    }
+    .story-footer-cta a:hover { opacity: 0.9; }
+
+    .story-loading {
+      text-align: center;
+      padding: 4rem;
+      color: var(--text-muted);
+    }
+    .story-loading::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 40px;
+      border: 3px solid var(--border-color);
+      border-top-color: var(--accent-teal);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 1rem auto 0;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+  <!-- Header (matches main site) -->
+  <header>
+    <div class="header-container">
+      <div class="logo-group" onclick="window.location.href='/'">
+        <h1>ThingSource</h1>
+        <span class="tagline">Curious Origins</span>
+      </div>
+      <nav>
+        <a href="/blog/" class="nav-btn">Blog</a>
+        <a href="/#subscribe-section" class="nav-btn btn-subscribe-nav">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="story-wrapper">
+
+      <!-- Back link -->
+      <a href="/" class="story-back">← Back to Home</a>
+
+      <!-- Hero -->
+      <div class="story-hero">
+        <div class="story-badge">✦ Origin Story</div>
+        <h2 class="story-title">The Dawn of the Agentic Era:<br>How I Built an Autopilot Digital Magazine for $0.00</h2>
+        <p class="story-byline">
+          By <a href="https://www.armanayva.com" target="_blank" rel="noopener noreferrer">Arman Ayva</a>
+          &nbsp;·&nbsp; Published June 2026
+        </p>
+      </div>
+
+      <!-- Rendered markdown -->
+      <div id="story-body">
+        <div class="story-loading">Loading story…</div>
+      </div>
+
+      <!-- CTA -->
+      <div class="story-footer-cta">
+        <h3>Get a new origin story every morning</h3>
+        <p>Subscribe to ThingSource — free, no spam, one curious discovery per day.</p>
+        <a href="/#subscribe-section">Subscribe Free →</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer (matches main site) -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h3>ThingSource</h3>
+        <span>Curious Origins Daily</span>
+      </div>
+      <div class="footer-right">
+        <a href="/blog/rss.xml">RSS Feed</a>
+        <span>&copy; 2026. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    async function loadStory() {
+      const body = document.getElementById('story-body');
+      try {
+        const res = await fetch('/blog/story.md');
+        if (!res.ok) throw new Error('Failed to fetch story.md');
+        const raw = await res.text();
+
+        // Strip the H1 (shown in hero) and render the rest
+        const withoutH1 = raw.replace(/^#\s+.+\n/, '');
+        body.innerHTML = marked.parse(withoutH1);
+      } catch (err) {
+        body.innerHTML = `<p style="color:red;">Could not load the story: ${err.message}</p>`;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadStory);
+  </script>
+
+</body>
+</html>
