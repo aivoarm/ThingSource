@@ -138,10 +138,22 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   const postId = `${Date.now()}-${topic.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
   postData.id = postId;
   postData.date = new Date().toISOString();
-  
-  // Store Unsplash URLs directly
-  const keyword = postData.imageKeywords?.[0] || topic;
-  postData.images = [`https://images.unsplash.com/featured/?${encodeURIComponent(keyword)}`];
+  const { getBestImage } = require("./utils/images.js");
+
+  // Try to get a real image, fall back gracefully
+  try {
+    const imageUrl = await getBestImage({
+      keywords: postData.imageKeywords,
+      category: postData.category,
+      id: postData.id,
+      title: postData.topic,
+    });
+    postData.images = [imageUrl];
+    log(`Image found: ${imageUrl.substring(0, 60)}`);
+  } catch (err) {
+    log(`Image fetch failed, will use default: ${err.message}`);
+    postData.images = []; // frontend will use category default SVG
+  }
 
   log(`Generated post: "${postData.title}"`);
 

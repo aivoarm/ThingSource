@@ -28,6 +28,9 @@
 
   <!-- Marked.js for rendering markdown sections -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- Image defaults and selectors -->
+  <script src="../js/image-defaults.js"></script>
+  <script src="../js/images.js"></script>
   <!-- Local Stylesheet (inherited from root) -->
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" type="application/rss+xml" title="ThingSource RSS Feed" href="/blog/rss.xml" />
@@ -281,7 +284,7 @@
         return `
           <div class="post-card" onclick="window.location.href='/blog/?id=${post.id}'">
             <div class="post-card-img-wrapper">
-              <img src="${thumbUrl}" alt="${post.title}" loading="lazy" onerror="handleImageError(this)">
+              ${getPostImage(post)}
             </div>
             <div class="post-card-content">
               <div>
@@ -396,7 +399,9 @@
             <span>📅 ${dateStr}</span>
             <span>🔍 Topic: ${escapeHtml(post.topic)}</span>
           </div>
-          <img class="post-detail-hero-image" src="${coverImage}" alt="${post.title}" style="margin-bottom: 2rem;" onerror="handleImageError(this)">
+          <div class="post-detail-hero-image" style="margin-bottom: 2rem;">
+            ${getPostImage(post)}
+          </div>
           <div class="post-detail-body">
             ${renderedSections}
           </div>

@@ -95,7 +95,7 @@ function renderBlog() {
     latestPostContainer.className = "hero-post-card";
     latestPostContainer.innerHTML = `
       <div class="hero-image-wrapper">
-        <img src="${unsplashUrl}" alt="${latest.title}" onerror="handleImageError(this)">
+        ${getPostImage(latest)}
       </div>
       <div class="hero-content">
         <div>
@@ -132,7 +132,7 @@ function renderBlog() {
     return `
       <div class="post-card" onclick="openPost('${post.id}')">
         <div class="post-card-img-wrapper">
-          <img src="${thumbUrl}" alt="${post.title}" loading="lazy" onerror="handleImageError(this)">
+          ${getPostImage(post)}
         </div>
         <div class="post-card-content">
           <div>
@@ -249,7 +249,9 @@ function openPost(id) {
         <span>📅 ${dateStr}</span>
         <span>🔍 Topic: ${escapeHtml(post.topic)}</span>
       </div>
-      <img class="post-detail-hero-image" src="${coverImage}" alt="${post.title}" onerror="handleImageError(this)">
+      <div class="post-detail-hero-image">
+        ${getPostImage(post)}
+      </div>
       <div class="post-detail-body">
         ${renderedSections}
       </div>
