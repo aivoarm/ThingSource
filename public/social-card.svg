@@ -1,8 +1,4 @@
-const sharp = require("sharp");
-const fs = require("fs");
-const path = require("path");
-
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" 
+<svg xmlns="http://www.w3.org/2000/svg" 
   width="1200" height="630" viewBox="0 0 1200 630">
   
   <defs>
@@ -80,18 +76,4 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg"
     fill="white">
     ThingSource
   </text>
-</svg>`;
-
-// Ensure public directory exists
-fs.mkdirSync(path.join(__dirname, "../public"), { recursive: true });
-
-// Write public/social-card.svg
-fs.writeFileSync(path.join(__dirname, "../public/social-card.svg"), svg, "utf8");
-
-// Convert to public/social-card.png
-sharp(Buffer.from(svg))
-  .resize(1200, 630)
-  .png()
-  .toFile(path.join(__dirname, "../public/social-card.png"))
-  .then(() => console.log("✓ social-card.png generated"))
-  .catch(err => console.error("Failed:", err));
+</svg>

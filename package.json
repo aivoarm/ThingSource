@@ -7,7 +7,8 @@
     "start": "node server.js",
     "agent": "node agent.js",
     "run-and-push": "node agent.js && git add public/posts.json public/images/ && git commit -m \"chore: auto-publish new discovery\" && git push",
-    "build": "node build.js",
+    "build:social": "node scripts/generate-social-card.js",
+    "build": "npm run build:social && node build.js",
     "generate-social-card": "node scripts/generate-social-card.js"
   },
   "dependencies": {
@@ -18,6 +19,7 @@
     "dotenv": "^16.0.0"
   },
   "devDependencies": {
-    "puppeteer": "^21.0.0"
+    "puppeteer": "^21.0.0",
+    "sharp": "^0.33.0"
   }
 }
