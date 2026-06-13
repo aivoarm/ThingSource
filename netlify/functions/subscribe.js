@@ -50,7 +50,11 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const store = getStore("subscribers");
+    const store = getStore({
+      name: "subscribers",
+      siteID: process.env.NETLIFY_SITE_ID,
+      token: process.env.NETLIFY_TOKEN,
+    });
     const key = "email:" + email.toLowerCase();
 
     // Check if already subscribed

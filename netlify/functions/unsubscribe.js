@@ -19,7 +19,11 @@ exports.handler = async (event, context) => {
   }
 
   try {
-    const store = getStore("subscribers");
+    const store = getStore({
+      name: "subscribers",
+      siteID: process.env.NETLIFY_SITE_ID,
+      token: process.env.NETLIFY_TOKEN,
+    });
     const { blobs } = await store.list();
     let foundAndDeleted = false;
 

@@ -175,7 +175,11 @@ Do not include any JSON wrapper other than the JSON object itself. Do not write 
 
     // Step 5: Send emails to all subscribers
     log("Fetching subscribers from Netlify Blobs...");
-    const store = getStore("subscribers");
+    const store = getStore({
+      name: "subscribers",
+      siteID: process.env.NETLIFY_SITE_ID,
+      token: process.env.NETLIFY_TOKEN,
+    });
     const { blobs } = await store.list();
 
     if (blobs.length === 0) {
