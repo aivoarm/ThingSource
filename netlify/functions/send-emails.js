@@ -38,9 +38,26 @@ function buildPlainTextEmail(post, unsubUrl) {
 
 // ─── HTML builder ─────────────────────────────────────────────────────────
 function buildEmailHtml(post, unsubUrl) {
-  const firstSection = post.sections?.[0];
-  const firstSectionPreview = firstSection
-    ? firstSection.content.substring(0, 300) + "…"
+  // Render all sections in full
+  const sectionsHtml = (post.sections || []).map((section, idx) => {
+    // Strip basic markdown bold/italic for email safety
+    const content = section.content
+      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(.*?)\*/g, "<em>$1</em>")
+      .replace(/\n/g, "<br>");
+    return `
+  <h2 style="font-family:Georgia,serif;font-size:18px;color:#1C1C1E;margin:28px 0 8px;line-height:1.3">${section.heading}</h2>
+  <p style="font-size:14px;line-height:1.75;color:#333;margin:0 0 16px">${content}</p>`;
+  }).join("");
+
+  // Fun facts block (if present)
+  const funFactsHtml = post.funFacts?.length
+    ? `<div style="background:#FFF8EC;border-left:4px solid #F5A623;padding:14px 18px;margin:24px 0;border-radius:0 6px 6px 0">
+    <p style="font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:0.08em;color:#F5A623;margin:0 0 8px">Did You Know?</p>
+    <ul style="margin:0;padding-left:18px;font-size:14px;line-height:1.7;color:#333">
+      ${post.funFacts.map(f => `<li>${f}</li>`).join("")}
+    </ul>
+  </div>`
     : "";
 
   return `<!DOCTYPE html>
@@ -58,8 +75,11 @@ function buildEmailHtml(post, unsubUrl) {
   <h1 style="font-family:Georgia,serif;font-size:24px;color:#1C1C1E;margin:0 0 10px;line-height:1.3">${post.title}</h1>
   <p style="font-size:15px;color:#444;font-style:italic;margin:0 0 20px;line-height:1.6">${post.summary}</p>
 
-  <!-- First section preview -->
-  <p style="font-size:14px;line-height:1.7;color:#1C1C1E;margin:0 0 24px">${firstSectionPreview}</p>
+  <!-- All sections in full -->
+  ${sectionsHtml}
+
+  <!-- Fun facts -->
+  ${funFactsHtml}
 
   <!-- Sponsor block — plain text only, no links -->
   <div style="background:#F8F6F1;border-radius:8px;padding:16px 20px;margin:24px 0">
