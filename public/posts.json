@@ -1,5 +1,53 @@
 [
   {
+    "topic": "The Word 'Salary'",
+    "title": "You're Not Paid in Salt — But the Word 'Salary' Might Be",
+    "category": "Language",
+    "summary": "Every payday, millions of people unknowingly invoke an ancient Roman practice when they cash their 'salary.' The origin of this word is one of the most debated etymological mysteries in the English language, tangled up with legions, salt routes, and a surprisingly persistent myth.",
+    "sections": [
+      {
+        "heading": "The Roman Connection",
+        "content": "The word 'salary' derives from the Latin 'salarium,' which is unambiguously linked to the Latin word for salt, 'sal.' Roman soldiers operated within an economy where salt was extraordinarily valuable — it was essential for preserving food, tanning leather, and maintaining health in the ancient world. The word entered Middle English via Old French 'salaire' sometime in the 14th century and has remained virtually unchanged ever since."
+      },
+      {
+        "heading": "Were Soldiers Actually Paid in Salt?",
+        "content": "Here is where the story gets complicated. The popular claim — repeated in countless office icebreakers — is that Roman soldiers were literally paid their wages in salt. However, most modern historians and classicists are skeptical of this interpretation. The Roman writer Pliny the Elder, writing in 'Naturalis Historia' around 77 AD, is the primary ancient source, and his text is ambiguous: he states soldiers were paid 'salt money,' which more likely refers to a stipend specifically allocated for purchasing salt, not a direct payment in the mineral itself."
+      },
+      {
+        "heading": "The Salt Road and Economic Power",
+        "content": "Whether or not Romans handed out salt pouches on payday, salt's economic centrality to the ancient world is beyond dispute. The Via Salaria — the 'Salt Road' — was one of Rome's oldest roads, running from the Adriatic coast into the heart of the city, and was used to transport salt long before Rome became an empire. Control over salt production and distribution was a genuine geopolitical power move, practiced from Rome to ancient China, where the government monopolized salt as early as the 7th century BC."
+      },
+      {
+        "heading": "A Myth That Refuses to Die",
+        "content": "Despite scholarly skepticism, the 'paid in salt' story has become one of the internet's favorite historical factoids, appearing in business books, motivational speeches, and HR onboarding presentations worldwide. The persistence of the myth likely speaks to how intuitive it feels — salt was valuable, soldiers needed pay, therefore salt equals salary. Linguist and classicist Michael Fontaine has noted that the story is a textbook example of 'folk etymology,' where a plausible-sounding narrative fills a gap in our knowledge and becomes more memorable than the nuanced truth."
+      },
+      {
+        "heading": "Why Salt Was Worth Fighting Over",
+        "content": "To truly appreciate why any pay-salt connection would make sense at all, consider that before refrigeration, salt was the primary technology for food preservation across the ancient and medieval world. Wars were fought over salt deposits, cities were founded near salt sources, and the word 'sauce,' 'sausage,' and even 'salad' all trace back to Latin 'sal.' The French 'gabelle,' a salt tax that helped trigger the French Revolution, demonstrates that salt's economic and political power endured for nearly two millennia after Roman legions first marched the Via Salaria."
+      }
+    ],
+    "funFacts": [
+      "The words 'salad,' 'sauce,' and 'sausage' all share the same Latin root 'sal' (salt), because early versions of these foods were heavily salted for preservation or flavor.",
+      "Mahatma Gandhi's famous 1930 Salt March was a direct protest against the British salt tax — proof that salt's political power lasted well into the modern era.",
+      "The phrase 'not worth his salt' — meaning someone is incompetent — is a direct descendant of the same Roman salary tradition, suggesting that a poor worker wouldn't earn even the salt allowance he was given."
+    ],
+    "imageKeywords": [
+      "Roman soldier",
+      "salt road ancient"
+    ],
+    "citations": [
+      "https://www.etymonline.com/word/salary",
+      "https://www.smithsonianmag.com/history/power-salt-180974689/",
+      "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Pliny_the_Elder/home.html",
+      "https://www.britannica.com/topic/salt-NaCl/Salt-in-history"
+    ],
+    "id": "1781373179643-the-word-salary-",
+    "date": "2026-06-13T17:52:59.643Z",
+    "images": [
+      "https://picsum.photos/seed/1781373179643-the-word-salary-/800/500"
+    ]
+  },
+  {
     "topic": "Caesar Salad",
     "title": "Caesar Salad Was Invented in Mexico by an Italian Immigrant — And It Was an Accident",
     "category": "Food & Drink",
@@ -98,7 +146,7 @@
     ]
   },
   {
-    "topic": "Fortune Cookie",
+    "topic": "fortune cookie origin",
     "title": "The Sweet Secret: Unwrapping the Surprising True Origin of the Fortune Cookie",
     "category": "Culture & Food",
     "summary": "That delightful fortune cookie you crack open after your meal? Its history is far more complex and culturally interwoven than you might think, starting not in China, but with Japanese immigrants in America.",
@@ -137,7 +185,6 @@
     ],
     "citations": [],
     "id": "1781363049345-fortune-cookie-origin",
-    "topic": "fortune cookie origin",
     "date": "2026-06-13T15:04:09.345Z",
     "images": [
       "https://images.unsplash.com/featured/?fortune%20cookie"
