@@ -312,11 +312,69 @@
       const cat = post.category || '';
       const coverImage = `https://source.unsplash.com/800x500/?${encodeURIComponent(kw)},${encodeURIComponent(cat)}`;
 
-      // Render sections
-      const renderedSections = post.sections.map(sec => `
-        <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-dark); margin-top: 2rem; margin-bottom: 1rem;">${escapeHtml(sec.heading)}</h3>
-        <p style="margin-bottom: 1.5rem;">${marked.parse(sec.content)}</p>
-      `).join('');
+      // Build the static, beautiful inline ad card matching the site palette
+      const inlineAdHtml = `
+        <div class="inline-spotify-ad" style="
+          background-color: #FFFFFF;
+          border: 1px solid rgba(13, 122, 107, 0.15);
+          border-left: 4px solid #0D7A6B; /* Deep Teal */
+          padding: 20px;
+          margin: 25px 0;
+          border-radius: 4px;
+          box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+        ">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+            <span style="font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; color: #0D7A6B; letter-spacing: 1px;">
+              Featured Spotlight
+            </span>
+            <span style="font-family: 'Inter', sans-serif; font-size: 10px; color: #1C1C1E; opacity: 0.4; text-transform: uppercase;">Sponsored</span>
+          </div>
+          <h4 style="font-family: 'Playfair Display', serif; font-size: 18px; margin: 0 0 6px 0; color: #1C1C1E;">
+            Love exploring new vibes?
+          </h4>
+          <p style="font-family: 'Inter', sans-serif; font-size: 14px; line-height: 1.5; color: #1C1C1E; margin: 0 0 15px 0; opacity: 0.9;">
+            Check out my official Spotify profile for fresh music streams, curated soundscapes, and regular sonic releases.
+          </p>
+          <a href="https://open.spotify.com/artist/YOUR_SPOTIFY_ID" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             style="
+               display: inline-block;
+               background-color: #0D7A6B; /* Deep Teal */
+               color: #F8F6F1; /* Warm Off-White */
+               font-family: 'Inter', sans-serif;
+               font-weight: 600;
+               font-size: 12px;
+               text-decoration: none;
+               padding: 8px 16px;
+               border-radius: 4px;
+             ">
+             Visit My Spotify Profile →
+          </a>
+        </div>
+      `;
+
+      // Render sections with Spotify ad between Section 1 and Section 2
+      let renderedSections = "";
+      if (post.sections.length > 0) {
+        renderedSections += `
+          <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-dark); margin-top: 2rem; margin-bottom: 1rem;">${escapeHtml(post.sections[0].heading)}</h3>
+          <p style="margin-bottom: 1.5rem;">${marked.parse(post.sections[0].content)}</p>
+        `;
+        if (post.sections.length > 1) {
+          renderedSections += inlineAdHtml;
+          for (let i = 1; i < post.sections.length; i++) {
+            renderedSections += `
+              <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-dark); margin-top: 2rem; margin-bottom: 1rem;">${escapeHtml(post.sections[i].heading)}</h3>
+              <p style="margin-bottom: 1.5rem;">${marked.parse(post.sections[i].content)}</p>
+            `;
+          }
+        } else {
+          renderedSections += inlineAdHtml;
+        }
+      } else {
+        renderedSections = inlineAdHtml;
+      }
 
       // Fun facts
       const factsHtml = post.funFacts && post.funFacts.length > 0 
