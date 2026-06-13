@@ -4,6 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog — ThingSource</title>
+  
+  <!-- Primary Meta -->
+  <meta id="meta-description" name="description" content="Browse all origin stories. Surprising history behind everyday things.">
+  <link id="canonical-link" rel="canonical" href="https://thingsource.netlify.app/blog/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ThingSource">
+  <meta id="og-title" property="og:title" content="All Stories — ThingSource">
+  <meta id="og-description" property="og:description" content="Browse all origin stories. Surprising history behind everyday things.">
+  <meta id="og-image" property="og:image" content="https://thingsource.netlify.app/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta id="og-url" property="og:url" content="https://thingsource.netlify.app/blog/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@thingsource">
+  <meta id="twitter-title" name="twitter:title" content="All Stories — ThingSource">
+  <meta id="twitter-description" name="twitter:description" content="Browse all origin stories. Surprising history behind everyday things.">
+  <meta id="twitter-image" name="twitter:image" content="https://thingsource.netlify.app/social-card.png">
+
   <!-- Marked.js for rendering markdown sections -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <!-- Local Stylesheet (inherited from root) -->
@@ -197,9 +219,52 @@
       router();
     };
 
+    // Copy link helper
+    window.copyPostLink = function(btn, url) {
+      navigator.clipboard.writeText(url).then(() => {
+        const originalText = btn.innerHTML;
+        btn.innerHTML = 'Copied!';
+        setTimeout(() => {
+          btn.innerHTML = originalText;
+        }, 2000);
+      }).catch(err => {
+        console.error("Failed to copy link:", err);
+      });
+    };
+
     function renderPostList() {
       document.getElementById('blog-detail-view').style.display = 'none';
       document.getElementById('blog-list-view').style.display = 'block';
+
+      // Reset meta tags to default list view values
+      document.title = "All Stories — ThingSource";
+      
+      const descEl = document.getElementById('meta-description');
+      if (descEl) descEl.setAttribute("content", "Browse all origin stories. Surprising history behind everyday things.");
+
+      const canonEl = document.getElementById('canonical-link');
+      if (canonEl) canonEl.setAttribute("href", "https://thingsource.netlify.app/blog/");
+
+      const ogTitle = document.getElementById('og-title');
+      if (ogTitle) ogTitle.setAttribute("content", "All Stories — ThingSource");
+
+      const ogDesc = document.getElementById('og-description');
+      if (ogDesc) ogDesc.setAttribute("content", "Browse all origin stories. Surprising history behind everyday things.");
+
+      const ogImg = document.getElementById('og-image');
+      if (ogImg) ogImg.setAttribute("content", "https://thingsource.netlify.app/social-card.png");
+
+      const ogUrl = document.getElementById('og-url');
+      if (ogUrl) ogUrl.setAttribute("content", "https://thingsource.netlify.app/blog/");
+
+      const twTitle = document.getElementById('twitter-title');
+      if (twTitle) twTitle.setAttribute("content", "All Stories — ThingSource");
+
+      const twDesc = document.getElementById('twitter-description');
+      if (twDesc) twDesc.setAttribute("content", "Browse all origin stories. Surprising history behind everyday things.");
+
+      const twImg = document.getElementById('twitter-image');
+      if (twImg) twImg.setAttribute("content", "https://thingsource.netlify.app/social-card.png");
 
       const grid = document.getElementById('blog-posts-grid');
       if (blogPosts.length === 0) {
@@ -274,6 +339,53 @@
           </div>
         ` : '';
 
+      const postUrl = `https://thingsource.netlify.app/blog/?id=${post.id}`;
+      const encodedUrl = encodeURIComponent(postUrl);
+      const encodedTitle = encodeURIComponent(`${post.title} — ThingSource`);
+
+      const shareHtml = `
+        <div class="share-section">
+          <p>Enjoyed this story? Share it:</p>
+          <div class="share-buttons-container">
+            <a href="https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}&via=thingsource" class="share-btn" target="_blank">𝕏 Share on X</a>
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}" class="share-btn" target="_blank">LinkedIn Share on LinkedIn</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}" class="share-btn" target="_blank">f Share on Facebook</a>
+            <a href="https://wa.me/?text=${encodedTitle}%20${encodedUrl}" class="share-btn" target="_blank">WhatsApp Share on WhatsApp</a>
+            <button class="share-btn" onclick="copyPostLink(this, '${postUrl}')">🔗 Copy link</button>
+          </div>
+        </div>
+      `;
+
+      // Update meta tags dynamically
+      document.title = `${post.title} — ThingSource`;
+      
+      const descEl = document.getElementById('meta-description');
+      if (descEl) descEl.setAttribute("content", post.summary);
+
+      const canonEl = document.getElementById('canonical-link');
+      if (canonEl) canonEl.setAttribute("href", postUrl);
+
+      const ogTitle = document.getElementById('og-title');
+      if (ogTitle) ogTitle.setAttribute("content", `${post.title} — ThingSource`);
+
+      const ogDesc = document.getElementById('og-description');
+      if (ogDesc) ogDesc.setAttribute("content", post.summary);
+
+      const ogImg = document.getElementById('og-image');
+      if (ogImg) ogImg.setAttribute("content", coverImage);
+
+      const ogUrl = document.getElementById('og-url');
+      if (ogUrl) ogUrl.setAttribute("content", postUrl);
+
+      const twTitle = document.getElementById('twitter-title');
+      if (twTitle) twTitle.setAttribute("content", `${post.title} — ThingSource`);
+
+      const twDesc = document.getElementById('twitter-description');
+      if (twDesc) twDesc.setAttribute("content", post.summary);
+
+      const twImg = document.getElementById('twitter-image');
+      if (twImg) twImg.setAttribute("content", coverImage);
+
       detailDiv.innerHTML = `
         <div class="post-detail-container">
           <div style="margin-bottom: 1.5rem;">
@@ -289,6 +401,7 @@
             ${renderedSections}
           </div>
           ${factsHtml}
+          ${shareHtml}
           ${citationsHtml}
         </div>
       `;

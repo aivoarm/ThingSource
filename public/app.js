@@ -192,6 +192,53 @@ function openPost(id) {
       </div>
     ` : '';
 
+  const postUrl = `https://thingsource.netlify.app/blog/?id=${post.id}`;
+  const encodedUrl = encodeURIComponent(postUrl);
+  const encodedTitle = encodeURIComponent(`${post.title} — ThingSource`);
+
+  const shareHtml = `
+    <div class="share-section">
+      <p>Enjoyed this story? Share it:</p>
+      <div class="share-buttons-container">
+        <a href="https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}&via=thingsource" class="share-btn" target="_blank">𝕏 Share on X</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}" class="share-btn" target="_blank">LinkedIn Share on LinkedIn</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}" class="share-btn" target="_blank">f Share on Facebook</a>
+        <a href="https://wa.me/?text=${encodedTitle}%20${encodedUrl}" class="share-btn" target="_blank">WhatsApp Share on WhatsApp</a>
+        <button class="share-btn" onclick="copyPostLink(this, '${postUrl}')">🔗 Copy link</button>
+      </div>
+    </div>
+  `;
+
+  // Update meta tags dynamically
+  document.title = `${post.title} — ThingSource`;
+  
+  const descEl = document.querySelector('meta[name="description"]');
+  if (descEl) descEl.setAttribute("content", post.summary);
+
+  const canonEl = document.querySelector('link[rel="canonical"]');
+  if (canonEl) canonEl.setAttribute("href", postUrl);
+
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute("content", `${post.title} — ThingSource`);
+
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) ogDesc.setAttribute("content", post.summary);
+
+  const ogImg = document.querySelector('meta[property="og:image"]');
+  if (ogImg) ogImg.setAttribute("content", coverImage);
+
+  const ogUrl = document.querySelector('meta[property="og:url"]');
+  if (ogUrl) ogUrl.setAttribute("content", postUrl);
+
+  const twTitle = document.querySelector('meta[name="twitter:title"]');
+  if (twTitle) twTitle.setAttribute("content", `${post.title} — ThingSource`);
+
+  const twDesc = document.querySelector('meta[name="twitter:description"]');
+  if (twDesc) twDesc.setAttribute("content", post.summary);
+
+  const twImg = document.querySelector('meta[name="twitter:image"]');
+  if (twImg) twImg.setAttribute("content", coverImage);
+
   modalContent.innerHTML = `
     <div class="post-detail-container">
       <div style="margin-bottom: 1.5rem;">
@@ -207,6 +254,7 @@ function openPost(id) {
         ${renderedSections}
       </div>
       ${factsHtml}
+      ${shareHtml}
       ${citationsHtml}
     </div>
   `;
@@ -215,10 +263,53 @@ function openPost(id) {
   document.body.style.overflow = 'hidden';
 }
 
+// Global copy link function
+window.copyPostLink = function(btn, url) {
+  navigator.clipboard.writeText(url).then(() => {
+    const originalText = btn.innerHTML;
+    btn.innerHTML = 'Copied!';
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+    }, 2000);
+  }).catch(err => {
+    console.error("Failed to copy link:", err);
+  });
+};
+
 // Close Modal
 function closeModal() {
   readerModal.classList.remove('open');
   document.body.style.overflow = '';
+  
+  // Reset meta tags to default homepage values
+  document.title = "ThingSource — Curious Origins & Accidental Genius";
+  
+  const descEl = document.querySelector('meta[name="description"]');
+  if (descEl) descEl.setAttribute("content", "Discover the surprising origins of everyday things. From food to words to customs — delivered to your inbox daily.");
+
+  const canonEl = document.querySelector('link[rel="canonical"]');
+  if (canonEl) canonEl.setAttribute("href", "https://thingsource.netlify.app");
+
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute("content", "ThingSource — One Curious Origin Story, Every Morning");
+
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) ogDesc.setAttribute("content", "Discover the surprising origins of everyday things. From food to words to customs — delivered to your inbox daily.");
+
+  const ogImg = document.querySelector('meta[property="og:image"]');
+  if (ogImg) ogImg.setAttribute("content", "https://thingsource.netlify.app/social-card.png");
+
+  const ogUrl = document.querySelector('meta[property="og:url"]');
+  if (ogUrl) ogUrl.setAttribute("content", "https://thingsource.netlify.app");
+
+  const twTitle = document.querySelector('meta[name="twitter:title"]');
+  if (twTitle) twTitle.setAttribute("content", "ThingSource — One Curious Origin Story, Every Morning");
+
+  const twDesc = document.querySelector('meta[name="twitter:description"]');
+  if (twDesc) twDesc.setAttribute("content", "Discover the surprising origins of everyday things. From food to words to customs — delivered to your inbox daily.");
+
+  const twImg = document.querySelector('meta[name="twitter:image"]');
+  if (twImg) twImg.setAttribute("content", "https://thingsource.netlify.app/social-card.png");
 }
 
 // Handle Subscription form submit

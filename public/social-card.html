@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      width: 1200px;
+      height: 630px;
+      background-color: #0D7A6B;
+      background-image: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+      background-size: 24px 24px;
+      font-family: 'Inter', sans-serif;
+      color: #FFFFFF;
+      display: flex;
+      position: relative;
+      overflow: hidden;
+    }
+    .left-side {
+      width: 60%;
+      height: 100%;
+      padding: 80px 0 80px 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .label {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      opacity: 0.7;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+    .headline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .subline {
+      font-size: 22px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .url {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.6);
+      margin-top: 32px;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .logo-dot {
+      color: #FFF8EC;
+      font-size: 28px;
+      line-height: 1;
+    }
+    .logo-text {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .right-side {
+      width: 40%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .question-mark {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 280px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.1);
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="left-side">
+    <div>
+      <div class="label">Curious Origins</div>
+      <div class="headline">Where did that come from?</div>
+      <div class="subline">One surprising origin story, every morning.</div>
+      <div class="url">thingsource.netlify.app</div>
+    </div>
+    <div class="logo-container">
+      <span class="logo-dot">•</span>
+      <span class="logo-text">ThingSource</span>
+    </div>
+  </div>
+
+  <div class="right-side">
+    <div class="question-mark">?</div>
+  </div>
+
+</body>
+</html>

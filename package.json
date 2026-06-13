@@ -7,7 +7,8 @@
     "start": "node server.js",
     "agent": "node agent.js",
     "run-and-push": "node agent.js && git add public/posts.json public/images/ && git commit -m \"chore: auto-publish new discovery\" && git push",
-    "build": "node build.js"
+    "build": "node build.js",
+    "generate-social-card": "node scripts/generate-social-card.js"
   },
   "dependencies": {
     "@google/genai": "^1.0.0",
@@ -15,5 +16,8 @@
     "@netlify/functions": "^2.0.0",
     "resend": "^4.0.0",
     "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^21.0.0"
   }
 }
