@@ -71,6 +71,26 @@ const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://thingsource.netlify.app/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://thingsource.netlify.app/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://thingsource.netlify.app/privacy-policy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://thingsource.netlify.app/terms-of-service.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
 ${sitemapUrls}
 </urlset>`;
 

@@ -11,6 +11,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://thingsource.netlify.app/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://thingsource.netlify.app/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://thingsource.netlify.app/privacy-policy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://thingsource.netlify.app/terms-of-service.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://thingsource.netlify.app/blog/?id=1781392215551-the-word-quiz-</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://thingsource.netlify.app/blog/?id=1781373179643-the-word-salary-</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://thingsource.netlify.app/blog/?id=1781368067616-caesar-salad</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — ThingSource</title>
+  <meta name="description" content="Discover what ThingSource is, how it operates, and the team behind it.">
+  <link rel="canonical" href="https://thingsource.netlify.app/about.html">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo-group" onclick="window.location.href='/'">
+        <h1>ThingSource</h1>
+        <span class="tagline">Curious Origins</span>
+      </div>
+      <nav>
+        <a href="/blog/" class="nav-btn">Blog</a>
+        <a href="/about.html" class="nav-btn active">About</a>
+        <a href="/contact.html" class="nav-btn">Contact</a>
+        <a href="/#subscribe-section" class="nav-btn btn-subscribe-nav">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+    <div class="post-detail-container" style="max-width: 720px; margin: 0 auto 3rem auto; background: var(--card-bg); padding: 2.5rem; border-radius: 16px; box-shadow: var(--shadow-soft);">
+      <h1 style="font-family: var(--font-serif); font-size: 2.4rem; line-height: 1.2; margin-bottom: 1.5rem; color: var(--text-dark);">About ThingSource</h1>
+      
+      <div style="font-family: var(--font-sans); font-size: 1.05rem; line-height: 1.8; color: #333335;">
+        <p style="margin-bottom: 1.5rem;">ThingSource is a daily digital publication that uncovers the fascinating, surprising, and often accidental origins of everyday things. From the foods we eat to the words we say and the customs we follow, we deliver one curious origin story directly to your inbox every morning, helping you see the familiar world through a lens of historical wonder.</p>
+        
+        <h3 style="font-family: var(--font-serif); font-size: 1.4rem; margin-top: 2rem; margin-bottom: 1rem; color: var(--text-dark);">How It Works</h3>
+        <p style="margin-bottom: 1.5rem;">Our autonomous daily publication loop runs seamlessly behind the scenes:</p>
+        <ol style="padding-left: 1.5rem; margin-bottom: 1.5rem;">
+          <li style="margin-bottom: 0.5rem;"><strong>Research:</strong> The system crawls reputable history databases and online archives to discover unique historical topics while avoiding duplicates.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Write:</strong> Generative AI analyzes the historical data to draft an engaging, editorial-style article complete with fun facts and verified citations.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Publish:</strong> The codebase commits updates directly to our static web files, launching an automated build and publishing the story online.</li>
+          <li style="margin-bottom: 0.5rem;"><strong>Email:</strong> The new story is immediately compiled into a beautiful newsletter and distributed to all active subscribers.</li>
+        </ol>
+
+        <h3 style="font-family: var(--font-serif); font-size: 1.4rem; margin-top: 2rem; margin-bottom: 1rem; color: var(--text-dark);">About Arman Ayva</h3>
+        <p style="margin-bottom: 1.5rem;">ThingSource was founded and engineered by Arman Ayva, a creator and technology enthusiast based in Quebec, Canada, who is passionate about building autonomous software and digital publications. Besides writing code and managing agentic workflows, Arman creates original ambient music and electronic soundscapes.</p>
+
+        <!-- Spotify Support Block -->
+        <div style="background:linear-gradient(135deg,#0D7A6B 0%,#095e54 100%);border-radius:16px;padding:32px;margin:32px 0;color:white;position:relative;overflow:hidden;">
+          <div style="position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:120px;opacity:0.08;line-height:1;pointer-events:none;">♪</div>
+          <p style="font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:rgba(255,255,255,0.6);margin:0 0 8px;font-family:Inter,sans-serif;">Keeping ThingSource free</p>
+          <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:24px;color:white;margin:0 0 12px;line-height:1.3;">Enjoyed this story?</h3>
+          <p style="font-size:15px;color:rgba(255,255,255,0.85);line-height:1.7;margin:0 0 20px;font-family:Inter,sans-serif;max-width:480px;">
+            ThingSource is created by <strong>Arman Ayva</strong> — a digital creator and technology enthusiast who also makes original music. Every Spotify stream supports this site and keeps it completely free for all readers.
+          </p>
+          <a href="https://open.spotify.com/search/Arman%20Ayva" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1DB954;color:white;text-decoration:none;padding:12px 24px;border-radius:50px;font-family:Inter,sans-serif;font-size:15px;font-weight:600;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+            Listen on Spotify — Search "Arman Ayva"
+          </a>
+          <p style="font-size:12px;color:rgba(255,255,255,0.5);margin:12px 0 0;font-family:Inter,sans-serif;">Free to stream · Supports independent creation · Thank you 🙏</p>
+        </div>
+
+        <!-- AI content disclaimer (amber box) -->
+        <div class="fun-facts-box" style="margin-top: 2rem;">
+          <h4 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--text-dark); margin-bottom: 0.5rem;">Content Disclaimer</h4>
+          <p style="margin-bottom: 0; font-size: 0.95rem; line-height: 1.6;">Articles are AI-generated for educational and entertainment purposes. Always verify important information through additional sources.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h3>ThingSource</h3>
+        <span>Curious Origins Daily</span>
+      </div>
+      <div class="footer-right">
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <span>·</span>
+        <a href="/terms-of-service.html">Terms of Service</a>
+        <span>·</span>
+        <a href="/about.html">About</a>
+        <span>·</span>
+        <a href="/contact.html">Contact</a>
+        <span>·</span>
+        <span>&copy; 2025 ThingSource</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
