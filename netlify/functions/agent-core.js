@@ -2,6 +2,16 @@ const { GoogleGenAI } = require("@google/genai");
 const { getStore } = require("@netlify/blobs");
 const { Resend } = require("resend");
 
+async function fetchWithTimeout(url, options = {}, timeoutMs = 10000) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 async function generateWithFallback(ai, geminiParams, claudePromptOverride = null) {
   try {
     const response = await ai.models.generateContent(geminiParams);
@@ -18,7 +28,7 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
     
     const promptContent = claudePromptOverride || geminiParams.contents;
     
-    const claudeRes = await fetch("https://api.anthropic.com/v1/messages", {
+    const claudeRes = await fetchWithTimeout("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: {
         "x-api-key": process.env.ANTHROPIC_API_KEY,
@@ -33,7 +43,7 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
           content: promptContent 
         }],
       }),
-    });
+    }, 15000); // Allow 15 seconds for Claude fallback
     
     const data = await claudeRes.json();
     if (!claudeRes.ok) throw new Error(data.error?.message || "Claude API error");
@@ -52,131 +62,90 @@ async function runAgent() {
   }
 
   const ai = new GoogleGenAI({ apiKey });
-  let topic = null;
-  let blogTitleSuggestion = "";
 
-  // Step 1: Autonomous Topic Selection
-  log("Asking Gemini to select an interesting thing to research...");
-  const topicPrompt = `Suggest one extremely interesting, specific, and slightly mysterious origin or source of an everyday thing (such as a food item, a common custom, an idiom, a widely used word, or a simple invention).
-The suggestion must be suitable for a highly engaging history and trivia blog post.
-Return ONLY a raw JSON object with two fields:
-- "topic": The exact search query term (e.g., "margherita pizza origin" or "why we clink glasses")
-- "title": A catchy headline for this research.
-Do not wrap it in markdown block tags. Return only the raw JSON.`;
+  const prompt = `You are a research blogger with access to Google Search.
 
-  let topicText;
+Do all of the following in one response:
+
+1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known.
+
+2. Use Google Search to research it thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
+
+3. Write a complete blog post about it.
+
+Return ONLY a raw JSON object with no markdown, no backticks:
+{
+  "topic": "the search term you used",
+  "title": "Catchy headline",
+  "category": "Food & Drink | Culture | Language | Inventions | Science",
+  "summary": "1-2 sentence compelling hook",
+  "sections": [
+    { "heading": "Section title", "content": "Full paragraph" },
+    { "heading": "Section title", "content": "Full paragraph" },
+    { "heading": "Section title", "content": "Full paragraph" }
+  ],
+  "funFacts": ["fact 1", "fact 2", "fact 3"],
+  "imageKeywords": ["simple keyword", "simple keyword"],
+  "citations": ["url1", "url2"]
+}`;
+
+  const claudePromptOverride = `You are a research blogger.
+
+Do all of the following in one response:
+
+1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known.
+
+2. Using your training knowledge, research the topic thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
+
+3. Write a complete blog post about it.
+
+Return ONLY a raw JSON object with no markdown, no backticks:
+{
+  "topic": "the term you chose",
+  "title": "Catchy headline",
+  "category": "Food & Drink | Culture | Language | Inventions | Science",
+  "summary": "1-2 sentence compelling hook",
+  "sections": [
+    { "heading": "Section title", "content": "Full paragraph" },
+    { "heading": "Section title", "content": "Full paragraph" },
+    { "heading": "Section title", "content": "Full paragraph" }
+  ],
+  "funFacts": ["fact 1", "fact 2", "fact 3"],
+  "imageKeywords": ["simple keyword", "simple keyword"],
+  "citations": ["url1", "url2"]
+}`;
+
+  log("Executing research and blog post compilation in a single call...");
+  let responseText;
   try {
-    topicText = await generateWithFallback(ai, {
-      model: 'gemini-2.5-flash',
-      contents: topicPrompt,
-    });
-  } catch (err) {
-    log(`Failed to select topic: ${err.message}`);
-    throw err;
-  }
-
-  try {
-    let text = topicText.trim();
-    if (text.startsWith("```")) {
-      text = text.replace(/```json|```/g, "").trim();
-    }
-    const data = JSON.parse(text);
-    topic = data.topic;
-    blogTitleSuggestion = data.title;
-    log(`Decided to research: "${topic}" (Suggested Headline: "${blogTitleSuggestion}")`);
-  } catch (parseError) {
-    log(`Failed to parse suggested topic JSON. Using fallback. Response was: ${topicText}`);
-    topic = "croissant origin";
-  }
-
-  // Step 2: Research via Gemini with Google Search Grounding
-  log(`Querying Gemini Flash with Google Search Grounding to research "${topic}"...`);
-  const researchPrompt = `You are a meticulous investigative researcher. Perform exhaustive research on the topic: "${topic}".
-Using the Google Search tool, find the authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
-Provide a detailed factual report. Make sure to identify specific references and citations where appropriate.`;
-
-  const claudeResearchPrompt = `Using your training knowledge, research the following topic thoroughly: ${topic}. Provide detailed origins, key dates, historical context, notable figures, and surprising trivia.`;
-
-  let researchText;
-  try {
-    researchText = await generateWithFallback(ai, {
-      model: 'gemini-2.5-flash',
-      contents: researchPrompt,
+    responseText = await generateWithFallback(ai, {
+      model: "gemini-2.5-flash",
+      contents: prompt,
       config: {
         tools: [{ googleSearch: {} }],
+        responseMimeType: "application/json",
       },
-    }, claudeResearchPrompt);
+    }, claudePromptOverride);
   } catch (err) {
-    log(`Failed research phase: ${err.message}`);
-    throw err;
-  }
-  log("Research phase complete.");
-
-  // Step 3: Compile research into structured Blog Post JSON
-  log("Compiling research into a structured blog post...");
-  const blogPrompt = `You are an expert creative blogger and historian. Take the following research about "${topic}":
-
-${researchText}
-
-Transform this research into a gorgeous, highly engaging blog post.
-Format the response as a JSON object matching this schema:
-{
-  "title": "A catchy, interesting, click-worthy headline",
-  "category": "A single-word or two-word category, e.g., 'Food & Drink', 'Culture', 'Language', 'Inventions'",
-  "summary": "A brief, compelling hook summarizing the article (1-2 sentences)",
-  "sections": [
-    {
-      "heading": "Section Title",
-      "content": "Paragraph content in Markdown format. Use bold, italics, or lists where appropriate. Must be rich and engaging."
-    }
-  ],
-  "funFacts": [
-    "A short, surprising trivia point.",
-    "Another short, surprising trivia point."
-  ],
-  "imageKeywords": [
-    "A very simple, broad 1-2 word search term for the cover photo (e.g., 'sauce' or 'potatoes' - avoid names, long sentences, or rare items)",
-    "A very simple, broad 1-2 word search term for a secondary photo (e.g., 'chemist' or 'factory')",
-    "A very simple, broad 1-2 word search term for a third photo (e.g., 'spices' or 'cooking')"
-  ],
-  "citations": [
-    "URL 1 used in the research",
-    "URL 2 used in the research"
-  ]
-}
-
-Ensure the content is detailed, historically accurate, and written in a captivating storytelling voice.
-Do not include any JSON wrapper other than the JSON object itself. Do not write markdown tags around it.`;
-
-  let blogText;
-  try {
-    blogText = await generateWithFallback(ai, {
-      model: 'gemini-2.5-flash',
-      contents: blogPrompt,
-      config: {
-        responseMimeType: 'application/json',
-      }
-    });
-  } catch (err) {
-    log(`Failed to compile blog post: ${err.message}`);
+    log(`Failed generation phase: ${err.message}`);
     throw err;
   }
 
   let postData;
   try {
-    let text = blogText.trim();
+    let text = responseText.trim();
     if (text.startsWith("```")) {
       text = text.replace(/```json|```/g, "").trim();
     }
     postData = JSON.parse(text);
   } catch (parseError) {
-    log(`Failed to parse blog post JSON. Response was: ${blogText}`);
-    throw new Error("Invalid JSON returned from Gemini compiler.");
+    log(`Failed to parse blog post JSON. Response was: ${responseText}`);
+    throw new Error("Invalid JSON returned from compiler.");
   }
 
+  const topic = postData.topic || "unknown origin";
   const postId = `${Date.now()}-${topic.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
   postData.id = postId;
-  postData.topic = topic;
   postData.date = new Date().toISOString();
   
   // Store Unsplash URLs directly
@@ -196,7 +165,7 @@ Do not include any JSON wrapper other than the JSON object itself. Do not write 
   };
 
   // a. GET the current posts.json from GitHub to retrieve its SHA:
-  const currentRes = await fetch(repoPath, { headers });
+  const currentRes = await fetchWithTimeout(repoPath, { headers }, 10000);
   if (!currentRes.ok) {
     throw new Error(`Failed to fetch posts.json from GitHub. Status: ${currentRes.status}`);
   }
@@ -210,7 +179,7 @@ Do not include any JSON wrapper other than the JSON object itself. Do not write 
   const newContent = Buffer.from(JSON.stringify(updatedPosts, null, 2)).toString("base64");
 
   // d. PUT the updated file back
-  const putRes = await fetch(repoPath, {
+  const putRes = await fetchWithTimeout(repoPath, {
     method: "PUT",
     headers,
     body: JSON.stringify({
@@ -219,7 +188,7 @@ Do not include any JSON wrapper other than the JSON object itself. Do not write 
       sha: current.sha,
       branch: process.env.GITHUB_BRANCH || "main",
     }),
-  });
+  }, 10000);
 
   if (!putRes.ok) {
     throw new Error(`Failed to commit posts.json to GitHub. Status: ${putRes.status}`);
@@ -261,7 +230,7 @@ Do not include any JSON wrapper other than the JSON object itself. Do not write 
 
             const unsubUrl = `${siteUrl}/.netlify/functions/unsubscribe?token=${subscriberData.token}`;
 
-            await resend.emails.send({
+            const sendPromise = resend.emails.send({
               from: process.env.RESEND_FROM || "onboarding@resend.dev",
               to: subscriberData.email,
               subject: postData.title,
@@ -283,6 +252,12 @@ Do not include any JSON wrapper other than the JSON object itself. Do not write 
 </body>
 </html>`
             });
+
+            const timeoutPromise = new Promise((_, reject) =>
+              setTimeout(() => reject(new Error("Resend timeout")), 10000)
+            );
+
+            await Promise.race([sendPromise, timeoutPromise]);
           } catch (err) {
             log(`Failed to send email to ${blob.key}: ${err.message}`);
           }
@@ -295,7 +270,7 @@ Do not include any JSON wrapper other than the JSON object itself. Do not write 
   // Step 6: Ping the healthcheck
   if (process.env.HEALTHCHECK_URL) {
     log("Pinging healthcheck...");
-    await fetch(process.env.HEALTHCHECK_URL).catch(() => {});
+    await fetchWithTimeout(process.env.HEALTHCHECK_URL, {}, 5000).catch(() => {});
   }
 
   log("Agent execution finished successfully.");

@@ -16,3 +16,4 @@
 
 [functions."agent"]
   schedule = "0 7 * * *"
+  timeout = 26
