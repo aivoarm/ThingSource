@@ -1,6 +1,89 @@
 const { getStore } = require("@netlify/blobs");
 const { Resend } = require("resend");
 
+// ─── Plain-text builder ────────────────────────────────────────────────────
+function buildPlainTextEmail(post, unsubUrl) {
+  let text = "";
+  text += `THINGSOURCE — CURIOUS ORIGINS DAILY\n\n`;
+  text += `${post.title}\n`;
+  text += `${"=".repeat(post.title.length)}\n\n`;
+  text += `${post.summary}\n\n`;
+
+  for (const section of post.sections || []) {
+    text += `${section.heading}\n`;
+    text += `${"-".repeat(section.heading.length)}\n`;
+    const plain = section.content
+      .replace(/\*\*(.*?)\*\*/g, "$1")
+      .replace(/\*(.*?)\*/g, "$1");
+    text += `${plain}\n\n`;
+  }
+
+  if (post.funFacts?.length) {
+    text += `DID YOU KNOW?\n-------------\n`;
+    post.funFacts.forEach((f) => (text += `• ${f}\n`));
+    text += "\n";
+  }
+
+  text += `---\n`;
+  text += `SPONSORED BY\n`;
+  text += `Arman Ayva — Digital creator and technology `;
+  text += `enthusiast passionate about AI and automation.\n`;
+  text += `Search "Arman Ayva" to explore his work.\n\n`;
+  text += `---\n`;
+  text += `You received this because you subscribed to ThingSource.\n`;
+  text += `To unsubscribe: ${unsubUrl}\n`;
+  text += `© 2026 ThingSource\n`;
+  return text;
+}
+
+// ─── HTML builder ─────────────────────────────────────────────────────────
+function buildEmailHtml(post, unsubUrl) {
+  const firstSection = post.sections?.[0];
+  const firstSectionPreview = firstSection
+    ? firstSection.content.substring(0, 300) + "…"
+    : "";
+
+  return `<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="font-family:'Helvetica Neue',Arial,sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#1C1C1E;background:#ffffff">
+
+  <!-- Header — plain text, no link -->
+  <p style="font-family:Georgia,serif;font-size:22px;font-weight:bold;color:#0D7A6B;margin:0 0 4px">ThingSource</p>
+  <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.08em;margin:0 0 24px">Curious Origins Daily</p>
+
+  <hr style="border:none;border-top:1px solid #eee;margin:0 0 24px">
+
+  <!-- Post title & summary -->
+  <h1 style="font-family:Georgia,serif;font-size:24px;color:#1C1C1E;margin:0 0 10px;line-height:1.3">${post.title}</h1>
+  <p style="font-size:15px;color:#444;font-style:italic;margin:0 0 20px;line-height:1.6">${post.summary}</p>
+
+  <!-- First section preview -->
+  <p style="font-size:14px;line-height:1.7;color:#1C1C1E;margin:0 0 24px">${firstSectionPreview}</p>
+
+  <!-- Sponsor block — plain text only, no links -->
+  <div style="background:#F8F6F1;border-radius:8px;padding:16px 20px;margin:24px 0">
+    <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 8px">Sponsored by</p>
+    <p style="font-size:16px;font-weight:bold;color:#1C1C1E;margin:0 0 6px">Arman Ayva</p>
+    <p style="font-size:14px;color:#555;line-height:1.6;margin:0">
+      Digital creator and technology enthusiast passionate about AI, automation, and building innovative tools.
+      Search &ldquo;Arman Ayva&rdquo; to explore his work.
+    </p>
+  </div>
+
+  <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
+
+  <!-- Footer — unsubscribe is the ONLY link -->
+  <p style="font-size:12px;color:#999;line-height:1.6;margin:0">
+    You received this email because you subscribed to ThingSource.<br>
+    <a href="${unsubUrl}" style="color:#999">Unsubscribe</a>
+  </p>
+
+</body>
+</html>`;
+}
+
+// ─── Handler ───────────────────────────────────────────────────────────────
 exports.handler = async (event) => {
   const log = (msg) => console.log(`[send-emails] ${msg}`);
 
@@ -45,10 +128,6 @@ exports.handler = async (event) => {
 
     const resend = new Resend(process.env.RESEND_API_KEY);
     const siteUrl = "https://thingsource.netlify.app";
-    const postUrl = `${siteUrl}/blog/?id=${postData.id}`;
-    
-    const firstSection = postData.sections?.[0];
-    const firstSectionPreview = firstSection ? firstSection.content.substring(0, 300) + "..." : "";
 
     // Send in batches of 100 (Resend free tier limit is 100/day)
     const batchSize = 100;
@@ -65,49 +144,13 @@ exports.handler = async (event) => {
             const unsubUrl = `${siteUrl}/.netlify/functions/unsubscribe?token=${subscriberData.token}`;
 
             const sendPromise = resend.emails.send({
-              from: process.env.RESEND_FROM || "onboarding@resend.dev",
+              from: process.env.RESEND_FROM || "ThingSource <thingsource@resend.dev>",
+              replyTo: "thingsource@resend.dev",
               to: subscriberData.email,
-              subject: postData.title,
-              html: `<!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#1C1C1E">
-  <h1 style="font-family: Georgia, serif; font-size: 24px; color: #1C1C1E; margin-bottom: 10px;">${postData.title}</h1>
-  <p style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px; color: #1C1C1E; font-style: italic; margin-bottom: 20px;">${postData.summary}</p>
-  
-  <p style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #1C1C1E;">${firstSectionPreview}</p>
-
-  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #FFFFFF; border-left: 4px solid #0D7A6B; margin: 25px 0; border-radius: 0 4px 4px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-    <tr>
-      <td style="padding: 20px;">
-        <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 10px; text-transform: uppercase; color: #0D7A6B; font-weight: bold; margin: 0 0 6px 0; letter-spacing: 1px;">
-          From The Creator
-        </p>
-        <h3 style="font-family: Georgia, serif; font-size: 18px; font-weight: bold; margin: 0 0 6px 0; color: #1C1C1E;">
-          Tune into my music projects
-        </h3>
-        <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5; color: #1C1C1E; margin: 0 0 16px 0;">
-          When I'm not configuring automation pipelines, I make music. Stream my official tracks and personal curated collections over on Spotify.
-        </p>
-        <div>
-          <a href="https://open.spotify.com/artist/1DukxxMpzFcNZx5iIJiSK4" target="_blank" style="background-color: #0D7A6B; color: #F8F6F1; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 38px; text-align: center; text-decoration: none; width: 180px; -webkit-text-size-adjust: none; mso-hide: all; border-radius: 4px;">Listen on Spotify →</a>
-          <br>
-          <a href="https://www.armanayva.com" target="_blank" style="font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11px; color: #0D7A6B; text-decoration: none; opacity: 0.7; margin-top: 8px; display: inline-block;">armanayva.com ↗</a>
-        </div>
-      </td>
-    </tr>
-  </table>
-
-  <div style="margin:24px 0;">
-    <a href="${postUrl}" style="background:#0D7A6B;color:#F8F6F1;padding:12px 24px;text-decoration:none;border-radius:6px;display:inline-block;font-family:'Helvetica Neue', Arial, sans-serif;font-weight:bold;">Read full post</a>
-  </div>
-  <hr style="border:none;border-top:1px solid #eee;margin:32px 0;">
-  <p style="font-size:12px;color:#999;">
-    You received this email because you subscribed to ThingSource.<br>
-    <a href="${unsubUrl}" style="color:#999;">Unsubscribe</a>
-  </p>
-</body>
-</html>`
+              subject: `${postData.title} · ThingSource`,
+              html: buildEmailHtml(postData, unsubUrl),
+              text: buildPlainTextEmail(postData, unsubUrl),
+              // No tracking options — clean send
             });
 
             // 8 second timeout per email
