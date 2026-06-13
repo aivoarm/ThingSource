@@ -90,7 +90,7 @@ exports.handler = async (event) => {
           When I'm not configuring automation pipelines, I make music. Stream my official tracks and personal curated collections over on Spotify.
         </p>
         <div>
-          <a href="https://open.spotify.com/artist/YOUR_SPOTIFY_ID" target="_blank" style="background-color: #0D7A6B; color: #F8F6F1; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 38px; text-align: center; text-decoration: none; width: 180px; -webkit-text-size-adjust: none; mso-hide: all; border-radius: 4px;">Listen on Spotify →</a>
+          <a href="https://open.spotify.com/artist/1DukxxMpzFcNZx5iIJiSK4" target="_blank" style="background-color: #0D7A6B; color: #F8F6F1; display: inline-block; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 38px; text-align: center; text-decoration: none; width: 180px; -webkit-text-size-adjust: none; mso-hide: all; border-radius: 4px;">Listen on Spotify →</a>
         </div>
       </td>
     </tr>

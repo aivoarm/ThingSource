@@ -183,7 +183,7 @@ function openPost(id) {
       <p style="font-family: 'Inter', sans-serif; font-size: 14px; line-height: 1.5; color: #1C1C1E; margin: 0 0 15px 0; opacity: 0.9;">
         Check out my official Spotify profile for fresh music streams, curated soundscapes, and regular sonic releases.
       </p>
-      <a href="https://open.spotify.com/artist/YOUR_SPOTIFY_ID" 
+      <a href="https://open.spotify.com/artist/1DukxxMpzFcNZx5iIJiSK4" 
          target="_blank" 
          rel="noopener noreferrer" 
          style="
