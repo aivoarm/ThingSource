@@ -1,5 +1,53 @@
 [
   {
+    "topic": "The Word 'Quiz'",
+    "title": "The Mystery Word: How 'Quiz' Went From Graffiti to Global Phenomenon",
+    "category": "Language",
+    "summary": "The word 'quiz' — meaning a test or examination — has one of the most debated and murky etymologies in the English language, with a legendary (if possibly apocryphal) origin story involving a Dublin theater owner, a bet, and a city-wide act of chalk vandalism. Tracing its journey reveals as much about how language evolves as it does about 18th-century urban mischief.",
+    "sections": [
+      {
+        "heading": "The Famous Dublin Legend",
+        "content": "The most colorful origin story of 'quiz' involves a Dublin theater manager named Richard Daly, who allegedly made a bet in 1791 that he could introduce a brand-new nonsense word into the English language within 48 hours. According to the legend, Daly hired street urchins to chalk the four-letter word 'QUIZ' on walls, doors, and pavements all across Dublin overnight. By morning, the word was on every Dubliner's lips — and having no meaning, people assumed it must mean something clever, causing it to enter common usage almost instantly."
+      },
+      {
+        "heading": "Why Historians Are Skeptical",
+        "content": "The Daly story is wonderfully vivid, but most etymologists treat it with serious suspicion. The tale first appeared in print decades after the supposed event, and no contemporary 18th-century sources corroborate it. Linguistic historian Michael Quinion and others point out that the word 'quiz' appears in written records as early as 1782 — nearly a decade before Daly's alleged bet — making the Dublin graffiti story chronologically impossible as an origin."
+      },
+      {
+        "heading": "The Real Linguistic Trail",
+        "content": "The earliest documented uses of 'quiz' in the 1780s referred not to a test but to an odd or eccentric person — a 'quiz' was someone who was strange or ridiculous, and 'to quiz' someone meant to mock or stare at them impertinently. The shift to meaning a test or examination didn't solidify until the mid-19th century, particularly in American English, where school examinations began to be informally called quizzes. The exact mechanism of that semantic leap remains genuinely unclear to this day."
+      },
+      {
+        "heading": "Possible Latin Roots and Other Theories",
+        "content": "Some scholars have proposed that 'quiz' derives from the Latin word 'quis,' meaning 'who' or 'what,' which appeared on school slates and examination papers as part of standard Latin exercises. Others suggest it may be a clipped form of 'inquisitive' or related to the word 'quisby,' 18th-century British slang for an odd fellow. None of these theories has achieved consensus, making 'quiz' one of the great unsolved puzzles of English etymology — fitting, given its current meaning."
+      },
+      {
+        "heading": "From Ridicule to Pub Nights: The Word's Cultural Journey",
+        "content": "By the 20th century, 'quiz' had fully shed its mocking connotations and become wholesome shorthand for competitive knowledge tests. Radio quiz shows popularized the format in the 1930s and 1940s, with programs like NBC's 'Information Please' turning public quizzing into entertainment. The British pub quiz tradition, which became a cultural institution from the 1970s onward, transformed the word into a social ritual — and today quiz competitions exist in virtually every language and culture on Earth, though they often borrow the English word directly."
+      }
+    ],
+    "funFacts": [
+      "The word 'quiz' is so etymologically mysterious that the Oxford English Dictionary lists its origin simply as 'origin unknown.'",
+      "Richard Daly, the Dublin theater manager at the center of the legend, was a real and colorful historical figure — he was once prosecuted for attacking a man in the street with a sword cane.",
+      "The first recorded American use of 'quiz' to mean a classroom test appears in the diary of Edward Jenner Hall around 1852, suggesting the academic sense is entirely American in origin."
+    ],
+    "imageKeywords": [
+      "chalkboard writing",
+      "old Dublin street"
+    ],
+    "citations": [
+      "https://www.etymonline.com/word/quiz",
+      "https://www.oed.com/view/Entry/156876",
+      "https://www.worldwidewords.org/qa/qa-qui2.htm",
+      "https://jstor.org/stable/455227"
+    ],
+    "id": "1781392215551-the-word-quiz-",
+    "date": "2026-06-13T23:10:15.551Z",
+    "images": [
+      "https://picsum.photos/seed/1781392215551-the-word-quiz-/800/500"
+    ]
+  },
+  {
     "topic": "The Word 'Salary'",
     "title": "You're Not Paid in Salt — But the Word 'Salary' Might Be",
     "category": "Language",
