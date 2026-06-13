@@ -1,16 +1,4 @@
 const { GoogleGenAI } = require("@google/genai");
-const { getStore } = require("@netlify/blobs");
-const { Resend } = require("resend");
-
-async function fetchWithTimeout(url, options = {}, timeoutMs = 10000) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    return await fetch(url, { ...options, signal: controller.signal });
-  } finally {
-    clearTimeout(timeout);
-  }
-}
 
 async function generateWithFallback(ai, geminiParams, claudePromptOverride = null) {
   try {
@@ -28,7 +16,7 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
     
     const promptContent = claudePromptOverride || geminiParams.contents;
     
-    const claudeRes = await fetchWithTimeout("https://api.anthropic.com/v1/messages", {
+    const claudeRes = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: {
         "x-api-key": process.env.ANTHROPIC_API_KEY,
@@ -43,7 +31,7 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
           content: promptContent 
         }],
       }),
-    }, 15000); // Allow 15 seconds for Claude fallback
+    });
     
     const data = await claudeRes.json();
     if (!claudeRes.ok) throw new Error(data.error?.message || "Claude API error");
@@ -164,8 +152,15 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     "User-Agent": "ThingSource-Agent"
   };
 
-  // a. GET the current posts.json from GitHub to retrieve its SHA:
-  const currentRes = await fetchWithTimeout(repoPath, { headers }, 10000);
+  // GitHub GET with 15s timeout
+  const getController = new AbortController();
+  const getTimeout = setTimeout(() => getController.abort(), 15000);
+  const currentRes = await fetch(repoPath, { 
+    headers,
+    signal: getController.signal
+  });
+  clearTimeout(getTimeout);
+
   if (!currentRes.ok) {
     throw new Error(`Failed to fetch posts.json from GitHub. Status: ${currentRes.status}`);
   }
@@ -174,12 +169,14 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     ? JSON.parse(Buffer.from(current.content, "base64").toString("utf8"))
     : [];
 
-  // c. Prepend the new post to the array (newest first)
+  // Prepend the new post to the array (newest first)
   const updatedPosts = [postData, ...existingPosts];
   const newContent = Buffer.from(JSON.stringify(updatedPosts, null, 2)).toString("base64");
 
-  // d. PUT the updated file back
-  const putRes = await fetchWithTimeout(repoPath, {
+  // GitHub PUT with 15s timeout
+  const putController = new AbortController();
+  const putTimeout = setTimeout(() => putController.abort(), 15000);
+  const putRes = await fetch(repoPath, {
     method: "PUT",
     headers,
     body: JSON.stringify({
@@ -188,89 +185,34 @@ Return ONLY a raw JSON object with no markdown, no backticks:
       sha: current.sha,
       branch: process.env.GITHUB_BRANCH || "main",
     }),
-  }, 10000);
+    signal: putController.signal
+  });
+  clearTimeout(putTimeout);
 
   if (!putRes.ok) {
     throw new Error(`Failed to commit posts.json to GitHub. Status: ${putRes.status}`);
   }
   log("Successfully committed to GitHub.");
 
-  // Step 5: Send emails to all subscribers
-  log("Fetching subscribers from Netlify Blobs...");
-  const store = getStore({
-    name: "subscribers",
-    siteID: process.env.NETLIFY_SITE_ID,
-    token: process.env.NETLIFY_TOKEN,
+  // Fire and forget send-emails call — do not await this
+  fetch("https://thingsource.netlify.app/.netlify/functions/send-emails", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(postData),
+  }).then(() => {
+    log("Post committed. Email send delegated.");
+  }).catch(err => {
+    console.log("Email dispatch error:", err.message);
   });
-  const { blobs } = await store.list();
-  console.log("Subscribers found:", blobs.length);
-  console.log("Blob keys:", blobs.map(b => b.key));
-
-  if (blobs.length === 0) {
-    log("No subscribers found. Skipping email sending.");
-  } else {
-    const resend = new Resend(process.env.RESEND_API_KEY);
-    const siteUrl = "https://thingsource.netlify.app";
-    const postUrl = `${siteUrl}/blog/?id=${postData.id}`;
-    
-    const firstSection = postData.sections?.[0];
-    const previewText = firstSection ? firstSection.content.substring(0, 300) : "";
-
-    // Send in batches of 100 (Resend free tier limit is 100/day)
-    const batchSize = 100;
-    for (let i = 0; i < blobs.length; i += batchSize) {
-      const batch = blobs.slice(i, i + batchSize);
-      await Promise.all(
-        batch.map(async (blob) => {
-          try {
-            const raw = await store.get(blob.key);
-            const subscriberData = JSON.parse(raw || "{}");
-            console.log("Subscriber:", subscriberData.email);
-            if (!subscriberData.email) return;
-
-            const unsubUrl = `${siteUrl}/.netlify/functions/unsubscribe?token=${subscriberData.token}`;
-
-            const sendPromise = resend.emails.send({
-              from: process.env.RESEND_FROM || "onboarding@resend.dev",
-              to: subscriberData.email,
-              subject: postData.title,
-              html: `<!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#1a1a1a">
-  <h1>${postData.title}</h1>
-  <p><strong>${postData.summary}</strong></p>
-  <p>${previewText}...</p>
-  <div style="margin:24px 0;">
-    <a href="${postUrl}" style="background:#1a1a1a;color:#fff;padding:12px 24px;text-decoration:none;border-radius:6px;display:inline-block;">Read full post</a>
-  </div>
-  <hr style="border:none;border-top:1px solid #eee;margin:32px 0;">
-  <p style="font-size:12px;color:#999;">
-    You received this email because you subscribed to ThingSource.<br>
-    <a href="${unsubUrl}" style="color:#999;">Unsubscribe</a>
-  </p>
-</body>
-</html>`
-            });
-
-            const timeoutPromise = new Promise((_, reject) =>
-              setTimeout(() => reject(new Error("Resend timeout")), 10000)
-            );
-
-            await Promise.race([sendPromise, timeoutPromise]);
-          } catch (err) {
-            log(`Failed to send email to ${blob.key}: ${err.message}`);
-          }
-        })
-      );
-    }
-    log(`Emailed ${blobs.length} subscribers.`);
-  }
 
   // Step 6: Ping the healthcheck
   if (process.env.HEALTHCHECK_URL) {
     log("Pinging healthcheck...");
-    await fetchWithTimeout(process.env.HEALTHCHECK_URL, {}, 5000).catch(() => {});
+    // 5s timeout on healthcheck ping
+    const hcController = new AbortController();
+    const hcTimeout = setTimeout(() => hcController.abort(), 5000);
+    await fetch(process.env.HEALTHCHECK_URL, { signal: hcController.signal }).catch(() => {});
+    clearTimeout(hcTimeout);
   }
 
   log("Agent execution finished successfully.");
