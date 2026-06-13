@@ -45,6 +45,24 @@ async function callClaude(prompt) {
   return data.content[0].text;
 }
 
+function isTooSimilar(newPost, existingPosts) {
+  const newTitle = newPost.title.toLowerCase();
+  const newTopic = (newPost.topic || "").toLowerCase();
+  
+  return existingPosts.some(p => {
+    const existingTitle = (p.title || "").toLowerCase();
+    const existingTopic = (p.topic || "").toLowerCase();
+    
+    // Check for shared significant words (4+ chars)
+    const newWords = newTitle.split(" ")
+      .filter(w => w.length > 4);
+    const titleOverlap = newWords
+      .filter(w => existingTitle.includes(w)).length;
+    
+    return existingTopic === newTopic || titleOverlap >= 3;
+  });
+}
+
 async function runAgent() {
   const log = (msg) => console.log(`[agent] ${msg}`);
   log("Starting agent execution...");
@@ -56,11 +74,70 @@ async function runAgent() {
 
   const ai = new GoogleGenAI({ apiKey });
 
+  // Step 1: Fetch existing posts from GitHub to prevent duplicates and nudge category rotation
+  log("Fetching existing posts from GitHub...");
+  const repoPath = `https://api.github.com/repos/${process.env.GITHUB_REPO}/contents/public/posts.json`;
+  const headers = {
+    Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+    "Content-Type": "application/json",
+    Accept: "application/vnd.github+json",
+    "User-Agent": "ThingSource-Agent"
+  };
+
+  const getController = new AbortController();
+  const getTimeout = setTimeout(() => getController.abort(), 15000);
+  const currentRes = await fetch(repoPath, { 
+    headers,
+    signal: getController.signal
+  });
+  clearTimeout(getTimeout);
+
+  if (!currentRes.ok) {
+    throw new Error(`Failed to fetch posts.json from GitHub. Status: ${currentRes.status}`);
+  }
+  const current = await currentRes.json();
+  const existingPosts = current.content
+    ? JSON.parse(Buffer.from(current.content, "base64").toString("utf8"))
+    : [];
+  const currentSha = current.sha;
+
+  // Extract previous topics
+  const usedTopics = existingPosts
+    .map(p => p.topic || p.title)
+    .filter(Boolean)
+    .slice(0, 50); // last 50 is enough context
+
+  const avoidList = usedTopics.join(", ");
+
+  // Category rotation
+  const recentCategories = existingPosts
+    .slice(0, 7)
+    .map(p => p.category);
+
+  const categoryCounts = recentCategories.reduce((acc, cat) => {
+    acc[cat] = (acc[cat] || 0) + 1;
+    return acc;
+  }, {});
+
+  const overusedCategories = Object.entries(categoryCounts)
+    .filter(([_, count]) => count >= 2)
+    .map(([cat]) => cat);
+
+  let categoryNudge = "";
+  if (overusedCategories.length > 0) {
+    categoryNudge = `\nAlso avoid these categories that have appeared too recently: ${overusedCategories.join(", ")}.\nPick a category from: Food & Drink, Language, Culture, Inventions, Science, History, Geography — whichever has not appeared recently.`;
+  }
+
   const prompt = `You are a research blogger with access to Google Search.
 
 Do all of the following in one response:
 
 1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known.
+
+IMPORTANT: Do NOT pick any of these topics that have already been covered:
+${avoidList}
+
+Choose something completely different and not on that list.${categoryNudge}
 
 2. Use Google Search to research it thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
 
@@ -87,6 +164,11 @@ Do all of the following in one response:
 
 1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known.
 
+IMPORTANT: Do NOT pick any of these topics that have already been covered:
+${avoidList}
+
+Choose something completely different and not on that list.${categoryNudge}
+
 2. Using your training knowledge, research the topic thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
 
 3. Write a complete blog post about it.
@@ -106,32 +188,47 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   "citations": ["url1", "url2"]
 }`;
 
-  log("Executing research and blog post compilation in a single call...");
-  let responseText;
-  try {
-    responseText = await generateWithFallback(ai, {
-      model: "gemini-2.5-flash",
-      contents: prompt,
-      config: {
-        tools: [{ googleSearch: {} }],
-        responseMimeType: "application/json",
-      },
-    }, claudePromptOverride);
-  } catch (err) {
-    log(`Failed generation phase: ${err.message}`);
-    throw err;
-  }
-
   let postData;
-  try {
-    let text = responseText.trim();
-    if (text.startsWith("```")) {
-      text = text.replace(/```json|```/g, "").trim();
+  let attempts = 0;
+  while (attempts < 2) {
+    attempts++;
+    log(`Executing research and blog post compilation (attempt ${attempts})...`);
+    let responseText;
+    try {
+      responseText = await generateWithFallback(ai, {
+        model: "gemini-2.5-flash",
+        contents: prompt,
+        config: {
+          tools: [{ googleSearch: {} }],
+          responseMimeType: "application/json",
+        },
+      }, claudePromptOverride);
+    } catch (err) {
+      log(`Failed generation phase: ${err.message}`);
+      throw err;
     }
-    postData = JSON.parse(text);
-  } catch (parseError) {
-    log(`Failed to parse blog post JSON. Response was: ${responseText}`);
-    throw new Error("Invalid JSON returned from compiler.");
+
+    try {
+      let text = responseText.trim();
+      if (text.startsWith("```")) {
+        text = text.replace(/```json|```/g, "").trim();
+      }
+      postData = JSON.parse(text);
+    } catch (parseError) {
+      log(`Failed to parse blog post JSON. Response was: ${responseText}`);
+      if (attempts >= 2) throw new Error("Invalid JSON returned from compiler.");
+      continue;
+    }
+
+    if (isTooSimilar(postData, existingPosts)) {
+      log("Too similar to existing post. Regenerating...");
+      if (attempts >= 2) {
+        log("Max regeneration attempts reached. Proceeding with current post to avoid loop.");
+        break;
+      }
+    } else {
+      break;
+    }
   }
 
   const topic = postData.topic || "unknown origin";
@@ -159,32 +256,6 @@ Return ONLY a raw JSON object with no markdown, no backticks:
 
   // Step 4: Commit post to GitHub
   log("Committing to GitHub...");
-  const repoPath = `https://api.github.com/repos/${process.env.GITHUB_REPO}/contents/public/posts.json`;
-  const headers = {
-    Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
-    "Content-Type": "application/json",
-    Accept: "application/vnd.github+json",
-    "User-Agent": "ThingSource-Agent"
-  };
-
-  // GitHub GET with 15s timeout
-  const getController = new AbortController();
-  const getTimeout = setTimeout(() => getController.abort(), 15000);
-  const currentRes = await fetch(repoPath, { 
-    headers,
-    signal: getController.signal
-  });
-  clearTimeout(getTimeout);
-
-  if (!currentRes.ok) {
-    throw new Error(`Failed to fetch posts.json from GitHub. Status: ${currentRes.status}`);
-  }
-  const current = await currentRes.json();
-  const existingPosts = current.content
-    ? JSON.parse(Buffer.from(current.content, "base64").toString("utf8"))
-    : [];
-
-  // Prepend the new post to the array (newest first)
   const updatedPosts = [postData, ...existingPosts];
   const newContent = Buffer.from(JSON.stringify(updatedPosts, null, 2)).toString("base64");
 
@@ -197,7 +268,7 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     body: JSON.stringify({
       message: `feat: add post "${postData.title}"`,
       content: newContent,
-      sha: current.sha,
+      sha: currentSha,
       branch: process.env.GITHUB_BRANCH || "main",
     }),
     signal: putController.signal

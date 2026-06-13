@@ -74,6 +74,24 @@ async function callClaude(prompt) {
   return data.content[0].text;
 }
 
+function isTooSimilar(newPost, existingPosts) {
+  const newTitle = newPost.title.toLowerCase();
+  const newTopic = (newPost.topic || "").toLowerCase();
+  
+  return existingPosts.some(p => {
+    const existingTitle = (p.title || "").toLowerCase();
+    const existingTopic = (p.topic || "").toLowerCase();
+    
+    // Check for shared significant words (4+ chars)
+    const newWords = newTitle.split(" ")
+      .filter(w => w.length > 4);
+    const titleOverlap = newWords
+      .filter(w => existingTitle.includes(w)).length;
+    
+    return existingTopic === newTopic || titleOverlap >= 3;
+  });
+}
+
 async function runAgent(customTopic = null) {
   initLog();
   log("Starting ThingSource Agent run...");
@@ -87,12 +105,56 @@ async function runAgent(customTopic = null) {
   try {
     const ai = new GoogleGenAI({ apiKey });
 
+    // Step 1: Read existing posts locally to prevent duplicates and nudge category rotation
+    log("Reading existing posts locally...");
+    const postsPath = path.join(publicDir, 'posts.json');
+    let existingPosts = [];
+    if (fs.existsSync(postsPath)) {
+      try {
+        existingPosts = JSON.parse(fs.readFileSync(postsPath, 'utf8'));
+      } catch (e) {
+        log(`Error reading existing posts.json, resetting: ${e.message}`);
+      }
+    }
+
+    // Extract previous topics
+    const usedTopics = existingPosts
+      .map(p => p.topic || p.title)
+      .filter(Boolean)
+      .slice(0, 50); // last 50 is enough context
+
+    const avoidList = usedTopics.join(", ");
+
+    // Category rotation
+    const recentCategories = existingPosts
+      .slice(0, 7)
+      .map(p => p.category);
+
+    const categoryCounts = recentCategories.reduce((acc, cat) => {
+      acc[cat] = (acc[cat] || 0) + 1;
+      return acc;
+    }, {});
+
+    const overusedCategories = Object.entries(categoryCounts)
+      .filter(([_, count]) => count >= 2)
+      .map(([cat]) => cat);
+
+    let categoryNudge = "";
+    if (overusedCategories.length > 0) {
+      categoryNudge = `\nAlso avoid these categories that have appeared too recently: ${overusedCategories.join(", ")}.\nPick a category from: Food & Drink, Language, Culture, Inventions, Science, History, Geography — whichever has not appeared recently.`;
+    }
+
     // Combined Prompt
     const prompt = `You are a research blogger with access to Google Search.
 
 Do all of the following in one response:
 
 1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known. ${customTopic ? `Specifically research: "${customTopic}"` : ''}
+
+IMPORTANT: Do NOT pick any of these topics that have already been covered:
+${avoidList}
+
+Choose something completely different and not on that list.${categoryNudge}
 
 2. Use Google Search to research it thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
 
@@ -119,6 +181,11 @@ Do all of the following in one response:
 
 1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known. ${customTopic ? `Specifically research: "${customTopic}"` : ''}
 
+IMPORTANT: Do NOT pick any of these topics that have already been covered:
+${avoidList}
+
+Choose something completely different and not on that list.${categoryNudge}
+
 2. Using your training knowledge, research the topic thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
 
 3. Write a complete blog post about it.
@@ -138,32 +205,47 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   "citations": ["url1", "url2"]
 }`;
 
-    log("Executing research and blog post compilation in a single call...");
-    let responseText;
-    try {
-      responseText = await generateWithFallback(ai, {
-        model: "gemini-2.5-flash",
-        contents: prompt,
-        config: {
-          tools: [{ googleSearch: {} }],
-          responseMimeType: "application/json",
-        },
-      }, claudePromptOverride);
-    } catch (err) {
-      log(`Failed generation phase: ${err.message}`);
-      throw err;
-    }
-
     let postData;
-    try {
-      let text = responseText.trim();
-      if (text.startsWith("```")) {
-        text = text.replace(/```json|```/g, "").trim();
+    let attempts = 0;
+    while (attempts < 2) {
+      attempts++;
+      log(`Executing research and blog post compilation (attempt ${attempts})...`);
+      let responseText;
+      try {
+        responseText = await generateWithFallback(ai, {
+          model: "gemini-2.5-flash",
+          contents: prompt,
+          config: {
+            tools: [{ googleSearch: {} }],
+            responseMimeType: "application/json",
+          },
+        }, claudePromptOverride);
+      } catch (err) {
+        log(`Failed generation phase: ${err.message}`);
+        throw err;
       }
-      postData = JSON.parse(text);
-    } catch (parseError) {
-      log(`Failed to parse blog post JSON. Response was: ${responseText}`);
-      throw new Error("Invalid JSON returned from compiler.");
+
+      try {
+        let text = responseText.trim();
+        if (text.startsWith("```")) {
+          text = text.replace(/```json|```/g, "").trim();
+        }
+        postData = JSON.parse(text);
+      } catch (parseError) {
+        log(`Failed to parse blog post JSON. Response was: ${responseText}`);
+        if (attempts >= 2) throw new Error("Invalid JSON returned from compiler.");
+        continue;
+      }
+
+      if (isTooSimilar(postData, existingPosts)) {
+        log("Too similar to existing post. Regenerating...");
+        if (attempts >= 2) {
+          log("Max regeneration attempts reached. Proceeding with current post to avoid loop.");
+          break;
+        }
+      } else {
+        break;
+      }
     }
 
     const topic = postData.topic || "unknown origin";
@@ -192,18 +274,8 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     
     // Save post to database locally
     log("Saving post to public/posts.json...");
-    const postsPath = path.join(publicDir, 'posts.json');
-    let posts = [];
-    if (fs.existsSync(postsPath)) {
-      try {
-        posts = JSON.parse(fs.readFileSync(postsPath, 'utf8'));
-      } catch (e) {
-        log(`Error reading existing posts.json, resetting: ${e.message}`);
-      }
-    }
-    
-    posts.unshift(postData);
-    fs.writeFileSync(postsPath, JSON.stringify(posts, null, 2), 'utf8');
+    existingPosts.unshift(postData);
+    fs.writeFileSync(postsPath, JSON.stringify(existingPosts, null, 2), 'utf8');
     
     log(`Success! Agent run completed. New blog post "${postData.title}" is now live.`);
     return postData;
