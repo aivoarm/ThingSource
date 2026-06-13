@@ -1,6 +1,13 @@
 const { GoogleGenAI } = require("@google/genai");
 
 async function generateWithFallback(ai, geminiParams, claudePromptOverride = null) {
+  const promptContent = claudePromptOverride || geminiParams.contents;
+
+  if (process.env.USE_CLAUDE_PRIMARY === "true") {
+    console.log("Using Claude as primary model...");
+    return await callClaude(promptContent);
+  }
+
   try {
     const response = await ai.models.generateContent(geminiParams);
     console.log("Model used: Gemini");
@@ -13,31 +20,29 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
     if (!is429 || !process.env.ANTHROPIC_API_KEY) throw err;
     
     console.log("Gemini rate limited. Falling back to Claude...");
-    
-    const promptContent = claudePromptOverride || geminiParams.contents;
-    
-    const claudeRes = await fetch("https://api.anthropic.com/v1/messages", {
-      method: "POST",
-      headers: {
-        "x-api-key": process.env.ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01",
-        "content-type": "application/json",
-      },
-      body: JSON.stringify({
-        model: "claude-sonnet-4-6",
-        max_tokens: 4000,
-        messages: [{ 
-          role: "user", 
-          content: promptContent 
-        }],
-      }),
-    });
-    
-    const data = await claudeRes.json();
-    if (!claudeRes.ok) throw new Error(data.error?.message || "Claude API error");
-    console.log("Model used: Claude (fallback)");
-    return data.content[0].text;
+    return await callClaude(promptContent);
   }
+}
+
+async function callClaude(prompt) {
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "x-api-key": process.env.ANTHROPIC_API_KEY,
+      "anthropic-version": "2023-06-01",
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({
+      model: "claude-sonnet-4-6",
+      max_tokens: 1500,
+      messages: [{ role: "user", content: prompt }],
+    }),
+  });
+
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error?.message || "Claude API error");
+  console.log("Model used: Claude");
+  return data.content[0].text;
 }
 
 async function runAgent() {
@@ -68,9 +73,8 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   "category": "Food & Drink | Culture | Language | Inventions | Science",
   "summary": "1-2 sentence compelling hook",
   "sections": [
-    { "heading": "Section title", "content": "Full paragraph" },
-    { "heading": "Section title", "content": "Full paragraph" },
-    { "heading": "Section title", "content": "Full paragraph" }
+    { "heading": "Section title", "content": "2-3 sentence paragraph" },
+    { "heading": "Section title", "content": "2-3 sentence paragraph" }
   ],
   "funFacts": ["fact 1", "fact 2", "fact 3"],
   "imageKeywords": ["simple keyword", "simple keyword"],
@@ -94,9 +98,8 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   "category": "Food & Drink | Culture | Language | Inventions | Science",
   "summary": "1-2 sentence compelling hook",
   "sections": [
-    { "heading": "Section title", "content": "Full paragraph" },
-    { "heading": "Section title", "content": "Full paragraph" },
-    { "heading": "Section title", "content": "Full paragraph" }
+    { "heading": "Section title", "content": "2-3 sentence paragraph" },
+    { "heading": "Section title", "content": "2-3 sentence paragraph" }
   ],
   "funFacts": ["fact 1", "fact 2", "fact 3"],
   "imageKeywords": ["simple keyword", "simple keyword"],
