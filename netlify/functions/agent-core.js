@@ -176,6 +176,8 @@ Do not include any JSON wrapper other than the JSON object itself. Do not write 
     token: process.env.NETLIFY_TOKEN,
   });
   const { blobs } = await store.list();
+  console.log("Subscribers found:", blobs.length);
+  console.log("Blob keys:", blobs.map(b => b.key));
 
   if (blobs.length === 0) {
     log("No subscribers found. Skipping email sending.");
@@ -194,7 +196,9 @@ Do not include any JSON wrapper other than the JSON object itself. Do not write 
       await Promise.all(
         batch.map(async (blob) => {
           try {
-            const subscriberData = JSON.parse(await store.get(blob.key) || "{}");
+            const raw = await store.get(blob.key);
+            const subscriberData = JSON.parse(raw || "{}");
+            console.log("Subscriber:", subscriberData.email);
             if (!subscriberData.email) return;
 
             const unsubUrl = `${siteUrl}/.netlify/functions/unsubscribe?token=${subscriberData.token}`;
