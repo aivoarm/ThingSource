@@ -1,6 +1,57 @@
 [
   {
     "topic": "Caesar Salad",
+    "title": "Caesar Salad Was Invented in Mexico by an Italian Immigrant — And It Was an Accident",
+    "category": "Food & Drink",
+    "summary": "The Caesar salad, a staple of upscale American restaurants, was not invented by Julius Caesar, a Roman chef, or even an American cook. It was thrown together in a panic in 1924 by a Tijuana restaurant owner who was running out of ingredients during a rush.",
+    "sections": [
+      {
+        "heading": "The Man Behind the Leaves",
+        "content": "Caesar Cardini was an Italian-born chef who emigrated to the United States after World War I and operated restaurants on both sides of the US-Mexico border. He ran a restaurant in San Diego but also kept a location in Tijuana, where American tourists would flock to avoid Prohibition-era restrictions. It was in this Tijuana kitchen, on or around the Fourth of July 1924, that the famous salad was born."
+      },
+      {
+        "heading": "The Panic Invention",
+        "content": "According to Rosa Cardini, Caesar's daughter, the salad was improvised when a holiday rush of customers left the kitchen dangerously low on supplies. Caesar grabbed what he had — romaine lettuce, olive oil, coddled eggs, Worcestershire sauce, Parmesan cheese, croutons, and lemon juice — and tossed it tableside as a theatrical flourish. The dish was an instant sensation among the Hollywood elite and tourists who visited his restaurant."
+      },
+      {
+        "heading": "What the Original Recipe Actually Was",
+        "content": "One of the most persistent misconceptions is that a classic Caesar salad contains anchovies as a distinct ingredient — but Cardini's original recipe did not include them. The umami depth that people associate with anchovies actually came from the Worcestershire sauce, which itself contains anchovies. Caesar's brother Alex later created a variation called 'aviator's salad' that explicitly added anchovy paste, and over time the two recipes blurred together in the public consciousness."
+      },
+      {
+        "heading": "Hollywood Discovers It",
+        "content": "The salad's rise to international fame was accelerated by its celebrity clientele. Stars like Clark Gable and W.C. Fields reportedly drove down to Tijuana specifically to eat at Cardini's restaurant. Gossip columnist Louella Parsons helped spread the word, and by the late 1920s the dish had traveled far beyond the border. Julia Child later recalled eating the original Caesar salad as a child with her father in Tijuana and described it as a memorable, dramatic experience."
+      },
+      {
+        "heading": "Commercialization and Legacy",
+        "content": "Caesar Cardini eventually moved to Los Angeles and in 1948 began bottling and selling his original Caesar dressing, which is still sold under the Cardini's brand today. The International Society of Epicures in Paris named the Caesar salad the greatest recipe to originate from the Americas in the 50 years between 1900 and 1950 — a remarkable honor for a dish invented out of desperation. Cardini passed away in 1956, but his accidental creation became one of the most ordered salads in the world."
+      },
+      {
+        "heading": "The Prohibition Connection Nobody Talks About",
+        "content": "The geographic accident of Tijuana's location was itself a product of American Prohibition, which ran from 1920 to 1933. Tijuana boomed as a playground for Americans seeking alcohol, gambling, and entertainment, transforming a small border town into a bustling tourist economy almost overnight. Without Prohibition driving American crowds south of the border, Caesar Cardini might never have needed a Tijuana location at all, and the salad might never have existed."
+      }
+    ],
+    "funFacts": [
+      "Caesar Cardini reportedly hated the idea of garlic in his salad and used only garlic-rubbed bowls to impart a subtle flavor, never chopped garlic directly.",
+      "The original tableside preparation involved Caesar himself tossing the whole romaine leaves and serving them to be eaten with fingers, not cut into bite-sized pieces.",
+      "Julia Child wrote about eating the original Caesar salad in Tijuana as a young girl with her father in the 1920s, describing it as one of her most vivid early food memories."
+    ],
+    "imageKeywords": [
+      "romaine lettuce",
+      "vintage Tijuana restaurant"
+    ],
+    "citations": [
+      "https://www.smithsonianmag.com/arts-culture/the-man-who-invented-the-caesar-salad-2389832/",
+      "https://www.foodtimeline.org/foodsalads.html#caesarsalad",
+      "https://www.latimes.com/food/story/2019-07-03/caesar-salad-history-cardini-tijuana"
+    ],
+    "id": "1781368067616-caesar-salad",
+    "date": "2026-06-13T16:27:47.616Z",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Starr_070730-7911_Lactuca_sativa.jpg"
+    ]
+  },
+  {
+    "topic": "Caesar Salad",
     "title": "Caesar Salad Has Nothing to Do With Julius Caesar — The Real Story Is Way Better",
     "category": "Food & Drink",
     "summary": "Almost everyone assumes the Caesar salad is named after the ancient Roman emperor, but it was actually invented in a Tijuana restaurant in 1924 by an Italian immigrant scrambling to feed a hungry crowd with almost nothing in his kitchen. The true origin is a chaotic, boozy, borderline-accidental moment of culinary genius that the food world largely forgot to tell you.",
