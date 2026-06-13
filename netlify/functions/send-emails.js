@@ -29,6 +29,13 @@ function buildPlainTextEmail(post, unsubUrl) {
   text += `Arman Ayva — Digital creator and technology `;
   text += `enthusiast passionate about AI and automation.\n`;
   text += `Search "Arman Ayva" to explore his work.\n\n`;
+
+  const postUrl = `https://thingsource.netlify.app/blog/?id=${post.id}`;
+  text += `---\n`;
+  text += `SHARE THIS STORY\n`;
+  text += `Share on X: https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent(postUrl)}\n`;
+  text += `Share on LinkedIn: https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(postUrl)}\n\n`;
+
   text += `---\n`;
   text += `You received this because you subscribed to ThingSource.\n`;
   text += `To unsubscribe: ${unsubUrl}\n`;
@@ -89,6 +96,33 @@ function buildEmailHtml(post, unsubUrl) {
       Digital creator and technology enthusiast passionate about AI, automation, and building innovative tools.
       Search &ldquo;Arman Ayva&rdquo; to explore his work.
     </p>
+  </div>
+
+  <!-- Share block -->
+  <div style="margin:28px 0;padding:18px 20px;border:1px solid #eee;border-radius:8px;text-align:center">
+    <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 14px;font-weight:bold">Enjoyed this? Share it</p>
+    <table border="0" cellpadding="0" cellspacing="0" style="margin:0 auto">
+      <tr>
+        <td style="padding:0 6px">
+          <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent('https://thingsource.netlify.app/blog/?id=' + post.id)}"
+             style="display:inline-block;background:#000;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
+            𝕏 Share
+          </a>
+        </td>
+        <td style="padding:0 6px">
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://thingsource.netlify.app/blog/?id=' + post.id)}"
+             style="display:inline-block;background:#0A66C2;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
+            in LinkedIn
+          </a>
+        </td>
+        <td style="padding:0 6px">
+          <a href="https://wa.me/?text=${encodeURIComponent(post.title + ' — ' + 'https://thingsource.netlify.app/blog/?id=' + post.id)}"
+             style="display:inline-block;background:#25D366;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
+            WhatsApp
+          </a>
+        </td>
+      </tr>
+    </table>
   </div>
 
   <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
