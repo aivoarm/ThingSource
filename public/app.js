@@ -1,9 +1,6 @@
 // Public Blog State
 let state = {
-  posts: [],
-  googleSheetsUrl: '',
-  resendSegmentId: '',
-  resendApiKey: ''
+  posts: []
 };
 
 // Cache DOM Elements
@@ -18,26 +15,8 @@ const inputSubscribeEmail = document.getElementById('input-subscribe-email');
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
   initEventListeners();
-  loadConfig().then(() => {
-    loadPosts();
-  });
+  loadPosts();
 });
-
-// Load Config file config.json if present
-async function loadConfig() {
-  try {
-    const response = await fetch('/config.json');
-    if (response.ok) {
-      const config = await response.json();
-      state.googleSheetsUrl = config.googleSheetsUrl || '';
-      state.resendSegmentId = config.resendSegmentId || '';
-      state.resendApiKey = config.resendApiKey || '';
-      console.log("Loaded public config.json.");
-    }
-  } catch (e) {
-    console.log("No config.json found or failed to load. Defaulting to relative endpoints.");
-  }
-}
 
 function initEventListeners() {
   // Modal Close
@@ -46,7 +25,7 @@ function initEventListeners() {
     if (e.key === 'Escape') closeModal();
   });
 
-  // Newsletter Subscription Form (Netlify Form Submission)
+  // Newsletter Subscription Form (Netlify Serverless Function)
   if (formSubscribe) {
     formSubscribe.addEventListener('submit', handleSubscribeNewsletter);
   }
@@ -201,7 +180,7 @@ function openPost(id) {
         </div>
       </div>
     </div>
-
+ 
     <!-- Body Layout -->
     <div class="article-body-grid">
       <!-- Main Content -->
@@ -228,7 +207,7 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
-// Handle Subscription form submit (captures natively via Netlify Forms when static, or local API fallback)
+// Handle Subscription form submit (captures Netlify Function endpoint)
 async function handleSubscribeNewsletter(e) {
   e.preventDefault();
   const email = inputSubscribeEmail.value.trim();
@@ -239,79 +218,20 @@ async function handleSubscribeNewsletter(e) {
   const originalText = submitBtn.innerText;
   submitBtn.innerText = 'Subscribing...';
 
-  // 1. If static frontend has Google Sheets configured, send it directly to Sheets (CORS-safe simple text request)
-  if (state.googleSheetsUrl) {
-    try {
-      console.log("[Newsletter] Sending subscription directly to Google Sheets...");
-      await fetch(state.googleSheetsUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'text/plain;charset=utf-8'
-        },
-        body: JSON.stringify({ email, action: 'subscribe' }),
-        redirect: 'follow'
-      });
-      alert("Subscription successful! You are added to the newsletter list.");
-      inputSubscribeEmail.value = '';
-      submitBtn.disabled = false;
-      submitBtn.innerText = originalText;
-      return;
-    } catch (err) {
-      console.error("[Newsletter] Direct Sheets subscribe failed, trying fallbacks...", err);
-    }
-  }
-
-  // 2. If Resend Segment is configured, subscribe directly via Resend Contacts API
-  if (state.resendSegmentId && state.resendApiKey) {
-    try {
-      console.log("[Newsletter] Sending subscription to Resend Contacts...");
-      const resendRes = await fetch('https://api.resend.com/contacts', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${state.resendApiKey}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ email, unsubscribed: false })
-      });
-      if (resendRes.ok || resendRes.status === 409) {
-        alert("Subscription successful! You are added to the newsletter list.");
-        inputSubscribeEmail.value = '';
-        submitBtn.disabled = false;
-        submitBtn.innerText = originalText;
-        return;
-      }
-    } catch (err) {
-      console.error("[Newsletter] Resend Contacts subscribe failed, trying fallbacks...", err);
-    }
-  }
-
-  // 2. Netlify Form submission (as standard HTML form urlencoded)
-  const formData = new FormData(formSubscribe);
-  const searchParams = new URLSearchParams(formData);
-
   try {
-    // Attempt local API post if running on local server, otherwise it hits Netlify Forms handler
-    const response = await fetch('/', {
+    const response = await fetch('/.netlify/functions/subscribe', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: searchParams.toString()
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email })
     });
-
-    if (!response.ok) {
-      // If server/Netlify returns error, attempt fallback local subscriber list API
-      const fallbackResponse = await fetch('/api/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email })
-      });
-      if (!fallbackResponse.ok) throw new Error("Subscription failed.");
+    
+    const data = await response.json();
+    alert(data.message || data.error);
+    if (response.ok) {
+      inputSubscribeEmail.value = '';
     }
-
-    alert("Subscription successful! You will receive new discoveries in your inbox.");
-    inputSubscribeEmail.value = '';
   } catch (err) {
-    alert("Subscription processed successfully!"); // Provide positive feedback for static Netlify submission
-    inputSubscribeEmail.value = '';
+    alert("Failed to subscribe. Please try again.");
   } finally {
     submitBtn.disabled = false;
     submitBtn.innerText = originalText;
@@ -327,3 +247,4 @@ function escapeHtml(unsafe) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
+

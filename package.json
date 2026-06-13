@@ -6,13 +6,16 @@
   "scripts": {
     "start": "node server.js",
     "agent": "node agent.js",
-    "run-and-push": "node agent.js && git add public/posts.json public/images/ && git commit -m \"chore: auto-publish new discovery\" && git push"
+    "run-and-push": "node agent.js && git add public/posts.json public/images/ && git commit -m \"chore: auto-publish new discovery\" && git push",
+    "build": "node build.js"
   },
   "dependencies": {
-    "@google/genai": "latest",
+    "@google/genai": "^1.0.0",
+    "@netlify/blobs": "^8.0.0",
+    "@netlify/functions": "^2.0.0",
     "dotenv": "latest",
     "express": "latest",
     "node-cron": "latest",
-    "resend": "^6.12.4"
+    "resend": "^4.0.0"
   }
 }

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — ThingSource</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Marked.js for rendering markdown sections -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- Local Stylesheet (inherited from root) -->
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" type="application/rss+xml" title="ThingSource RSS Feed" href="/blog/rss.xml" />
+</head>
+<body>
+
+  <!-- Background Glowing Orbs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo" style="cursor: pointer;" onclick="window.location.href='/'">
+        <span class="logo-dot"></span>
+        <h1>ThingSource</h1>
+      </div>
+      <nav style="display: flex; align-items: center; gap: 1rem;">
+        <a href="/" class="nav-btn" style="color: var(--text-muted); text-decoration: none; font-weight: 500; font-size: 0.9rem; font-family: var(--font-display);">Home</a>
+        <a href="/blog/" class="nav-btn active" style="color: #fff; text-decoration: none; font-weight: 500; font-size: 0.9rem; font-family: var(--font-display); border-bottom: 2px solid var(--accent-red); padding-bottom: 2px;">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+    
+    <!-- Blog Listing Section (Default Mode) -->
+    <div id="blog-list-view">
+      <div class="feed-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <h2 style="margin-bottom: 0.25rem;">Daily Discoveries</h2>
+          <p class="subtext" style="margin: 0;">Exploring the accidental genius behind everyday things.</p>
+        </div>
+        <div style="font-size: 0.9rem; color: var(--text-muted); font-family: var(--font-display); background: rgba(255,255,255,0.03); border: 1px solid var(--border-glass); padding: 0.5rem 1rem; border-radius: 8px;">
+          👥 Joined by <span id="subscriber-count-span" style="font-weight: 600; color: #fff;">...</span> readers
+        </div>
+      </div>
+
+      <!-- Grid of posts -->
+      <div id="blog-posts-grid" class="posts-grid">
+        <!-- Will be populated dynamically -->
+      </div>
+
+      <!-- Newsletter Signup -->
+      <div class="card newsletter-signup-card" style="margin-top: 4rem; margin-bottom: 3rem;">
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: center; text-align: center; padding: 1.5rem 0;">
+          <h3 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; margin-bottom: 0;">Get Daily Origin Stories</h3>
+          <p class="card-desc" style="margin-bottom: 1.5rem; max-width: 600px;">Join our list of curious minds. Receive one surprising origin tale in your inbox every morning.</p>
+          
+          <form id="form-blog-subscribe" style="display: flex; gap: 0.75rem; width: 100%; max-width: 500px; flex-wrap: wrap;">
+            <input type="email" id="input-blog-email" placeholder="Enter your email address" required style="flex-grow: 1; padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid var(--border-glass); background: rgba(7, 9, 19, 0.6); color: #fff;">
+            <button type="submit" class="btn btn-primary" style="width: auto; padding: 0.75rem 1.5rem;">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Detail Section (Single Post Mode) -->
+    <div id="blog-detail-view" style="display: none;">
+      <a href="/blog/" id="btn-back-blog" style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-muted); text-decoration: none; font-weight: 500; font-family: var(--font-display); margin-bottom: 2rem; transition: color 0.2s;">
+        ← Back to all stories
+      </a>
+      
+      <article class="hero-post" style="border: 1px solid var(--border-glass); background: rgba(7, 9, 19, 0.4); backdrop-filter: blur(12px); border-radius: 16px; overflow: hidden; margin-bottom: 3rem;">
+        <div style="padding: 2.5rem; display: flex; flex-direction: column; gap: 1.5rem;">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+            <span id="detail-category" class="badge" style="background: rgba(239, 68, 68, 0.1); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.2); font-weight: 600; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1px;">...</span>
+            <span id="detail-date" style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-display);">...</span>
+          </div>
+
+          <h1 id="detail-title" style="font-family: var(--font-display); font-size: 2.5rem; font-weight: 800; line-height: 1.2; color: #fff; margin: 0;">...</h1>
+          
+          <p id="detail-summary" style="font-size: 1.25rem; font-family: var(--font-serif); line-height: 1.6; color: rgba(255,255,255,0.85); font-style: italic; border-left: 3px solid var(--accent-red); padding-left: 1.5rem; margin: 0.5rem 0 1rem 0;"></p>
+
+          <!-- Main content wrapper -->
+          <div style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; margin-top: 1rem;">
+            <!-- Sections content -->
+            <div id="detail-sections" style="display: flex; flex-direction: column; gap: 2rem; font-family: var(--font-serif); font-size: 1.1rem; line-height: 1.8; color: rgba(255,255,255,0.75);">
+              <!-- Rendered sections -->
+            </div>
+            
+            <!-- Sidebar with fun facts -->
+            <div id="detail-funfacts-box" style="border-top: 1px solid var(--border-glass); padding-top: 2rem;">
+              <h4 style="font-family: var(--font-display); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-red); margin-top: 0; margin-bottom: 1rem;">Fun Facts</h4>
+              <ul id="detail-funfacts" style="padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.75rem; line-height: 1.6; margin: 0;">
+                <!-- Fun facts -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- Citations / Sources -->
+          <div id="detail-citations-box" style="border-top: 1px solid var(--border-glass); padding-top: 1.5rem; margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">
+            <strong style="color: #fff; font-family: var(--font-display);">Sources &amp; Citations:</strong>
+            <ul id="detail-citations" style="margin: 0.5rem 0 0 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+              <!-- Citations -->
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Powered by Gemini Flash. Built in 2026. <a href="/blog/rss.xml" style="color: var(--text-muted); text-decoration: none; margin-left: 10px;">RSS Feed</a></p>
+  </footer>
+
+  <script>
+    // Client-side Blog Script
+    let blogPosts = [];
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      await loadSubscriberCount();
+      await loadBlogPosts();
+      router();
+      
+      // Subscribe handler
+      const form = document.getElementById('form-blog-subscribe');
+      if (form) {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const emailInput = document.getElementById('input-blog-email');
+          const email = emailInput.value.trim();
+          if (!email) return;
+
+          const btn = form.querySelector('button');
+          btn.disabled = true;
+          btn.textContent = 'Subscribing...';
+
+          try {
+            const res = await fetch('/.netlify/functions/subscribe', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ email })
+            });
+            const data = await res.json();
+            alert(data.message || data.error);
+            if (res.ok) emailInput.value = '';
+          } catch (err) {
+            alert('Failed to subscribe. Please try again.');
+          } finally {
+            btn.disabled = false;
+            btn.textContent = 'Subscribe';
+          }
+        });
+      }
+    });
+
+    async function loadSubscriberCount() {
+      try {
+        const res = await fetch('/.netlify/functions/count');
+        if (res.ok) {
+          const data = await res.json();
+          document.getElementById('subscriber-count-span').textContent = data.count;
+        }
+      } catch (err) {
+        console.error("Failed to load count:", err);
+      }
+    }
+
+    async function loadBlogPosts() {
+      try {
+        const response = await fetch('/posts.json');
+        if (!response.ok) throw new Error();
+        const posts = await response.json();
+        // Hide drafts unless in deploy preview URL
+        const isPreview = window.location.hostname.includes('deploy-preview');
+        blogPosts = posts.filter(p => !p.draft || isPreview);
+      } catch (err) {
+        console.error("Error loading posts:", err);
+      }
+    }
+
+    function router() {
+      const params = new URLSearchParams(window.location.search);
+      const postId = params.get('id');
+      
+      if (postId) {
+        const post = blogPosts.find(p => p.id === postId);
+        if (post) {
+          renderPostDetail(post);
+          return;
+        }
+      }
+      
+      renderPostList();
+    }
+
+    function renderPostList() {
+      document.getElementById('blog-detail-view').style.display = 'none';
+      document.getElementById('blog-list-view').style.display = 'block';
+
+      const grid = document.getElementById('blog-posts-grid');
+      if (blogPosts.length === 0) {
+        grid.innerHTML = '<p class="subtext">No articles found.</p>';
+        return;
+      }
+
+      grid.innerHTML = blogPosts.map(post => {
+        const isDraft = post.draft;
+        return `
+          <div class="card post-card" style="display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--border-glass); background: rgba(7, 9, 19, 0.4); border-radius: 12px; overflow: hidden; padding: 1.5rem; transition: transform 0.2s, box-shadow 0.2s;">
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span class="badge" style="font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 12px; text-transform: uppercase; background: rgba(255,255,255,0.05); border: 1px solid var(--border-glass); color: var(--text-muted);">${post.category}</span>
+                ${isDraft ? `<span class="badge" style="font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 12px; background: rgba(239,68,68,0.2); border: 1px solid rgba(239,68,68,0.4); color: #fca5a5;">DRAFT</span>` : ''}
+              </div>
+              <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color: #fff; margin: 0; line-height: 1.3;">${post.title}</h3>
+              <p class="card-desc" style="font-size: 0.95rem; line-height: 1.5; color: var(--text-muted); margin: 0;">${post.summary}</p>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border-glass);">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-display);">${new Date(post.date).toLocaleDateString(undefined, {month: 'short', day: 'numeric', year: 'numeric'})}</span>
+              <a href="/blog/?id=${post.id}" style="color: var(--accent-red); font-weight: 600; text-decoration: none; font-size: 0.9rem; font-family: var(--font-display);">Read More →</a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderPostDetail(post) {
+      document.getElementById('blog-list-view').style.display = 'none';
+      document.getElementById('blog-detail-view').style.display = 'block';
+
+      document.getElementById('detail-category').textContent = post.category;
+      document.getElementById('detail-date').textContent = new Date(post.date).toLocaleDateString(undefined, {month: 'long', day: 'numeric', year: 'numeric'});
+      document.getElementById('detail-title').textContent = post.title;
+      document.getElementById('detail-summary').textContent = post.summary;
+
+      // Render sections with marked
+      const sectionsDiv = document.getElementById('detail-sections');
+      sectionsDiv.innerHTML = post.sections.map(sec => `
+        <div>
+          <h3 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 0.75rem;">${sec.heading}</h3>
+          <div>${marked.parse(sec.content)}</div>
+        </div>
+      `).join('');
+
+      // Fun facts
+      const factsBox = document.getElementById('detail-funfacts-box');
+      const factsUl = document.getElementById('detail-funfacts');
+      if (post.funFacts && post.funFacts.length > 0) {
+        factsBox.style.display = 'block';
+        factsUl.innerHTML = post.funFacts.map(fact => `<li style="margin-bottom: 0.5rem; color: rgba(255,255,255,0.75);">${fact}</li>`).join('');
+      } else {
+        factsBox.style.display = 'none';
+      }
+
+      // Citations
+      const citationsBox = document.getElementById('detail-citations-box');
+      const citationsUl = document.getElementById('detail-citations');
+      if (post.citations && post.citations.length > 0) {
+        citationsBox.style.display = 'block';
+        citationsUl.innerHTML = post.citations.map(link => `
+          <li><a href="${link}" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); text-decoration: underline; transition: color 0.2s;">${link}</a></li>
+        `).join('');
+      } else {
+        citationsBox.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
