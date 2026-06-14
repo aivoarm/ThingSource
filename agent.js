@@ -313,24 +313,22 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     // Generate Historic Joke of the Day
     log("Generating Historic Joke of the Day...");
     const jokePrompt = `You are a comedy historian.
-Find one genuinely iconic historically significant joke.
+Find one genuinely iconic, funny joke that is widely considered one of the best jokes of all time. It must be a joke that actually makes people smile or laugh, not just a historical curiosity.
 Must be a REAL documented joke — not invented.
 
 Good examples to look for:
-- Oldest recorded joke in history
-- A joke from a comedian's defining career moment
-- A joke that was banned or caused controversy
-- A joke quoted by a historical figure
-- A joke that defined a comedy era
+- One of the most famous, highly-rated jokes of all time
+- A classic, legendary stand-up joke from a famous comedian (e.g. Mitch Hedberg, Robin Williams, George Carlin)
+- An iconic clean joke with a brilliant twist/punchline
 
 Return ONLY raw JSON, no markdown:
 {
   "joke": "full joke text as originally recorded",
   "setup": "setup line only",
   "punchline": "punchline only",
-  "comedian": "name or origin",
-  "year": "year or era e.g. 1900 BC or 1965",
-  "context": "2 sentences on why historically significant"
+  "comedian": "name of comedian or origin (e.g. Mitch Hedberg, Tommy Cooper, Traditional)",
+  "year": "year or era of the joke",
+  "context": "2 sentences on why this joke is considered one of the greatest or most iconic jokes of all time"
 }`;
 
     try {
