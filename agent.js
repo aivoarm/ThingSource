@@ -308,6 +308,12 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     const topic = postData.topic || "unknown origin";
     const postId = `${Date.now()}-${topic.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
     postData.id = postId;
+    const slug = postData.title
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "")
+      .substring(0, 60);
+    postData.slug = slug;
     postData.date = new Date().toISOString();
     
     // Generate Joke of the Day

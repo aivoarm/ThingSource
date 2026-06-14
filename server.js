@@ -91,6 +91,13 @@ app.get('/admin.html', (req, res) => {
   res.redirect('/admin');
 });
 
+app.get(/^\/blog\/(.*)/, (req, res, next) => {
+  if (path.extname(req.path)) {
+    return next();
+  }
+  res.sendFile(path.join(__dirname, 'public', 'blog', 'index.html'));
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 const dataDir = path.join(__dirname, 'data');

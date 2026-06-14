@@ -7,24 +7,25 @@
   
   <!-- Primary Meta -->
   <meta id="meta-description" name="description" content="Browse all origin stories. Surprising history behind everyday things.">
-  <link id="canonical-link" rel="canonical" href="https://thingsource.netlify.app/blog/">
+  <meta id="meta-keywords" name="keywords" content="origin stories, history of things, where did things come from, curiosities">
+  <link id="canonical-link" rel="canonical" href="https://ts.armanayva.com/blog/">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ThingSource">
   <meta id="og-title" property="og:title" content="All Stories — ThingSource">
   <meta id="og-description" property="og:description" content="Browse all origin stories. Surprising history behind everyday things.">
-  <meta id="og-image" property="og:image" content="https://thingsource.netlify.app/social-card.png">
+  <meta id="og-image" property="og:image" content="https://ts.armanayva.com/social-card.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta id="og-url" property="og:url" content="https://thingsource.netlify.app/blog/">
+  <meta id="og-url" property="og:url" content="https://ts.armanayva.com/blog/">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@thingsource">
   <meta id="twitter-title" name="twitter:title" content="All Stories — ThingSource">
   <meta id="twitter-description" name="twitter:description" content="Browse all origin stories. Surprising history behind everyday things.">
-  <meta id="twitter-image" name="twitter:image" content="https://thingsource.netlify.app/social-card.png">
+  <meta id="twitter-image" name="twitter:image" content="https://ts.armanayva.com/social-card.png">
 
   <!-- Marked.js for rendering markdown sections -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -63,11 +64,29 @@
     
     <!-- Blog Listing Section (Default Mode) -->
     <div id="blog-list-view">
-      <div class="feed-header" style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2.5rem; flex-wrap: wrap; gap: 1rem;">
+      <div class="feed-header" style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
         <div>
           <h2 style="font-family: var(--font-serif); font-size: 2.2rem; color: var(--text-dark); margin-bottom: 0.25rem;">Daily Discoveries</h2>
           <p style="font-family: var(--font-sans); color: var(--text-muted); margin: 0; font-size: 1rem;">Exploring the accidental genius behind everyday things.</p>
         </div>
+      </div>
+
+      <!-- Search Box -->
+      <div class="search-container" style="margin-bottom: 2.5rem;">
+        <input type="text" id="search-input" placeholder="Search origin stories..." style="
+          width: 100%;
+          max-width: 500px;
+          padding: 0.8rem 1.2rem;
+          font-family: var(--font-sans);
+          font-size: 1rem;
+          color: var(--text-dark);
+          background-color: var(--card-bg, #ffffff);
+          border: 1px solid var(--border-color, #e7e2d4);
+          border-radius: 8px;
+          box-shadow: var(--shadow-soft, 0 4px 15px rgba(0,0,0,0.03));
+          outline: none;
+          transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        " onfocus="this.style.borderColor='var(--accent-teal, #0D7A6B)';this.style.boxShadow='0 0 0 3px rgba(13,122,107,0.15)'" onblur="this.style.borderColor='var(--border-color, #e7e2d4)';this.style.boxShadow='var(--shadow-soft, 0 4px 15px rgba(0,0,0,0.03))'">
       </div>
 
       <!-- Grid of posts -->
@@ -146,6 +165,29 @@
     document.addEventListener('DOMContentLoaded', async () => {
       await loadSubscriberCount();
       await loadBlogPosts();
+
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) {
+        // Read initial search from URL
+        const params = new URLSearchParams(window.location.search);
+        const initialQuery = params.get('search') || '';
+        if (initialQuery) {
+          searchInput.value = initialQuery;
+        }
+
+        searchInput.addEventListener('input', (e) => {
+          const query = e.target.value.trim();
+          const url = new URL(window.location.href);
+          if (query) {
+            url.searchParams.set('search', query);
+          } else {
+            url.searchParams.delete('search');
+          }
+          window.history.replaceState({}, '', url);
+          renderPostList();
+        });
+      }
+
       router();
       
       // Subscribe handler
@@ -216,12 +258,30 @@
       }
     }
 
+    function filterPosts(posts, query) {
+      if (!query) return posts;
+      const q = query.toLowerCase();
+      return posts.filter(p =>
+        p.title?.toLowerCase().includes(q) ||
+        p.topic?.toLowerCase().includes(q) ||
+        p.category?.toLowerCase().includes(q) ||
+        p.summary?.toLowerCase().includes(q)
+      );
+    }
+
     function router() {
       const params = new URLSearchParams(window.location.search);
-      const postId = params.get('id');
+      let postId = params.get('id');
+      
+      if (!postId) {
+        const pathParts = window.location.pathname.split('/').filter(Boolean);
+        if (pathParts.length === 2 && pathParts[0] === 'blog') {
+          postId = pathParts[1];
+        }
+      }
       
       if (postId && blogPosts.length > 0) {
-        const post = blogPosts.find(p => p.id === postId);
+        const post = blogPosts.find(p => p.id === postId || p.slug === postId);
         if (post) {
           renderPostDetail(post);
           return;
@@ -255,6 +315,10 @@
       document.getElementById('blog-detail-view').style.display = 'none';
       document.getElementById('blog-list-view').style.display = 'block';
 
+      // Remove any existing dynamic JSON-LD scripts in list view
+      const oldSchemas = document.querySelectorAll('script[data-dynamic-schema="true"]');
+      oldSchemas.forEach(el => el.remove());
+
       // Reset meta tags to default list view values
       document.title = "All Stories — ThingSource";
       
@@ -262,7 +326,7 @@
       if (descEl) descEl.setAttribute("content", "Browse all origin stories. Surprising history behind everyday things.");
 
       const canonEl = document.getElementById('canonical-link');
-      if (canonEl) canonEl.setAttribute("href", "https://thingsource.netlify.app/blog/");
+      if (canonEl) canonEl.setAttribute("href", "https://ts.armanayva.com/blog/");
 
       const ogTitle = document.getElementById('og-title');
       if (ogTitle) ogTitle.setAttribute("content", "All Stories — ThingSource");
@@ -271,10 +335,10 @@
       if (ogDesc) ogDesc.setAttribute("content", "Browse all origin stories. Surprising history behind everyday things.");
 
       const ogImg = document.getElementById('og-image');
-      if (ogImg) ogImg.setAttribute("content", "https://thingsource.netlify.app/social-card.png");
+      if (ogImg) ogImg.setAttribute("content", "https://ts.armanayva.com/social-card.png");
 
       const ogUrl = document.getElementById('og-url');
-      if (ogUrl) ogUrl.setAttribute("content", "https://thingsource.netlify.app/blog/");
+      if (ogUrl) ogUrl.setAttribute("content", "https://ts.armanayva.com/blog/");
 
       const twTitle = document.getElementById('twitter-title');
       if (twTitle) twTitle.setAttribute("content", "All Stories — ThingSource");
@@ -283,22 +347,28 @@
       if (twDesc) twDesc.setAttribute("content", "Browse all origin stories. Surprising history behind everyday things.");
 
       const twImg = document.getElementById('twitter-image');
-      if (twImg) twImg.setAttribute("content", "https://thingsource.netlify.app/social-card.png");
+      if (twImg) twImg.setAttribute("content", "https://ts.armanayva.com/social-card.png");
 
+      // Read search query from input or URL
+      const searchInput = document.getElementById('search-input');
+      const params = new URLSearchParams(window.location.search);
+      const query = searchInput ? searchInput.value.trim() : (params.get('search') || '');
+      if (searchInput && !searchInput.value && query) {
+        searchInput.value = query;
+      }
+
+      const filtered = filterPosts(blogPosts, query);
       const grid = document.getElementById('blog-posts-grid');
-      if (blogPosts.length === 0) {
-        grid.innerHTML = '<p style="color: var(--text-muted);">No articles found.</p>';
+      if (filtered.length === 0) {
+        grid.innerHTML = '<p style="color: var(--text-muted); grid-column: 1/-1; text-align: center; padding: 2rem 0;">No articles found.</p>';
         return;
       }
 
-      grid.innerHTML = blogPosts.map(post => {
+      grid.innerHTML = filtered.map(post => {
         const pDate = new Date(post.date).toLocaleDateString(undefined, {month: 'short', day: 'numeric', year: 'numeric'});
-        const kw = post.imageKeywords?.[0] || post.topic || 'history';
-        const cat = post.category || '';
-        const thumbUrl = `https://source.unsplash.com/800x500/?${encodeURIComponent(kw)},${encodeURIComponent(cat)}`;
         
         return `
-          <div class="post-card" onclick="window.location.href='/blog/?id=${post.id}'">
+          <div class="post-card" onclick="window.location.href='/blog/?id=${post.slug || post.id}'">
             <div class="post-card-img-wrapper">
               ${getPostImage(post)}
             </div>
@@ -310,7 +380,7 @@
               <p class="post-card-excerpt">${escapeHtml(post.summary)}</p>
               <div class="post-card-meta">
                 <span>📅 ${pDate}</span>
-                <a href="/blog/?id=${post.id}">Read more &rarr;</a>
+                <a href="/blog/?id=${post.slug || post.id}">Read more &rarr;</a>
               </div>
             </div>
           </div>
@@ -437,8 +507,8 @@
           </div>
         ` : '';
 
-      const postUrl = `https://thingsource.netlify.app/blog/?id=${post.id}`;
-      const encodedUrl = encodeURIComponent(postUrl);
+      const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
+      const encodedUrl = encodeURIComponent(`https://ts.armanayva.com/blog/?id=${post.slug || post.id}`);
       const encodedTitle = encodeURIComponent(`${post.title} — ThingSource`);
 
       const shareHtml = `
@@ -449,22 +519,25 @@
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}" class="share-btn" target="_blank">LinkedIn Share on LinkedIn</a>
             <a href="https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}" class="share-btn" target="_blank">f Share on Facebook</a>
             <a href="https://wa.me/?text=${encodedTitle}%20${encodedUrl}" class="share-btn" target="_blank">WhatsApp Share on WhatsApp</a>
-            <button class="share-btn" onclick="copyPostLink(this, '${postUrl}')">🔗 Copy link</button>
+            <button class="share-btn" onclick="copyPostLink(this, 'https://ts.armanayva.com/blog/?id=${post.slug || post.id}')">🔗 Copy link</button>
           </div>
         </div>
       `;
 
       // Update meta tags dynamically
-      document.title = `${post.title} — ThingSource`;
+      document.title = `${post.title} | Origin Story | ThingSource`;
       
       const descEl = document.getElementById('meta-description');
-      if (descEl) descEl.setAttribute("content", post.summary);
+      if (descEl) descEl.setAttribute("content", `Discover the surprising origin of ${post.topic}. ${post.summary}`);
+
+      const keywordsEl = document.getElementById('meta-keywords');
+      if (keywordsEl) keywordsEl.setAttribute("content", `origin of ${post.topic}, history of ${post.topic}, where did ${post.topic} come from, ${post.topic} history, ${post.category} origins`);
 
       const canonEl = document.getElementById('canonical-link');
-      if (canonEl) canonEl.setAttribute("href", postUrl);
+      if (canonEl) canonEl.setAttribute("href", `https://ts.armanayva.com/blog/${post.slug || post.id}`);
 
       const ogTitle = document.getElementById('og-title');
-      if (ogTitle) ogTitle.setAttribute("content", `${post.title} — ThingSource`);
+      if (ogTitle) ogTitle.setAttribute("content", `${post.title} | ThingSource`);
 
       const ogDesc = document.getElementById('og-description');
       if (ogDesc) ogDesc.setAttribute("content", post.summary);
@@ -473,16 +546,93 @@
       if (ogImg) ogImg.setAttribute("content", coverImage);
 
       const ogUrl = document.getElementById('og-url');
-      if (ogUrl) ogUrl.setAttribute("content", postUrl);
+      if (ogUrl) ogUrl.setAttribute("content", `https://ts.armanayva.com/blog/${post.slug || post.id}`);
 
       const twTitle = document.getElementById('twitter-title');
-      if (twTitle) twTitle.setAttribute("content", `${post.title} — ThingSource`);
+      if (twTitle) twTitle.setAttribute("content", `${post.title} | ThingSource`);
 
       const twDesc = document.getElementById('twitter-description');
       if (twDesc) twDesc.setAttribute("content", post.summary);
 
       const twImg = document.getElementById('twitter-image');
       if (twImg) twImg.setAttribute("content", coverImage);
+
+      // Remove any existing dynamic JSON-LD scripts
+      const oldSchemas = document.querySelectorAll('script[data-dynamic-schema="true"]');
+      oldSchemas.forEach(el => el.remove());
+
+      // FAQ Schema
+      const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": `What is the origin of ${post.topic}?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `${post.summary} ${post.sections && post.sections[0] ? post.sections[0].content : ''}`
+            }
+          },
+          {
+            "@type": "Question", 
+            "name": `Where did ${post.topic} come from?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `${post.sections && post.sections[1] ? post.sections[1].content : (post.sections && post.sections[0] ? post.sections[0].content : '')}`
+            }
+          },
+          {
+            "@type": "Question",
+            "name": `What are some fun facts about ${post.topic}?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `${post.funFacts ? post.funFacts.join(' ') : ''}`
+            }
+          }
+        ]
+      };
+
+      // Article Schema
+      const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": post.title,
+        "description": post.summary,
+        "datePublished": post.date,
+        "dateModified": post.date,
+        "author": {
+          "@type": "Person",
+          "name": "Arman Ayva",
+          "url": "https://armanayva.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "ThingSource",
+          "url": "https://ts.armanayva.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://ts.armanayva.com/social-card.png"
+          }
+        },
+        "image": (post.images && post.images[0]) || "https://ts.armanayva.com/social-card.png",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": `https://ts.armanayva.com/blog/${post.slug || post.id}`
+        }
+      };
+
+      const faqScript = document.createElement('script');
+      faqScript.type = 'application/ld+json';
+      faqScript.setAttribute('data-dynamic-schema', 'true');
+      faqScript.textContent = JSON.stringify(faqSchema);
+      document.head.appendChild(faqScript);
+
+      const articleScript = document.createElement('script');
+      articleScript.type = 'application/ld+json';
+      articleScript.setAttribute('data-dynamic-schema', 'true');
+      articleScript.textContent = JSON.stringify(articleSchema);
+      document.head.appendChild(articleScript);
 
       detailDiv.innerHTML = `
         <div class="post-detail-container">
