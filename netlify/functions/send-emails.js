@@ -208,8 +208,8 @@ exports.handler = async (event) => {
             const unsubUrl = `${siteUrl}/.netlify/functions/unsubscribe?token=${subscriberData.token}`;
 
             const sendPromise = resend.emails.send({
-              from: process.env.RESEND_FROM || "ThingSource <thingsource@resend.dev>",
-              replyTo: "thingsource@resend.dev",
+              from: process.env.RESEND_FROM || "ThingSource <thingsource@ts.armanayva.com>",
+              replyTo: process.env.RESEND_FROM || "thingsource@ts.armanayva.com",
               to: subscriberData.email,
               subject: `${postData.title} · ThingSource`,
               html: buildEmailHtml(postData, unsubUrl),

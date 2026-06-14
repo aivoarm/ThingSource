@@ -84,7 +84,7 @@ exports.handler = async (event, context) => {
       const unsubUrl = `${siteUrl}/.netlify/functions/unsubscribe?token=${token}`;
 
       await resend.emails.send({
-        from: process.env.RESEND_FROM || "onboarding@resend.dev",
+        from: process.env.RESEND_FROM || "ThingSource <thingsource@ts.armanayva.com>",
         to: email,
         subject: "You're subscribed to ThingSource",
         html: `<!DOCTYPE html>
