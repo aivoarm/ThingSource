@@ -242,16 +242,21 @@ function openPost(id) {
     ` : '';
 
   // Citations
-  const citationsHtml = post.citations && post.citations.length > 0
+  const citationsHtml = (post.citations && post.citations.length > 0) || post.aiSource
     ? `
       <div class="citations-box">
         <strong>Sources & Citations:</strong>
         <ul>
-          ${post.citations.map(link => `
+          ${post.citations ? post.citations.map(link => `
             <li>
               <a href="${link}" target="_blank" rel="noopener noreferrer">${escapeHtml(link)}</a>
             </li>
-          `).join('')}
+          `).join('') : ''}
+          ${post.aiSource ? `
+            <li>
+              <strong>AI source:</strong> ${escapeHtml(post.aiSource)}
+            </li>
+          ` : ''}
         </ul>
       </div>
     ` : '';

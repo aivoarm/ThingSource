@@ -5,18 +5,18 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
 
   if (process.env.USE_CLAUDE_PRIMARY === "true") {
     console.log("Using Claude as primary model...");
-    return await callClaude(promptContent);
+    return { text: await callClaude(promptContent), model: "Claude" };
   }
 
   if (process.env.USE_GROQ_PRIMARY === "true") {
     console.log("Using Groq as primary model...");
-    return await callGroq(promptContent);
+    return { text: await callGroq(promptContent), model: "Groq" };
   }
 
   try {
     const response = await ai.models.generateContent(geminiParams);
     console.log("Model used: Gemini");
-    return response.text;
+    return { text: response.text, model: "Gemini" };
   } catch (err) {
     const is429 = err.message?.includes("429") || 
                   err.message?.includes("RESOURCE_EXHAUSTED") ||
@@ -27,7 +27,7 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
     if (process.env.GROQ_KEY) {
       try {
         console.log("Gemini rate limited. Falling back to Groq...");
-        return await callGroq(promptContent);
+        return { text: await callGroq(promptContent), model: "Groq" };
       } catch (groqErr) {
         console.log(`Groq fallback failed: ${groqErr.message}`);
       }
@@ -35,7 +35,7 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
 
     if (process.env.ANTHROPIC_API_KEY) {
       console.log("Falling back to Claude...");
-      return await callClaude(promptContent);
+      return { text: await callClaude(promptContent), model: "Claude" };
     }
 
     throw err;
@@ -246,8 +246,9 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     attempts++;
     log(`Executing research and blog post compilation (attempt ${attempts})...`);
     let responseText;
+    let modelUsed;
     try {
-      responseText = await generateWithFallback(ai, {
+      const responseObj = await generateWithFallback(ai, {
         model: "gemini-2.5-flash",
         contents: prompt,
         config: {
@@ -255,6 +256,8 @@ Return ONLY a raw JSON object with no markdown, no backticks:
           responseMimeType: "application/json",
         },
       }, claudePromptOverride);
+      responseText = responseObj.text;
+      modelUsed = responseObj.model;
     } catch (err) {
       log(`Failed generation phase: ${err.message}`);
       throw err;
@@ -276,9 +279,11 @@ Return ONLY a raw JSON object with no markdown, no backticks:
       log("Too similar to existing post. Regenerating...");
       if (attempts >= 2) {
         log("Max regeneration attempts reached. Proceeding with current post to avoid loop.");
+        postData.aiSource = modelUsed;
         break;
       }
     } else {
+      postData.aiSource = modelUsed;
       break;
     }
   }

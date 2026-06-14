@@ -1,5 +1,40 @@
 [
   {
+    "topic": "origin of bubble gum",
+    "title": "The Sticky Truth: Unwrapping the Surprising History of Bubble Gum",
+    "category": "Food & Drink",
+    "summary": "Bubble gum has been a beloved treat for generations, but its origins are more complex and fascinating than you might expect. From its accidental invention to its rise as a cultural phenomenon, the story of bubble gum is full of surprises.",
+    "sections": [
+      {
+        "heading": "The Accidental Invention",
+        "content": "Bubble gum was invented in 1928 by Frank Henry Fleer, who experimented with various recipes to create a soft and chewy gum that could be blown into bubbles. However, it was Walter Diemer, an accountant at the Fleer Chewing Gum Company, who accidentally discovered the perfect formula for bubble gum in 1932, creating the first commercially successful bubble gum called Dubble Bubble."
+      },
+      {
+        "heading": "The Rise of Bubble Gum Culture",
+        "content": "During World War II, bubble gum became a popular treat among American soldiers, who introduced it to other countries. After the war, bubble gum became a cultural phenomenon, with its popularity soaring in the 1950s and 1960s. It was marketed as a fun and carefree treat, with colorful packaging and catchy advertising slogans."
+      }
+    ],
+    "funFacts": [
+      "The first bubble gum was pink because that was the only food coloring Diemer had on hand",
+      "Bubble gum was initially marketed as a way to help people quit smoking",
+      "The world's largest bubble gum bubble was over 24 inches in diameter"
+    ],
+    "imageKeywords": [
+      "vintage Dubble Bubble packaging",
+      "Walter Diemer in his laboratory"
+    ],
+    "citations": [
+      "https://www.britannica.com/topic/bubble-gum",
+      "https://www.smithsonianmag.com/history/the-accidental-invention-of-bubble-gum-180976157/"
+    ],
+    "aiSource": "Groq",
+    "id": "1781445583321-origin-of-bubble-gum",
+    "date": "2026-06-14T13:59:43.321Z",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a0/Blowing_bubble_gum.jpg"
+    ]
+  },
+  {
     "topic": "origin of crossword puzzles",
     "title": "The Fascinating Story Behind the World's Favorite Brain Teaser",
     "category": "Culture",
