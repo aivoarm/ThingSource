@@ -4,7 +4,7 @@ const { Resend } = require("resend");
 // ─── Plain-text builder ────────────────────────────────────────────────────
 function buildPlainTextEmail(post, unsubUrl) {
   let text = "";
-  text += `THINGSOURCE — CURIOUS ORIGINS DAILY\n\n`;
+  text += `THINGSOURCE (https://ts.armanayva.com) — CURIOUS ORIGINS DAILY\n\n`;
   text += `${post.title}\n`;
   text += `${"=".repeat(post.title.length)}\n\n`;
   text += `${post.summary}\n\n`;
@@ -76,8 +76,10 @@ function buildEmailHtml(post, unsubUrl) {
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="font-family:'Helvetica Neue',Arial,sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#1C1C1E;background:#ffffff">
 
-  <!-- Header — plain text, no link -->
-  <p style="font-family:Georgia,serif;font-size:22px;font-weight:bold;color:#0D7A6B;margin:0 0 4px">ThingSource</p>
+  <!-- Header — link to website -->
+  <p style="font-family:Georgia,serif;font-size:22px;font-weight:bold;margin:0 0 4px">
+    <a href="https://ts.armanayva.com" style="color:#0D7A6B;text-decoration:none">ThingSource</a>
+  </p>
   <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.08em;margin:0 0 24px">Curious Origins Daily</p>
 
   <hr style="border:none;border-top:1px solid #eee;margin:0 0 24px">
@@ -137,9 +139,9 @@ function buildEmailHtml(post, unsubUrl) {
 
   <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
 
-  <!-- Footer — unsubscribe is the ONLY link -->
+  <!-- Footer -->
   <p style="font-size:12px;color:#999;line-height:1.6;margin:0">
-    You received this email because you subscribed to ThingSource.<br>
+    You received this email because you subscribed to <a href="https://ts.armanayva.com" style="color:#999;text-decoration:underline">ThingSource</a>.<br>
     <a href="${unsubUrl}" style="color:#999">Unsubscribe</a>
   </p>
 

@@ -617,9 +617,11 @@ async function sendNewsletter(post, settings) {
     <div class="wrapper">
       <div class="container">
         <!-- Dynamic Header SVG Banner -->
-        <div class="banner-container">
-          <img class="banner-img" src="${emailBannerSrc}" alt="${titleEscaped}">
-        </div>
+        <a href="https://ts.armanayva.com" style="text-decoration:none;">
+          <div class="banner-container">
+            <img class="banner-img" src="${emailBannerSrc}" alt="${titleEscaped}">
+          </div>
+        </a>
 
         <div class="category">${categoryEscaped}</div>
         <div class="title">${titleEscaped}</div>
@@ -634,7 +636,7 @@ async function sendNewsletter(post, settings) {
         ${factsHtml}
         
         <div class="footer">
-          <p>You received this email because you subscribed to **ThingSource** origin discoveries.</p>
+          <p>You received this email because you subscribed to <a href="https://ts.armanayva.com" style="color:${bannerGradient.from};text-decoration:underline;">ThingSource</a> origin discoveries.</p>
           <p>Want to unsubscribe? <a href="{{UNSUBSCRIBE_LINK}}">Click here to unsubscribe instantly</a>.</p>
         </div>
       </div>
