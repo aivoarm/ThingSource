@@ -241,11 +241,11 @@ function openPost(id) {
       </div>
     ` : '';
 
-  // Historic Joke of the Day
+  // Joke of the Day
   const jokeHtml = post.joke
     ? `
       <div class="joke-of-day">
-        <p class="joke-label">🎭 Historic Joke of the Day</p>
+        <p class="joke-label">🎭 Joke of the Day</p>
         <p class="joke-setup">"${escapeHtml(post.joke.setup || post.joke.joke)}"</p>
         ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? `<p class="joke-punchline">${escapeHtml(post.joke.punchline)}</p>` : ''}
         <p class="joke-credit">— ${escapeHtml(post.joke.comedian)} · ${escapeHtml(post.joke.year)}</p>

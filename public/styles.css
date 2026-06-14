@@ -614,17 +614,30 @@ footer {
   height: 100%;
 }
 
-/* Historic Joke of the Day */
+/* Joke of the Day - Styled Playful & Funny */
 .joke-of-day {
-  background-color: #1C1C1E;
+  background: linear-gradient(135deg, #FFF9E6 0%, #FFF3CD 100%);
+  border: 3px dashed #FFC107;
   border-radius: 16px;
   padding: 32px;
   margin: 48px 0;
+  position: relative;
+  overflow: hidden;
+}
+.joke-of-day::after {
+  content: "😂";
+  position: absolute;
+  right: 16px;
+  bottom: 8px;
+  font-size: 4rem;
+  opacity: 0.15;
+  pointer-events: none;
 }
 .joke-label {
   font-family: var(--font-sans);
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
+  color: #856404;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   margin-bottom: 16px;
@@ -632,7 +645,7 @@ footer {
 .joke-setup {
   font-family: var(--font-serif);
   font-size: 22px;
-  color: #FFFFFF;
+  color: #2D2D2D;
   font-style: italic;
   line-height: 1.6;
   margin-bottom: 8px;
@@ -640,22 +653,22 @@ footer {
 .joke-punchline {
   font-family: var(--font-serif);
   font-size: 24px;
-  color: #F5A623;
-  font-weight: bold;
+  color: #D9381E;
+  font-weight: 800;
   margin-bottom: 16px;
 }
 .joke-credit {
   font-family: var(--font-sans);
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #6A5A52;
   margin-bottom: 12px;
 }
 .joke-context {
   font-family: var(--font-sans);
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.4);
+  color: #7A6A60;
   line-height: 1.7;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(133, 100, 4, 0.2);
   padding-top: 16px;
 }
 

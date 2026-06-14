@@ -293,8 +293,8 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   postData.id = postId;
   postData.date = new Date().toISOString();
 
-  // Generate Historic Joke of the Day
-  log("Generating Historic Joke of the Day...");
+  // Generate Joke of the Day
+  log("Generating Joke of the Day...");
   const jokePrompt = `You are a comedy historian.
 Find one genuinely iconic, funny joke that is widely considered one of the best jokes of all time. It must be a joke that actually makes people smile or laugh, not just a historical curiosity.
 Must be a REAL documented joke — not invented.
@@ -328,7 +328,7 @@ Return ONLY raw JSON, no markdown:
       jokeText = jokeText.replace(/```json|```/g, "").trim();
     }
     postData.joke = JSON.parse(jokeText);
-    log("Successfully generated Historic Joke of the Day.");
+    log("Successfully generated Joke of the Day.");
   } catch (e) {
     log(`Joke generation failed, skipping: ${e.message}`);
     postData.joke = null;

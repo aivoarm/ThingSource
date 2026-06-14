@@ -26,7 +26,7 @@ function buildPlainTextEmail(post, unsubUrl) {
 
   if (post.joke) {
     text += `---
-🎭 HISTORIC JOKE OF THE DAY
+🎭 JOKE OF THE DAY
 
 "${post.joke.setup || post.joke.joke}"
 ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punchline + '\n' : ''}
@@ -109,24 +109,26 @@ function buildEmailHtml(post, unsubUrl) {
 
   ${post.joke ? `
 <div style="
-  background:#1C1C1E;
+  background:#FFF9E6;
+  border:2px dashed #FFC107;
   border-radius:8px;
   padding:24px;
   margin:32px 0;">
   
   <p style="
     font-size:11px;
-    color:rgba(255,255,255,0.4);
+    color:#856404;
     text-transform:uppercase;
     letter-spacing:0.12em;
     margin:0 0 16px;
+    font-weight:bold;
     font-family:Arial,sans-serif;">
-    🎭 Historic Joke of the Day
+    🎭 Joke of the Day
   </p>
   
   <p style="
     font-size:18px;
-    color:rgba(255,255,255,0.9);
+    color:#2D2D2D;
     line-height:1.6;
     margin:0 0 8px;
     font-style:italic;
@@ -138,7 +140,7 @@ function buildEmailHtml(post, unsubUrl) {
     post.joke.punchline !== post.joke.joke ? `
   <p style="
     font-size:20px;
-    color:#F5A623;
+    color:#D9381E;
     font-weight:bold;
     margin:0 0 16px;
     font-family:Georgia,serif;">
@@ -147,7 +149,7 @@ function buildEmailHtml(post, unsubUrl) {
   
   <p style="
     font-size:13px;
-    color:rgba(255,255,255,0.5);
+    color:#6A5A52;
     margin:0 0 12px;
     font-family:Arial,sans-serif;">
     — ${post.joke.comedian} · ${post.joke.year}
@@ -155,11 +157,11 @@ function buildEmailHtml(post, unsubUrl) {
   
   <p style="
     font-size:13px;
-    color:rgba(255,255,255,0.4);
+    color:#7A6A60;
     line-height:1.6;
     margin:0;
     padding-top:12px;
-    border-top:1px solid rgba(255,255,255,0.1);
+    border-top:1px solid rgba(133,100,4,0.2);
     font-family:Arial,sans-serif;">
     ${post.joke.context}
   </p>
