@@ -241,6 +241,18 @@ function openPost(id) {
       </div>
     ` : '';
 
+  // Historic Joke of the Day
+  const jokeHtml = post.joke
+    ? `
+      <div class="joke-of-day">
+        <p class="joke-label">🎭 Historic Joke of the Day</p>
+        <p class="joke-setup">"${escapeHtml(post.joke.setup || post.joke.joke)}"</p>
+        ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? `<p class="joke-punchline">${escapeHtml(post.joke.punchline)}</p>` : ''}
+        <p class="joke-credit">— ${escapeHtml(post.joke.comedian)} · ${escapeHtml(post.joke.year)}</p>
+        <p class="joke-context">${escapeHtml(post.joke.context)}</p>
+      </div>
+    ` : '';
+
   // Citations
   const citationsHtml = (post.citations && post.citations.length > 0) || post.aiSource
     ? `
@@ -325,6 +337,7 @@ function openPost(id) {
         ${renderedSections}
       </div>
       ${factsHtml}
+      ${jokeHtml}
       <div style="
         background: linear-gradient(135deg, #0D7A6B 0%, #095e54 100%);
         border-radius: 16px;

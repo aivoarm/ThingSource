@@ -381,9 +381,7 @@
             renderedSections += `
               <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-dark); margin-top: 2rem; margin-bottom: 1rem;">${escapeHtml(post.sections[i].heading)}</h3>
               <p style="margin-bottom: 1.5rem;">${marked.parse(post.sections[i].content)}</p>
-            `;
-          }
-        } else {
+           } else {
           renderedSections += inlineAdHtml;
         }
       } else {
@@ -398,6 +396,18 @@
             <ul>
               ${post.funFacts.map(fact => `<li>${escapeHtml(fact)}</li>`).join('')}
             </ul>
+          </div>
+        ` : '';
+
+      // Historic Joke of the Day
+      const jokeHtml = post.joke
+        ? `
+          <div class="joke-of-day">
+            <p class="joke-label">🎭 Historic Joke of the Day</p>
+            <p class="joke-setup">"${escapeHtml(post.joke.setup || post.joke.joke)}"</p>
+            ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? `<p class="joke-punchline">${escapeHtml(post.joke.punchline)}</p>` : ''}
+            <p class="joke-credit">— ${escapeHtml(post.joke.comedian)} · ${escapeHtml(post.joke.year)}</p>
+            <p class="joke-context">${escapeHtml(post.joke.context)}</p>
           </div>
         ` : '';
 
@@ -483,6 +493,7 @@
             ${renderedSections}
           </div>
           ${factsHtml}
+          ${jokeHtml}
           <div style="background:linear-gradient(135deg,#0D7A6B 0%,#095e54 100%);border-radius:16px;padding:32px;margin:48px 0;color:white;position:relative;overflow:hidden;">
             <div style="position:absolute;right:24px;top:50%;transform:translateY(-50%);font-size:120px;opacity:0.08;line-height:1;pointer-events:none;">♪</div>
             <p style="font-size:11px;text-transform:uppercase;letter-spacing:0.12em;color:rgba(255,255,255,0.6);margin:0 0 8px;font-family:Inter,sans-serif;">Keeping ThingSource free</p>
@@ -491,7 +502,7 @@
               ThingSource is created by <strong>Arman Ayva</strong> — a digital creator and technology enthusiast who also makes original music. Every Spotify stream supports this site and keeps it completely free for all readers.
             </p>
             <a href="https://open.spotify.com/search/Arman%20Ayva" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:#1DB954;color:white;text-decoration:none;padding:12px 24px;border-radius:50px;font-family:Inter,sans-serif;font-size:15px;font-weight:600;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9-4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
               Listen on Spotify — Search "Arman Ayva"
             </a>
             <p style="font-size:12px;color:rgba(255,255,255,0.5);margin:12px 0 0;font-family:Inter,sans-serif;">Free to stream · Supports independent creation · Thank you 🙏</p>

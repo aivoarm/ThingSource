@@ -292,6 +292,50 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   const postId = `${Date.now()}-${topic.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
   postData.id = postId;
   postData.date = new Date().toISOString();
+
+  // Generate Historic Joke of the Day
+  log("Generating Historic Joke of the Day...");
+  const jokePrompt = `You are a comedy historian.
+Find one genuinely iconic historically significant joke.
+Must be a REAL documented joke — not invented.
+
+Good examples to look for:
+- Oldest recorded joke in history
+- A joke from a comedian's defining career moment
+- A joke that was banned or caused controversy
+- A joke quoted by a historical figure
+- A joke that defined a comedy era
+
+Return ONLY raw JSON, no markdown:
+{
+  "joke": "full joke text as originally recorded",
+  "setup": "setup line only",
+  "punchline": "punchline only",
+  "comedian": "name or origin",
+  "year": "year or era e.g. 1900 BC or 1965",
+  "context": "2 sentences on why historically significant"
+}`;
+
+  try {
+    const jokeResObj = await generateWithFallback(ai, {
+      model: "gemini-2.5-flash",
+      contents: jokePrompt,
+      config: {
+        tools: [{ googleSearch: {} }],
+        responseMimeType: "application/json",
+      },
+    });
+    let jokeText = jokeResObj.text.trim();
+    if (jokeText.startsWith("```")) {
+      jokeText = jokeText.replace(/```json|```/g, "").trim();
+    }
+    postData.joke = JSON.parse(jokeText);
+    log("Successfully generated Historic Joke of the Day.");
+  } catch (e) {
+    log(`Joke generation failed, skipping: ${e.message}`);
+    postData.joke = null;
+  }
+
   const { getBestImage } = require("./utils/images.js");
 
   // Try to get a real image, fall back gracefully

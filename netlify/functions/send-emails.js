@@ -24,6 +24,19 @@ function buildPlainTextEmail(post, unsubUrl) {
     text += "\n";
   }
 
+  if (post.joke) {
+    text += `---
+🎭 HISTORIC JOKE OF THE DAY
+
+"${post.joke.setup || post.joke.joke}"
+${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punchline + '\n' : ''}
+— ${post.joke.comedian} · ${post.joke.year}
+
+${post.joke.context}
+
+`;
+  }
+
   text += `---\n`;
   text += `♪ SPONSORED BY ARMAN AYVA\n\n`;
   text += `ThingSource is built and maintained by Arman Ayva,\n`;
@@ -93,6 +106,65 @@ function buildEmailHtml(post, unsubUrl) {
 
   <!-- Fun facts -->
   ${funFactsHtml}
+
+  ${post.joke ? `
+<div style="
+  background:#1C1C1E;
+  border-radius:8px;
+  padding:24px;
+  margin:32px 0;">
+  
+  <p style="
+    font-size:11px;
+    color:rgba(255,255,255,0.4);
+    text-transform:uppercase;
+    letter-spacing:0.12em;
+    margin:0 0 16px;
+    font-family:Arial,sans-serif;">
+    🎭 Historic Joke of the Day
+  </p>
+  
+  <p style="
+    font-size:18px;
+    color:rgba(255,255,255,0.9);
+    line-height:1.6;
+    margin:0 0 8px;
+    font-style:italic;
+    font-family:Georgia,serif;">
+    "${post.joke.setup || post.joke.joke}"
+  </p>
+  
+  ${post.joke.punchline && 
+    post.joke.punchline !== post.joke.joke ? `
+  <p style="
+    font-size:20px;
+    color:#F5A623;
+    font-weight:bold;
+    margin:0 0 16px;
+    font-family:Georgia,serif;">
+    ${post.joke.punchline}
+  </p>` : ""}
+  
+  <p style="
+    font-size:13px;
+    color:rgba(255,255,255,0.5);
+    margin:0 0 12px;
+    font-family:Arial,sans-serif;">
+    — ${post.joke.comedian} · ${post.joke.year}
+  </p>
+  
+  <p style="
+    font-size:13px;
+    color:rgba(255,255,255,0.4);
+    line-height:1.6;
+    margin:0;
+    padding-top:12px;
+    border-top:1px solid rgba(255,255,255,0.1);
+    font-family:Arial,sans-serif;">
+    ${post.joke.context}
+  </p>
+  
+</div>` : ""}
 
   <!-- Sponsor block — Spotify music promotion -->
   <div style="background:#F8F6F1;border-radius:8px;padding:20px 24px;margin:32px 0;border-left:4px solid #0D7A6B">
