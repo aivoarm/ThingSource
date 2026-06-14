@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /.netlify/
-Sitemap: https://thingsource.netlify.app/sitemap.xml
+Sitemap: https://ts.armanayva.com/sitemap.xml

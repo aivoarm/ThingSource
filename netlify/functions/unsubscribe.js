@@ -12,7 +12,7 @@ exports.handler = async (event, context) => {
 <head><meta charset="utf-8"><title>Unsubscribe Error</title></head>
 <body style="font-family:sans-serif;text-align:center;padding:50px;">
   <h2>Missing unsubscribe token</h2>
-  <p><a href="https://thingsource.netlify.app">Back to ThingSource</a></p>
+  <p><a href="https://ts.armanayva.com">Back to ThingSource</a></p>
 </body>
 </html>`
     };
@@ -59,7 +59,7 @@ exports.handler = async (event, context) => {
 <body style="font-family:sans-serif;text-align:center;padding:50px;background:#070913;color:#fff;">
   <div style="max-width:500px;margin:0 auto;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);padding:30px;border-radius:12px;">
     <h2>${message}</h2>
-    <p style="margin-top:20px;"><a href="https://thingsource.netlify.app" style="color:#ef4444;text-decoration:none;font-weight:bold;">Back to ThingSource</a></p>
+    <p style="margin-top:20px;"><a href="https://ts.armanayva.com" style="color:#ef4444;text-decoration:none;font-weight:bold;">Back to ThingSource</a></p>
   </div>
 </body>
 </html>`
@@ -74,7 +74,7 @@ exports.handler = async (event, context) => {
 <head><meta charset="utf-8"><title>Error</title></head>
 <body style="font-family:sans-serif;text-align:center;padding:50px;background:#070913;color:#fff;">
   <h2>An error occurred. Please try again.</h2>
-  <p><a href="https://thingsource.netlify.app" style="color:#ef4444;">Back to ThingSource</a></p>
+  <p><a href="https://ts.armanayva.com" style="color:#ef4444;">Back to ThingSource</a></p>
 </body>
 </html>`
     };

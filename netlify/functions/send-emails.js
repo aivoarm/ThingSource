@@ -47,7 +47,7 @@ ${post.joke.context}
   text += `To say thank you: search "Arman Ayva" on Spotify\n`;
   text += `and give his music a listen. It costs you nothing.\n\n`;
 
-  const postUrl = `https://thingsource.netlify.app/blog/?id=${post.id}`;
+  const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
   text += `---\n`;
   text += `SHARE THIS STORY\n`;
   text += `Share on X: https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent(postUrl)}\n`;
@@ -62,6 +62,7 @@ ${post.joke.context}
 
 // ─── HTML builder ─────────────────────────────────────────────────────────
 function buildEmailHtml(post, unsubUrl) {
+  const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
   // Render all sections in full
   const sectionsHtml = (post.sections || []).map((section, idx) => {
     // Strip basic markdown bold/italic for email safety
@@ -190,19 +191,19 @@ function buildEmailHtml(post, unsubUrl) {
     <table border="0" cellpadding="0" cellspacing="0" style="margin:0 auto">
       <tr>
         <td style="padding:0 6px">
-          <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent('https://thingsource.netlify.app/blog/?id=' + post.id)}"
+          <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent(postUrl)}"
              style="display:inline-block;background:#000;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
             𝕏 Share
           </a>
         </td>
         <td style="padding:0 6px">
-          <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://thingsource.netlify.app/blog/?id=' + post.id)}"
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(postUrl)}"
              style="display:inline-block;background:#0A66C2;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
             in LinkedIn
           </a>
         </td>
         <td style="padding:0 6px">
-          <a href="https://wa.me/?text=${encodeURIComponent(post.title + ' — ' + 'https://thingsource.netlify.app/blog/?id=' + post.id)}"
+          <a href="https://wa.me/?text=${encodeURIComponent(post.title + ' — ' + postUrl)}"
              style="display:inline-block;background:#25D366;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
             WhatsApp
           </a>
@@ -267,7 +268,7 @@ exports.handler = async (event) => {
     }
 
     const resend = new Resend(process.env.RESEND_API_KEY);
-    const siteUrl = "https://thingsource.netlify.app";
+    const siteUrl = "https://ts.armanayva.com";
 
     // Send in batches of 100 (Resend free tier limit is 100/day)
     const batchSize = 100;

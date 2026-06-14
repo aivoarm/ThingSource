@@ -80,7 +80,7 @@ exports.handler = async (event, context) => {
     // Send welcome email via Resend
     if (process.env.RESEND_API_KEY) {
       const resend = new Resend(process.env.RESEND_API_KEY);
-      const siteUrl = "https://thingsource.netlify.app";
+      const siteUrl = "https://ts.armanayva.com";
       const unsubUrl = `${siteUrl}/.netlify/functions/unsubscribe?token=${token}`;
 
       await resend.emails.send({

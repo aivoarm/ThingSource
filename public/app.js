@@ -273,7 +273,7 @@ function openPost(id) {
       </div>
     ` : '';
 
-  const postUrl = `https://thingsource.netlify.app/blog/?id=${post.id}`;
+  const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
   const encodedUrl = encodeURIComponent(postUrl);
   const encodedTitle = encodeURIComponent(`${post.title} — ThingSource`);
 
@@ -392,7 +392,7 @@ function closeModal() {
   if (descEl) descEl.setAttribute("content", "Discover the surprising origins of everyday things. From food to words to customs — delivered to your inbox daily.");
 
   const canonEl = document.querySelector('link[rel="canonical"]');
-  if (canonEl) canonEl.setAttribute("href", "https://thingsource.netlify.app");
+  if (canonEl) canonEl.setAttribute("href", "https://ts.armanayva.com");
 
   const ogTitle = document.querySelector('meta[property="og:title"]');
   if (ogTitle) ogTitle.setAttribute("content", "ThingSource — One Curious Origin Story, Every Morning");
@@ -401,10 +401,10 @@ function closeModal() {
   if (ogDesc) ogDesc.setAttribute("content", "Discover the surprising origins of everyday things. From food to words to customs — delivered to your inbox daily.");
 
   const ogImg = document.querySelector('meta[property="og:image"]');
-  if (ogImg) ogImg.setAttribute("content", "https://thingsource.netlify.app/social-card.png");
+  if (ogImg) ogImg.setAttribute("content", "https://ts.armanayva.com/social-card.png");
 
   const ogUrl = document.querySelector('meta[property="og:url"]');
-  if (ogUrl) ogUrl.setAttribute("content", "https://thingsource.netlify.app");
+  if (ogUrl) ogUrl.setAttribute("content", "https://ts.armanayva.com");
 
   const twTitle = document.querySelector('meta[name="twitter:title"]');
   if (twTitle) twTitle.setAttribute("content", "ThingSource — One Curious Origin Story, Every Morning");
@@ -413,7 +413,7 @@ function closeModal() {
   if (twDesc) twDesc.setAttribute("content", "Discover the surprising origins of everyday things. From food to words to customs — delivered to your inbox daily.");
 
   const twImg = document.querySelector('meta[name="twitter:image"]');
-  if (twImg) twImg.setAttribute("content", "https://thingsource.netlify.app/social-card.png");
+  if (twImg) twImg.setAttribute("content", "https://ts.armanayva.com/social-card.png");
 }
 
 // Handle Subscription form submit
