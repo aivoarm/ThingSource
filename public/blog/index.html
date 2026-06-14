@@ -459,7 +459,9 @@
             renderedSections += `
               <h3 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--text-dark); margin-top: 2rem; margin-bottom: 1rem;">${escapeHtml(post.sections[i].heading)}</h3>
               <p style="margin-bottom: 1.5rem;">${marked.parse(post.sections[i].content)}</p>
-           } else {
+            `;
+          }
+        } else {
           renderedSections += inlineAdHtml;
         }
       } else {
