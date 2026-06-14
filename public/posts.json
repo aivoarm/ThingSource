@@ -1,5 +1,52 @@
 [
   {
+    "topic": "The Cardigan Sweater",
+    "title": "The Sweater That Went to War: The Surprising Military Origin of the Cardigan",
+    "category": "Culture",
+    "summary": "That cozy button-front sweater hanging in your closet has a far more dramatic origin than you might expect — it was born on a bloody battlefield in Crimea, named after a British general whose troops famously wore it to survive the brutal winter siege.",
+    "sections": [
+      {
+        "heading": "A General, a Battle, and a Knitted Jacket",
+        "content": "The cardigan owes its name to James Thomas Brudenell, the 7th Earl of Cardigan, a British cavalry officer who led the infamous Charge of the Light Brigade during the Crimean War in 1854. During the brutal winter campaign near Balaclava, British officers began wearing knitted woolen waistcoats that opened at the front — a practical solution to the freezing temperatures of the Black Sea region. Because Lord Cardigan was one of the most visible and controversial figures of the war, the garment became associated with his name and stuck."
+      },
+      {
+        "heading": "The Charge of the Light Brigade Connection",
+        "content": "The Charge of the Light Brigade on October 25, 1854 was one of the most catastrophic — and romanticized — military blunders in British history, in which 600 cavalrymen rode directly into Russian artillery fire due to a miscommunicated order. Lord Cardigan reportedly led the charge from the front, survived, and returned to his private yacht anchored in the harbor for a champagne dinner — a detail that infuriated the British public and press. His notoriety made him one of the most talked-about men in Britain, inadvertently ensuring that anything associated with him, including the knitted jacket, would carry his name forward in history."
+      },
+      {
+        "heading": "From Battlefield to Victorian Fashion",
+        "content": "After the Crimean War, returning soldiers brought the front-opening knitted jacket back to Britain, where it quickly transitioned from military necessity to civilian fashion. The garment became especially popular among the Victorian upper classes, who appreciated its practicality and warmth without the fuss of pulling a heavy jumper over the head. By the late 19th century, the cardigan had spread well beyond military circles and was being worn by farmers, fishermen, and aristocrats alike."
+      },
+      {
+        "heading": "The 20th Century and the Cardigan's Cultural Reinvention",
+        "content": "The cardigan underwent several dramatic reinventions throughout the 20th century — Coco Chanel helped popularize relaxed knitwear for women in the 1920s, while the cardigan became a symbol of cozy domesticity in the 1950s, largely thanks to American TV dad archetypes. It was then reclaimed as a countercultural icon by Kurt Cobain in the early 1990s, whose oversized, worn-in cardigan aesthetic became synonymous with grunge. Most recently, Taylor Swift's 2020 song and album named 'cardigan' reignited mainstream interest in the garment, cementing its status as a cultural touchstone across generations."
+      },
+      {
+        "heading": "Common Myths and Misconceptions",
+        "content": "A persistent myth suggests the cardigan was invented specifically for Lord Cardigan as a custom military uniform piece, but historians note that front-opening knitted garments existed in various forms before the Crimean War in regions like the Channel Islands and Scandinavia. What changed was not the garment itself but its naming and mass cultural adoption, driven entirely by wartime fame and Victorian media coverage of the conflict. It's also commonly confused with the similar 'Balaclava' helmet — another piece of cold-weather military gear named after a location in the same Crimean War campaign."
+      }
+    ],
+    "funFacts": [
+      "The same Crimean War that gave us the cardigan also gave us the 'Balaclava' head covering, named after the Battle of Balaclava in 1854 — meaning you could theoretically wear two garments named after the same war simultaneously.",
+      "Lord Cardigan was so wealthy he personally financed part of his regiment's expenses and was known for his obsessive attention to uniform details — making it historically ironic that a practical, informal knitwear piece bears his name.",
+      "Kurt Cobain's famous green mohair cardigan from Nirvana's MTV Unplugged performance in 1993 sold at auction in 2019 for $334,000, making it one of the most expensive pieces of rock memorabilia ever sold."
+    ],
+    "imageKeywords": [
+      "cardigan sweater vintage",
+      "Crimean War British soldiers"
+    ],
+    "citations": [
+      "https://www.britannica.com/biography/James-Thomas-Brudenell-7th-Earl-of-Cardigan",
+      "https://www.historic-uk.com/HistoryUK/HistoryofBritain/The-Charge-of-the-Light-Brigade/",
+      "https://www.smithsonianmag.com/history/the-real-story-behind-the-charge-of-the-light-brigade-180961781/"
+    ],
+    "id": "1781420763355-the-cardigan-sweater",
+    "date": "2026-06-14T07:06:03.355Z",
+    "images": [
+      "https://picsum.photos/seed/1781420763355-the-cardigan-sweater/800/500"
+    ]
+  },
+  {
     "topic": "The Post-it Note",
     "title": "The Accidental Sticky Revolution: How a Failed Glue Invented the Post-it Note",
     "category": "Inventions",
