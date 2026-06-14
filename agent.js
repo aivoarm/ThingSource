@@ -37,6 +37,11 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
     return await callClaude(promptContent);
   }
 
+  if (process.env.USE_GROQ_PRIMARY === "true") {
+    log("Using Groq as primary model...");
+    return await callGroq(promptContent);
+  }
+
   try {
     const response = await ai.models.generateContent(geminiParams);
     log("Model used: Gemini");
@@ -46,11 +51,46 @@ async function generateWithFallback(ai, geminiParams, claudePromptOverride = nul
                   err.message?.includes("RESOURCE_EXHAUSTED") ||
                   err.message?.includes("quota");
     
-    if (!is429 || !process.env.ANTHROPIC_API_KEY) throw err;
+    if (!is429) throw err;
     
-    log("Gemini rate limited. Falling back to Claude...");
-    return await callClaude(promptContent);
+    if (process.env.GROQ_KEY) {
+      try {
+        log("Gemini rate limited. Falling back to Groq...");
+        return await callGroq(promptContent);
+      } catch (groqErr) {
+        log(`Groq fallback failed: ${groqErr.message}`);
+      }
+    }
+
+    if (process.env.ANTHROPIC_API_KEY) {
+      log("Falling back to Claude...");
+      return await callClaude(promptContent);
+    }
+
+    throw err;
   }
+}
+
+async function callGroq(prompt) {
+  const model = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
+  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${process.env.GROQ_KEY}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: model,
+      messages: [{ role: "user", content: prompt }],
+      temperature: 0.7,
+      response_format: { type: "json_object" }
+    }),
+  });
+
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error?.message || "Groq API error");
+  log(`Model used: Groq (${model})`);
+  return data.choices[0].message.content;
 }
 
 async function callClaude(prompt) {
