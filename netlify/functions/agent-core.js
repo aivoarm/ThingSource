@@ -143,6 +143,12 @@ Choose something completely different and not on that list.${categoryNudge}
 
 3. Write a complete blog post about it.
 
+ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
+- Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
+- Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
+- If there is a popular myth or common misconception associated with the topic, explicitly address and debunk it using verified historical facts.
+- Choose highly descriptive, specific, and distinct imageKeywords (e.g. ["Post-it note yellow", "Spencer Silver 3M office"] instead of ["office", "paper"]) to help the image search engine find highly relevant photos.
+
 Return ONLY a raw JSON object with no markdown, no backticks:
 {
   "topic": "the search term you used",
@@ -172,6 +178,12 @@ Choose something completely different and not on that list.${categoryNudge}
 2. Using your training knowledge, research the topic thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
 
 3. Write a complete blog post about it.
+
+ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
+- Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
+- Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
+- If there is a popular myth or common misconception associated with the topic, explicitly address and debunk it using verified historical facts.
+- Choose highly descriptive, specific, and distinct imageKeywords (e.g. ["Post-it note yellow", "Spencer Silver 3M office"] instead of ["office", "paper"]) to help the image search engine find highly relevant photos.
 
 Return ONLY a raw JSON object with no markdown, no backticks:
 {
