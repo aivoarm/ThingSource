@@ -1,5 +1,52 @@
 [
   {
+    "topic": "The Post-it Note",
+    "title": "The Accidental Sticky Revolution: How a Failed Glue Invented the Post-it Note",
+    "category": "Inventions",
+    "summary": "The Post-it Note — that humble square of lightly sticky paper found on every desk, monitor, and refrigerator — was born from a glue so bad it was nearly thrown away. Its invention is one of the greatest accidental success stories in corporate history, and it almost never happened.",
+    "sections": [
+      {
+        "heading": "A Glue Nobody Wanted",
+        "content": "In 1968, 3M scientist Dr. Spencer Silver was trying to develop a super-strong adhesive for use in aerospace construction. What he accidentally created was the opposite: a pressure-sensitive, low-tack adhesive made of tiny acrylic spheres that could stick lightly to surfaces and be removed without leaving residue. 3M had no idea what to do with it, and for years Silver pitched his 'solution without a problem' internally at seminars, desperately hoping someone would find a use for it."
+      },
+      {
+        "heading": "The Choir Singer's Frustration",
+        "content": "The missing half of the invention came from Art Fry, a 3M colleague who attended one of Silver's seminars. Fry sang in his church choir and was perpetually annoyed that his paper bookmarks kept falling out of his hymnal. In 1974, he had a flash of inspiration during a Sunday service — he applied Silver's weak adhesive to small slips of paper, creating a bookmark that stayed put but could be removed cleanly. The lightbulb had finally found its socket, six years after the glue was invented."
+      },
+      {
+        "heading": "Corporate Doubt and the Guerrilla Sampling Campaign",
+        "content": "Even after Fry's breakthrough, 3M's marketing department was deeply skeptical. Test markets in 1977 in cities like Denver and Tulsa flopped because consumers didn't understand why they needed sticky paper. Fry and his team then convinced 3M to try a bold tactic in Boise, Idaho: they handed out free samples directly to office workers and executives. Once people actually used the notes, reorder rates soared above 90 percent — people were hooked the moment they tried them."
+      },
+      {
+        "heading": "The Name, the Color, and the Launch",
+        "content": "Post-it Notes launched nationally in the United States in 1980, becoming one of 3M's best-selling products almost immediately. The iconic canary yellow color was entirely accidental — the lab next door to Fry's team happened to have yellow scrap paper on hand, so that became the default. The name 'Post-it' was chosen by 3M over the internal working name 'Press 'n Peel,' and the trademark has since been fiercely protected by the company."
+      },
+      {
+        "heading": "A Legacy Stuck in Time",
+        "content": "Today, 3M sells more than 50 billion Post-it Notes every year in over 100 countries, in more than 4,000 variations of sizes, colors, and formats. Spencer Silver received 3M's highest honor, the Carlton Society Award, and was inducted into the National Inventors Hall of Fame in 2010. The Post-it Note is now considered a landmark case study in innovation, specifically the idea that failed experiments should never be thrown away without exploration."
+      }
+    ],
+    "funFacts": [
+      "Spencer Silver's adhesive sat unused internally at 3M for six full years before Art Fry found a purpose for it — making the Post-it Note an invention that was literally shelved for half a decade.",
+      "The original test markets in 1977 failed so badly that some 3M executives wanted to cancel the product entirely — it was only the unsolicited Boise sampling campaign that saved it.",
+      "The iconic yellow color of Post-it Notes was never a deliberate design choice — it came purely from scrap yellow paper that happened to be available in the adjacent laboratory."
+    ],
+    "imageKeywords": [
+      "Post-it notes",
+      "sticky notes desk"
+    ],
+    "citations": [
+      "https://www.3m.com/3M/en_US/post-it-us/contact-us/about-us/",
+      "https://www.smithsonianmag.com/innovation/the-untold-story-of-the-post-it-note-163737088/",
+      "https://www.nationalinventors.org/inductees/spencer-silver"
+    ],
+    "id": "1781420732221-the-post-it-note",
+    "date": "2026-06-14T07:05:32.221Z",
+    "images": [
+      "https://picsum.photos/seed/1781420732221-the-post-it-note/800/500"
+    ]
+  },
+  {
     "topic": "The Word 'Quiz'",
     "title": "The Mystery Word: How 'Quiz' Went From Graffiti to Global Phenomenon",
     "category": "Language",
