@@ -1,5 +1,50 @@
 [
   {
+    "topic": "Kombucha",
+    "title": "The Fermented Tea Drink with a Fascinating History",
+    "category": "Food & Drink",
+    "summary": "Kombucha, a fermented tea drink, has been around for over 2,000 years, with its origins shrouded in mystery and controversy, and its popularity has experienced a significant resurgence in recent years. From its ancient roots in China to its modern-day health benefits, kombucha's story is one of intrigue and discovery.",
+    "sections": [
+      {
+        "heading": "Origins and History",
+        "content": "Kombucha is believed to have originated in China during the Qin Dynasty (221-206 BCE), where it was known as 'Longevity Tea' or 'Tea of Immortality'. The drink was made by fermenting sweetened black tea with a symbiotic culture of bacteria and yeast, which formed a thick, gelatinous layer on the surface, known as a 'SCOBY' (Symbiotic Culture of Bacteria and Yeast). From China, kombucha spread to Russia and Eastern Europe, where it was consumed for its purported health benefits, including aiding digestion and boosting the immune system."
+      },
+      {
+        "heading": "Myths and Misconceptions",
+        "content": "One common myth surrounding kombucha is that it is a cure-all for various health ailments, including cancer and HIV. However, there is limited scientific evidence to support these claims, and the drink's health benefits are still being researched and debated. Another misconception is that kombucha is a relatively new phenomenon, when in fact it has been around for centuries, with a rich history and cultural significance in many parts of the world."
+      }
+    ],
+    "funFacts": [
+      "Kombucha is sometimes referred to as 'mushroom tea', due to the appearance of the SCOBY, which resembles a fungus.",
+      "The SCOBY is a living, breathing entity that can be used to ferment multiple batches of kombucha, making it a sustainable and eco-friendly drink.",
+      "Kombucha contains a range of beneficial compounds, including probiotics, antioxidants, and amino acids, which may contribute to its potential health benefits."
+    ],
+    "imageKeywords": [
+      "Kombucha SCOBY",
+      "Fermented tea drink",
+      "Kombucha fermentation process"
+    ],
+    "citations": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6117475/",
+      "https://www.history.com/topics/china/china"
+    ],
+    "aiSource": "Groq",
+    "id": "1781553823797-kombucha",
+    "slug": "the-fermented-tea-drink-with-a-fascinating-history",
+    "date": "2026-06-15T20:03:43.797Z",
+    "joke": {
+      "joke": "A man walked into a library and asked the librarian, 'Do you have any books on Pavlov's dogs and Schrödinger's cat?' The librarian replied, 'It rings a bell, but I'm not sure if it's here or not.'",
+      "setup": "A man walked into a library and asked the librarian, 'Do you have any books on Pavlov's dogs and Schrödinger's cat?'",
+      "punchline": "It rings a bell, but I'm not sure if it's here or not.",
+      "comedian": "Traditional",
+      "year": "Late 20th century",
+      "context": "This joke is widely considered one of the greatest jokes of all time due to its brilliant and unexpected twist on two complex scientific concepts. The joke's ability to cleverly combine Pavlov's dogs and Schrödinger's cat into a simple and humorous exchange has made it a classic among comedy fans and scientists alike."
+    },
+    "images": [
+      "https://picsum.photos/seed/1781553823797-kombucha/800/500"
+    ]
+  },
+  {
     "topic": "the Japanese Tea Ceremony",
     "title": "Steeped in Tradition: Uncovering the Fascinating Origins of the Japanese Tea Ceremony",
     "category": "Culture",
