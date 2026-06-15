@@ -269,8 +269,7 @@ Return ONLY a raw JSON object with no markdown, no backticks:
           model: "gemini-2.5-flash",
           contents: prompt,
           config: {
-            tools: [{ googleSearch: {} }],
-            responseMimeType: "application/json",
+            tools: [{ googleSearch: {} }]
           },
         }, claudePromptOverride);
         responseText = responseObj.text;
@@ -303,6 +302,10 @@ Return ONLY a raw JSON object with no markdown, no backticks:
         postData.aiSource = modelUsed;
         break;
       }
+    }
+
+    if (postData.citations && Array.isArray(postData.citations)) {
+      postData.citations = [...new Set(postData.citations)].slice(0, 5);
     }
 
     const topic = postData.topic || "unknown origin";
@@ -348,8 +351,7 @@ Return ONLY raw JSON, no markdown:
         model: "gemini-2.5-flash",
         contents: jokePrompt,
         config: {
-          tools: [{ googleSearch: {} }],
-          responseMimeType: "application/json",
+          tools: [{ googleSearch: {} }]
         },
       });
       let jokeText = jokeResObj.text.trim();
