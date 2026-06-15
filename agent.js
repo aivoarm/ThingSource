@@ -318,6 +318,12 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     
     // Generate Joke of the Day
     log("Generating Joke of the Day...");
+    const usedJokes = existingPosts
+      .map(p => p.joke?.setup || p.joke?.joke)
+      .filter(Boolean)
+      .slice(0, 50);
+    const avoidJokesList = usedJokes.length > 0 ? `\n\nIMPORTANT: Do NOT pick any of these jokes that have already been used:\n${usedJokes.map(j => `- "${j}"`).join("\n")}\nChoose a completely different joke.` : '';
+
     const jokePrompt = `You are a comedy historian.
 Find one genuinely iconic, funny joke that is widely considered one of the best jokes of all time. It must be a joke that actually makes people smile or laugh, not just a historical curiosity.
 Must be a REAL documented joke — not invented.
@@ -325,7 +331,7 @@ Must be a REAL documented joke — not invented.
 Good examples to look for:
 - One of the most famous, highly-rated jokes of all time
 - A classic, legendary stand-up joke from a famous comedian (e.g. Mitch Hedberg, Robin Williams, George Carlin)
-- An iconic clean joke with a brilliant twist/punchline
+- An iconic clean joke with a brilliant twist/punchline${avoidJokesList}
 
 Return ONLY raw JSON, no markdown:
 {
