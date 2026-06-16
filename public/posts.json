@@ -1,5 +1,58 @@
 [
   {
+    "topic": "The Handshake",
+    "title": "A Gripping History: Unveiling the Surprising Origins of the Everyday Handshake",
+    "category": "Culture",
+    "summary": "The simple handshake, a ubiquitous gesture of greeting and agreement, carries a rich and complex history far beyond what most of us imagine. From ancient symbols of peace to a statement of egalitarianism, its evolution is truly fascinating.",
+    "sections": [
+      {
+        "heading": "More Than Just a Greeting: Ancient Roots",
+        "content": "While often assumed to be solely a gesture to show an empty, weaponless hand, the handshake's origins are far more multifaceted. One of the earliest known depictions dates back to a 9th-century B.C. Assyrian relief, showing King Shalmaneser III shaking hands with a Babylonian ruler to seal an alliance. This highlights its early role in signifying good faith and solemn agreements, a theme echoed in Homer's epics, 'The Iliad' and 'The Odyssey,' where handshakes often represented pledges and trust. Beyond political pacts, ancient Greeks used the handshake, known as 'dexiosis' (meaning 'to take the right hand'), in funerary art to symbolize either a final farewell or the eternal bond between the living and the dead, particularly evident in 4th and 5th-century B.C. gravestones. In ancient Babylonia, kings would even grasp the hand of a statue of the deity Marduk during the Kassite period (1595–1155 BCE) to symbolize the transfer of divine authority, showcasing a spiritual dimension to the gesture."
+      },
+      {
+        "heading": "From Ritual to Everyday Custom: The Quaker Influence",
+        "content": "For centuries, the handshake remained primarily a ritualistic gesture, used for significant events like alliances, oaths, or farewells, rather than a common daily greeting. Its widespread adoption as an everyday salutation is largely attributed to the 17th-century Quakers. They championed the simple handclasp as an egalitarian alternative to the prevailing hierarchical greetings of the time, such as bowing, curtsying, or tipping hats, which reinforced social class distinctions. By extending a hand to everyone regardless of their station, the Quakers propelled the handshake into common use, particularly in America, where it was embraced for its democratic appeal. By the 1800s, it had become so commonplace that etiquette manuals began to offer guidelines for the 'proper' technique, advising a firm but not overly strong grip."
+      },
+      {
+        "heading": "Debunking the Single Origin Myth",
+        "content": "A popular theory suggests the handshake originated solely as a way to show that neither party was holding a weapon, with the up-and-down motion intended to dislodge any hidden daggers. While this 'weapon-check' aspect certainly contributed to its symbolism of peaceful intent and can be seen in variations like the Roman forearm grab to check for knives in sleeves, it's a simplification to consider it the *sole* origin. Historical evidence clearly shows the handshake carrying multiple profound meanings—from sealing sacred bonds and transferring divine power to signifying eternal love and democratic equality—long before its modern ubiquitous usage as a simple greeting."
+      }
+    ],
+    "funFacts": [
+      "The ancient Greeks had a specific term for the handshake, 'dexiosis,' which roughly translates to 'to take the right hand.'",
+      "In ancient Babylonia, kings would perform a handshake ritual with a statue of the god Marduk annually to renew their divine authority.",
+      "Victorian etiquette manuals in the 1800s advised on the 'proper' handshake, suggesting it should be firm but not overly powerful."
+    ],
+    "imageKeywords": [
+      "ancient Assyrian handshake relief",
+      "Greek funerary stele dexiosis",
+      "17th century Quakers shaking hands",
+      "Roman handshake on coin"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMNC8NKC7DZ0_4kOMdAVY1pNaImrVHp0M2qCAM0iTs2fA6aJhca33LFm0wmK2C3-K7fp9ywaLBjzlWOE7ySVkfd7X3oEBdII4QgmjKrG7N4-LEZDX6OAzejw-u4jjsL3X7hvGt-AzHDJfYBQOehSTmd4jC7-6SD7zvbhTvD0pr",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6ufsR0w7uXgEdCIasGPtlXRmrQecP1ZO-pe8GH9v-eE_ZqKiM9NGB2lSoz7cXeuf-aM6FusEltpZxZzqjnZSZSng6BMnJN4PO_Eeop9zHUyAWeW2hhR2rv4xDMQVlZZ1dhNkv7zRetRK7-uxmYHrugPCCNViEusgDD2A4lQD1cb8=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO-JmDoD-ss-87EXrU82IUuM4Sflfw5WPBA8NuVvmSJjKbz9fr09Tkpw3EAxAAbpyrtFrjSv9KMTmwMa6SEDIPee1n65-RIGHX9mQn_PXygolrlsG3_WAHPvbP8siPPtVirH2d1g06216TZRqI0pkKbv-42O6_cTM0ZxzNHO29DXA=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgAuPf5llaPXyLnAyqWzI2uWlLvDJKwtZHWnhTyxZxh1ZE35YHqtL0tWYwYN6moQZ5rheI72WgxbHfmUoLOczURo-43N3TXJvFCkJVIE5lcsLEffaHrvvDUzJCAJHicIxVozOGKmI4p4oAU7ygQuwknaFr0FlT0cLPPluEm00zajoaSiIGn7cutUPs6GNVfkvb0tlBr-9d3wqZjlIF",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrrDYgq-xuMY3gVQ48fuejyyY7lwZp-Qd8E5PcpGSAO7YZJEyIkon-gTGkjzOfqQZMcHTDlTpAjAvYUbXbOWnpt1j6pu3YFW6i6AAjkGBwiTX56X5witWL66bjef9HUhxW6ZRfO5sdi6_B3uNf4w=="
+    ],
+    "aiSource": "Gemini",
+    "id": "1781593609474-the-handshake",
+    "slug": "a-gripping-history-unveiling-the-surprising-origins-of-the-e",
+    "date": "2026-06-16T07:06:49.474Z",
+    "joke": {
+      "joke": "An escalator can never break: it can only become stairs. You should never see an 'Escalator Temporarily Out Of Order' sign, just 'Escalator Temporarily Stairs. Sorry for the convenience.'",
+      "setup": "An escalator can never break: it can only become stairs.",
+      "punchline": "You should never see an 'Escalator Temporarily Out Of Order' sign, just 'Escalator Temporarily Stairs. Sorry for the convenience.'",
+      "comedian": "Mitch Hedberg",
+      "year": "Late 1990s / Early 2000s",
+      "context": "This joke is widely considered a classic due to its brilliant re-framing of a common everyday experience, turning a minor inconvenience into a humorous observation about language and perspective. It perfectly exemplifies Mitch Hedberg's unique style of absurdist wit and his ability to find profound humor in mundane situations."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/69/Hermandad_-_friendship.jpg"
+    ]
+  },
+  {
     "topic": "origin of shoes",
     "title": "Sole Mates: Uncovering the Fascinating History of Shoes",
     "category": "Inventions",
