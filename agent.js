@@ -327,23 +327,25 @@ Return ONLY a raw JSON object with no markdown, no backticks:
       .slice(0, 50);
     const avoidJokesList = usedJokes.length > 0 ? `\n\nIMPORTANT: Do NOT pick any of these jokes that have already been used:\n${usedJokes.map(j => `- "${j}"`).join("\n")}\nChoose a completely different joke.` : '';
 
-    const jokePrompt = `You are a comedy historian.
-Find one genuinely iconic, funny joke that is widely considered one of the best jokes of all time. It must be a joke that actually makes people smile or laugh, not just a historical curiosity.
-Must be a REAL documented joke — not invented.
+    const jokePrompt = `You are a modern comedy writer and curator.
+Deliver one genuinely funny, clever, and sharp joke or one-liner. It must fit the style of modern stand-up comedy (dry, observational, self-deprecating, or slightly absurdist) rather than old-fashioned "dad jokes" or setup-punchline formats.
 
-Good examples to look for:
-- One of the most famous, highly-rated jokes of all time
-- A classic, legendary stand-up joke from a famous comedian (e.g. Mitch Hedberg, Robin Williams, George Carlin)
-- An iconic clean joke with a brilliant twist/punchline${avoidJokesList}
+Good styles and sources of inspiration:
+- Modern stand-up style (e.g., in the style of John Mulaney, Taylor Tomlinson, Demetri Martin, Mitch Hedberg, Nate Bargatze)
+- Relatable, dry observations about modern life (e.g., career, technology, social interactions, existential dread)
+- Clever wordplay or deadpan one-liners that subvert expectations at the very end
+
+IMPORTANT: The joke must be genuinely funny and witty when read as text.
+${avoidJokesList}
 
 Return ONLY raw JSON, no markdown:
 {
-  "joke": "full joke text as originally recorded",
-  "setup": "setup line only",
-  "punchline": "punchline only",
-  "comedian": "name of comedian or origin (e.g. Mitch Hedberg, Tommy Cooper, Traditional)",
-  "year": "year or era of the joke",
-  "context": "2 sentences on why this joke is considered one of the greatest or most iconic jokes of all time"
+  "joke": "full joke text as a single cohesive line or setup/punchline combo",
+  "setup": "setup line (can be empty if it is a pure one-liner)",
+  "punchline": "punchline or twist (the entire joke text if it is a one-liner)",
+  "comedian": "name of comedian (e.g., John Mulaney, Mitch Hedberg) OR 'Modern Observational' if written in that style",
+  "year": "approximate year or 'Modern'",
+  "context": "1-2 sentences explaining why this punchline is witty, relatable, or how it subverts expectations"
 }`;
 
     try {
