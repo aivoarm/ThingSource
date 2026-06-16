@@ -19,3 +19,6 @@ data/agent_run.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Codebase Documentation
+CODEBASE.md
