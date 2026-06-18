@@ -1,5 +1,66 @@
 [
   {
+    "topic": "Tea Bags",
+    "title": "The Accidental Brew: How the Humble Tea Bag Revolutionized Tea Drinking",
+    "category": "Food & Drink",
+    "summary": "That convenient little pouch you dunk in hot water every day has a surprisingly accidental and contested origin story, forever changing how the world enjoys its favorite brew.",
+    "sections": [
+      {
+        "heading": "Before the Bag: The Era of Loose Leaf",
+        "content": "For centuries, enjoying a cup of tea meant steeping loose leaves, often with the aid of metal infusers or strainers to keep stray leaves out of your mouth. This traditional method, still cherished by connoisseurs, offered a ritualistic experience but could be messy and time-consuming, especially for those seeking a quick cuppa. The desire for easier cleanup and single-serving portions paved the way for innovations in tea delivery."
+      },
+      {
+        "heading": "An American 'Accident' and Early Patents",
+        "content": "While popular legend credits New York tea merchant Thomas Sullivan with the tea bag's invention, the full story is more nuanced. Around 1908, Sullivan began sending tea samples to his customers in small, hand-sewn silk bags, intending for them to empty the contents into a teapot. However, his customers, perhaps familiar with metal infusers, mistakenly plunged the entire bag into hot water, discovering the unexpected convenience. Seven years prior, in 1901, Roberta C. Lawson and Mary Molaren of Milwaukee had already filed a patent for a 'Tea Leaf Holder,' a mesh fabric pocket designed for brewing single cups of tea without waste. Though Sullivan's 'accident' popularized the concept, Lawson and Molaren's patent marks an earlier, intentional step towards the tea bag."
+      },
+      {
+        "heading": "From Silk to Paper: Evolution of the Tea Bag",
+        "content": "Initially, Sullivan's silk bags proved too fine for optimal infusion, leading him to switch to gauze. As demand grew in the 1920s, commercial production began in the United States, with bags often sewn by hand. A significant leap came in the 1930s when filter paper, developed by MIT paper scientist Fay H. Osborne, replaced fabric as the primary material, making tea bags cheaper and easier to mass-produce. The heat-sealed tea bag emerged in 1944, eliminating the need for stitching, and by the 1950s, the familiar strings and tags were added."
+      },
+      {
+        "heading": "Global Adoption and Lingering Debates",
+        "content": "While tea bags quickly gained traction in the U.S., the British, with their entrenched loose-leaf tea culture, were initially wary. It wasn't until Tetley's introduction in 1953 and Lipton's patented 'flo-thru' bag in 1952 that tea bags started to gain popularity in the UK. Today, they dominate the market, with 96% of British tea brewed from bags by 2007. However, the convenience often came at a cost: tea bags were traditionally filled with 'fannings' and 'dust' – lower-grade tea remnants that infuse quickly but may lack the full flavor and aroma of whole leaf tea. Modern tea bag materials also spark debate, with some containing plastics that can release microplastics into your cup."
+      }
+    ],
+    "funFacts": [
+      "The earliest known patent for a 'Tea Leaf Holder' was granted in 1903 to Roberta C. Lawson and Mary Molaren, predating Thomas Sullivan's accidental popularization.",
+      "Thomas Sullivan initially used silk bags to cut costs when sending out tea samples, not intending them for brewing.",
+      "Adolf Rambold invented the first automatic tea bag packing machine, the 'Pompadour,' in 1929 for the German company Teekanne.",
+      "The 'silky' mesh bags often used for premium teas today are typically made from food-grade nylon or polyethylene terephthalate, not actual silk.",
+      "By the late 20th century, tea bags accounted for a phenomenal 96% of the British tea market, despite initial skepticism."
+    ],
+    "imageKeywords": [
+      "vintage tea bag samples silk",
+      "Thomas Sullivan tea merchant 1908",
+      "early tea bag gauze material",
+      "Adolf Rambold Teekanne machine",
+      "filter paper tea bag production",
+      "loose leaf tea infuser antique"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEysSqFPTKRQOzDi96VPpxMpFCc-7I-CZy3_fTKFuywMoUhONKrCKwhwhyE8B3N4Z4NcPTcL0xVMBnT51fM4Jp6hGDHpiK4_NAODu1zjeQJjslCaFqvXd6q8W6hY_8SoJAtHiPYQt7spo8HsA==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFRI--70alqguhm79XTmoG03R4uKq8jdbNYJkPS0Rbf66DqpjwCWMu7Gzv0XgFFkrI8gctKS45rxOx53ybG4MjDRWAfYTWRl2V-MhJJfO9S381Mnng6SA2sBsXRrwhPBCUvgdYgdwbXN8ZvgbKPNEjNFGk",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr8CkmsJKcJ3ry-VUpFw0oxhX0sUWCnI3cLKKd41jlXNutkU8AgrKwuiVi1ReEeRH1UxdkZbF49OdcslmDK-FILrqVg5MSXq6c45MZ4aNfUf9yWy9DEHmhKdAjM8VLN2U=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg5CVdYAGjhAa9CLNwi_2MBBOnyLT5s-PmjmHS0D5mI71fuvZyET7gGTS2CJnmQdCiUNxQ0N9igGUd4toP7IZG7qATiJbfEQDbS-mNX67abFGg7XZ7LpP8cyBaXwPzkLBCDEO0AEh6CFCHYlmfE_64OyWMcvnmZ_iLdZSjvOw=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxhdh9B9_zyI0MdoeHK5CSsOOjqmcH0WcBky5ErM6ELXDhCmKWty7SlgTSqlB6afeJj9cuk8g7WrUrLM7hC1DoEKFGH6Qpkl4v17FjvtTfU-iOol7HaLYBnZDlsy3U40GHELnw0U6bWcGMPfadl8Q8"
+    ],
+    "aiSource": "Gemini",
+    "id": "1781766075904-tea-bags",
+    "slug": "the-accidental-brew-how-the-humble-tea-bag-revolutionized-te",
+    "date": "2026-06-18T07:01:15.904Z",
+    "joke": {
+      "joke": "I used to do drugs. I still do, but I used to, too.",
+      "setup": "I used to do drugs.",
+      "punchline": "I still do, but I used to, too.",
+      "comedian": "Mitch Hedberg",
+      "year": "1999",
+      "context": "This joke perfectly encapsulates Mitch Hedberg's unique brand of absurdist humor and clever wordplay, which has garnered him a posthumous cult following. Its unexpected twist and simple yet profound observation on addiction make it both hilarious and memorable, frequently cited as one of his best."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/80/Tea_bags.jpg"
+    ]
+  },
+  {
     "topic": "The Surprising Origin of Ketchup",
     "title": "From Fermented Fish to French Fry Staple: The Ketchup Story You Won't Believe",
     "category": "Food & Drink",
