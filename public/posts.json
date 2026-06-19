@@ -1,5 +1,69 @@
 [
   {
+    "topic": "The Ampersand Symbol (&)",
+    "title": "The Ampersand: More Than Just 'And'",
+    "category": "Language",
+    "summary": "Often seen but rarely pondered, the ampersand (&) has a surprisingly rich history, evolving from an ancient Roman shorthand to once being considered the 27th letter of the English alphabet.",
+    "sections": [
+      {
+        "heading": "From Roman Scrolls to a Stylish Shorthand",
+        "content": "The ampersand's origins trace back over 2,000 years to ancient Rome, where it began as a ligature, a character formed by joining two or more letters. Roman scribes, aiming for speed and efficiency, merged the letters 'e' and 't' from the Latin word 'et', meaning 'and', into a single flowing mark. Evidence of these early forms can even be found as graffiti preserved on the walls of Pompeii from 79 AD."
+      },
+      {
+        "heading": "Marcus Tullius Tiro and the Early 'Et'",
+        "content": "While not the sole inventor of the ampersand as we know it, Marcus Tullius Tiro, a freed slave and secretary to the Roman orator Cicero, played a significant role in the history of shorthand. In 63 BC, Tiro developed an influential system known as Tironian Notes, which included its own symbol for 'et'. Although the ampersand's shape primarily evolved from general Roman cursive ligatures, Tiro's work highlights the ancient desire for concise writing that gave rise to such symbols."
+      },
+      {
+        "heading": "The Alphabet's Lost Letter",
+        "content": "Perhaps one of the most surprising facts about the ampersand is that it was once considered the 27th letter of the English alphabet. Throughout the 19th century, schoolchildren in Britain and the US learned the ampersand as part of their ABCs, reciting it after 'Z'. This practice gradually faded, and the ampersand was dropped from the official alphabet by the late 19th or early 20th century."
+      },
+      {
+        "heading": "The Curious Coining of 'Ampersand'",
+        "content": "The name 'ampersand' itself has a fascinating origin, deriving from a phrase used during alphabet recitation. When '&' appeared at the end of the alphabet, it was common to say 'and per se and,' meaning 'and, by itself, is and,' to distinguish the symbol from the conjunction 'and'. Over time, the hurried pronunciation of 'and per se and' slurred into the single word 'ampersand,' which was officially added to the English dictionary around 1837."
+      },
+      {
+        "heading": "Modern Usage and Common Misconceptions",
+        "content": "Today, the ampersand is widely used in company names (e.g., 'Barnes & Noble'), artistic titles, and certain abbreviations like 'R&D'. However, it's generally considered inappropriate for formal writing, such as academic papers or legal documents, where 'and' should be spelled out. A common misconception is that the ampersand can always replace 'and' or even the plus sign (+); however, using it as a casual shortcut can often make writing appear informal or disjointed."
+      }
+    ],
+    "funFacts": [
+      "The earliest known ampersand forms date back to the 1st century CE in Roman cursive, with an example found as graffiti in Pompeii.",
+      "For most of the 19th century, the ampersand was taught as the 27th letter of the English alphabet, following 'Z'.",
+      "The word 'ampersand' is a corruption of the phrase 'and per se and,' which was how the symbol was recited at the end of the alphabet.",
+      "Some calligraphers and type designers consider the ampersand an opportunity for creative expression due to its varied forms, often making it a visually striking character.",
+      "The symbol is a logogram, meaning it represents a whole word or phrase."
+    ],
+    "imageKeywords": [
+      "ampersand evolution typography",
+      "ancient Roman cursive et ligature",
+      "19th century English alphabet chart",
+      "modern ampersand symbol design",
+      "Marcus Tullius Tiro shorthand"
+    ],
+    "citations": [
+      "https://www.britannica.com/topic/ampersand",
+      "https://www.blazetype.com/blog/the-story-of-the-ampersand-symbol",
+      "https://www.merriam-webster.com/words-at-play/ampersand-origin-history",
+      "https://en.wikipedia.org/wiki/Ampersand",
+      "https://www.ampersand.net/blog/the-history-and-meaning-of-the-ampersand-symbol"
+    ],
+    "aiSource": "Gemini",
+    "id": "1781852724283-the-ampersand-symbol-",
+    "slug": "the-ampersand-more-than-just-and",
+    "date": "2026-06-19T07:05:24.283Z",
+    "joke": {
+      "joke": "I went to buy some camouflage trousers the other day, but I couldn't find any.",
+      "setup": "I went to buy some camouflage trousers the other day,",
+      "punchline": "but I couldn't find any.",
+      "comedian": "Tommy Cooper",
+      "year": "Mid-20th Century",
+      "context": "This joke is a masterclass in wordplay, using the literal meaning of \"camouflage\" against the everyday act of shopping to create a brilliant, unexpected twist. Its deceptive simplicity and cleverness have cemented its place as one of Tommy Cooper's most famous and enduring one-liners, consistently eliciting smiles and laughs from audiences worldwide."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/CursivasRomanas.png"
+    ]
+  },
+  {
     "topic": "Tea Bags",
     "title": "The Accidental Brew: How the Humble Tea Bag Revolutionized Tea Drinking",
     "category": "Food & Drink",
