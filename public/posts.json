@@ -1,5 +1,63 @@
 [
   {
+    "topic": "The Dollar Sign ($)",
+    "title": "Beyond the Greenback: Unraveling the Surprising Origin of the Dollar Sign",
+    "category": "Language",
+    "summary": "The ubiquitous dollar sign ($) is instantly recognizable worldwide, yet its true beginnings are far more international and debated than you might imagine. Forget simplistic theories; its journey takes us back centuries to Spanish colonial trade and the humble scrawl of busy merchants.",
+    "sections": [
+      {
+        "heading": "A Global Currency's Abbreviation",
+        "content": "The most widely accepted theory posits that the dollar sign emerged from an abbreviation for the Spanish peso, also known as the 'Spanish milled dollar' or 'piece of eight'. During the 17th and 18th centuries, these silver coins were the dominant currency across the Americas and in international trade, even serving as legal tender in the United States until 1857. In business correspondence, the plural of peso, 'pesos,' was often abbreviated to 'Ps' (a capital P with a superscript s)."
+      },
+      {
+        "heading": "From 'Ps' to '$': The Merchant's Hand",
+        "content": "Over time, as scribes and merchants hastily jotted down transactions, the 's' gradually came to be written over the 'P', with the P's curved part eventually disappearing, leaving behind a single or double vertical stroke intersecting the 'S'. A significant figure in this evolution is Oliver Pollock, an Irish merchant and financier of the American Revolution, whose 1778 business letters show an abbreviation for pesos that closely resembles the modern dollar sign. While Pollock certainly popularized its usage, it's believed the symbol developed organically from widespread scribal practices rather than a single invention."
+      },
+      {
+        "heading": "Debunking Popular Myths",
+        "content": "One common misconception, notably popularized by Ayn Rand's novel 'Atlas Shrugged,' suggests the dollar sign is a stylized 'U' and 'S' for 'United States.' However, historians widely dismiss this, as the symbol was in use before the U.S. formally adopted the dollar and the letters don't historically combine in that manner. Another romantic theory links the symbol to the Pillars of Hercules, depicted on Spanish coins with an 'S'-shaped ribbon. While these coins were prevalent, most scholars believe the Pillars were more an artistic emblem than the direct source of the dollar sign, which primarily derived from a practical scribal abbreviation."
+      },
+      {
+        "heading": "Adoption in Print and Modern Usage",
+        "content": "The United States officially adopted the dollar as its currency in 1785, modeling it after the Spanish dollar. The earliest known instance of the dollar sign appearing in print is attributed to Philadelphia printer Archibald Binny in a 1797 typography specimen. Both single and double-stroke versions of the symbol existed, with the single-stroke eventually becoming more common due to its ease of writing and reproduction. Today, the dollar sign continues its global legacy, used not only for the U.S. dollar but also for numerous other currencies, including various pesos and the Brazilian real."
+      }
+    ],
+    "funFacts": [
+      "The Spanish milled dollar, or 'piece of eight,' was legal tender in the United States until 1857.",
+      "The word 'peso' is Spanish for 'weight,' referring to the fixed weight of silver in the coins.",
+      "In Portuguese-speaking countries, the two-stroke dollar sign is known as a 'cifrão.'",
+      "Some sources suggest an early dollar-sign-like glyph was used in a 1686 British merchant's guide to denote 'dollars' (referring to thalers)."
+    ],
+    "imageKeywords": [
+      "Oliver Pollock letter 1778 dollar sign",
+      "Spanish peso coin Pillars of Hercules",
+      "early printed dollar sign typography",
+      "S over P peso abbreviation manuscript"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-4bC2I8rKKNFCDlv6XZxLziUCft0SuxGs3DNqO_4RsROnLZqRhfmZXElhy1PxtjDE6mFNdN39PbZ0PeKgytTY8c4Q",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtdow_NDvVhKuNMfjSBiNXIzp7majnYmaF0W0MU_jV7O2Y0p34RjwahDMKbB19Ss4XZOpNR4dTobSzCPWqXcUHLPLKgKWbl2k-WJpahXuRHGiV8-dsqN-IgQCsG9fEv_UjbWapxTog",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrIkpAVuc6tJXc0FjNbMFCWK_p1O-TUmjed4pnx2GsQY4pygIuLDf7dhxX7Aqzc9uledMLUEp9FKLrCNAGQSomW3dC7FAzri31M0XmuK1kaF_olHjN70kPeVD82c0fZE7OgWjLwUMB0p65ZHDXE9mskAhXhro=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0tZIb-PXS9Ds6XW_KQEBpuDNcRxHR1GK0fjCSfaSgIjubasX4q5QuSfTtJEhGSft9qk6ABWrA07qh8-8_kdrnKMxSvfwYv5LpBtjK-NpQ6jrMcdMxTUIuVXbdCY_dzoMxnCOwwZZIfDZ6FhbTzL4=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1hpdzs9dW1rTAzUNa_-zu3dP2C9FPy0FnqybkvPd7MQk_Zuxo1b7g1kKcDwygTnjCMwU6IQTvku1cbD8YEp2EvzyQ9tf2FgJiKKh332Jrm8Y0Atzy1IIiZvMA8-0TcGhqk_KDn3n8uC91x34S5tM1u059vh-MEIItY2MI1zi78lEe5tman0nXzQ29j7fSQA=="
+    ],
+    "aiSource": "Gemini",
+    "id": "1782025501824-the-dollar-sign-",
+    "slug": "beyond-the-greenback-unraveling-the-surprising-origin-of-the",
+    "date": "2026-06-21T07:05:01.824Z",
+    "joke": {
+      "joke": "My fake plants died because I did not pretend to water them.",
+      "setup": "My fake plants died...",
+      "punchline": "...because I did not pretend to water them.",
+      "comedian": "Mitch Hedberg",
+      "year": "2003",
+      "context": "This joke perfectly exemplifies Mitch Hedberg's unique brand of absurd and observational humor, characterized by brilliant twists and unexpected logic. It consistently elicits laughter through its clever wordplay and subversion of common assumptions, making it a timeless and iconic one-liner."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/01/Reyes_Cat%C3%B3licos_8_reales_28829.jpg"
+    ]
+  },
+  {
     "topic": "The surprising origin of the word 'Algorithm'",
     "title": "From Ancient Persia to Modern Code: The Surprising Origin of the Word 'Algorithm'",
     "category": "Science",
