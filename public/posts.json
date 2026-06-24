@@ -1,5 +1,66 @@
 [
   {
+    "topic": "The Origin of the Traffic Light",
+    "title": "From Gas Lamps to Green Lights: The Explosive, Surprising History of the Traffic Signal",
+    "category": "Inventions",
+    "summary": "Before our modern, automated traffic lights, there was a chaotic world of horse-drawn carriages and daring pedestrians. Discover the surprising, and sometimes explosive, journey of the everyday traffic signal.",
+    "sections": [
+      {
+        "heading": "The Very First 'Stop' and 'Go'",
+        "content": "Believe it or not, the world's first traffic signal predates the automobile. In December 1868, outside the Houses of Parliament in London, British railway engineer J.P. Knight installed a manually operated traffic device to manage the heavy flow of horse-drawn carriages and protect pedestrians, especially Members of Parliament. This early system used semaphore arms during the day, much like railway signals, and gas-lit red and green lights at night. However, this pioneering invention was short-lived: on January 2, 1869, a gas leak caused the signal to explode, severely injuring the police officer operating it, and leading to its swift removal."
+      },
+      {
+        "heading": "The Dawn of Electricity and the Three-Color Standard",
+        "content": "Decades later, with the rapid rise of the automobile, the need for traffic control became critical again. In 1912, Salt Lake City police officer Lester Wire developed the first electric traffic light, featuring red and green lights and a buzzer. Two years later, on August 5, 1914, the first electric traffic light based on a design by James Hoge was installed in Cleveland, Ohio. The familiar three-color traffic light, including the crucial amber (yellow) 'caution' signal, was invented in 1920 by Detroit police officer William Potts. This innovation, inspired by railroad signals, addressed the need for a warning interval before the light changed."
+      },
+      {
+        "heading": "An African American Inventor's Contribution",
+        "content": "Further refining traffic control, African American inventor Garrett Morgan patented a T-shaped, three-position traffic signal in 1923. His design included a critical 'all-directional stop' feature, allowing traffic to halt in all directions to clear intersections for pedestrians or emergency vehicles. Morgan later sold his patent to General Electric for $40,000, a significant sum at the time, underscoring the value of his contribution to road safety. By the 1950s and 60s, traffic signals evolved again with the introduction of computerized control, enabling more efficient traffic flow and saving cities money by reducing the need for manual traffic officers."
+      },
+      {
+        "heading": "Debunking Common Traffic Light Myths",
+        "content": "Many urban legends surround traffic lights. One persistent myth is that flashing your high beams will turn a red light green faster; however, traffic sensors do not detect headlights. Another misconception is that the weight of a vehicle triggers a green light. In reality, modern traffic lights often use inductive loops buried under the pavement, which detect the metallic mass of a vehicle, not its weight. Stopping precisely on or just before the thick white 'stop bar' ensures your vehicle is detected. And no, a universal TV remote cannot change traffic signals; preemption systems are designed for specific, encoded emergency vehicle signals only."
+      }
+    ],
+    "funFacts": [
+      "The very first traffic signal was gas-powered and exploded, injuring a police officer.",
+      "Early electric traffic signals in Cleveland, Ohio, included a buzzer to warn of color changes.",
+      "The yellow (amber) light was inspired by signals used on railroads to indicate caution.",
+      "Garrett Morgan, an African American inventor, sold his patent for a three-position traffic signal to General Electric for $40,000.",
+      "Computerized traffic signals in the 1950s and 60s helped cities save millions by reducing the number of traffic officers needed."
+    ],
+    "imageKeywords": [
+      "1868 London gas traffic light",
+      "J.P. Knight railway engineer",
+      "early electric traffic signal Cleveland Ohio 1914",
+      "William Potts Detroit traffic light 1920",
+      "Garrett Morgan three-position traffic signal patent",
+      "modern traffic light inductive loop sensor"
+    ],
+    "citations": [
+      "https://www.google.com/search?q=time+in+London,+GB",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy6vRrNzZDVXqgTa9Al77Y22PIqCg4ftJWQnGHnpGtGQ-E-MXMqnKN9tI3fVxtVJ8OWbeN70F-kdqH2Dqr6mjV5-XiJ5Pro-_dcsnkjKx-lxY8RMMoGWytzWeSEErMf4ixx-MXeZfJgNxpuKjpGCtUI9E=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhk-llqK7NwRldFz7hr8gwdDCRbcG4szpqPwoQOtUhDHczS2uodIE0TqonHHn4HO2H1X9Q_NH0kQTKdoZEd-x3UFl_BhXFhRPSEOyi7jcxA3CDNxc4C2Dv51AtYsNGXZ1Vz6ftSRVAR-Fmhd4erOxlNWic_WhHVnD6yMQLLKkSW0RuCuetzcsq9WiHDg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ltXpgmvflmxQ5lrDItuqhAVzJAgzmd-rQJaKNDJlsEsH3o3wnA0oZSHyEOJOezAfaR4og7MtFHMkElGR200qPn6Az3o4hLDAO2xKBf_kGTHTaLYSz1X-etMRXHvjZaXbJeqJmTSeSFq091KNsSLesjwN6flWwhkEv4S7k0XsC99xIGJaApexhyKAhAbR1TE=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq2RxTTDDfBKg_KGd9VcrWUpiJF0YtLcpwRsE-XDtoqIgwjV8yzrmQ1tmqQvfqyvhkYiPg6r22AnQntCNeFrCSkvBkC9HWKgliExvbZ_bQ0wg-k1LF3XGUrBaQ5026GeMb_22Ft2ptSxcONqUszw=="
+    ],
+    "aiSource": "Gemini",
+    "id": "1782284466948-the-origin-of-the-traffic-light",
+    "slug": "from-gas-lamps-to-green-lights-the-explosive-surprising-hist",
+    "date": "2026-06-24T07:01:06.949Z",
+    "joke": {
+      "joke": "When I was a kid, my parents moved a lot, but I always found them.",
+      "setup": "When I was a kid, my parents moved a lot,",
+      "punchline": "but I always found them.",
+      "comedian": "Steven Wright",
+      "year": "1980s",
+      "context": "This joke is iconic due to its brilliant subversion of a common phrase, playing on the dual meaning of 'moving' houses versus 'moving' away from children. It perfectly encapsulates Steven Wright's signature deadpan delivery and surreal, intelligent humor, making it a highly quotable and memorable one-liner."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/91/Modern_British_LED_Traffic_Light.jpg"
+    ]
+  },
+  {
     "topic": "The Origin of the Wedding Ring Finger",
     "title": "The Vein of Love: Unraveling the Surprising Origin of the Wedding Ring Finger",
     "category": "Culture",
