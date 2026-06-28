@@ -1,5 +1,58 @@
 [
   {
+    "topic": "Daylight Saving Time",
+    "title": "Spring Forward: The Surprisingly Un-American Origins of Daylight Saving Time",
+    "category": "History",
+    "summary": "Each year, millions of us begrudgingly 'spring forward' and 'fall back,' adjusting our clocks for Daylight Saving Time. But did you know this twice-yearly ritual wasn't invented by Benjamin Franklin, nor was it for farmers? Its true origins are far more unexpected and global.",
+    "sections": [
+      {
+        "heading": "Dispelling the Myths: Not Franklin, Not Farmers",
+        "content": "A common misconception attributes the invention of Daylight Saving Time (DST) to Benjamin Franklin. While Franklin did write a satirical essay in 1784, titled 'An Economical Project,' he merely suggested Parisians could save money on candles by waking up earlier to utilize morning sunlight—he never proposed changing the clocks themselves. Equally persistent is the myth that DST was enacted to benefit farmers. In reality, agricultural communities largely opposed the practice, as it disrupted their routines, which are dictated by the sun, not arbitrary clock changes."
+      },
+      {
+        "heading": "A Bug Collector's Dream and a Builder's Obsession",
+        "content": "The modern concept of DST truly emerged from two independent minds. In 1895, New Zealand entomologist George Vernon Hudson proposed a two-hour shift in clocks to the Wellington Philosophical Society. His motivation? To have more daylight after his shift work for collecting insects. A decade later, in 1907, British builder William Willett independently championed the idea, publishing a pamphlet titled 'The Waste of Daylight'. Willett, who reportedly conceived the idea during an early morning horse ride when he noticed blinds still drawn despite the bright sun, advocated for advancing clocks by 80 minutes in incremental steps during April to allow for longer recreational evenings."
+      },
+      {
+        "heading": "Wartime Necessity: Global Adoption Takes Hold",
+        "content": "Despite these early proposals, the idea didn't gain significant traction until wartime. While the small Canadian town of Port Arthur, Ontario, was the first to implement DST locally on July 1, 1908, it was Germany and its ally Austria-Hungary that first adopted it nationwide on April 30, 1916. Their rationale was clear: conserving coal and fuel for the war effort by minimizing the use of artificial lighting. Many European countries, including the United Kingdom, quickly followed suit."
+      },
+      {
+        "heading": "America's Complicated Relationship with DST",
+        "content": "The United States adopted Daylight Saving Time nationally on March 19, 1918, through the Standard Time Act, primarily as a wartime energy-saving measure during World War I. However, it proved highly unpopular and was repealed in 1919, largely due to strong opposition from agricultural groups. DST made a national comeback during World War II, instituted as 'War Time' from 1942 to 1945. Post-war, its observance became a chaotic patchwork of local options until the Uniform Time Act of 1966 standardized its start and end dates across the country, though states like Arizona and Hawaii remain exempt. The current dates, beginning the second Sunday in March and ending the first Sunday in November, were established by the Energy Policy Act of 2005."
+      }
+    ],
+    "funFacts": [
+      "George Vernon Hudson, one of DST's key proponents, was an entomologist who wanted more evening daylight for his bug collecting hobby.",
+      "William Willett, the British builder who advocated for DST, died in 1915, a year before his home country officially adopted the practice.",
+      "When Britain first introduced DST in 1916, people were advised to put their clocks forward by 11 hours rather than turning the hands back one hour, as turning them backwards could break older clock mechanisms.",
+      "Studies have shown that any energy savings from lighting due to DST are often offset by increased use of air conditioning or heating during other parts of the day.",
+      "Fewer than 40% of countries worldwide observe Daylight Saving Time; many have abandoned it or never adopted it, especially those near the equator where daylight hours are consistent."
+    ],
+    "imageKeywords": [
+      "George Hudson entomologist",
+      "William Willett pamphlet Waste of Daylight",
+      "World War I era clock change",
+      "Daylight Saving Time clock spring forward",
+      "Benjamin Franklin satirical essay"
+    ],
+    "citations": [
+      "https://usafacts.org/articles/why-does-the-us-have-daylight-saving-time/",
+      "https://www.timeanddate.com/time/dst/history.html",
+      "https://www.webexhibits.org/daylightsaving/franklin.html",
+      "https://en.wikipedia.org/wiki/Daylight_saving_time",
+      "https://pabook.libraries.psu.edu/literary-cultural-heritage-map-pa/feature-articles/daylight-saving-time-when-where-and-why"
+    ],
+    "aiSource": "Gemini",
+    "id": "1782630608097-daylight-saving-time",
+    "slug": "spring-forward-the-surprisingly-un-american-origins-of-dayli",
+    "date": "2026-06-28T07:10:08.097Z",
+    "joke": null,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/16/DST_Countries_Map.png"
+    ]
+  },
+  {
     "topic": "The Origin of Saying 'Bless You' After a Sneeze",
     "title": "Beyond Politeness: The Surprisingly Dark Origins of \"Bless You\" After a Sneeze",
     "category": "Culture",
