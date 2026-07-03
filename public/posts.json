@@ -1,5 +1,64 @@
 [
   {
+    "topic": "The Question Mark",
+    "title": "A Curious Case: The Surprising Origin of the Question Mark",
+    "category": "Language",
+    "summary": "That familiar squiggle at the end of every inquiry has a history far more winding and contested than you might imagine. Dive into the surprising journey of the question mark, from ancient scribal shorthand to its modern form.",
+    "sections": [
+      {
+        "heading": "From 'Quaestio' to Query: The Leading Theory",
+        "content": "The most widely accepted theory traces the question mark's origins back to the Latin word 'quaestio,' meaning 'question'. Medieval scribes, often seeking efficiency, would abbreviate this word to 'qo' at the end of a sentence. Over time, it's believed that the 'q' was written above the 'o', and this shorthand evolved stylistically until the 'q' became the curved upper stroke and the 'o' transformed into the distinct dot we recognize today."
+      },
+      {
+        "heading": "The Rise of the Punctus Interrogativus",
+        "content": "While the 'quaestio' theory explains the symbol's form, its widespread adoption is often credited to Alcuin of York, a prominent scholar and advisor to Charlemagne in the late 8th and early 9th centuries. Alcuin is said to have introduced the 'punctus interrogativus' (point of interrogation) in manuscripts, which signaled an upward inflection in speech, indicating a question."
+      },
+      {
+        "heading": "A Winding Path Through History",
+        "content": "The journey to our modern question mark wasn't linear. In the 5th century, Syriac Bible manuscripts used a vertical double dot, the 'zagwa elaya,' to denote questions. Around 783, the Godescalc Evangelistary featured a mark described as a 'lightning flash' or a 'squiggle rising diagonally,' which was a precursor to the modern form. This mark, initially perhaps indicating musical intonation, gradually became more curved and by the 13th century, was clearly recognizable as the question mark we use. It wasn't until the 15th century that it became a standard element in European texts."
+      },
+      {
+        "heading": "Debunking the 'Cat's Tail' Myth",
+        "content": "A charming, yet unsubstantiated, myth suggests the question mark's shape was inspired by the curled tail of an inquisitive cat, often attributed to ancient Egyptians or a monastic pet. While an appealing visual, historical evidence does not support this theory. Ancient Egyptian hieroglyphics did not utilize punctuation marks in the way we understand them today, making this feline connection more of a fanciful tale than a historical fact."
+      }
+    ],
+    "funFacts": [
+      "The actual term 'question mark' wasn't widely used until the 1850s; prior to that, it was often called an 'interrogation point' or 'query'.",
+      "In Greek, the question mark looks identical to a semicolon (;) but serves the purpose of an interrogation mark.",
+      "Spanish uniquely uses an inverted question mark (¿) at the beginning of an interrogative sentence, in addition to the standard one at the end.",
+      "A 'percontation point,' a reversed question mark (⸮), was invented in the 1580s for rhetorical questions, but fell out of use by the 17th century."
+    ],
+    "imageKeywords": [
+      "medieval scribe writing",
+      "Alcuin of York manuscript",
+      "history of punctuation",
+      "ancient Latin text quaestio",
+      "question mark evolution"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFehJkNohmCmJYL3waWEv19AU9j1WhlZXaPVCU_oQ_dEMnXRkNDRSEhbpxlR4k9-uoWDiKTQRM1TvP8aZIMQ7u0UGEhFfR3H8Y32El6sgU5fPeVLOdbb7hhiEKlyHKxd02t",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXUVSc4fSUEo6GBxSTyth4IZnUPqzMQD788vPDDXTSkefRjDq3Iq8rDlG8wh9smcseNPXz4Shp84It-7DMgCDb-10Rv4Qiq_qUdKmayIPfuLrKQ019O3ZO8iIvlYbYT6PBTlvlnKrvihRNvAmno_p3vx5oTniJSvIHdn9mB4UJkM30",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj0hInFno_61op6iE5ItUbSlrgjuflQM1XohzyveK_3B5Dipdytnbyie5fyzgGkh6ZJdIg-MUYc4K32GGWMAq5rAWBUtPTgZnC3UOUDlhjt9vFlIkugThOJFZq00c0X3T_LdaxJCw=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw5MN2ssW2SD8iqtbh_crL0ovLxLWnjEotfb2ksUsSFL1C5cUnxY2kskPrMa4eGploJZa8bxbxwI2YLr-V4q_0NiDOHuS2ISjFS1PZb3ha3WRrF4cPwAWGNFvF5NBzF2InAgZgL-RBhxOfp-B2kCjmGrDeOHhw4n0JWHB8",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94UMNNYKeIpACsgm4nUoMWJM5VBgGleVMj5Ye1LE51PRWBqzmgW6u1Cmte-pSYhmAC7W-5Lzr5tU5s62RbcZ6ysKu47Qss6UWGQdW8xDn40j0hbYwoQfHCmqim7NiN_7Yv4TCDCkPoJytA3u9o-CXMoTveMjhJtVAk9Tra1Ny8qx6YdAgzCo0pdqDFw=="
+    ],
+    "aiSource": "Gemini",
+    "id": "1783062217455-the-question-mark",
+    "slug": "a-curious-case-the-surprising-origin-of-the-question-mark",
+    "date": "2026-07-03T07:03:37.455Z",
+    "joke": {
+      "joke": "Outside of a dog, a book is man's best friend. Inside of a dog, it's too dark to read.",
+      "setup": "Outside of a dog, a book is man's best friend.",
+      "punchline": "Inside of a dog, it's too dark to read.",
+      "comedian": "Groucho Marx",
+      "year": "Mid-20th Century",
+      "context": "This joke is widely attributed to Groucho Marx and is a masterful example of wordplay and misdirection. It takes a well-known idiom and subverts it with a literal, absurd interpretation, creating an unexpected and genuinely funny mental image. The clever twist cemented its place as a legendary one-liner that continues to elicit smiles and laughter."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/bc/Amir_Khusraw_Dihlavi_-_Portrait_of_the_Scribe_Mir_%27Abd_Allah_Katib_in_the_Company_of_a_Youth_Burnishing_Paper_-_Walters_W650187A_-_Reverse_Detail.jpg"
+    ]
+  },
+  {
     "topic": "The Can Opener",
     "title": "Uncanned History: The Surprising Gap Between Cans and Their Openers",
     "category": "Inventions",
