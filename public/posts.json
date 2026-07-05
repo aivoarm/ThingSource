@@ -1,5 +1,69 @@
 [
   {
+    "topic": "Origin of the High Five",
+    "title": "The Surprising History of the High Five: More Than Just a Hand Slap",
+    "category": "Culture",
+    "summary": "The high five, a universal symbol of celebration and camaraderie, feels like it’s been around forever. But this iconic gesture has a surprisingly recent and debated origin story, intertwined with sports history and a pioneering individual.",
+    "sections": [
+      {
+        "heading": "A 'High' Moment in Baseball History",
+        "content": "The most widely accepted origin story of the high five traces back to October 2, 1977, during a Los Angeles Dodgers baseball game. Left fielder Dusty Baker had just hit his 30th home run of the season, a significant achievement that made the Dodgers the first MLB team to have four players hit 30 homers in a single season. As Baker rounded the bases and headed towards home plate, his rookie teammate Glenn Burke spontaneously raised his hand in celebration. Baker, caught in the moment of triumph, instinctively slapped Burke's upraised palm, an interaction that was not televised but quickly entered baseball lore."
+      },
+      {
+        "heading": "Glenn Burke's Unsung Legacy",
+        "content": "What makes the Baker-Burke origin even more profound is Glenn Burke's personal story. Burke, known as 'King Kong' for his physique, was one of the first professional baseball players to openly come out as gay, doing so in 1982 after his baseball career ended. Facing homophobia in professional sports, Burke's life after baseball was marked by hardship, and he tragically passed away in 1995 from AIDS-related complications. For many, the high five became more than just a sports celebration; it evolved into a symbol of gay pride in San Francisco's Castro district, embodying Burke's jovial and spirited nature."
+      },
+      {
+        "heading": "The Basketball Contender: Doctors of Dunk",
+        "content": "While the Dodgers story holds significant weight, another compelling origin tale emerges from the basketball court. The 1978-79 University of Louisville Cardinals men's basketball team, famously dubbed the 'Doctors of Dunk,' also lays claim to the high five. According to this account, during a practice, player Wiley Brown went to give teammate Derek Smith a traditional 'low five.' Smith reportedly responded with, 'No. Up high,' an instruction that perfectly aligned with their team's 'above the rim' style of play. The Louisville team then adopted the gesture, helping to popularize it on national television during their successful season."
+      },
+      {
+        "heading": "Beyond the Myths: The Low Five's Ancestry",
+        "content": "It's important to distinguish the high five from its older cousin, the 'low five,' also known as 'giving skin' or 'slapping skin.' This underhand, below-the-waist gesture was prevalent in the African American community since at least the 1920s, a symbol of unity often seen among jazz musicians. While hand-slapping gestures appear in ancient Egyptian hieroglyphics and even a 1960 French film 'Breathless,' the high five, as a distinct celebratory gesture with its modern meaning, solidified in the late 1970s. One widely circulated myth credits a basketball player named Lamont Sleets with inventing the high five in the 1960s; however, this story was an elaborate hoax created by the founders of National High Five Day."
+      },
+      {
+        "heading": "From Spontaneous Act to Global Phenomenon",
+        "content": "Regardless of its precise birthplace, the high five rapidly became a ubiquitous gesture. The term itself didn't officially appear in print until 1980, first noted in a March 25 Boston Globe article. Its infectious nature spread from sports stadiums to popular culture, symbolizing joy, accomplishment, and connection. Today, National High Five Day is celebrated on the third Thursday of April, a testament to the gesture's lasting impact."
+      }
+    ],
+    "funFacts": [
+      "The official term 'high-five' wasn't used in print until 1980.",
+      "Before the high five, the 'low five' (or 'giving skin') was a common gesture in the African American community, dating back to the 1920s.",
+      "Glenn Burke, widely credited with co-creating the high five, was also one of the first openly gay professional baseball players.",
+      "National High Five Day is celebrated annually on the third Thursday of April.",
+      "The University of Louisville basketball team, 'The Doctors of Dunk,' helped popularize the high five on national television during their 1978-79 season."
+    ],
+    "imageKeywords": [
+      "Dusty Baker Glenn Burke high five 1977",
+      "Louisville Cardinals basketball high five 1979",
+      "Vintage low five gesture",
+      "Glenn Burke Dodgers uniform",
+      "High five celebration"
+    ],
+    "citations": [
+      "https://www.britannica.com/story/who-invented-the-high-five",
+      "https://www.quora.com/What-is-the-origin-of-the-high-five",
+      "https://priceonomics.com/the-inventor-of-the-high-five/",
+      "https://www.reddit.com/r/AskHistorians/comments/242d5h/what_is_the_origin_of_the_high_five/",
+      "https://www.charlotteobserver.com/sports/article288006190.html"
+    ],
+    "aiSource": "Gemini",
+    "id": "1783235285009-origin-of-the-high-five",
+    "slug": "the-surprising-history-of-the-high-five-more-than-just-a-han",
+    "date": "2026-07-05T07:08:05.010Z",
+    "joke": {
+      "joke": "When I woke up this morning my girlfriend asked me, 'Did you sleep well?' I said, 'No, I made a few mistakes.'",
+      "setup": "When I woke up this morning my girlfriend asked me, 'Did you sleep well?'",
+      "punchline": "I said, 'No, I made a few mistakes.'",
+      "comedian": "Steven Wright",
+      "year": "1980s",
+      "context": "This joke is a quintessential example of Steven Wright's deadpan, surreal humor, which often involves reinterpreting common phrases or situations in unexpected ways. Its brilliance lies in the unexpected twist of 'sleeping' as an activity one can perform incorrectly, leading to 'mistakes,' a concept that perfectly encapsulates Wright's unique comedic style and continues to evoke laughter due to its clever wordplay and observational wit."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/US_Navy_110804-N-DR144-456_Master_Chief_Petty_Officer_of_the_Navy_%28MCPON%29_Rick_D._West_high_fives_Commander%2C_Naval_Surface_Force_U.S._Pacific_Fleet.jpg"
+    ]
+  },
+  {
     "topic": "The surprising origin of potato chips",
     "title": "Beyond the Myth: The Crispy, Salty History of Potato Chips",
     "category": "Food & Drink",
