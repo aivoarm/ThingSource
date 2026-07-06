@@ -1,5 +1,69 @@
 [
   {
+    "topic": "origin of mayonnaise",
+    "title": "Beyond the French Myth: The Surprisingly Spanish Roots of Mayonnaise",
+    "category": "Food & Drink",
+    "summary": "This beloved condiment, a staple in kitchens worldwide, is often mistakenly attributed solely to French culinary ingenuity. However, the true origin of mayonnaise lies in a captivating blend of Spanish history and resourceful improvisation.",
+    "sections": [
+      {
+        "heading": "The French Legend and a Duke's Feast",
+        "content": "For centuries, a popular narrative positioned mayonnaise as a creation of French cuisine, born during the Seven Years' War in 1756. The story goes that Louis-François-Armand de Vignerot du Plessis, Duke de Richelieu, after capturing Port Mahón on the Spanish island of Menorca, celebrated his victory with a grand banquet. When his chef ran out of cream for a sauce, he ingeniously substituted olive oil and eggs, birthing what was christened 'Mahonnaise' in honor of the Duke's triumph. This tale, while romantic, only tells part of the story."
+      },
+      {
+        "heading": "Unearthing the Spanish Claim: Salsa Mahonesa",
+        "content": "While French chefs certainly popularized and refined the sauce, evidence strongly suggests that a similar emulsified condiment existed in Menorca long before Richelieu's arrival. Locals on the island were already preparing a 'salsa mahonesa,' a mixture of oil and egg. Earlier Spanish recipe books, dating back to the 14th century, even feature sauces like 'all-i-oli' (garlic and oil), which some consider a precursor. A significant discovery in 2022 was a 1750 manuscript by Joana Caules in Menorca, containing a detailed recipe for a sauce strikingly similar to mayonnaise, solidifying its Menorcan roots."
+      },
+      {
+        "heading": "The Evolution of a Name",
+        "content": "The transition from 'mahonnaise' to 'mayonnaise' is also a subject of debate. Some theories suggest it was a phonetic evolution, while others propose a typographical error in early French printing, where a reversed 'h' inadvertently became a 'y'. Regardless, the name ultimately stuck, spreading globally from its Mediterranean origins. Noteworthy chefs like Marie-Antoine Carême later refined the recipe, lightening it by emulsifying vegetable oil and egg yolks, further cementing its place in haute cuisine."
+      },
+      {
+        "heading": "Mayonnaise Goes Global: From Delis to Dinner Tables",
+        "content": "Mayonnaise journeyed across the Atlantic in the 19th century, initially appearing as a luxury item on menus in upscale American restaurants. Its widespread popularity in the United States owes much to innovators like Richard Hellmann, a German immigrant who, in 1905, began selling his wife's popular mayonnaise recipe from his New York City delicatessen. This led to the commercialization of Hellmann's Mayonnaise, making it an accessible and indispensable condiment in American households and beyond."
+      },
+      {
+        "heading": "Debunking Common Mayo Myths",
+        "content": "Despite its ubiquity, several myths surround mayonnaise. One persistent misconception is that it's a dairy product; however, it's made from eggs, oil, and an acidic ingredient like vinegar or lemon juice, containing no milk products. Another myth blames mayonnaise for most food poisoning incidents in dishes like potato salad. In reality, commercial mayonnaise, made with pasteurized eggs and its acidic nature, is quite stable and can even inhibit bacterial growth. The actual culprits for foodborne illnesses in such dishes are typically other perishable ingredients or improper handling."
+      }
+    ],
+    "funFacts": [
+      "Mayonnaise is an emulsion, a stable mixture of two liquids (oil and water from egg yolk/acid) that wouldn't normally mix, stabilized by lecithin in egg yolks.",
+      "Commercial mayonnaise is formulated with pasteurized eggs and a low pH from acids like vinegar or lemon juice, making it surprisingly resistant to bacterial growth.",
+      "The largest jar of mayonnaise ever made reportedly weighed over 15,000 pounds.",
+      "Japan has a dedicated 'Mayonnaise Day' to celebrate the condiment.",
+      "Some high-quality mayonnaise brands, like Duke's, use only egg yolks and no egg whites for a richer, creamier texture."
+    ],
+    "imageKeywords": [
+      "Mayonnaise ingredients eggs oil lemon",
+      "Mahón harbor Menorca Spain",
+      "Duke de Richelieu 1756",
+      "Vintage Hellmann's Mayonnaise jar",
+      "Homemade mayonnaise whisk"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj9PAq5fMf_D4gHH0Nlqot2G4na3xmZw6X6cBY_MvYks6bHiRGHIsliDhx7QPUIUpihZfjW_1pqxGRSkGvMyWDWK9P0JfUPjaKAzBlLwTG2jMqpn0r_zOIop2I-4VuYlcLgA==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBhqUJx1O1f0MgMd-WaQiE3wcINZZ11bKQfAgD-6yexFlQrHALnQbD7K6vfw5MYlqfcss9TzI426uBJ5eDzyrgvyhVjlRH1lR4-Q1U29RTdj2UKzCI-oA0Lc0c7aqo-riYv-xV8FEeyZ7GCWNl9XCCX2BndbVN-oibflq40IG_pdYR0wDbGg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtKhEQv11spalvzgHKHHYUM-S2lfzDT4HF8XnWX4Wvk-3Q4erP6SU6yRrnCukwOE5KQR7z5G1ZdP3-PrWXhNsIBhqc9TsPWaW2mgWvec_t4bCiSUjSZHtt8glgUOzBi-LG0GM-n1E0LbZbdGVq2cxC140iXaB5beWBVzHk3A==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVe7dgKyGYf-S9aTdurjKX-ZsZ7GAZKf-sIO7OjZxanNLlp2NxhScGRJLCe6LuvctVTPBnEifGJEntQqwOfGPPHc3TNDKccX4PSDUvkt072W1yk4lniYaKod3XYd4oGJmt2qPc38vKyTk=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyx2QZalhkG7OyWs1oGmmv0ZiihGmrqJPWR8-4ZSr_9bvgHjbWjF8WTIihsVRtSbQlAwMwUbqnW5pZ_8IjfMdF6ZwiHownpm5L2pnl5AfkyL4yTqqS52uJPsJf4a30Kfz-KnUTsTmQ5pPGpG9d2lwJJDP8w-QO0yVDTa7IyK_AQePXmyVQY1a9WQVq5zNQPxQEckut2YjSJIXelJmMFv1DlJ5n"
+    ],
+    "aiSource": "Gemini",
+    "id": "1783321299406-origin-of-mayonnaise",
+    "slug": "beyond-the-french-myth-the-surprisingly-spanish-roots-of-may",
+    "date": "2026-07-06T07:01:39.406Z",
+    "joke": {
+      "joke": "I used to think that the brain was the most wonderful organ in my body. Then I realized who was telling me this.",
+      "setup": "I used to think that the brain was the most wonderful organ in my body.",
+      "punchline": "Then I realized who was telling me this.",
+      "comedian": "Emo Philips",
+      "year": "1987",
+      "context": "This iconic joke, first delivered by Emo Philips in his 1987 HBO comedy special, brilliantly combines self-deprecating humor with a philosophical twist on self-perception. Its concise structure and clever play on perspective make it a timeless piece of comedy that continues to resonate with audiences, earning its place among the greatest one-liners."
+    },
+    "images": [
+      "https://picsum.photos/seed/1783321299406-origin-of-mayonnaise/800/500"
+    ]
+  },
+  {
     "topic": "Origin of the High Five",
     "title": "The Surprising History of the High Five: More Than Just a Hand Slap",
     "category": "Culture",
