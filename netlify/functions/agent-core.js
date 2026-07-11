@@ -103,6 +103,53 @@ function isTooSimilar(newPost, existingPosts) {
   });
 }
 
+async function publishToTwitter(postData) {
+  const apiKey = process.env.TWITTER_API_KEY;
+  const apiSecret = process.env.TWITTER_API_SECRET;
+  const accessToken = process.env.TWITTER_ACCESS_TOKEN;
+  const accessSecret = process.env.TWITTER_ACCESS_SECRET;
+
+  if (!apiKey || !apiSecret || !accessToken || !accessSecret || 
+      apiKey.includes('your_') || apiSecret.includes('your_') || 
+      accessToken.includes('your_') || accessSecret.includes('your_')) {
+    console.log("[Twitter] Missing or placeholder credentials. Skipping auto-tweet.");
+    return;
+  }
+
+  try {
+    const { TwitterApi } = require('twitter-api-v2');
+    const client = new TwitterApi({
+      appKey: apiKey,
+      appSecret: apiSecret,
+      accessToken: accessToken,
+      accessSecret: accessSecret,
+    });
+
+    const postUrl = `https://ts.armanayva.com/blog/${postData.slug || postData.id}`;
+    
+    // Construct tweet carefully respecting character limit (280 chars)
+    // Links count as 23 characters on X.
+    const headline = `New Origin Story: ${postData.title}\n\n`;
+    const cta = `\n\nRead more: ${postUrl}`;
+    
+    // 280 max - 23 (url) - CTA label and spacing (~13) - headline length
+    const maxSummaryLength = 280 - 23 - 13 - headline.length - 5; 
+    
+    let summaryText = postData.summary || '';
+    if (summaryText.length > maxSummaryLength) {
+      summaryText = summaryText.substring(0, maxSummaryLength - 3) + "...";
+    }
+    
+    const tweetText = `${headline}${summaryText}${cta}`;
+    console.log(`[Twitter] Broadcasting tweet (${tweetText.length} chars)...`);
+    
+    const response = await client.v2.tweet(tweetText);
+    console.log(`[Twitter] Tweet published successfully! ID: ${response.data.id}`);
+  } catch (err) {
+    console.error("[Twitter] Failed to publish tweet:", err.message);
+  }
+}
+
 async function runAgent() {
   const log = (msg) => console.log(`[agent] ${msg}`);
   log("Starting agent execution...");
@@ -392,6 +439,9 @@ Return ONLY raw JSON, no markdown:
     throw new Error(`Failed to commit posts.json to GitHub. Status: ${putRes.status}`);
   }
   log("Successfully committed to GitHub.");
+
+  // Auto-tweet the new post
+  await publishToTwitter(postData);
 
   // Only delegate email dispatch if in production environment and context
   const isProduction = process.env.CONTEXT === "production" && 
