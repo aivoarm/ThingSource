@@ -19,8 +19,7 @@
     "dotenv": "^16.0.0",
     "express": "^5.2.1",
     "node-cron": "^4.2.1",
-    "resend": "^4.0.0",
-    "twitter-api-v2": "^1.29.0"
+    "resend": "^4.0.0"
   },
   "devDependencies": {
     "puppeteer": "^21.0.0",
