@@ -543,6 +543,20 @@ async function sendNewsletter(post, settings) {
   const emails = subscribers.map(sub => sub.email);
   console.log(`[Newsletter] Preparing broadcast to ${emails.length} subscribers...`);
 
+  // 1.5 Load recent posts for "most recent interesting news" section
+  let recentPosts = [];
+  try {
+    const postsPath = path.join(__dirname, 'public', 'posts.json');
+    if (fs.existsSync(postsPath)) {
+      const allPosts = JSON.parse(fs.readFileSync(postsPath, 'utf8'));
+      recentPosts = allPosts
+        .filter(p => p.id !== post.id)
+        .slice(0, 3);
+    }
+  } catch (err) {
+    console.error("[Newsletter] Failed to read recent posts:", err.message);
+  }
+
   // 1. Generate dynamic SVG Banner & Encode in base64
   const svgBanner = generateSvgBanner(post);
   const svgBase64 = Buffer.from(svgBanner).toString('base64');
@@ -637,6 +651,25 @@ async function sendNewsletter(post, settings) {
             Read more on website
           </a>
         </div>
+        
+        ${recentPosts && recentPosts.length > 0 ? `
+        <hr style="border:none;border-top:1px solid #e7e2d4;margin:35px 0">
+        <div style="margin:25px 0;">
+          <p style="font-family:Arial,sans-serif;font-size:11px;color:#78716c;text-transform:uppercase;letter-spacing:1px;margin:0 0 16px;font-weight:bold">Most Recent Interesting News</p>
+          <ul style="margin:0;padding:0;list-style:none;">
+            ${recentPosts.map(p => `
+              <li style="margin-bottom:18px;">
+                <a href="https://ts.armanayva.com/blog/${p.slug || p.id}" style="font-family:Georgia,serif;font-size:16px;color:${bannerGradient.from};text-decoration:none;font-weight:bold;line-height:1.4;">
+                  ${escapeXml(p.title)}
+                </a>
+                <p style="font-size:13px;color:#57534e;margin:4px 0 0 0;line-height:1.5;font-family:Arial,sans-serif;">
+                  ${escapeXml(p.summary)}
+                </p>
+              </li>
+            `).join("")}
+          </ul>
+        </div>
+        ` : ""}
         
         <div class="footer">
           <p>You received this email because you subscribed to <a href="https://ts.armanayva.com" style="color:${bannerGradient.from};text-decoration:underline;">ThingSource</a> origin discoveries.</p>

@@ -2,7 +2,7 @@ const { getStore } = require("@netlify/blobs");
 const { Resend } = require("resend");
 
 // ─── Plain-text builder ────────────────────────────────────────────────────
-function buildPlainTextEmail(post, unsubUrl) {
+function buildPlainTextEmail(post, unsubUrl, recentPosts = []) {
   let text = "";
   text += `THINGSOURCE (https://ts.armanayva.com) — CURIOUS ORIGINS DAILY\n\n`;
   text += `${post.title}\n`;
@@ -20,6 +20,15 @@ function buildPlainTextEmail(post, unsubUrl) {
 
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
   text += `Read the full story online at: ${postUrl}\n\n`;
+
+  if (recentPosts && recentPosts.length > 0) {
+    text += `---\nMOST RECENT INTERESTING NEWS\n\n`;
+    recentPosts.forEach((p) => {
+      text += `${p.title}\n`;
+      text += `${p.summary}\n`;
+      text += `Read online: https://ts.armanayva.com/blog/${p.slug || p.id}\n\n`;
+    });
+  }
 
   if (post.joke) {
     text += `---
@@ -57,7 +66,7 @@ ${post.joke.context}
 }
 
 // ─── HTML builder ─────────────────────────────────────────────────────────
-function buildEmailHtml(post, unsubUrl) {
+function buildEmailHtml(post, unsubUrl, recentPosts = []) {
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
 
   // Render first 2 sections (paragraphs 2 and 3)
@@ -98,6 +107,25 @@ function buildEmailHtml(post, unsubUrl) {
       Read more on website
     </a>
   </div>
+
+  ${recentPosts && recentPosts.length > 0 ? `
+  <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
+  <div style="margin:24px 0;">
+    <p style="font-family:Arial,sans-serif;font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 16px;font-weight:bold">Most Recent Interesting News</p>
+    <ul style="margin:0;padding:0;list-style:none;">
+      ${recentPosts.map(p => `
+        <li style="margin-bottom:18px;">
+          <a href="https://ts.armanayva.com/blog/${p.slug || p.id}" style="font-family:Georgia,serif;font-size:16px;color:#0D7A6B;text-decoration:none;font-weight:bold;line-height:1.4;">
+            ${p.title}
+          </a>
+          <p style="font-size:13px;color:#666;margin:4px 0 0 0;line-height:1.5;font-family:'Helvetica Neue',Arial,sans-serif;">
+            ${p.summary}
+          </p>
+        </li>
+      `).join("")}
+    </ul>
+  </div>
+  ` : ""}
 
   ${post.joke ? `
 <div style="
@@ -244,6 +272,19 @@ exports.handler = async (event) => {
       };
     }
 
+    let recentPosts = [];
+    try {
+      const res = await fetch("https://ts.armanayva.com/posts.json");
+      if (res.ok) {
+        const allPosts = await res.json();
+        recentPosts = allPosts
+          .filter(p => p.id !== postData.id)
+          .slice(0, 3);
+      }
+    } catch (err) {
+      log(`Failed to fetch recent posts: ${err.message}`);
+    }
+
     log(`Fetching subscribers from Netlify Blobs for post: "${postData.title}"`);
     const store = getStore({
       name: "subscribers",
@@ -280,8 +321,8 @@ exports.handler = async (event) => {
               replyTo: process.env.RESEND_FROM || "thingsource@ts.armanayva.com",
               to: subscriberData.email,
               subject: `${postData.title} · ThingSource`,
-              html: buildEmailHtml(postData, unsubUrl),
-              text: buildPlainTextEmail(postData, unsubUrl),
+              html: buildEmailHtml(postData, unsubUrl, recentPosts),
+              text: buildPlainTextEmail(postData, unsubUrl, recentPosts),
               // No tracking options — clean send
             });
 
