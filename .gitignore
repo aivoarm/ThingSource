@@ -22,3 +22,8 @@ yarn-error.log*
 
 # Codebase Documentation
 CODEBASE.md
+
+# Pre-rendered static blog posts (generated during build)
+public/blog/*/
+public/sitemap.xml
+public/blog/rss.xml
