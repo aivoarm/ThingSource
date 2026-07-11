@@ -26,10 +26,13 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 const unsubUrl = "https://ts.armanayva.com/unsubscribe?token=testtoken";
 
 // Let's run a test call. We'll load the functions dynamically after modifying send-emails.js.
-try {
-  const { buildEmailHtml, buildPlainTextEmail } = require("./netlify/functions/send-emails.js");
-  const htmlContent = buildEmailHtml(testPost, unsubUrl);
-  const textContent = buildPlainTextEmail(testPost, unsubUrl);
+const { buildEmailHtml, buildPlainTextEmail, fetchRecentNews } = require("./netlify/functions/send-emails.js");
+
+console.log("Fetching real-time news for test email...");
+fetchRecentNews().then(recentNews => {
+  console.log(`Successfully fetched ${recentNews.length} news stories.`);
+  const htmlContent = buildEmailHtml(testPost, unsubUrl, recentNews);
+  const textContent = buildPlainTextEmail(testPost, unsubUrl, recentNews);
 
   console.log("Generated Email HTML Length:", htmlContent.length);
   console.log("Sending test email to aayvazy@gmail.com...");
@@ -45,7 +48,6 @@ try {
   }).catch(err => {
     console.error("Failed to send email:", err);
   });
-
-} catch (err) {
+}).catch(err => {
   console.error("Test execution failed:", err);
-}
+});
