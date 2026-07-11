@@ -562,20 +562,10 @@ async function sendNewsletter(post, settings) {
   const summaryEscaped = escapeXml(post.summary);
   const topicEscaped = escapeXml(post.topic);
 
-  const sectionsHtml = post.sections.map(sec => `
+  const sectionsHtml = post.sections.slice(0, 2).map(sec => `
     <div class="section-heading">${escapeXml(sec.heading)}</div>
     <div class="section-content">${mdToHtml(sec.content)}</div>
   `).join('');
-
-  const factsHtml = post.funFacts && post.funFacts.length > 0 
-    ? `
-      <div class="fun-facts">
-        <div class="fun-facts-title">Surprising Fun Facts</div>
-        <ul>
-          ${post.funFacts.map(fact => `<li>${escapeXml(fact)}</li>`).join('')}
-        </ul>
-      </div>
-    ` : '';
 
   const emailHtml = `
   <!DOCTYPE html>
@@ -640,7 +630,13 @@ async function sendNewsletter(post, settings) {
         ${emailCoverUrl ? `<img class="header-img" src="${emailCoverUrl}" alt="Discovery visual">` : ''}
         
         ${sectionsHtml}
-        ${factsHtml}
+        
+        <!-- Read full post button -->
+        <div style="margin: 35px 0; text-align: center;">
+          <a href="https://ts.armanayva.com/blog/${post.slug || post.id}" style="display: inline-block; background-color: ${bannerGradient.from}; color: #ffffff; text-decoration: none; font-weight: bold; font-size: 16px; padding: 14px 28px; border-radius: 8px; font-family: Arial, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            Read more on website
+          </a>
+        </div>
         
         <div class="footer">
           <p>You received this email because you subscribed to <a href="https://ts.armanayva.com" style="color:${bannerGradient.from};text-decoration:underline;">ThingSource</a> origin discoveries.</p>
@@ -753,6 +749,12 @@ function setupCronSchedule() {
   if (scheduledCronJob) {
     scheduledCronJob.stop();
     console.log("Stopped existing cron job.");
+  }
+
+  // Disable local scheduler by default unless explicitly enabled
+  if (process.env.ENABLE_LOCAL_SCHEDULER !== 'true') {
+    console.log("[Scheduler] Local background scheduler is disabled. Set ENABLE_LOCAL_SCHEDULER=true in .env to enable.");
+    return;
   }
 
   const schedule = settings.cronSchedule;

@@ -393,16 +393,24 @@ Return ONLY raw JSON, no markdown:
   }
   log("Successfully committed to GitHub.");
 
-  // Fire and forget send-emails call — do not await this
-  fetch("https://thingsource.netlify.app/.netlify/functions/send-emails", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(postData),
-  }).then(() => {
-    log("Post committed. Email send delegated.");
-  }).catch(err => {
-    console.log("Email dispatch error:", err.message);
-  });
+  // Only delegate email dispatch if in production environment and context
+  const isProduction = process.env.CONTEXT === "production" && 
+                       (process.env.URL === "https://thingsource.netlify.app" || process.env.URL === "https://ts.armanayva.com");
+
+  if (isProduction) {
+    // Fire and forget send-emails call — do not await this
+    fetch("https://thingsource.netlify.app/.netlify/functions/send-emails", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(postData),
+    }).then(() => {
+      log("Post committed. Email send delegated.");
+    }).catch(err => {
+      console.log("Email dispatch error:", err.message);
+    });
+  } else {
+    log(`Post committed. Non-production environment detected (context: ${process.env.CONTEXT || 'unknown'}, url: ${process.env.URL || 'unknown'}). Skipping email delegation.`);
+  }
 
   // Step 6: Ping the healthcheck
   if (process.env.HEALTHCHECK_URL) {

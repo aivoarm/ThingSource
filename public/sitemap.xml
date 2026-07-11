@@ -5,16 +5,28 @@
     <loc>https://ts.armanayva.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   
   <url>
     <loc>https://ts.armanayva.com/blog/</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   
+  <url>
+    <loc>https://ts.armanayva.com/blog/unraveling-the-enchanting-history-of-mocha-coffee</loc>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-06-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ts.armanayva.com/blog/a-gripping-history-unveiling-the-surprising-origins-of-the-e</loc>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-06-16</lastmod>
+  </url>
   <url>
     <loc>https://ts.armanayva.com/blog/1781456138743-origin-of-shoes</loc>
     <changefreq>never</changefreq>

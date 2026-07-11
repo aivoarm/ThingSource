@@ -9,7 +9,7 @@ function buildPlainTextEmail(post, unsubUrl) {
   text += `${"=".repeat(post.title.length)}\n\n`;
   text += `${post.summary}\n\n`;
 
-  for (const section of post.sections || []) {
+  for (const section of (post.sections || []).slice(0, 2)) {
     text += `${section.heading}\n`;
     text += `${"-".repeat(section.heading.length)}\n`;
     const plain = section.content
@@ -18,11 +18,8 @@ function buildPlainTextEmail(post, unsubUrl) {
     text += `${plain}\n\n`;
   }
 
-  if (post.funFacts?.length) {
-    text += `DID YOU KNOW?\n-------------\n`;
-    post.funFacts.forEach((f) => (text += `• ${f}\n`));
-    text += "\n";
-  }
+  const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
+  text += `Read the full story online at: ${postUrl}\n\n`;
 
   if (post.joke) {
     text += `---
@@ -47,7 +44,6 @@ ${post.joke.context}
   text += `To say thank you: search "Arman Ayva" on Spotify\n`;
   text += `and give his music a listen. It costs you nothing.\n\n`;
 
-  const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
   text += `---\n`;
   text += `SHARE THIS STORY\n`;
   text += `Share on X: https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent(postUrl)}\n`;
@@ -63,8 +59,9 @@ ${post.joke.context}
 // ─── HTML builder ─────────────────────────────────────────────────────────
 function buildEmailHtml(post, unsubUrl) {
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
-  // Render all sections in full
-  const sectionsHtml = (post.sections || []).map((section, idx) => {
+
+  // Render first 2 sections (paragraphs 2 and 3)
+  const sectionsHtml = (post.sections || []).slice(0, 2).map((section, idx) => {
     // Strip basic markdown bold/italic for email safety
     const content = section.content
       .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
@@ -74,16 +71,6 @@ function buildEmailHtml(post, unsubUrl) {
   <h2 style="font-family:Georgia,serif;font-size:18px;color:#1C1C1E;margin:28px 0 8px;line-height:1.3">${section.heading}</h2>
   <p style="font-size:14px;line-height:1.75;color:#333;margin:0 0 16px">${content}</p>`;
   }).join("");
-
-  // Fun facts block (if present)
-  const funFactsHtml = post.funFacts?.length
-    ? `<div style="background:#FFF8EC;border-left:4px solid #F5A623;padding:14px 18px;margin:24px 0;border-radius:0 6px 6px 0">
-    <p style="font-size:11px;font-weight:bold;text-transform:uppercase;letter-spacing:0.08em;color:#F5A623;margin:0 0 8px">Did You Know?</p>
-    <ul style="margin:0;padding-left:18px;font-size:14px;line-height:1.7;color:#333">
-      ${post.funFacts.map(f => `<li>${f}</li>`).join("")}
-    </ul>
-  </div>`
-    : "";
 
   return `<!DOCTYPE html>
 <html>
@@ -102,11 +89,15 @@ function buildEmailHtml(post, unsubUrl) {
   <h1 style="font-family:Georgia,serif;font-size:24px;color:#1C1C1E;margin:0 0 10px;line-height:1.3">${post.title}</h1>
   <p style="font-size:15px;color:#444;font-style:italic;margin:0 0 20px;line-height:1.6">${post.summary}</p>
 
-  <!-- All sections in full -->
+  <!-- Preview sections -->
   ${sectionsHtml}
 
-  <!-- Fun facts -->
-  ${funFactsHtml}
+  <!-- Read full post button -->
+  <div style="margin: 32px 0; text-align: center;">
+    <a href="${postUrl}" style="display: inline-block; background-color: #0D7A6B; color: #ffffff; text-decoration: none; font-weight: bold; font-size: 16px; padding: 14px 28px; border-radius: 8px; font-family: 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      Read more on website
+    </a>
+  </div>
 
   ${post.joke ? `
 <div style="
@@ -314,3 +305,6 @@ exports.handler = async (event) => {
     return { statusCode: 500, body: JSON.stringify({ error: error.message }) };
   }
 };
+
+exports.buildEmailHtml = buildEmailHtml;
+exports.buildPlainTextEmail = buildPlainTextEmail;
