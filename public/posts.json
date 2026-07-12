@@ -1,5 +1,69 @@
 [
   {
+    "topic": "The Origin of the Ice Cream Cone",
+    "title": "Beyond the Booth: The Surprisingly Complex History of the Ice Cream Cone",
+    "category": "Food & Drink",
+    "summary": "We all know the sweet crunch of an ice cream cone, often linked to a serendipitous moment at the 1904 St. Louis World's Fair. But the truth behind this beloved edible wrapper is far richer and stretches back decades before that famous exposition.",
+    "sections": [
+      {
+        "heading": "The Sticky Sweet Legend of 1904",
+        "content": "The most widely circulated story credits the ice cream cone's invention to a happy accident at the 1904 St. Louis World's Fair. The tale often recounts an ice cream vendor running out of dishes, only for a Syrian waffle vendor, Ernest Hamwi, to ingeniously roll his crisp zalabia (a waffle-like pastry) into a cone to save the day. This impromptu solution supposedly captivated fairgoers and launched the ice cream cone into mainstream popularity across America."
+      },
+      {
+        "heading": "Cones Before the Fair: A European Precedent",
+        "content": "While the 1904 World's Fair undeniably boosted the cone's profile, the concept of an edible wrapper for desserts existed much earlier. French cookbooks from as far back as 1825 described rolling 'little waffles' into cones. In 1846, Italian-British chef Charles Elmé Francatelli detailed serving ice cream in 'gauffres' (wafers) as part of a larger dessert. The earliest documented recipe specifically for edible cones with cream comes from English cook Agnes B. Marshall in her 1888 *Book of Cookery*, where she describes 'cornets with cream' made from almonds and baked in an oven."
+      },
+      {
+        "heading": "The American Patent Race Begins",
+        "content": "Across the Atlantic, Italian immigrants were also independently developing edible ice cream containers. Antonio Valvona, in Manchester, England, received a patent in 1902 for an 'Apparatus for Baking Biscuit Cups for Ice Cream'. Just a year later, in December 1903, Italo Marchiony, an Italian-American ice cream vendor in New York City, was granted a U.S. patent for a 'molding apparatus for forming ice-cream cups and the like'. Marchiony stated he had been making edible cups since 1896, aiming to solve the problem of customers not returning glass dishes and reducing breakage."
+      },
+      {
+        "heading": "The World's Fair Phenomenon (and its many claimants)",
+        "content": "The 1904 St. Louis World's Fair was indeed a pivotal moment for the ice cream cone, transforming it from a niche offering to a national sensation. Ernest Hamwi, selling a thin, waffle-like pastry called zalabia, is widely credited with rolling his wares into cones to assist an adjacent, overwhelmed ice cream vendor. However, he wasn't the only one. Other vendors at the Fair, including Charles Menches and Abe Doumar, also laid claim to creating or popularizing the edible cone at the event, leading to a much-disputed origin story."
+      },
+      {
+        "heading": "From Hand-Rolled to Mass Produced",
+        "content": "The overwhelming demand sparked by the World's Fair led to rapid innovation in cone production. Early cones were often hand-rolled, but the need for efficiency quickly became apparent. In 1912, Frederick Bruckman from Portland, Oregon, perfected a machine that could mold, bake, and trim ice cream cones at high speed, paving the way for mass production and wholesale distribution. This industrialization made ice cream cones widely accessible and cemented their place as an everyday treat."
+      }
+    ],
+    "funFacts": [
+      "Before edible cones, ice cream was often served in small glass dishes called 'penny licks' which were reused without much washing, leading to sanitation concerns.",
+      "Missouri officially recognized the ice cream cone as its state dessert in 2008, largely due to its popularization at the 1904 St. Louis World's Fair.",
+      "Italo Marchiony's 1903 patent drawings show small edible cups, complete with tiny handles, rather than the familiar rolled cone shape.",
+      "The 'Drumstick' — a pre-filled, chocolate-coated ice cream cone — was invented in 1928 by J.T. 'Stubby' Parker and his company was later acquired by Nestlé.",
+      "The word 'Cornetto' (a popular brand of ice cream cone) was registered in 1960 by an Italian manufacturer, Spica, after they invented a process to insulate the cone from the ice cream with chocolate."
+    ],
+    "imageKeywords": [
+      "vintage ice cream cone vendor",
+      "Italo Marchiony patent drawing",
+      "1904 St. Louis World's Fair ice cream",
+      "Ernest Hamwi waffle vendor",
+      "early ice cream cone machine"
+    ],
+    "citations": [
+      "https://en.wikipedia.org/wiki/Ice_cream_cone",
+      "https://yadachef.com/blogs/news/ice-cream-cones-history-delicious-journey",
+      "https://www.thenibble.com/reviews/main/ice-cream/ice-cream-cone-history.asp",
+      "https://www.hilanddairy.com/the-history-of-the-ice-cream-cone",
+      "https://www.pralines.com/who-invented-the-ice-cream-cone/"
+    ],
+    "aiSource": "Gemini",
+    "id": "1783840202699-the-origin-of-the-ice-cream-cone",
+    "slug": "beyond-the-booth-the-surprisingly-complex-history-of-the-ice",
+    "date": "2026-07-12T07:10:02.699Z",
+    "joke": {
+      "joke": "Two fish are in a tank. One says to the other, 'How do you drive this thing?'",
+      "setup": "Two fish are in a tank. One says to the other,",
+      "punchline": "'How do you drive this thing?'",
+      "comedian": "Traditional",
+      "year": "Traditional/Unknown",
+      "context": "This joke is widely appreciated for its simple yet brilliant wordplay, relying on the dual meaning of 'tank' (a fish tank and a military vehicle) for its clever punchline. Its concise nature and universal appeal, creating an unexpected mental image, have cemented its status as a timeless piece of humor that consistently delights audiences."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/da/Strawberry_ice_cream_cone_%285076899310%29.jpg"
+    ]
+  },
+  {
     "topic": "Origin of the word boycott",
     "title": "The Unlikely Tale of Captain Boycott: How One Man Gave His Name to a Global Protest",
     "category": "Language",
