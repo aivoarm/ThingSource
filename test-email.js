@@ -26,28 +26,32 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 const unsubUrl = "https://ts.armanayva.com/unsubscribe?token=testtoken";
 
 // Let's run a test call. We'll load the functions dynamically after modifying send-emails.js.
-const { buildEmailHtml, buildPlainTextEmail, fetchRecentNews } = require("./netlify/functions/send-emails.js");
+const { buildEmailHtml, buildPlainTextEmail } = require("./netlify/functions/send-emails.js");
 
-console.log("Fetching real-time news for test email...");
-fetchRecentNews().then(recentNews => {
-  console.log(`Successfully fetched ${recentNews.length} news stories.`);
-  const htmlContent = buildEmailHtml(testPost, unsubUrl, recentNews);
-  const textContent = buildPlainTextEmail(testPost, unsubUrl, recentNews);
+let scienceArticles = [];
+try {
+  const sciencePostsPath = path.join(__dirname, 'public/science-posts.json');
+  if (fs.existsSync(sciencePostsPath)) {
+    scienceArticles = JSON.parse(fs.readFileSync(sciencePostsPath, 'utf8')).slice(0, 3);
+  }
+} catch (err) {
+  console.error("Failed to read science-posts for test email:", err.message);
+}
 
-  console.log("Generated Email HTML Length:", htmlContent.length);
-  console.log("Sending test email to aayvazy@gmail.com...");
+const htmlContent = buildEmailHtml(testPost, unsubUrl, scienceArticles);
+const textContent = buildPlainTextEmail(testPost, unsubUrl, scienceArticles);
 
-  resend.emails.send({
-    from: process.env.RESEND_FROM || "ThingSource <thingsource@ts.armanayva.com>",
-    to: "aayvazy@gmail.com",
-    subject: `[TEST] ${testPost.title} · ThingSource`,
-    html: htmlContent,
-    text: textContent
-  }).then(response => {
-    console.log("Email sent successfully!", response);
-  }).catch(err => {
-    console.error("Failed to send email:", err);
-  });
+console.log("Generated Email HTML Length:", htmlContent.length);
+console.log("Sending test email to aayvazy@gmail.com...");
+
+resend.emails.send({
+  from: process.env.RESEND_FROM || "ThingSource <thingsource@ts.armanayva.com>",
+  to: "aayvazy@gmail.com",
+  subject: `[TEST] ${testPost.title} · ThingSource`,
+  html: htmlContent,
+  text: textContent
+}).then(response => {
+  console.log("Email sent successfully!", response);
 }).catch(err => {
-  console.error("Test execution failed:", err);
+  console.error("Failed to send email:", err);
 });

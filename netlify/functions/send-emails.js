@@ -13,74 +13,37 @@ function cleanXmlText(str) {
     .trim();
 }
 
-async function fetchRecentNews() {
-  const feeds = [
-    "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
-    "https://www.nasa.gov/news-release/feed/",
-    "https://www.sciencedaily.com/rss/all.xml",
-    "https://www.smithsonianmag.com/rss/science-nature/",
-    "https://www.newscientist.com/section/news/feed/",
-    "https://www.nature.com/nature.rss"
-  ];
-
-  const shuffledFeeds = feeds.sort(() => 0.5 - Math.random());
-  const items = [];
-
-  for (const url of shuffledFeeds) {
-    try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 2500);
-
-      const response = await fetch(url, {
-        signal: controller.signal,
-        headers: {
-          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        }
-      });
-      clearTimeout(timeoutId);
-      if (!response.ok) continue;
-      const xml = await response.text();
-
-      const itemRegex = /<item>([\s\S]*?)<\/item>/g;
-      let match;
-
-      while ((match = itemRegex.exec(xml)) !== null) {
-        const itemContent = match[1];
-
-        const titleMatch = itemContent.match(/<title>([\s\S]*?)<\/title>/);
-        const descMatch = itemContent.match(/<description>([\s\S]*?)<\/description>/) || 
-                          itemContent.match(/<summary>([\s\S]*?)<\/summary>/);
-        const linkMatch = itemContent.match(/<link>([\s\S]*?)<\/link>/);
-
-        if (titleMatch && linkMatch) {
-          const title = cleanXmlText(titleMatch[1]);
-          const summary = descMatch ? cleanXmlText(descMatch[1]) : "";
-          const link = cleanXmlText(linkMatch[1]);
-
-          if (title && link && summary && !items.some(i => i.title === title || i.url === link)) {
-            const cleanSummary = summary.replace(/<[^>]*>/g, "").trim();
-            if (cleanSummary.length > 10) {
-              items.push({
-                title,
-                summary: cleanSummary.substring(0, 180) + (cleanSummary.length > 180 ? "..." : ""),
-                url: link
-              });
-            }
-          }
-        }
-        if (items.length >= 3) break;
-      }
-    } catch (err) {
-      console.error(`[send-emails] Feed parse error for ${url}:`, err.message);
+async function fetchScienceSimpleArticles() {
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const localPath = path.join(__dirname, '../../public/science-posts.json');
+    if (fs.existsSync(localPath)) {
+      const data = JSON.parse(fs.readFileSync(localPath, 'utf8'));
+      return data.slice(0, 3);
     }
-    if (items.length >= 3) break;
+  } catch (err) {
+    console.error("[send-emails] Error reading local science-posts.json:", err.message);
   }
 
-  return items.slice(0, 3).sort(() => 0.5 - Math.random());
+  // Fallback to HTTP fetch
+  try {
+    const siteUrl = process.env.URL || "https://ts.armanayva.com";
+    const res = await fetch(`${siteUrl}/science-posts.json`);
+    if (res.ok) {
+      const data = await res.json();
+      return data.slice(0, 3);
+    }
+  } catch (err) {
+    console.error("[send-emails] Error fetching science-posts.json:", err.message);
+  }
+  return [];
 }
 
+
+
 // ─── Plain-text builder ────────────────────────────────────────────────────
-function buildPlainTextEmail(post, unsubUrl, recentNews = []) {
+function buildPlainTextEmail(post, unsubUrl, scienceArticles = []) {
   let text = "";
   text += `THINGSOURCE (https://ts.armanayva.com) — CURIOUS ORIGINS DAILY\n\n`;
   text += `${post.title}\n`;
@@ -99,15 +62,6 @@ function buildPlainTextEmail(post, unsubUrl, recentNews = []) {
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
   text += `Read the full story online at: ${postUrl}\n\n`;
 
-  if (recentNews && recentNews.length > 0) {
-    text += `---\nMOST RECENT INTERESTING NEWS\n\n`;
-    recentNews.forEach((n) => {
-      text += `${n.title}\n`;
-      text += `${n.summary}\n`;
-      text += `Read online: ${n.url}\n\n`;
-    });
-  }
-
   if (post.joke) {
     text += `---
 🎭 JOKE OF THE DAY
@@ -116,9 +70,32 @@ function buildPlainTextEmail(post, unsubUrl, recentNews = []) {
 ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punchline + '\n' : ''}
 — ${post.joke.comedian} · ${post.joke.year}
 
-${post.joke.context}
-
 `;
+  }
+
+  if (scienceArticles && scienceArticles.length > 0) {
+    text += `---\n🚀 SCIENCESIMPLE — DAILY SCIENCE MADE EASY\n\n`;
+    scienceArticles.forEach((art) => {
+      text += `${art.title}\n`;
+      text += `${"~".repeat(art.title.length)}\n`;
+      text += `${art.summary}\n\n`;
+      
+      art.sections.forEach(sec => {
+        text += `${sec.heading}\n`;
+        text += `${sec.content}\n\n`;
+      });
+
+      if (art.funFacts && art.funFacts.length > 0) {
+        text += `Did you know?\n`;
+        art.funFacts.forEach(fact => {
+          text += `- ${fact}\n`;
+        });
+        text += `\n`;
+      }
+      
+      text += `Source: ${art.originalTitle} (${art.originalUrl})\n`;
+      text += `${"-".repeat(30)}\n\n`;
+    });
   }
 
   text += `---\n`;
@@ -144,7 +121,8 @@ ${post.joke.context}
 }
 
 // ─── HTML builder ─────────────────────────────────────────────────────────
-function buildEmailHtml(post, unsubUrl, recentNews = []) {
+// ─── HTML builder ─────────────────────────────────────────────────────────
+function buildEmailHtml(post, unsubUrl, scienceArticles = []) {
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
 
   // Render first 2 sections (paragraphs 2 and 3)
@@ -158,6 +136,38 @@ function buildEmailHtml(post, unsubUrl, recentNews = []) {
   <h2 style="font-family:Georgia,serif;font-size:18px;color:#1C1C1E;margin:28px 0 8px;line-height:1.3">${section.heading}</h2>
   <p style="font-size:14px;line-height:1.75;color:#333;margin:0 0 16px">${content}</p>`;
   }).join("");
+
+  const scienceArticlesHtml = scienceArticles && scienceArticles.length > 0 ? `
+  <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
+  <div style="margin:24px 0; background-color:#F5F3FF; border:1px solid #DDD6FE; border-radius:12px; padding:24px 28px;">
+    <p style="font-family:Arial,sans-serif;font-size:12px;color:#7C3AED;text-transform:uppercase;letter-spacing:0.12em;margin:0 0 24px;font-weight:bold;text-align:center;">🚀 ScienceSimple — Daily Science Made Easy</p>
+    ${scienceArticles.map((art, index) => {
+      const artSections = (art.sections || []).map(sec => `
+        <h3 style="font-family:Georgia,serif;font-size:16px;color:#1C1C1E;margin:20px 0 6px;line-height:1.3">${sec.heading}</h3>
+        <p style="font-size:14px;line-height:1.7;color:#333;margin:0 0 14px">${sec.content}</p>
+      `).join("");
+
+      const artFacts = art.funFacts && art.funFacts.length > 0 ? `
+        <div style="background-color:#eff6ff; border-left:4px solid #3b82f6; padding:12px 16px; border-radius:6px; margin:16px 0;">
+          <p style="font-family:Arial,sans-serif;font-size:11px;color:#1d4ed8;text-transform:uppercase;letter-spacing:0.05em;margin:0 0 8px;font-weight:bold">💡 Did you know?</p>
+          <ul style="margin:0;padding-left:18px;font-size:13.5px;color:#1e40af;line-height:1.5;">
+            ${art.funFacts.map(fact => `<li style="margin-bottom:6px;">${fact}</li>`).join("")}
+          </ul>
+        </div>
+      ` : "";
+
+      return `
+        ${index > 0 ? '<hr style="border:none;border-top:1px dashed #DDD6FE;margin:24px 0">' : ''}
+        <h2 style="font-family:Georgia,serif;font-size:20px;color:#1C1C1E;margin:0 0 10px;line-height:1.3">${art.title}</h2>
+        <p style="font-size:15px;color:#444;font-style:italic;margin:0 0 18px;line-height:1.6">${art.summary}</p>
+        ${artSections}
+        ${artFacts}
+        <p style="font-size:11px;color:#999;margin:12px 0 0 0;">Source: <a href="${art.originalUrl}" style="color:#7C3AED;text-decoration:none;">${art.originalTitle}</a></p>
+      `;
+    }).join("")}
+    <p style="font-size:13px; margin:24px 0 0 0; text-align:center;"><a href="https://ts.armanayva.com/science.html" style="color:#7C3AED; text-decoration:underline; font-weight:bold;">Read all simplified stories online →</a></p>
+  </div>
+  ` : "";
 
   return `<!DOCTYPE html>
 <html>
@@ -185,25 +195,6 @@ function buildEmailHtml(post, unsubUrl, recentNews = []) {
       Read more on website
     </a>
   </div>
-
-  ${recentNews && recentNews.length > 0 ? `
-  <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
-  <div style="margin:24px 0;">
-    <p style="font-family:Arial,sans-serif;font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 16px;font-weight:bold">Most Recent Interesting News</p>
-    <ul style="margin:0;padding:0;list-style:none;">
-      ${recentNews.map(n => `
-        <li style="margin-bottom:18px;">
-          <a href="${n.url}" style="font-family:Georgia,serif;font-size:16px;color:#0D7A6B;text-decoration:none;font-weight:bold;line-height:1.4;">
-            ${n.title}
-          </a>
-          <p style="font-size:13px;color:#666;margin:4px 0 0 0;line-height:1.5;font-family:'Helvetica Neue',Arial,sans-serif;">
-            ${n.summary}
-          </p>
-        </li>
-      `).join("")}
-    </ul>
-  </div>
-  ` : ""}
 
   ${post.joke ? `
 <div style="
@@ -248,23 +239,14 @@ function buildEmailHtml(post, unsubUrl, recentNews = []) {
   <p style="
     font-size:13px;
     color:#6A5A52;
-    margin:0 0 12px;
+    margin:0;
     font-family:Arial,sans-serif;">
     — ${post.joke.comedian} · ${post.joke.year}
   </p>
   
-  <p style="
-    font-size:13px;
-    color:#7A6A60;
-    line-height:1.6;
-    margin:0;
-    padding-top:12px;
-    border-top:1px solid rgba(133,100,4,0.2);
-    font-family:Arial,sans-serif;">
-    ${post.joke.context}
-  </p>
-  
 </div>` : ""}
+
+  ${scienceArticlesHtml}
 
   <!-- Sponsor block — Spotify music promotion -->
   <div style="background:#F8F6F1;border-radius:8px;padding:20px 24px;margin:32px 0;border-left:4px solid #0D7A6B">
@@ -350,7 +332,7 @@ exports.handler = async (event) => {
       };
     }
 
-    const recentNews = await fetchRecentNews();
+    const scienceArticles = await fetchScienceSimpleArticles();
 
     log(`Fetching subscribers from Netlify Blobs for post: "${postData.title}"`);
     const store = getStore({
@@ -388,8 +370,8 @@ exports.handler = async (event) => {
               replyTo: process.env.RESEND_FROM || "thingsource@ts.armanayva.com",
               to: subscriberData.email,
               subject: `${postData.title} · ThingSource`,
-              html: buildEmailHtml(postData, unsubUrl, recentNews),
-              text: buildPlainTextEmail(postData, unsubUrl, recentNews),
+              html: buildEmailHtml(postData, unsubUrl, scienceArticles),
+              text: buildPlainTextEmail(postData, unsubUrl, scienceArticles),
               // No tracking options — clean send
             });
 
@@ -416,4 +398,3 @@ exports.handler = async (event) => {
 
 exports.buildEmailHtml = buildEmailHtml;
 exports.buildPlainTextEmail = buildPlainTextEmail;
-exports.fetchRecentNews = fetchRecentNews;

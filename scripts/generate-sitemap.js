@@ -49,6 +49,13 @@ const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
     <lastmod>${today}</lastmod>
   </url>
   
+  <url>
+    <loc>https://ts.armanayva.com/science.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <lastmod>${today}</lastmod>
+  </url>
+  
 ${sitemapUrls}
 
 </urlset>`.trim();

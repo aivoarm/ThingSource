@@ -16,3 +16,6 @@
 
 [functions."agent"]
   schedule = "0 7 * * *"
+
+[functions."science-agent"]
+  schedule = "30 7 * * *"
