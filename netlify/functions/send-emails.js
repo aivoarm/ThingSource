@@ -28,11 +28,16 @@ async function fetchRecentNews() {
 
   for (const url of shuffledFeeds) {
     try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 2500);
+
       const response = await fetch(url, {
+        signal: controller.signal,
         headers: {
           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
         }
       });
+      clearTimeout(timeoutId);
       if (!response.ok) continue;
       const xml = await response.text();
 
