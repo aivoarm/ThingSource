@@ -394,7 +394,9 @@ Return ONLY raw JSON, no markdown:
   log("Successfully committed to GitHub.");
 
   // Only delegate email dispatch if in production environment and context
-  const isProduction = process.env.CONTEXT === "production";
+  const isProduction = process.env.CONTEXT === "production" || 
+                       (process.env.NETLIFY === "true" && 
+                        (process.env.URL === "https://thingsource.netlify.app" || process.env.URL === "https://ts.armanayva.com"));
 
   if (isProduction) {
     // Fire and forget send-emails call — do not await this
