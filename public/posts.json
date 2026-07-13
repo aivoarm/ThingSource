@@ -1,5 +1,63 @@
 [
   {
+    "topic": "The custom of tipping",
+    "title": "From Feudal Fiefdoms to Modern Diners: The Surprising, Controversial Origin of Tipping",
+    "category": "Culture",
+    "summary": "Tipping, an ingrained practice in many cultures today, didn't begin as a simple 'thank you' for good service. Its origins are deeply rooted in centuries of social hierarchy and, particularly in the United States, a problematic history of classism and racial inequality.",
+    "sections": [
+      {
+        "heading": "Medieval Roots: A Gift for the Gentry's Servants",
+        "content": "The practice of tipping can be traced back to medieval Europe, specifically Tudor England. It emerged as a master-serf custom where wealthy landowners would bestow small sums of money, known as 'vails,' upon their servants for performing exceptionally well, a gesture that reinforced the rigid class structures of the era. By the 17th century, it became an expectation for overnight guests in aristocratic households to provide these payments to the host's staff, often as compensation for the additional work of caring for visitors. This custom soon spread to commercial establishments like London coffeehouses, where patrons would sometimes tip *before* service to ensure prompt attention."
+      },
+      {
+        "heading": "The Myth of T.I.P.: Debunking a Popular Acronym",
+        "content": "A widely circulated myth suggests the word 'tip' is an acronym for 'To Insure Promptitude' (or 'To Insure Prompt Service'), supposedly found on bowls in 17th-century English taverns. However, historical research largely debunks this charming, but inaccurate, origin story. The word 'tip' more likely originated from 17th-century criminal underworld slang, meaning 'to give' or 'share'. Its first known use as a verb in the context of gratuity appeared in George Farquhar's 1707 play, 'The Beaux' Stratagem'."
+      },
+      {
+        "heading": "America's Reluctant Embrace: A Post-Civil War Legacy",
+        "content": "Tipping arrived in the United States in the mid-19th century, brought back by wealthy Americans who had traveled to Europe and wished to emulate aristocratic customs. Initially, the practice was met with strong public resistance, viewed as 'offensively un-American' and a symbol of European classism that contradicted the nation's egalitarian ideals. Several states even attempted to legally ban tipping in the early 20th century, though these laws were eventually repealed. The true entrenchment of tipping in America, particularly in the service industry, often intertwined with racial exploitation following the Civil War, when many newly freed Black Americans were hired in service jobs, such as railway porters by companies like Pullman, at meager wages, forcing them to rely on tips for a living."
+      },
+      {
+        "heading": "Modern Day Dynamics: A Global Divide",
+        "content": "While tipping became deeply embedded in American culture, especially after the Fair Labor Standards Act of 1938 excluded restaurant workers from minimum wage protections, many European countries moved away from it. Today, in much of Europe, service charges are often included in the bill, and the pressure to tip generously is not as strong as in the U.S.. The 'tip credit' established in the U.S. in 1966 further codified the practice, allowing employers to pay a sub-minimum wage to tipped workers, with the expectation that tips will bridge the gap to minimum wage."
+      }
+    ],
+    "funFacts": [
+      "The word 'gratuity' dates back to the 1520s, derived from the French word 'gratuite,' meaning 'free gift'.",
+      "In 17th-century English coffeehouses, some patrons would tip *before* being served to ensure they received prompt service.",
+      "After the American Civil War, the Pullman Company notably institutionalized tipping by hiring Black porters at very low wages, expecting their income to be supplemented by tips.",
+      "Between 1915 and 1926, at least six U.S. states attempted to pass laws banning tipping, though these were eventually repealed."
+    ],
+    "imageKeywords": [
+      "Medieval servants receiving coins",
+      "Victorian era coffee house London",
+      "Pullman porter tipping",
+      "Old American anti-tipping newspaper"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeTUwb1Ekdq7Uy4I0sC2GqpL54ZfDS-qT5PpvlYdcgHrD9i5aZRVAkrh5lTxOdRL_ublLoH_mes5oPkQBoSZ1XYEPBBLNpnej7Fl9-tTYk8-r5iQSAsFGOft6VWJhi7Kr0",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETi5-KrnYS-7ChTuWT8wW_9hEw0bTa-8x45ENDgfk64JLcW6fplctuK06YbRaHCcIUIR5RoT97Q2Cm5p8CopjUr-avm4Wv5TYSEQYjzcbzGJcPXW95iinv22qkn7IFb5lJcimAfS0B1lrHHvw1x4Vrr9CskiwzN5hdz8CjbAdewNm8_1rWwECz",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvxgH-n5utWTkH2HAINqhXce558lxjAeKcF7xmCyLXnbGBuJJau3YYdNEEswCpzC-LNQ6dkQHDdWOfQOENqXCe2cufmgGTZW0lSa41F_0zIEMdjLEhd9gSEfWidbXgIWaGWtcwPPabNks7nPdJAHA=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc7NQcv50cfvlqkTN8zlu2FRGMAcRgJY9A1hls8wkdkmHQyut-iJTrgRlm7HDbVw9WQbiujDXK3xgQq0tdSvymUctx4CCyfg3qZq3HBgfEOGMjWs5kRrMk5UIwC_pClHj7GiL28bO75Chs0Nnm_HnEbISrhHGkmmMAcBKWNitMLnDHnp32BZpOygWqpT3sVAPs_qjtrUoPfFsIvZtzW2QsNBshPoOs8rR",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaN0DvT5LyIU4ILit2w3-v2_ooGZLHzuTvH_qiE9HmrzGS0H-yvUuW2Y77tcLefjU7UF9IFXZm3td1_aLH6w48Nykydcyj2zkFcajakqPOslcLHQrX8m9h1Wtt30C4RY4vwWNLJCOM-_ZwPaMZw8jlOr6aXQYG19IYZrpVf_UJA1slCUy7RB5QG3Wizgs="
+    ],
+    "aiSource": "Gemini",
+    "id": "1783926327243-the-custom-of-tipping",
+    "slug": "from-feudal-fiefdoms-to-modern-diners-the-surprising-controv",
+    "date": "2026-07-13T07:05:27.243Z",
+    "joke": {
+      "joke": "A man walks into a library and asks for books on paranoia. The librarian whispers, 'They're right behind you!'",
+      "setup": "A man walks into a library and asks for books on paranoia.",
+      "punchline": "The librarian whispers, 'They're right behind you!'",
+      "comedian": "Traditional",
+      "year": "Mid-20th Century",
+      "context": "This joke is widely considered a classic due to its brilliant and concise twist, effectively using situational irony to deliver an unexpected punchline. Its timeless appeal lies in its clever play on the nature of paranoia and the simple, yet impactful, interaction that creates a universal moment of humor."
+    },
+    "images": [
+      "https://picsum.photos/seed/1783926327243-the-custom-of-tipping/800/500"
+    ]
+  },
+  {
     "topic": "The Origin of the Ice Cream Cone",
     "title": "Beyond the Booth: The Surprisingly Complex History of the Ice Cream Cone",
     "category": "Food & Drink",
