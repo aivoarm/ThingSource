@@ -1,5 +1,79 @@
 [
   {
+    "title": "Go, Percy, Go! Our Mars Robot Just Ran a Marathon!",
+    "summary": "Get ready to cheer! NASA's awesome robot, Perseverance, has just done something truly amazing on Mars – it drove so far it completed a whole *marathon*!",
+    "sections": [
+      {
+        "heading": "What's a Marathon, Anyway?",
+        "content": "A marathon is a super long running race, about 26 miles! That's like running from one town to a town way, way far away. Percy didn't have legs, but he used his wheels to cover that exact distance on the dusty surface of Mars!"
+      },
+      {
+        "heading": "Percy's Epic Road Trip!",
+        "content": "This amazing robot, Perseverance (or Percy!), has been zipping across Mars for over five years, exploring craters and looking for signs of tiny ancient life. He's been driving over rocks and sand, all by himself, completing this epic journey much faster than any robot before him!"
+      }
+    ],
+    "funFacts": [
+      "Mars is often called the 'Red Planet' because of all the iron in its rocks and dust, which rusts and makes it look reddish, just like rusty metal!",
+      "Even though Percy drove for 5 years, he only travels about 0.05 miles per hour – that's slower than a snail race, but he covers a *lot* of ground over time!",
+      "Percy is about the size of a small car and weighs over 2,200 pounds – that's heavier than a polar bear, making him one tough explorer!"
+    ],
+    "originalTitle": "NASA&#039;s Perseverance just completed a marathon on Mars",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
+    "id": "1784014238331-3hdxh",
+    "date": "2026-07-14T07:30:38.331Z"
+  },
+  {
+    "title": "Our Future Home: NASA's Super Plan for a Moon Base!",
+    "summary": "Imagine living on the Moon, looking back at our amazing Earth! NASA is making that awesome dream come true by sending lots of new robot missions to start building our very first permanent Moon base!",
+    "sections": [
+      {
+        "heading": "Moon Base, Here We Come!",
+        "content": "NASA is super excited about the Moon and is spending a huge amount of money (like building the best giant playground ever!) to send four special robot missions there. These missions, planned for just a few years from now, are the first big steps towards building a place where humans can actually live on the Moon forever!"
+      },
+      {
+        "heading": "Meet the Moon Explorer Crew!",
+        "content": "Each of these cool robot missions will carry three very important gadgets. One gadget is like a super-smart GPS to help future astronauts find their way around the Moon. Another will study the super-fine, super-sticky Moon dust, which can be tricky! And the last one will check for invisible \"space sunshine\" (radiation) to make sure the Moon base is safe for everyone."
+      },
+      {
+        "heading": "More Awesome Moon Fun on the Way!",
+        "content": "But wait, there's more! NASA also has plans for incredible new Moon cars (rovers) to explore, special satellites to help people talk from the Moon to Earth (like space walkie-talkies), and even more delivery missions. All this cool stuff is getting ready for us to build and live in our future home on the Moon!"
+      }
+    ],
+    "funFacts": [
+      "Did you know Moon dust is super sharp, like tiny pieces of glass, because there's no wind or water to smooth it down? It can even smell like gunpowder!",
+      "The Moon is slowly moving away from Earth, about 1.5 inches (3.8 cm) every year – that's about the same rate your fingernails grow!",
+      "If you could jump on the Moon, you'd be able to leap six times higher than you can on Earth because the Moon's gravity is much weaker!"
+    ],
+    "originalTitle": "NASA selects four new Moon missions to build a permanent lunar base",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260713084853.htm",
+    "id": "1784014246831-ddoc6",
+    "date": "2026-07-14T07:30:46.831Z"
+  },
+  {
+    "title": "T-Rex Tooth: The Ultimate Dino Battle Clue!",
+    "summary": "Imagine finding a real-life battle scar from millions of years ago! Scientists just found something incredible: a dinosaur skull with a giant T-Rex tooth still stuck right in its face!",
+    "sections": [
+      {
+        "heading": "A Dino Fight Frozen in Time!",
+        "content": "Get ready for a super cool discovery! Scientists found the skull of a peaceful, plant-eating dinosaur called Edmontosaurus. But this wasn't just any skull – it had a huge, sharp tooth from a Tyrannosaurus rex embedded right in its face! It's like finding a ancient battle scene captured perfectly, showing us exactly where the T-Rex bit."
+      },
+      {
+        "heading": "T-Rex Hunting Secrets Revealed!",
+        "content": "This awesome tooth isn't just a cool souvenir; it's a giant clue! It tells scientists that T-Rex didn't just sneak up on its prey from behind. This bite was face-to-face, proving T-Rex was strong enough to chomp down with incredible force even in a direct confrontation. It helps us understand how this legendary predator was such an amazing hunter!"
+      }
+    ],
+    "funFacts": [
+      "A T-Rex tooth could be as long as a banana (up to 12 inches!) and was shaped like a serrated steak knife for tearing meat!",
+      "Edmontosaurus, the dino that got bitten, was a giant 'duck-billed' dinosaur that could weigh as much as an elephant!",
+      "Scientists believe T-Rex had the strongest bite of any land animal ever, powerful enough to crush bones!",
+      "Fossils are like nature's secret time capsules, preserving clues about animals and plants that lived millions of years ago!"
+    ],
+    "originalTitle": "This dinosaur fossil captures the final moments of a T. rex attack",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260713000811.htm",
+    "id": "1784014254958-v99sk",
+    "date": "2026-07-14T07:30:54.958Z"
+  },
+  {
     "title": "Super Dads of the Spider World!",
     "summary": "Guess what? Some creepy-crawly critters called 'daddy longlegs' have super-duper dads, and everyday nature explorers like YOU helped scientists uncover their secret!",
     "sections": [
