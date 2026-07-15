@@ -1,5 +1,58 @@
 [
   {
+    "topic": "The Two-Day Weekend",
+    "title": "Unpacking Your Leisure: The Surprising History of the Two-Day Weekend",
+    "category": "History",
+    "summary": "That glorious two-day break we cherish every week wasn't always a given. The modern weekend is a relatively recent invention, born from a complex interplay of religious observance, industrial reform, labor movements, and even shrewd business strategy.",
+    "sections": [
+      {
+        "heading": "The Dawn of Downtime: From 'Saint Monday' to a New Term",
+        "content": "Before the structured two-day weekend we know today, workers in 19th-century Britain often observed an informal 'Saint Monday'. This was an unofficial day off, extending Sunday's rest and often used for recuperation after weekend revelries, though it was largely frowned upon by employers and religious groups who campaigned against it. The term 'weekend' itself first appeared in the British magazine *Notes and Queries* in 1879, signaling a nascent shift in how leisure time was conceptualized."
+      },
+      {
+        "heading": "American Innovation and Industrial Influence",
+        "content": "A significant step towards the modern two-day weekend occurred in the United States in 1908, when a New England cotton mill instituted the first five-day workweek. This was primarily to accommodate Jewish employees who observed the Sabbath from sundown Friday to sundown Saturday, ensuring they wouldn't have to work on their holy day. The idea gained further traction when industrialist Henry Ford famously began shutting down his automotive factories for all of Saturday and Sunday in 1926. Ford's motivation wasn't purely altruistic; he realized that more leisure time encouraged workers to engage in activities like vacations and shopping, thereby stimulating the economy and creating demand for products like his cars."
+      },
+      {
+        "heading": "Labor Movements and Legislative Landmarks",
+        "content": "Alongside progressive employers, labor unions played a crucial role in formalizing the five-day workweek. In 1929, the Amalgamated Clothing Workers of America became the first union to successfully demand and achieve a five-day workweek. The concept gradually spread across American industries. The ultimate nationwide adoption of the two-day weekend was cemented in 1940, when a provision of the 1938 Fair Labor Standards Act, mandating a maximum 40-hour workweek, officially went into effect. This legislative action made the two-day weekend a guaranteed right for many workers, a practice that subsequently spread globally and became a cornerstone of modern work culture."
+      }
+    ],
+    "funFacts": [
+      "The informal 'Saint Monday' in 19th-century Britain often meant workers took Mondays off to recover from weekend excesses, though it was unofficial and often led to criticism.",
+      "Henry Ford's decision to implement the five-day workweek was partly a shrewd business strategy, as he believed that more free time would lead to increased consumer spending, including on cars.",
+      "The word 'weekend' was first recorded in a British magazine in 1879, indicating a shift in social customs around leisure."
+    ],
+    "imageKeywords": [
+      "19th century British factory worker",
+      "Henry Ford factory assembly line",
+      "1930s labor union protest",
+      "Family enjoying vintage weekend picnic"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOXuTYEj60FYIpG6Sx6aYb7lrg_SQbnc4giWcvM7u0m62--9p5g4BWUJ9kFpunPx-xTIb26j-b2sQ4XTYOkKRVCdCzALHJYcQprdEeK3-DNDfOgWUNYEP-4zcem-ezMti-Fbw7caHhqhCYoftO",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy3nzxDI2xvGf8t7d5V73X3NsMlOXjKVb1iu7gpfLdiSnCR3cPx1ypIn8UNCyNAnnZNXv00Fk_qRGhU9OYuZoupoKZe079K0k1bKpOIcF3_39I12ujQyGLIcr8BhmzoSWgwA-U6Z1lafE59s1ds6fBloa3GJSSWBIZ9JUpySFstxfLKqRiQX_dRGSm50v7qLJgvw==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOSQWod_J27LL4GFD0Lk6QeXTkpPV13fG13qVdWxw_t5Yz1_5LEDborNPWAbO23ZNZqQHriSRncU-qv7N7uFqBDvUHUXNMZ8vl3thvryWh19KSoFNT-cbBFu-AnE_W1AXlfAcV3ND8jt8mKkZI_hAU50wi0-av5hfMzJaZ7-DTR8J1Q7la2Gl45Ri9E3DM6JGp0lnQo_ji7NY=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8I6MyA7InKczPvJ6P4YaAL_EKiaBCL__LZ_7-Q7qP2cYgcj8S8ASdCaWUDgQiCe8AvsCoTrOsNYkflSO0YiDpRk3FFzLeqhgTbuGIcLUYmFH1-4mHwvggzGnnXjiaRADU35ilDSiDJfon7kJs7EdwYVE3f3UdHSVDJLS168GqCKolwAN9VxY-lCcevGFtU7hTJjocqna6G646",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJqt_9-JAVdvvrvlYThVAs_2uCmx9u0iHXTlfE1yc04r8zH_nB8iipn8c1zyk8idbgd1zmkGIA-L7URtBBHf9AEq9iuCnGz0V4bF1pvEx3mIIZf1ReM_OaA1zTE44qPSI3ebU9DCm5cRSet1ec8XFX-L1S9vSmzIA_ouHV5Gq7BIhX"
+    ],
+    "aiSource": "Gemini",
+    "id": "1784099278830-the-two-day-weekend",
+    "slug": "unpacking-your-leisure-the-surprising-history-of-the-two-day",
+    "date": "2026-07-15T07:07:58.830Z",
+    "joke": {
+      "joke": "My wife and I were happy for twenty years. Then we met.",
+      "setup": "My wife and I were happy for twenty years.",
+      "punchline": "Then we met.",
+      "comedian": "Rodney Dangerfield",
+      "year": "1970s",
+      "context": "This joke is a quintessential example of Rodney Dangerfield's self-deprecating humor and his iconic 'I get no respect' persona. It cleverly subverts the listener's expectation, delivering a sharp and surprising punchline that perfectly encapsulates his marital woes and the overall theme of his act."
+    },
+    "images": [
+      "https://picsum.photos/seed/1784099278830-the-two-day-weekend/800/500"
+    ]
+  },
+  {
     "topic": "The Disposable Paper Cup",
     "title": "More Than Just a Cup: The Surprising Public Health Origin of the Disposable Paper Cup",
     "category": "Food & Drink",
