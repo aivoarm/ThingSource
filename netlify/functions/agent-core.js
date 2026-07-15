@@ -395,8 +395,7 @@ Return ONLY raw JSON, no markdown:
 
   // Only delegate email dispatch if in production environment and context
   const isProduction = process.env.CONTEXT === "production" || 
-                       (process.env.NETLIFY === "true" && 
-                        (process.env.URL === "https://thingsource.netlify.app" || process.env.URL === "https://ts.armanayva.com"));
+                       (!!process.env.AWS_LAMBDA_FUNCTION_NAME && process.env.NETLIFY_DEV !== "true");
 
   if (isProduction) {
     // Fire and forget send-emails call — do not await this
