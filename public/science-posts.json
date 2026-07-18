@@ -1,5 +1,78 @@
 [
   {
+    "title": "Woah! A Camera That Sees INVISIBLE Things in 3D!",
+    "summary": "Imagine if you could see tiny, invisible particles zipping all around you, like secret superheroes! Scientists just built an amazing new camera that can do exactly that, showing us their every move in awesome 3D!",
+    "sections": [
+      {
+        "heading": "X-Ray Vision for Tiny, Invisible Ninjas!",
+        "content": "Have you ever wished you had X-ray vision to see through walls or find hidden treasures? Well, scientists just got pretty close! They’ve invented a super cool new camera that can actually \"see\" invisible, super-tiny particles zipping around, not just in a flat picture, but in full 3D, like watching a tiny fly buzz around your head!"
+      },
+      {
+        "heading": "How Does This Magic Camera Work?",
+        "content": "Instead of millions of tiny parts, this new camera, called PLATON (it's a fancy name, huh?), uses one special block of material that glows super faintly when an invisible particle whizzes through it. Then, a super-smart camera and special light-catchers, helped by a clever computer brain (that's AI!), figure out exactly where that particle went, creating a detailed 3D map of its path!"
+      },
+      {
+        "heading": "Why is This SO Awesome for Us?",
+        "content": "This invention is like upgrading from a regular old flashlight to a super-powerful spotlight for tiny things! It means we can track these invisible particles much better and more easily than ever before. And guess what? It could even help doctors take clearer pictures inside your body, like super-sharp PET scans, to help people stay healthy!"
+      }
+    ],
+    "funFacts": [
+      "The invisible particles this camera tracks are often smaller than the tiniest speck of dust you can imagine – way smaller than an atom!",
+      "A PET scan is like a special camera that sees how your body's cells are *working*, not just what they look like, and this new tech could make those pictures super clear!",
+      "Imagine a tiny ninja running through a dark room. This camera isn't just taking a flash photo; it's drawing a detailed map of *every step* the ninja took!"
+    ],
+    "originalTitle": "Scientists built a camera that can track invisible particles in 3D",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260716023610.htm",
+    "id": "1784359837958-jbk0m",
+    "date": "2026-07-18T07:30:37.958Z"
+  },
+  {
+    "title": "Sweet Super-Soldiers Sneak Past Brain Bad Guys!",
+    "summary": "Imagine tiny, sugary secret agents delivering a special message right into your brain to fight off sneaky bad cells! Scientists just found a super clever way to help beat a really tough brain cancer.",
+    "sections": [
+      {
+        "heading": "The Brain's Super Shield & Sweet Solutions!",
+        "content": "Our amazing brains have a super-duper secret shield, like a castle wall, called the blood-brain barrier. It's fantastic at keeping bad things out, but it also makes it super tricky for medicines to get in and fight nasty brain invaders! But guess what? Scientists had a brilliant idea: they disguised tiny medicine packages (called nanoparticles) with a yummy sugar coating, like a secret password, to sneak right past this shield!"
+      },
+      {
+        "heading": "Tiny Heroes, Big Results!",
+        "content": "These clever sugar-coated packages act like tiny delivery trucks, carrying special 'fix-it' instructions directly to the bad brain cells. These instructions tell the cells to make a special protein to fight back and stop them from growing. This amazing trick worked wonders in mice with brain cancer – they lived 50% longer, and their nasty tumors actually started to shrink, giving us huge hope for helping people too!"
+      }
+    ],
+    "funFacts": [
+      "Your brain feels no pain! Even if a surgeon were to touch your brain, you wouldn't feel a thing (you'd still be awake though!).",
+      "Even though your brain is only about 2% of your body weight, it uses about 20% of your body's energy and oxygen!",
+      "If you stretched out all the blood vessels in your brain, they would be about 400 miles long – that's like driving from New York City to Pittsburgh!"
+    ],
+    "originalTitle": "This sugar-coated therapy boosted survival against deadly brain cancer by 50% in mice",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260715083542.htm",
+    "id": "1784359849487-ehzvk",
+    "date": "2026-07-18T07:30:49.487Z"
+  },
+  {
+    "title": "A Star Had a Snack Attack... And Gobbled a Planet!",
+    "summary": "Imagine a giant cosmic oven gobbling up one of its own cookies! Scientists just found a faraway star that probably munched on an entire planet, leaving behind a weird clue that tells us its secret.",
+    "sections": [
+      {
+        "heading": "A Starry Supper Surprise!",
+        "content": "Way out in space, there's a star kind of like our Sun, but it just did something super wild! Scientists think it had a giant, fiery snack attack and actually swallowed one of the planets orbiting around it. It's like finding crumbs around a cookie monster's mouth – a huge clue in space!"
+      },
+      {
+        "heading": "The Secret Ingredient: Cosmic Lithium!",
+        "content": "How do they know the star ate a planet? Well, stars usually don't have much of a special ingredient called lithium. But this star has a *ton* of it, like finding extra sprinkles on a cupcake! This extra lithium is a secret \"fingerprint\" left behind by the vanished planet. They even think a \"chubby star cousin\" called a brown dwarf might have accidentally nudged the planet right into its star's fiery jaws!"
+      }
+    ],
+    "funFacts": [
+      "Our Sun is so big, you could fit over a million Earths inside it!",
+      "Not all planets orbit stars nicely; sometimes gravity can pull them into wild paths, or even send them flying out into space forever!",
+      "Don't worry, our Sun is not planning to eat Earth anytime soon – we're in a super safe orbit!"
+    ],
+    "originalTitle": "Sun-like star caught after eating one of its own planets",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260715083538.htm",
+    "id": "1784359857214-portu",
+    "date": "2026-07-18T07:30:57.214Z"
+  },
+  {
     "title": "Shine a Light, Change a Magnet! New Super-Thin Materials Are Here!",
     "summary": "Imagine if you could control magnets just by shining a flashlight on them! Scientists just found out how to do something like that with super-duper thin materials, and it's like having a magic remote control for the future!",
     "sections": [
