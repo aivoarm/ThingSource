@@ -1,5 +1,58 @@
 [
   {
+    "topic": "The @ Symbol",
+    "title": "From Medieval Scribes to Email: The Unsung Journey of the @ Symbol",
+    "category": "Language",
+    "summary": "The ubiquitous '@' symbol, a cornerstone of modern digital communication, boasts a surprisingly ancient and varied history, stretching back centuries before the advent of email.",
+    "sections": [
+      {
+        "heading": "An Ancient Enigma: Tracing the Early Roots",
+        "content": "While its precise origin remains debated among historians, evidence suggests the '@' symbol emerged from scribal practices in medieval times. One theory posits that monks, seeking abbreviations to conserve ink and parchment, created the symbol as a ligature of the Latin word 'ad,' meaning 'to' or 'at.' Another theory points to its potential derivation from the French word 'à.' The earliest documented appearance of a symbol resembling '@' is found in a 1345 Bulgarian translation of a Greek chronicle, where it was used in place of a capital 'A' in the word 'Amen.'"
+      },
+      {
+        "heading": "A Commercial Workhorse: The Age of Merchants",
+        "content": "The '@' symbol gained more widespread, and clearer, usage in commercial contexts. Its first prominent commercial appearance dates to 1536, in a letter from Florentine merchant Francesco Lapi, where it denoted a unit of wine called 'amphorae.' In Spanish and Portuguese-speaking regions, the symbol became an abbreviation for 'arroba,' a traditional unit of weight or volume derived from Arabic, meaning 'a quarter.' For centuries, it served as a practical shorthand in accounting and invoicing, signifying 'at the rate of'—as in '12 widgets @ $1.'"
+      },
+      {
+        "heading": "Ray Tomlinson's Stroke of Genius: The Birth of Email",
+        "content": "Despite its long history, the '@' symbol was relatively obscure until 1971, when computer engineer Ray Tomlinson revolutionized communication. Working on ARPANET, the precursor to the internet, Tomlinson needed a unique character to separate a user's name from their machine's address in electronic messages. He chose the '@' symbol because it was already present on standard keyboards but was rarely used in programming or names, thus avoiding confusion. This pivotal decision cemented the '@' symbol's role as the definitive separator in email addresses, transforming it into a global icon of the digital age."
+      }
+    ],
+    "funFacts": [
+      "Before its digital fame, the '@' symbol was often called the 'commercial a' due to its prevalent use in business transactions.",
+      "In 2010, the Museum of Modern Art (MoMA) in New York City added the '@' symbol to its permanent collection, recognizing its design significance in the information age.",
+      "Many languages have their own unique names for the '@' symbol, often based on its appearance; for instance, Italians call it 'chiocciola' (snail), and in some Eastern European countries, it's referred to as a 'little duck' or 'monkey tail.'"
+    ],
+    "imageKeywords": [
+      "at symbol history",
+      "Ray Tomlinson email",
+      "medieval scribe writing @",
+      "commercial at symbol"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhbCGvTEc68bT5urI-82QXaKx-JFgBvJrCbnezzo69xwDsCXEQ_tSsNHhjjgnXTjsMqUZVRfjDcq_Mfn8-EX1R7TESHoGttIQNln2NgZQcS-hK_RW_vjpA7CQSyyJouFb4H54=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuFVbdjdRGmkw56DMvIN_zR_PtTBvgaokFPQaiUX3_zikwBRmAHiF6lTUKf3A0LuyanddqJNekiy3DQmql53gm5nl4MpvEg7oMM1Br3YPLmXh49E-Dfj6jqIPXlrmKGjvH0tgnMJYXoh5PbyJbc0plw_vngs-agYchVXdIGGpv92v-xbJxaB6plW6-a_t3f3L9q8Xcw1EC",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqCPxEC5cpHuZyjAuzzxkPVHilNViIou_1TqNgayGBelV2CbaS-E8OJfNd7h5mHnGl4C6dTFF0AYr0LN8jFNoRzVjcAxzC_iHXjrx81N2y_AjKsMrbA8oLIEmB4Oq6Gc6a2WwX4D0ADNMMKo05fYGOwFpVeeAiU_cSxVneZGRHPnpScgNa_GJgi5I8d9gvDMaz1SZjAB5bSPw8BqYhCEZKZlAmUlP-56iNu5fFaS5By5cRmi0=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ap1_kW9KHg5PDce8uCTON02iERwvuPlbnDF0vXwpUrcmpRZ7pn1wLK56aRRqDvozIGKLjtrVOmhQeSpGqRT6NFtl8ykRgrqXWtBjFOUludxUHoIa_oM8fbbUt0miSgQ7L2bdAhfIDItruZErXLuZQG9Ha7LNMrnK7bQl",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH6jZbK6tGQkoJudRSPuI-Ly3Xl3pIpn1T15kOCyTpJZlrTQESoCwgCDtq5eLPZMCXr6zSNN1skg5zVjeiI1VHVmmTRBLExXPnj2qH_HEnHpz5ATYtvhL66ha3pohF"
+    ],
+    "aiSource": "Gemini",
+    "id": "1784445142691-the-symbol",
+    "slug": "from-medieval-scribes-to-email-the-unsung-journey-of-the-sym",
+    "date": "2026-07-19T07:12:22.691Z",
+    "joke": {
+      "joke": "A man walks into a bar with a piece of tarmac under his arm and says, \"A pint please, and one for the road.\"",
+      "setup": "A man walks into a bar with a piece of tarmac under his arm and says,",
+      "punchline": "\"A pint please, and one for the road.\"",
+      "comedian": "Traditional",
+      "year": "Mid-20th Century",
+      "context": "This joke is considered iconic due to its brilliant and unexpected literal interpretation of the common idiom \"one for the road\", creating a simple yet universally amusing pun. It's a clean, clever example of wordplay that consistently elicits smiles or laughter by subverting audience expectations."
+    },
+    "images": [
+      "https://picsum.photos/seed/1784445142691-the-symbol/800/500"
+    ]
+  },
+  {
     "topic": "The Eraser",
     "title": "From Breadcrumbs to Rubber: The Surprising Evolution of the Humble Eraser",
     "category": "Inventions",
