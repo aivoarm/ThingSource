@@ -1,5 +1,69 @@
 [
   {
+    "topic": "The Piggy Bank",
+    "title": "The Curious Case of the Piggy Bank: Unearthing its True Origins",
+    "category": "Culture",
+    "summary": "That cheerful ceramic pig on your shelf has a surprisingly complex and debated history, one that stretches back centuries and spans continents, challenging popular myths about its very name.",
+    "sections": [
+      {
+        "heading": "The Persistent 'Pygg' Myth",
+        "content": "For years, a popular anecdote claimed that the term 'piggy bank' originated in medieval England from an orange-colored clay called 'pygg,' supposedly used to make household pots for saving money. The story goes that over time, as language evolved, 'pygg banks' became 'pig banks,' leading potters to shape them like the animal. While widely circulated, particularly after a 1989 book popularized it, this charming tale lacks historical evidence and is largely considered a folk etymology or misconception."
+      },
+      {
+        "heading": "Ancient Roots of Money Boxes",
+        "content": "The concept of a dedicated container for saving money is far older than the pig-shaped vessel itself. Archaeological findings show that money boxes existed in ancient civilizations, with one of the oldest Western examples being a miniature Greek temple-shaped money box from the 2nd century BC, found in Priene, Asia Minor. Similar receptacles, often made of various earthenware, were also used by Romans and throughout medieval Europe to store coins at home before the advent of modern banking institutions."
+      },
+      {
+        "heading": "The Eastern Pig's Early Appearance",
+        "content": "The actual origin of pig-shaped money containers dates back to the 12th century on the island of Java, in what is now Indonesia. These ancient earthenware vessels, known as 'cèlèngan,' were shaped like wild boars. The Javanese term 'cèlèngan' literally translates to 'likeness of a wild boar' but also serves as a general term for savings or a money-saving vessel, reflecting a long-standing association of pigs with wealth, power, fertility, and generosity in that culture."
+      },
+      {
+        "heading": "Pigs Go West: Symbolism and Spread",
+        "content": "While the Eastern tradition of pig-shaped banks is ancient, the pig's association with good fortune also took root in the West. In Germany, pigs have long been symbols of luck and prosperity, leading to the custom of gifting 'Glücksschwein' (lucky pigs). The oldest known German piggy bank dates to the 13th century. By the 18th and 19th centuries, English potters began crafting money banks in the shape of pigs, possibly influenced by European traditions or as a playful, evolving interpretation of the word 'pig' in relation to money containers."
+      },
+      {
+        "heading": "Breaking the Bank: An Early Saving Strategy",
+        "content": "Historically, many early money boxes, including pig-shaped ones, were designed without an opening for coin retrieval. This meant that to access the saved funds, the container had to be physically broken, a practice that enforced disciplined saving and symbolized the culmination of a saving cycle. This 'breaking the bank' tradition served as a practical deterrent against impulsive spending, encouraging people to save until a significant amount was accumulated."
+      }
+    ],
+    "funFacts": [
+      "The word 'piggy bank' didn't appear in the Oxford English Dictionary until 1913, with 'pig bank' slightly earlier in 1902.",
+      "The earliest known pig-shaped money boxes were discovered in 12th-century Java, where they were called 'cèlèngan,' meaning 'likeness of a wild boar.'",
+      "In Germany, pigs are considered symbols of good fortune, often referred to as 'Glücksschwein' (lucky pigs).",
+      "Ancient Greek money boxes from the 2nd century BC were often shaped like miniature temples.",
+      "Many early piggy banks were designed to be smashed open, encouraging long-term saving."
+    ],
+    "imageKeywords": [
+      "Ancient Greek money box temple",
+      "Javanese celengan terracotta",
+      "Medieval earthenware money jar",
+      "German Glücksschwein figurine",
+      "Classic ceramic pink piggy bank"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU_3Nm7McBRXzA36Dal6dmYe1yxsAANi3nq8T8tracZnOZc8cP8UYLjJdnV19zXK-prRzUFRnF7CYO4oqOBrBVPGuZuIgVSd6LnSSpw6rz1jONd5utC_tYuoqNH6eZ_IgS6f2LU9RRCEc-8qaXLQKyINGsqajWzVpm",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-nYxPM5I_BgBGE4Uq777D8A9DddHW4hc65ITpRYrXysFA4bqFFI2Y9rDC-vNXOgWrnx6SxH4cfWJqZReDapaR1CdOXx0CP7qRiGrJeyyVQzLOgP3sHeDhVp5d6XO5jaDkKyY=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPnsZCEXHb2iNTVMi3ySvRbBc95HfJPafPUzqtC2-em3KBVico0uveaGFKDUfc9WFwatt1X34kipgMJY9DQ_69fP5jOwMCuIwcSITMqJ94bGlwzQ6nBocolzqPx_O52EOHxLMLBUovLElekykCvvS2LD9R6mw7aPBuwkMV_KhNpJ4gRg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNOiw6RTzNohUHiAP07KknvEBhb3XshV7Oyp0WKnGMkPBIk9vQI-evZ3UHE9SoQZgQ4IByGaBKnv5zf90DN0bX7b0mKtEzAr2CCS6d5GeCKCUDnoQ88QTQdUQ_83KK2fDX9iRAhifoiPu9DQMfPoCO7rZKCjENioY-wvqbzi1cA9WwjV3bxFaE5KXsUyY=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHZNt63K9_iBJSqGsZoO-hZjcEpfVWzjq33BrizhG2hiSAYBSx-2_8m7svodGPjQ6K3X5b0uAiu6cHL_HpoG43QjlfoYLxayQX_0r2QdvD0ij2sAvNuvCcRb1hz8BGdimDe4C-TQ-y_5OnTW3_AP2gMTSgDIaXCgA="
+    ],
+    "aiSource": "Gemini",
+    "id": "1784617939553-the-piggy-bank",
+    "slug": "the-curious-case-of-the-piggy-bank-unearthing-its-true-origi",
+    "date": "2026-07-21T07:12:19.554Z",
+    "joke": {
+      "joke": "One morning I shot an elephant in my pajamas. How he got in my pajamas, I'll never know.",
+      "setup": "One morning I shot an elephant in my pajamas.",
+      "punchline": "How he got in my pajamas, I'll never know.",
+      "comedian": "Groucho Marx",
+      "year": "1930",
+      "context": "This joke, delivered by Groucho Marx in the 1930 film \"Animal Crackers,\" is a classic example of grammatical misdirection and a favorite among linguists and comedy enthusiasts alike. Its brilliance lies in the clever way it subverts audience expectations, forcing a humorous reinterpretation of the initial statement and creating a vivid, absurd image."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e2/Sparschwein_Haspa02.jpg"
+    ]
+  },
+  {
     "topic": "The Pretzel",
     "title": "Twisted Beginnings: The Surprising Monastic Origins of the Pretzel",
     "category": "Food & Drink",
