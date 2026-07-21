@@ -1,5 +1,64 @@
 [
   {
+    "title": "Dino Superheroes: The Stand-Up Giants!",
+    "summary": "Get ready to imagine dinosaurs as tall as buildings, not just walking, but *standing* on their back legs! Scientists just found out some super-sized sauropods had a hidden superpower!",
+    "sections": [
+      {
+        "heading": "Meet the Standing Sauropods!",
+        "content": "Imagine a dinosaur as big as an elephant, but with a super-long neck! Scientists found out that two types of these giant plant-eaters from South America were secretly amazing at standing up on their two back legs, just like you might stand on your tiptoes!"
+      },
+      {
+        "heading": "Built for Balance (and Power!)",
+        "content": "How did they do it? Scientists used cool computer models, like a super-smart video game, to look at their bones. They discovered that these dinosaurs had incredibly strong thigh bones, especially when they were younger, which let them handle their huge weight when standing tall."
+      },
+      {
+        "heading": "Why Stand Up Like That?",
+        "content": "Why would a dino stand on its tiptoes? Maybe to munch on the freshest, highest leaves no one else could reach, like grabbing a snack from the top shelf! Or perhaps to look extra HUGE and scary to tell predators \"Stay away!\" It could even be a way to show off to other dinosaurs, like saying, \"Check out how tall I am!\""
+      }
+    ],
+    "funFacts": [
+      "Sauropods were the longest and heaviest animals that ever lived on land! Some weighed as much as 10 elephants!",
+      "Some sauropods had necks so long, they were even longer than a school bus!",
+      "Imagine if *you* had to stand on your tiptoes while holding an elephant! That's how much weight these young dinosaurs might have been supporting!"
+    ],
+    "originalTitle": "Some dinosaurs could rise like giants until they grew too big",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260719231758.htm",
+    "id": "1784619307070-xxv74",
+    "date": "2026-07-21T07:35:07.070Z"
+  },
+  {
+    "title": "Your Laptop Just Pulled Off a Quantum Magic Trick!",
+    "summary": "Imagine your everyday laptop solving a puzzle so huge and tricky, scientists thought only a super-futuristic quantum computer could ever figure it out! Guess what? It totally did!",
+    "sections": [
+      {
+        "heading": "Supercomputers vs. Your Everyday Pal!",
+        "content": "For a long time, scientists thought only super-special \"quantum computers\" could solve certain tricky puzzles. These super-geniuses use tiny, weird bits called \"qubits\" that can be like magic, being \"on\" and \"off\" all at once! Regular computers, like the one you might use for homework, are smart but usually just handle things being clearly \"on\" or \"off.\""
+      },
+      {
+        "heading": "The Puzzle So Big It Was \"Impossible\"!",
+        "content": "The problem they faced was like trying to map every single tiny detail of hundreds of super-connected \"qubits\" all at once – it's called a \"wave function.\" This map was so unbelievably huge, no regular computer had enough memory to even hold it! It was like trying to fit an entire ocean into a single teacup!"
+      },
+      {
+        "heading": "The Secret Shortcut: Smart Squishing!",
+        "content": "But then, some brilliant scientists came up with a clever trick using something called \"tensor networks.\" Imagine you have a super-complicated, giant map, and these networks helped them draw a much simpler version, showing only the most important paths. This \"compressed\" (or squished down) the huge puzzle information so much that a regular laptop could suddenly understand and work with it!"
+      },
+      {
+        "heading": "Laptop Wins and What's Next!",
+        "content": "And the coolest part? The laptop got the *exact same answers* that the fancy quantum computers and super-smart theories predicted! This amazing shortcut means we can now explore the wild and wacky world of quantum physics and discover new materials using our everyday computers, opening up all sorts of exciting possibilities for the future."
+      }
+    ],
+    "funFacts": [
+      "Quantum computers need to be super, SUPER cold to work – colder than outer space!",
+      "A 'qubit' isn't just a 0 or a 1; it can be BOTH at the same time, thanks to a quantum superpower called 'superposition'!",
+      "If you could build a quantum computer big enough, it could potentially solve problems that would take a regular computer billions of years!",
+      "'Entanglement' is like two qubits being so connected that if you know what one is doing, you instantly know what the other is doing, even if they're far apart!"
+    ],
+    "originalTitle": "An ordinary laptop solved a problem thought to require a quantum computer",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260719040000.htm",
+    "id": "1784619317568-habfp",
+    "date": "2026-07-21T07:35:17.568Z"
+  },
+  {
     "title": "Is Your Ear Playing Tricks? The Mystery Hum Explained!",
     "summary": "Imagine hearing a strange, low hum that no one else can! For years, this has been a total mystery, but scientists might have finally cracked the code of this secret sound.",
     "sections": [
