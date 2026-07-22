@@ -1,5 +1,63 @@
 [
   {
+    "topic": "The Doughnut Hole",
+    "title": "The Hole Truth: Who Really Invented the Doughnut's Iconic Center?",
+    "category": "Food & Drink",
+    "summary": "Dive into the surprising origins of the beloved doughnut hole, a culinary innovation that revolutionized fried dough and solved a sticky problem for sailors at sea.",
+    "sections": [
+      {
+        "heading": "Before the Hole: The Olykoek Era",
+        "content": "Before the familiar ring-shaped doughnut graced bakery shelves, its ancestors were often dense, fried dough balls known as 'olykoeks' or 'oil cakes'. These treats were brought to America by Dutch settlers and were typically solid, sometimes with fruits or nuts in their undercooked centers. The challenge with these early versions was ensuring they cooked evenly all the way through, often leaving a raw, doughy core that was unappetizingly greasy."
+      },
+      {
+        "heading": "A Sailor's Frustration: The Birth of a Solution",
+        "content": "The credit for the doughnut's iconic hole is widely attributed to Hanson Gregory, an American sailor from Rockport, Maine. Around 1847, as a 16-year-old crew member, Gregory grew tired of the unappetizing, uncooked middles of the doughnuts his mother, Elizabeth Gregory, packed for his voyages. His mother's doughnuts were known for their rich flavor, infused with spices like cinnamon, nutmeg, and lemon rind, and sometimes included nuts in the doughy center."
+      },
+      {
+        "heading": "The Pepper Tin or The Ship's Wheel? Debunking the Myths",
+        "content": "Several colorful stories surround Gregory's ingenious solution. A popular legend recounts him impaling a greasy doughnut on a spoke of his ship's steering wheel during a storm to keep his hands free, thus inadvertently creating the hole. However, Gregory himself offered a more prosaic, yet still impactful, account in a 1916 interview with The Washington Post, stating he simply used the lid of a tin pepper box to punch out the raw center of the dough. This practical method allowed the doughnuts to cook thoroughly and consistently."
+      },
+      {
+        "heading": "The Impact and Legacy of the Hole",
+        "content": "Regardless of the exact method, Gregory's innovation was a game-changer. By removing the center, the doughnuts could fry evenly, resulting in a less greasy, lighter, and more consistently cooked treat. This simple alteration quickly caught on, transforming the humble olykoek into the ring-shaped doughnut we recognize today. Decades later, major chains like Dunkin' popularized 'Munchkins' (doughnut holes) in 1973, though these are now often produced separately rather than as byproducts of ring doughnut production."
+      }
+    ],
+    "funFacts": [
+      "Before the hole, doughnut-like treats were often stuffed with nuts in the center to help them cook, which is one theory for the 'nut' in 'doughnut'.",
+      "Captain Gregory never patented his invention, famously stating he didn't think 'Peary could patent the north pole, or Columbus patent America'.",
+      "A commemorative plaque in Rockport, Maine, honors Hanson Gregory as the 'godfather of the hole in the doughnut'."
+    ],
+    "imageKeywords": [
+      "Hanson Gregory portrait",
+      "1800s sailing ship",
+      "historical doughnuts without holes",
+      "doughnut pepper tin",
+      "doughnut hole creation"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9oymtYKHuiiMOvLqN4mQPoANLpkFGih522YuDSS_xQieTE9PESOXoflvj9tK36W2grYbhoQ_3sjZCwmGGTqOi1XlPwHeqS_LsRC0TySVHvx1AldmQveelhm_ioYzcTO3HMiYRwdpo6xb-O1PzS6qwUVDTkm9vihFKJ5EzSz-4rWGAKIirKUEaR9X2TWU0Gp7ZTugobhQM-218BjtWfrj5YfaG",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT3qBY4Fraqdxumadg0279WNRitghR_WYp1zS8WNGX3QzoBBTlD5m3gShI3N7jJV5kwpOftEcvTmAmnkms3gBjDD1mSRyHLi-p-iFE6vRL8AXPtAlzBroj96vwulc15MrKtINJrCaw9a76mse8zSwm8Qn0aR2Th1Q=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjV3U9pQYFu7oyTJg7F_cSZGaj3mnsND1On77e_E7IgSsTWQ1utRId1-sS0z4J74J3MuEmGC8sooXP2ewCwXGidQsHGHs8m04QBfLNwAqRobY_vP4kfSvbcALxe1sGFI65zg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqvSelm7eQij_Xb6-z4Ny8HcTJBl34VmyAgGH2d5VQf-QYhYc4nqWf_I1CbimC6Hgsoe71pXCWDeWcoq_0E5BvDnwE0dCxx8oESCzGuhVfze3SCGBQsy6-OtsdphPVXfkyT_U0qLKIwoK7QYobEP2nXXJKBaSQhkspjbrtuzn-yvrT7l_BaW7K0hu7isu61Fe-h2E=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEdMfzKihVF7U2M9P4iv8ugOHMLG5VdxYjVGauIQTASOdbEH1I-las5U_QYKq9Iy8lVu4ObnM4o8PcDcrfAUFvXPf0N43Wbv_Ebxa2lkmGVm4cURxL6GOMqlEW2Gm8dVgPU2e8S6cw37AkuF9HfjcMiDQ5SPdWDg8="
+    ],
+    "aiSource": "Gemini",
+    "id": "1784704102933-the-doughnut-hole",
+    "slug": "the-hole-truth-who-really-invented-the-doughnut-s-iconic-cen",
+    "date": "2026-07-22T07:08:22.933Z",
+    "joke": {
+      "joke": "I just got back from a pleasure trip. I took my mother-in-law to the airport.",
+      "setup": "I just got back from a pleasure trip.",
+      "punchline": "I took my mother-in-law to the airport.",
+      "comedian": "Henny Youngman",
+      "year": "Mid-20th Century",
+      "context": "This joke is a quintessential example of Henny Youngman's iconic one-liner style, where the humor derives from a sharp, unexpected twist. It's widely considered one of his most famous gags, showcasing his ability to deliver a quick, relatable punchline that elicits a laugh through implied relief and marital humor."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/Glazed-Donut.jpg"
+    ]
+  },
+  {
     "topic": "The Piggy Bank",
     "title": "The Curious Case of the Piggy Bank: Unearthing its True Origins",
     "category": "Culture",
