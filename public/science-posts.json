@@ -1,5 +1,86 @@
 [
   {
+    "title": "The Invisible 'Energy Shuttle' That Powers Up Tiny Lights!",
+    "summary": "Hey explorers! Imagine discovering a secret, super-fast helper that makes energy zoom around inside tiny light-up particles! Scientists just found this amazing trick, and it could change how we make solar power and cool tech!",
+    "sections": [
+      {
+        "heading": "Meet the Tiny Energy Zippers!",
+        "content": "Deep down in the super-tiny world, scientists found a new way to move energy around really, really fast! It's like finding a secret highway for energy that was always there, but no one knew how to use it. This energy travels between super-small, glowing particles called 'quantum dots' and other tiny bits of stuff called molecules."
+      },
+      {
+        "heading": "The Proton's Secret Move!",
+        "content": "Picture a tiny, invisible particle called a 'proton' – it's like a super-speedy messenger! This little proton quickly zips into place, helps guide a special energy package from one tiny 'light-up sprinkle' (our quantum dot!) to another, and then zips right back to where it started. It's a fantastic energy 'shuttle service' powered by quantum magic!"
+      },
+      {
+        "heading": "Powering Up Our Future!",
+        "content": "Why is this so cool? Well, by understanding this tiny proton's trick, we could make our solar panels way better at catching sunlight, create super powerful lasers, and even help make new kinds of medicine or materials more efficiently! It's like finding a cheat code to make futuristic gadgets work even better and faster!"
+      }
+    ],
+    "funFacts": [
+      "Quantum dots are so small, you could fit a million of them on the head of a pin! They're like tiny glowing LEGO bricks for science.",
+      "The word 'quantum' comes from a Latin word meaning 'how much' or 'amount,' because at this tiny level, energy and matter come in specific, small packets!",
+      "Protons are one of the three main particles that make up every atom in the universe – along with neutrons and electrons! They're like the positively charged 'brain' of the atom."
+    ],
+    "originalTitle": "A strange quantum effect dramatically boosts energy transfer",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260722032130.htm",
+    "id": "1784791969258-ht4n7",
+    "date": "2026-07-23T07:32:49.258Z"
+  },
+  {
+    "title": "Giving Our Superhero Medicine Its Powers Back to Fight Sneaky Superbugs!",
+    "summary": "Imagine your favorite superhero losing their powers – scary, right? Well, scientists just found a way to power up one of our most important germ-fighting medicines, so it can defeat even the trickiest superbugs!",
+    "sections": [
+      {
+        "heading": "Uh Oh, Superbugs Were Winning!",
+        "content": "Sometimes, really nasty germs (we call them bacteria) learn secret tricks to ignore our powerful medicines, like an invisible shield! These super-smart germs are called 'superbugs,' and they made one of our best medicines, called vancomycin, stop working."
+      },
+      {
+        "heading": "Meet the Medicine's New Sidekick!",
+        "content": "Instead of inventing a brand-new medicine, scientists had a brilliant idea! They found a tiny helper molecule, let's call it 'pghi-4,' to team up with the old medicine. Think of it like giving our superhero medicine a super-smart sidekick!"
+      },
+      {
+        "heading": "How the Dynamic Duo Works Together!",
+        "content": "Superbugs have a sneaky 'secret switch' (an enzyme) that helps them block the medicine. But pghi-4's special job is to flip that switch OFF! With the switch off, vancomycin can easily zap the superbugs again, just like it used to."
+      },
+      {
+        "heading": "Hope for All Our Medicines!",
+        "content": "This is super exciting because it means scientists might be able to use these 'helper molecules' to make lots of other old medicines work again too! It's like finding a master key to unlock all our germ-fighting powers!"
+      }
+    ],
+    "funFacts": [
+      "Did you know there are more bacteria living *inside* you than there are people on Earth? Most of them are actually good for you!",
+      "Antibiotics are like tiny warriors, but they only fight bacteria, not viruses like the flu or common cold.",
+      "Some antibiotics were first discovered by accident, like penicillin, which grew from mold on a forgotten dish!"
+    ],
+    "originalTitle": "Scientists revive a powerful antibiotic that superbugs had defeated",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260722032108.htm",
+    "id": "1784791980187-mng1m",
+    "date": "2026-07-23T07:33:00.187Z"
+  },
+  {
+    "title": "Dino-Age Ferns: Green Plants, Red Hot Trouble!",
+    "summary": "Imagine a world where humble ferns, not volcanoes or meteors, turned a whole continent into a giant fiery oven for ages! Get ready to discover the surprising secret of these ancient plants and their fiery antics!",
+    "sections": [
+      {
+        "heading": "Europe's Ancient Fiery Fields!",
+        "content": "Picture Europe, way, way back – like, over 200 million years ago, before even the famous T-Rex showed up! Instead of cities and towns, there were huge, endless fields of ancient ferns. Scientists think these ferns were super dry and perfect for catching fire, turning massive parts of Europe into a blazing hot inferno, like a giant barbecue party that got totally out of control!"
+      },
+      {
+        "heading": "The Unstoppable Plant Power!",
+        "content": "Here’s the really wild part: these ferns were like plant superheroes when it came to growing back! After a big fire swept through, instead of disappearing, they'd pop up again super fast, creating *fresh* new fuel for the next blaze. It was like the fires had an endless supply of kindling, causing them to keep burning and burning, turning a bad situation into a really, really long, fiery mess!"
+      }
+    ],
+    "funFacts": [
+      "The \"Triassic Period\" mentioned in the article was so long ago that it was even *before* many of the giant dinosaurs you know and love started walking the Earth!",
+      "Some plants today, like certain kinds of pine trees, actually *need* fire to help their seeds open up and grow new trees. Talk about fiery survival!",
+      "When scientists say \"mass extinction,\" it means tons of different plants and animals disappeared all at once, kind of like a super-duper tough challenge for life on Earth!"
+    ],
+    "originalTitle": "Ancient ferns turned Triassic Europe into a wildfire inferno",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260722032105.htm",
+    "id": "1784791989688-yw3mw",
+    "date": "2026-07-23T07:33:09.688Z"
+  },
+  {
     "title": "Ocean Detectives Find Secret Stomach Bugs in Super Shy Whales!",
     "summary": "Imagine finding a secret hidden world inside one of the ocean's most mysterious creatures – that's what scientists just did, discovering brand-new tiny tummy bugs!",
     "sections": [
