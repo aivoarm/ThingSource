@@ -1,5 +1,63 @@
 [
   {
+    "topic": "Leap Year",
+    "title": "The Calendar's Secret: Unearthing the Surprising Origins of the Leap Year",
+    "category": "Science",
+    "summary": "Ever wondered why we periodically add an extra day to February? The leap year isn't just a quirky calendrical anomaly; it's a centuries-long scientific and historical quest to keep our timekeeping in sync with the cosmos.",
+    "sections": [
+      {
+        "heading": "The Cosmic Discrepancy: Why We Need an Extra Day",
+        "content": "At its core, the leap year exists because Earth's orbit around the Sun isn't a neat 365 days. Our planet takes approximately 365.2422 days to complete one revolution, also known as a tropical or astronomical year. This seemingly small difference of about six hours annually would, over time, cause our calendar seasons to drift significantly out of alignment with the actual astronomical events, impacting everything from agricultural cycles to cultural celebrations."
+      },
+      {
+        "heading": "Julius Caesar's Bold Reform: The Julian Calendar",
+        "content": "The first major step towards solving this calendrical conundrum in the Western world was taken by Julius Caesar in 45 BCE. Advised by the Alexandrian astronomer Sosigenes, Caesar introduced the Julian calendar, which established a simple rule: an extra day would be added to February every four years. This gave the Julian year an average length of 365.25 days, a revolutionary improvement for its time."
+      },
+      {
+        "heading": "The Gregorian Correction: Refining Timekeeping",
+        "content": "Despite its advancements, the Julian calendar was still slightly imperfect. Its average year was about 11.25 minutes longer than the actual tropical year, leading to an accumulated error of roughly three days every 400 years. By the 16th century, this discrepancy had pushed the calendar ten days out of sync with the seasons, significantly affecting the accurate calculation of Easter. To rectify this, Pope Gregory XIII introduced the Gregorian calendar in 1582, refining the leap year rule: a year is a leap year if it is divisible by four, except for years divisible by 100 but not by 400."
+      },
+      {
+        "heading": "February's Fortuitous Role and the 'Bissextile' Past",
+        "content": "The reason February became the chosen month for the extra day dates back to the Roman calendar's structure, where it was already the shortest month. Interestingly, when the Julian calendar was first introduced, the 'leap day' wasn't always February 29th as we know it. For a period, it was created by essentially doubling February 24th, a day known as 'bissextile day' in Roman counting, before the modern sequential numbering established February 29th as the official leap day."
+      }
+    ],
+    "funFacts": [
+      "The odds of being born on February 29th, often referred to as a 'leapling' or 'leaper,' are approximately 1 in 1,461.",
+      "The Gregorian calendar's precise leap year rules mean it will only fall out of sync with the seasons by one day every 3,300 years, a remarkable feat of astronomical accuracy.",
+      "Anthony, Texas, proudly holds the title of the 'Leap Year Capital of the World,' hosting a quadrennial festival to celebrate leap babies and the unique day.",
+      "The popular tradition of women proposing marriage on Leap Day is often attributed to a legendary deal between St. Brigid and St. Patrick in 5th-century Ireland, though concrete historical evidence for this origin is scarce."
+    ],
+    "imageKeywords": [
+      "Julius Caesar bust ancient Rome",
+      "Pope Gregory XIII portrait",
+      "Earth orbit sun calendar discrepancy",
+      "February 29 calendar page"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnAF0XGwOWrDpt1armiU_PKU0SP42MIbR1-KYUNlixqpTpTDPTbYXvzA9P-eYumRxA4IJ-zJsV0Ra4DhFeUH1vQ5Knavb1XDLpm0mtXK8hT4VGS0fHXNsmUj0gomvq6bHGGjQcbnKM",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-Ejo8RnyPPxNDcXffM9DYpZNVv3KGsB7CuSQQeeoi2J-4Ufo7ylNO3R9LCc-JNdGEIMLIXTKVglnsCi6-I_KC6jM2tnDoBNP19mKzANf2IGhBC5GjLlJw1speex4GGh9",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWoWHFN357ugTqR-gYwF2f2785urd04-D2kr3zBfdm51oqfGcetRa_9EwzpgEvElEskqjACrswZF7nAJVvSuH5cKpHOi2z_76Ksb-QwWeUz1hIme4MwaWo1NdlakTOc0gp-blpvHlmCX02OmBadlLWGunXE0lzOOZNLZNr0gPuBbdM0TI7lal4um1ihFhvaQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmeFOvNlEQhUVVnj3I-TyBfXEXIpzD8aE5SS5figSEg4W9kyBg7SiQHBflfU_WBHbgi28oRov27TyirB9r73EqnbSfNRAVhd0H85EAttOZ9U90XXQ-hi_qvtiDmCWgSL2q1CgsB6tLdTqYVahYhIdeNrrLjFs_DqEf0X1JI2_CAUmT9mAw3z4t9Dgw",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH375nyrcq_OLAinwcjnxOWrprVI0kFTfSXae3paWlV9omyPFhyMYRU9M9RXJlnufsCrBv0ZtVn_0Fq1ZTLMJO-KItOm2PoHJ2OUc4ZqM4JzaFWTKWftBBlcfGuhvu2LNa8RmlHbEYVQaHg3aJaGsk9xR0cNDc="
+    ],
+    "aiSource": "Gemini",
+    "id": "1784790266488-leap-year",
+    "slug": "the-calendar-s-secret-unearthing-the-surprising-origins-of-t",
+    "date": "2026-07-23T07:04:26.488Z",
+    "joke": {
+      "joke": "I like rice. Rice is great if you're hungry and want to eat 2,000 of something.",
+      "setup": "I like rice.",
+      "punchline": "Rice is great if you're hungry and want to eat 2,000 of something.",
+      "comedian": "Mitch Hedberg",
+      "year": "1999",
+      "context": "This joke perfectly exemplifies Mitch Hedberg's unique, deadpan delivery and surreal observational humor, making it instantly recognizable to fans. Its genius lies in taking a simple, mundane food and applying a hilariously absurd, relatable perspective on quantity and hunger."
+    },
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/C%C3%A9sar_%2813667960455%29.jpg"
+    ]
+  },
+  {
     "topic": "The Doughnut Hole",
     "title": "The Hole Truth: Who Really Invented the Doughnut's Iconic Center?",
     "category": "Food & Drink",
