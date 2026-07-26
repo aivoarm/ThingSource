@@ -19,50 +19,80 @@ function cleanXmlText(str) {
 }
 
 async function fetchTopScienceArticles() {
-  const url = "https://www.sciencedaily.com/rss/top/science.xml";
-  console.log(`Fetching RSS feed from: ${url}`);
+  const feeds = [
+    "https://www.sciencedaily.com/rss/top/science.xml",
+    "https://www.nature.com/nature.rss",
+    "https://www.nasa.gov/news-release/feed/",
+    "https://www.science.org/rss/news_current.xml",
+    "https://phys.org/rss-feed/",
+    "https://www.newscientist.com/section/news/feed/"
+  ];
   
-  const response = await fetch(url, {
-    headers: {
-      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
-  });
+  const shuffledFeeds = feeds.sort(() => 0.5 - Math.random());
+  const allItems = [];
   
-  if (!response.ok) {
-    throw new Error(`Failed to fetch RSS feed. Status: ${response.status}`);
-  }
-  
-  const xml = await response.text();
-  const items = [];
-  const itemRegex = /<item>([\s\S]*?)<\/item>/g;
-  let match;
-  
-  while ((match = itemRegex.exec(xml)) !== null && items.length < 3) {
-    const itemContent = match[1];
-    const titleMatch = itemContent.match(/<title>([\s\S]*?)<\/title>/);
-    const descMatch = itemContent.match(/<description>([\s\S]*?)<\/description>/) || 
-                      itemContent.match(/<summary>([\s\S]*?)<\/summary>/);
-    const linkMatch = itemContent.match(/<link>([\s\S]*?)<\/link>/);
-    
-    if (titleMatch && linkMatch) {
-      const title = cleanXmlText(titleMatch[1]);
-      const description = descMatch ? cleanXmlText(descMatch[1]) : "";
-      const link = cleanXmlText(linkMatch[1]);
+  for (const url of shuffledFeeds) {
+    try {
+      console.log(`Fetching RSS feed from: ${url}`);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 5000);
       
-      if (title && link) {
-        items.push({ title, description: description.replace(/<[^>]*>/g, "").trim(), url: link });
+      const response = await fetch(url, {
+        signal: controller.signal,
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      });
+      clearTimeout(timeoutId);
+      
+      if (!response.ok) {
+        console.warn(`Failed to fetch ${url}. Status: ${response.status}`);
+        continue;
       }
+      
+      const xml = await response.text();
+      const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+      let match;
+      let count = 0;
+      
+      while ((match = itemRegex.exec(xml)) !== null && count < 5) {
+        const itemContent = match[1];
+        const titleMatch = itemContent.match(/<title>([\s\S]*?)<\/title>/);
+        const descMatch = itemContent.match(/<description>([\s\S]*?)<\/description>/) || 
+                          itemContent.match(/<summary>([\s\S]*?)<\/summary>/);
+        const linkMatch = itemContent.match(/<link>([\s\S]*?)<\/link>/);
+        
+        if (titleMatch && linkMatch) {
+          const title = cleanXmlText(titleMatch[1]);
+          const description = descMatch ? cleanXmlText(descMatch[1]) : "";
+          const link = cleanXmlText(linkMatch[1]);
+          
+          if (title && link) {
+            allItems.push({ 
+              title, 
+              description: description.replace(/<[^>]*>/g, "").trim(), 
+              url: link 
+            });
+            count++;
+          }
+        }
+      }
+    } catch (err) {
+      console.warn(`Error fetching or parsing feed ${url}:`, err.message);
     }
+    
+    if (allItems.length >= 10) break;
   }
-  return items;
+  
+  return allItems.sort(() => 0.5 - Math.random()).slice(0, 3);
 }
 
 async function simplifyArticle(ai, article) {
   console.log(`Simplifying article: "${article.title}"`);
   
-  const prompt = `You are a warm, engaging science educator writing for 10-year-old kids.
-Take the following science news article (title and summary) and rewrite it so a 10-year-old child can easily understand it and get excited about it.
-Use fun, conversational language. Avoid advanced jargon or explain it using simple, everyday analogies. 
+  const prompt = `You are a clear, engaging science communicator writing for curious adults.
+Take the following science news article (title and summary) and rewrite it so a general adult audience can easily understand the significance, key findings, and core concepts without needing a scientific background.
+Use engaging, clear, and professional yet accessible language. Avoid heavy academic jargon, or explain it using elegant analogies. Do not sound childish or condescending.
 
 Original Title: ${article.title}
 Original Summary: ${article.description}
@@ -70,16 +100,16 @@ Original Link: ${article.url}
 
 Do all of the following in one response. Return ONLY a raw JSON object with no markdown and no backticks:
 {
-  "title": "A super catchy, child-friendly title",
-  "summary": "1-2 sentence compelling hook that makes a kid say 'Wow!'",
+  "title": "A compelling, clear, and engaging title",
+  "summary": "1-2 sentence compelling hook highlighting the main discovery and its importance",
   "sections": [
-    { "heading": "Catchy Subheading 1", "content": "2-3 simple, engaging sentences." },
-    { "heading": "Catchy Subheading 2", "content": "2-3 simple, engaging sentences." }
+    { "heading": "Clear Subheading 1", "content": "2-3 engaging, informative sentences." },
+    { "heading": "Clear Subheading 2", "content": "2-3 engaging, informative sentences." }
   ],
   "funFacts": [
-    "A cool mind-blowing fact 1",
-    "A cool mind-blowing fact 2",
-    "A cool mind-blowing fact 3"
+    "Interesting key takeaway or context 1",
+    "Interesting key takeaway or context 2",
+    "Interesting key takeaway or context 3"
   ],
   "originalTitle": "${article.title.replace(/"/g, '\\"')}",
   "originalUrl": "${article.url}"

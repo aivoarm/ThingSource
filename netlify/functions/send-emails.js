@@ -74,7 +74,7 @@ ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punc
   }
 
   if (scienceArticles && scienceArticles.length > 0) {
-    text += `---\n🚀 SCIENCESIMPLE — DAILY SCIENCE MADE EASY\n\n`;
+    text += `---\n🚀 SCIENCESIMPLE — DAILY SCIENCE MADE SIMPLE\n\n`;
     scienceArticles.forEach((art) => {
       text += `${art.title}\n`;
       text += `${"~".repeat(art.title.length)}\n`;
@@ -140,7 +140,7 @@ function buildEmailHtml(post, unsubUrl, scienceArticles = []) {
   const scienceArticlesHtml = scienceArticles && scienceArticles.length > 0 ? `
   <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
   <div style="margin:24px 0; background-color:#F5F3FF; border:1px solid #DDD6FE; border-radius:12px; padding:24px 28px;">
-    <p style="font-family:Arial,sans-serif;font-size:12px;color:#7C3AED;text-transform:uppercase;letter-spacing:0.12em;margin:0 0 24px;font-weight:bold;text-align:center;">🚀 ScienceSimple — Daily Science Made Easy</p>
+    <p style="font-family:Arial,sans-serif;font-size:12px;color:#7C3AED;text-transform:uppercase;letter-spacing:0.12em;margin:0 0 24px;font-weight:bold;text-align:center;">🚀 ScienceSimple — Daily Science Made Simple</p>
     ${scienceArticles.map((art, index) => {
       const artSections = (art.sections || []).map(sec => `
         <h3 style="font-family:Georgia,serif;font-size:16px;color:#1C1C1E;margin:20px 0 6px;line-height:1.3">${sec.heading}</h3>
