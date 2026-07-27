@@ -1,5 +1,51 @@
 [
   {
+    "title": "California's Ocean in Crisis: How a Marine Heatwave is Starving Whales and Pelicans",
+    "summary": "California's coastal waters are experiencing an unprecedented marine heatwave, creating a silent crisis that's disrupting the ocean food web and threatening iconic wildlife like whales and pelicans with hunger.",
+    "sections": [
+      {
+        "heading": "The Ocean's Secret Fever",
+        "content": "Imagine a persistent heatwave on land, but underwater. That's essentially what's happening off California's coast, where unusually warm ocean temperatures are lingering and creating a 'marine heatwave.' This invisible warming profoundly impacts marine life, which is adapted to specific temperature ranges, similar to how land animals react to extreme heat."
+      },
+      {
+        "heading": "A Ripple Effect Through the Food Chain",
+        "content": "This oceanic warming dramatically shifts the distribution of small, nutrient-rich fish like anchovies, pushing them into deeper, cooler waters or entirely out of their usual habitats. Consequently, larger predators such as whales, dolphins, and pelicans are finding their vital food sources scarce, forcing them to spend more energy searching for dwindling meals in an increasingly barren environment."
+      }
+    ],
+    "funFacts": [
+      "Marine heatwaves are becoming more frequent and intense globally, posing a growing threat to ocean ecosystems worldwide.",
+      "Even a few degrees of sustained ocean warming can drastically alter fish populations, impacting everything from commercial fisheries to top predators.",
+      "The scarcity of food can lead to reproductive challenges for marine animals, with mother whales struggling to nourish their calves and birds like pelicans abandoning nesting sites due to lack of sustenance."
+    ],
+    "originalTitle": "Whales at risk, hungry pelicans: Marine heat wave hits California",
+    "originalUrl": "https://phys.org/news/2026-07-whales-hungry-pelicans-marine-california.html",
+    "id": "1785137720224-k2w15",
+    "date": "2026-07-27T07:35:20.224Z"
+  },
+  {
+    "title": "Europe Under Fire: Unpacking the 'Monster' Wildfires Sweeping France and Spain",
+    "summary": "Massive wildfires are currently devastating vast swathes of forests across France and Spain, pushing emergency services to their limits as a relentless heatwave continues to fuel these 'monster' blazes. This escalating crisis highlights the interconnected challenges of extreme weather and ecological vulnerability.",
+    "sections": [
+      {
+        "heading": "The Inferno Unfolds: A Battle Against Nature's Fury",
+        "content": "Across southern Europe, firefighters are locked in an intense struggle against unprecedented wildfires, particularly in France's famed Bordeaux wine region. These aren't typical blazes; their sheer scale and aggressive spread are forcing mass evacuations and testing emergency response capabilities like never before."
+      },
+      {
+        "heading": "The Perfect Storm: Heat, Drought, and Tinderboxes",
+        "content": "The relentless high temperatures and prolonged drought conditions have transformed once-lush landscapes into highly flammable tinderboxes, creating ideal conditions for these fires to ignite and grow. With meteorologists forecasting even more scorching heat, the battle against the flames is expected to intensify, further straining resources."
+      }
+    ],
+    "funFacts": [
+      "\"Wildfire season\" is becoming longer and more intense in many regions globally, a trend linked to rising global temperatures.",
+      "A single large wildfire can release as much carbon dioxide into the atmosphere in a few days as millions of cars do in a year.",
+      "Forests impacted by intense fires can take decades, or even centuries, to fully recover their biodiversity and ecological functions."
+    ],
+    "originalTitle": "France, Spain battle &#039;monster&#039; wildfires with more heat on the way",
+    "originalUrl": "https://phys.org/news/2026-07-france-spain-monster-wildfires.html",
+    "id": "1785137728189-d1wgm",
+    "date": "2026-07-27T07:35:28.189Z"
+  },
+  {
     "title": "Faster Than Light? How the Universe Stretches Einstein's Rules (Without Breaking Them)",
     "summary": "The vast fabric of our universe is stretching at an incredible pace, causing distant galaxies to recede from us faster than the speed of light – a mind-bending phenomenon that doesn't break Einstein's rules, but paints a solitary future for our observable cosmos.",
     "sections": [
