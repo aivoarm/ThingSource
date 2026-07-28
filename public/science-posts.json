@@ -1,5 +1,74 @@
 [
   {
+    "title": "Back from Orbit: Astronaut Chris Williams Unpacks Eight Months Aboard the International Space Station",
+    "summary": "After eight months circling Earth, NASA astronaut Chris Williams is home and ready to share the extraordinary realities of life aboard the International Space Station, offering a rare glimpse into humanity's orbital outpost.",
+    "sections": [
+      {
+        "heading": "A Deep Dive into Life in Orbit",
+        "content": "During his extensive stay, Williams was part of a global crew conducting vital scientific experiments, from understanding human physiology in microgravity to testing new technologies. These efforts are crucial for expanding our knowledge of space and preparing for future long-duration missions to the Moon and Mars."
+      },
+      {
+        "heading": "Your Chance to Hear From a Space Explorer",
+        "content": "This upcoming news conference offers a unique chance for the public to hear firsthand about the challenges, triumphs, and daily routines of an astronaut living in microgravity. Tune in to hear his reflections on returning to Earth and what it truly means to live and work nearly 250 miles above our planet."
+      }
+    ],
+    "funFacts": [
+      "Astronauts like Williams conduct hundreds of experiments across various fields, turning the ISS into a unique microgravity laboratory for discoveries impossible on Earth.",
+      "Living for eight months in space requires rigorous physical and mental preparation to cope with challenges like bone density loss, muscle atrophy, and the psychological effects of isolation.",
+      "The International Space Station (ISS) circles Earth every 90 minutes at 17,500 miles per hour, offering astronauts 16 sunrises and sunsets each day during their mission."
+    ],
+    "originalTitle": "NASA Astronaut Chris Williams to Discuss Space Station Mission",
+    "originalUrl": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-to-discuss-space-station-mission/",
+    "id": "1785223930734-0l8w7",
+    "date": "2026-07-28T07:32:10.734Z"
+  },
+  {
+    "title": "Oregon's Skies Clouded by Wildfire Smoke: A Lightning-Sparked Reality",
+    "summary": "Oregon is currently experiencing a dramatic transformation of its landscape and sky, as extensive lightning storms have ignited dozens of wildfires, creating vast plumes of smoke that are impacting air quality across the region and beyond.",
+    "sections": [
+      {
+        "heading": "The Spark: When Lightning Meets Dry Conditions",
+        "content": "Recent lightning storms have unleashed a barrage of strikes across central and eastern Oregon, a region already parched by dry conditions. Each bolt carries immense energy, capable of igniting bone-dry vegetation instantly, turning a flash of light into a burgeoning inferno."
+      },
+      {
+        "heading": "A Spreading Veil: The Far Reach of Wildfire Smoke",
+        "content": "As these numerous fires continue to burn, they release massive amounts of smoke, effectively creating a vast, hazy blanket over the state. This smoke, a complex mix of particulate matter and gases, not only reduces visibility but also poses significant health concerns for communities both near and far as it drifts with atmospheric currents."
+      }
+    ],
+    "funFacts": [
+      "Lightning is a surprisingly common natural cause of wildfires, responsible for igniting nearly half of all fires in remote, wilderness areas globally.",
+      "Wildfire smoke plumes can travel thousands of miles, affecting air quality and creating hazy skies in regions far removed from the actual fires.",
+      "The color of wildfire smoke can offer clues: white smoke indicates a faster-burning fire with less fuel, while dark gray or black smoke suggests intense combustion of heavy fuels."
+    ],
+    "originalTitle": "Smoke Blankets Oregon",
+    "originalUrl": "https://science.nasa.gov/earth/natural-disasters/wildfires/smoke-blankets-oregon/",
+    "id": "1785223938381-3ba4w",
+    "date": "2026-07-28T07:32:18.381Z"
+  },
+  {
+    "title": "Solar Eclipse Unlocks Secrets of Our Star: NASA's August Research Mission",
+    "summary": "When the Moon briefly hides the Sun this August, NASA scientists will seize a rare chance to study our star's elusive outer atmosphere, the corona, and better understand its profound impact on Earth.",
+    "sections": [
+      {
+        "heading": "A Natural Window to the Sun's Secrets",
+        "content": "Total solar eclipses act as nature's perfect blackouts, allowing scientists a fleeting glimpse of the Sun's faint outer atmosphere, the corona, which is normally obscured by the star's blinding brilliance. This unique opportunity is crucial for gathering data that specialized telescopes cannot capture from Earth or space, giving us an unfiltered look at our star's dynamic behavior."
+      },
+      {
+        "heading": "Unraveling Space Weather and Earth's Connection",
+        "content": "By closely observing the corona during these brief moments, researchers aim to understand its extreme temperatures and the powerful solar flares and eruptions it generates. Insights from this research are vital for predicting 'space weather,' which can impact our planet's technology, from satellite communications and GPS accuracy to power grids here on Earth."
+      }
+    ],
+    "funFacts": [
+      "The Sun's ethereal corona, visibly stunning during an eclipse, is mysteriously much hotter than the Sun's actual surface – a paradox scientists are actively investigating.",
+      "Studying the corona directly helps NASA predict solar storms, which can create spectacular auroras but also pose risks to astronauts and critical infrastructure on Earth.",
+      "The August 12th total solar eclipse offers a prime opportunity for this research as it traces a path over parts of Greenland and Iceland, enabling unique scientific observations."
+    ],
+    "originalTitle": "NASA Science Soars During August Total Solar Eclipse",
+    "originalUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/",
+    "id": "1785223947684-a19lc",
+    "date": "2026-07-28T07:32:27.684Z"
+  },
+  {
     "title": "California's Ocean in Crisis: How a Marine Heatwave is Starving Whales and Pelicans",
     "summary": "California's coastal waters are experiencing an unprecedented marine heatwave, creating a silent crisis that's disrupting the ocean food web and threatening iconic wildlife like whales and pelicans with hunger.",
     "sections": [
