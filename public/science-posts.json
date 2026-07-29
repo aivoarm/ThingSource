@@ -1,5 +1,74 @@
 [
   {
+    "title": "The Mosquito Counterattack: Why Our Insecticides Are Losing Their Bite",
+    "summary": "New research reveals that mosquitoes are rapidly developing powerful internal defenses against our most common insecticides, posing a significant threat to global efforts to control deadly diseases.",
+    "sections": [
+      {
+        "heading": "The Losing Battle Against Bites",
+        "content": "For decades, our primary weapon against disease-carrying mosquitoes has been chemical insecticides, which have played a crucial role in public health. However, this reliance has inadvertently pressured mosquito populations to evolve, turning our solutions into a breeding ground for tougher, more resistant pests."
+      },
+      {
+        "heading": "Mosquitoes' Secret Chemical Weapon",
+        "content": "Scientists have uncovered that mosquitoes are quickly deploying specialized enzymes—think of them as tiny internal detoxifiers—that break down and neutralize the insecticides before they can do harm. These 'super-mosquitoes' then pass on these protective traits through their genes, quickly spreading resistance throughout populations."
+      }
+    ],
+    "funFacts": [
+      "Mosquitoes are responsible for transmitting diseases like malaria, dengue, and Zika, which together sicken and kill millions worldwide each year.",
+      "This rapid evolution means that continued reliance on existing insecticides might actually be selecting for and accelerating the spread of resistant mosquito populations.",
+      "Developing innovative and sustainable strategies beyond traditional chemicals is now crucial to protect communities from mosquito-borne illnesses."
+    ],
+    "originalTitle": "Mosquitoes are rapidly activating enzymes against common insecticide, researchers warn",
+    "originalUrl": "https://phys.org/news/2026-07-mosquitoes-rapidly-enzymes-common-insecticide.html",
+    "id": "1785310418388-jn8gn",
+    "date": "2026-07-29T07:33:38.388Z"
+  },
+  {
+    "title": "Hidden Harvests No More: AI Grants 'X-Ray Vision' to Fruit Growers",
+    "summary": "Imagine an AI that can 'see' through dense leaves to spot every piece of fruit on a tree. Scientists have developed this groundbreaking computer vision technology, promising a radical boost in efficiency and yield for fruit growers worldwide.",
+    "sections": [
+      {
+        "heading": "Peering Through the Foliage: How AI Does It",
+        "content": "This isn't magic, but rather sophisticated computer vision and artificial intelligence working together. While traditional cameras struggle to identify fruit obscured by leaves, this new AI system analyzes complex visual data to infer the presence, size, and location of fruit, much like a seasoned picker might intuitively know where to look."
+      },
+      {
+        "heading": "A Smarter, More Sustainable Future for Farming",
+        "content": "For fruit farmers, this technology is a game-changer, transforming guesswork into precise, real-time insights into their crops. It means more accurate yield predictions, optimized harvesting schedules, and even targeted pest management, ultimately leading to less waste, reduced labor costs, and more profitable harvests."
+      }
+    ],
+    "funFacts": [
+      "Manual fruit counting is incredibly labor-intensive and notoriously inaccurate, often leading to significant harvest inefficiencies.",
+      "This AI could enable growers to precisely estimate their entire harvest weeks in advance, optimizing market timing and logistics.",
+      "Beyond fruit, this 'see-through' AI could potentially detect plant diseases, pests, or even measure crop health hidden within dense foliage."
+    ],
+    "originalTitle": "AI technology sees through leaves to transform horticulture",
+    "originalUrl": "https://phys.org/news/2026-07-ai-technology-horticulture.html",
+    "id": "1785310427000-yo6cp",
+    "date": "2026-07-29T07:33:47.000Z"
+  },
+  {
+    "title": "Misfolded Insulin: The Silent Culprit in Diabetes?",
+    "summary": "New research suggests that the meticulous production of insulin involves a vital 'quality control' system, and when it fails, misfolded insulin accumulates, potentially accelerating the progression of diabetes. Strengthening this internal system could offer a fresh strategy to protect insulin-producing cells.",
+    "sections": [
+      {
+        "heading": "The Invisible Team Keeping Your Insulin in Shape",
+        "content": "Imagine insulin as a finely tuned key that needs to fit perfectly into a lock to allow sugar into your cells. This research highlights that our pancreas doesn't just make insulin; it has a dedicated team of 'helper' proteins working behind the scenes to ensure each insulin molecule folds into the right 3D shape, ready for action. This crucial quality control step prevents faulty keys from being produced, which would otherwise be useless."
+      },
+      {
+        "heading": "When Quality Control Breaks Down: A New Path to Diabetes",
+        "content": "The study found that if even one of these vital helper proteins goes missing, the pancreatic cells struggle. Damaged, misfolded insulin starts to pile up, much like a factory floor jammed with defective products, ultimately reducing the amount of functional insulin available. This stress and reduced output can damage the very cells responsible for insulin production, offering a new understanding of how diabetes might quietly worsen over time and suggesting novel ways to protect these critical cells."
+      }
+    ],
+    "funFacts": [
+      "Our bodies produce millions of insulin molecules every second, each needing to be perfectly folded to function correctly.",
+      "Misfolded proteins aren't just an issue for insulin; they're linked to various diseases, including Alzheimer's and Parkinson's, highlighting a fundamental biological challenge.",
+      "Current diabetes treatments primarily focus on managing blood sugar or replacing insulin; this research opens the door to therapies that protect the body's own insulin-producing machinery."
+    ],
+    "originalTitle": "Misfolded insulin may be quietly driving diabetes",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260727214616.htm",
+    "id": "1785310437078-r52a5",
+    "date": "2026-07-29T07:33:57.078Z"
+  },
+  {
     "title": "Back from Orbit: Astronaut Chris Williams Unpacks Eight Months Aboard the International Space Station",
     "summary": "After eight months circling Earth, NASA astronaut Chris Williams is home and ready to share the extraordinary realities of life aboard the International Space Station, offering a rare glimpse into humanity's orbital outpost.",
     "sections": [
