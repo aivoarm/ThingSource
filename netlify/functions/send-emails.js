@@ -73,6 +73,23 @@ ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punc
 `;
   }
 
+  const phrases = post.portuguesePhrases || (post.portuguesePhrase ? [post.portuguesePhrase] : []);
+  if (phrases.length > 0) {
+    text += `---
+🇵🇹 PORTUGUÊS DIÁRIO (Daily Portuguese Travel Phrases)
+
+`;
+    phrases.forEach((ph, idx) => {
+      text += `${idx + 1}. "${ph.phrase}"
+   Translation: "${ph.translation}"
+   Pronunciation: [ ${ph.pronunciation} ]
+   Situation/Context: ${ph.situation}
+   Listen to Pronunciation: ${ph.audioUrl}
+
+`;
+    });
+  }
+
   if (scienceArticles && scienceArticles.length > 0) {
     text += `---\n🚀 SCIENCESIMPLE — DAILY SCIENCE MADE SIMPLE\n\n`;
     scienceArticles.forEach((art) => {
@@ -124,6 +141,75 @@ ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punc
 // ─── HTML builder ─────────────────────────────────────────────────────────
 function buildEmailHtml(post, unsubUrl, scienceArticles = []) {
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
+
+  const htmlPhrases = post.portuguesePhrases || (post.portuguesePhrase ? [post.portuguesePhrase] : []);
+  const portuguesePhrasesHtml = htmlPhrases.length > 0 ? `
+<div style="
+  background: #EBFBFA;
+  border-left: 4px solid #0D7A6B;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 32px 0;">
+  
+  <p style="
+    font-size: 11px;
+    color: #0D7A6B;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 0 0 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;">
+    🇵🇹 Português Diário · Daily Travel Phrases
+  </p>
+  
+  ${htmlPhrases.map((ph, idx) => `
+    ${idx > 0 ? '<hr style="border:none;border-top:1px dashed #BCEEEC;margin:16px 0">' : ''}
+    <p style="
+      font-size: 18px;
+      color: #1C1C1E;
+      font-weight: bold;
+      margin: 0 0 4px;
+      font-family: Georgia, serif;">
+      ${ph.phrase}
+    </p>
+    
+    <p style="
+      font-size: 14px;
+      color: #555;
+      margin: 0 0 8px;
+      font-family: Arial, sans-serif;
+      font-style: italic;">
+      &ldquo;${ph.translation}&rdquo;
+    </p>
+    
+    <p style="
+      font-size: 13px;
+      color: #333;
+      margin: 0 0 12px;
+      font-family: Arial, sans-serif;
+      line-height: 1.5;">
+      <strong>Pronunciation:</strong> <span style="background: #D5F6F4; padding: 2px 6px; border-radius: 4px; font-family: monospace;">${ph.pronunciation}</span>
+      <br>
+      <span style="display: block; margin-top: 6px;"><strong>Where to use:</strong> ${ph.situation}</span>
+    </p>
+    
+    <div>
+      <a href="${ph.audioUrl}" style="
+        display: inline-block;
+        background-color: #0D7A6B;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 11px;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-family: Arial, sans-serif;">
+        🔊 Listen to Pronunciation
+      </a>
+    </div>
+  `).join("")}
+</div>
+` : "";
 
   // Render first 2 sections (paragraphs 2 and 3)
   const sectionsHtml = (post.sections || []).slice(0, 2).map((section, idx) => {
@@ -245,6 +331,8 @@ function buildEmailHtml(post, unsubUrl, scienceArticles = []) {
   </p>
   
 </div>` : ""}
+
+  ${portuguesePhrasesHtml}
 
   ${scienceArticlesHtml}
 

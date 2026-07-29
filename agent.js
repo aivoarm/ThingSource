@@ -165,6 +165,20 @@ async function runAgent(customTopic = null) {
 
     const avoidList = usedTopics.join(", ");
 
+    // Extract previous Portuguese phrases to prevent duplicates
+    const usedPortuguese = [];
+    existingPosts.forEach(p => {
+      if (p.portuguesePhrases && Array.isArray(p.portuguesePhrases)) {
+        p.portuguesePhrases.forEach(ph => {
+          if (ph.phrase) usedPortuguese.push(ph.phrase);
+        });
+      } else if (p.portuguesePhrase?.phrase) {
+        usedPortuguese.push(p.portuguesePhrase.phrase);
+      }
+    });
+
+    const avoidPortugueseList = usedPortuguese.slice(0, 100).join(", ");
+
     // Category rotation
     const recentCategories = existingPosts
       .slice(0, 7)
@@ -186,26 +200,32 @@ async function runAgent(customTopic = null) {
 
     // Combined Prompt
     const prompt = `You are a research blogger with access to Google Search.
-
+ 
 Do all of the following in one response:
-
+ 
 1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known. ${customTopic ? `Specifically research: "${customTopic}"` : ''}
-
+ 
 IMPORTANT: Do NOT pick any of these topics that have already been covered:
 ${avoidList}
-
+ 
 Choose something completely different and not on that list.${categoryNudge}
-
+ 
 2. Use Google Search to research it thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
-
+ 
 3. Write a complete blog post about it.
 
+4. Generate exactly 3 essential Portuguese Travel Phrases of the Day.
+   - They must be useful phrases for a tourist traveling to Portugal.
+   - Use European Portuguese vocabulary and spelling (e.g. 'casa de banho' instead of Brazilian 'banheiro').
+   - They must be completely different from these recently used phrases:
+     ${avoidPortugueseList || "None yet"}
+ 
 ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
 - Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
 - If there is a popular myth or common misconception associated with the topic, explicitly address and debunk it using verified historical facts.
 - Choose highly descriptive, specific, and distinct imageKeywords (e.g. ["Post-it note yellow", "Spencer Silver 3M office"] instead of ["office", "paper"]) to help the image search engine find highly relevant photos.
-
+ 
 Return ONLY a raw JSON object with no markdown, no backticks:
 {
   "topic": "the search term you used",
@@ -218,30 +238,56 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   ],
   "funFacts": ["fact 1", "fact 2", "fact 3"],
   "imageKeywords": ["simple keyword", "simple keyword"],
-  "citations": ["url1", "url2"]
+  "citations": ["url1", "url2"],
+  "portuguesePhrases": [
+    {
+      "phrase": "essential Portuguese travel phrase 1 (e.g. 'Onde fica a casa de banho?')",
+      "translation": "English translation (e.g. 'Where is the bathroom?')",
+      "pronunciation": "Phonetic pronunciation guide for English speakers (e.g. 'OHN-deh FEE-kuh uh KAH-zuh deh BAHN-yoo')",
+      "situation": "1-2 short sentences describing the travel context/when to use it in Portugal"
+    },
+    {
+      "phrase": "essential Portuguese travel phrase 2",
+      "translation": "English translation",
+      "pronunciation": "Phonetic pronunciation guide",
+      "situation": "1-2 short sentences describing the travel context"
+    },
+    {
+      "phrase": "essential Portuguese travel phrase 3",
+      "translation": "English translation",
+      "pronunciation": "Phonetic pronunciation guide",
+      "situation": "1-2 short sentences describing the travel context"
+    }
+  ]
 }`;
-
+ 
     const claudePromptOverride = `You are a research blogger.
-
+ 
 Do all of the following in one response:
-
+ 
 1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known. ${customTopic ? `Specifically research: "${customTopic}"` : ''}
-
+ 
 IMPORTANT: Do NOT pick any of these topics that have already been covered:
 ${avoidList}
-
+ 
 Choose something completely different and not on that list.${categoryNudge}
-
+ 
 2. Using your training knowledge, research the topic thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
-
+ 
 3. Write a complete blog post about it.
 
+4. Generate exactly 3 essential Portuguese Travel Phrases of the Day.
+   - They must be useful phrases for a tourist traveling to Portugal.
+   - Use European Portuguese vocabulary and spelling (e.g. 'casa de banho' instead of Brazilian 'banheiro').
+   - They must be completely different from these recently used phrases:
+     ${avoidPortugueseList || "None yet"}
+ 
 ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
 - Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
 - If there is a popular myth or common misconception associated with the topic, explicitly address and debunk it using verified historical facts.
 - Choose highly descriptive, specific, and distinct imageKeywords (e.g. ["Post-it note yellow", "Spencer Silver 3M office"] instead of ["office", "paper"]) to help the image search engine find highly relevant photos.
-
+ 
 Return ONLY a raw JSON object with no markdown, no backticks:
 {
   "topic": "the term you chose",
@@ -254,7 +300,27 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   ],
   "funFacts": ["fact 1", "fact 2", "fact 3"],
   "imageKeywords": ["simple keyword", "simple keyword"],
-  "citations": ["url1", "url2"]
+  "citations": ["url1", "url2"],
+  "portuguesePhrases": [
+    {
+      "phrase": "essential Portuguese travel phrase 1 (e.g. 'Onde fica a casa de banho?')",
+      "translation": "English translation (e.g. 'Where is the bathroom?')",
+      "pronunciation": "Phonetic pronunciation guide for English speakers (e.g. 'OHN-deh FEE-kuh uh KAH-zuh deh BAHN-yoo')",
+      "situation": "1-2 short sentences describing the travel context/when to use it in Portugal"
+    },
+    {
+      "phrase": "essential Portuguese travel phrase 2",
+      "translation": "English translation",
+      "pronunciation": "Phonetic pronunciation guide",
+      "situation": "1-2 short sentences describing the travel context"
+    },
+    {
+      "phrase": "essential Portuguese travel phrase 3",
+      "translation": "English translation",
+      "pronunciation": "Phonetic pronunciation guide",
+      "situation": "1-2 short sentences describing the travel context"
+    }
+  ]
 }`;
 
     let postData;
@@ -318,6 +384,14 @@ Return ONLY a raw JSON object with no markdown, no backticks:
       .substring(0, 60);
     postData.slug = slug;
     postData.date = new Date().toISOString();
+
+    if (postData.portuguesePhrases && Array.isArray(postData.portuguesePhrases)) {
+      postData.portuguesePhrases.forEach(ph => {
+        if (ph.phrase) {
+          ph.audioUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=pt-PT&client=tw-ob&q=${encodeURIComponent(ph.phrase)}`;
+        }
+      });
+    }
     
     // Generate Joke of the Day
     log("Generating Joke of the Day...");
