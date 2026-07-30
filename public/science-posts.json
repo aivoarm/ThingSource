@@ -1,5 +1,74 @@
 [
   {
+    "title": "Cosmic Oddball: Unraveling the Mystery of Asteroid 44 Nysa's Three Lobes and Its Secret Moon",
+    "summary": "After more than 150 years of observation, astronomers have finally deciphered the bizarre structure of asteroid 44 Nysa, revealing it's not only uniquely three-lobed but also hosts a small, orbiting companion.",
+    "sections": [
+      {
+        "heading": "A Lumpy Giant in Space",
+        "content": "Asteroid 44 Nysa, first glimpsed over a century ago, has long baffled scientists with its unusual light reflections. Recent advanced observations have finally peeled back the mystery, revealing a truly peculiar form best described as three distinct lobes connected together, unlike almost any other space rock we've encountered. This surprising \"cosmic peanut with an extra bulge\" shape provides exciting new clues about how asteroids can evolve in the vastness of space."
+      },
+      {
+        "heading": "The Moon and a Violent Past",
+        "content": "Adding another layer to its uniqueness, Nysa also appears to have its own tiny moon, a rare discovery for an asteroid of its size. Scientists now believe this complex configuration, including its three lobes and orbiting companion, likely emerged from a gentle, slow-motion collision or a past gravitational dance that dramatically reshaped the original asteroid. Understanding such formations helps us piece together the dynamic, often chaotic history of our solar system."
+      }
+    ],
+    "funFacts": [
+      "Asteroid 44 Nysa was discovered in 1867, making it one of the earliest known asteroids, yet its true shape remained a profound enigma for over 150 years.",
+      "While some asteroids exhibit a two-lobed, 'peanut' shape, Nysa's three-lobed structure pushes the boundaries of known asteroid morphologies, making it an extraordinary object.",
+      "Studying peculiar asteroids like Nysa helps scientists understand the forces that shaped the early solar system, from gentle collisions to gravitational sculpting, and how planetesimals coalesced."
+    ],
+    "originalTitle": "Strange three-lobed asteroid seems to have its own tiny moon",
+    "originalUrl": "https://www.newscientist.com/article/2582275-strange-three-lobed-asteroid-seems-to-have-its-own-tiny-moon/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1785397124123-1jqsl",
+    "date": "2026-07-30T07:38:44.124Z"
+  },
+  {
+    "title": "Your Favorite Fries, Reimagined: Less Oil, More Crunch, Thanks to Science!",
+    "summary": "Imagine enjoying perfectly crispy French fries with significantly less oil. Scientists have developed an innovative cooking technique that combines microwaves with traditional frying, promising a healthier yet equally delicious spud.",
+    "sections": [
+      {
+        "heading": "The Fry Dilemma: Delicious But Oily",
+        "content": "French fries are a universally beloved comfort food, but their irresistible crispiness traditionally comes at a cost: they can absorb a considerable amount of cooking oil. This new research tackles that very challenge, aiming to drastically cut down on the fat content without compromising the golden perfection we all crave."
+      },
+      {
+        "heading": "A Clever Two-Step Solution for Healthier Crunch",
+        "content": "The breakthrough lies in a smart, two-phase cooking process. First, potatoes are subjected to microwave heating, which efficiently heats them from the inside out, causing moisture to escape and creating an internal barrier against oil absorption. This crucial initial step prepares the fries for a brief, conventional deep-fry, which then delivers the desired golden-brown color and signature crispy texture with minimal additional fat."
+      }
+    ],
+    "funFacts": [
+      "Traditional deep-frying can cause potatoes to absorb up to 20-25% of their weight in oil.",
+      "The crisp texture of a French fry is primarily due to the removal of water and the formation of a porous, crunchy crust.",
+      "Reducing oil absorption in popular foods like French fries could have a significant positive impact on global dietary health."
+    ],
+    "originalTitle": "New microwave frying method could make french fries much healthier",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/07/260729044048.htm",
+    "id": "1785397134024-p0f1o",
+    "date": "2026-07-30T07:38:54.024Z"
+  },
+  {
+    "title": "A Surprising Discovery: Could a Pill That Gently Lowers Brain Oxygen Help Fight Parkinson's?",
+    "summary": "Scientists have uncovered a surprising new pathway to potentially treat debilitating brain diseases like Parkinson's: a pill that gently reduces oxygen levels in the brain. Early tests in mice show this innovative approach significantly improved symptoms across multiple neurodegenerative conditions.",
+    "sections": [
+      {
+        "heading": "The Counterintuitive Approach: Less Oxygen for Brain Health?",
+        "content": "It might seem strange to think that reducing oxygen could benefit the brain, as we usually associate it with life and vitality. Yet, researchers have engineered a pill designed to create a very mild, controlled reduction of oxygen within brain cells—a state called 'therapeutic hypoxia'—to explore its healing potential."
+      },
+      {
+        "heading": "Early Promise in the Fight Against Neurodegenerative Diseases",
+        "content": "This novel pill was tested in mice models affected by Parkinson's and two other similar brain conditions, where it surprisingly led to noticeable improvements in their symptoms. These exciting preliminary results suggest a completely new way of thinking about and potentially treating some of humanity's most challenging neurological disorders."
+      }
+    ],
+    "funFacts": [
+      "The human brain, despite making up only 2% of body weight, uses about 20% of the body's entire oxygen intake—a truly demanding organ!",
+      "Neurodegenerative diseases, like Parkinson's, are characterized by the progressive loss of brain cells, leading to symptoms that worsen over time and currently have no cure.",
+      "While revolutionary, this research is currently in its early stages, having only been tested in mice. Much more work is needed before we know if it could be safe and effective for humans."
+    ],
+    "originalTitle": "Pill that lowers oxygen levels in brain may ease Parkinson&#8217;s symptoms",
+    "originalUrl": "https://www.newscientist.com/article/2582191-hypoxia-in-a-pill-may-ease-neurodegeneration-by-lowering-oxygen-in-the-brain/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1785397144157-n2c65",
+    "date": "2026-07-30T07:39:04.157Z"
+  },
+  {
     "title": "The Mosquito Counterattack: Why Our Insecticides Are Losing Their Bite",
     "summary": "New research reveals that mosquitoes are rapidly developing powerful internal defenses against our most common insecticides, posing a significant threat to global efforts to control deadly diseases.",
     "sections": [
