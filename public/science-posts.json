@@ -1,5 +1,74 @@
 [
   {
+    "title": "High-Flying Science: NASA Students Launch Missions to Monitor Earth's Atmosphere",
+    "summary": "Under challenging conditions, student researchers with NASA's SARP program are gaining real-world experience by launching high-tech balloons to collect critical data on our atmosphere, directly contributing to our understanding of Earth's climate and air quality.",
+    "sections": [
+      {
+        "heading": "Hands-On Science Takes Flight",
+        "content": "Imagine wrestling a massive balloon in gusty winds—that's exactly what students from NASA's Student Airborne Research Program (SARP) did on the Texas Gulf Coast. These aren't just any balloons; they're \"ozonesondes,\" specialized instruments designed to soar miles high and act as tiny airborne labs, gathering vital information about our atmosphere."
+      },
+      {
+        "heading": "Unveiling Atmospheric Secrets",
+        "content": "Each ozonesonde carries sensors to measure atmospheric ozone, temperature, and humidity, providing a detailed vertical snapshot of the air above us. This invaluable data helps scientists monitor air quality, track atmospheric changes, and improve climate models, all while giving future researchers unparalleled experience in actual field science."
+      }
+    ],
+    "funFacts": [
+      "An ozonesonde is essentially a weather balloon packed with instruments to measure ozone, temperature, and humidity as it ascends through the atmosphere.",
+      "The SARP program gives college students a unique, hands-on opportunity to participate in NASA's real-world airborne science missions.",
+      "Gathering atmospheric data from various altitudes is crucial for understanding complex phenomena like the ozone layer and predicting future climate changes."
+    ],
+    "originalTitle": "Students Take on Airborne Field Research with NASA",
+    "originalUrl": "https://science.nasa.gov/earth/students-take-on-airborne-field-research-with-nasa/",
+    "id": "1785483077793-jrfva",
+    "date": "2026-07-31T07:31:17.793Z"
+  },
+  {
+    "title": "South Africa's Elephants: A Pivotal Moment for Their Future",
+    "summary": "South Africa stands at a crossroads for elephant welfare, as the last three elephants in its traditional zoos await a decision that will redefine the nation's approach to caring for these magnificent giants.",
+    "sections": [
+      {
+        "heading": "The End of an Era for Traditional Zoos",
+        "content": "These aren't just three individual elephants; they symbolize a significant shift in animal welfare philosophy within South Africa. Their impending move or rehoming marks the conclusion of a long-standing practice of housing elephants in conventional zoo enclosures, ushering in a new era for captive wildlife care."
+      },
+      {
+        "heading": "Towards a More Natural Future",
+        "content": "The current care, including scattering food to promote natural foraging, provides a glimpse into the future vision for these intelligent creatures. The focus is on transitioning them to environments that offer far more space and mimic their natural habitats, ensuring their complex social and behavioral needs are met."
+      }
+    ],
+    "funFacts": [
+      "Elephants are renowned for their complex social structures and deep family bonds, often living in herds led by matriarchs.",
+      "An adult elephant can consume up to 300 pounds of food and drink 50 gallons of water daily, highlighting their immense spatial and dietary needs.",
+      "South Africa is a global leader in wildlife conservation, making this move away from traditional zoo enclosures for elephants a powerful statement about evolving animal welfare standards."
+    ],
+    "originalTitle": "The last trio: S.Africa&#039;s zoo elephants await their fate",
+    "originalUrl": "https://phys.org/news/2026-07-trio-safrica-zoo-elephants-await.html",
+    "id": "1785483087360-hsyvi",
+    "date": "2026-07-31T07:31:27.360Z"
+  },
+  {
+    "title": "Western Europe Under Fire: The Alarming Rise of Wildfires Amidst Extreme Heat",
+    "summary": "This past summer, Spain and France experienced a scorching disruption as powerful wildfires ravaged vast areas, fueled by record-breaking heatwaves and persistent drought conditions across Western Europe.",
+    "sections": [
+      {
+        "heading": "Europe Ablaze: A Summer Disrupted",
+        "content": "Throughout a challenging summer, swathes of Spain and France were engulfed by raging wildfires, transforming serene landscapes into scorched earth and forcing thousands to flee their homes and vacation plans. These blazes weren't just isolated incidents; they represented a significant disruption to daily life and tourism across major parts of Western Europe, casting a smoky pall over what should have been a vibrant season."
+      },
+      {
+        "heading": "The Perfect Storm: Heat, Drought, and Devastation",
+        "content": "The ferocity and widespread nature of these fires were not accidental; they emerged from a dangerous cocktail of extreme weather conditions. Unprecedented heatwaves, pushing temperatures to record highs, combined with months of prolonged drought, left forests and grasslands bone-dry, turning them into highly combustible fuel for even the smallest spark."
+      }
+    ],
+    "funFacts": [
+      "Wildfire smoke isn't just a local problem; it can travel hundreds or even thousands of miles, impacting air quality and visibility far beyond the fire zone, even affecting distant cities.",
+      "The combination of sustained high temperatures and lack of rainfall creates a 'fuel ladder' effect, where dry vegetation allows flames to easily climb from the forest floor into tree canopies, making fires more intense and much harder to control.",
+      "Beyond immediate destruction, severe wildfires can significantly impact ecosystems for years, altering soil composition, water cycles, and wildlife habitats, sometimes leading to long-term ecological shifts."
+    ],
+    "originalTitle": "Destructive Fires Char Western Europe",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/destructive-fires-char-western-europe/",
+    "id": "1785483095862-flrpv",
+    "date": "2026-07-31T07:31:35.862Z"
+  },
+  {
     "title": "Cosmic Oddball: Unraveling the Mystery of Asteroid 44 Nysa's Three Lobes and Its Secret Moon",
     "summary": "After more than 150 years of observation, astronomers have finally deciphered the bizarre structure of asteroid 44 Nysa, revealing it's not only uniquely three-lobed but also hosts a small, orbiting companion.",
     "sections": [
