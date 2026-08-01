@@ -1,5 +1,78 @@
 [
   {
+    "title": "Rivers Running Dry: How Extreme Heat is Forcing Hungary's Nuclear Plant Offline",
+    "summary": "A relentless heatwave in Central Europe is forcing Hungary to power down its sole nuclear plant, revealing a critical vulnerability where dwindling river waters, essential for cooling, are directly impacting our most reliable energy sources.",
+    "sections": [
+      {
+        "heading": "The Unexpected Shutdown in Hungary",
+        "content": "Central Europe is grappling with an intense heatwave, pushing temperatures to extremes and causing the mighty Danube River to dwindle. This crucial waterway, normally a lifeline for Hungary's Paks nuclear power plant, is now too low to provide the necessary cooling water, necessitating an unprecedented shutdown."
+      },
+      {
+        "heading": "Nuclear Power's Thirsty Secret",
+        "content": "Nuclear power plants, much like high-performance engines, generate tremendous heat that must be continuously managed to operate safely. They rely on vast amounts of water, typically from large rivers or lakes, to cool their systems, acting as a crucial heat sink to prevent dangerous overheating and maintain operational stability."
+      }
+    ],
+    "funFacts": [
+      "Hungary's Paks plant provides roughly half of the nation's electricity, making its temporary closure a significant energy challenge.",
+      "This isn't an isolated incident; other European countries like France have faced similar nuclear plant disruptions due to heatwaves impacting river levels.",
+      "Nuclear plants use water not just to create steam for electricity, but primarily for cooling massive amounts of heat, underscoring their dependence on reliable water sources."
+    ],
+    "originalTitle": "Hungary to shut nuclear plant as heatwave hits central Europe",
+    "originalUrl": "https://phys.org/news/2026-08-hungary-nuclear-heatwave-central-europe.html",
+    "id": "1785569562879-do1ly",
+    "date": "2026-08-01T07:32:42.879Z"
+  },
+  {
+    "title": "Thousands Underwent Risky, Unproven Alzheimer's Brain Surgery in China Before Ban",
+    "summary": "An alarming report reveals that thousands of individuals in China underwent an invasive brain surgery aimed at clearing Alzheimer's-related proteins, despite the procedure lacking robust scientific proof and later being banned by authorities.",
+    "sections": [
+      {
+        "heading": "Targeting Alzheimer's: The Protein Puzzle",
+        "content": "Alzheimer's disease is characterized by the accumulation of sticky protein clumps, like amyloid-beta, within the brain, which are believed to disrupt normal function. This specific surgery aimed to improve how the brain naturally washes away these problematic proteins, attempting to tackle a fundamental aspect of the disease's progression."
+      },
+      {
+        "heading": "Thousands Undergo Unproven Procedure",
+        "content": "Despite a lack of rigorous scientific evidence confirming its safety or effectiveness, an estimated thousands of patients in China underwent this controversial brain surgery. The procedure was eventually banned by regulatory bodies, but only after a significant number of individuals had already received the unvalidated treatment, raising serious ethical questions."
+      },
+      {
+        "heading": "Ethical Concerns and the Search for Cures",
+        "content": "This situation highlights the profound desperation surrounding Alzheimer's, where patients and families may seek any perceived hope for a cure, even unproven ones. It underscores the critical importance of stringent, peer-reviewed clinical trials and robust regulatory oversight to ensure medical procedures are both safe and truly effective before being widely offered."
+      }
+    ],
+    "funFacts": [
+      "The surgery focused on improving the flow of cerebrospinal fluid, which acts as the brain's internal 'drainage system' to clear waste products, including problematic proteins.",
+      "Globally, Alzheimer's disease affects over 55 million people, creating an urgent demand for effective treatments that can, unfortunately, pave the way for speculative or unproven therapies.",
+      "This incident emphasizes why new medical interventions, especially invasive brain surgeries, must undergo rigorous scientific validation to protect patient safety and ensure genuine therapeutic benefit."
+    ],
+    "originalTitle": "Thousands of people in China have had banned Alzheimer&#8217;s surgery",
+    "originalUrl": "https://www.newscientist.com/article/2582621-thousands-of-people-in-china-have-had-banned-alzheimers-surgery/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1785569573799-6suv5",
+    "date": "2026-08-01T07:32:53.799Z"
+  },
+  {
+    "title": "Mars' Hidden Treasure: Scientists Pinpoint Water for Future Astronauts",
+    "summary": "As human missions to Mars draw closer, scientists are racing to map hidden water ice beneath the Martian surface, pinpointing crucial locations where future astronauts can find this life-sustaining resource away from the harsh poles.",
+    "sections": [
+      {
+        "heading": "Why Water Near the Equator is a Game Changer for Mars Missions",
+        "content": "While we know Mars holds vast amounts of water ice at its poles, these frigid regions are far from ideal for human settlements. Future astronauts and their solar-powered equipment will thrive much better in the milder, sunnier climes closer to Mars' equator, making the search for accessible water there absolutely critical for sustainable exploration."
+      },
+      {
+        "heading": "Peering Beneath the Red Dust: How Scientists Are Finding Hidden Water",
+        "content": "Researchers at the Planetary Science Institute are using advanced techniques and statistical models to create detailed new maps of where water ice likely hides just beneath the Martian surface. These maps aren't just guesses; they assign a certainty score, helping NASA plan where to send future missions and what tools they'll need to confirm these vital hidden reservoirs."
+      }
+    ],
+    "funFacts": [
+      "Water on Mars isn't just for drinking; it can be broken down into oxygen for breathing and hydrogen for rocket fuel, making it indispensable for long-duration missions.",
+      "Finding water near the equator means better access to sunlight for solar-powered equipment and more moderate temperatures, which are essential for astronaut comfort and safety.",
+      "These new maps use statistical probabilities, acting like a cosmic weather forecast for water, guiding NASA to the most promising sites for future human exploration."
+    ],
+    "originalTitle": "Laying odds on the potential for Martian water near future landing zones",
+    "originalUrl": "https://phys.org/news/2026-07-laying-odds-potential-martian-future.html",
+    "id": "1785569583135-msowm",
+    "date": "2026-08-01T07:33:03.135Z"
+  },
+  {
     "title": "High-Flying Science: NASA Students Launch Missions to Monitor Earth's Atmosphere",
     "summary": "Under challenging conditions, student researchers with NASA's SARP program are gaining real-world experience by launching high-tech balloons to collect critical data on our atmosphere, directly contributing to our understanding of Earth's climate and air quality.",
     "sections": [
