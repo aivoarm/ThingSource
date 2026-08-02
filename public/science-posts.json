@@ -1,5 +1,79 @@
 [
   {
+    "title": "Celestial Canvas: The Buck Moon and Ethereal Belt of Venus",
+    "summary": "Prepare to be captivated by a rare astronomical and atmospheric spectacle: the powerful 'Buck Moon' rising as the delicate, rosy glow of the 'Belt of Venus' paints the opposite horizon, creating a stunning visual duet for sky gazers.",
+    "sections": [
+      {
+        "heading": "The Majestic Buck Moon",
+        "content": "The 'Buck Moon' refers to the full moon that typically occurs in July or early August, named by some Native American tribes. This name reflects the time of year when male deer (bucks) are actively growing their new antlers, marking a seasonal rhythm of nature. It’s a powerful celestial presence that has guided cultures for centuries."
+      },
+      {
+        "heading": "Unveiling the Belt of Venus",
+        "content": "Often mistaken for a cloud formation, the 'Belt of Venus' is actually a beautiful atmospheric optical phenomenon visible during twilight. It appears as a pinkish or brownish band of light just above the horizon, directly opposite where the sun has set or is about to rise. This ethereal glow is caused by sunlight scattering through Earth's atmosphere, painting a subtle yet striking arch across the sky."
+      },
+      {
+        "heading": "A Skywatcher's Serendipitous Pairing",
+        "content": "Witnessing the 'Buck Moon' alongside the 'Belt of Venus' offers a unique opportunity to appreciate both the cosmos and our planet's atmosphere in unison. While one is a grand celestial body, the other is a delicate trick of light and air, their combined appearance creates a memorable visual symphony for anyone looking towards the heavens at dawn or dusk."
+      }
+    ],
+    "funFacts": [
+      "The 'Buck Moon' is just one of many traditional full moon names, each reflecting natural occurrences or changes observed throughout the year by ancient cultures.",
+      "Despite its poetic name, the 'Belt of Venus' has no direct connection to the planet Venus; it’s purely an atmospheric effect.",
+      "To best observe the Belt of Venus, find a spot with clear horizons and look away from the setting or rising sun during the golden hours of twilight.",
+      "NASA's Astronomy Picture of the Day (APOD) website features a different image or photograph of our fascinating universe daily, accompanied by a brief explanation from a professional astronomer."
+    ],
+    "originalTitle": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-august-1-buck-moon-and-belt-of-venus/",
+    "id": "1785655956946-4j9s5",
+    "date": "2026-08-02T07:32:36.946Z"
+  },
+  {
+    "title": "Unveiling the Future of Flight: NASA Opens Advanced Wind Tunnel",
+    "summary": "A new chapter in aerospace innovation has begun as NASA officially opens its first major new wind tunnel in over 40 years, a state-of-the-art facility poised to revolutionize air travel and space exploration. This cutting-edge research hub will allow engineers to meticulously test and refine the aircraft and spacecraft of tomorrow, leading to safer, more efficient, and more capable designs.",
+    "sections": [
+      {
+        "heading": "A New Era for Flight Testing",
+        "content": "Imagine a highly controlled environment where engineers can expose models of airplanes and spacecraft to powerful, precisely calibrated winds, simulating real-world flight conditions. This is the essence of NASA's new Flight Dynamics Research Facility at Langley – a sophisticated wind tunnel representing the agency's first significant upgrade in over four decades, designed to meticulously examine aerodynamic forces."
+      },
+      {
+        "heading": "Shaping Tomorrow's Skies and Beyond",
+        "content": "This state-of-the-art facility is more than just a testing ground; it's a vital tool for advancing NASA's ambitious goals. Research conducted here will directly influence the development of quieter, more fuel-efficient passenger jets, innovative drone technologies, and even the next generation of rockets and spacecraft, fundamentally shaping the future of both terrestrial and extraterrestrial flight."
+      }
+    ],
+    "funFacts": [
+      "This facility is NASA's first major new wind tunnel built in over 40 years, highlighting a renewed investment in foundational aeronautics and space research.",
+      "Located at NASA's Langley Research Center in Virginia, a site with over a century of pioneering contributions to aviation and spaceflight.",
+      "The research conducted here will help optimize everything from quieter commercial aircraft and urban air mobility vehicles to spacecraft designs for missions to the Moon and Mars."
+    ],
+    "originalTitle": "NASA&#8217;s Newest Wind Tunnel Opens at NASA Langley",
+    "originalUrl": "https://www.nasa.gov/image-article/nasas-newest-wind-tunnel-opens-at-nasa-langley/",
+    "id": "1785655965803-cor4j",
+    "date": "2026-08-02T07:32:45.803Z"
+  },
+  {
+    "title": "Europe's Fiery Future: Why We Need to Rethink How We Fight Wildfires",
+    "summary": "Europe is grappling with a paradox: aggressively extinguishing small wildfires has inadvertently created conditions ripe for colossal blazes, a dangerous reality amplified by climate change. Experts are now urging a fundamental shift in strategy to embrace a more natural approach to fire management.",
+    "sections": [
+      {
+        "heading": "The Hidden Danger of \"Always Extinguish\"",
+        "content": "For decades, the immediate response to any wildfire has been full suppression, aiming to put out every flame. While this seems logical, it has allowed flammable vegetation to build up unchecked, transforming forests and grasslands into tinderboxes waiting for a spark. This accumulated \"fuel load\" ensures that when fires inevitably start, they burn far hotter, faster, and are much harder to control than they would naturally be."
+      },
+      {
+        "heading": "Learning to Live with Fire: A Smarter Approach",
+        "content": "Experts now advocate for a more nuanced strategy that acknowledges fire's natural role in many ecosystems. This involves proactive measures like controlled burns to clear undergrowth, creating firebreaks, and restoring landscapes with more fire-resistant species. By strategically allowing or managing smaller fires, we can prevent the catastrophic mega-blazes that devastate communities and ecosystems, making our landscapes truly fire-resilient."
+      }
+    ],
+    "funFacts": [
+      "Some pine cones, like those from Lodgepole Pines, only release their seeds and regenerate after being exposed to the intense heat of a wildfire.",
+      "Globally, over 80% of wildfires are started by human activities, ranging from campfires to power lines, even though natural factors like lightning also play a role.",
+      "A single large wildfire can release as much carbon dioxide into the atmosphere as millions of cars, creating a feedback loop that intensifies climate change."
+    ],
+    "originalTitle": "How Europe can make its landscapes more fire-resilient",
+    "originalUrl": "https://www.newscientist.com/article/2582716-how-europe-can-make-its-landscapes-more-fire-resilient/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1785655974806-kabpx",
+    "date": "2026-08-02T07:32:54.806Z"
+  },
+  {
     "title": "Rivers Running Dry: How Extreme Heat is Forcing Hungary's Nuclear Plant Offline",
     "summary": "A relentless heatwave in Central Europe is forcing Hungary to power down its sole nuclear plant, revealing a critical vulnerability where dwindling river waters, essential for cooling, are directly impacting our most reliable energy sources.",
     "sections": [
