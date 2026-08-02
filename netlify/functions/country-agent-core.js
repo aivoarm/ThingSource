@@ -28,7 +28,7 @@ Do all of the following in one response. Return ONLY a raw JSON object with no m
   "news": {
     "title": "Recent News Title",
     "content": "2-3 sentences summarizing a real, recent positive or interesting news story about ${country}.",
-    "url": "Verifiable citation/source URL for the news"
+    "url": "A real, direct public news website source URL (e.g. BBC, Reuters, or local news). Do NOT use internal Google Cloud 'vertexaisearch.cloud.google.com' links."
   }
 }`;
 
