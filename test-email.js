@@ -38,8 +38,24 @@ try {
   console.error("Failed to read science-posts for test email:", err.message);
 }
 
-const htmlContent = buildEmailHtml(testPost, unsubUrl, scienceArticles);
-const textContent = buildPlainTextEmail(testPost, unsubUrl, scienceArticles);
+let countryPosts = [];
+try {
+  const countryPostsPath = path.join(__dirname, 'public/country-posts.json');
+  if (fs.existsSync(countryPostsPath)) {
+    countryPosts = JSON.parse(fs.readFileSync(countryPostsPath, 'utf8'));
+  }
+} catch (err) {
+  console.error("Failed to read country-posts for test email:", err.message);
+}
+
+const mockPrefs = {
+  thingsource: true,
+  science: true,
+  countries: ["Portugal", "Spain"]
+};
+
+const htmlContent = buildEmailHtml(mockPrefs, testPost, unsubUrl, scienceArticles, countryPosts);
+const textContent = buildPlainTextEmail(mockPrefs, testPost, unsubUrl, scienceArticles, countryPosts);
 
 console.log("Generated Email HTML Length:", htmlContent.length);
 console.log("Sending test email to aayvazy@gmail.com...");

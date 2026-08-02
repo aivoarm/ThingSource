@@ -165,19 +165,13 @@ async function runAgent(customTopic = null) {
 
     const avoidList = usedTopics.join(", ");
 
-    // Extract previous Portuguese phrases to prevent duplicates
-    const usedPortuguese = [];
-    existingPosts.forEach(p => {
-      if (p.portuguesePhrases && Array.isArray(p.portuguesePhrases)) {
-        p.portuguesePhrases.forEach(ph => {
-          if (ph.phrase) usedPortuguese.push(ph.phrase);
-        });
-      } else if (p.portuguesePhrase?.phrase) {
-        usedPortuguese.push(p.portuguesePhrase.phrase);
-      }
-    });
+    // Extract previous Portugal facts to prevent duplicates
+    const usedPortugalFacts = existingPosts
+      .map(p => p.portugalFact?.title)
+      .filter(Boolean)
+      .slice(0, 50);
 
-    const avoidPortugueseList = usedPortuguese.slice(0, 100).join(", ");
+    const avoidPortugalFactsList = usedPortugalFacts.join(", ");
 
     // Category rotation
     const recentCategories = existingPosts
@@ -212,13 +206,10 @@ Choose something completely different and not on that list.${categoryNudge}
  
 2. Use Google Search to research it thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
  
-3. Write a complete blog post about it.
-
-4. Generate exactly 3 essential Portuguese Travel Phrases of the Day.
-   - They must be useful phrases for a tourist traveling to Portugal.
-   - Use European Portuguese vocabulary and spelling (e.g. 'casa de banho' instead of Brazilian 'banheiro').
-   - They must be completely different from these recently used phrases:
-     ${avoidPortugueseList || "None yet"}
+3. Write a complete blog post about i4. Generate a fascinating fact, historical snippet, or cultural discovery about Portugal.
+   - It must have a title and content (2-3 sentences).
+   - It must be completely different from these recently used facts/topics:
+     ${avoidPortugalFactsList || "None yet"}
  
 ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
@@ -239,26 +230,10 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   "funFacts": ["fact 1", "fact 2", "fact 3"],
   "imageKeywords": ["simple keyword", "simple keyword"],
   "citations": ["url1", "url2"],
-  "portuguesePhrases": [
-    {
-      "phrase": "essential Portuguese travel phrase 1 (e.g. 'Onde fica a casa de banho?')",
-      "translation": "English translation (e.g. 'Where is the bathroom?')",
-      "pronunciation": "Phonetic pronunciation guide for English speakers (e.g. 'OHN-deh FEE-kuh uh KAH-zuh deh BAHN-yoo')",
-      "situation": "1-2 short sentences describing the travel context/when to use it in Portugal"
-    },
-    {
-      "phrase": "essential Portuguese travel phrase 2",
-      "translation": "English translation",
-      "pronunciation": "Phonetic pronunciation guide",
-      "situation": "1-2 short sentences describing the travel context"
-    },
-    {
-      "phrase": "essential Portuguese travel phrase 3",
-      "translation": "English translation",
-      "pronunciation": "Phonetic pronunciation guide",
-      "situation": "1-2 short sentences describing the travel context"
-    }
-  ]
+  "portugalFact": {
+    "title": "A short engaging title for the Portugal fact",
+    "content": "2-3 engaging sentences describing the fact/history/culture."
+  }
 }`;
  
     const claudePromptOverride = `You are a research blogger.
@@ -275,12 +250,11 @@ Choose something completely different and not on that list.${categoryNudge}
 2. Using your training knowledge, research the topic thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
  
 3. Write a complete blog post about it.
-
-4. Generate exactly 3 essential Portuguese Travel Phrases of the Day.
-   - They must be useful phrases for a tourist traveling to Portugal.
-   - Use European Portuguese vocabulary and spelling (e.g. 'casa de banho' instead of Brazilian 'banheiro').
-   - They must be completely different from these recently used phrases:
-     ${avoidPortugueseList || "None yet"}
+ 
+4. Generate a fascinating fact, historical snippet, or cultural discovery about Portugal.
+   - It must have a title and content (2-3 sentences).
+   - It must be completely different from these recently used facts/topics:
+     ${avoidPortugalFactsList || "None yet"}
  
 ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
@@ -301,26 +275,10 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   "funFacts": ["fact 1", "fact 2", "fact 3"],
   "imageKeywords": ["simple keyword", "simple keyword"],
   "citations": ["url1", "url2"],
-  "portuguesePhrases": [
-    {
-      "phrase": "essential Portuguese travel phrase 1 (e.g. 'Onde fica a casa de banho?')",
-      "translation": "English translation (e.g. 'Where is the bathroom?')",
-      "pronunciation": "Phonetic pronunciation guide for English speakers (e.g. 'OHN-deh FEE-kuh uh KAH-zuh deh BAHN-yoo')",
-      "situation": "1-2 short sentences describing the travel context/when to use it in Portugal"
-    },
-    {
-      "phrase": "essential Portuguese travel phrase 2",
-      "translation": "English translation",
-      "pronunciation": "Phonetic pronunciation guide",
-      "situation": "1-2 short sentences describing the travel context"
-    },
-    {
-      "phrase": "essential Portuguese travel phrase 3",
-      "translation": "English translation",
-      "pronunciation": "Phonetic pronunciation guide",
-      "situation": "1-2 short sentences describing the travel context"
-    }
-  ]
+  "portugalFact": {
+    "title": "A short engaging title for the Portugal fact",
+    "content": "2-3 engaging sentences describing the fact/history/culture."
+  }
 }`;
 
     let postData;

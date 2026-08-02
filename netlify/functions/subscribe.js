@@ -50,6 +50,13 @@ exports.handler = async (event, context) => {
       };
     }
 
+    // Capture subscriber preferences
+    const preferences = body.preferences || {
+      thingsource: true,
+      science: true,
+      countries: []
+    };
+
     const store = getStore({
       name: "subscribers",
       siteID: process.env.NETLIFY_SITE_ID,
@@ -74,7 +81,8 @@ exports.handler = async (event, context) => {
     await store.set(key, JSON.stringify({
       email,
       token,
-      subscribedAt: new Date().toISOString()
+      subscribedAt: new Date().toISOString(),
+      preferences
     }));
 
     // Send welcome email via Resend
@@ -92,7 +100,7 @@ exports.handler = async (event, context) => {
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:24px;color:#1a1a1a">
   <h1>Welcome to ThingSource!</h1>
-  <p>Thank you for subscribing. You'll receive one surprising origin story of an everyday thing in your inbox every morning.</p>
+  <p>Thank you for subscribing. You'll receive your customized daily origin stories, science snippets, and country facts in your inbox every morning.</p>
   <p>Visit the blog at <a href="${siteUrl}">${siteUrl}</a> to view the archive.</p>
   <hr style="border:none;border-top:1px solid #eee;margin:32px 0;">
   <p style="font-size:12px;color:#999;">

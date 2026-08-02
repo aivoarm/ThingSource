@@ -20,3 +20,6 @@
 
 [functions."science-agent"]
   schedule = "30 7 * * *"
+
+[functions."country-agent"]
+  schedule = "45 7 * * *"

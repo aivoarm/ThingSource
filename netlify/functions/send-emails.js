@@ -40,57 +40,66 @@ async function fetchScienceSimpleArticles() {
   return [];
 }
 
+async function fetchCountryPosts() {
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const localPath = path.join(__dirname, '../../public/country-posts.json');
+    if (fs.existsSync(localPath)) {
+      const data = JSON.parse(fs.readFileSync(localPath, 'utf8'));
+      return data;
+    }
+  } catch (err) {
+    console.error("[send-emails] Error reading local country-posts.json:", err.message);
+  }
 
+  // Fallback to HTTP fetch
+  try {
+    const siteUrl = process.env.URL || "https://ts.armanayva.com";
+    const res = await fetch(`${siteUrl}/country-posts.json`);
+    if (res.ok) {
+      const data = await res.json();
+      return data;
+    }
+  } catch (err) {
+    console.error("[send-emails] Error fetching country-posts.json:", err.message);
+  }
+  return [];
+}
 
 // ─── Plain-text builder ────────────────────────────────────────────────────
-function buildPlainTextEmail(post, unsubUrl, scienceArticles = []) {
+function buildPlainTextEmail(subscriberPreferences, post, unsubUrl, scienceArticles = [], countryPosts = []) {
+  const prefs = subscriberPreferences || { thingsource: true };
   let text = "";
-  text += `THINGSOURCE (https://ts.armanayva.com) — CURIOUS ORIGINS DAILY\n\n`;
-  text += `${post.title}\n`;
-  text += `${"=".repeat(post.title.length)}\n\n`;
-  text += `${post.summary}\n\n`;
-
-  for (const section of (post.sections || []).slice(0, 2)) {
-    text += `${section.heading}\n`;
-    text += `${"-".repeat(section.heading.length)}\n`;
-    const plain = section.content
-      .replace(/\*\*(.*?)\*\*/g, "$1")
-      .replace(/\*(.*?)\*/g, "$1");
-    text += `${plain}\n\n`;
-  }
+  text += `THINGSOURCE (https://ts.armanayva.com) — YOUR MORNING DIGEST\n\n`;
 
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
-  text += `Read the full story online at: ${postUrl}\n\n`;
 
-  if (post.joke) {
-    text += `---
-🎭 JOKE OF THE DAY
+  if (prefs.thingsource !== false) {
+    text += `${post.title}\n`;
+    text += `${"=".repeat(post.title.length)}\n\n`;
+    text += `${post.summary}\n\n`;
 
-"${post.joke.setup || post.joke.joke}"
-${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punchline + '\n' : ''}
-— ${post.joke.comedian} · ${post.joke.year}
+    for (const section of (post.sections || []).slice(0, 2)) {
+      text += `${section.heading}\n`;
+      text += `${"-".repeat(section.heading.length)}\n`;
+      const plain = section.content
+        .replace(/\*\*(.*?)\*\*/g, "$1")
+        .replace(/\*(.*?)\*/g, "$1");
+      text += `${plain}\n\n`;
+    }
 
-`;
+    text += `Read the full story online at: ${postUrl}\n\n`;
+
+    if (post.joke) {
+      text += `---\n🎭 JOKE OF THE DAY\n\n`;
+      text += `"${post.joke.setup || post.joke.joke}"\n`;
+      text += `${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punchline + '\n' : ''}`;
+      text += `— ${post.joke.comedian} · ${post.joke.year}\n\n`;
+    }
   }
 
-  const phrases = post.portuguesePhrases || (post.portuguesePhrase ? [post.portuguesePhrase] : []);
-  if (phrases.length > 0) {
-    text += `---
-🇵🇹 PORTUGUÊS DIÁRIO (Daily Portuguese Travel Phrases)
-
-`;
-    phrases.forEach((ph, idx) => {
-      text += `${idx + 1}. "${ph.phrase}"
-   Translation: "${ph.translation}"
-   Pronunciation: [ ${ph.pronunciation} ]
-   Situation/Context: ${ph.situation}
-   Listen to Pronunciation: ${ph.audioUrl}
-
-`;
-    });
-  }
-
-  if (scienceArticles && scienceArticles.length > 0) {
+  if (prefs.science === true && scienceArticles && scienceArticles.length > 0) {
     text += `---\n🚀 SCIENCESIMPLE — DAILY SCIENCE MADE SIMPLE\n\n`;
     scienceArticles.forEach((art) => {
       text += `${art.title}\n`;
@@ -115,6 +124,22 @@ ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punc
     });
   }
 
+  if (prefs.countries && Array.isArray(prefs.countries) && prefs.countries.length > 0 && countryPosts && countryPosts.length > 0) {
+    prefs.countries.forEach(countryName => {
+      const countryPost = countryPosts.find(p => p.country.toLowerCase() === countryName.toLowerCase());
+      if (countryPost) {
+        text += `---\n🇵🇹 COUNTRIES CORNER: ${countryPost.country.toUpperCase()}\n\n`;
+        text += `Fact of the Day: ${countryPost.fact.title}\n`;
+        text += `${countryPost.fact.content}\n\n`;
+        text += `Cultural Insight: ${countryPost.culture.title}\n`;
+        text += `${countryPost.culture.content}\n\n`;
+        text += `News & Events: ${countryPost.news.title}\n`;
+        text += `${countryPost.news.content}\n`;
+        text += `Source: ${countryPost.news.url}\n\n`;
+      }
+    });
+  }
+
   text += `---\n`;
   text += `♪ SPONSORED BY ARMAN AYVA\n\n`;
   text += `ThingSource is built and maintained by Arman Ayva,\n`;
@@ -125,10 +150,12 @@ ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punc
   text += `To say thank you: search "Arman Ayva" on Spotify\n`;
   text += `and give his music a listen. It costs you nothing.\n\n`;
 
-  text += `---\n`;
-  text += `SHARE THIS STORY\n`;
-  text += `Share on X: https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent(postUrl)}\n`;
-  text += `Share on LinkedIn: https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(postUrl)}\n\n`;
+  if (prefs.thingsource !== false) {
+    text += `---\n`;
+    text += `SHARE THIS STORY\n`;
+    text += `Share on X: https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent(postUrl)}\n`;
+    text += `Share on LinkedIn: https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(postUrl)}\n\n`;
+  }
 
   text += `---\n`;
   text += `You received this because you subscribed to ThingSource.\n`;
@@ -139,91 +166,116 @@ ${post.joke.punchline && post.joke.punchline !== post.joke.joke ? post.joke.punc
 
 // ─── HTML builder ─────────────────────────────────────────────────────────
 // ─── HTML builder ─────────────────────────────────────────────────────────
-function buildEmailHtml(post, unsubUrl, scienceArticles = []) {
+function buildEmailHtml(subscriberPreferences, post, unsubUrl, scienceArticles = [], countryPosts = []) {
+  const prefs = subscriberPreferences || { thingsource: true };
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
 
-  const htmlPhrases = post.portuguesePhrases || (post.portuguesePhrase ? [post.portuguesePhrase] : []);
-  const portuguesePhrasesHtml = htmlPhrases.length > 0 ? `
-<div style="
-  background: #EBFBFA;
-  border-left: 4px solid #0D7A6B;
-  border-radius: 8px;
-  padding: 24px;
-  margin: 32px 0;">
+  let thingsourceHtml = "";
+  if (prefs.thingsource !== false) {
+    const sectionsHtml = (post.sections || []).slice(0, 2).map((section) => {
+      const content = section.content
+        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+        .replace(/\*(.*?)\*/g, "<em>$1</em>")
+        .replace(/\n/g, "<br>");
+      return `
+    <h2 style="font-family:Georgia,serif;font-size:18px;color:#1C1C1E;margin:28px 0 8px;line-height:1.3">${section.heading}</h2>
+    <p style="font-size:14px;line-height:1.75;color:#333;margin:0 0 16px">${content}</p>`;
+    }).join("");
+
+    thingsourceHtml = `
+    <!-- Post title & summary -->
+    <h1 style="font-family:Georgia,serif;font-size:24px;color:#1C1C1E;margin:0 0 10px;line-height:1.3">${post.title}</h1>
+    <p style="font-size:15px;color:#444;font-style:italic;margin:0 0 20px;line-height:1.6">${post.summary}</p>
   
-  <p style="
-    font-size: 11px;
-    color: #0D7A6B;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    margin: 0 0 16px;
-    font-weight: bold;
-    font-family: Arial, sans-serif;">
-    🇵🇹 Português Diário · Daily Travel Phrases
-  </p>
+    <!-- Preview sections -->
+    ${sectionsHtml}
   
-  ${htmlPhrases.map((ph, idx) => `
-    ${idx > 0 ? '<hr style="border:none;border-top:1px dashed #BCEEEC;margin:16px 0">' : ''}
-    <p style="
-      font-size: 18px;
-      color: #1C1C1E;
-      font-weight: bold;
-      margin: 0 0 4px;
-      font-family: Georgia, serif;">
-      ${ph.phrase}
-    </p>
-    
-    <p style="
-      font-size: 14px;
-      color: #555;
-      margin: 0 0 8px;
-      font-family: Arial, sans-serif;
-      font-style: italic;">
-      &ldquo;${ph.translation}&rdquo;
-    </p>
-    
-    <p style="
-      font-size: 13px;
-      color: #333;
-      margin: 0 0 12px;
-      font-family: Arial, sans-serif;
-      line-height: 1.5;">
-      <strong>Pronunciation:</strong> <span style="background: #D5F6F4; padding: 2px 6px; border-radius: 4px; font-family: monospace;">${ph.pronunciation}</span>
-      <br>
-      <span style="display: block; margin-top: 6px;"><strong>Where to use:</strong> ${ph.situation}</span>
-    </p>
-    
-    <div>
-      <a href="${ph.audioUrl}" style="
-        display: inline-block;
-        background-color: #0D7A6B;
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 11px;
-        padding: 6px 12px;
-        border-radius: 4px;
-        font-family: Arial, sans-serif;">
-        🔊 Listen to Pronunciation
+    <!-- Read full post button -->
+    <div style="margin: 32px 0; text-align: center;">
+      <a href="${postUrl}" style="display: inline-block; background-color: #0D7A6B; color: #ffffff; text-decoration: none; font-weight: bold; font-size: 16px; padding: 14px 28px; border-radius: 8px; font-family: 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        Read more on website
       </a>
     </div>
-  `).join("")}
-</div>
-` : "";
+  
+    ${post.joke ? `
+  <div style="
+    background:#FFF9E6;
+    border:2px dashed #FFC107;
+    border-radius:8px;
+    padding:24px;
+    margin:32px 0;">
+    
+    <p style="
+      font-size:11px;
+      color:#856404;
+      text-transform:uppercase;
+      letter-spacing:0.12em;
+      margin:0 0 16px;
+      font-weight:bold;
+      font-family:Arial,sans-serif;">
+      🎭 Joke of the Day
+    </p>
+    
+    <p style="
+      font-size:18px;
+      color:#2D2D2D;
+      line-height:1.6;
+      margin:0 0 8px;
+      font-style:italic;
+      font-family:Georgia,serif;">
+      "${post.joke.setup || post.joke.joke}"
+    </p>
+    
+    ${post.joke.punchline && 
+      post.joke.punchline !== post.joke.joke ? `
+    <p style="
+      font-size:20px;
+      color:#D9381E;
+      font-weight:bold;
+      margin:0 0 16px;
+      font-family:Georgia,serif;">
+      ${post.joke.punchline}
+    </p>` : ""}
+    
+    <p style="
+      font-size:13px;
+      color:#6A5A52;
+      margin:0;
+      font-family:Arial,sans-serif;">
+      — ${post.joke.comedian} · ${post.joke.year}
+    </p>
+  </div>` : ""}
+  
+    <!-- Share block -->
+    <div style="margin:28px 0;padding:18px 20px;border:1px solid #eee;border-radius:8px;text-align:center">
+      <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 14px;font-weight:bold">Enjoyed this? Share it</p>
+      <table border="0" cellpadding="0" cellspacing="0" style="margin:0 auto">
+        <tr>
+          <td style="padding:0 6px">
+            <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent(postUrl)}"
+               style="display:inline-block;background:#000;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
+              𝕏 Share
+            </a>
+          </td>
+          <td style="padding:0 6px">
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(postUrl)}"
+               style="display:inline-block;background:#0A66C2;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
+              in LinkedIn
+            </a>
+          </td>
+          <td style="padding:0 6px">
+            <a href="https://wa.me/?text=${encodeURIComponent(post.title + ' — ' + postUrl)}"
+               style="display:inline-block;background:#25D366;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
+              WhatsApp
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    `;
+  }
 
-  // Render first 2 sections (paragraphs 2 and 3)
-  const sectionsHtml = (post.sections || []).slice(0, 2).map((section, idx) => {
-    // Strip basic markdown bold/italic for email safety
-    const content = section.content
-      .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\*(.*?)\*/g, "<em>$1</em>")
-      .replace(/\n/g, "<br>");
-    return `
-  <h2 style="font-family:Georgia,serif;font-size:18px;color:#1C1C1E;margin:28px 0 8px;line-height:1.3">${section.heading}</h2>
-  <p style="font-size:14px;line-height:1.75;color:#333;margin:0 0 16px">${content}</p>`;
-  }).join("");
-
-  const scienceArticlesHtml = scienceArticles && scienceArticles.length > 0 ? `
+  const scienceArticlesHtml = prefs.science === true && scienceArticles && scienceArticles.length > 0 ? `
   <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
   <div style="margin:24px 0; background-color:#F5F3FF; border:1px solid #DDD6FE; border-radius:12px; padding:24px 28px;">
     <p style="font-family:Arial,sans-serif;font-size:12px;color:#7C3AED;text-transform:uppercase;letter-spacing:0.12em;margin:0 0 24px;font-weight:bold;text-align:center;">🚀 ScienceSimple — Daily Science Made Simple</p>
@@ -255,6 +307,58 @@ function buildEmailHtml(post, unsubUrl, scienceArticles = []) {
   </div>
   ` : "";
 
+  let countriesHtml = "";
+  if (prefs.countries && Array.isArray(prefs.countries) && prefs.countries.length > 0 && countryPosts && countryPosts.length > 0) {
+    prefs.countries.forEach(countryName => {
+      const countryPost = countryPosts.find(p => p.country.toLowerCase() === countryName.toLowerCase());
+      if (countryPost) {
+        countriesHtml += `
+  <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
+  <div style="
+    background: #FFF9E6;
+    border-left: 4px solid #D9381E;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 32px 0;">
+    
+    <p style="
+      font-size: 11px;
+      color: #D9381E;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin: 0 0 16px;
+      font-weight: bold;
+      font-family: Arial, sans-serif;">
+      🇵🇹 Countries Corner: ${countryPost.country}
+    </p>
+    
+    <!-- Fact section -->
+    <h4 style="font-family:Georgia,serif;font-size:16px;color:#1C1C1E;margin:0 0 6px;line-height:1.3">💡 Fact of the Day: ${countryPost.fact.title}</h4>
+    <p style="font-size:14px;line-height:1.6;color:#333;margin:0 0 20px">${countryPost.fact.content}</p>
+    
+    <!-- Culture section -->
+    <h4 style="font-family:Georgia,serif;font-size:16px;color:#1C1C1E;margin:0 0 6px;line-height:1.3">🎭 Cultural Insight: ${countryPost.culture.title}</h4>
+    <p style="font-size:14px;line-height:1.6;color:#333;margin:0 0 20px">${countryPost.culture.content}</p>
+    
+    <!-- News section -->
+    <h4 style="font-family:Georgia,serif;font-size:16px;color:#1C1C1E;margin:0 0 6px;line-height:1.3">📰 News & Events: ${countryPost.news.title}</h4>
+    <p style="font-size:14px;line-height:1.6;color:#333;margin:0 0 12px">${countryPost.news.content}</p>
+    
+    <div>
+      <a href="${countryPost.news.url}" style="
+        display: inline-block;
+        color: #D9381E;
+        text-decoration: underline;
+        font-size: 13px;
+        font-family: Arial, sans-serif;">
+        Read full news source →
+      </a>
+    </div>
+  </div>`;
+      }
+    });
+  }
+
   return `<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -264,77 +368,16 @@ function buildEmailHtml(post, unsubUrl, scienceArticles = []) {
   <p style="font-family:Georgia,serif;font-size:22px;font-weight:bold;margin:0 0 4px">
     <a href="https://ts.armanayva.com" style="color:#0D7A6B;text-decoration:none">ThingSource</a>
   </p>
-  <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.08em;margin:0 0 24px">Curious Origins Daily</p>
+  <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.08em;margin:0 0 24px">Your Morning Digest</p>
 
   <hr style="border:none;border-top:1px solid #eee;margin:0 0 24px">
 
-  <!-- Post title & summary -->
-  <h1 style="font-family:Georgia,serif;font-size:24px;color:#1C1C1E;margin:0 0 10px;line-height:1.3">${post.title}</h1>
-  <p style="font-size:15px;color:#444;font-style:italic;margin:0 0 20px;line-height:1.6">${post.summary}</p>
-
-  <!-- Preview sections -->
-  ${sectionsHtml}
-
-  <!-- Read full post button -->
-  <div style="margin: 32px 0; text-align: center;">
-    <a href="${postUrl}" style="display: inline-block; background-color: #0D7A6B; color: #ffffff; text-decoration: none; font-weight: bold; font-size: 16px; padding: 14px 28px; border-radius: 8px; font-family: 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      Read more on website
-    </a>
-  </div>
-
-  ${post.joke ? `
-<div style="
-  background:#FFF9E6;
-  border:2px dashed #FFC107;
-  border-radius:8px;
-  padding:24px;
-  margin:32px 0;">
+  <!-- Content Sections -->
+  ${thingsourceHtml}
   
-  <p style="
-    font-size:11px;
-    color:#856404;
-    text-transform:uppercase;
-    letter-spacing:0.12em;
-    margin:0 0 16px;
-    font-weight:bold;
-    font-family:Arial,sans-serif;">
-    🎭 Joke of the Day
-  </p>
-  
-  <p style="
-    font-size:18px;
-    color:#2D2D2D;
-    line-height:1.6;
-    margin:0 0 8px;
-    font-style:italic;
-    font-family:Georgia,serif;">
-    "${post.joke.setup || post.joke.joke}"
-  </p>
-  
-  ${post.joke.punchline && 
-    post.joke.punchline !== post.joke.joke ? `
-  <p style="
-    font-size:20px;
-    color:#D9381E;
-    font-weight:bold;
-    margin:0 0 16px;
-    font-family:Georgia,serif;">
-    ${post.joke.punchline}
-  </p>` : ""}
-  
-  <p style="
-    font-size:13px;
-    color:#6A5A52;
-    margin:0;
-    font-family:Arial,sans-serif;">
-    — ${post.joke.comedian} · ${post.joke.year}
-  </p>
-  
-</div>` : ""}
-
-  ${portuguesePhrasesHtml}
-
   ${scienceArticlesHtml}
+  
+  ${countriesHtml}
 
   <!-- Sponsor block — Spotify music promotion -->
   <div style="background:#F8F6F1;border-radius:8px;padding:20px 24px;margin:32px 0;border-left:4px solid #0D7A6B">
@@ -350,33 +393,6 @@ function buildEmailHtml(post, unsubUrl, scienceArticles = []) {
       <p style="font-size:13px;color:white;font-weight:bold;margin:0;font-family:Arial,sans-serif">▶ Search &ldquo;Arman Ayva&rdquo; on Spotify</p>
     </div>
     <p style="font-size:12px;color:#999;margin:12px 0 0;font-family:Arial,sans-serif">Your streams cost nothing and mean everything. Thank you for supporting independent creators.</p>
-  </div>
-
-  <!-- Share block -->
-  <div style="margin:28px 0;padding:18px 20px;border:1px solid #eee;border-radius:8px;text-align:center">
-    <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.1em;margin:0 0 14px;font-weight:bold">Enjoyed this? Share it</p>
-    <table border="0" cellpadding="0" cellspacing="0" style="margin:0 auto">
-      <tr>
-        <td style="padding:0 6px">
-          <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title + ' — via @ThingSource')}&url=${encodeURIComponent(postUrl)}"
-             style="display:inline-block;background:#000;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
-            𝕏 Share
-          </a>
-        </td>
-        <td style="padding:0 6px">
-          <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(postUrl)}"
-             style="display:inline-block;background:#0A66C2;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
-            in LinkedIn
-          </a>
-        </td>
-        <td style="padding:0 6px">
-          <a href="https://wa.me/?text=${encodeURIComponent(post.title + ' — ' + postUrl)}"
-             style="display:inline-block;background:#25D366;color:#fff;font-size:12px;font-weight:bold;padding:8px 16px;border-radius:4px;text-decoration:none;font-family:'Helvetica Neue',Arial,sans-serif">
-            WhatsApp
-          </a>
-        </td>
-      </tr>
-    </table>
   </div>
 
   <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
@@ -421,6 +437,7 @@ exports.handler = async (event) => {
     }
 
     const scienceArticles = await fetchScienceSimpleArticles();
+    const countryPosts = await fetchCountryPosts();
 
     log(`Fetching subscribers from Netlify Blobs for post: "${postData.title}"`);
     const store = getStore({
@@ -458,8 +475,8 @@ exports.handler = async (event) => {
               replyTo: process.env.RESEND_FROM || "thingsource@ts.armanayva.com",
               to: subscriberData.email,
               subject: `${postData.title} · ThingSource`,
-              html: buildEmailHtml(postData, unsubUrl, scienceArticles),
-              text: buildPlainTextEmail(postData, unsubUrl, scienceArticles),
+              html: buildEmailHtml(subscriberData.preferences, postData, unsubUrl, scienceArticles, countryPosts),
+              text: buildPlainTextEmail(subscriberData.preferences, postData, unsubUrl, scienceArticles, countryPosts),
               // No tracking options — clean send
             });
 

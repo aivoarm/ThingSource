@@ -230,6 +230,47 @@ function openPost(id) {
     renderedSections = inlineAdHtml;
   }
 
+  // Portugal Corner
+  const portugalCornerHtml = post.portugalFact
+    ? `
+      <div class="portugal-corner-box" style="
+        background: linear-gradient(135deg, rgba(217, 56, 30, 0.08) 0%, rgba(255, 193, 7, 0.08) 100%);
+        border-left: 4px solid #D9381E;
+        padding: 1.5rem;
+        border-radius: 0 16px 16px 0;
+        margin: 2rem 0;
+      ">
+        <h4 style="
+          font-family: var(--font-display);
+          font-size: 0.85rem;
+          color: #D9381E;
+          margin-bottom: 0.5rem;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+          font-weight: 700;
+        ">
+          🇵🇹 Portugal Corner
+        </h4>
+        <h5 style="
+          font-family: var(--font-display);
+          font-size: 1.1rem;
+          color: #1C1C1E;
+          margin-bottom: 0.5rem;
+          font-weight: 600;
+        ">
+          ${escapeHtml(post.portugalFact.title)}
+        </h5>
+        <p style="
+          font-size: 0.95rem;
+          color: #333;
+          line-height: 1.6;
+          margin: 0;
+        ">
+          ${escapeHtml(post.portugalFact.content)}
+        </p>
+      </div>
+    ` : '';
+
   // Fun facts
   const factsHtml = post.funFacts && post.funFacts.length > 0 
     ? `
@@ -336,6 +377,7 @@ function openPost(id) {
       <div class="post-detail-body">
         ${renderedSections}
       </div>
+      ${portugalCornerHtml}
       ${factsHtml}
       ${jokeHtml}
       <div style="
@@ -421,6 +463,22 @@ async function handleSubscribeNewsletter(e) {
   e.preventDefault();
   const email = inputSubscribeEmail.value.trim();
   if (!email) return;
+  const thingsourcePref = document.getElementById('pref-thingsource')?.checked !== false;
+  const sciencePref = document.getElementById('pref-science')?.checked === true;
+  const countriesCheck = document.getElementById('pref-countries')?.checked === true;
+  
+  const countries = [];
+  if (countriesCheck) {
+    document.querySelectorAll('.pref-country-item:checked').forEach(cb => {
+      countries.push(cb.value);
+    });
+  }
+
+  const preferences = {
+    thingsource: thingsourcePref,
+    science: sciencePref,
+    countries: countries
+  };
 
   const submitBtn = formSubscribe.querySelector('.subscribe-btn');
   submitBtn.disabled = true;
@@ -431,7 +489,7 @@ async function handleSubscribeNewsletter(e) {
     const response = await fetch('/.netlify/functions/subscribe', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email })
+      body: JSON.stringify({ email, preferences })
     });
     
     const data = await response.json();
