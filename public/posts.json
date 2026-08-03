@@ -1,5 +1,62 @@
 [
   {
+    "topic": "Post-it Notes",
+    "title": "The Accidental Stick: How Post-it Notes Went from 'Failed' Glue to Global Icon",
+    "category": "Inventions",
+    "summary": "Discover the unlikely journey of Post-it Notes, an everyday essential born from a chemist's 'failed' adhesive and a church choir member's clever idea.",
+    "sections": [
+      {
+        "heading": "A Solution Without a Problem",
+        "content": "The story of the Post-it Note begins in 1968, when 3M scientist Spencer Silver was attempting to create a super-strong adhesive for the aerospace industry. Instead, he accidentally developed a unique 'low-tack' adhesive that stuck lightly to surfaces, could be removed without residue, and was reusable. Initially, this peculiar invention was seen as a 'solution without a problem' and struggled to find a practical application within 3M for several years."
+      },
+      {
+        "heading": "The Choir Member's Breakthrough",
+        "content": "The breakthrough came in 1974 when Art Fry, a fellow 3M scientist and a member of his church choir, grew frustrated with his paper bookmarks falling out of his hymnal. Remembering Silver's unique adhesive, Fry realized it was the perfect solution: a bookmark that would stick to pages without damaging them and could be easily repositioned. He began using Silver's adhesive on small pieces of paper, creating the first prototypes of what would become the Post-it Note."
+      },
+      {
+        "heading": "From 'Press 'n Peel' to Global Phenomenon",
+        "content": "After early internal trials, 3M first launched the product as 'Press 'n Peel' notes in 1977, but initial sales were discouraging as customers didn't understand its purpose. However, a pivotal moment arrived with the 'Boise Blitz' in 1979, a massive free sampling campaign in Boise, Idaho. Over 90% of businesses that received samples placed reorders, proving the product's value and leading to its national launch as 'Post-it Notes' in 1980."
+      }
+    ],
+    "funFacts": [
+      "The iconic 'Canary Yellow' color of the first Post-it Notes was purely accidental, as it was the color of scrap paper available at the 3M lab next door to the Post-it team at the time.",
+      "3M initially struggled to market the product, which was first called 'Press 'n Peel' notes, until a massive free sampling campaign in Boise, Idaho, called the 'Boise Blitz,' proved its value.",
+      "Today, 3M produces over 50 billion Post-it Notes annually, with hundreds of variations sold in over 100 countries."
+    ],
+    "imageKeywords": [
+      "Post-it Note yellow pad",
+      "Spencer Silver scientist 3M",
+      "Art Fry choir Post-it",
+      "Post-it note invention process"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOFbKXSEHwe7jQlmY0LYlb371lbq9vNu2oekv-qnEtHYoqyAcsukNEuSKut7x3qwJDdd1Q0cgFb989_6uSZ9-ZttrilbPsXfefasVZwKZ_qqioOccXIsR2Dn0YsOTc8py_0GeI7cCGxWkaJfYzrdW8rkAHWlke-UnVukx6AJNe3VKLe5Mn2kD5",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyU2Mr8pff0IF31OEsQvYXqr5CHnF7XJVOqqnsCxgFHiSaXLprPKOzAN26RdLDinpsoEpyc0Ob95TD5j8I5CTat3cIO_o-tDEceIN10f1QOy3IerVVYx9X9Yw_9U3dIvCW2Lr0OzlKsCM2ZSXEU1fAVYZOCHNTcbzVeev2ug==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjPyeaS-9DfwFA1vn3941nvCjKL4d2ZpEG8XTr9m6ftoQW6f756smHq8522_QyfPBKhMHtaxgn85yGfCucmXbpQl6c5mjbtXL8NXsDJsMe-LboermNgLNXGd33nFoE8JeI_ol_meJC47Oqzy_oBUodPjOO7Zv7eoreG5XNCPUTLwvyxp7crLclbkwRR5Ql2C4xvSNoXjAXkRvxD6mHitFWi99z6mqE3F1m0Vbw2ClAUTIBCHTZJDYxQZdI8Q==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY56fsHr0ITlIakLayyoLpnxtQC1a7GikT4nCKJVAEiUUWSz0CD0AFEQ5QfAQ1l2DjC0k1r6r-ivEkAtaopSV-y3A4P2mw5bjPaP8LIzDfxUci37WrlxMqLXBwV2E62c5hZUnIYWQX5EHlzRaflvQqUKE54YpcCLFIA33jSWQz0Kk2mokii8TnjNNfSBkp7DMbvJHIpaisYF9UvQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcpLJojmgdTc-Xk0v2kFLXiu0xPUQRZff1-93-LWfcGKXYJ0pLU-d78vwPRgf2RUfsR-ivss5pg5j9B8yhq78FEPM09zn7IOtHrYFZQ4s_ssypVHyBJAgV1vgakImMsL9xQBm9f7L9kG5G8dNcMLfUbLe21QZWzKJ60F4z0mvTB2vdOhAVlA=="
+    ],
+    "portugalFact": {
+      "title": "Multibanco: Portugal's All-in-One ATM System",
+      "content": "Portugal boasts a highly advanced and versatile ATM network known as Multibanco, which goes far beyond simple cash withdrawals. This innovative system allows users to pay bills, purchase tickets, make transfers, and even top up mobile phones, making it a comprehensive financial services hub found across the country. Pioneering the integration of diverse banking services into a single machine, Multibanco has served as a benchmark for ATM systems worldwide since its introduction in the 1980s."
+    },
+    "aiSource": "Gemini",
+    "id": "1785740581945-post-it-notes",
+    "slug": "the-accidental-stick-how-post-it-notes-went-from-failed-glue",
+    "date": "2026-08-03T07:03:01.945Z",
+    "joke": {
+      "joke": "It's a small world, but I wouldn't want to paint it.",
+      "setup": "It's a small world,",
+      "punchline": "but I wouldn't want to paint it.",
+      "comedian": "Steven Wright",
+      "year": "1980s",
+      "context": "This joke is a perfect example of Steven Wright's signature deadpan delivery and absurdist wordplay, taking a common idiom literally to create an unexpected and genuinely funny image. It's widely considered one of his most iconic one-liners, showcasing his unique ability to twist everyday phrases into clever, thought-provoking humor."
+    },
+    "images": [
+      "https://picsum.photos/seed/1785740581945-post-it-notes/800/500"
+    ]
+  },
+  {
     "topic": "the surprising origin of coffee",
     "title": "From Dancing Goats to Global Craze: The Unexpected Journey of Coffee",
     "category": "Food & Drink",
