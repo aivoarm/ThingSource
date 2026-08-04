@@ -1,5 +1,78 @@
 [
   {
+    "title": "The Shade Myth: Why Your Beach Umbrella Isn't Cooling You Down As Much As You Think",
+    "summary": "While your trusty beach umbrella is a champion against sunburn, new insights reveal it offers surprisingly little relief from the heat, challenging our common assumptions about shade.",
+    "sections": [
+      {
+        "heading": "More Than Just Sunburn Protection",
+        "content": "We instinctively seek shade to escape the scorching sun, primarily to prevent harmful UV radiation from reaching our skin. And in that regard, your parasol does an excellent job, acting as a vital shield against DNA damage and painful burns, making it indispensable for skin safety."
+      },
+      {
+        "heading": "The Hidden Heat Keepers",
+        "content": "The catch is, heat doesn't just come directly from the sun. Think of the ground, sand, and even the air around you — they absorb immense solar energy and become hot 'radiators' themselves, beaming warmth upwards and sideways, even under your umbrella. Plus, warm air currents constantly circulate, making it tough for a simple canopy to create a truly cool microclimate, regardless of how much direct sun it blocks."
+      }
+    ],
+    "funFacts": [
+      "While umbrellas block direct solar radiation, they don't stop the heat radiated from hot surfaces like sand or pavement.",
+      "The primary benefit of a beach umbrella is its effective protection against damaging ultraviolet (UV) rays, not necessarily significant temperature reduction.",
+      "Evaporation (like sweating) and air movement (wind) are often more effective at cooling your body than simply sitting in stationary shade on a hot day."
+    ],
+    "originalTitle": "Why sitting under a parasol is barely cooler than being in the sun",
+    "originalUrl": "https://www.newscientist.com/article/2582754-why-sitting-under-a-parasol-is-barely-cooler-than-being-in-the-sun/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1785828644815-gyigr",
+    "date": "2026-08-04T07:30:44.815Z"
+  },
+  {
+    "title": "OpenAI's AI Ace Tackles Ten Toughest Math Problems",
+    "summary": "In a stunning display of artificial intelligence prowess, OpenAI's Astra model has successfully solved ten complex mathematical problems that have baffled human experts for decades. This achievement signals a new era for AI, underscoring its growing capacity to accelerate breakthroughs in fields once thought exclusively human territory.",
+    "sections": [
+      {
+        "heading": "AI Takes on Math's Deepest Puzzles",
+        "content": "OpenAI's cutting-edge AI model, Astra, has successfully cracked ten long-standing mathematical problems that have stumped human experts for years, some for decades. These aren't simple calculations, but complex theoretical 'conundrums' – intricate puzzles that have resisted the sharpest minds in the field. This marks a significant leap, showcasing AI's ability to navigate the abstract world of advanced mathematics."
+      },
+      {
+        "heading": "Beyond Numbers: A New Era for Discovery",
+        "content": "This remarkable feat isn't just about solving equations; it highlights AI's evolving potential to accelerate discovery across various scientific disciplines. Imagine AI as a tireless research assistant, capable of unravelling patterns and finding solutions that could unlock new medicines, materials, or technologies. This breakthrough signals a future where AI and human intelligence collaborate to push the boundaries of what's possible."
+      }
+    ],
+    "funFacts": [
+      "The specific AI model responsible for these groundbreaking solutions is named Astra, a testament to its advanced problem-solving capabilities.",
+      "These 'conundrums' were not trivial; some had been unsolved for over 50 years, representing significant challenges in theoretical mathematics.",
+      "This achievement suggests AI could become an invaluable tool for scientists in diverse fields, helping to unravel complex problems and accelerate the pace of human discovery."
+    ],
+    "originalTitle": "OpenAI announces solutions to 10 longstanding maths problems",
+    "originalUrl": "https://www.newscientist.com/article/2582793-openai-announces-solutions-to-10-longstanding-maths-problems/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1785828655140-o6tmq",
+    "date": "2026-08-04T07:30:55.140Z"
+  },
+  {
+    "title": "The Brain's Secret Mission: Why Keeping Weight Off Is So Hard",
+    "summary": "Many people struggle to keep lost weight off, and new research reveals why: our brains have an ancient, powerful system designed to reclaim lost fat, making it far more than just a matter of willpower. This sheds light on why dieting often leads to a regain and how our biology actively works against our best intentions.",
+    "sections": [
+      {
+        "heading": "The Brain's Evolutionary Safeguard",
+        "content": "Imagine your brain as a vigilant guardian, constantly scanning for threats. For millennia, a major threat was starvation, so our brains evolved to see body fat as a vital resource for survival, fiercely protecting it. This ancient programming means it's not just about what you eat, but how your biology responds."
+      },
+      {
+        "heading": "Your Body's 'Set Point' Memory",
+        "content": "When you lose weight, your brain often perceives this as a crisis, not an achievement. It remembers your previous, higher weight as the 'normal' state and deploys a robust counter-attack: cranking up hunger and cravings, while simultaneously reducing energy expenditure. It's like your body is trying to refill a perceived deficit, overriding your conscious efforts."
+      },
+      {
+        "heading": "Modern Solutions and Their Limits",
+        "content": "Medications like Wegovy and Mounjaro offer a helping hand by effectively dialing down these strong appetite signals from the brain, making it easier to eat less. However, because they're managing an underlying biological drive rather than resetting it, their beneficial effects often diminish if the treatment is stopped, highlighting the persistent power of our brain's ancient wiring."
+      }
+    ],
+    "funFacts": [
+      "Weight loss isn't just a willpower battle; our brains have an ancient, biological program to resist it.",
+      "The brain can essentially 'remember' a higher weight, actively fighting to return to that point after weight loss.",
+      "After dieting, the brain triggers increased hunger and reduced energy use, making sustained weight loss a biological challenge."
+    ],
+    "originalTitle": "Your brain may be wired to regain lost weight",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260803080902.htm",
+    "id": "1785828663814-akt9y",
+    "date": "2026-08-04T07:31:03.814Z"
+  },
+  {
     "title": "Unlocking Local Growth: How Rideshare Accelerates Regional Economies",
     "summary": "A groundbreaking study reveals that the widespread launch of ride-hailing services like Uber and Lyft has not only transformed urban transit but also significantly boosted local economic activity and created a wave of flexible job opportunities.",
     "sections": [
