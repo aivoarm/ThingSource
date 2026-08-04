@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal Once Crowned a Deceased Queen",
+      "content": "In one of Portugal's most dramatic historical events, King Pedro I, upon ascending the throne in 1357, declared his deceased lover, Inês de Castro, the rightful Queen of Portugal. He had her corpse exhumed, dressed in royal regalia, and forced the court to kiss her hand, acknowledging her as queen. This macabre yet powerful act solidified their tragic love story in Portuguese lore."
+    },
+    "culture": {
+      "title": "The Legend of the Rooster of Barcelos",
+      "content": "A vibrant symbol of Portuguese folklore and justice, the Galo de Barcelos, or Rooster of Barcelos, originates from a medieval legend. The tale tells of a Galician pilgrim wrongly accused of theft, who was saved from execution when a roasted rooster, miraculously, crowed to prove his innocence. Today, colorful ceramic roosters are ubiquitous throughout Portugal, representing honesty, faith, and good luck."
+    },
+    "news": {
+      "title": "Portugal Welcomes Its Last Circus Elephant to Europe's First Elephant Sanctuary",
+      "content": "Portugal recently celebrated a significant animal welfare milestone as Julie, the country's last circus elephant, was successfully rehomed at the Pangea Elephant Sanctuary in the Alentejo region. After 40 years of performing, Julie arrived at the 1,000-acre sanctuary on June 30th, making it Europe's first facility dedicated to working pachyderms. This move highlights Portugal's commitment to ending wild animal performances and providing a peaceful retirement for these magnificent creatures.",
+      "url": "https://www.goodnewsnetwork.org/last-circus-elephant-in-portugal-can-now-romp-and-roll-on-1000-acre-sanctuary-after-40-years-of-working/"
+    },
+    "id": "1785829529316-portugal",
+    "date": "2026-08-04T07:45:29.316Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal: The World's Leading Cork Producer",
       "content": "Portugal is a global leader in cork production, accounting for over half of the world's supply. The country is home to vast cork oak forests, primarily in the Montado region, which provide the ideal conditions for these fire-retardant trees that can live for over 200 years. Portuguese cork is utilized in everything from wine stoppers and fashion accessories to aerospace insulation, showcasing its versatility and ecological importance."
     },
