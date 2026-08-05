@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Ancient Glacial Landscape in Serra da Estrela",
+      "content": "Hidden within Portugal's highest mountain range, the Serra da Estrela, lies a remarkable glacial landscape. During the Last Glacial period, approximately 20,000 years ago, a plateau ice-field and valley glaciers sculpted the terrain, creating unique U-shaped valleys, cirques, and other landforms that are rare in Southwestern Europe. This geological history offers a striking contrast to Portugal's familiar coastal imagery and provides a fascinating glimpse into the country's ancient past."
+    },
+    "culture": {
+      "title": "The Mischievous Caretos of Entrudo",
+      "content": "A vibrant and ancient tradition unique to Portugal is the 'Entrudo,' or Carnival, particularly the mischievous masked figures known as 'Caretos' from regions like Trás-os-Montes. These figures, dressed in colorful fringed costumes with cowbells and elaborate masks, roam the streets during the days leading up to Lent, engaging in playful antics and representing pagan rituals for fertility and driving out evil spirits. This lively custom offers a glimpse into Portugal's deep-rooted folk heritage and community celebrations."
+    },
+    "news": {
+      "title": "Most Complete Dinosaur Fossil Discovered in Portugal",
+      "content": "Archaeologists in Portugal recently unearthed the most complete dinosaur skeleton ever found in the country, a heavily armoured Ankylosaur, in Torres Vedras. Dating back approximately 155 million years to the Late Jurassic period, this exceptionally well-preserved fossil is estimated to be around 85% complete. The discovery provides valuable new information about the evolution of armoured dinosaurs in Europe and marks a significant paleontological find for both Portugal and the continent.",
+      "url": "https://www.theportugalnews.com/news/2026-07-28/portugal-most-complete-dinosaur-fossil-discovered-in-torres-vedras/89201"
+    },
+    "id": "1785915937722-portugal",
+    "date": "2026-08-05T07:45:37.722Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal Once Crowned a Deceased Queen",
       "content": "In one of Portugal's most dramatic historical events, King Pedro I, upon ascending the throne in 1357, declared his deceased lover, Inês de Castro, the rightful Queen of Portugal. He had her corpse exhumed, dressed in royal regalia, and forced the court to kiss her hand, acknowledging her as queen. This macabre yet powerful act solidified their tragic love story in Portuguese lore."
     },
