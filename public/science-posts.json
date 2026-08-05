@@ -1,5 +1,59 @@
 [
   {
+    "title": "NASA's PUNCH Mission Just Made Solar Storm Forecasting Much Sharper",
+    "summary": "NASA's PUNCH mission has successfully demonstrated its ability to predict the arrival of solar storms near Earth with unprecedented accuracy, providing a crucial 30-minute warning. This breakthrough marks a significant leap forward in protecting our technological infrastructure from hazardous space weather.",
+    "sections": [
+      {
+        "heading": "What are Solar Storms and Why Do They Matter?",
+        "content": "Solar storms, also known as coronal mass ejections (CMEs), are massive bursts of plasma and magnetic field erupting from the Sun's outer atmosphere. When these powerful eruptions head towards Earth, they can disrupt satellites, power grids, and communication systems, posing a significant threat to our modern way of life."
+      },
+      {
+        "heading": "PUNCH: Our New Eye on the Sun's Outskirts",
+        "content": "NASA's PUNCH mission isn't just watching the Sun; it's designed to continuously image the often-invisible space between the Sun's outer atmosphere (corona) and Earth. By tracking these solar eruptions as they travel across this vast distance, PUNCH provides a vital head start on understanding their path and speed."
+      },
+      {
+        "heading": "A Critical 30-Minute Warning",
+        "content": "In its very first test, PUNCH successfully predicted the arrival of a solar eruption near Earth to within an impressive 30 minutes. This newfound precision is a game-changer, offering space weather forecasters and infrastructure managers precious time to prepare and mitigate potential damage."
+      }
+    ],
+    "funFacts": [
+      "PUNCH's unique strength lies in its ability to see the faint, scattered light of solar material as it races through interplanetary space, a region previously difficult to observe.",
+      "Accurate solar storm forecasts are vital for safeguarding everything from GPS navigation and airline communications to power grids and astronaut safety in orbit.",
+      "The mission's full name, Polarimeter to Unify the Corona and Heliosphere, reflects its goal of bridging observations from the Sun's fiery atmosphere all the way to Earth's neighborhood."
+    ],
+    "originalTitle": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
+    "originalUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
+    "id": "1785915040541-nprpc",
+    "date": "2026-08-05T07:30:40.541Z"
+  },
+  {
+    "title": "Mind-Bending Physics: 'Negative Time' Proves Surprisingly Real",
+    "summary": "Scientists have confirmed a bizarre quantum phenomenon where light particles seem to spend \"negative time\" traversing a medium, revealing a truly measurable, if mind-bending, aspect of reality. This finding pushes our understanding of how particles interact and navigate through space.",
+    "sections": [
+      {
+        "heading": "The Curious Case of 'Negative Time'",
+        "content": "Imagine a runner finishing a race before the starting gun even fires, or arriving at a destination before they theoretically even left. That's the essence of \"negative time\" in physics: photons (light particles) emerging from a material *earlier* than if they hadn't entered it at all, seemingly taking less than zero time to pass through. It's a phenomenon that challenges our everyday intuition about speed and duration."
+      },
+      {
+        "heading": "Beyond Illusion: Atoms Confirm the Unthinkable",
+        "content": "Previously, this \"early exit\" was thought to be a trick of how we measured the light pulse, a misleading feature of its wave nature. But in a groundbreaking new experiment, researchers didn't just observe the light; they delicately probed the atoms *within* the cloud that the light traversed, using a technique called weak measurement. Surprisingly, these atoms also registered the light's presence for a negative duration, confirming that this strange quantum effect is a physically measurable reality, not just an optical illusion."
+      },
+      {
+        "heading": "What This Quantum Revelation Means",
+        "content": "This discovery doesn't mean we've found a way to time travel or defy the laws of physics. Instead, it deepens our appreciation for the truly counterintuitive nature of quantum mechanics, where particles can behave in ways that defy classical logic. It confirms that some of the weirdest predictions of quantum theory aren't just mathematical curiosities but manifest in the physical world, offering new insights into how information and energy propagate at the smallest scales."
+      }
+    ],
+    "funFacts": [
+      "This 'negative time' doesn't violate Einstein's speed limit for light; the *peak* of a light pulse can behave this way without individual photons exceeding light speed.",
+      "The experiment used 'weak measurements,' a delicate technique that minimizes disturbance to the quantum system, allowing scientists to gather information without collapsing the fragile quantum state.",
+      "The effect is incredibly subtle and only observable under very specific conditions, making it an excellent testbed for the stranger predictions of quantum mechanics."
+    ],
+    "originalTitle": "Strange quantum experiment shows “negative time” is more than an illusion",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260803080904.htm",
+    "id": "1785915054387-qmg11",
+    "date": "2026-08-05T07:30:54.387Z"
+  },
+  {
     "title": "The Shade Myth: Why Your Beach Umbrella Isn't Cooling You Down As Much As You Think",
     "summary": "While your trusty beach umbrella is a champion against sunburn, new insights reveal it offers surprisingly little relief from the heat, challenging our common assumptions about shade.",
     "sections": [
