@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "The Principality of Pontinha: A Tiny Micronation off Madeira's Coast",
+      "content": "Portugal is home to a fascinating, albeit tiny, micronation known as the Principality of Pontinha. Located on a small rocky islet near Funchal, Madeira, this self-declared principality features a historic fort and represents a unique geographical and historical curiosity within Portuguese territory."
+    },
+    "culture": {
+      "title": "São Martinho: Celebrating the New Wine and Roasted Chestnuts",
+      "content": "Every November 11th, Portugal celebrates São Martinho (Saint Martin's Day), marking the end of the harvest season and the arrival of cooler weather. This beloved tradition sees communities gather to enjoy roasted chestnuts, often accompanied by jeropiga or água-pé, and to taste the year's new wine."
+    },
+    "news": {
+      "title": "Portugal Unveils €22.6 Billion Resilience Plan to Combat Climate Change and Power Outages",
+      "content": "In a significant move, Portugal's government announced a €22.6 billion investment program in May 2026, aimed at bolstering the country's resilience against climate change and power outages over the next nine years. Named 'Portugal Transformation, Recovery and Resilience,' this plan will strengthen infrastructure, institutions, homes, and businesses to better withstand environmental threats and ensure energy security.",
+      "url": "https://www.carriermanagement.com/news/2026/05/01/263544.htm"
+    },
+    "id": "1786002341948-portugal",
+    "date": "2026-08-06T07:45:41.948Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Ancient Glacial Landscape in Serra da Estrela",
       "content": "Hidden within Portugal's highest mountain range, the Serra da Estrela, lies a remarkable glacial landscape. During the Last Glacial period, approximately 20,000 years ago, a plateau ice-field and valley glaciers sculpted the terrain, creating unique U-shaped valleys, cirques, and other landforms that are rare in Southwestern Europe. This geological history offers a striking contrast to Portugal's familiar coastal imagery and provides a fascinating glimpse into the country's ancient past."
     },
