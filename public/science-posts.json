@@ -1,5 +1,78 @@
 [
   {
+    "title": "Cracking the Code of Tiny Materials: How Scientists Are Unmasking Nanoparticles' True Behavior",
+    "summary": "Scientists have uncovered a widespread flaw in how we interpret data about incredibly tiny materials, revealing that our understanding of their unique properties might be fundamentally flawed. Fortunately, a new mathematical fix is set to revolutionize how we study nanoparticles, promising to unlock their full potential for groundbreaking innovations.",
+    "sections": [
+      {
+        "heading": "The Hidden Flaw in Understanding the Ultra-Small",
+        "content": "Nanoparticles, materials just a few atoms wide, behave differently depending on their exact size. For years, a subtle yet pervasive flaw in data analysis has obscured this crucial link, leading researchers to misinterpret how these tiny objects truly function and what makes them special."
+      },
+      {
+        "heading": "A Mathematical Fix Unlocks True Nanoscale Secrets",
+        "content": "A team at the National Institute of Standards and Technology (NIST) has pinpointed this measurement inaccuracy and developed a robust mathematical correction. This innovative solution promises to strip away the misleading noise, finally allowing scientists to accurately observe how a nanoparticle's size directly influences its unique electrical, chemical, or optical properties."
+      }
+    ],
+    "funFacts": [
+      "Nanoscience explores objects so small that 50,000 nanoparticles could fit across the width of a human hair.",
+      "The unique properties of nanoparticles, from their color to their reactivity, can dramatically change even with a tiny shift in size.",
+      "This new mathematical tool promises to accelerate innovations in fields like medicine, electronics, and sustainable energy by providing clearer insights into nanoscale materials."
+    ],
+    "originalTitle": "Sizing errors can hide true nanoparticle behavior",
+    "originalUrl": "https://phys.org/news/2026-08-sizing-errors-true-nanoparticle-behavior.html",
+    "id": "1786001436031-c89p7",
+    "date": "2026-08-06T07:30:36.031Z"
+  },
+  {
+    "title": "Your 50s: The Golden Decade for Delaying Dementia by Over a Decade",
+    "summary": "A groundbreaking study reveals that proactive lifestyle choices made during your 50s aren't just good for you now—they could dramatically push back the onset of dementia by an incredible 13 years, offering a new horizon for healthy aging.",
+    "sections": [
+      {
+        "heading": "The Power of Midlife Choices",
+        "content": "This extensive study, involving 12,000 adults across the US, underscores a crucial insight: your 50s represent a pivotal window for influencing future brain health. It suggests that specific, actionable steps taken during this decade can profoundly alter your cognitive trajectory later in life."
+      },
+      {
+        "heading": "A Remarkable 13-Year Advantage",
+        "content": "The most compelling discovery is the potential to delay the onset of dementia by an astonishing 13 years. This isn't a minor tweak; it's a significant extension of healthy, independent living, offering many individuals more quality time and transforming the landscape of aging."
+      },
+      {
+        "heading": "Actionable Steps for a Healthier Future",
+        "content": "While the specific \"three factors\" aren't detailed in the brief, the research highlights that focusing on key aspects of health in midlife can lead to such a dramatic positive outcome. This emphasizes the profound and accessible influence our daily habits and proactive choices have on our long-term brain resilience."
+      }
+    ],
+    "funFacts": [
+      "Dementia is not an inevitable part of growing older; lifestyle choices play a substantial role in its risk and onset.",
+      "The study's large participant pool (12,000 adults) significantly strengthens the reliability and generalizability of its findings.",
+      "Even seemingly small, consistent health-focused changes in your 50s can accumulate into decades of profound benefits for your brain."
+    ],
+    "originalTitle": "Three factors in midlife can delay the onset of dementia by 13 years",
+    "originalUrl": "https://www.newscientist.com/article/2583480-three-factors-in-midlife-can-delay-the-onset-of-dementia-by-13-years/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1786001448668-oja6j",
+    "date": "2026-08-06T07:30:48.668Z"
+  },
+  {
+    "title": "Cosmic Bullseye: Scientists Confirm Rogue SpaceX Rocket's Predicted Moon Impact",
+    "summary": "After a year-long, unpredictable journey through space, a defunct SpaceX rocket has precisely hit the Moon as foreseen by scientists, turning an accidental collision into a unique opportunity for lunar exploration and debris tracking.",
+    "sections": [
+      {
+        "heading": "A Wayward Journey's End",
+        "content": "What began as a routine launch for a pair of lunar landers eventually left a discarded SpaceX Falcon 9 rocket stage on an unexpected trajectory. For over a year, this piece of space hardware drifted through the solar system, becoming a meticulously tracked object headed for an inevitable, predicted collision with our natural satellite. This remarkable foresight highlights humanity's advanced capabilities in orbital mechanics and space object tracking."
+      },
+      {
+        "heading": "From Debris to Discovery",
+        "content": "While an unintended consequence of space exploration, this precise lunar impact is far from a mere crash; it's a valuable, if accidental, scientific experiment. Scientists are eager to analyze potential changes and new craters formed on the Moon's surface. This data can offer insights into the Moon's geology, the dynamics of celestial impacts, and even refine our understanding of how space debris behaves over long periods, benefiting future missions."
+      }
+    ],
+    "funFacts": [
+      "The journey of this \"wayward\" rocket stage spanned over a year, drifting across millions of miles of space before its final, predicted impact.",
+      "Although relatively small compared to the Moon, the rocket likely created a new crater, offering a fresh site for scientists to study lunar geology without having to send a dedicated mission.",
+      "This event underscores the growing challenge of tracking space debris, even distant objects, and our increasing ability to predict their trajectories with remarkable accuracy."
+    ],
+    "originalTitle": "Scientists are certain a wayward SpaceX rocket slammed into the moon as predicted",
+    "originalUrl": "https://phys.org/news/2026-08-scientists-wayward-spacex-rocket-slammed.html",
+    "id": "1786001460108-h7bms",
+    "date": "2026-08-06T07:31:00.108Z"
+  },
+  {
     "title": "NASA's PUNCH Mission Just Made Solar Storm Forecasting Much Sharper",
     "summary": "NASA's PUNCH mission has successfully demonstrated its ability to predict the arrival of solar storms near Earth with unprecedented accuracy, providing a crucial 30-minute warning. This breakthrough marks a significant leap forward in protecting our technological infrastructure from hazardous space weather.",
     "sections": [
