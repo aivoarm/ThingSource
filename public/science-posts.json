@@ -1,5 +1,78 @@
 [
   {
+    "title": "The Moon Dust Menace: Preparing Artemis for an Abrasive Lunar Frontier",
+    "summary": "As NASA prepares to send astronauts back to the Moon with the Artemis program, a seemingly simple problem poses one of the biggest threats: the notoriously sharp and clingy lunar dust. Engineers at a dedicated facility are meticulously testing crucial hardware, ensuring it can withstand this abrasive environment vital for mission success and astronaut safety.",
+    "sections": [
+      {
+        "heading": "The Unique Challenge of Lunar Dust",
+        "content": "Unlike Earth's eroded, smooth sand, Moon dust consists of jagged, microscopic particles formed by billions of years of meteorite impacts in a vacuum. This makes it incredibly abrasive, like tiny glass shards, capable of damaging seals, scratching lenses, and clogging mechanisms on vital equipment and spacesuits."
+      },
+      {
+        "heading": "NASA's Lunar 'Dust Bowl' Proving Ground",
+        "content": "At NASA's Johnson Space Center, the Lunar Development and Test Facility acts as a specialized proving ground, simulating the Moon's harsh conditions – including its infamous dust. Here, engineers expose Artemis-bound equipment to a realistic dust environment, identifying weaknesses and developing solutions to protect everything from spacecraft components to astronaut tools and suits."
+      }
+    ],
+    "funFacts": [
+      "Apollo astronauts reported moon dust smelling distinctly like spent gunpowder or a campfire after bringing it inside their lunar modules.",
+      "Because there's no wind or water erosion on the Moon, lunar dust particles never get smoothed down, remaining sharp and angular forever.",
+      "Lunar dust can become electrostatically charged by solar wind and ultraviolet radiation, causing it to 'float' and stick tenaciously to everything, defying gravity in unexpected ways."
+    ],
+    "originalTitle": "NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon",
+    "originalUrl": "https://www.nasa.gov/centers-and-facilities/johnson/nasas-lunar-development-and-test-facility-prepares-artemis-hardware-for-moon/",
+    "id": "1786087842430-x2b84",
+    "date": "2026-08-07T07:30:42.430Z"
+  },
+  {
+    "title": "Beyond the Race: Sperm Teamwork Reveals a New Story of Fertilization",
+    "summary": "Forget the classic image of a lone sperm winning a frantic race; groundbreaking research reveals that for many species, fertilization is a surprising team effort. This discovery challenges long-held beliefs about reproduction and could influence everything from fertility treatments to pest control.",
+    "sections": [
+      {
+        "heading": "The Unexpected World of Sperm Cooperation",
+        "content": "For centuries, the prevailing view of fertilization has been a fierce competition, with countless individual sperm racing to be the first to reach and fertilize an egg. However, a recent extensive study turns this idea on its head, revealing that in many species, sperm don't compete solo but instead work together in coordinated teams. This cooperative strategy allows them to navigate the female reproductive tract more effectively."
+      },
+      {
+        "heading": "Widespread Teams and Evolutionary Adaptability",
+        "content": "This 'team play' isn't just an oddity; it's a common and significant strategy across a vast group of animals called arthropods, which includes everything from insects to spiders and crabs. What’s even more fascinating is that this cooperative behavior has evolved and disappeared multiple times throughout hundreds of millions of years, showcasing nature's incredible flexibility in finding the best ways to reproduce."
+      },
+      {
+        "heading": "Reshaping Our Understanding of Life and Its Applications",
+        "content": "This discovery fundamentally changes our understanding of how life begins, moving beyond the simple 'fastest sperm wins' narrative. Knowing that teamwork can be crucial for successful fertilization opens up exciting new avenues for research into human fertility, potentially uncovering overlooked factors. It also offers innovative possibilities for developing more targeted and effective strategies to control pests by disrupting their unique reproductive teamwork."
+      }
+    ],
+    "funFacts": [
+      "The 'sperm race' concept, deeply ingrained in popular culture and scientific thought, has historically dominated our understanding of fertilization.",
+      "This cooperative sperm strategy is widespread among arthropods, a massive group including everything from ants to crabs, representing over 80% of all animal species.",
+      "The ability for sperm teams to emerge and vanish repeatedly over millions of years highlights evolution's incredible adaptability in ensuring successful reproduction."
+    ],
+    "originalTitle": "Forget the sperm race: Fertilization may depend on teamwork",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260805082455.htm",
+    "id": "1786087851961-06ajc",
+    "date": "2026-08-07T07:30:51.961Z"
+  },
+  {
+    "title": "Could an Existing Osteoporosis Drug Finally Bring Relief for Back Pain?",
+    "summary": "Breakthrough research offers a glimmer of hope for chronic back pain sufferers, revealing that a drug already used for osteoporosis could protect our spine's vital 'shock absorbers' by targeting underlying genetic and metabolic issues.",
+    "sections": [
+      {
+        "heading": "The Silent Threat to Our Spine's Cushions",
+        "content": "Our spines rely on flexible discs, like miniature cushions, to absorb daily stresses and allow graceful movement. New research shows that specific genetic glitches can trigger these crucial discs to abnormally harden and even fuse, leading to the debilitating pain and stiffness we know as degenerative disc disease. This process begins with an accumulation of mineral deposits, compromising the discs' essential function."
+      },
+      {
+        "heading": "Unexpected Allies Against Spinal Damage",
+        "content": "In a significant discovery, scientists using a zebrafish model found that a common osteoporosis drug dramatically reduced this spinal damage, preventing the discs from hardening. Simultaneously, the study highlighted that targeting the body's fat metabolism also offered protection, pointing to exciting new strategies beyond just bone strength to safeguard our spinal health and potentially alleviate chronic back pain."
+      }
+    ],
+    "funFacts": [
+      "Chronic back pain is one of the leading causes of disability worldwide, affecting millions and significantly impacting daily life.",
+      "Discovering new uses for existing drugs (drug repurposing) can significantly speed up the journey from laboratory to patient, as their safety profiles are already well-understood.",
+      "Zebrafish are surprisingly valuable models for human diseases due to their genetic similarity and transparent embryos, allowing scientists to easily observe complex processes like spinal development and disease progression."
+    ],
+    "originalTitle": "A drug already used for osteoporosis blocked spinal damage in a new study",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260806051943.htm",
+    "id": "1786087860806-85hck",
+    "date": "2026-08-07T07:31:00.806Z"
+  },
+  {
     "title": "Cracking the Code of Tiny Materials: How Scientists Are Unmasking Nanoparticles' True Behavior",
     "summary": "Scientists have uncovered a widespread flaw in how we interpret data about incredibly tiny materials, revealing that our understanding of their unique properties might be fundamentally flawed. Fortunately, a new mathematical fix is set to revolutionize how we study nanoparticles, promising to unlock their full potential for groundbreaking innovations.",
     "sections": [
