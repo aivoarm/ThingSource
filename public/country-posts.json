@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Lisbon: Older Than Rome",
+      "content": "A captivating historical tidbit reveals that Lisbon, Portugal's vibrant capital, predates the Eternal City of Rome by approximately four centuries. Established by the Phoenicians around 1200 BC, Lisbon stands as the second-oldest capital in Europe, surpassed only by Athens. This deep-rooted history is visible throughout the city, from its ancient foundations to its enduring cultural legacy."
+    },
+    "culture": {
+      "title": "The Surprising Portuguese Origin of Tempura",
+      "content": "Many might associate Tempura with Japan, but this popular dish actually has Portuguese origins. It was introduced to Japan in the 16th century by Portuguese Jesuit missionaries and traders, who prepared a dish of deep-fried green beans and other vegetables during 'Quatuor Tempora', or Ember Days, a period of fasting. The word 'Tempura' is believed to derive from the Latin 'têmporas', referring to these specific religious fasting periods."
+    },
+    "news": {
+      "title": "Portugal Ranks Among Europe's Top Eco-Friendly Road Trip Destinations",
+      "content": "Portugal has been recognized as one of Europe's leading eco-friendly road trip destinations, ranking sixth globally in a recent sustainability report. This accolade is largely due to a remarkable 250% year-on-year growth in electric and hybrid vehicle rentals, showcasing the country's commitment to sustainable tourism. The report highlights Portugal's picturesque scenic routes and proactive government policies in fostering greener travel alternatives.",
+      "url": "https://www.theportugalnews.com/news/2026-07-27/portugal-ranks-among-top-eco-friendly-road-trip-destinations-in-europe/91289"
+    },
+    "id": "1786088730712-portugal",
+    "date": "2026-08-07T07:45:30.712Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "The Principality of Pontinha: A Tiny Micronation off Madeira's Coast",
       "content": "Portugal is home to a fascinating, albeit tiny, micronation known as the Principality of Pontinha. Located on a small rocky islet near Funchal, Madeira, this self-declared principality features a historic fort and represents a unique geographical and historical curiosity within Portuguese territory."
     },
