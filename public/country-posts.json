@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Record-Breaking Monarchs",
+      "content": "Portugal holds a curious historical record for its monarchs, boasting both the shortest and longest reigns. While King Luís Filipe's time on the throne lasted a mere 20 minutes, King Afonso I Henriques, the country's first king, ruled for an impressive span of over 73 years."
+    },
+    "culture": {
+      "title": "Baba de Camelo: A Sweet Deception",
+      "content": "One of Portugal's most uniquely named desserts is 'Baba de Camelo,' which literally translates to 'Camel's Drool.' Despite its quirky moniker, this popular treat is a delightful and runny caramel-flavored dessert, typically made with condensed milk and almonds."
+    },
+    "news": {
+      "title": "Portugal's Economy Minister Advocates for Regulated Immigrant Integration",
+      "content": "Portugal's Minister of Economy and Territorial Cohesion, Manuel Castro Almeida, recently affirmed the country's openness to immigration, emphasizing a fast-track process for foreign citizens with employment contracts and secured housing. This initiative aims to address labor shortages in key economic sectors and promote dignified integration for newcomers.",
+      "url": "https://www.theportugalnews.com/news/2026-08-08/minister-of-the-economy-advocates-for-regulated-integration-and-guarantees-a-fast-track-channel-for-immigrants/89753"
+    },
+    "id": "1786175135193-portugal",
+    "date": "2026-08-08T07:45:35.193Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Lisbon: Older Than Rome",
       "content": "A captivating historical tidbit reveals that Lisbon, Portugal's vibrant capital, predates the Eternal City of Rome by approximately four centuries. Established by the Phoenicians around 1200 BC, Lisbon stands as the second-oldest capital in Europe, surpassed only by Athens. This deep-rooted history is visible throughout the city, from its ancient foundations to its enduring cultural legacy."
     },
