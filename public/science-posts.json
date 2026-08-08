@@ -1,5 +1,78 @@
 [
   {
+    "title": "Unlocking Earth's Frozen Future: AI Maps the World's Hidden Glacier Ice",
+    "summary": "For the first time, scientists have employed artificial intelligence to create the most precise global map yet of how much ice is locked away in Earth's glaciers and exactly where it resides, offering crucial insights into our planet's climate future and freshwater resources.",
+    "sections": [
+      {
+        "heading": "The Glacial Mystery: Why Knowing Matters",
+        "content": "Until now, getting an accurate grasp of how much ice is actually within the world's countless glaciers has been incredibly challenging. This missing puzzle piece is vital for understanding future sea-level rise, predicting water availability for millions, and forecasting climate impacts. Researchers leveraged artificial intelligence to finally develop a comprehensive, updated picture of this hidden ice."
+      },
+      {
+        "heading": "A New Lens on Earth's Frozen Water",
+        "content": "This groundbreaking AI model has produced an updated global map, pinpointing the volume and location of glacier ice with unprecedented precision. This detailed data will empower scientists to more accurately model how glaciers respond to a warming climate and provide better predictions for communities relying on glacial meltwater for drinking and agriculture."
+      }
+    ],
+    "funFacts": [
+      "Knowing the precise volume of glacier ice is critical for predicting future sea-level rise, as melting glaciers are a major contributor to global oceans.",
+      "Beyond sea levels, these maps are vital for understanding freshwater availability for communities that depend on glacial melt for drinking water and agriculture.",
+      "This study focuses on individual glaciers, distinct from the massive ice sheets covering Greenland and Antarctica, which represent a separate, much larger reservoir of ice."
+    ],
+    "originalTitle": "New AI model reveals the volume of the world's glaciers",
+    "originalUrl": "https://phys.org/news/2026-08-ai-reveals-volume-world-glaciers.html",
+    "id": "1786174240955-vnij7",
+    "date": "2026-08-08T07:30:40.955Z"
+  },
+  {
+    "title": "Europe's Energy Squeeze: When Heatwaves and Drought Threaten the Lights",
+    "summary": "This summer, extreme heatwaves and persistent drought across Europe are creating a dangerous cocktail for its energy infrastructure, pushing power grids to their limits and threatening widespread disruption.",
+    "sections": [
+      {
+        "heading": "The Climate-Energy Connection",
+        "content": "Europe's scorching summer isn't just uncomfortable; it's a critical challenge for power grids. Record heat boosts electricity demand as air conditioners hum non-stop, while simultaneously, unprecedented drought deprives crucial power plants of the cooling water they need to operate safely and efficiently."
+      },
+      {
+        "heading": "Nuclear Reactors Under Pressure",
+        "content": "Many nuclear power plants, vital for a stable energy supply, rely on vast amounts of river water for cooling their systems. With rivers running low and unusually warm, some reactors have been forced to power down or operate at reduced capacity, further straining an already tight electricity supply."
+      },
+      {
+        "heading": "The Ripple Effect: Price Hikes and Blackout Risks",
+        "content": "This perfect storm of reduced energy production and soaring demand is causing electricity prices to skyrocket across the continent. Experts are warning that if these challenging conditions persist, the risk of localized power outages and even widespread blackouts becomes a serious concern for daily life and economic stability."
+      }
+    ],
+    "funFacts": [
+      "A typical nuclear power plant can use as much cooling water in a single day as a small city, highlighting its critical dependence on water availability.",
+      "When river temperatures rise too high, power plants must reduce their output to avoid discharging overly warm water back into the environment, which can harm aquatic ecosystems.",
+      "The interconnectedness of Europe's power grid means that a power shortfall in one country can quickly create a domino effect, impacting the energy stability of neighboring nations."
+    ],
+    "originalTitle": "Drought and heat push Europe&#8217;s power grid to breaking point",
+    "originalUrl": "https://www.newscientist.com/article/2583740-drought-and-heat-push-europes-power-grid-to-breaking-point/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1786174250189-j1y9r",
+    "date": "2026-08-08T07:30:50.189Z"
+  },
+  {
+    "title": "Evolution's Stubborn Secret: A Million Years Without Sex Can't Erase These Stick Insects' Genetic Past",
+    "summary": "In a surprising twist for evolutionary biology, scientists have discovered that certain stick insects, despite reproducing asexually for an astonishing one million years, still carry the genetic instructions for sexual reproduction. This challenges our understanding of how evolution typically prunes away unused traits over vast timescales.",
+    "sections": [
+      {
+        "heading": "The Ultimate Solo Act: A Million Years Without Sex",
+        "content": "For an astonishing one million years, a group of Timema stick insects has foregone sexual reproduction, creating perfect clones of themselves generation after generation—a record for any known insect. This unprecedented stretch of solo living offers scientists a unique window into how evolution shapes species when the typical genetic mixing of sex is absent."
+      },
+      {
+        "heading": "Evolution's Unforgotten Past",
+        "content": "The surprising discovery, spearheaded by Dr. Darren Parker, reveals that despite their million-year hiatus from mating, these stick insects still retain the genetic blueprint for sexual reproduction. This challenges the common assumption that evolution efficiently prunes away complex traits, like the elaborate machinery for sex, once they become entirely unused."
+      }
+    ],
+    "funFacts": [
+      "The stick insects at the heart of this discovery belong to the genus *Timema*, often called 'walking leaves' for their incredible camouflage.",
+      "One million years without sexual reproduction represents the longest continuous period of asexuality ever documented for any insect species.",
+      "This persistence of 'sex genes' suggests that evolution might not always be the ruthless editor we assume, sometimes holding onto unused genetic code for reasons we're still uncovering."
+    ],
+    "originalTitle": "One million years without sex fails to erase stick insects' unused biological system",
+    "originalUrl": "https://phys.org/news/2026-08-million-years-sex-erase-insects.html",
+    "id": "1786174261627-gsf7b",
+    "date": "2026-08-08T07:31:01.627Z"
+  },
+  {
     "title": "The Moon Dust Menace: Preparing Artemis for an Abrasive Lunar Frontier",
     "summary": "As NASA prepares to send astronauts back to the Moon with the Artemis program, a seemingly simple problem poses one of the biggest threats: the notoriously sharp and clingy lunar dust. Engineers at a dedicated facility are meticulously testing crucial hardware, ensuring it can withstand this abrasive environment vital for mission success and astronaut safety.",
     "sections": [
