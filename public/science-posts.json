@@ -1,5 +1,56 @@
 [
   {
+    "title": "Safely Witness the Spectacle: Your Guide to Enjoying a Solar Eclipse",
+    "summary": "A solar eclipse is a breathtaking celestial event, but direct viewing can cause irreversible eye damage. Discover essential, easy-to-use methods to safely observe the sun's dramatic disappearance behind the moon without risking your vision.",
+    "sections": [
+      {
+        "heading": "Protecting Your Precious Vision",
+        "content": "Even when the moon begins to obscure the sun, the remaining exposed portion still emits powerful ultraviolet (UV) and infrared (IR) radiation. Looking directly at this intense light, even for a brief moment, can cause permanent retinal damage, similar to focusing sunlight with a magnifying glass directly onto sensitive tissue."
+      },
+      {
+        "heading": "Safe & Simple Ways to See the Eclipse",
+        "content": "The safest ways to experience an eclipse involve either certified solar filters or indirect viewing methods. Use special eclipse glasses or handheld viewers meeting the ISO 12312-2 international safety standard, which are specifically designed to block harmful radiation. Alternatively, create a simple pinhole projector to safely project an image of the sun onto a surface, allowing you to watch the celestial dance without direct eye contact."
+      }
+    ],
+    "funFacts": [
+      "Standard sunglasses, no matter how dark, offer absolutely no protection for eclipse viewing and are extremely dangerous to use.",
+      "The retina, the light-sensitive tissue at the back of your eye, has no pain receptors, meaning you won't feel the damage happening until it's too late.",
+      "A pinhole projector works on the same principle as a camera obscura, using a tiny opening to cast an inverted image of the sun onto a screen.",
+      "Some of the safest viewing options include certified solar filters attached to telescopes or binoculars, or watching live streams from reputable sources."
+    ],
+    "originalTitle": "4 ways to watch a solar eclipse without burning your eyes",
+    "originalUrl": "https://www.newscientist.com/article/2582016-4-ways-to-watch-a-solar-eclipse-without-burning-your-eyes/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1786260641152-51okh",
+    "date": "2026-08-09T07:30:41.152Z"
+  },
+  {
+    "title": "Cosmic Delivery: How a New Jersey Meteorite Illuminates Life's Origins",
+    "summary": "When a rare meteorite crashed through a New Jersey roof, it delivered more than just a space rock; it brought a cosmic time capsule holding ancient salty fluids and organic compounds, shedding new light on life's profound origins.",
+    "sections": [
+      {
+        "heading": "A Rare Visitor from Space",
+        "content": "Imagine looking up and seeing a streak of light, only to have a piece of an ancient asteroid land directly in your home. That's exactly what happened in New Jersey, and this particular space rock isn't just a curiosity—it's a scientific goldmine because it arrived in an almost untouched, pristine state."
+      },
+      {
+        "heading": "The Cosmic Chef's Pantry",
+        "content": "Inside this extraordinary meteorite, researchers found a rich cocktail of ingredients: ancient salty water trapped in minerals, and a variety of complex organic compounds, including amino acids—the fundamental building blocks of proteins, essential for all known life. Think of it as a tiny, perfectly preserved sample from a cosmic chef's pantry, showing us what raw ingredients were floating around in space billions of years ago."
+      },
+      {
+        "heading": "Tracing Life's Earliest Seeds",
+        "content": "These findings are incredibly significant because they support the idea that early Earth wasn't a barren wasteland waiting for life to spontaneously appear; rather, it was likely 'seeded' by meteorites carrying crucial chemical components. By studying this pristine space rock, scientists are gaining unprecedented insights into how our planet acquired some of the necessary ingredients to spark life, helping us piece together one of the universe's greatest mysteries."
+      }
+    ],
+    "funFacts": [
+      "This particular meteorite is exceptionally rare, as it originated from a primitive asteroid that has remained largely unchanged since the solar system's birth.",
+      "Its rapid collection after impacting the roof helped preserve its pristine chemistry, offering an unaltered glimpse into cosmic history.",
+      "The presence of amino acids—the foundational building blocks of proteins—strongly supports the theory that space rocks helped 'seed' early Earth with crucial ingredients for life."
+    ],
+    "originalTitle": "Meteorite that smashed through a New Jersey roof reveals clues to life’s origins",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260807035145.htm",
+    "id": "1786260650155-ocd7r",
+    "date": "2026-08-09T07:30:50.155Z"
+  },
+  {
     "title": "Unlocking Earth's Frozen Future: AI Maps the World's Hidden Glacier Ice",
     "summary": "For the first time, scientists have employed artificial intelligence to create the most precise global map yet of how much ice is locked away in Earth's glaciers and exactly where it resides, offering crucial insights into our planet's climate future and freshwater resources.",
     "sections": [
