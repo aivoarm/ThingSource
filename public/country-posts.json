@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "The Transformative 1755 Lisbon Earthquake",
+      "content": "A devastating earthquake struck Lisbon in 1755, leading to widespread destruction and an estimated 10,000 to 100,000 deaths. This catastrophic event not only reshaped the city but also profoundly influenced Enlightenment philosophers like Voltaire and Rousseau, sparking new debates on humanity's response to disaster and even contributing to the birth of modern seismology."
+    },
+    "culture": {
+      "title": "Janeiras: Traditional January Caroling",
+      "content": "Portugal celebrates the New Year with a charming tradition known as 'Janeiras,' where groups of carolers go door-to-door throughout January. These groups sing folk songs to welcome the new year, often receiving treats in exchange for their musical well wishes."
+    },
+    "news": {
+      "title": "Portugal Expands Marine Reserves, Exceeding Global Conservation Targets",
+      "content": "Portugal is making significant strides in marine conservation, moving to protect 30% of its waters by 2026, four years ahead of the global target. This initiative involves expanding key marine reserves such as the Madeira-Tore and Gorringe Bank reserves, underscoring the nation's commitment to environmental stewardship.",
+      "url": "https://www.facebook.com/SustainableTourismPortugal/posts/7-reasons-portugal-is-quietly-saving-the-planet-in-2026-we-talk-a-lot-about-sust/818152343681498/"
+    },
+    "id": "1786261537523-portugal",
+    "date": "2026-08-09T07:45:37.523Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Record-Breaking Monarchs",
       "content": "Portugal holds a curious historical record for its monarchs, boasting both the shortest and longest reigns. While King Luís Filipe's time on the throne lasted a mere 20 minutes, King Afonso I Henriques, the country's first king, ruled for an impressive span of over 73 years."
     },
