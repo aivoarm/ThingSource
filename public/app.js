@@ -208,26 +208,80 @@ function openPost(id) {
      </div>
   `;
 
-  // Render Markdown sections using marked.js, injecting the ad between section 1 and 2
+  const inlineSlangAdHtml = `
+    <div class="inline-slang-ad" style="
+      background-color: #FFFFFF;
+      border: 1px solid rgba(168, 85, 247, 0.15);
+      border-left: 4px solid #a855f7; /* Purple */
+      padding: 20px;
+      margin: 25px 0;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    ">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+        <span style="font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 700; text-transform: uppercase; color: #a855f7; letter-spacing: 1px;">
+          🧠 Try Slang App
+        </span>
+        <span style="font-family: 'Inter', sans-serif; font-size: 10px; color: #1C1C1E; opacity: 0.4; text-transform: uppercase;">Free Utility</span>
+      </div>
+      <h4 style="font-family: 'Playfair Display', serif; font-size: 18px; margin: 0 0 6px 0; color: #1C1C1E;">
+        Want to master local street languages?
+      </h4>
+      <p style="font-family: 'Inter', sans-serif; font-size: 14px; line-height: 1.5; color: #1C1C1E; margin: 0 0 15px 0; opacity: 0.9;">
+        Learn authentic regional expressions from Montréal to London, take interactive quizzes, view local guide rules, and earn your place on the global Lore Board!
+      </p>
+      <a href="https://slang.armanayva.com" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         style="
+           display: inline-block;
+           background-color: #a855f7; /* Purple accent */
+           color: #FFFFFF;
+           font-family: 'Inter', sans-serif;
+           font-weight: 600;
+           font-size: 12px;
+           text-decoration: none;
+           padding: 8px 16px;
+           border-radius: 4px;
+         ">
+         Start Learning Slang →
+      </a>
+    </div>
+  `;
+
+  // Render Markdown sections using marked.js, injecting ads between sections
   let renderedSections = "";
   if (post.sections.length > 0) {
     renderedSections += `
       <h3>${escapeHtml(post.sections[0].heading)}</h3>
       <p>${marked.parse(post.sections[0].content)}</p>
     `;
-    if (post.sections.length > 1) {
+    if (post.sections.length > 2) {
       renderedSections += inlineAdHtml;
-      for (let i = 1; i < post.sections.length; i++) {
+      renderedSections += `
+        <h3>${escapeHtml(post.sections[1].heading)}</h3>
+        <p>${marked.parse(post.sections[1].content)}</p>
+      `;
+      renderedSections += inlineSlangAdHtml;
+      for (let i = 2; i < post.sections.length; i++) {
         renderedSections += `
           <h3>${escapeHtml(post.sections[i].heading)}</h3>
           <p>${marked.parse(post.sections[i].content)}</p>
         `;
       }
+    } else if (post.sections.length > 1) {
+      renderedSections += inlineAdHtml;
+      renderedSections += `
+        <h3>${escapeHtml(post.sections[1].heading)}</h3>
+        <p>${marked.parse(post.sections[1].content)}</p>
+      `;
+      renderedSections += inlineSlangAdHtml;
     } else {
       renderedSections += inlineAdHtml;
+      renderedSections += inlineSlangAdHtml;
     }
   } else {
-    renderedSections = inlineAdHtml;
+    renderedSections = inlineAdHtml + inlineSlangAdHtml;
   }
 
   // Portugal Corner

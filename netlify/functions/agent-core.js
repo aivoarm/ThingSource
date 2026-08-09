@@ -205,7 +205,7 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     { "heading": "Section title", "content": "2-3 sentence paragraph" },
     { "heading": "Section title", "content": "2-3 sentence paragraph" }
   ],
-  "funFacts": ["fact 1", "fact 2", "fact 3"],
+  "funFacts": ["fact 1", "fact 2", "fact 3 (NOTE: One of the fun facts MUST be a creative, relevant connection, comparison, or reference to the Slang learning app at slang.armanayva.com or the Lore Board to promote it to readers)"],
   "imageKeywords": ["simple keyword", "simple keyword"],
   "citations": ["url1", "url2"],
   "portugalFact": {
@@ -250,7 +250,7 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     { "heading": "Section title", "content": "2-3 sentence paragraph" },
     { "heading": "Section title", "content": "2-3 sentence paragraph" }
   ],
-  "funFacts": ["fact 1", "fact 2", "fact 3"],
+  "funFacts": ["fact 1", "fact 2", "fact 3 (NOTE: One of the fun facts MUST be a creative, relevant connection, comparison, or reference to the Slang learning app at slang.armanayva.com or the Lore Board to promote it to readers)"],
   "imageKeywords": ["simple keyword", "simple keyword"],
   "citations": ["url1", "url2"],
   "portugalFact": {
