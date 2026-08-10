@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "The World's Oldest Alliance: The Treaty of Windsor",
+      "content": "Portugal is party to the world's oldest diplomatic alliance still in force today: the Treaty of Windsor, signed with England in 1386. This enduring pact has seen both nations support each other through various conflicts and challenges over six centuries. It exemplifies a remarkably stable and long-standing international relationship."
+    },
+    "culture": {
+      "title": "Pastel de Nata: A Monastic Culinary Creation",
+      "content": "The iconic Portuguese custard tart, Pastel de Nata, boasts a unique origin from the Jerónimos Monastery in Lisbon. Monks there, who used egg whites for starching clothes, ingeniously repurposed the leftover yolks to create this delightful, creamy pastry. The original secret recipe from 1837 is still known only by the pastry chefs of Fábrica dos Pastéis de Belém."
+    },
+    "news": {
+      "title": "Portugal Boosts AI Innovation with New Gigafactory and National Language Model",
+      "content": "Portugal is rapidly emerging as a European tech hub, demonstrated by significant investments in Artificial Intelligence. In June 2026, the country announced a €200 million investment for an AI Gigafactory, a strategic project aimed at creating a national AI ecosystem. Furthermore, in July 2026, Portugal unveiled its first Large Language Model, AMALIA, developed by public universities, underscoring its growing innovation capabilities.",
+      "url": "https://empoweredstartups.com/portugal-is-open-for-business-now-it-needs-global-talent/"
+    },
+    "id": "1786347938624-portugal",
+    "date": "2026-08-10T07:45:38.624Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "The Transformative 1755 Lisbon Earthquake",
       "content": "A devastating earthquake struck Lisbon in 1755, leading to widespread destruction and an estimated 10,000 to 100,000 deaths. This catastrophic event not only reshaped the city but also profoundly influenced Enlightenment philosophers like Voltaire and Rousseau, sparking new debates on humanity's response to disaster and even contributing to the birth of modern seismology."
     },
