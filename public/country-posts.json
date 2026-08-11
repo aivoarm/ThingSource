@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "The Strategic and Ecological Significance of the Berlengas Islands",
+      "content": "Off the coast of Peniche lies the Berlengas archipelago, a UNESCO Biosphere Reserve with a fascinating history. These rugged islands, particularly Berlenga Grande, were home to monks in the 15th century who established a monastery to aid shipwrecked sailors, and later became strategically important with the construction of the Fort of São João Baptista in the 17th century to defend against pirates and invaders. Beyond its historical layers, the archipelago is a sanctuary of biodiversity, recognized for its unique flora and seabird species, making it a compelling natural and cultural landmark."
+    },
+    "culture": {
+      "title": "The Enduring Art of Portuguese Bobbin Lacemaking",
+      "content": "Portugal boasts a rich tradition of bobbin lacemaking, known as 'renda de bilros,' particularly prominent in coastal towns like Peniche and Vila do Conde. This intricate handicraft, dating back to the 17th century, involves meticulously braiding and twisting delicate threads wound on bobbins to create complex patterns. Passed down through generations, this skilled artistry is celebrated for its delicate beauty and continues to be a vibrant part of Portuguese cultural heritage."
+    },
+    "news": {
+      "title": "Portuguese Royal Treasury Museum Named Museum of the Year 2026",
+      "content": "Lisbon's Royal Treasury Museum, housed in the Ajuda National Palace, was recently awarded the prestigious 'Museum of the Year 2026' title at the first Portuguese Business Awards. This recognition celebrates the museum's efforts in making the Portuguese Crown's treasury accessible to the public after more than a century, actively promoting the nation's rich cultural heritage.",
+      "url": "https://www.portugalglobal.pt/en/news/portuguese-royal-treasury-museum-named-museum-of-the-year-2026"
+    },
+    "id": "1786434344307-portugal",
+    "date": "2026-08-11T07:45:44.307Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "The World's Oldest Alliance: The Treaty of Windsor",
       "content": "Portugal is party to the world's oldest diplomatic alliance still in force today: the Treaty of Windsor, signed with England in 1386. This enduring pact has seen both nations support each other through various conflicts and challenges over six centuries. It exemplifies a remarkably stable and long-standing international relationship."
     },
