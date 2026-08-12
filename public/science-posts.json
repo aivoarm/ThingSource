@@ -1,5 +1,92 @@
 [
   {
+    "title": "CRISPR-Armed Viruses: A New Precision Weapon Against Superbugs",
+    "summary": "Scientists have engineered bacteria-killing viruses, called phages, with the revolutionary CRISPR gene-editing tool, demonstrating a powerful new approach that appears to have successfully treated a severe, antibiotic-resistant infection.",
+    "sections": [
+      {
+        "heading": "The Growing Threat of Superbugs",
+        "content": "Antibiotic resistance is a global health crisis, where bacteria evolve to resist our most potent medications, leading to dangerous infections that are increasingly difficult to treat. These 'superbugs' claim millions of lives annually, urgently demanding innovative solutions beyond traditional antibiotics."
+      },
+      {
+        "heading": "Phages: Nature's Tiny Assassins",
+        "content": "Bacteriophages, or phages, are naturally occurring viruses that specialize in infecting and destroying bacteria. For decades, they have been considered a potential alternative to antibiotics, but their effectiveness can sometimes be hampered by bacteria's own clever defense mechanisms."
+      },
+      {
+        "heading": "CRISPR: Adding Precision to the Attack",
+        "content": "By 'arming' phages with CRISPR – a sophisticated gene-editing technology – researchers have created a highly targeted therapeutic tool. This combination allows the phages to not just find bacteria, but to precisely snip and disable the specific DNA that helps bacteria survive or resist drugs, turning them into precision-guided missiles."
+      },
+      {
+        "heading": "A Promising Breakthrough for Severe Infections",
+        "content": "This groundbreaking strategy has shown significant promise in clearing up a very serious infection caused by antibiotic-resistant E. coli, a type of superbug. This successful application marks a crucial step forward, offering hope for treating life-threatening infections that currently defy conventional medical interventions."
+      }
+    ],
+    "funFacts": [
+      "Antibiotic-resistant infections are projected to cause more deaths than cancer globally by 2050 if new treatments aren't developed.",
+      "Phages are incredibly abundant, estimated to be the most common biological entities on Earth, found wherever bacteria exist.",
+      "CRISPR technology itself was inspired by a natural immune system found in bacteria, which they use to defend against invading viruses.",
+      "Unlike broad-spectrum antibiotics, CRISPR-armed phages can be designed to target only specific harmful bacteria, potentially sparing beneficial microbes in the body."
+    ],
+    "originalTitle": "CRISPR-armed phages help treat severe superbug infection",
+    "originalUrl": "https://www.newscientist.com/article/2584196-crispr-armed-phages-help-treat-severe-superbug-infection/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1786519860909-0o3r1",
+    "date": "2026-08-12T07:31:00.909Z"
+  },
+  {
+    "title": "The Mediterranean Diet You Know Isn't the One Ancient Romans Ate",
+    "summary": "Our modern understanding of the healthy Mediterranean diet, rich in olive oil, vegetables, and fish, significantly diverges from the historical reality, where ancient civilizations predominantly fueled themselves with bread.",
+    "sections": [
+      {
+        "heading": "The Modern Mediterranean Ideal",
+        "content": "Today's acclaimed Mediterranean diet is celebrated globally for its focus on olive oil, abundant fresh vegetables, fruits, legumes, nuts, and moderate amounts of fish and poultry. This eating pattern is widely linked to longevity and excellent cardiovascular health, often recommended by nutritionists worldwide."
+      },
+      {
+        "heading": "A Glimpse into Ancient Pantries",
+        "content": "Historical evidence, including the words of Roman Emperor Julian, reveals a starkly different dietary landscape for ancient Mediterranean peoples. Their daily meals were primarily centered around bread, a fundamental and highly valued source of sustenance, far outweighing the consumption of the more luxurious foods we associate with the region today."
+      },
+      {
+        "heading": "Redefining \"Mediterranean\" Eating",
+        "content": "This discovery doesn't diminish the health benefits of the modern Mediterranean diet but rather reframes our historical understanding of its origins. It highlights how food patterns evolve significantly over centuries, reminding us that what we consider traditional today may be a relatively recent development, influenced by agricultural changes, economic shifts, and evolving tastes."
+      }
+    ],
+    "funFacts": [
+      "Roman Emperor Julian (332-363 CE) famously declared bread to be the food \"thought to be the most nourishing\" among his people.",
+      "Ancient Mediterranean diets relied heavily on grains like wheat and barley, consumed mostly as bread, as their primary source of calories.",
+      "While olive oil, fresh produce, and fish were present, they often played a smaller, more seasonal, or luxury role in daily ancient meals compared to the ubiquity of bread."
+    ],
+    "originalTitle": "Today&#039;s Mediterranean diet leans on olive oil, veggies and fish—But the ancients mainly ate bread",
+    "originalUrl": "https://phys.org/news/2026-08-today-mediterranean-diet-olive-oil.html",
+    "id": "1786519870354-osguh",
+    "date": "2026-08-12T07:31:10.354Z"
+  },
+  {
+    "title": "Heart Surgery's Remarkable Twist: Curing Cancer, Unveiling a Bee Allergy",
+    "summary": "In an astonishing medical case, a man's life-saving heart surgery unexpectedly triggered his immune system to fight off severe skin cancer, offering a glimmer of hope for new therapies, albeit with the surprising side effect of developing a serious bee sting allergy.",
+    "sections": [
+      {
+        "heading": "The Unexpected Cure",
+        "content": "A routine heart surgery for a common condition took an extraordinary turn for one patient: it appears to have inadvertently cured his severe skin cancer. This remarkable outcome highlights the complex interplay within our bodies, where one medical intervention can have profound and unanticipated ripple effects."
+      },
+      {
+        "heading": "The Immune System's Double-Edged Sword",
+        "content": "Scientists believe the extensive surgical procedure kick-started the patient's immune system, potentially prompting it to recognize and attack his severe melanoma. While this immune activation was a boon for his cancer, it also recalibrated his body to perceive bee venom as a serious threat, leading to a newly developed and life-threatening allergy."
+      },
+      {
+        "heading": "Paving the Way for New Therapies?",
+        "content": "This unique case offers invaluable insights into the immune system's potential to fight cancer, sparking interest among researchers. While not a direct treatment recommendation, understanding how such a dramatic immune shift occurred could inform future strategies for developing novel cancer immunotherapies."
+      }
+    ],
+    "funFacts": [
+      "Melanoma is one of the most aggressive forms of skin cancer, making this spontaneous remission particularly significant.",
+      "This phenomenon falls into a rare category called 'spontaneous cancer regression,' where tumors shrink or disappear without conventional treatment, often linked to immune system activity.",
+      "Modern cancer research heavily focuses on 'immunotherapy,' treatments that harness or boost the body's own immune defenses to fight cancer cells.",
+      "Developing a new, severe allergy in adulthood, especially to a common allergen like bee venom, is a rare but documented immune system anomaly."
+    ],
+    "originalTitle": "Heart surgery cured a man’s skin cancer – and gave him a bee allergy",
+    "originalUrl": "https://www.newscientist.com/article/2584182-heart-surgery-cured-a-mans-skin-cancer-and-gave-him-a-bee-allergy/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1786519879432-5m3xc",
+    "date": "2026-08-12T07:31:19.432Z"
+  },
+  {
     "title": "Bringing the Cosmos to Life: How NASA and Educators are Revolutionizing Astronomy Classrooms",
     "summary": "Imagine learning about distant galaxies not from static textbook pages, but by interacting with the same dynamic data and stunning imagery NASA scientists use every day. This exciting transformation is happening in community college astronomy classrooms, making the universe more tangible and inspiring than ever before.",
     "sections": [
