@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "The Ancient Roman Road of Geira and Its Enduring Mile Markers",
+      "content": "Within Portugal's Peneda-Gerês National Park lies a remarkable testament to Roman engineering: the Geira Roman Road, also known as Via Nova or Via XVIII. This ancient route once connected Braga (Bracara Augusta) in Portugal to Astorga (Asturica Augusta) in Spain. The park preserves significant stretches of the original Roman flagstones and an impressive concentration of Roman mile markers, known as 'miliários', one of the largest collections found anywhere in Europe."
+    },
+    "culture": {
+      "title": "The 'Café Pendente' Tradition of Solidarity",
+      "content": "Portugal boasts a rich coffee culture, and among its unique traditions is the 'café pendente' (pending coffee). This custom, particularly found in Lisbon, involves customers paying for an extra cup of coffee for someone who cannot afford it. It's a quiet act of anonymous solidarity, allowing those in need to enjoy a warm drink and fostering a sense of community."
+    },
+    "news": {
+      "title": "Porto Ranks Among World's Best Cities for Gen Z to Live",
+      "content": "Porto has been recognized as the second-best city globally for Generation Z to live, according to a 2026 list by Time Out and Intrepid Travel. The ranking, based on perception, highlights Porto's appeal to younger generations due to its proximity to the Douro River, coastline, gardens, and vibrant cultural institutions, including its UNESCO World Heritage city center.",
+      "url": "https://www.idealista.pt/news/lifestyle/living-in-portugal/2026/08/10/3743511-portuguese-city-ranks-among-the-worlds-best-places-for-gen-z-to-live"
+    },
+    "id": "1786520755716-portugal",
+    "date": "2026-08-12T07:45:55.716Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "The Strategic and Ecological Significance of the Berlengas Islands",
       "content": "Off the coast of Peniche lies the Berlengas archipelago, a UNESCO Biosphere Reserve with a fascinating history. These rugged islands, particularly Berlenga Grande, were home to monks in the 15th century who established a monastery to aid shipwrecked sailors, and later became strategically important with the construction of the Fort of São João Baptista in the 17th century to defend against pirates and invaders. Beyond its historical layers, the archipelago is a sanctuary of biodiversity, recognized for its unique flora and seabird species, making it a compelling natural and cultural landmark."
     },
