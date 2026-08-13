@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Angra do Heroísmo: Portugal's Atlantic Capital",
+      "content": "A fascinating, lesser-known fact about Portugal is that the city of Angra do Heroísmo, located in the Azores archipelago, served as the nation's capital on two separate occasions. This unique historical role occurred during periods of significant political upheaval, solidifying its importance beyond its remote Atlantic location. The first instance was between 1580 and 1582 during a succession crisis, and again in 1830 on behalf of Queen Maria II."
+    },
+    "culture": {
+      "title": "The Red Carnations of Freedom Day",
+      "content": "Portugal's 'Freedom Day,' celebrated annually on April 25th, commemorates the peaceful Carnation Revolution of 1974 which overthrew a long-standing dictatorial regime. This pivotal moment in Portuguese history is uniquely symbolized by red carnations. The flowers were placed into the muzzles of soldiers' rifles, transforming a military coup into a virtually bloodless uprising and a powerful emblem of liberty."
+    },
+    "news": {
+      "title": "Portugal Closes Chapter on Wild Animals in Circuses",
+      "content": "In a significant move for animal welfare, Portugal has recently closed the chapter on the use of wild animals in circuses. This progressive legislation, which came into full effect in May 2026, reflects a growing societal commitment to ethical treatment of animals and positions Portugal as a leader in this field, garnering positive attention internationally.",
+      "url": "https://www.theportugalnews.com/news/2026-05-07/portugal-closes-chapter-on-wild-animals-in-circuses/89914"
+    },
+    "id": "1786607132967-portugal",
+    "date": "2026-08-13T07:45:32.967Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "The Ancient Roman Road of Geira and Its Enduring Mile Markers",
       "content": "Within Portugal's Peneda-Gerês National Park lies a remarkable testament to Roman engineering: the Geira Roman Road, also known as Via Nova or Via XVIII. This ancient route once connected Braga (Bracara Augusta) in Portugal to Astorga (Asturica Augusta) in Spain. The park preserves significant stretches of the original Roman flagstones and an impressive concentration of Roman mile markers, known as 'miliários', one of the largest collections found anywhere in Europe."
     },
