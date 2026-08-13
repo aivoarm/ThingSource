@@ -1,5 +1,78 @@
 [
   {
+    "title": "James Webb Captures a Cosmic Lion: The Dramatic Art of a Dying Star",
+    "summary": "The James Webb Space Telescope has unveiled a stunning new image of a nebula nicknamed the 'Lion Nebula,' offering an unprecedented look at the fiery, artistic death throes of a star much like our own Sun. This incredible view helps us understand the spectacular transformations stars undergo at the end of their lives.",
+    "sections": [
+      {
+        "heading": "A Celestial Sculptor at Work",
+        "content": "Through the powerful infrared eyes of the James Webb Space Telescope, we're witnessing a breathtaking cosmic sculpture known as the Lion Nebula (NGC 2392). This vibrant celestial face is actually the spectacular aftermath of a star similar to our Sun reaching the end of its life, dramatically shedding its outer layers into space."
+      },
+      {
+        "heading": "The Fiery Heart of a Dying Star",
+        "content": "At the heart of this cosmic artwork lies a super-hot stellar core, called a white dwarf, which is what remains of the original star. This tiny, dense remnant blasts intense radiation outwards, carving out the nebula's distinct features and lighting up the surrounding clouds of gas and dust, much like a powerful searchlight illuminating a swirling fog. This process gives us a stunning preview of the magnificent, albeit destructive, future awaiting stars like our own Sun."
+      }
+    ],
+    "funFacts": [
+      "The 'Lion Nebula' is a type of planetary nebula, a somewhat misleading term as it has nothing to do with planets; it simply looked like a planet's disk through early telescopes.",
+      "Our own Sun is destined to become a white dwarf and create its own beautiful, though temporary, planetary nebula in about 5 billion years.",
+      "Infrared observations, like those from James Webb, are crucial for seeing through dense cosmic dust and revealing details that would otherwise be hidden from view."
+    ],
+    "originalTitle": "James Webb captures a cosmic lion sculpted by a dying star",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260812015206.htm",
+    "id": "1786606251888-4p3ha",
+    "date": "2026-08-13T07:30:51.888Z"
+  },
+  {
+    "title": "From Fleece to Fracture Fixer: How Sheep's Wool Could Rebuild Bones",
+    "summary": "Scientists have found that a protein from sheep's wool, usually a waste product, can help damaged bone regenerate more effectively and naturally than current methods, opening a surprising new chapter in regenerative medicine.",
+    "sections": [
+      {
+        "heading": "The Unexpected Power of Wool",
+        "content": "Researchers have discovered that keratin, the same tough protein found in our hair and fingernails—and abundantly in sheep's wool—can act as a remarkably effective scaffold for bone regeneration. This protein, typically a byproduct of the textile industry, is showing incredible promise in helping damaged bones mend themselves."
+      },
+      {
+        "heading": "A Better Blueprint for Bone Repair",
+        "content": "When tested in animals, the wool-derived material not only prompted bone regeneration but also encouraged the new tissue to form in a more organized, natural structure, closely mirroring healthy bone. This is a significant improvement over conventional collagen-based materials, which often produce less orderly and structurally weaker repairs, offering a path to stronger, more authentic bone healing."
+      }
+    ],
+    "funFacts": [
+      "Keratin, the protein extracted from sheep's wool, is the same building block that makes up our own hair, skin, and nails, giving it natural compatibility with the body.",
+      "This research transforms an abundant agricultural byproduct, often considered waste, into a valuable resource for medical innovation.",
+      "Unlike current bone scaffolds that often result in haphazard tissue growth, the wool-derived material helps new bone form with an organized structure, much closer to healthy bone."
+    ],
+    "originalTitle": "Scientists turn sheep’s wool into a material that helps regrow bone",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260812015210.htm",
+    "id": "1786606259346-74exa",
+    "date": "2026-08-13T07:30:59.346Z"
+  },
+  {
+    "title": "Starlink Satellites Are Now Acting as a Giant Weather Sensor for Earth's Upper Atmosphere",
+    "summary": "Scientists have ingeniously repurposed the vast Starlink satellite network to map a notoriously difficult-to-observe part of Earth's upper atmosphere, transforming orbiting internet providers into a global space weather station. This unprecedented view of atmospheric density at 500 kilometers above us promises to make space safer by sharpening satellite tracking and preventing collisions in increasingly crowded orbits.",
+    "sections": [
+      {
+        "heading": "Peering into Earth's Farthest Atmospheric Reaches",
+        "content": "Earth's atmosphere doesn't just abruptly end; it gradually thins out, with a crucial region extending hundreds of kilometers above us. This 'upper atmosphere' is incredibly tenuous but significantly influences objects orbiting within it, yet it's notoriously difficult to monitor directly and consistently. Understanding its subtle changes is vital for everything from GPS to future space travel."
+      },
+      {
+        "heading": "Starlink: From Internet Provider to Space Weather Tracker",
+        "content": "Researchers have ingeniously harnessed the sheer number of Starlink satellites, currently over a thousand strong, as an unprecedented network of atmospheric sensors. By meticulously analyzing the precise orbital paths of these satellites—how they subtly slow down or shift—scientists can effectively 'feel' the varying density of the super-thin air around them. This turns a commercial internet constellation into a powerful scientific instrument, revealing previously hidden dynamics of our upper atmosphere."
+      },
+      {
+        "heading": "Making Space Safer and More Predictable",
+        "content": "This new, detailed mapping capability for Earth's upper atmosphere has significant implications for the rapidly growing space industry. Precise knowledge of atmospheric density allows for much more accurate predictions of satellite trajectories, acting like a real-time weather report for objects in orbit. This improved understanding will be critical for avoiding collisions between thousands of operational satellites and the ever-increasing amount of space debris, ensuring the continued safety and functionality of vital services we rely on daily."
+      }
+    ],
+    "funFacts": [
+      "At 500 kilometers altitude, Earth's atmosphere is incredibly thin—like a vacuum by everyday standards—but it's still dense enough to create drag on satellites and change their orbits over time.",
+      "This method effectively turns each Starlink satellite into a tiny 'accelerometer,' sensing the drag from the ultra-thin air and contributing to a vast, distributed map of the upper atmosphere.",
+      "Understanding the upper atmosphere is crucial for predicting 'space weather,' which can impact everything from GPS accuracy and radio communications to power grids on Earth."
+    ],
+    "originalTitle": "Scientists turn Starlink into a giant scanner for Earth’s upper atmosphere",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260812015212.htm",
+    "id": "1786606270364-nk8zn",
+    "date": "2026-08-13T07:31:10.364Z"
+  },
+  {
     "title": "CRISPR-Armed Viruses: A New Precision Weapon Against Superbugs",
     "summary": "Scientists have engineered bacteria-killing viruses, called phages, with the revolutionary CRISPR gene-editing tool, demonstrating a powerful new approach that appears to have successfully treated a severe, antibiotic-resistant infection.",
     "sections": [
