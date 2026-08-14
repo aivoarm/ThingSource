@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal: The World's Leading Cork Producer",
+      "content": "Portugal stands as the undisputed global leader in cork production, accounting for approximately half of the world's entire cork supply. This extensive industry is rooted in the country's vast montado landscapes, which are crucial for both the economy and the unique biodiversity they support. The cork oak forests not only provide sustainable raw material but also serve as vital ecosystems for various species."
+    },
+    "culture": {
+      "title": "The Quirky 'Cavacas' Throwing Festival of São Gonçalinho",
+      "content": "In Aveiro, Portugal, the unique Festa de São Gonçalinho is celebrated in January, honoring Saint Gonçalinho. A peculiar highlight of this festival involves devotees throwing 'cavacas'—hard, sugary pastries—from the church tower into the eager crowd below. People gather with nets and umbrellas, creating a scene of joyful chaos as they attempt to catch the falling treats."
+    },
+    "news": {
+      "title": "Portugal's Economy Shows Sustained Growth and Positive Outlook",
+      "content": "Portugal's economy has continued to demonstrate robust growth, outperforming the euro area average since 2022, with declining unemployment and significantly reduced public debt. The OECD Economic Surveys: Portugal 2026 report indicates this positive trend is set to continue through 2026 and 2027, bolstered by structural reforms and investments from the Recovery and Resilience Fund, aiming to boost competitiveness and sustainable growth.",
+      "url": "https://www.oecd.org/economy/portugal-economic-snapshot/"
+    },
+    "id": "1786693558395-portugal",
+    "date": "2026-08-14T07:45:58.395Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Angra do Heroísmo: Portugal's Atlantic Capital",
       "content": "A fascinating, lesser-known fact about Portugal is that the city of Angra do Heroísmo, located in the Azores archipelago, served as the nation's capital on two separate occasions. This unique historical role occurred during periods of significant political upheaval, solidifying its importance beyond its remote Atlantic location. The first instance was between 1580 and 1582 during a succession crisis, and again in 1830 on behalf of Queen Maria II."
     },
