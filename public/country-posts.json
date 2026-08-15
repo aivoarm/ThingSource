@@ -2,6 +2,23 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Ancient Megalithic Landscape and the Grand Dolmen of Zambujeiro",
+      "content": "Long before its maritime explorations, Portugal was home to a thriving megalithic culture, leaving behind thousands of dolmens, menhirs, and cromlechs. Among these impressive prehistoric structures is the Anta Grande do Zambujeiro near Évora, recognized as one of the largest dolmens in megalithic Europe. Dating back to around 3000 BCE, this monumental tomb with its towering stones served as a communal burial site and cult center for early agro-pastoral communities."
+    },
+    "culture": {
+      "title": "Festa dos Tabuleiros: Tomar's Quadrannual Festival of Trays",
+      "content": "Every four years, the city of Tomar comes alive with the Festa dos Tabuleiros, an ancient and elaborate festival honoring the Holy Spirit. The highlight involves young women parading through the streets, balancing impressive 'tabuleiros' (trays) on their heads, each decorated with 30 loaves of bread and paper flowers. These towering offerings, often reaching the height of the women carrying them, symbolize abundance and community gratitude in a vibrant display of historical tradition."
+    },
+    "news": {
+      "title": "Calouste Gulbenkian Foundation Funds Immigrant Integration Projects",
+      "content": "In a significant move to foster social cohesion, the Calouste Gulbenkian Foundation recently announced €2.5 million in funding for 28 civil society projects dedicated to immigrant integration across Portugal. These initiatives focus on crucial areas such as Portuguese language and culture learning, job market integration, access to healthcare, and legal support, particularly benefiting vulnerable migrant families in Greater Lisbon and the West."
+    },
+    "id": "1786779937566-portugal",
+    "date": "2026-08-15T07:45:37.566Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal: The World's Leading Cork Producer",
       "content": "Portugal stands as the undisputed global leader in cork production, accounting for approximately half of the world's entire cork supply. This extensive industry is rooted in the country's vast montado landscapes, which are crucial for both the economy and the unique biodiversity they support. The cork oak forests not only provide sustainable raw material but also serve as vital ecosystems for various species."
     },
