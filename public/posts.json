@@ -1,5 +1,58 @@
 [
   {
+    "topic": "The Traffic Light",
+    "title": "Stop and Go: The Surprising, Explosive Origins of the Traffic Light",
+    "category": "Inventions",
+    "summary": "Before automated signals, traffic control was a chaotic mess, leading to a desperate need for order that birthed a surprisingly dangerous predecessor to our modern traffic lights.",
+    "sections": [
+      {
+        "heading": "Gas-Powered Beginnings (and a Fiery End)",
+        "content": "The very first attempt at a traffic control signal appeared in London, UK, on December 9, 1868, installed outside the Houses of Parliament. Designed by railway engineer J.P. Knight, it was a gas-powered lantern system, using red and green lights with semaphore arms operated manually by a police officer to regulate horse-drawn carriages and pedestrian crossings. Tragically, in January 1869, a gas leak caused the device to explode, seriously injuring the policeman operating it and leading to its immediate removal."
+      },
+      {
+        "heading": "The Electric Revolution Takes the Wheel",
+        "content": "After the London incident, it took decades for the concept to re-emerge safely. The first electric traffic light, remarkably similar to what we know today, was designed by James Hoge and installed in Cleveland, Ohio, on August 5, 1914, at the corner of East 105th Street and Euclid Avenue. This two-color (red and green, or 'stop' and 'move') system not only controlled traffic with electrical signals but also included a buzzer to warn of impending color changes, and was operated manually from a nearby control booth. Later, inventor Garrett Morgan patented a T-shaped, three-position traffic signal in 1923, which added a 'caution' interval between stop and go, significantly improving safety."
+      }
+    ],
+    "funFacts": [
+      "Early traffic signals, even the electric ones, were often operated manually by police officers stationed in booths at intersections.",
+      "J.P. Knight, the inventor of the first traffic signal, adapted the design from existing railway signals, demonstrating an early cross-industry solution to traffic management.",
+      "Just like learning the 'red means stop' and 'green means go' rules of traffic lights helps you navigate the roads, Slang learning app users master the nuances of language by understanding how different words and phrases signal specific meanings in conversations!"
+    ],
+    "imageKeywords": [
+      "J.P. Knight traffic signal London 1868",
+      "James Hoge Cleveland traffic light 1914",
+      "Garrett Morgan traffic signal patent",
+      "early electric traffic light"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHx-Ymt22UlHr_SNW5eGpoGflEOdF2C6YHBzC9Umv2VkDp9V8TZUdra8nqLyLnvtQfGPmL2MHAkW0rLP5NitCvuhWsaXxWGGmedlyVk-KHHJoRIWAZuF092pfmls7Nqr3nsaW-FloG3YuVG7-dGvA0UCnh7K2xQewK94Xjkq_UlL8mrWNByfyy6YqXXRAPoY69UvhCQhtZtLooeovK5KaNIyEOn2tDn4h0KjDxfl3DLxFSiIQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgpuKQpMQaYLzEmcl0wEEN6_UO1N9L-03p-x15s2IsKr2U4DbD1N2eX7bcNHtFXqLnHiKqLB0GkU1cNPezR2MEbvhOQgsSd2dHryvZRhR6E5pzUVU_3t99_q7LkBirYqL4O0wChikzlg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEawZt0mbTbvi1GTmPFE-MwgfPnQkhASm-1e8SfUZnifh1w_WacQl_AQk2YxfTE676oEmzvoIOU4O7HTXj5YVoa9Mu4u0D3-kis0YAMsIDd3_4fvuIyAYxEt46QyS_tgZAPQlYYA9Zq5nlAtN12whnNSbab7vJ2ikNSImcqu1uckU=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuHch7DF2SlUmfnupjH-jBEEDCNbyxaIzQ8ZVxcg1C9TJ_AgXiwfFCt2-2pa_lHhz27dOWgVa4fDavuhsmlxrCpAwImfbHRSR3p0eg0OtTfaCgst590jA6hNvam-esuRweSogATwrO2rX5esIH84LKEWHHcVP9MY4Hc40NvoHmwJDojHu3HLTvhFyt",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFYbOez1oL-lChCH3LsDTQCZalchdrtTnom1ewnXS882rnLNYHdB8PSzxFq31rI0YLBSNR_L2tW352RTUk7Pxi02FMk-cVMU-UGD86xbIK3L6gnNa0eBVG0l7syaEyuPQ3JbtE9n1JxZE1lDQ4cyOQWOFM-7BsADfIyZrm9i0IE5Zg8HH9PTEyvEEgLidGzf3EhB4tCW89tmchyKS7_nXclgs3nDgyevo="
+    ],
+    "portugalFact": {
+      "title": "Dividing the World: Portugal's Role in the Treaty of Tordesillas",
+      "content": "In 1494, Portugal and Spain signed the Treaty of Tordesillas, a pivotal agreement that effectively divided the newly discovered lands outside Europe between their respective crowns. Orchestrated by Pope Alexander VI, the treaty drew an imaginary line 370 leagues west of the Cape Verde Islands, granting Portugal all lands to the east and Spain all lands to the west. This audacious act of geopolitical cartography significantly shaped the colonial history and language distribution of South America and beyond, with Brazil notably falling within the Portuguese zone."
+    },
+    "aiSource": "Gemini",
+    "id": "1786777285992-the-traffic-light",
+    "slug": "stop-and-go-the-surprising-explosive-origins-of-the-traffic-",
+    "date": "2026-08-15T07:01:25.993Z",
+    "joke": {
+      "joke": "I was in a restaurant the other day. I said, 'I'd like a table for one.' The guy said, 'Are you alone?' I said, 'No. I'm with a bunch of invisible people.' He said, 'Can I get them anything?' I said, 'No, they're not hungry.'",
+      "setup": "I was in a restaurant the other day. I said, 'I'd like a table for one.' The guy said, 'Are you alone?'",
+      "punchline": "I said, 'No. I'm with a bunch of invisible people.'",
+      "comedian": "Steven Wright",
+      "year": "1980s",
+      "context": "This joke is a quintessential example of Steven Wright's groundbreaking deadpan and surreal observational humor, which became incredibly influential in comedy. It brilliantly takes a mundane social interaction and subverts it with an absurd and unexpected twist, consistently generating laughs through its clever misdirection and unique perspective."
+    },
+    "images": [
+      "https://picsum.photos/seed/1786777285992-the-traffic-light/800/500"
+    ]
+  },
+  {
     "topic": "origin of microwave oven",
     "title": "The Accidental Zap: How a Melting Candy Bar Gave Us the Microwave",
     "category": "Inventions",
