@@ -1,5 +1,74 @@
 [
   {
+    "title": "AI's New Role: Using Robot-Written Essays to Shape How We Grade Kids' Tests",
+    "summary": "In a groundbreaking move, the UK government is exploring a surprising way to standardize fairness in school literacy assessments: utilizing essays penned by AI, like ChatGPT, as reference points for human graders. This cost-saving proposal sparks a vital conversation about the future of evaluating our children's writing skills in an increasingly digital world.",
+    "sections": [
+      {
+        "heading": "Revolutionizing Test Quality Checks",
+        "content": "Imagine a world where the benchmark for judging children's writing isn't a collection of real student essays, but artificial intelligence-generated prose. That's the innovative, cost-cutting idea currently being explored by a UK government project for 'Key Stage 2' literacy assessments, which are taken by children typically around age 10-11. Instead of paying for and meticulously preparing actual student scripts for comparison, the project proposes to supply human 'moderators'—experts who ensure grading consistency—with writing samples created by advanced AI tools like ChatGPT."
+      },
+      {
+        "heading": "The Promise and Peril of AI Benchmarks",
+        "content": "The primary driver behind this intriguing proposal is the potential for significant cost savings in the assessment process. However, this raises important questions: Can AI truly replicate the unique characteristics, common errors, and developmental nuances found in actual children's writing? If moderators are trained using AI-generated examples, will they accurately identify the strengths and weaknesses in genuine student work, or could this subtle shift in their reference point inadvertently alter the standards we apply to our young writers?"
+      }
+    ],
+    "funFacts": [
+      "Key Stage 2 assessments are taken by children usually around 10 or 11 years old, marking a crucial checkpoint in their primary education in the UK.",
+      "Moderators act like quality control for grades, reviewing samples of marked tests from different schools to ensure a fair and consistent standard is applied across the board.",
+      "This initiative represents a new frontier for AI, moving beyond simply assisting students with writing to potentially influencing the very benchmarks used to evaluate their educational achievements."
+    ],
+    "originalTitle": "Test moderators use AI-generated writing to judge literacy standards",
+    "originalUrl": "https://www.newscientist.com/article/2584776-test-moderators-use-ai-generated-writing-to-judge-literacy-standards/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1786779040390-3vj7b",
+    "date": "2026-08-15T07:30:40.390Z"
+  },
+  {
+    "title": "Cosmic Forensics: Neptune's Small Moons Are Wreckage of a Violent Past",
+    "summary": "Imagine finding artifacts on a desert island that only form in a lush jungle; that's the puzzling clue the James Webb Space Telescope just found around Neptune, suggesting its small moons are survivors of an ancient, catastrophic collision.",
+    "sections": [
+      {
+        "heading": "A Puzzling Discovery in Neptune's Neighborhood",
+        "content": "Using its powerful infrared eyes, the JWST spotted an unexpected signature: clay-like minerals on Neptune's tiny inner moons, Larissa and Galatea, and even in its rings. This is baffling because these minerals typically form when rock interacts with liquid water, yet there's no obvious water ice on these moons today."
+      },
+      {
+        "heading": "Whispers of a Shattered Ancient World",
+        "content": "Scientists believe these clay fragments are cosmic shrapnel, originating from deep inside much larger, water-rich moons that once orbited Neptune. This ancient satellite system was likely torn apart when Neptune gravitationally captured its largest moon, Triton, sending shockwaves through the entire planetary neighborhood."
+      }
+    ],
+    "funFacts": [
+      "Triton, Neptune's largest moon, orbits backward compared to the planet's rotation and other moons, a strong indicator it was captured rather than forming in place.",
+      "Before Triton's dramatic arrival, Neptune likely boasted a diverse family of large, icy moons, much like Jupiter or Saturn's inner systems.",
+      "The James Webb Space Telescope's ability to detect specific mineral 'fingerprints' from millions of miles away is crucial for piecing together these ancient cosmic mysteries."
+    ],
+    "originalTitle": "Neptune’s tiny moons may be the wreckage of shattered ancient worlds",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260813045545.htm",
+    "id": "1786779049053-wu5qs",
+    "date": "2026-08-15T07:30:49.053Z"
+  },
+  {
+    "title": "Under Siege: Indonesia's Coral Reefs Face a Bomb Every Hour",
+    "summary": "Scientists have uncovered a shocking scale of destruction in Indonesian waters, where fishermen are detonating bombs at an astonishing rate, profoundly endangering precious coral reefs.",
+    "sections": [
+      {
+        "heading": "An Underwater Epidemic Revealed",
+        "content": "A groundbreaking study using advanced acoustic technology has exposed the true, terrifying frequency of blast fishing across an Indonesian archipelago. Researchers detected over 3,500 underwater explosions in just 483 days, painting a stark picture of widespread, devastating activity."
+      },
+      {
+        "heading": "The Silent Killer of Coral Ecosystems",
+        "content": "This isn't merely about catching fish; these powerful detonations obliterate vast sections of coral, the very foundation of the reef's ecosystem. Such indiscriminate destruction wipes out marine life, from tiny organisms to larger species, leaving behind barren underwater landscapes that take centuries to recover."
+      }
+    ],
+    "funFacts": [
+      "On average, scientists recorded a bomb blast roughly every hour over the entire study period on just one Indonesian reef system.",
+      "Blast fishing (or bomb fishing) involves using explosives to stun or kill fish, causing massive, unselective damage to coral reefs and marine populations.",
+      "Acoustic monitoring offers a powerful, stealthy way to track destructive fishing practices, providing crucial data for conservation efforts in remote or challenging areas."
+    ],
+    "originalTitle": "Fishers detonate a bomb every hour on one Indonesian coral reef",
+    "originalUrl": "https://www.newscientist.com/article/2584701-fishers-detonate-a-bomb-every-hour-on-one-Indonesian-coral-reef/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1786779060224-5f3wd",
+    "date": "2026-08-15T07:31:00.224Z"
+  },
+  {
     "title": "Unearthing a Matrilineal Past: DNA Reveals Women's Central Role in Pre-Roman Britain",
     "summary": "A groundbreaking genetic study of over 500 Iron Age individuals in north-east England has revealed a surprising societal structure: descent passed primarily through the mother's line, fundamentally reshaping our understanding of family and power in pre-Roman Britain.",
     "sections": [
