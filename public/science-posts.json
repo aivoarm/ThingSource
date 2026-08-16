@@ -1,5 +1,79 @@
 [
   {
+    "title": "The Moon's Next Explorers Will Think for Themselves",
+    "summary": "NASA is launching a groundbreaking mission where a trio of small, autonomous rovers will collaboratively explore the lunar surface, marking a significant leap in how we approach distant space exploration.",
+    "sections": [
+      {
+        "heading": "Why Autonomous Exploration is Key",
+        "content": "Imagine trying to drive a car when every instruction takes several seconds to reach it – that's the challenge of controlling lunar rovers from Earth. The inherent time delay in radio signals makes real-time remote control incredibly inefficient and slows down crucial scientific discovery on the Moon."
+      },
+      {
+        "heading": "A Team of Smart Robots",
+        "content": "Instead of waiting for constant commands, NASA's new fleet of three compact rovers will work together as a synchronized team. They'll be given a broad exploration goal and then tasked with communicating among themselves to decide the best routes and most effective strategies to investigate their assigned lunar patch."
+      },
+      {
+        "heading": "Paving the Way for Deeper Space",
+        "content": "This innovative mission isn't just about the Moon; it's a vital proving ground for humanity's deeper space ambitions. Mastering autonomous robotic teamwork is essential for exploring places like Mars or beyond, where communication delays are even longer and constant human oversight becomes impractical."
+      }
+    ],
+    "funFacts": [
+      "A radio signal traveling between Earth and the Moon takes approximately 1.3 seconds to reach its destination, meaning a round-trip command and response has a delay of at least 2.6 seconds.",
+      "Unlike current Mars rovers, which still receive detailed instructions from Earth almost daily, these new lunar robots will be designed to make many decisions on their own and coordinate actions as a group.",
+      "Developing highly autonomous rovers could drastically increase the speed and efficiency of scientific data collection, allowing us to explore more lunar territory in less time."
+    ],
+    "originalTitle": "Exploring the moon will require rovers that can think for themselves",
+    "originalUrl": "https://phys.org/news/2026-08-exploring-moon-require-rovers.html",
+    "id": "1786865434941-sbhf3",
+    "date": "2026-08-16T07:30:34.941Z"
+  },
+  {
+    "title": "Surprise! A Stress Hormone Helps Your Brain Repair Itself",
+    "summary": "In a groundbreaking discovery, scientists have found that a specific stress hormone, usually linked to 'fight or flight,' plays a surprising and crucial role in helping the brain mend itself after injury by guiding the repair of vital nerve insulation.",
+    "sections": [
+      {
+        "heading": "The Brain's Unexpected Self-Repair Signal",
+        "content": "We often associate stress hormones with negative health impacts, but new research reveals a surprising twist: a specific one, called CRH (Corticotropin-Releasing Hormone), appears to be a key player in brain repair. Scientists found that specialized 'precursor cells' – think of them as the brain's tiny repair crew – rapidly release CRH directly at sites of damage, orchestrating the critical rebuilding process."
+      },
+      {
+        "heading": "Rebuilding the Brain's 'Insulation' and Its Far-Reaching Impact",
+        "content": "These precursor cells are tasked with producing myelin, the protective fatty sheath that insulates our nerve fibers, much like the plastic coating on an electrical wire. The CRH signal helps these cells mature correctly to repair this vital insulation, influencing not just recovery from injury but also healthy brain development and the thickness of myelin throughout our lives. This discovery could transform our understanding of how early-life stress might impact long-term brain health and susceptibility to certain disorders."
+      }
+    ],
+    "funFacts": [
+      "Myelin acts like the high-speed internet cables of your brain, ensuring nerve signals travel rapidly and efficiently across your neural networks.",
+      "While CRH's new role in repair is exciting, it's typically known as a central conductor in our body's 'fight or flight' stress response system.",
+      "This research suggests that the brain's stress response isn't solely about immediate danger; it may also be deeply integrated into long-term maintenance and recovery."
+    ],
+    "originalTitle": "A stress hormone may help the brain repair itself",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260814011044.htm",
+    "id": "1786865441945-bu4ef",
+    "date": "2026-08-16T07:30:41.945Z"
+  },
+  {
+    "title": "Dark Matter's Unexpected Ally: How the Early Universe Cleared the Path for Discovery",
+    "summary": "New research reveals that the intense plasma of the early universe may have acted as a surprising cosmic shield, preventing hypothetical \"dark photons\" – a leading candidate for dark matter – from dangerously overheating the cosmos. This crucial finding reopens vast avenues for scientists to finally detect these elusive particles and solve one of the universe's greatest mysteries.",
+    "sections": [
+      {
+        "heading": "The Dark Matter Dilemma and a Cosmic Contradiction",
+        "content": "Scientists know dark matter exists, making up a quarter of our universe, but its true identity remains a profound mystery. One compelling idea points to \"dark photons,\" hypothetical particles that could bridge our visible world with the invisible dark sector. However, a major hurdle suggested these dark photons would have generated too much heat in the early universe, clashing with what we observe about cosmic evolution."
+      },
+      {
+        "heading": "The Early Universe's Surprising Role",
+        "content": "This groundbreaking study unveils a clever twist: the super-hot, dense plasma that permeated the universe just after the Big Bang wasn't a problem, but a solution. This primordial plasma acted like a cosmic filter, preventing dark photons from interacting excessively and overheating the young universe. This unexpected insight aligns dark photons with our cosmic history, significantly expanding the possibilities for where and how we might finally find them."
+      }
+    ],
+    "funFacts": [
+      "Dark matter accounts for about 27% of the universe's mass, yet it doesn't emit, absorb, or reflect light, making it truly invisible.",
+      "A 'dark photon' is theorized to be similar to a regular photon (light particle) but interacts exclusively with dark matter, acting as a potential messenger between the visible and dark worlds.",
+      "The 'early-universe plasma' refers to a superheated soup of elementary particles that existed for hundreds of thousands of years after the Big Bang, before the universe cooled enough for atoms to form.",
+      "This discovery doesn't confirm dark photons exist, but it removes a major theoretical roadblock, making them a much more attractive target for next-generation dark matter detectors worldwide."
+    ],
+    "originalTitle": "Early-universe plasma may have stopped dark photons from heating cosmos",
+    "originalUrl": "https://phys.org/news/2026-08-early-universe-plasma-dark-photons.html",
+    "id": "1786865452229-9kk27",
+    "date": "2026-08-16T07:30:52.229Z"
+  },
+  {
     "title": "AI's New Role: Using Robot-Written Essays to Shape How We Grade Kids' Tests",
     "summary": "In a groundbreaking move, the UK government is exploring a surprising way to standardize fairness in school literacy assessments: utilizing essays penned by AI, like ChatGPT, as reference points for human graders. This cost-saving proposal sparks a vital conversation about the future of evaluating our children's writing skills in an increasingly digital world.",
     "sections": [
