@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Ancient Human DNA Discovered in Portuguese Cave Walls",
+      "content": "Portuguese archaeologists have made a groundbreaking discovery of ancient human DNA preserved in the walls of Escoural Cave in Montemor-o-Novo. This significant finding, part of an international study, marks the first time human genetic traces have been found to survive for millennia in cave environments, offering unprecedented insights into the presence and behavior of prehistoric communities."
+    },
+    "culture": {
+      "title": "Cante Alentejano: Portugal's UNESCO-Recognized Polyphonic Singing",
+      "content": "Cante Alentejano is a unique form of polyphonic singing originating from Portugal's Alentejo region, recognized by UNESCO as Intangible Cultural Heritage of Humanity. Typically performed by groups of men, and sometimes women, without instrumental accompaniment, this soulful vocal tradition conveys deep community sentiments and stands as a powerful symbol of Portuguese identity."
+    },
+    "news": {
+      "title": "Porto District to Celebrate UNESCO Intangible Cultural Heritage at Handicraft Fair",
+      "content": "The 48th edition of the Vila do Conde Handicraft Fair in Portugal's Porto district will highlight Portuguese cultural expressions classified by UNESCO Intangible Cultural Heritage from July to August 2026. The event is set to feature various demonstrations, workshops, performances, and gastronomy, showcasing traditions such as the vibrant Caretos de Podence, the melancholic Fado, and the unique Cante Alentejano.",
+      "url": "https://www.theportugalnews.com/news/2026-07-25/portugal-to-celebrate-unesco-intangible-cultural-heritage-in-porto-district/88248"
+    },
+    "id": "1786866338891-portugal",
+    "date": "2026-08-16T07:45:38.891Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Ancient Megalithic Landscape and the Grand Dolmen of Zambujeiro",
       "content": "Long before its maritime explorations, Portugal was home to a thriving megalithic culture, leaving behind thousands of dolmens, menhirs, and cromlechs. Among these impressive prehistoric structures is the Anta Grande do Zambujeiro near Évora, recognized as one of the largest dolmens in megalithic Europe. Dating back to around 3000 BCE, this monumental tomb with its towering stones served as a communal burial site and cult center for early agro-pastoral communities."
     },
