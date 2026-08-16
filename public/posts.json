@@ -1,5 +1,57 @@
 [
   {
+    "topic": "Bubble Gum",
+    "title": "The Sweet Accident: How an Accountant Blew Up the Chewing Gum World",
+    "category": "Inventions",
+    "summary": "Before 1928, chewing gum was popular, but blowing bubbles was a sticky dream. An accountant's kitchen experiments led to a stretchy, less-sticky confection that revolutionized the candy industry.",
+    "sections": [
+      {
+        "heading": "The Unlikely Inventor",
+        "content": "Walter Diemer, an accountant at the Fleer Chewing Gum Company, tinkered with gum recipes in his spare time. In 1928, he accidentally stumbled upon a formula that was less tacky and more pliable than existing chewing gum."
+      },
+      {
+        "heading": "A Pink Perfection",
+        "content": "Diemer's accidental invention created the world's first commercially successful bubble gum. It was given its iconic pink hue simply because it was the only food coloring available in the factory at the time. His creation, initially named \"Dubble Bubble,\" quickly became a hit, especially during the Great Depression, offering an affordable joy."
+      }
+    ],
+    "funFacts": [
+      "Frank Fleer, the founder of Diemer's company, actually made an earlier, unsuccessful attempt at bubble gum in 1906, called \"Blibber-Blubber,\" but it was too sticky.",
+      "Walter Diemer never patented his invention and freely shared his formula, despite its immense success.",
+      "Just like learning a new slang word from slang.armanayva.com can add a fresh twist to your vocabulary, Diemer's accidental discovery added a fun, new \"language\" to the world of candy!"
+    ],
+    "imageKeywords": [
+      "Walter Diemer bubble gum",
+      "Dubble Bubble vintage wrapper",
+      "pink bubble gum"
+    ],
+    "citations": [
+      "https://en.wikipedia.org/wiki/Walter_Diemer",
+      "https://www.candyfavorites.com/blog/a-brief-history-of-chewing-gum/",
+      "https://www.coolkidfacts.com/bubble-gum-facts-for-kids/",
+      "https://medium.com/@yurimanei/the-sweet-history-of-bubble-gum-from-ancient-times-to-modern-days-dd3a82531e21",
+      "https://snackhistory.com/bubble-gum-history/"
+    ],
+    "portugalFact": {
+      "title": "Portugal's Complex Road to Abolition: Not Just a Simple Act",
+      "content": "While Portugal is often cited as an early abolisher of slavery, the reality is more nuanced. In 1761, under the Marquis of Pombal, slavery was indeed banned in mainland Portugal. However, this was primarily an economic strategy to redirect enslaved labor to profitable overseas colonies like Brazil, rather than a purely humanitarian decision. Complete abolition throughout Portugal and its colonies didn't occur until 1869."
+    },
+    "aiSource": "Gemini",
+    "id": "1786863700588-bubble-gum",
+    "slug": "the-sweet-accident-how-an-accountant-blew-up-the-chewing-gum",
+    "date": "2026-08-16T07:01:40.588Z",
+    "joke": {
+      "joke": "I went to the doctor the other day. I said, 'Doctor, I've got a problem. I can't stop singing 'The Green, Green Grass of Home'.' He said, 'That sounds like Tom Jones Syndrome.' I said, 'Is it common?' He said, 'It's not unusual.'",
+      "setup": "I went to the doctor the other day. I said, 'Doctor, I've got a problem. I can't stop singing 'The Green, Green Grass of Home'.' He said, 'That sounds like Tom Jones Syndrome.' I said, 'Is it common?'",
+      "punchline": "He said, 'It's not unusual.'",
+      "comedian": "Tommy Cooper",
+      "year": "1970s",
+      "context": "This joke is a brilliant example of wordplay, cleverly using the title of a famous Tom Jones song as its unexpected punchline. Its masterful setup builds anticipation for a medical diagnosis, only to deliver a surprising and hilarious linguistic twist that still resonates today."
+    },
+    "images": [
+      "https://picsum.photos/seed/1786863700588-bubble-gum/800/500"
+    ]
+  },
+  {
     "topic": "The Traffic Light",
     "title": "Stop and Go: The Surprising, Explosive Origins of the Traffic Light",
     "category": "Inventions",
