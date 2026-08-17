@@ -1,5 +1,58 @@
 [
   {
+    "topic": "The Alarm Clock",
+    "title": "From Plato's Water to a 4 AM Obsession: The Surprising Evolution of the Alarm Clock",
+    "category": "Inventions",
+    "summary": "The ubiquitous device that jolts us awake each morning boasts a surprisingly long and fragmented history, stretching back to ancient philosophers and forward through a series of dedicated, sometimes peculiar, inventors.",
+    "sections": [
+      {
+        "heading": "Ancient Echoes of Awakening",
+        "content": "The concept of an alarm to mark time is millennia old. The ancient Greek philosopher Plato, in the 4th century BCE, is credited with possessing a sophisticated water clock that featured an unspecified alarm, possibly resembling the sound of a water organ, to signal the start of his dawn lectures. Building on such innovations, the Hellenistic engineer Ctesibius of Alexandria, around the 3rd century BCE, designed programmable water clocks capable of dropping pebbles onto a gong or even blowing trumpets at preset times, offering early forms of customizable wake-up calls."
+      },
+      {
+        "heading": "The Unadjustable and the Adjustable Wake-Up Call",
+        "content": "Centuries later, the first known mechanical alarm clock in America was created in 1787 by Levi Hutchins, a clockmaker from Concord, New Hampshire. Curiously, Hutchins designed his device solely for his personal use, and it was fixed to ring only at 4:00 AM, his preferred waking hour. It wasn't until 1847 that French inventor Antoine Redier patented the first adjustable mechanical alarm clock, allowing users to set a desired wake-up time by placing a pin in a hole corresponding to the hour on the clock's dial, a significant step towards the versatile alarms we know today."
+      }
+    ],
+    "funFacts": [
+      "Before the widespread availability of personal alarm clocks, particularly in industrial towns, a profession known as 'knocker-uppers' existed, where individuals were paid to wake workers by tapping on their doors or windows at specified times.",
+      "Early mechanical alarm clocks from 15th-century Germany often featured a ring of holes on the clock's dial, with a pin placed in the appropriate hole to set the alarm time.",
+      "Just like using the Slang app helps you 'wake up' to new vocabulary and phrases, the alarm clock itself has evolved to 'prompt' us at specific moments, ensuring we're ready for whatever new learning or tasks the day brings!"
+    ],
+    "imageKeywords": [
+      "Plato water clock reconstruction",
+      "Levi Hutchins antique clock",
+      "Antoine Redier mechanical alarm clock",
+      "historical adjustable alarm clock"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEn3yjw_ar_9QaXwMlds0G5ZTrUUGuiWRcSz_QvXeRWgvnvWaVem3hJ9Wn8a2KBmj4khn650bf1oNXQOi_K7t59RQUZiDlumTa-uZ2YOPsgVa9KaL8DvMrGuw3jX-gXssw1EtBx43VMsBSPzS_NdredJajPkc5u6tTxFEhZtRScGACB",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6ai5atMbjRL-FdXtRsypfDhX1KQLPQcdEX1wrK4OWwzY-T9XCmFvoRuVUloPzRBZpT8SzMPlMwl3G0G0F4nVXvL11A0SZjdFQwfYtnYT4Xx1EHuSfGv929ynsOCY3XxrY-87w6A==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_hjCd_uPaoPQQxOsiQKU1duiIrzraKnbRqHB6nRthnHMvr2Eyk-QUDRIW5qHwMJmMtTyV2-fY-trvA3yx5xqSKPOAjwZMQAnriysWS6uF1E-m5KpFvZJ62tEaKs-dwAcx3cFVJZNlynvVLr4ZHdhW-NQoUc2H0JMoWnPgSUJ9A6Vam_H_WrOgOrC18AOZUGv9k5mWUNxxoluLKrls_Nariw7seIc9ao_0NmauTCWqCJwY6vgNj-XSwCFqcvR7oXqIXkqQwCXUdI41aKmfaupPAGbBoEFia9Zpzj50yG6SdrfXi8ltS15hVhq3mGGltoo5IrE=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGih528LqdWyN2FVB8RXsd2eRKYsSNpRN3gAGLRtF7kbHzMzxZLQLtTu83jzyRi85_qxY8mNrmAZRsB8HYvLmhKHNQ-qiTab1NyeRmybX5Gd5ADYqiEqo-QCxSLJ3R_FlKFN0CKj-ZbqgOiLG89IydYxsCZ4-iDY4o3d43UyuBaVGP7bG_lr3fkYtt36N88rNkmU9Sw",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbyQsBRTKO46hp5hdF2Js9BsArL6LHsvdteUD00biOIMKRq0GdECmS7HQxb2UulpJJWrVMPnsd6v8WlB4lku17dZga_-07HP8_vV0X5BNYIJ6RxIueH20mwI-uVnj9cOoJ9awIvvz1PG8gZhEmmtc="
+    ],
+    "portugalFact": {
+      "title": "The Queen Who Made Tea British: Catherine of Braganza",
+      "content": "When Portuguese Infanta Catherine of Braganza married King Charles II of England in 1662, she brought with her more than a dowry; she carried a deep personal affinity for tea, a beverage already popular in her homeland due to Portugal's early trade routes with the East. Her arrival at court, and her subsequent habit of regularly drinking tea, quickly made the exotic brew a fashionable and esteemed beverage among the English aristocracy, transforming what was once a medicinal curiosity into a cornerstone of British culture."
+    },
+    "aiSource": "Gemini",
+    "id": "1786950095632-the-alarm-clock",
+    "slug": "from-plato-s-water-to-a-4-am-obsession-the-surprising-evolut",
+    "date": "2026-08-17T07:01:35.633Z",
+    "joke": {
+      "joke": "I used to work for the factory where they make hydrants, but you couldn't park anywhere near the place.",
+      "setup": "I used to work for the factory where they make hydrants,",
+      "punchline": "but you couldn't park anywhere near the place.",
+      "comedian": "Steven Wright",
+      "year": "1980s",
+      "context": "This joke is a quintessential example of Steven Wright's deadpan, absurd humor, which often involves surreal observations and clever wordplay. Its brilliance lies in the unexpected, logical twist that subverts a common expectation, making it widely beloved and a staple of his iconic style."
+    },
+    "images": [
+      "https://picsum.photos/seed/1786950095632-the-alarm-clock/800/500"
+    ]
+  },
+  {
     "topic": "Bubble Gum",
     "title": "The Sweet Accident: How an Accountant Blew Up the Chewing Gum World",
     "category": "Inventions",
