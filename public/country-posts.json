@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Europe's Largest Tea Plantation Thrives in the Azores",
+      "content": "A fascinating geographical fact about Portugal is that the Azores archipelago is home to Europe's only commercial tea plantations, with Gorreana Tea Estate on São Miguel Island being the largest and oldest. Established in 1883, it has continuously produced black and green tea using traditional methods for over a century, offering a unique agricultural landscape in the Atlantic."
+    },
+    "culture": {
+      "title": "Bolo Rei: The Portuguese 'King's Cake' Tradition",
+      "content": "A beloved Portuguese tradition during the Christmas and New Year season is the Bolo Rei, or 'King's Cake.' This festive fruitcake, often adorned with candied fruits, contains two hidden surprises: a small trinket and a broad bean. The person who finds the broad bean is traditionally responsible for purchasing the Bolo Rei for the following year."
+    },
+    "news": {
+      "title": "Vodafone Establishes New Global Cybersecurity Hub in Lisbon",
+      "content": "Lisbon has been selected by Vodafone to host its new Global Cyber Centre (GCC), reinforcing Portugal's growing role in the technology sector. Announced in July 2026, this hub will be crucial in protecting Vodafone's worldwide operations, networks, and customer data from evolving digital threats, operating alongside existing centers in other countries.",
+      "url": "https://www.einpresswire.com/article/658428135/portugal-technology-newswire"
+    },
+    "id": "1786952733080-portugal",
+    "date": "2026-08-17T07:45:33.080Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Ancient Human DNA Discovered in Portuguese Cave Walls",
       "content": "Portuguese archaeologists have made a groundbreaking discovery of ancient human DNA preserved in the walls of Escoural Cave in Montemor-o-Novo. This significant finding, part of an international study, marks the first time human genetic traces have been found to survive for millennia in cave environments, offering unprecedented insights into the presence and behavior of prehistoric communities."
     },
