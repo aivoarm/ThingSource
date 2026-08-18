@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Europe's Oldest Continuous Borders",
+      "content": "Portugal boasts the remarkable distinction of having the oldest continuous national borders in Europe. The Treaty of Alcañices, signed in 1297, established the boundaries with Spain that have largely remained unchanged for over 700 years. This enduring stability in its territorial definition makes Portugal a unique case in European history."
+    },
+    "culture": {
+      "title": "Santos Populares: A Summer of Street Festivals",
+      "content": "Throughout June, Portugal erupts in a series of vibrant celebrations known as Santos Populares, or 'Popular Saints' Festivals. These lively events honor saints like St. Anthony in Lisbon and St. John in Porto with street parties featuring traditional music, dancing, grilled sardines, and colorful decorations. The festivities are a quintessential expression of Portuguese communal spirit and joy."
+    },
+    "news": {
+      "title": "Europe's First Elephant Sanctuary Welcomes New Residents in Portugal",
+      "content": "In a heartwarming development for animal welfare, Portugal recently became home to Europe's first elephant sanctuary, located on a former ranch. In May 2026, two former circus and zoo elephants, Julie and Kariba, were rehomed there, marking a significant step in providing a natural habitat for these majestic animals. This initiative underscores Portugal's growing commitment to animal protection and conservation.",
+      "url": "https://www.theguardian.com/environment/2026/may/07/rewilding-giants-captive-elephants-rehomed-in-europes-first-sanctuary"
+    },
+    "id": "1787039141944-portugal",
+    "date": "2026-08-18T07:45:41.944Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Europe's Largest Tea Plantation Thrives in the Azores",
       "content": "A fascinating geographical fact about Portugal is that the Azores archipelago is home to Europe's only commercial tea plantations, with Gorreana Tea Estate on São Miguel Island being the largest and oldest. Established in 1883, it has continuously produced black and green tea using traditional methods for over a century, offering a unique agricultural landscape in the Atlantic."
     },
