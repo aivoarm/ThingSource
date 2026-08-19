@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal: A Pioneer in Abolishing Capital Punishment",
+      "content": "Portugal holds the distinction of being the first country in the world to abolish capital punishment for all crimes, including wartime offenses. This progressive legislative act was approved in 1867, showcasing Portugal's early commitment to humanitarian legal reform."
+    },
+    "culture": {
+      "title": "Twelve Raisins for a Lucky New Year",
+      "content": "A unique Portuguese New Year's Eve tradition involves eating twelve raisins at the stroke of midnight. With each chime of the clock, a raisin is consumed, symbolizing good luck for each of the twelve months ahead and offering an opportunity to make a wish for the coming year."
+    },
+    "news": {
+      "title": "World's First Commercial Octopus Farm Abandoned in Portugal",
+      "content": "Plans for the world's first commercial octopus farm, initially proposed for Spain's Canary Islands by a Portuguese company, have been abandoned following years of intense opposition from scientists, environmentalists, and animal welfare organizations. This decision, announced in July 2026, marks a significant victory for animal rights advocates globally.",
+      "url": "https://www.theportugalnews.com/news/2026-07-27/worlds-first-commercial-octopus-farm-abandoned-after-years-of-opposition/89668"
+    },
+    "id": "1787125535439-portugal",
+    "date": "2026-08-19T07:45:35.439Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Europe's Oldest Continuous Borders",
       "content": "Portugal boasts the remarkable distinction of having the oldest continuous national borders in Europe. The Treaty of Alcañices, signed in 1297, established the boundaries with Spain that have largely remained unchanged for over 700 years. This enduring stability in its territorial definition makes Portugal a unique case in European history."
     },
