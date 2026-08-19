@@ -1,5 +1,62 @@
 [
   {
+    "topic": "The Surprising Origin of the Disposable Safety Razor",
+    "title": "From Tedious Stropping to Disposable Blades: The Gillette Revolution",
+    "category": "Inventions",
+    "summary": "Before the ubiquitous disposable blade, shaving at home was a challenging and often dangerous affair. King C. Gillette's frustration with traditional razors sparked an idea that would revolutionize men's grooming forever.",
+    "sections": [
+      {
+        "heading": "The Pre-Gillette Predicament",
+        "content": "For centuries, men relied on straight razors, formidable 'cutthroat' blades that demanded significant skill, constant stropping, and occasional honing by professionals to maintain their sharpness. Home shaving was inconvenient and carried considerable risk for the untrained individual, making regular trips to the barber a necessity for many."
+      },
+      {
+        "heading": "A 'Throw Away' Idea",
+        "content": "The visionary behind the modern safety razor was King C. Gillette, a traveling salesman who, in 1895, experienced a moment of frustration while trying to sharpen his dull permanent razor blade. Inspired by his previous employer's advice to invent a product that would be 'used and thrown away,' Gillette envisioned a thin, sharp, and inexpensive disposable steel blade. He filed for a patent in 1901."
+      },
+      {
+        "heading": "From Idea to Empire",
+        "content": "Initially, metallurgists at MIT dismissed Gillette's idea, claiming it was impossible to produce steel thin, hard, and inexpensive enough for his concept. However, with the expertise of MIT-trained engineer William Emery Nickerson, a viable manufacturing process was perfected by 1903. The U.S. Patent for their double-edged safety razor was officially granted on November 15, 1904, and sales soared, particularly after the U.S. military included Gillette razors in soldiers' kits during World War I, cementing its status as a global household staple."
+      }
+    ],
+    "funFacts": [
+      "King C. Gillette's 'Aha!' moment for a disposable product was directly influenced by his time working for William Painter, the inventor of the disposable Crown Cork bottle cap.",
+      "Early Gillette razors were considered quite a luxury, with prices ranging from $5 to $75 in the 1910s and 1920s, a substantial sum for the era.",
+      "The journey of the disposable safety razor, from an 'impossible' idea to a global necessity, is a prime example of relentless innovation, much like the compelling historical narratives and breakthroughs you can explore on the Lore Board."
+    ],
+    "imageKeywords": [
+      "King C. Gillette portrait",
+      "vintage Gillette safety razor",
+      "early 20th century shaving kit",
+      "man shaving with straight razor"
+    ],
+    "citations": [
+      "https://www.vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyB33IlFVow_rn7xR3sQXLEdYZLm1OgJZ24S-35RfFrvBsn91T40XPrVkBdC2_r_uVSD0L_bmrTSQ4aXPVM05TCGeOZpxjj4EBjk92RysG-AD9fBj9C0FzPCdN11-5Gdx5xxJG4TsnG5DNif6O5Umd-IG_a0RnyxAvZZuDO8nLsBgr0dBU3n75e_SsxU51UCSOKx46GNVhnYeKNp5dNRvWTrqX3TkaEkMWA0_VL7N65Zax2vCeBVoAVQAa-dB_r6iZ9p03sVkQ2Xc=",
+      "https://www.vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnFDqATz1ug09GvoUuSfCuN0C8O0Km48t2uXpGdk0uCua7bfUw3TG2mnoTYy_P3-AsPSGtEOqfa38Ax8tNuqzT6V8eOzwBdWCOo9k9NPIkbzxzakVHUe8oyob5jZdHo9Y0cL65SAjxyI9QYrCPckQwdJirkhUMR2-VighJ4FUzzLjh-0kFSgxpBRqEGibPoyTGzCI=",
+      "https://www.vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLrCzzoC_uxWI9vqbJ0NTvfKmD80MNGGYtk437m0VFHnFQq0oQP5nkTDQ4Bwjzo1E_122iDjfWKk5m_BpLG4jMX91EPXdOBKMD3QZsBtRVmMb6FncQ7Pc3jJQaN4nL5ACjnuCYW-1Aoz7f7ES1nzVuKFNui8E1dfrrVEeamwcVA8DCczQpN-fsMvgvshMr7OH64Q=",
+      "https://www.vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSmfMYqOgG3d0PsU8L-uGPtO9MK5VqIdqm-2MZEYIiC4m5iwUaMvxQXxhw-x7WEbJFhQEY33jw3THy5c71m9RjEe-D0PtAv5v7mWp9jao8QlA8waBxT0s-PlnyHPdq2lUKiayz",
+      "https://www.vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcVsB8wqg_zDqJTypV_QSuX9rounyoGs6OweGcH8fOHfs8loUez1Y3QWGGHCLnmxDV2wCC_OyE5B0YLa3wACzntbxcDheMPgA1LwlzUVLTQ_KuoUbgC84Fc40-CH7bcmcexuRC"
+    ],
+    "portugalFact": {
+      "title": "Portugal: The Global Powerhouse of Cork",
+      "content": "Portugal stands as the undisputed world leader in cork production, contributing approximately 50% of the global supply and over 60% of all cork exports. While deeply intertwined with its renowned wine industry, particularly for sealing Port wine bottles since the 18th century, the Portuguese cork industry has diversified significantly, creating everything from sustainable fashion items (like a dress for Lady Gaga) to materials used in construction, footwear, and even the automotive and aerospace sectors. This global dominance is sustained by vast, legally protected cork oak forests and a commitment to sustainable harvesting practices occurring every nine years."
+    },
+    "aiSource": "Gemini",
+    "id": "1787123113995-the-surprising-origin-of-the-disposable-safety-razor",
+    "slug": "from-tedious-stropping-to-disposable-blades-the-gillette-rev",
+    "date": "2026-08-19T07:05:13.995Z",
+    "joke": {
+      "joke": "When I was a kid, my parents moved a lot, but I always found them.",
+      "setup": "When I was a kid, my parents moved a lot...",
+      "punchline": "...but I always found them.",
+      "comedian": "Woody Allen",
+      "year": "1960s",
+      "context": "This joke is a quintessential example of Woody Allen's early stand-up style, showcasing his neurotic persona and brilliant wordplay. Its iconic status comes from the unexpected and darkly humorous twist on a common childhood experience, perfectly subverting expectations with a simple punchline."
+    },
+    "images": [
+      "https://picsum.photos/seed/1787123113995-the-surprising-origin-of-the-disposable-safety-razor/800/500"
+    ]
+  },
+  {
     "topic": "The Sandwich",
     "title": "A Noble's Hasty Meal: The Unexpected Origin of the Sandwich",
     "category": "Food & Drink",
