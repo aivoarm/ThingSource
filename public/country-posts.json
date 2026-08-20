@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Posthumous Queen",
+      "content": "In a unique and dramatic chapter of Portuguese history, King Pedro I, crowned in 1357, controversially declared his beloved Inês de Castro as Queen of Portugal two years after her assassination. Legend has it that her corpse was exhumed, dressed in royal regalia, and enthroned, with courtiers compelled to kiss her decaying hand, solidifying her rightful, albeit posthumous, place in the monarchy."
+    },
+    "culture": {
+      "title": "The Portuguese Origins of Tempura",
+      "content": "Many are surprised to learn that the popular Japanese dish, Tempura, has roots in Portuguese culinary tradition. It was introduced to Japan by Portuguese traders and missionaries in the 16th century, who prepared battered and deep-fried green beans during Lent, a practice adapted and refined by the Japanese into the delicate dish known today."
+    },
+    "news": {
+      "title": "Microsoft Appoints New Head for Portugal, Focusing on AI and Digital Transformation",
+      "content": "Microsoft has recently appointed Ana Maria Lopes to lead its operations in Portugal, signaling an expanded investment in the country's technological landscape. Her appointment highlights a strategic focus on accelerating AI adoption and driving digital transformation across various sectors within Portugal.",
+      "url": "https://www.theportugalnews.com/news/2026-08-20/microsoft-appoints-ana-maria-lopes-to-lead-portugal/89828"
+    },
+    "id": "1787211938537-portugal",
+    "date": "2026-08-20T07:45:38.537Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal: A Pioneer in Abolishing Capital Punishment",
       "content": "Portugal holds the distinction of being the first country in the world to abolish capital punishment for all crimes, including wartime offenses. This progressive legislative act was approved in 1867, showcasing Portugal's early commitment to humanitarian legal reform."
     },
