@@ -1,5 +1,74 @@
 [
   {
+    "title": "South America's Hidden Monarch: A 23-Foot Croc Dethroned Ancient Mammals",
+    "summary": "New fossil evidence reveals that a massive 23-foot prehistoric crocodile, Purussaurus neivensis, wasn't just another predator—it was the undisputed ruler of ancient South America's food chain, surprisingly outranking mighty mammals.",
+    "sections": [
+      {
+        "heading": "A Lost World of Giants",
+        "content": "Imagine a prehistoric South America teeming with enormous plant-eaters, a world where lush tropical forests and vast wetlands provided ample sustenance. This vibrant, ancient ecosystem, dating back to the Miocene epoch, was a truly wild place, a stage set for epic struggles between colossal prey and the formidable hunters that stalked them."
+      },
+      {
+        "heading": "The Croc That Conquered All",
+        "content": "For years, many might have assumed giant mammals topped the food chain in such an era, but new findings from fossilized bite marks paint a different picture. Weighing in at an astounding seven meters (around 23 feet) long, the colossal crocodylian Purussaurus neivensis emerged as the true apex predator, its immense jaws and power allowing it to dominate over even the largest mammalian hunters. This ancient behemoth didn't just hunt; it actively shaped the ecosystem by controlling the populations of equally giant herbivores, ensuring ecological balance."
+      }
+    ],
+    "funFacts": [
+      "At 23 feet (7 meters) long, Purussaurus neivensis was longer than many modern-day cars and comparable in size to a small bus!",
+      "The discovery challenges long-held assumptions, showing that large crocodylians, not just mammals, were top predators in certain ancient ecosystems.",
+      "Scientists deduced Purussaurus's dominance by studying fossilized bite marks left on the bones of its prey, a powerful form of ancient forensic evidence."
+    ],
+    "originalTitle": "This 23-foot crocodylian may have ruled South America’s food chain",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260819041226.htm",
+    "id": "1787211038834-psddb",
+    "date": "2026-08-20T07:30:38.834Z"
+  },
+  {
+    "title": "Five-Year-Old Lab-Grown Mini-Brains Show Intriguing Signs of 'Sensing' Time",
+    "summary": "Scientists have successfully nurtured brain organoids for an unprecedented five years, observing activity patterns that suggest these lab-grown 'mini-brains' can register the passage of time. This breakthrough offers a unique, long-term window into human brain development and raises fascinating questions about the very nature of biological timekeeping.",
+    "sections": [
+      {
+        "heading": "Miniature Brains: A Window into Our Minds",
+        "content": "Brain organoids are tiny, lab-grown clusters of human brain cells, developed from stem cells, that spontaneously organize into structures resembling early brain tissue. Researchers use these 'mini-brains' as powerful models to study how our brains develop, how diseases emerge, and to test new treatments without directly experimenting on human subjects. This groundbreaking study extends their lifespan to an unprecedented five years, offering a crucial opportunity to observe long-term neural development and complex processes that unfold over years."
+      },
+      {
+        "heading": "An Internal Clock: How Organoids Track Time",
+        "content": "While these organoids aren't 'conscious' in the human sense, their extended observation revealed activity patterns suggesting an internal awareness of time's passage. Scientists likely monitored changes in their electrical signals or gene expression over years, which evolved in a way that correlates with their chronological age. This suggests these complex cell structures develop intrinsic rhythms or internal 'memories' of their developmental journey, similar to how a developing brain matures over time."
+      }
+    ],
+    "funFacts": [
+      "Growing these brain organoids for five years represents a new record, pushing the boundaries of how long complex human tissues can be maintained and studied in a lab.",
+      "The 'sense of time' observed refers to sophisticated, measurable changes in neural activity and gene expression that correspond to the organoids' age, not conscious awareness.",
+      "This longevity opens new avenues for studying neurological disorders that progress slowly over decades, like Alzheimer's or Parkinson's, offering insights previously impossible."
+    ],
+    "originalTitle": "5-year-old brain organoids can sense the passing of time",
+    "originalUrl": "https://www.newscientist.com/article/2585540-5-year-old-brain-organoids-can-sense-the-passing-of-time/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1787211049022-z6mgi",
+    "date": "2026-08-20T07:30:49.022Z"
+  },
+  {
+    "title": "Physicists Watch Electrons 'Freeze' Like Ice, Unlocking Quantum Secrets",
+    "summary": "MIT physicists have made a surprising discovery: electrons within a special 'quantum material' can organize themselves in two vastly different ways, with one pattern expanding exactly like growing ice crystals. This insight into how electron patterns form could be key to understanding exotic material properties like superconductivity and magnetism.",
+    "sections": [
+      {
+        "heading": "The Quantum Dance: Two Ways Electrons Organize",
+        "content": "Imagine the tiny particles that carry electricity, electrons, not just flowing but also organizing themselves into distinct patterns or 'phases' inside certain materials. Scientists observed two such patterns in a quantum material. One phase formed gradually and uniformly, like fog slowly thickening across a room, a familiar and expected process."
+      },
+      {
+        "heading": "When Electrons Mimic Ice: A Clue to Superpowers",
+        "content": "What really surprised scientists was how the second electron phase materialized: it didn't just appear all at once, but rather grew in expanding pockets, much like ice crystals forming and spreading across a surface. Unraveling these distinct 'growth spurts' for electron patterns offers a crucial new lens to understand some of the most sought-after properties in physics, such as superconductivity (where electricity flows without any resistance) and exotic forms of magnetism, potentially paving the way for revolutionary technologies."
+      }
+    ],
+    "funFacts": [
+      "Quantum materials are a special class of substances where the peculiar rules of quantum mechanics become especially important, influencing their large-scale properties.",
+      "Superconductivity, the ability to conduct electricity with zero resistance, could revolutionize power grids, medical imaging, and superfast computing if practical room-temperature versions are developed.",
+      "This discovery highlights how studying the subtle, microscopic interactions of electrons can lead to profound insights into a material's overall, macroscopic behavior."
+    ],
+    "originalTitle": "MIT physicists discover electrons rebuilding like ice inside a quantum material",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260819041231.htm",
+    "id": "1787211057957-qerg5",
+    "date": "2026-08-20T07:30:57.957Z"
+  },
+  {
     "title": "Framing the Future: Meet NASA's Unsung Visual Storytellers",
     "summary": "Discover the dedicated photographers at NASA's Johnson Space Center who meticulously capture every pivotal moment of human spaceflight, transforming fleeting events into timeless visual chronicles that inspire and inform future generations.",
     "sections": [
