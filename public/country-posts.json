@@ -2,6 +2,78 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Monarchical Extremes",
+      "content": "Portugal holds a unique record in monarchical history for having both one of the shortest and one of the longest-reigning monarchs. Crown Prince Luís Filipe became king for a mere 20 minutes on February 1, 1908, after his father, King Carlos I, was assassinated, only to succumb to his own fatal wounds shortly after. In stark contrast, Afonso I, often hailed as the founder of Portugal, reigned for over 73 years from 1139 to 1185, shaping the nascent nation through warfare and diplomacy."
+    },
+    "culture": {
+      "title": "The Wild Christmas of Caretos de Varge",
+      "content": "In the remote Trás-os-Montes region, specifically the village of Varge, an unusual and ancient Christmas tradition known as 'Caretos de Varge' unfolds. On December 25th, single village boys, dressed in vibrant pagan masks and costumes with rattles, run through the streets creating playful chaos, shouting, and dancing. This tradition, believed to have Celtic origins and celebrating the Winter Solstice, involves them singing satirical 'loas' to villagers and accepting food offerings, culminating in a communal race, dinner, and dance."
+    },
+    "news": {
+      "title": "Portugal's Burgeoning Tech Sector Seeks Capital for Global Growth",
+      "content": "Portugal's technology ecosystem is rapidly maturing, producing companies with an international vision to solve global problems. However, despite a strong talent pool and innovative ideas in areas like AI, cybersecurity, and deep tech, the country faces a challenge in securing sufficient capital to scale these ventures domestically. Institutional investors are beginning to recognize this potential, supporting initiatives that aim to build an economic chain where universities, research, entrepreneurs, and capital collaborate to foster global businesses from Portugal.",
+      "url": "https://www.theportugalnews.com/news/2026-08-12/portugal-has-a-talent-for-creating-technology-it-now-needs-capital-to-grow-it/89814"
+    },
+    "id": "1787298344252-portugal",
+    "date": "2026-08-21T07:45:44.252Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "Ancient Necropolis Challenges Megalithic Origins in Central Spain",
+      "content": "Archaeologists in central Spain have unearthed a 6,000-year-old monumental necropolis in Toledo, pushing back the timeline for sophisticated funerary structures in the interior of the Iberian Peninsula. This discovery, called Valdelasilla, directly challenges the long-held theory that megalithic burial traditions originated solely along coastlines before spreading inland, suggesting that inland communities developed their own grand monuments concurrently. The site contains a large circular chamber tomb and smaller funerary chambers with remains of at least 46 individuals, indicating a complex and evolving set of burial practices over generations."
+    },
+    "culture": {
+      "title": "Córdoba's Enchanting Patio Festival",
+      "content": "Each May, the Andalusian city of Córdoba bursts into a vibrant spectacle with its annual Patio Festival, a tradition recognized as an Intangible Cultural Heritage of Humanity since 2012. Residents meticulously adorn their private patios with an explosion of colorful flowers, plants, antique furniture, and charming household items, opening them to the public. This unique custom transforms the city's courtyards into breathtaking floral showcases, offering a deeply intimate glimpse into local life and horticultural artistry."
+    },
+    "news": {
+      "title": "Spanish Scientists Achieve Breakthrough with New Skin Cancer Vaccine",
+      "content": "In a significant medical advancement, a revolutionary new skin cancer vaccine has shown successful results in trials, with Spanish scientists hailing it as a major breakthrough. Developed by pharmaceutical giants Moderna and Merck, the jab has been demonstrated to significantly reduce the risk of melanoma recurrence when administered alongside existing immunotherapy treatments. This development offers new hope in the fight against one of the most aggressive forms of cancer.",
+      "url": "https://www.theolivepress.es/spain-news/2026/08/20/revolutionary-new-skin-cancer-vaccine-proves-successful-in-trials-as-spanish-scientists-hail-medical-breakthrough/"
+    },
+    "id": "1787298357151-spain",
+    "date": "2026-08-21T07:45:57.151Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "The Hidden Flaws in Rome's Grand Aqueducts",
+      "content": "While ancient Rome is renowned for its monumental engineering feats, even their magnificent aqueducts faced challenges. The Aqua Claudia, one of the most significant aqueducts constructed between 38 and 52 AD, often experienced closures for repairs due to pressures to complete the project quickly, potentially leading to compromises in material quality. These impressive ruins can still be explored in downtown Rome, notably in the Parco degli Acquedotti."
+    },
+    "culture": {
+      "title": "Sagre: Italy's Heartfelt Food Festivals",
+      "content": "Italy is home to thousands of 'sagre,' local food festivals deeply woven into the fabric of regional life. Deriving from the Latin 'sacrum' (sacred), these festivals historically honored patron saints and celebrated agricultural harvests, evolving into vibrant community gatherings centered around a specific local food item. With around 20,000 sagre annually drawing millions of visitors, they are a powerful expression of Italian identity, tradition, and culinary heritage."
+    },
+    "news": {
+      "title": "Stolen Masterpieces Recovered by Italian Police",
+      "content": "In a significant victory for cultural heritage, Italian police recently recovered three valuable paintings by French masters Paul Cézanne, Pierre-Auguste Renoir, and Henri Matisse. The artworks, collectively valued at over $10 million, were stolen in March from the Magnani Rocca Foundation near Parma. Nine Moldovan nationals are currently under investigation, with five believed to have executed the daring burglary.",
+      "url": "https://www.theguardian.com/world/2026/aug/14/italian-police-recover-paintings-by-cezanne-renoir-and-matisse-after-heist"
+    },
+    "id": "1787298370079-italy",
+    "date": "2026-08-21T07:46:10.079Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "Tempura's Portuguese Roots",
+      "content": "A beloved Japanese dish, tempura, surprisingly traces its origins back to 16th-century Portugal. Portuguese missionaries introduced their method of coating foods in flour and frying them to Japan, particularly during Lent or Ember Days when they abstained from meat. This culinary technique was then adapted and transformed into the distinctively light and crispy tempura known today."
+    },
+    "culture": {
+      "title": "The Artisanal Craft of Konpeito Candy",
+      "content": "Konpeito, a traditional Japanese sugar candy, boasts a fascinating and incredibly slow production process. Artisans spend between seven and thirteen days rolling a single grain of coarse sugar in a heated, rotating copper pan, gradually trickling sugar syrup onto it to form its characteristic spiky crystals. This intricate method, which demands patience and precision, has been passed down through generations."
+    },
+    "news": {
+      "title": "Japan to Launch Probe for Mars Moons in October",
+      "content": "Japan's space agency is preparing to launch a probe in October for Mars' moons, a significant step forward in the country's space exploration endeavors. This mission underscores Japan's growing contributions to international space research and its commitment to advancing scientific understanding beyond Earth.",
+      "url": "https://japantoday.com/category/national/japan-to-launch-probe-for-mars-moons-in-october-space-agency"
+    },
+    "id": "1787298381210-japan",
+    "date": "2026-08-21T07:46:21.210Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Posthumous Queen",
       "content": "In a unique and dramatic chapter of Portuguese history, King Pedro I, crowned in 1357, controversially declared his beloved Inês de Castro as Queen of Portugal two years after her assassination. Legend has it that her corpse was exhumed, dressed in royal regalia, and enthroned, with courtiers compelled to kiss her decaying hand, solidifying her rightful, albeit posthumous, place in the monarchy."
     },
