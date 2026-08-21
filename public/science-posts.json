@@ -1,5 +1,74 @@
 [
   {
+    "title": "Burnout's Real Culprit: Why Fixing Workplaces, Not Just Workers, Is Key to Mental Health",
+    "summary": "A new doctoral study reveals that treating individual employees for stress and burnout often misses the real issue: the workplace itself. It challenges the conventional approach, urging companies to focus on systemic changes rather than solely supporting individuals.",
+    "sections": [
+      {
+        "heading": "The Rising Tide of Workplace Stress",
+        "content": "Mental health challenges have become the leading cause of sick leave in many places, highlighting a widespread issue in our professional lives. Traditionally, the response has often focused on supporting the individual employee, such as through therapy or time off to recover."
+      },
+      {
+        "heading": "Beyond Individual Fixes: A Systemic Solution",
+        "content": "This new research argues that simply treating symptoms in individuals without addressing underlying workplace issues is ineffective and often temporary. It proposes a crucial shift: recognizing that a healthy work environment is paramount and requires organizational changes, not just personal resilience training."
+      }
+    ],
+    "funFacts": [
+      "In Finland, mental health issues now represent the top reason for employees taking sick leave, underscoring a global trend.",
+      "The study suggests that sending an employee home for burnout without changing the workplace is like repeatedly bandaging a cut without addressing the sharp object causing it.",
+      "This research challenges companies to look inward at their culture, workload management, and leadership practices, rather than placing the entire burden of well-being on individual employees."
+    ],
+    "originalTitle": "Occupational health challenges require more than individual support, new doctoral study shows",
+    "originalUrl": "https://phys.org/news/2026-08-occupational-health-require-individual-doctoral.html",
+    "id": "1787297435842-ln7ej",
+    "date": "2026-08-21T07:30:35.842Z"
+  },
+  {
+    "title": "Turning the Tide on Cancer: Personalized mRNA Vaccines Show Stunning Results in Key Trial",
+    "summary": "A groundbreaking personalized mRNA cancer vaccine has delivered exceptional results in a final-stage trial against aggressive skin cancer, igniting widespread hope that this tailored approach could revolutionize how we tackle many forms of cancer.",
+    "sections": [
+      {
+        "heading": "Your Body's Own Cancer Hunter: How It Works",
+        "content": "Unlike traditional vaccines that prevent disease, this innovative mRNA therapy trains your immune system to specifically recognize and attack your unique cancer cells. It's like giving your body a highly detailed 'wanted poster' for the tumor, allowing it to seek out and destroy even elusive cancer cells without harming healthy tissue."
+      },
+      {
+        "heading": "A Major Milestone with Broad Implications",
+        "content": "The impressive positive results from this final-stage trial in melanoma patients mark a critical step towards widespread clinical use. This success not only offers new hope for those battling skin cancer but also paves the way for potential personalized treatments across a spectrum of other cancers, from lung to colon."
+      }
+    ],
+    "funFacts": [
+      "mRNA technology, now famous for COVID-19 vaccines, has been under intensive research for cancer therapies for decades.",
+      "Each personalized mRNA cancer vaccine is unique, custom-made from the genetic blueprint of an individual patient's tumor.",
+      "Melanoma, the specific skin cancer tested in this trial, is one of the most aggressive forms of cancer, making these positive results particularly significant."
+    ],
+    "originalTitle": "Will personalised mRNA vaccines transform cancer treatments?",
+    "originalUrl": "https://www.newscientist.com/article/2585809-will-personalised-mRNA-vaccines-transform-cancer-treatments/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1787297444303-wtzd9",
+    "date": "2026-08-21T07:30:44.303Z"
+  },
+  {
+    "title": "Cosmic Whisper: A Gamma-Ray Signal That Could Reveal Dark Matter's Identity",
+    "summary": "A peculiar gamma-ray signal emanating from three distant galaxy clusters has captured scientists' attention, offering a tantalizing new lead in the elusive hunt for dark matter and potentially rewriting our understanding of the cosmos.",
+    "sections": [
+      {
+        "heading": "Decoding a Cosmic Enigma: A Mysterious Gamma-Ray Signal",
+        "content": "Astronomers have recently detected a peculiar signal of gamma-rays – the most energetic form of light – emanating from three distant and massive galaxy clusters. What makes this cosmic glow so intriguing is that its characteristics don't align with any known astrophysical processes, like supernova explosions or active black holes, strongly suggesting a novel and exciting origin."
+      },
+      {
+        "heading": "A Glimmer of Dark Matter, or a New Cosmic Frontier?",
+        "content": "This unexplained signal could be the long-sought 'fingerprint' of dark matter, the invisible substance that makes up a quarter of our universe and whose interactions are theorized to produce gamma rays. Alternatively, researchers are also considering the thrilling prospect that it might signify an even more 'exotic' and entirely unknown phenomenon, potentially revealing new fundamental physics beyond our current understanding."
+      }
+    ],
+    "funFacts": [
+      "Gamma-rays are the most powerful type of light in the universe, far more energetic than visible light, X-rays, or even UV rays.",
+      "Dark matter is believed to make up about 27% of the universe's mass, yet we've never directly observed it – only inferred its presence through its gravitational influence.",
+      "Galaxy clusters are the largest known structures in the universe held together by gravity, containing hundreds to thousands of galaxies, vast amounts of hot gas, and immense quantities of dark matter."
+    ],
+    "originalTitle": "Strange gamma-ray signal could unlock dark matter’s secrets",
+    "originalUrl": "https://www.newscientist.com/article/2585656-strange-gamma-ray-signal-could-unlock-dark-matters-secrets/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1787297456658-iq4ek",
+    "date": "2026-08-21T07:30:56.658Z"
+  },
+  {
     "title": "South America's Hidden Monarch: A 23-Foot Croc Dethroned Ancient Mammals",
     "summary": "New fossil evidence reveals that a massive 23-foot prehistoric crocodile, Purussaurus neivensis, wasn't just another predator—it was the undisputed ruler of ancient South America's food chain, surprisingly outranking mighty mammals.",
     "sections": [
