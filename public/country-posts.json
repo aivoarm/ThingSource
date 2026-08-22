@@ -2,6 +2,78 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Lisbon's Ancient Roots Predate Rome",
+      "content": "A surprising historical detail reveals that Lisbon, Portugal's vibrant capital, is actually centuries older than Rome. While Rome's founding is traditionally placed around 753 BCE, evidence suggests that the Phoenicians settled in Lisbon around 1200 BCE, establishing it as an important trading hub long before the rise of the Roman Empire."
+    },
+    "culture": {
+      "title": "Baba de Camelo: The Intriguingly Named 'Camel Drool' Dessert",
+      "content": "Among Portugal's unique culinary offerings is a popular dessert known as 'Baba de Camelo,' which translates to 'Camel Drool.' Despite its quirky name, this sweet treat is a delicious, runny caramel dessert made with condensed milk and almonds, beloved for its rich, indulgent flavor and distinctive texture."
+    },
+    "news": {
+      "title": "First Southern Ground Hornbill Chick Hatches in Portugal",
+      "content": "In a significant boost for conservation efforts, Portugal recently celebrated the birth of its first Southern Ground Hornbill chick. This exciting event, which occurred in July 2026, marks an important milestone for the endangered species within European breeding programs, highlighting Portugal's contribution to global wildlife preservation.",
+      "url": "https://theportugalnews.com/news/2026-07-03/first-southern-ground-hornbill-was-born-in-portugal/89874"
+    },
+    "id": "1787384736379-portugal",
+    "date": "2026-08-22T07:45:36.379Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "El Mariquelo: Salamanca's Unique Tribute to the 1755 Lisbon Earthquake",
+      "content": "Every October 31st, a man known as 'El Mariquelo' climbs the tower of Salamanca's New Cathedral without safety equipment. This historic tradition dates back to the devastating 1755 Lisbon earthquake, a massive tremor that severely impacted parts of the Iberian Peninsula. Salamanca, remarkably, suffered no fatalities, and the climb serves as an annual act of gratitude and remembrance for the city's deliverance from the catastrophe."
+    },
+    "culture": {
+      "title": "The Quirky 'Tió de Nadal' or 'Caga Tió' Christmas Tradition in Catalonia",
+      "content": "In Catalonia, Christmas has a unique and humorous tradition centered around the 'Tió de Nadal,' often called 'Caga Tió' or the 'Pooping Log.' Weeks before Christmas, children 'feed' a wooden log with a painted smiling face and a red Catalan hat. On Christmas Eve, they gather to sing songs and gently hit the log with sticks, encouraging it to 'poop' out presents and sweets hidden beneath its blanket."
+    },
+    "news": {
+      "title": "Spain's Services Sector Experiences Strongest Growth of 2026 in June",
+      "content": "Spain's services sector saw its strongest expansion of the year in June 2026, driven by a notable rebound in activity and new business from increased domestic demand. This positive trend contributed to an acceleration in Spain's overall economic growth, with the country's GDP expanding by 0.7% quarter-on-quarter in Q2 2026 and consistently outpacing the wider Eurozone. This robust performance is also supported by strong employment growth, with the unemployment rate projected to fall below 10% this year.",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnjip0lAghOg6N5gqmywmDVxiNbHb6UOaYZ803QrYQhJUVUUArZ5zqTSOXxrUu6GjcVwOHEiDKMHypix31YNxXvnRi31MZmllpeROjpkM_6I9u4PEa7hJ_9p3jB0wBtPmxhKdCnDFC7H0gCt28f1SYLE2cimo5fYqmeEPNMYnZsGbmrsElqxTB2JX59jw6le_da_KjIPYLwe2c"
+    },
+    "id": "1787384756800-spain",
+    "date": "2026-08-22T07:45:56.800Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "The Unexpected American Origin of Italy's Beloved Tomato",
+      "content": "Despite being synonymous with Italian cuisine, the tomato is not native to Italy or even the Eastern Hemisphere. Tomatoes were brought to Europe from the Americas in the late 1400s and were viewed with suspicion for a long time, even considered potentially poisonous. The first documented recipe for tomato sauce in Italy didn't appear until 1694."
+    },
+    "culture": {
+      "title": "Befana: Italy's Benevolent Epiphany Witch",
+      "content": "A unique Italian tradition centers around La Befana, an old woman who, according to folklore, delivers gifts to children on the eve of Epiphany (January 6th). Traveling on a broomstick, she fills stockings with sweets for good children and coal for naughty ones. In Venice, this holiday is celebrated with a lively rowing race on the Grand Canal where participants dress as 'maranteghe' (Befanas)."
+    },
+    "news": {
+      "title": "Italy Experiences Record-Breaking Summer Tourism in 2026",
+      "content": "Italy's tourism sector is experiencing a remarkable summer in 2026, with July alone seeing over 4 million more overnight stays and a 6% increase in foreign visitors compared to the same month last year. This surge positions tourism as a major driver of the Italian economy, with optimistic forecasts for the entire summer season."
+    },
+    "url": "https://www.lamilano.it/en/tourism-in-italy-record-breaking-summer-2026-foreign-visitors-up-6-in-july/",
+    "id": "1787384766893-italy",
+    "date": "2026-08-22T07:46:06.893Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "Japan's Wandering Peninsula: The Izu Collision",
+      "content": "A fascinating geological fact about Japan is that its Izu Peninsula was once an entirely separate series of volcanic islands, formed 800 kilometers south in the Pacific Ocean. This unique region is the only part of mainland Japan situated on the Philippine Sea Plate, which is actively subducting beneath the Eurasian Plate, causing the peninsula to continually 'collide' and pile up against the rest of Japan."
+    },
+    "culture": {
+      "title": "The High-Tech Wonders of Japanese Toilets",
+      "content": "Beyond mere sanitation, Japanese toilets are a marvel of advanced technology and a distinctive cultural experience. Many feature heated seats, bidets with adjustable water pressure and temperature, air dryers, and even sound effects to mask noise, transforming a utilitarian fixture into a luxurious and surprising comfort for visitors."
+    },
+    "news": {
+      "title": "Japan's Private Sector Sees Robust Growth in August, Driven by Manufacturing and AI Demand",
+      "content": "Japan's private sector experienced significant expansion in August 2026, with the S&P Global Composite PMI Business Activity Index rising to a six-month peak. This robust growth, the second-strongest in over three years, was fueled by a strong rebound in manufacturing output—particularly from semiconductor and AI-related industries—and increased activity in the services sector, alongside improved business confidence for the year ahead.",
+      "url": "https://wkzo.com/2026/08/21/japan-manufacturing-expands-as-orders-rise-fastest-since-2018-pmi-shows/"
+    },
+    "id": "1787384784896-japan",
+    "date": "2026-08-22T07:46:24.896Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Monarchical Extremes",
       "content": "Portugal holds a unique record in monarchical history for having both one of the shortest and one of the longest-reigning monarchs. Crown Prince Luís Filipe became king for a mere 20 minutes on February 1, 1908, after his father, King Carlos I, was assassinated, only to succumb to his own fatal wounds shortly after. In stark contrast, Afonso I, often hailed as the founder of Portugal, reigned for over 73 years from 1139 to 1185, shaping the nascent nation through warfare and diplomacy."
     },
