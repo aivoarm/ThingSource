@@ -1,5 +1,78 @@
 [
   {
+    "title": "Uncovering Roman Ingenuity: A Ship's 2,200-Year-Old Waterproofing Secret",
+    "summary": "Scientists analyzing a 2,200-year-old Roman shipwreck have unveiled the ancient world's marine engineering secrets, discovering not only the materials used to keep vessels afloat but also using microscopic clues to pinpoint where crucial repairs took place.",
+    "sections": [
+      {
+        "heading": "The Roman Recipe for a Seaworthy Vessel",
+        "content": "Researchers examining the ancient timbers of a sunken Roman ship discovered its hull was meticulously coated with pine tar, a natural sealant. In some critical areas, a sophisticated mixture of tar and beeswax provided an extra layer of protection, showcasing the Roman's practical mastery of shipbuilding and material science to conquer the seas."
+      },
+      {
+        "heading": "Pollen's Tale: A Ship's Hidden Travel Log",
+        "content": "Beyond just waterproofing, the study revealed an unexpected historical diary: tiny pollen grains trapped within these ancient coatings. Like a microscopic geographical fingerprint, these bits of plant life allowed scientists to reconstruct the surrounding landscape when the ship underwent repairs, offering rare insights into its journeys and maintenance stops across the Roman world."
+      }
+    ],
+    "funFacts": [
+      "Pine tar has been a go-to waterproofing material for ships for millennia, highlighting its enduring effectiveness across civilizations.",
+      "The ingenious blend of tar and beeswax wasn't exclusive to ships; ancient cultures also used similar mixtures for sealing containers, embalming, and even rudimentary medicine.",
+      "This research beautifully illustrates how combining diverse scientific fields—from archaeology and chemistry to botany—can unlock remarkably detailed stories from our distant past."
+    ],
+    "originalTitle": "2,200-year-old Roman shipwreck reveals ancient waterproofing secrets",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260820202907.htm",
+    "id": "1787383836943-sys9p",
+    "date": "2026-08-22T07:30:36.943Z"
+  },
+  {
+    "title": "The Grand Canyon's Billion-Year Secret: How a 'Ghost Cliff' Explains Missing Time",
+    "summary": "Scientists may have finally solved one of geology's greatest puzzles: the Grand Canyon's 'missing' billion years of history. A newly proposed 'ghost cliff' of immense proportions, dating back nearly a billion years before the canyon was carved, appears to hold the key to this colossal gap in Earth's timeline.",
+    "sections": [
+      {
+        "heading": "The Grand Canyon's Lost History",
+        "content": "For generations, geologists have puzzled over the 'Great Unconformity' in the Grand Canyon – a dramatic geological boundary where rocks representing nearly a billion years of Earth's history simply vanish. Instead of a continuous sequence, much younger layers sit directly atop ancient ones, creating a colossal and unprecedented gap in the geological record."
+      },
+      {
+        "heading": "An Ancient Colossus Shapes the Landscape",
+        "content": "New research suggests a colossal, ancient cliff system — dubbed a 'mega-cliff' — is the culprit behind this missing time. Formed when the supercontinent Rodinia began to tear apart roughly 700 million years ago, this mile-high escarpment stretched for hundreds of miles across what is now North America, exposing deep rock layers."
+      },
+      {
+        "heading": "Massive Erosion Rewrites Earth's Story",
+        "content": "The immense forces unleashed by Rodinia's breakup and the subsequent existence of this gigantic cliff led to monumental erosion, essentially 'wiping clean' a huge swath of geological history. This dramatic removal of rock didn't just expose the foundational bedrock that would eventually form the Grand Canyon's iconic lower layers; it also explains why vast stretches of North America's geological timeline are simply absent."
+      }
+    ],
+    "funFacts": [
+      "The 'missing billion years' in the Grand Canyon represents a period longer than the entire existence of multicellular life on Earth!",
+      "Before the supercontinent Pangea, there was Rodinia, a vast landmass that began breaking apart roughly 750 million years ago, creating the geological forces behind this giant cliff.",
+      "Imagine a cliff as tall as the Himalayas, stretching for hundreds of miles across an ancient North America – that's the scale of the 'ghost cliff' proposed by this research."
+    ],
+    "originalTitle": "A lost mega-cliff may explain the Grand Canyon’s missing billion years",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260820202828.htm",
+    "id": "1787383847867-t6dg3",
+    "date": "2026-08-22T07:30:47.867Z"
+  },
+  {
+    "title": "Webb’s Infrared Eye Uncovers a 'Treasure Chest' in the Carina Nebula",
+    "summary": "NASA's James Webb Space Telescope has used its infrared vision to discover a dazzling 'Treasure Chest' of cosmic material within the star-forming Carina Nebula, shedding new light on how stars begin their lives in dusty environments.",
+    "sections": [
+      {
+        "heading": "The 'Treasure Chest': A Cosmic Cradle",
+        "content": "This striking feature, affectionately dubbed the 'Treasure Chest,' is a specific type of celestial object known as a cometary globule. Imagine a solitary, dense cloud of gas and dust, shaped almost like a comet with a luminous tail, existing within the vast expanse of a star-forming region. These dense pockets are crucial cosmic building blocks, holding the potential for new stars to ignite."
+      },
+      {
+        "heading": "Webb's Infrared X-Ray Vision",
+        "content": "The James Webb Space Telescope's unparalleled infrared capabilities are what truly unlock these hidden wonders. Unlike visible light, which gets easily blocked by thick cosmic dust, Webb's infrared detectors can pierce through these opaque curtains. This allows astronomers to peer directly into the heart of dusty nurseries like the Carina Nebula, observing the initial stages of star formation that were previously obscured."
+      }
+    ],
+    "funFacts": [
+      "The Carina Nebula, where this 'Treasure Chest' resides, is one of the largest and brightest star-forming regions in our galaxy, located about 7,500 light-years away.",
+      "Cometary globules are dense pockets of gas and dust that, under the right conditions, can collapse to form new stars and planetary systems.",
+      "Webb's ability to see in infrared light is essential because young stars and forming planetary systems are often shrouded in the very dust and gas from which they are born."
+    ],
+    "originalTitle": "Webb Opens Treasure Chest",
+    "originalUrl": "https://www.nasa.gov/image-article/webb-opens-treasure-chest/",
+    "id": "1787383859013-rvxc7",
+    "date": "2026-08-22T07:30:59.013Z"
+  },
+  {
     "title": "Burnout's Real Culprit: Why Fixing Workplaces, Not Just Workers, Is Key to Mental Health",
     "summary": "A new doctoral study reveals that treating individual employees for stress and burnout often misses the real issue: the workplace itself. It challenges the conventional approach, urging companies to focus on systemic changes rather than solely supporting individuals.",
     "sections": [
