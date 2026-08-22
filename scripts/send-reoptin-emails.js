@@ -57,9 +57,9 @@ async function main() {
         continue;
       }
 
-      const targets = ["aayvazy@gmail.com", "hello@resillion.com"];
-      if (!targets.includes(email.toLowerCase().trim())) {
-        console.log(`Skipping: ${email} (not in targeted migration list)`);
+      const skipList = ["aayvazy@gmail.com"];
+      if (skipList.includes(email.toLowerCase().trim())) {
+        console.log(`Skipping: ${email} (already confirmed/in skip list)`);
         console.log("---");
         continue;
       }
