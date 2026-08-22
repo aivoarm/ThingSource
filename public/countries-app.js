@@ -131,8 +131,8 @@ async function handleSubscribe(e) {
     if (res.ok) {
       document.getElementById('subscribe-card-container').innerHTML = `
         <div style="padding: 2rem 0;">
-          <p class="success-msg">You have successfully subscribed to your custom feeds!</p>
-          <p style="font-size:0.95rem;opacity:0.8;margin-top:0.5rem;">Check your inbox for a confirmation welcome email.</p>
+          <p class="success-msg">Subscription request received!</p>
+          <p style="font-size:0.95rem;opacity:0.8;margin-top:0.5rem;">Please check your inbox for a verification email to confirm your subscription.</p>
         </div>
       `;
     } else {

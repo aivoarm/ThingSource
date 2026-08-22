@@ -549,13 +549,8 @@ async function handleSubscribeNewsletter(e) {
     const data = await response.json();
     if (response.ok) {
       document.getElementById('subscribe-form-container').innerHTML = `
-        <div class="subscribe-success-msg">You're in! Check your inbox for a welcome email.</div>
+        <div class="subscribe-success-msg">Please check your inbox to confirm your subscription.</div>
       `;
-      const valEl = document.getElementById('subscriber-count-val');
-      if (valEl) {
-        const curVal = parseInt(valEl.textContent);
-        if (!isNaN(curVal)) valEl.textContent = curVal + 1;
-      }
     } else {
       alert(data.message || data.error);
     }

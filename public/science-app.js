@@ -130,7 +130,7 @@ function initSubscribeForm() {
       });
       const data = await res.json();
       if (res.ok) {
-        container.innerHTML = `<p class="subscribe-success">🚀 Success! Check your inbox for a welcome email.</p>`;
+        container.innerHTML = `<p class="subscribe-success">🚀 Success! Check your inbox to confirm your subscription.</p>`;
       } else {
         alert(data.message || data.error || "Subscription failed.");
         btn.disabled = false;
