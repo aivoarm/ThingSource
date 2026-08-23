@@ -1,5 +1,62 @@
 [
   {
+    "topic": "The Can Opener",
+    "title": "Decades of Dining Danger: The Can Opener Arrived 48 Years After the Can",
+    "category": "Inventions",
+    "summary": "Imagine having delicious canned food but no easy way to open it. For nearly 50 years, this was the reality for consumers, who had to resort to hammers, chisels, and even bayonets to access their meals.",
+    "sections": [
+      {
+        "heading": "An Inventive Hunger Ploy",
+        "content": "The story of canned food begins in 1795 when Napoleon Bonaparte offered a 12,000-franc prize for a method to preserve food for his army, which was suffering from hunger and scurvy. French chef Nicolas Appert won the prize in 1809-1810 by discovering that heating food in sealed containers prevented spoilage, initially using glass jars. Shortly after, in 1810, Englishman Peter Durand patented the use of tin-coated iron cans, which proved more durable and practical for military and commercial use."
+      },
+      {
+        "heading": "The Chisel and Hammer Era",
+        "content": "Despite the advent of canned food, there was one significant hurdle: opening the cans themselves. Early cans were incredibly robust, often made of thick wrought iron, and manufacturers' instructions simply suggested using a hammer and chisel. Soldiers and sailors in particular famously resorted to brute force, employing bayonets, rocks, or even shooting the cans to get to the contents."
+      },
+      {
+        "heading": "The Dawn of the Opener (and its Evolution)",
+        "content": "It wasn't until 1855 that Robert Yeates in England patented the first can opener, a lever-knife design that required considerable effort. Three years later, in 1858, Ezra Warner in the United States patented a similar, more complex lever-type opener with a sharp sickle blade. The familiar rotating cutting wheel design, the precursor to modern can openers, was first patented by William Lyman in 1870, though early versions were difficult to operate. The universally easy-to-use can opener, with a second serrated wheel to grip the rim, only emerged in 1925, finally making canned goods truly convenient for everyone."
+      }
+    ],
+    "funFacts": [
+      "The first can openers were so cumbersome that store clerks would often open cans for customers who bought them.",
+      "A twist-key can opener, commonly seen today on sardine cans, was patented in 1866, allowing cans to come with their own opening mechanism.",
+      "Just as different eras had different tools for opening cans, slang terms evolve over time, too! The Lore Board on slang.armanayva.com could be seen as a modern 'can opener' for understanding the ever-changing language of today."
+    ],
+    "imageKeywords": [
+      "antique can opener",
+      "early tin cans",
+      "Ezra Warner can opener",
+      "William Lyman can opener"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTyqinNL6ck_H0K7Yzesf85_VmQsNpS46cm6sYq6qfgtOn2UO8xi8pvGsmnWdi4Nxq5fhnKz20am-nQ_KIcijpTTjUn1Yc_7gLpfemOgC2THgDABk7Aae52qETboyKUZKtDlw=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTyqinNL6ck_H0K7Yzesf85_VmQsNpS46cm6sYq6qfgtOn2UO8xi8pvGsmnWdi4Nxq5fhnKz20am-nQ_KIcijpTTjUn1Yc_7gLpfemOgC2THgDABk7Aae52qETboyKUZKtLdw=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqiDBqj9JH37QkxbiNKHegx63o5Vm7dt0ofzQskTqGEFClgVlUeS741Atm6tWBcmOjwBQtQvyDhGuFBP8bX50c61U0ZjxbfGVV3jlv_tjJ68rtarZOvYFvRcSPOGrUXrBKbEvQ1qV_4Fy0mA==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5P9SM0XFyTQz1a5dbEddIeGcZ_IRmWmX66ZPrwRvvwAnzgWvH3n7_yXQsJe3QPLFzPdY4aQBktkz3UXsNU9mvj0jJVb4TsCvsn8YwMLqIcGkWTO0Lqao5Emdah6nKQRbS70ySkBxkmy9prih7Iw6_lB65zb0tpS4sho2GAt6XjPw=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF1YsdvLdsu-VlOVcGRgZGb-l-AdNKccrs93vF2xvDkVF4vns5vJ2E8POJmDZvhf9z3Yi7UnFusNp5ZlfKb9pM0EnacAD4SuUsotgJ-vJEpssH97gwLEiYWvrEqySO_EqYlaKIY4KXT4zdf1Td0jVflFCsixNZdoAzYx3vHdqqzO1cXv-xngkBwVZOdVlGed11oTRTt8covDc7LRYtkVeOHfiJnWcvlaxqgYcOCcV8CzvUeVEHFwXALw=="
+    ],
+    "portugalFact": {
+      "title": "The Crowing Rooster of Barcelos: A Symbol of Justice",
+      "content": "One of Portugal's most enduring folk legends is that of the 'Galo de Barcelos' or Rooster of Barcelos, a vibrant ceramic rooster recognized as an unofficial national symbol. The tale recounts how a Galician pilgrim, falsely accused of theft and condemned to hang in the town of Barcelos, declared his innocence by proclaiming that a roasted rooster on the judge's dinner plate would crow at the hour of his execution. Miraculously, the cooked rooster stood up and crowed, proving the pilgrim's innocence and ultimately saving his life. This story has made the Barcelos Rooster a powerful emblem of good luck, faith, and justice throughout Portugal."
+    },
+    "aiSource": "Gemini",
+    "id": "1787468497971-the-can-opener",
+    "slug": "decades-of-dining-danger-the-can-opener-arrived-48-years-aft",
+    "date": "2026-08-23T07:01:37.971Z",
+    "joke": {
+      "joke": "I was walking down the street the other day and I saw a sign that said 'Wet Paint.' So I touched it. It was wet.",
+      "setup": "I was walking down the street the other day and I saw a sign that said 'Wet Paint.'",
+      "punchline": "So I touched it. It was wet.",
+      "comedian": "Emo Philips",
+      "year": "Late 1980s",
+      "context": "This joke perfectly encapsulates Emo Philips' unique brand of absurdist humor, playing on literal interpretation and delivering an unexpectedly simple yet brilliant punchline. It became a signature example of his deadpan, slightly off-kilter observational comedy, cementing his status as a distinctive voice in stand-up during the late 20th century."
+    },
+    "images": [
+      "https://picsum.photos/seed/1787468497971-the-can-opener/800/500"
+    ]
+  },
+  {
     "topic": "The Word 'OK'",
     "title": "From Humorous Misspelling to Global Affirmation: The Surprising Origin of 'OK'",
     "category": "Language",
