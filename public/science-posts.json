@@ -1,5 +1,83 @@
 [
   {
+    "title": "The Early Universe Just Got Heavier: JWST Finds Super-Sized Infant Galaxies",
+    "summary": "Astronomers using the cutting-edge James Webb Space Telescope have made a stunning discovery: the universe's earliest galaxies are far more massive than anyone predicted, packed with a secret population of tiny stars that are rewriting the story of cosmic beginnings. This finding deepens a major mystery about how the universe evolved and hints at surprising implications for the prevalence of planets in our ancient past.",
+    "sections": [
+      {
+        "heading": "Uncovering a Hidden Universe of Stars",
+        "content": "The James Webb Space Telescope (JWST) has uncovered a hidden truth about the universe's earliest galaxies: they are teeming with far more small, faint stars than previously imagined. These dim, ancient stellar residents, largely invisible to past telescopes, collectively add an immense amount of 'hidden' mass, making these infant galaxies up to four times heavier than earlier estimates."
+      },
+      {
+        "heading": "A Growing Cosmic Mystery",
+        "content": "This revelation intensifies one of cosmology's biggest puzzles: how could such colossal, mature galaxies form so quickly after the Big Bang? Our current understanding of cosmic evolution struggles to explain how these super-sized infant galaxies could have assembled their incredible mass in such a comparatively short cosmic span."
+      },
+      {
+        "heading": "An Unexpected Boost for Early Planets?",
+        "content": "The discovery also sparks exciting speculation about the potential for early life. An abundance of low-mass stars in the early universe suggests that planets orbiting these stars – often considered good candidates for habitability – might have been more common in the ancient cosmos than scientists ever realized."
+      }
+    ],
+    "funFacts": [
+      "The James Webb Space Telescope's powerful infrared vision is uniquely capable of detecting the faint light from these small, distant stars, which are largely hidden from other telescopes.",
+      "Scientists are now grappling with how galaxies could grow so massive, so quickly, in the relatively short time since the Big Bang, challenging existing models of cosmic evolution.",
+      "This finding suggests the early universe might have been teeming with more potential 'homes' for life, as low-mass stars are known to host a significant number of exoplanets.",
+      "Some of these incredibly massive galaxies formed just 400 million years after the Big Bang, when the universe was still in its cosmic infancy."
+    ],
+    "originalTitle": "JWST finds early galaxies may be 4 times more massive than thought",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260822015141.htm",
+    "id": "1787470240212-qltbr",
+    "date": "2026-08-23T07:30:40.212Z"
+  },
+  {
+    "title": "Cosmic Daredevils: How Spinning Stars Repeatedly Escape Black Hole Annihilation",
+    "summary": "Astronomers have uncovered a remarkable cosmic phenomenon: stars that repeatedly flirt with total destruction by supermassive black holes, getting partially torn apart yet miraculously surviving each time. New research suggests these stellar daredevils owe their resilience and their mysterious, fading light shows to their incredibly fast rotation.",
+    "sections": [
+      {
+        "heading": "A Star's Dangerous Dance with a Black Hole",
+        "content": "Imagine a stellar tightrope walker, repeatedly skimming the edge of a cosmic abyss – a supermassive black hole. These unique stars embark on incredibly close, repeating orbits, where each pass sees them partially shredded by the black hole's immense gravity, releasing a brilliant burst of light, yet they remarkably endure."
+      },
+      {
+        "heading": "The Curious Case of the Fading Flares",
+        "content": "While these stellar 'near-death' experiences consistently produce luminous flares, astronomers noticed a peculiar trend: the light from subsequent encounters often grows fainter. This puzzling dimming, combined with the stars' extraordinarily tight orbits, led researchers to seek a profound underlying explanation for their unique behavior."
+      },
+      {
+        "heading": "The Secret Weapon: Extreme Stellar Spin",
+        "content": "The breakthrough insight points to stars that were already spinning extraordinarily fast before their dangerous tango began. This rapid rotation acts like a celestial gyroscope, stabilizing the star against complete obliteration with each pass. It also explains how they could get into such incredibly tight orbits, where repeated partial stripping by the black hole leads to the observed fading of their brilliant light shows over time."
+      }
+    ],
+    "funFacts": [
+      "Supermassive black holes, like the ones at the center of this cosmic drama, are thought to anchor the heart of most large galaxies, including our own Milky Way.",
+      "The phenomenon of a star being torn apart by a black hole is known as a Tidal Disruption Event (TDE), but these stars are experiencing a unique, repeated version of it.",
+      "The rapid rotation of these stars isn't just a quirky detail; it's a fundamental property that helps them resist complete obliteration, much like a spinning top resists falling over."
+    ],
+    "originalTitle": "Black holes keep tearing these stars apart, but they survive",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260822015119.htm",
+    "id": "1787470252515-mhuib",
+    "date": "2026-08-23T07:30:52.515Z"
+  },
+  {
+    "title": "From the Sea to Skin: Cod Skin Proves Potent for Burn Healing",
+    "summary": "An innovative approach to burn care is making waves: researchers have found that dressings made from minimally processed cod skin significantly accelerate the healing of severe burns, outperforming traditional synthetic treatments and potentially reducing the need for extensive skin grafts.",
+    "sections": [
+      {
+        "heading": "Current Challenges in Burn Treatment",
+        "content": "Treating severe burns is a complex medical challenge, often involving synthetic dressings that protect the wound before multiple skin graft surgeries. While vital, these conventional methods can lead to prolonged recovery times, pain, and the risk of infection, making the search for more effective solutions ongoing."
+      },
+      {
+        "heading": "The Unexpected Power of Cod Skin",
+        "content": "Now, an unexpected solution emerges from the ocean: minimally processed cod skin. This natural material acts as a biological scaffold, proving significantly more effective than synthetic products in preparing severe burn wounds for healing, accelerating tissue regeneration, and potentially reducing the need for invasive skin grafts."
+      }
+    ],
+    "funFacts": [
+      "Cod skin naturally contains collagen and Omega-3 fatty acids, which are vital components for human tissue repair and regeneration, making it an ideal biological dressing.",
+      "The unique structure of fish skin allows it to integrate seamlessly with human tissue, providing a natural matrix that supports new cell growth rather than just covering the wound.",
+      "This promising treatment could not only speed up recovery and reduce scarring but also potentially decrease the pain associated with dressing changes and shorten hospital stays for burn patients."
+    ],
+    "originalTitle": "Burns improve more rapidly after treatment with fish skin",
+    "originalUrl": "https://www.newscientist.com/article/2586000-burns-heal-more-rapidly-after-treatment-with-fish-skin/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1787470261061-5t1gr",
+    "date": "2026-08-23T07:31:01.061Z"
+  },
+  {
     "title": "Uncovering Roman Ingenuity: A Ship's 2,200-Year-Old Waterproofing Secret",
     "summary": "Scientists analyzing a 2,200-year-old Roman shipwreck have unveiled the ancient world's marine engineering secrets, discovering not only the materials used to keep vessels afloat but also using microscopic clues to pinpoint where crucial repairs took place.",
     "sections": [
