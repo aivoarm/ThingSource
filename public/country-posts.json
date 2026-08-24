@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "The Enigmatic Berlengas Archipelago: A UNESCO Biosphere Reserve",
+      "content": "Off the coast of Peniche, Portugal, lies the Berlengas Archipelago, a cluster of granite islands designated a UNESCO Biosphere Reserve since 2011. This lesser-known gem boasts a unique geological landscape, including rare pink granite formations and impressive sea caves like Furado Grande, which traverses the main island, Berlenga Grande. With a history stretching from Phoenician sacred sites to 17th-century pirate strongholds and a monastery, the Berlengas offer a fascinating blend of natural beauty and human heritage."
+    },
+    "culture": {
+      "title": "Lenços dos Namorados: Portugal's Romantic Sweetheart Handkerchiefs",
+      "content": "From the Minho region of northern Portugal comes the charming tradition of 'Lenços dos Namorados,' or sweetheart handkerchiefs. Dating back to the 17th and 18th centuries, young women would intricately embroider these linen or cotton handkerchiefs with colorful motifs like hearts, birds, and flowers, often including heartfelt (and sometimes misspelled) poetic verses. These personalized tokens were then presented to their beloveds; if the suitor wore the handkerchief publicly, it signaled the reciprocation of love and the beginning of a courtship."
+    },
+    "news": {
+      "title": "Azores Establishes North Atlantic's Largest Network of Marine Protected Areas",
+      "content": "In a significant move for global conservation, the Autonomous Region of the Azores approved the creation of the largest network of marine protected areas (MPAs) in the North Atlantic in October 2024. This historic initiative safeguards 30% of the marine environment surrounding the Azores Archipelago, covering an impressive 287,000 square kilometers. This commitment places Portugal at the forefront of marine conservation, aiming to achieve its 30% marine protection goal by 2026, four years ahead of the United Nations' 2030 target.",
+      "url": "https://mission-blue.org/2024/10/azores-archipelago-protects-thirty-percent-of-waters/"
+    },
+    "id": "1787557547178-portugal",
+    "date": "2026-08-24T07:45:47.178Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Lisbon's Ancient Roots Predate Rome",
       "content": "A surprising historical detail reveals that Lisbon, Portugal's vibrant capital, is actually centuries older than Rome. While Rome's founding is traditionally placed around 753 BCE, evidence suggests that the Phoenicians settled in Lisbon around 1200 BCE, establishing it as an important trading hub long before the rise of the Roman Empire."
     },
