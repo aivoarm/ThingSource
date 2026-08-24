@@ -1,5 +1,75 @@
 [
   {
+    "title": "Cosmic Fireworks: Unpacking the Dazzling Perseid Meteor Shower",
+    "summary": "Each August, Earth crosses paths with a cloud of ancient cosmic dust, igniting the spectacular Perseid meteor shower—a celestial display that offers a stunning glimpse into our solar system's ongoing ballet.",
+    "sections": [
+      {
+        "heading": "What Creates the Dazzling Perseids?",
+        "content": "The magnificent Perseid meteor shower originates from Comet Swift-Tuttle, a celestial wanderer that orbits the Sun every 133 years. As this comet journeys through space, it sheds tiny particles of ice and rock, creating a dusty trail in its wake. When Earth's annual orbit intersects with this cosmic debris field, these particles—often no bigger than a grain of sand—slam into our atmosphere at incredibly high speeds, igniting as brilliant streaks of light we call meteors, or 'shooting stars'."
+      },
+      {
+        "heading": "Why 'Mostly Perseids' Every August?",
+        "content": "During its peak in mid-August, the Perseids are one of the most prolific and reliable meteor showers, often producing dozens of meteors per hour. The term 'Mostly Perseids' highlights that while other random meteors might appear, the vast majority of shooting stars seen during this time are indeed fragments from Comet Swift-Tuttle, all appearing to radiate from a point within the constellation Perseus. This annual spectacle is a powerful reminder of our dynamic cosmos, beautifully captured and shared by initiatives like NASA's Astronomy Picture of the Day."
+      }
+    ],
+    "funFacts": [
+      "The Perseid meteor shower is named because the meteors appear to originate from the constellation Perseus, though the individual meteors are far away.",
+      "The debris particles that create the Perseids hit Earth's atmosphere at speeds of nearly 133,000 miles per hour (214,000 km/h).",
+      "Comet Swift-Tuttle, the parent comet of the Perseids, is the largest solar system object known to repeatedly pass through Earth's orbit.",
+      "The Perseids are one of the oldest known meteor showers, with records dating back over 2,000 years to ancient Chinese astronomers."
+    ],
+    "originalTitle": "APOD: 2026 August 22 – Mostly Perseids",
+    "originalUrl": "https://science.nasa.gov/image-article/apod/apod-2026-august-22-mostly-perseids/",
+    "id": "1787556635842-epood",
+    "date": "2026-08-24T07:30:35.842Z"
+  },
+  {
+    "title": "Beyond 'Brain Sync': The Surprising Truth About How Friendship Changes Our Minds",
+    "summary": "Forget the simple idea that friends just 'sync up' their brains; new research reveals the neural dance of bonding is far more intricate than a straightforward increase in similarity, challenging a long-held assumption.",
+    "sections": [
+      {
+        "heading": "The Myth of Identical Minds",
+        "content": "For a long time, it was widely assumed that as people develop deeper friendships, their brain activity would increasingly mirror each other's, becoming more and more alike. This intuitive idea suggested that 'thinking alike' was literally reflected in our neural patterns."
+      },
+      {
+        "heading": "Friendship's Complex Neural Dance",
+        "content": "However, innovative studies from ETH Zurich, involving both younger and older adults collaboratively drawing over several weeks, discovered a more nuanced reality. While relationships deepened, the brain activity similarity didn't just steadily climb, revealing a sophisticated, non-linear pattern of neural connection as strangers became friends."
+      }
+    ],
+    "funFacts": [
+      "The study challenges a popular notion that friendship simply equates to identical brain activity, suggesting a more dynamic and intricate neural process.",
+      "Researchers used a seemingly simple activity — collaborative drawing — to uncover profound insights into the complex social wiring of our brains.",
+      "This work encourages us to rethink how neural pathways adapt and evolve, not just in terms of similarity, but in the intricate ways brains coordinate and complement each other during social bonding."
+    ],
+    "originalTitle": "Collaborative drawing offers new insights into how strangers become friends",
+    "originalUrl": "https://phys.org/news/2026-08-collaborative-insights-strangers-friends.html",
+    "id": "1787556644197-hvzb2",
+    "date": "2026-08-24T07:30:44.197Z"
+  },
+  {
+    "title": "China's Lunar Ambitions Take a Brief Pause: Unmanned Moon Mission Delayed",
+    "summary": "China's ambitious journey to land humans on the Moon by 2030 has hit a temporary speed bump, as an upcoming unmanned research mission essential to that goal has been postponed.",
+    "sections": [
+      {
+        "heading": "A Temporary Hold on Lunar Exploration",
+        "content": "China has announced a delay for a crucial unmanned research mission to the Moon, citing unspecified 'launch conditions.' This postponement comes hot on the heels of a rare launch failure just two weeks prior, suggesting a cautious approach to ensure the utmost safety and success for its increasingly complex space endeavors."
+      },
+      {
+        "heading": "Paving the Way for Human Lunar Landings",
+        "content": "This delayed mission is a vital stepping stone in China's bold plan to land its own astronauts on the Moon by 2030, marking a significant push in the renewed global space race. Each unmanned mission gathers critical data, tests new technologies, and refines operational procedures, gradually building the expertise and infrastructure needed for human exploration."
+      }
+    ],
+    "funFacts": [
+      "China aims to land its first crew on the Moon by 2030, an ambitious target that would make it the second nation to achieve this feat.",
+      "Unmanned lunar missions are crucial for scouting potential landing sites, studying lunar resources, and practicing complex maneuvers before risking human lives.",
+      "Delays due to 'launch conditions' often refer to factors like unfavorable weather, technical issues requiring further checks, or ensuring the readiness of support teams and equipment."
+    ],
+    "originalTitle": "China says unmanned moon mission delayed over &#039;launch conditions&#039;",
+    "originalUrl": "https://phys.org/news/2026-08-china-unmanned-moon-mission-delayed.html",
+    "id": "1787556652473-y3kec",
+    "date": "2026-08-24T07:30:52.473Z"
+  },
+  {
     "title": "The Early Universe Just Got Heavier: JWST Finds Super-Sized Infant Galaxies",
     "summary": "Astronomers using the cutting-edge James Webb Space Telescope have made a stunning discovery: the universe's earliest galaxies are far more massive than anyone predicted, packed with a secret population of tiny stars that are rewriting the story of cosmic beginnings. This finding deepens a major mystery about how the universe evolved and hints at surprising implications for the prevalence of planets in our ancient past.",
     "sections": [
