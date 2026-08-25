@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Oldest Lighthouse Doubled as a Chapel",
+      "content": "One of Portugal's most fascinating historical facts lies with the Lighthouse of São Miguel-o-Anjo in Porto, completed in 1538. This isn't just one of Europe's oldest lighthouses; it uniquely originated as a chapel commissioned by D. Miguel da Silva, bishop-elect of Viseu, designed to serve simultaneously as a spiritual sanctuary and a crucial navigational aid for ships along the coast. Its dual function highlights an intriguing blend of faith and maritime innovation from the 16th century."
+    },
+    "culture": {
+      "title": "Festas do Povo: Campo Maior's Secret Paper Flower Festival",
+      "content": "The 'Festas do Povo' (Festival of the People) in Campo Maior is a cultural spectacle unique for its spontaneity and community spirit. Residents collectively decide when to host this unscheduled event, secretly transforming their entire historic town overnight with millions of handcrafted paper flowers and decorations. Recognized by UNESCO as Intangible Cultural Heritage in 2021, the 2026 festival marked its first celebration in 11 years, making it a truly special occasion for the Alentejo region."
+    },
+    "news": {
+      "title": "Most Complete Dinosaur Fossil Discovered in Portugal",
+      "content": "Archaeologists in Portugal have recently unearthed the most complete dinosaur skeleton ever found in the country, near the Sizandro River in Torres Vedras. This remarkable discovery, announced in July 2026, comprises an estimated 85% complete ankylosaur, a heavily armoured herbivorous dinosaur that roamed the Earth about 155 million years ago during the Late Jurassic period. The exceptionally preserved fossil represents a significant palaeontological find for both Portugal and Europe.",
+      "url": "https://www.theportugalnews.com/news/2026-07-28/portugal-most-complete-dinosaur-fossil-discovered-in-torres-vedras/92742"
+    },
+    "id": "1787643944152-portugal",
+    "date": "2026-08-25T07:45:44.152Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "The Enigmatic Berlengas Archipelago: A UNESCO Biosphere Reserve",
       "content": "Off the coast of Peniche, Portugal, lies the Berlengas Archipelago, a cluster of granite islands designated a UNESCO Biosphere Reserve since 2011. This lesser-known gem boasts a unique geological landscape, including rare pink granite formations and impressive sea caves like Furado Grande, which traverses the main island, Berlenga Grande. With a history stretching from Phoenician sacred sites to 17th-century pirate strongholds and a monastery, the Berlengas offer a fascinating blend of natural beauty and human heritage."
     },
