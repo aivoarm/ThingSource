@@ -1,5 +1,62 @@
 [
   {
+    "topic": "The Stapler",
+    "title": "From Royal Document Fasteners to Desktop Essential: The Surprising History of the Stapler",
+    "category": "Inventions",
+    "summary": "Before becoming an office staple, the seemingly humble stapler had surprisingly regal origins, a far cry from its modern mass-produced form. Its evolution from a single, intricate fastener to the multi-staple device we know today is a tale of necessity and innovation.",
+    "sections": [
+      {
+        "heading": "An 18th-Century Royal Demand",
+        "content": "Believe it or not, the earliest known stapling device was reportedly crafted in 18th-century France for none other than King Louis XV. Each individual staple for the monarch's documents was handmade and even inscribed with the royal court's insignia, suggesting a far more ornate and exclusive purpose than today's ubiquitous office tool."
+      },
+      {
+        "heading": "The Dawn of Modern Fastening",
+        "content": "While royal versions existed, the path to the modern stapler began in the 19th century with a series of patents. George McGill played a pivotal role, receiving a U.S. patent in 1866 for a small, bendable brass paper fastener, a direct precursor to today's staple. He later patented a press in 1867 to insert these fasteners and, in 1879, developed the 'McGill Single-Stroke Staple Press,' considered the first commercially successful stapler, though it weighed over two and a half pounds and loaded staples one at a time."
+      },
+      {
+        "heading": "From 'Paper Fastener' to 'Stapler'",
+        "content": "The term 'stapler' itself didn't become widely used until the early 20th century. It first appeared in an American magazine advertisement in 1901 to describe a machine that fastened papers with a thin metal wire. Companies like B. Jahn Manufacturing Co. introduced staplers capable of holding an entire strip of staples around 1905, making document fastening significantly easier and faster for the general public."
+      }
+    ],
+    "funFacts": [
+      "Before staples, people in the Middle Ages often used wax and ribbons to keep papers together.",
+      "Early staplers, like the 'Novelty Paper Fastener' from 1866, were quite primitive, often only holding a single staple at a time.",
+      "Just as learning a new language with Slang can help you connect seemingly disparate concepts, the stapler's journey from a royal luxury item to a universal office tool highlights how diverse historical threads can converge into everyday necessities."
+    ],
+    "imageKeywords": [
+      "antique stapler Louis XV",
+      "George McGill Single-Stroke Staple Press",
+      "vintage office stapler 1900s",
+      "staple patent drawings"
+    ],
+    "citations": [
+      "https://www.mybinding.com/blog/the-origins-and-history-of-the-modern-stapler/",
+      "https://www.google.com/search?q=time+in+Portugal",
+      "https://ar-tour.com/myroutes.aspx?routeID=1418&pointID=6529",
+      "https://www.indiatimes.com/news/world/2000-year-old-drowned-portuguese-village-re-emerges-from-under-water-627255.html",
+      "https://www.ancient-origins.net/ancient-places-europe/submerged-village-vilarinho-da-furna-and-its-unique-history-0017983"
+    ],
+    "portugalFact": {
+      "title": "Vilarinho da Furna: Portugal's 'Atlantis' That Resurfaces",
+      "content": "In northern Portugal, the ancient village of Vilarinho da Furna lies submerged beneath the waters of a reservoir, purposefully flooded in 1972 for a hydroelectric dam. However, during periods of severe drought, the water levels recede, revealing the ghostly ruins of stone houses, pathways, and even parts of the old chapel. This 'Atlantis of the Iberian Peninsula' offers a poignant glimpse into a 2,000-year-old community that once operated under a unique communal system."
+    },
+    "aiSource": "Gemini",
+    "id": "1787641273822-the-stapler",
+    "slug": "from-royal-document-fasteners-to-desktop-essential-the-surpr",
+    "date": "2026-08-25T07:01:13.822Z",
+    "joke": {
+      "joke": "I was walking through the graveyard the other day and I saw a headstone that said, 'Here lies a lawyer and an honest man.' I said, 'Wow, they buried two people in the same grave!'",
+      "setup": "I was walking through the graveyard the other day and I saw a headstone that said, 'Here lies a lawyer and an honest man.'",
+      "punchline": "I said, 'Wow, they buried two people in the same grave!'",
+      "comedian": "Emo Philips",
+      "year": "1980s",
+      "context": "This joke is considered iconic for its brilliant use of a paraprosdokian, leading the audience to a logical conclusion before delivering an unexpected and sharply satirical punchline. Its clever wordplay and understated delivery, characteristic of Emo Philips, make it a memorable and frequently cited example of comedic wit."
+    },
+    "images": [
+      "https://picsum.photos/seed/1787641273822-the-stapler/800/500"
+    ]
+  },
+  {
     "topic": "The Surprising Origin of Toothpaste",
     "title": "From Ox Hooves to Minty Fresh: The Wild History of Toothpaste",
     "category": "Science",
