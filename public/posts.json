@@ -1,5 +1,58 @@
 [
   {
+    "topic": "Corn Flakes",
+    "title": "The Cere-al Killer of Desire: The Strange Religious Origins of Corn Flakes",
+    "category": "Food & Drink",
+    "summary": "More than just a breakfast staple, Corn Flakes were originally concocted by a Seventh-day Adventist doctor with a peculiar belief about diet, health, and moral purity. This seemingly innocent breakfast food has a truly surprising and lesser-known backstory.",
+    "sections": [
+      {
+        "heading": "A Sanitarium's Secret Recipe",
+        "content": "In the late 19th century, Dr. John Harvey Kellogg, a devout Seventh-day Adventist, managed the Battle Creek Sanitarium in Michigan, a renowned health resort. He was a fervent advocate of 'biologic living,' promoting vegetarianism, exercise, and abstinence from alcohol, tobacco, and even certain stimulating foods. Kellogg believed that a bland diet was crucial for promoting overall health and, surprisingly, for curbing what he considered 'sinful' desires, particularly masturbation."
+      },
+      {
+        "heading": "The Flaky Accident and a Sibling Feud",
+        "content": "The accidental discovery of flaked cereal occurred around 1894 when John Harvey Kellogg and his younger brother, Will Keith Kellogg, left cooked wheat dough out overnight. When they later rolled it through a process to make it more digestible for patients, it unexpectedly formed flakes. While John Harvey initially saw these wheat flakes (and later corn flakes in 1898) as a health food for his sanitarium patients, Will Keith recognized their vast commercial potential. The brothers famously feuded when Will insisted on adding sugar to make the cereal more appealing to the broader public, a move John Harvey vehemently opposed as it went against his strict dietary principles. Will Keith eventually broke away, founding the Battle Creek Toasted Corn Flake Company (later Kellogg Company) in 1906, and with sugar, transformed the accidental flakes into a breakfast empire."
+      }
+    ],
+    "funFacts": [
+      "Beyond Corn Flakes, John Harvey Kellogg is also credited with inventing peanut butter, which he developed in 1892 as an easily digestible protein source for his patients.",
+      "Dr. Kellogg was so dedicated to his anti-masturbation crusade that he even advocated for inhumane methods like circumcision without anesthesia for boys and the application of carbolic acid to the clitoris for girls.",
+      "Just as the Kellogg brothers refined an accidental discovery into an everyday breakfast, the Slang learning app refines complex linguistic concepts into digestible, everyday knowledge, helping you effortlessly integrate new words and phrases into your daily communication, ensuring your vocabulary is always fresh and never stale like old wheat dough."
+    ],
+    "imageKeywords": [
+      "John Harvey Kellogg portrait",
+      "Battle Creek Sanitarium vintage",
+      "vintage Kellogg's Corn Flakes box",
+      "early corn flakes advertisement"
+    ],
+    "citations": [
+      "https://www.google.com/search?q=time+in+Calhoun+County,+US",
+      "https://www.google.com/search?q=time+in+Portugal",
+      "https://www.worldhistory.org/Caravel/",
+      "https://www.marinersmuseum.org/sites/micro/ages-of-exploration/age-exploration-caravels/",
+      "https://www.ebsco.com/products/research-starters/history/caravel"
+    ],
+    "portugalFact": {
+      "title": "The Caravel: Portugal's Maritime Game-Changer",
+      "content": "The Portuguese caravel, a small, highly maneuverable sailing ship developed in the 15th century from existing fishing boats, revolutionized maritime exploration. Its distinctive lateen (triangular) sails allowed it to sail against the wind by tacking, making long-distance voyages across the Atlantic far more feasible than with previous square-rigged ship designs. This innovative vessel was instrumental in Portugal's pioneering voyages of discovery, enabling explorers like Vasco da Gama and Bartolomeu Dias to chart new trade routes and expand global knowledge."
+    },
+    "aiSource": "Gemini",
+    "id": "1787727692741-corn-flakes",
+    "slug": "the-cere-al-killer-of-desire-the-strange-religious-origins-o",
+    "date": "2026-08-26T07:01:32.742Z",
+    "joke": {
+      "joke": "I want to die peacefully in my sleep, like my grandfather... Not screaming and yelling like the passengers in his car.",
+      "setup": "I want to die peacefully in my sleep, like my grandfather...",
+      "punchline": "Not screaming and yelling like the passengers in his car.",
+      "comedian": "Bob Monkhouse",
+      "year": "Late 20th Century",
+      "context": "This joke is renowned for its brilliant subversion of a common comforting sentiment, leading to a hilariously dark and unexpected punchline. Its concise and masterful use of misdirection makes it an enduring example of sharp comedic writing, widely cited as one of the best one-liners in history."
+    },
+    "images": [
+      "https://picsum.photos/seed/1787727692741-corn-flakes/800/500"
+    ]
+  },
+  {
     "topic": "The Stapler",
     "title": "From Royal Document Fasteners to Desktop Essential: The Surprising History of the Stapler",
     "category": "Inventions",
