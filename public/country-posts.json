@@ -2,6 +2,23 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "The Austere 'Cork Convent' of Sintra",
+      "content": "Nestled in the Sintra hills lies the Convento dos Capuchos, a 16th-century Franciscan monastery renowned for its extreme austerity and unique use of cork. Unlike lavish religious sites, this 'Cork Convent' is built directly into the rock and features tiny cells and passages extensively lined with cork, serving as both insulation and a symbol of the friars' humble existence. Even King Philip I of Portugal reportedly praised it for its profound poverty, contrasting it with the grandeur of El Escorial."
+    },
+    "culture": {
+      "title": "Bonecos de Estremoz: UNESCO-Recognized Clay Figurines",
+      "content": "From the Alentejo region, the 'Bonecos de Estremoz' are traditional clay figurines, recognized as UNESCO Intangible Cultural Heritage. These charming handcrafted figures, often depicting saints, folk characters, or daily life scenes, emerged in the 17th century when women began crafting them for their homes. Each piece is meticulously painted, reflecting a rich artistic heritage and a unique regional identity."
+    },
+    "news": {
+      "title": "Portugal and Porto Garner Top 'World Travel Awards' in 2025",
+      "content": "Portugal's tourism sector continues to thrive, with the nation being voted 'Europe's Best Destination' for 2025 at the prestigious World Travel Awards. In a significant win, the vibrant city of Porto also secured the title of 'Europe's Best City Destination' for the same year, surpassing other major European cities. These accolades underscore Portugal's growing appeal and excellence in the global travel industry."
+    },
+    "id": "1787730345308-portugal",
+    "date": "2026-08-26T07:45:45.309Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Oldest Lighthouse Doubled as a Chapel",
       "content": "One of Portugal's most fascinating historical facts lies with the Lighthouse of São Miguel-o-Anjo in Porto, completed in 1538. This isn't just one of Europe's oldest lighthouses; it uniquely originated as a chapel commissioned by D. Miguel da Silva, bishop-elect of Viseu, designed to serve simultaneously as a spiritual sanctuary and a crucial navigational aid for ships along the coast. Its dual function highlights an intriguing blend of faith and maritime innovation from the 16th century."
     },
