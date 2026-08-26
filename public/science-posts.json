@@ -1,5 +1,82 @@
 [
   {
+    "title": "Beyond the Prescription: How Common Medications Can Reshape Your Gut for Years",
+    "summary": "You know antibiotics can alter your gut, but new research reveals that many everyday medications, from heart drugs to anxiety pills, might leave a surprising, long-term legacy on the trillions of microbes living inside you.",
+    "sections": [
+      {
+        "heading": "The Unexpected Impact",
+        "content": "While it's well-known that antibiotics can disrupt our internal bacterial ecosystems, a recent study involving over 2,500 individuals unveils a much broader truth: common medications like antidepressants, acid reducers, and even heart medications can also profoundly reshape our gut microbiome."
+      },
+      {
+        "heading": "A Lasting Legacy",
+        "content": "What’s particularly striking is that these microbial shifts aren't temporary. Researchers discovered changes in gut bacteria that persisted for years after people stopped taking these medications, suggesting that our medical history could be a major factor in the unique composition of our gut microbiome today."
+      }
+    ],
+    "funFacts": [
+      "Your gut microbiome is a bustling community of trillions of bacteria, fungi, and viruses, collectively weighing as much as your brain and playing a vital role in digestion, immunity, and even mood.",
+      "Beyond antibiotics, the study highlighted drugs like beta-blockers (for heart conditions), benzodiazepines (for anxiety), and proton pump inhibitors (for acid reflux) as potential long-term gut modulators.",
+      "Understanding these lasting medication effects could pave the way for more personalized medicine, helping us predict how past drug use might influence future health and treatments."
+    ],
+    "originalTitle": "Common medications may change your gut for years",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260824065605.htm",
+    "id": "1787729440984-w91uy",
+    "date": "2026-08-26T07:30:40.984Z"
+  },
+  {
+    "title": "Precision Printing at the Nanoscale: A Waste-Free Method for Advanced Electronics",
+    "summary": "Scientists have developed an ingenious new method using reusable stencils to precisely \"print\" patterns of super-tiny carbon nanotubes, a breakthrough that promises more efficient and sustainable manufacturing for high-tech devices like advanced sensors and optics.",
+    "sections": [
+      {
+        "heading": "The Tiny Building Blocks of Tomorrow's Tech",
+        "content": "Carbon nanotubes are astonishingly strong and conductive materials, like microscopic, rolled-up sheets of chicken wire. These incredible structures hold immense potential for revolutionizing everything from computing to medical devices, but precisely arranging them into functional patterns for practical use has always been a significant challenge."
+      },
+      {
+        "heading": "Smart Stencils for Precise, Waste-Free Manufacturing",
+        "content": "This innovative technique is like using a permanent, ultra-precise cookie cutter for atomic-scale ingredients. Researchers can now employ reusable 'nano-stencils' to lay down carbon nanotubes in exact geometric patterns in one simple step, dramatically simplifying production and eliminating the material waste common in previous, more complex methods."
+      },
+      {
+        "heading": "Opening Doors for Advanced Devices",
+        "content": "Such precise patterning is vital for creating cutting-edge technologies. These patterned nanotubes are key components for next-generation optical devices, leading to advancements in displays or imaging, and are crucial for highly sensitive mechanical strain sensors that can monitor the structural health of bridges, aircraft, or even medical implants with unprecedented accuracy."
+      }
+    ],
+    "funFacts": [
+      "Carbon nanotubes are astonishingly strong, about 100 times tougher than steel yet six times lighter.",
+      "A single carbon nanotube is approximately 50,000 times thinner than a human hair.",
+      "This new patterning technique significantly reduces material waste, making future high-tech manufacturing more environmentally friendly and cost-effective."
+    ],
+    "originalTitle": "Reusable stencils create clean carbon nanotube patterns in single-stage process",
+    "originalUrl": "https://phys.org/news/2026-08-reusable-stencils-carbon-nanotube-patterns.html",
+    "id": "1787729451184-g364y",
+    "date": "2026-08-26T07:30:51.184Z"
+  },
+  {
+    "title": "Unlocking Nature's Toughest Ingredient: A New Path to Sustainable Materials",
+    "summary": "Scientists have engineered a revolutionary catalyst that efficiently converts lignin, the stubborn 'skeleton' of plants, into valuable chemicals. This discovery paves the way for transforming agricultural and forestry waste into sustainable fuels, plastics, and more, moving us closer to a truly circular economy.",
+    "sections": [
+      {
+        "heading": "The Challenge of Plant Waste",
+        "content": "Imagine trying to break down sturdy tree branches or corn stalks into their fundamental building blocks. Plants contain a tough, glue-like substance called lignin, which gives them their rigidity but is notoriously difficult to process. For decades, this abundant natural material has mostly been burned or discarded as low-value waste, rather than utilized for its chemical potential."
+      },
+      {
+        "heading": "A Precision Tool for Green Chemistry",
+        "content": "Researchers have now created a highly efficient catalyst that acts like molecular 'scissors,' precisely snipping lignin into smaller, useful chemical components. This innovative process works under surprisingly gentle conditions, significantly reducing the energy required compared to previous methods. Understanding exactly how this catalyst operates at an atomic level empowers scientists to design even more effective solutions for the future."
+      },
+      {
+        "heading": "From Trash to Treasure: Building a Circular Economy",
+        "content": "This isn't just about waste management; it's about creating new value from renewable resources. The chemicals derived from this process can serve as sustainable alternatives for materials currently made from fossil fuels, including various plastics, advanced biofuels, and other industrial products. This breakthrough offers a greener pathway to everyday goods, lessening our environmental footprint and accelerating our transition to a truly sustainable future."
+      }
+    ],
+    "funFacts": [
+      "Lignin is the second most abundant natural polymer on Earth, after cellulose, making up about 20-35% of the dry weight of wood.",
+      "Current industrial processes often produce billions of tons of lignin-rich biomass waste annually, much of which is underutilized.",
+      "The ability to break down lignin efficiently at mild temperatures means less energy consumption and a lower carbon footprint for producing new materials."
+    ],
+    "originalTitle": "Atomic catalyst unlocks the hidden value of plant waste",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260824065601.htm",
+    "id": "1787729460227-enc0m",
+    "date": "2026-08-26T07:31:00.227Z"
+  },
+  {
     "title": "Could a Common Diabetes Drug Offer a Powerful Shield Against Dementia?",
     "summary": "Imagine a widely-used medication not only managing diabetes but also offering a significant defense against cognitive decline. New research suggests that metformin, a common drug for type 2 diabetes, might dramatically lower the risk of developing dementia later in life.",
     "sections": [
