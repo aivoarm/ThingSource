@@ -1,5 +1,78 @@
 [
   {
+    "title": "NASA Pilots Chase the Moon's Shadow to Unravel the Sun's Hottest Mystery",
+    "summary": "During a rare total solar eclipse, NASA pilots embarked on an extraordinary high-altitude chase, aiming to finally crack one of the Sun's greatest puzzles: why its shimmering outer atmosphere is mysteriously millions of degrees hotter than its surface.",
+    "sections": [
+      {
+        "heading": "The Sun's Astonishing Heat Paradox",
+        "content": "Imagine holding your hand near a bonfire and feeling the heat, but then moving it further away and finding it suddenly much, much hotter. That's essentially the paradox of the Sun's corona, its ethereal outer atmosphere, which bafflingly reaches millions of degrees Celsius while the surface below hovers at a comparatively cooler 5,500 degrees."
+      },
+      {
+        "heading": "A High-Flying Observatory for Critical Data",
+        "content": "To glimpse the elusive corona without interference from Earth's atmosphere, NASA pilots flew a specialized WB-57F research jet to incredible altitudes during the total solar eclipse over Europe. This unique vantage point allowed instruments onboard to capture crucial data precisely when the Moon perfectly blocked the Sun's blinding disk, revealing its faint, superheated halo."
+      }
+    ],
+    "funFacts": [
+      "Total solar eclipses are vital for solar scientists because the Moon's perfect alignment briefly blocks the Sun's bright face, allowing the faint, superheated corona to become visible.",
+      "Flying high in a WB-57F aircraft allowed scientists to extend their observation time during the eclipse and rise above much of Earth's atmospheric distortion, capturing clearer, more consistent data.",
+      "Understanding how the corona gets so hot could unlock secrets about solar flares, space weather that affects our satellites and power grids, and even advance research into clean energy here on Earth."
+    ],
+    "originalTitle": "NASA Johnson Pilots Chase Moon’s Shadow for Eclipse Science",
+    "originalUrl": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-pilots-chase-moons-shadow-for-eclipse-science/",
+    "id": "1787815839881-t0z6e",
+    "date": "2026-08-27T07:30:39.881Z"
+  },
+  {
+    "title": "Greenland's Petermann Glacier Just Shed a Manhattan-Sized Ice Island – And More is Expected",
+    "summary": "Greenland's colossal Petermann Glacier has just dramatically calved an ice island the size of Manhattan, a striking event that underscores the accelerating changes happening to one of the Arctic's most significant ice formations.",
+    "sections": [
+      {
+        "heading": "A Glacier's Fractured Tongue",
+        "content": "Imagine a vast, floating shelf of ice that extends from a glacier into the ocean, much like a giant tongue reaching out. For years, scientists have observed deep fractures spreading through this 'ice tongue' on Greenland's Petermann Glacier, much like cracks developing in a windowpane, culminating in the recent dramatic detachment of an ice island comparable in size to Manhattan."
+      },
+      {
+        "heading": "More Breaking News on the Horizon",
+        "content": "This recent breakup is likely just the beginning, with experts anticipating that two additional colossal sections of the ice tongue could soon break away. If these projections hold true, the glacier would lose approximately 22 percent of its remaining floating ice, a significant indicator of the rapid and profound transformations reshaping our planet's polar landscapes."
+      }
+    ],
+    "funFacts": [
+      "An 'ice tongue' is a floating extension of a glacier, vulnerable to warming ocean waters that can melt it from below and destabilize it.",
+      "The Petermann Glacier is one of Greenland's largest and fastest-moving glaciers, playing a critical role in the region's ice dynamics and global sea-level potential.",
+      "While the direct calving of floating ice doesn't immediately raise sea levels, a diminished ice tongue can accelerate the flow of the glacier behind it, ultimately contributing more ice to the ocean over time."
+    ],
+    "originalTitle": "Manhattan-sized ice island breaks off Greenland’s Petermann Glacier",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260826055503.htm",
+    "id": "1787815849049-cna6t",
+    "date": "2026-08-27T07:30:49.049Z"
+  },
+  {
+    "title": "NASA's Roman Telescope: Unveiling Thousands of Alien Worlds and the Universe's Deepest Secrets",
+    "summary": "Poised for launch, NASA's Roman Space Telescope is set to revolutionize our understanding of the cosmos, promising to uncover thousands of alien worlds while simultaneously tackling the universe's most profound mysteries: dark matter and dark energy.",
+    "sections": [
+      {
+        "heading": "A New Era of Exoplanet Discovery",
+        "content": "Roman's unique wide-field vision and sophisticated techniques will allow it to detect a vast array of exoplanets, including those far from their host stars and even 'rogue' planets drifting through space. This unprecedented census will help us understand how common different types of planets are and whether our solar system is typical."
+      },
+      {
+        "heading": "Probing the Universe's Invisible Forces",
+        "content": "Beyond planets, Roman will precisely measure how the universe expands, helping scientists decode the enigmatic forces of dark matter – the invisible scaffolding holding galaxies together – and dark energy – the mysterious force accelerating the universe's expansion. Its observations will provide crucial data to test competing theories about the cosmos's ultimate fate."
+      },
+      {
+        "heading": "A Wider Eye on the Cosmos",
+        "content": "Unlike its predecessors, Roman boasts a field of view 100 times larger than Hubble's, allowing it to survey immense stretches of space quickly and efficiently. This broad perspective is essential for statistically significant studies of exoplanets and for mapping the large-scale structure of the universe, providing a clearer picture of cosmic evolution."
+      }
+    ],
+    "funFacts": [
+      "The telescope is named after Dr. Nancy Grace Roman, often called the 'Mother of Hubble,' for her pioneering work in space astronomy and role in planning the Hubble Space Telescope.",
+      "Roman's primary method for finding distant planets, gravitational microlensing, uses the gravity of foreground stars as natural magnifying glasses to detect fleeting dimming events from background stars.",
+      "By observing light from millions of distant galaxies, Roman will help create the most detailed 3D map of the universe, offering clues about how dark matter is distributed and how dark energy influences space itself."
+    ],
+    "originalTitle": "NASA’s Roman Space Telescope is ready to hunt thousands of alien worlds",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260826055448.htm",
+    "id": "1787815858891-szcs6",
+    "date": "2026-08-27T07:30:58.891Z"
+  },
+  {
     "title": "Beyond the Prescription: How Common Medications Can Reshape Your Gut for Years",
     "summary": "You know antibiotics can alter your gut, but new research reveals that many everyday medications, from heart drugs to anxiety pills, might leave a surprising, long-term legacy on the trillions of microbes living inside you.",
     "sections": [
