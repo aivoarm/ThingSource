@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Ancient \"Stonehenge\"",
+      "content": "Near Évora, visitors can explore the Cromeleque dos Almendres, often referred to as Portugal's \"Stonehenge.\" This megalithic monument is the largest on the Iberian Peninsula and among Europe's oldest, with some stones dating back 7,000 to 8,000 years, predating Stonehenge itself. It is believed to have been used for ancient ritual or astronomical purposes."
+    },
+    "culture": {
+      "title": "The Tradition of Janeiras Caroling",
+      "content": "In Portugal, January brings the charming tradition of 'Janeiras,' where groups of carolers go door-to-door, singing folk songs to celebrate the New Year. In exchange for their festive melodies, they receive treats and hospitality. This age-old custom reinforces community bonds and keeps a vibrant musical heritage alive."
+    },
+    "news": {
+      "title": "Lisbon Zoo Celebrates Arrival of New Penguin Chick",
+      "content": "The Lisbon Zoo recently announced the birth of a new Cape Penguin chick in May, which is now visible in the enclosures. This delightful arrival is part of a broader effort to protect the species, whose conservation status is expected to change to 'Critically Endangered' soon. The zoo has joined a chick bolstering project to help halt the threat of extinction.",
+      "url": "https://www.theportugalnews.com/news/lisbon-zoo-welcomes-a-new-penguin-chick/89163"
+    },
+    "id": "1787816740919-portugal",
+    "date": "2026-08-27T07:45:40.919Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "The Austere 'Cork Convent' of Sintra",
       "content": "Nestled in the Sintra hills lies the Convento dos Capuchos, a 16th-century Franciscan monastery renowned for its extreme austerity and unique use of cork. Unlike lavish religious sites, this 'Cork Convent' is built directly into the rock and features tiny cells and passages extensively lined with cork, serving as both insulation and a symbol of the friars' humble existence. Even King Philip I of Portugal reportedly praised it for its profound poverty, contrasting it with the grandeur of El Escorial."
     },
