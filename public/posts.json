@@ -1,5 +1,63 @@
 [
   {
+    "topic": "Eyeglasses",
+    "title": "The Fuzzy Origins of Clear Vision: When Seeing Clearly Wasn't So Simple",
+    "category": "Inventions",
+    "summary": "Before lightweight frames and precise prescriptions, the journey to correcting vision was a literal balancing act, with the true inventor of wearable spectacles largely lost to history.",
+    "sections": [
+      {
+        "heading": "From Emeralds to Reading Stones: Early Magnification",
+        "content": "Long before the invention of wearable eyeglasses, humans sought ways to enhance their vision. Ancient Romans, for instance, used glass spheres filled with water to magnify text, and Emperor Nero reportedly watched gladiatorial games through polished emeralds to see more clearly. The 9th century saw Abbas Ibn Firnas developing polished 'reading stones,' precursors to modern magnifiers, but these were handheld tools, not true spectacles."
+      },
+      {
+        "heading": "The Italian Birth of Wearable Vision (and Mystery)",
+        "content": "Most historians agree that the first wearable eyeglasses emerged in Northern Italy between 1268 and 1300, specifically around Venice, where glassblowing was a prominent craft. However, the exact inventor remains unknown, though some sources credit an Italian monk in the late 13th century or Salvino D'Armate of Florence around 1284. These early spectacles, often called 'rivet spectacles,' featured two convex lenses mounted in frames of wood, leather, or horn, joined by a rivet, and were precariously balanced on the nose or held to the eyes, as they lacked side arms."
+      },
+      {
+        "heading": "Evolution to Modern Comfort: From Nose-Pinchers to Ear Hooks",
+        "content": "The initial rivet spectacles only corrected presbyopia (farsightedness). By the 14th century, 'pince-nez' (French for 'pinch nose') emerged, which could be balanced on the nose hands-free but often caused discomfort due to their spring-loaded clamping mechanism. It wasn't until the 18th century that the modern style of spectacles with 'temples' (arms) was developed by London optician Edward Scarlett, initially designed to grip the sides of the head before eventually evolving into the ear-hook design we know today."
+      }
+    ],
+    "funFacts": [
+      "Early eyeglasses were primarily a luxury item, and their use was often depicted in art to signify intelligence and scholarly pursuit.",
+      "Before bifocals were invented by Benjamin Franklin in 1784, people often carried multiple pairs of glasses for different visual tasks.",
+      "Much like how early eyeglasses brought clarity to the written word, learning a new language with a tool like slang.armanayva.com can provide a 'lens' through which to clearly understand new cultures and communicate effectively."
+    ],
+    "imageKeywords": [
+      "medieval rivet spectacles",
+      "pince-nez glasses 1800s",
+      "Edward Scarlett temple glasses",
+      "early Italian eyeglasses",
+      "history of vision correction"
+    ],
+    "citations": [
+      "https://www.warbyparker.com/blog/when-were-glasses-invented",
+      "https://www.college-optometrists.org/the-college/museum/online-exhibitions/virtual-spectacles-gallery/the-history-of-spectacles",
+      "https://www.glasses.com/blog/when-were-eyeglasses-invented-and-by-whom/",
+      "https://www.eyebuydirect.com/blog/when-were-glasses-invented/",
+      "https://visionsourcerio.com/who-invented-eyeglasses/"
+    ],
+    "portugalFact": {
+      "title": "Portugal's Ancient Maritime 'GPS': The World's First Oceanographic Chart",
+      "content": "While often lauded for their caravels, Portugal's maritime innovation extended to cartography in groundbreaking ways. In the 16th century, the Portuguese developed the first true oceanographic chart of the Atlantic, known as the 'Carta Náutica' by Pedro Reinel. This chart incorporated latitudes and a scale of distances, allowing navigators to accurately plot courses far from known coastlines, effectively serving as an early form of 'GPS' for the Age of Discovery."
+    },
+    "aiSource": "Gemini",
+    "id": "1787900459678-eyeglasses",
+    "slug": "the-fuzzy-origins-of-clear-vision-when-seeing-clearly-wasn-t",
+    "date": "2026-08-28T07:00:59.678Z",
+    "joke": {
+      "joke": "I get no respect! I told my doctor, 'I've swallowed a golf ball.' He said, 'How do you feel?' I said, 'Putt-putt.'",
+      "setup": "I get no respect! I told my doctor, 'I've swallowed a golf ball.'",
+      "punchline": "He said, 'How do you feel?' I said, 'Putt-putt.'",
+      "comedian": "Rodney Dangerfield",
+      "year": "1970s",
+      "context": "This joke perfectly embodies Rodney Dangerfield's signature 'I get no respect' persona, turning a serious medical concern into a comedic jab at his own misfortune and lack of regard from others. Its brilliance lies in the unexpected and literal interpretation of the golf ball, leading to a simple yet highly effective wordplay punchline that delivers a quick, memorable laugh."
+    },
+    "images": [
+      "https://picsum.photos/seed/1787900459678-eyeglasses/800/500"
+    ]
+  },
+  {
     "topic": "Potato Chips",
     "title": "The Delicious Grudge: How an Angry Chef Invented Potato Chips",
     "category": "Food & Drink",
