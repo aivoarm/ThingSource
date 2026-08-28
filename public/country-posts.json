@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal: A Pioneer in Abolishing Slavery",
+      "content": "In a significant humanitarian stride, Portugal became the first European country to abolish slavery in its mainland territory and all its overseas possessions in 1761. This pioneering act predated many other nations by decades, showcasing an early commitment to human rights on a global scale."
+    },
+    "culture": {
+      "title": "Alheira de Mirandela: A Sausage with a Secret History",
+      "content": "Discover the intriguing story behind Alheira de Mirandela, a unique Portuguese sausage. Created by the Jewish community in Mirandela during the Inquisition, it was designed to resemble traditional chorizo but was filled with bread, poultry, and game meats instead of pork, allowing them to outwardly conform while adhering to their dietary laws."
+    },
+    "news": {
+      "title": "Porto Introduces Free Public Transport for Residents",
+      "content": "In a forward-thinking move to reduce congestion and promote sustainable travel, Porto, Portugal's second-largest city, has implemented free public transport for all its residents. The scheme, which began recently, covers buses, trains, and trams, encouraging citizens to leave their cars at home.",
+      "url": "https://www.euronews.com/green/2026/08/28/augusts-positive-climate-news-new-solar-records-and-portos-free-public-transport"
+    },
+    "id": "1787903139185-portugal",
+    "date": "2026-08-28T07:45:39.185Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Ancient \"Stonehenge\"",
       "content": "Near Évora, visitors can explore the Cromeleque dos Almendres, often referred to as Portugal's \"Stonehenge.\" This megalithic monument is the largest on the Iberian Peninsula and among Europe's oldest, with some stones dating back 7,000 to 8,000 years, predating Stonehenge itself. It is believed to have been used for ancient ritual or astronomical purposes."
     },
