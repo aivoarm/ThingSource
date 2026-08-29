@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Schist Villages (Aldeias de Xisto)",
+      "content": "Hidden in the central mountains of Portugal are the Aldeias de Xisto, a network of 27 charming villages built almost entirely from schist, a local dark slate stone. These unique villages, with their thick walls and slate roofs, offer a glimpse into a traditional way of life that has been preserved and revitalized after many were abandoned in the 20th century."
+    },
+    "culture": {
+      "title": "Cante Alentejano: Portugal's UNESCO-Recognized Polyphonic Singing",
+      "content": "Cante Alentejano is a distinctive form of traditional two-part singing from the Alentejo region of southern Portugal, performed by amateur choral groups entirely without instrumental accompaniment. Recognized by UNESCO as Intangible Cultural Heritage of Humanity in 2014, this vocal tradition often features poignant lyrics about rural life, love, and community, fostering social cohesion across generations."
+    },
+    "news": {
+      "title": "Portugal Secures €16.3 Billion in EU Grants for Post-Pandemic Recovery",
+      "content": "Portugal has successfully completed all 44 reforms mandated by Brussels under its post-pandemic recovery plan, thereby qualifying for the full €16.3 billion in EU grants. This significant achievement will fund over 100 investment projects across vital sectors such as housing, healthcare, education, and digital transformation, marking a major step in the country's economic resilience and growth."
+    },
+    "url": "https://www.reuters.com/business/portugal-locks-163-billion-eu-grants-under-post-pandemic-plan-2026-08-28/",
+    "id": "1787989535908-portugal",
+    "date": "2026-08-29T07:45:35.908Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal: A Pioneer in Abolishing Slavery",
       "content": "In a significant humanitarian stride, Portugal became the first European country to abolish slavery in its mainland territory and all its overseas possessions in 1761. This pioneering act predated many other nations by decades, showcasing an early commitment to human rights on a global scale."
     },
