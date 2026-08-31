@@ -1,5 +1,52 @@
 [
   {
+    "title": "NASA's New Deep Space Antenna: A Clearer Conversation with the Cosmos",
+    "summary": "NASA is powering up a monumental new antenna at its Goldstone complex, significantly upgrading our ability to communicate with distant spacecraft. This immense 'ear' will ensure clearer, faster data transmission from missions exploring the farthest reaches of our solar system for decades to come.",
+    "sections": [
+      {
+        "heading": "Upgrading Our Galactic 'Wi-Fi'",
+        "content": "Standing 114 feet tall, the recently completed Deep Space Station 23 (DSS-23) at NASA's Goldstone complex in California is no ordinary dish. It's a crucial new component of the Deep Space Network (DSN), NASA’s global array of giant antennas that serves as the primary communication link for nearly all its interplanetary missions."
+      },
+      {
+        "heading": "A Wider, Clearer Path for Cosmic Data",
+        "content": "This advanced 'multifrequency beam-waveguide' antenna acts like a major upgrade from a narrow dirt road to a multi-lane superhighway for cosmic signals. It allows NASA to send and receive more data, faster and more reliably, from spacecraft billions of miles away, enabling more complex missions and higher-resolution images and science from the likes of Mars rovers or Voyager probes."
+      }
+    ],
+    "funFacts": [
+      "The Deep Space Network isn't just one dish; it's a global triumvirate of complexes located approximately 120 degrees apart around the world, ensuring continuous communication with spacecraft as Earth rotates.",
+      "Signals from NASA's farthest spacecraft, like the Voyagers, take over 22 hours to travel billions of miles to reach Earth, even at the speed of light.",
+      "These massive antennas can detect incredibly faint signals—less than a billionth of a billionth of a watt—equivalent to the power of a firefly's glow observed from the Moon."
+    ],
+    "originalTitle": "NASA Deep Space Network’s New Goldstone Antenna Goes Online",
+    "originalUrl": "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online/",
+    "id": "1788161440921-8ohup",
+    "date": "2026-08-31T07:30:40.921Z"
+  },
+  {
+    "title": "Roman Space Telescope: Unveiling the Universe's Deepest Secrets",
+    "summary": "NASA's upcoming Roman Space Telescope, launching in 2026, is poised to dramatically expand our view of the cosmos, offering unprecedented insights into dark energy, dark matter, and the vast population of exoplanets beyond our solar system.",
+    "sections": [
+      {
+        "heading": "A Wide-Angle View of the Universe",
+        "content": "The Roman Space Telescope, set for launch in August 2026, is NASA's next flagship observatory, designed to explore the universe with a field of view 100 times larger than the Hubble Space Telescope. Operating in infrared light, it will scan enormous swathes of the cosmos, providing a panoramic perspective of galaxies, stars, and hidden phenomena. This broad vision allows it to conduct comprehensive surveys that are impossible with narrower-field instruments, revealing cosmic structures on a grand scale."
+      },
+      {
+        "heading": "Illuminating the Dark and Discovering New Worlds",
+        "content": "Roman's primary missions include tackling the enigmas of dark energy and dark matter, which together make up 95% of the universe but remain invisible. By precisely measuring the expansion history of the universe through distant supernovae and observing the subtle distortions of light from galaxies (known as weak gravitational lensing), Roman will help scientists map these mysterious cosmic components. Additionally, it will discover thousands of new exoplanets, including Earth-like worlds, and even attempt to directly image planets around other stars using advanced coronagraph technology, offering crucial clues about alien atmospheres."
+      }
+    ],
+    "funFacts": [
+      "The telescope is named after Nancy Grace Roman, NASA's first chief astronomer and a driving force behind the Hubble Space Telescope, earning her the nickname 'Mother of Hubble.'",
+      "Roman's vast field of view is like upgrading from a peephole to a panoramic window when observing the cosmos, allowing for large-scale cosmic mapping.",
+      "It carries a powerful coronagraph instrument designed to block the overwhelming light from stars, making it possible to directly detect and study faint exoplanets orbiting them.",
+      "Scientists anticipate Roman will discover over 2,500 new exoplanets, significantly expanding our understanding of planetary diversity across the galaxy."
+    ],
+    "originalTitle": "APOD: 2026 August 31 – Launch of the Roman Space Telescope",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-august-31-launch-of-the-roman-space-telescope/",
+    "id": "1788161452632-rcixv",
+    "date": "2026-08-31T07:30:52.632Z"
+  },
+  {
     "title": "Man's Best Friend: Unlocking the Secrets of Human Longevity Through Our Dogs",
     "summary": "Our furry friends might just hold the secret to a longer, healthier human life. New research reveals surprising parallels between aging patterns in dogs and humans, suggesting dogs could be crucial guides in our quest for longevity.",
     "sections": [
