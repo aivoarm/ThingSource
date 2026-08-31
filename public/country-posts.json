@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "The Enigmatic Initiation Wells of Sintra",
+      "content": "Within the mysterious Quinta da Regaleira estate in Sintra lie the Initiation Wells, a pair of inverted towers extending deep underground. Contrary to their name, these wells were never intended to hold water; instead, it is believed they were used for secret initiation rituals, possibly by the Knights Templar, adding to the mystical allure of this UNESCO World Heritage site."
+    },
+    "culture": {
+      "title": "Azulejos: Portugal's Artistic Ceramic Tiles",
+      "content": "A defining feature of Portuguese culture is the ubiquitous presence of Azulejos, vibrant ceramic tiles that adorn everything from church facades and historic buildings to street art and park benches. These intricately hand-painted tiles are more than just decoration; they tell stories of Portugal's rich history, cultural narratives, and daily life, showcasing generations of meticulous craftsmanship."
+    },
+    "news": {
+      "title": "New Technology Centre to Boost Innovation in Santarém",
+      "content": "Portugal is set to establish a new technology and innovation centre in Santarém, with its public presentation scheduled for the upcoming Web Summit in Lisbon. This initiative aims to revitalize the city's historic center by attracting businesses and people, fostering innovation, and creating new cultural and museological projects.",
+      "url": "https://www.theportugalnews.com/news/2026-08-30/portugal-to-have-a-new-technology-centre/85375"
+    },
+    "id": "1788162338048-portugal",
+    "date": "2026-08-31T07:45:38.048Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Schist Villages (Aldeias de Xisto)",
       "content": "Hidden in the central mountains of Portugal are the Aldeias de Xisto, a network of 27 charming villages built almost entirely from schist, a local dark slate stone. These unique villages, with their thick walls and slate roofs, offer a glimpse into a traditional way of life that has been preserved and revitalized after many were abandoned in the 20th century."
     },
