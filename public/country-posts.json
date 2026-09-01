@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Europe's Oldest Defined Borders",
+      "content": "Portugal holds the distinction of being the oldest country in Europe with continuously defined borders. Its modern continental boundaries were largely established in 1297 with the Treaty of Alcañices, making it a geopolitical anomaly with a remarkable history of territorial stability over centuries. This enduring demarcation reflects a unique national identity forged early in its formation."
+    },
+    "culture": {
+      "title": "Cozido das Furnas: Volcanic Cooking in the Azores",
+      "content": "A truly unique culinary experience in Portugal is the \"Cozido das Furnas,\" a traditional stew from the Azores island of São Miguel. This hearty dish, typically featuring various meats and vegetables, is slow-cooked for hours using volcanic steam. Pots of ingredients are buried in the hot earth near the Furnas lake, harnessing geothermal heat to create a distinctively tender and flavorful meal."
+    },
+    "news": {
+      "title": "Algarve Tourism Achieves New Domestic Records in July 2026",
+      "content": "Portugal's Algarve region has achieved a new milestone in domestic tourism, with July 2026 seeing record numbers of Portuguese guests and overnight stays. Data from the National Institute of Statistics (INE) shows a 4.4% increase in resident guests and a 3.9% rise in their overnight stays, surpassing previous records from 2025. This strong performance highlights the region's appeal to national visitors and its continued growth in value, reaching over one billion euros in revenue for the first time up to July.",
+      "url": "https://www.sulinformacao.pt/2026/08/portugueses-voltaram-a-escolher-o-algarve-para-as-ferias-de-verao/"
+    },
+    "id": "1788248745128-portugal",
+    "date": "2026-09-01T07:45:45.128Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "The Enigmatic Initiation Wells of Sintra",
       "content": "Within the mysterious Quinta da Regaleira estate in Sintra lie the Initiation Wells, a pair of inverted towers extending deep underground. Contrary to their name, these wells were never intended to hold water; instead, it is believed they were used for secret initiation rituals, possibly by the Knights Templar, adding to the mystical allure of this UNESCO World Heritage site."
     },
