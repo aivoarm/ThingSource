@@ -2,6 +2,24 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "The Ancient Muge Shell Middens and a Surprising Burial",
+      "content": "Northeast of Lisbon, in the lower Tagus River valley, lie the Muge Shell Middens, a significant Mesolithic archaeological complex dating back 8,000 years. These middens, first identified in 1863, contain numerous human remains of early hunter-gatherers, offering a unique glimpse into prehistoric life. Intriguingly, one discovery at the Amoreira site revealed the burial of an African man just 350 years ago, highlighting an unusual practice of later populations utilizing these ancient burial grounds."
+    },
+    "culture": {
+      "title": "Festa dos Tabuleiros: Tomar's Grand Festival of Trays",
+      "content": "Every four years, the city of Tomar erupts in vibrant celebration for the Festa dos Tabuleiros (Festival of the Trays), a breathtaking event rooted in medieval traditions honoring the Holy Spirit. Young women, dressed in white, parade through the elaborately decorated streets, balancing towering 'tabuleiros' (trays) on their heads, each adorned with 30 loaves of bread, colorful paper flowers, and wheat sheaves. The festival transforms the historic Templar city with millions of paper flowers adorning streets and balconies, culminating in a grand procession that draws visitors from around the globe."
+    },
+    "news": {
+      "title": "NYC First Lady to Visit Portugal for Islamic Cultural Heritage Retreat",
+      "content": "New York City's First Lady, Rama Duwaji, is scheduled to visit northern Portugal this September to participate as an artist-in-residence in a women's retreat focused on Islamic calligraphy and art. This event aims to illuminate the often-understated history of Islamic influence in Portugal's architecture, language, and culture, particularly in regions traditionally less associated with this heritage. Her visit is expected to bring international attention to Portugal's rich and diverse cultural tapestry.",
+      "url": "https://www.theportugalnews.com/news/2026-09-01/new-york-citys-first-lady-heading-to-portugal/107412"
+    },
+    "id": "1788335141166-portugal",
+    "date": "2026-09-02T07:45:41.166Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Europe's Oldest Defined Borders",
       "content": "Portugal holds the distinction of being the oldest country in Europe with continuously defined borders. Its modern continental boundaries were largely established in 1297 with the Treaty of Alcañices, making it a geopolitical anomaly with a remarkable history of territorial stability over centuries. This enduring demarcation reflects a unique national identity forged early in its formation."
     },
