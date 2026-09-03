@@ -29,6 +29,8 @@
 
   <!-- Local Stylesheet -->
   <link rel="stylesheet" href="styles.css">
+  <!-- Cloudflare Turnstile CAPTCHA -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <!-- Marked.js for rendering markdown sections -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <!-- Image defaults and selectors -->
@@ -143,6 +145,8 @@
             </div>
           </div>
           
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAAElXHUV1P7qCVpI7" data-theme="light" style="display: flex; justify-content: center; margin: 0.25rem 0;"></div>
+
           <button type="submit" class="subscribe-btn" style="width: 100%;">Subscribe</button>
         </form>
       </div>
