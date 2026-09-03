@@ -453,6 +453,15 @@ exports.handler = async (event) => {
       return { statusCode: 200, body: JSON.stringify({ message: "No subscribers" }) };
     }
 
+    const todayStr = new Date().toISOString().split("T")[0];
+    const dispatchKey = `dispatch_log_${todayStr}_${postData.id}`;
+    const alreadyDispatched = await store.get(dispatchKey).catch(() => null);
+
+    if (alreadyDispatched && !postData.forceSend) {
+      log(`Post "${postData.title}" (${postData.id}) was already emailed today (${todayStr}). Skipping duplicate batch send to save Resend quota.`);
+      return { statusCode: 200, body: JSON.stringify({ message: "Post already emailed today. Quota saved." }) };
+    }
+
     const resend = new Resend(process.env.RESEND_API_KEY);
     const siteUrl = "https://ts.armanayva.com";
     const sentEmails = new Set();
@@ -473,6 +482,17 @@ exports.handler = async (event) => {
               log(`Skipping duplicate email for recipient: ${subscriberData.email}`);
               return;
             }
+
+            const prefs = subscriberData.preferences || { thingsource: true };
+            const hasThingsource = prefs.thingsource !== false;
+            const hasScience = prefs.science === true && scienceArticles && scienceArticles.length > 0;
+            const hasCountries = prefs.countries && Array.isArray(prefs.countries) && prefs.countries.length > 0 && countryPosts && countryPosts.length > 0;
+
+            if (!hasThingsource && !hasScience && !hasCountries) {
+              log(`Skipping ${subscriberData.email} (all preferred categories disabled for this post)`);
+              return;
+            }
+
             sentEmails.add(normalizedEmail);
 
             log(`Sending email to ${subscriberData.email}`);
@@ -501,8 +521,14 @@ exports.handler = async (event) => {
       );
     }
 
-    log(`Emailed ${blobs.length} subscribers.`);
-    return { statusCode: 200, body: JSON.stringify({ message: "Emails sent successfully" }) };
+    // Save dispatch record to prevent accidental duplicate sends today
+    await store.set(dispatchKey, JSON.stringify({
+      dispatchedAt: new Date().toISOString(),
+      sentCount: sentEmails.size
+    })).catch(err => log(`Warning: Failed to save dispatch key: ${err.message}`));
+
+    log(`Emailed ${sentEmails.size} unique subscribers.`);
+    return { statusCode: 200, body: JSON.stringify({ message: "Emails sent successfully", count: sentEmails.size }) };
   } catch (error) {
     log(`FATAL ERROR in send-emails function: ${error.message}`);
     return { statusCode: 500, body: JSON.stringify({ error: error.message }) };
