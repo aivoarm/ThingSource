@@ -42,6 +42,8 @@ async function main() {
     return;
   }
 
+  const processedEmails = new Set();
+
   for (const blob of blobs) {
     try {
       const raw = await subscribersStore.get(blob.key);
@@ -57,8 +59,20 @@ async function main() {
         continue;
       }
 
+      const normalizedEmail = email.toLowerCase().trim();
+
+      if (processedEmails.has(normalizedEmail)) {
+        console.log(`Skipping duplicate subscriber entry: ${email}`);
+        if (!dryRun) {
+          // Clean up duplicate blob entry
+          await subscribersStore.delete(blob.key);
+        }
+        continue;
+      }
+      processedEmails.add(normalizedEmail);
+
       const skipList = ["aayvazy@gmail.com"];
-      if (skipList.includes(email.toLowerCase().trim())) {
+      if (skipList.includes(normalizedEmail)) {
         console.log(`Skipping: ${email} (already confirmed/in skip list)`);
         console.log("---");
         continue;

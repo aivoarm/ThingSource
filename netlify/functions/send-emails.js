@@ -455,6 +455,7 @@ exports.handler = async (event) => {
 
     const resend = new Resend(process.env.RESEND_API_KEY);
     const siteUrl = "https://ts.armanayva.com";
+    const sentEmails = new Set();
 
     // Send in batches of 100 (Resend free tier limit is 100/day)
     const batchSize = 100;
@@ -466,6 +467,13 @@ exports.handler = async (event) => {
             const raw = await store.get(blob.key);
             const subscriberData = JSON.parse(raw || "{}");
             if (!subscriberData.email) return;
+
+            const normalizedEmail = subscriberData.email.toLowerCase().trim();
+            if (sentEmails.has(normalizedEmail)) {
+              log(`Skipping duplicate email for recipient: ${subscriberData.email}`);
+              return;
+            }
+            sentEmails.add(normalizedEmail);
 
             log(`Sending email to ${subscriberData.email}`);
             const unsubUrl = `${siteUrl}/.netlify/functions/unsubscribe?token=${subscriberData.token}`;

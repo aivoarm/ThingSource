@@ -74,21 +74,42 @@ exports.handler = async (event, context) => {
       };
     }
 
-    // Generate confirmation token
-    const token = crypto.randomBytes(32).toString("hex");
-
-    // Save to pending_subscribers store using token as the key for fast O(1) retrieval
+    // Save to pending_subscribers store
     const pendingStore = getStore({
       name: "pending_subscribers",
       siteID: process.env.NETLIFY_SITE_ID,
       token: process.env.NETLIFY_TOKEN,
     });
 
-    await pendingStore.set(token, JSON.stringify({
+    const pendingEmailKey = "pending_email:" + email.toLowerCase();
+    const existingPendingRaw = await pendingStore.get(pendingEmailKey).catch(() => null);
+
+    if (existingPendingRaw) {
+      try {
+        const existingPending = JSON.parse(existingPendingRaw);
+        const elapsedMs = Date.now() - new Date(existingPending.createdAt).getTime();
+        // If confirmation email was sent within the last 5 minutes, prevent duplicate email blast
+        if (elapsedMs < 5 * 60 * 1000) {
+          return {
+            statusCode: 200,
+            headers,
+            body: JSON.stringify({ message: "A confirmation email was already sent recently. Please check your inbox or spam folder." })
+          };
+        }
+      } catch (e) {}
+    }
+
+    // Generate confirmation token
+    const token = crypto.randomBytes(32).toString("hex");
+    const pendingPayload = JSON.stringify({
       email,
       preferences,
       createdAt: new Date().toISOString()
-    }));
+    });
+
+    // Save token-to-payload mapping (for O(1) confirm lookup) and pending_email-to-payload mapping (for deduplication)
+    await pendingStore.set(token, pendingPayload);
+    await pendingStore.set(pendingEmailKey, pendingPayload);
 
     // Send confirmation email via Resend
     if (process.env.RESEND_API_KEY) {
