@@ -120,11 +120,14 @@ async function handleSubscribe(e) {
     countries: countries
   };
   
+  const b_hp_field = document.getElementById('b_hp_field')?.value || '';
+  const turnstileToken = document.querySelector('[name="cf-turnstile-response"]')?.value || '';
+
   try {
     const res = await fetch('/.netlify/functions/subscribe', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, preferences })
+      body: JSON.stringify({ email, preferences, b_hp_field, turnstileToken })
     });
     
     const data = await res.json();

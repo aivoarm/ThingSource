@@ -50,6 +50,48 @@ exports.handler = async (event, context) => {
       };
     }
 
+    // 1. Honeypot Bot Trap: If hidden bot field is filled, silently pretend success
+    if (body.b_hp_field || body.website_url) {
+      return {
+        statusCode: 200,
+        headers,
+        body: JSON.stringify({ message: "Please check your inbox to confirm your subscription." })
+      };
+    }
+
+    // 2. Cloudflare Turnstile CAPTCHA Verification (if secret key configured)
+    if (process.env.TURNSTILE_SECRET_KEY) {
+      const turnstileToken = body.turnstileToken || body["cf-turnstile-response"];
+      if (!turnstileToken) {
+        return {
+          statusCode: 400,
+          headers,
+          body: JSON.stringify({ error: "CAPTCHA verification failed. Please complete the CAPTCHA." })
+        };
+      }
+
+      try {
+        const verifyRes = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({
+            secret: process.env.TURNSTILE_SECRET_KEY,
+            response: turnstileToken
+          })
+        });
+        const verifyData = await verifyRes.json();
+        if (!verifyData.success) {
+          return {
+            statusCode: 400,
+            headers,
+            body: JSON.stringify({ error: "CAPTCHA validation failed. Please try again." })
+          };
+        }
+      } catch (captchaErr) {
+        console.error("Turnstile verification error:", captchaErr);
+      }
+    }
+
     // Capture subscriber preferences
     const preferences = body.preferences || {
       thingsource: true,
