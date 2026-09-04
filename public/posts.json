@@ -1,5 +1,57 @@
 [
   {
+    "topic": "Band-Aid",
+    "title": "A Husband's DIY Solution for a Clumsy Wife: The Unexpected Origin of the Band-Aid",
+    "category": "Inventions",
+    "summary": "Before pre-packaged adhesive bandages, treating a minor cut was a cumbersome affair. The ubiquitous Band-Aid owes its existence to a loving husband's desire to simplify wound care for his accident-prone wife.",
+    "sections": [
+      {
+        "heading": "An Everyday Problem Solved with Ingenuity",
+        "content": "In 1920, Earle Dickson, a cotton buyer for Johnson & Johnson, noticed his newlywed wife, Josephine, frequently suffered small cuts and burns while cooking. Each time, he had to cut pieces of surgical tape and gauze to fashion a bandage, which was difficult for her to apply herself. Dickson sought a more practical solution, combining the company's existing products: adhesive tape and sterile gauze, to create a ready-to-use dressing."
+      },
+      {
+        "heading": "From Handmade Prototype to Global Staple",
+        "content": "Dickson's ingenious prototype involved placing small squares of cotton gauze at intervals along a strip of surgical tape, then covering it with crinoline to prevent sticking. Josephine could then easily cut off a section and apply it herself. Johnson & Johnson recognized the potential, and the first commercial Band-Aids, initially sold as 18-inch-long strips that users cut to size, hit the market in 1921. Though initial sales were slow, reaching only $3,000 in the first year, widespread distribution, including free samples to Boy Scout troops, led to its eventual global success."
+      }
+    ],
+    "funFacts": [
+      "Earle Dickson was eventually promoted to Vice President at Johnson & Johnson, remaining on the board until his death in 1961, a testament to the impact of his simple invention.",
+      "The famous 'I am stuck on BAND-AID Brand 'cuz BAND-AID's stuck on me' jingle, an iconic part of American culture, was composed by Barry Manilow in 1975.",
+      "Just as Earle Dickson found an elegant solution to a recurring problem, learning new languages with an app like slang.armanayva.com can simplify the complex task of acquiring new vocabulary, making language learning stick just like a good Band-Aid on a wound."
+    ],
+    "imageKeywords": [
+      "Earle Dickson Josephine Knight Dickson",
+      "vintage Band-Aid packaging",
+      "1920s adhesive bandage"
+    ],
+    "citations": [
+      "https://www.google.com/search?q=time+in+Portugal",
+      "https://en.wikipedia.org/wiki/Band-Aid",
+      "https://www.invent.org/inductees/earle-dickson",
+      "https://lemelson.mit.edu/resources/earle-dickson",
+      "https://www.google.com/search?q=History+-+Cal%C3%A7ada+Portuguesa"
+    ],
+    "portugalFact": {
+      "title": "The Rhino's Royal Road: Paving the Way for Lisbon's Cobblestones",
+      "content": "While the distinctive patterned Portuguese pavement, or 'calçada portuguesa,' gained prominence in the 19th century, earlier records suggest a surprising catalyst for Lisbon's first cobbled streets. In 1515, King Manuel I received a white rhinoceros named Ganga as a birthday gift. To ensure the elaborate royal procession for the rhino didn't get mired in winter mud, parts of Lisbon were specially paved with granite. Although this early paving was later lost, it set a precedent for the city's future embrace of decorative stone streets."
+    },
+    "aiSource": "Gemini",
+    "id": "1788485217504-band-aid",
+    "slug": "a-husband-s-diy-solution-for-a-clumsy-wife-the-unexpected-or",
+    "date": "2026-09-04T01:26:57.504Z",
+    "joke": {
+      "joke": "I bought some instant water. Just add water.",
+      "setup": "I bought some instant water.",
+      "punchline": "Just add water.",
+      "comedian": "Steven Wright",
+      "year": "1980s",
+      "context": "This joke is a quintessential example of Steven Wright's deadpan and surreal humor, which consistently subverts expectations with its brilliant absurdity. It is widely considered one of his most famous and iconic one-liners, showcasing his unique ability to evoke laughter through simple, illogical premises."
+    },
+    "images": [
+      "https://picsum.photos/seed/1788485217504-band-aid/800/500"
+    ]
+  },
+  {
     "topic": "Velcro",
     "title": "The Sticky Secret: How Burrs and a Dog's Fur Led to Velcro",
     "category": "Inventions",
