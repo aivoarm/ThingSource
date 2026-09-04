@@ -1,5 +1,58 @@
 [
   {
+    "country": "Spain",
+    "fact": {
+      "title": "The World's Largest Crystal Cave",
+      "content": "In an abandoned silver mine in Pulpi, Almeria Province, lies the world's largest geode. This natural crystal phenomenon, eight meters wide, two meters high, and two meters deep, has astonished scientists with its immense size."
+    },
+    "culture": {
+      "title": "Castells: The Daring Human Towers of Catalonia",
+      "content": "Originating from a Valencian dance over 200 years ago, Castells are human towers built by amateur groups in Catalonia and the Balearic Islands. Participants stand on each other's shoulders, sometimes reaching ten layers high, with children forming the uppermost sections, symbolizing strength, balance, and courage."
+    },
+    "news": {
+      "title": "Spain Celebrates August 2026 Total Solar Eclipse",
+      "content": "Northern Spain was in the path of totality for the August 2026 total solar eclipse, turning into a six-day celebration of astronomy, wine, and Spanish culture. Smithsonian Journeys travelers gathered at wineries in regions like León and Ribera del Duero to witness the spectacular celestial event, culminating in almost two minutes of totality.",
+      "url": "https://www.smithsonianmag.com/travel/total-eclipse-of-the-sun-a-photo-gallery-of-the-august-2026-eclipse-over-spain-180984856/"
+    },
+    "id": "1788507940864-spain",
+    "date": "2026-09-04T07:45:40.865Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "Naples' Hidden Underground World",
+      "content": "Beneath the bustling streets of Naples lies a fascinating, lesser-known subterranean city, a labyrinth of tunnels, catacombs, and ancient structures carved out over millennia. This hidden world served various purposes throughout history, from Greek aqueducts and Roman markets to air-raid shelters during World War II, offering a unique glimpse into the city's layered past."
+    },
+    "culture": {
+      "title": "La Passeggiata: The Quintessential Italian Evening Stroll",
+      "content": "A beloved and widespread Italian custom, 'La Passeggiata' is the traditional evening stroll, where locals, dressed in their finest, take to the streets and piazzas to walk, socialize, and see and be seen. This leisurely ritual, typically occurring between 5 PM and 8 PM, is a vital part of Italian social life, fostering community connection and offering a moment to unwind before dinner."
+    },
+    "news": {
+      "title": "World's First Central Retina Transplant Performed in Italy",
+      "content": "In a groundbreaking medical achievement, surgeons at Molinette Hospital in Turin, Italy, successfully performed the world's first central retina (macula) transplant in July 2026. The pioneering six-hour operation restored sight to Elena, a 67-year-old woman who had been blind for five years following a road accident, by transplanting healthy tissue from one of her damaged eyes to the other.",
+      "url": "https://www.brusselstimes.com/891632/blind-woman-sees-again-thanks-to-worlds-first-successful-macula-transplant"
+    },
+    "id": "1788507960076-italy",
+    "date": "2026-09-04T07:46:00.076Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "The Mysterious Underwater Ruins of Yonaguni",
+      "content": "Off the coast of Yonaguni Island, Japan's westernmost point, lies a massive submerged rock formation known as the Yonaguni Monument. This enigmatic structure, discovered in 1986, features sharp angles, stepped terraces, and enormous stone planes, prompting a long-standing debate among scientists and archaeologists. Some believe it to be a natural geological phenomenon, while others contend it is the remnants of an ancient man-made city, possibly dating back over 5,000 years, making it a fascinating and lesser-known historical and geographical mystery."
+    },
+    "culture": {
+      "title": "Daruma Dolls: Symbols of Perseverance",
+      "content": "The iconic Daruma doll is a traditional Japanese good luck charm, originating from Bodhidharma, the Buddhist monk credited with bringing Zen Buddhism to China. These limbless, rounded figures symbolize perseverance and resilience, famously embodying the Japanese proverb \"Nanakorobi yaoki,\" meaning \"Fall down seven times, get up eight.\" Often purchased with blank eyes, one eye is painted when a goal is set, and the second upon its achievement, serving as a powerful reminder of one's aspirations."
+    },
+    "news": {
+      "title": "Japan Boosts Resilience Through Green Materials Innovation",
+      "content": "Japan is making significant strides in building resilience through innovation in its green materials sector, with the market already valued at $1.8 billion and projected to reach $4.8 billion by 2034. This growth is driven by advancements such as carbon-sequestering concrete and photovoltaic glass, enabling buildings to generate renewable energy. Policy support, including mandatory energy-efficiency standards for new residential buildings since April 2025, is accelerating this transition towards a more sustainable built environment."
+    },
+    "id": "1788507979238-japan",
+    "date": "2026-09-04T07:46:19.238Z"
+  },
+  {
     "country": "Portugal",
     "fact": {
       "title": "The Ancient Muge Shell Middens and a Surprising Burial",
