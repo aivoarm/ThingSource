@@ -1,5 +1,77 @@
 [
   {
+    "country": "Portugal",
+    "fact": {
+      "title": "Monsanto: The 'Most Portuguese Village' Built Among Boulders",
+      "content": "Nestled high in central Portugal, Monsanto holds the distinction of being named the 'most Portuguese village in Portugal' in 1938, a title that hints at its truly unique character. Here, houses are ingeniously squeezed between enormous granite boulders, with some even using the colossal rocks as roofs. This ancient village presents a geological marvel, where staircases are carved directly into the rock and every path feels like a journey through a living, stony fable."
+    },
+    "culture": {
+      "title": "Bolo Rei: Portugal's Festive King's Cake for Epiphany",
+      "content": "A beloved Portuguese tradition, especially during Epiphany (Dia de Reis) on January 6th, centers around the festive 'Bolo Rei' or King's Cake. This round, fruit-filled cake traditionally contains a small trinket and a fava bean. The person who discovers the trinket is crowned 'king' or 'queen' for the day, while the one who finds the bean is tasked with purchasing next year's cake."
+    },
+    "news": {
+      "title": "Viseu Introduces Free Public Transport for Residents",
+      "content": "As of September 1, 2026, the municipality of Viseu in central Portugal has launched a program allowing residents aged 24 or older to travel for free on public transport within the city limits. This initiative aims to encourage the use of public transportation, promote environmental sustainability, and ease financial burdens on families. Viseu's mayor highlighted this as a strategic investment to enhance quality of life and local mobility in the growing region.",
+      "url": "https://www.theportugalnews.com/news/2026-09-01/another-portuguese-city-adopts-free-public-transport/95744"
+    },
+    "id": "1788594327379-portugal",
+    "date": "2026-09-05T07:45:27.379Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "Spain's Unique Time Zone Arrangement",
+      "content": "A fascinating geographical fact about Spain is its dual time zone system. While mainland Spain observes Central European Time (CET), the Canary Islands, located further west in the Atlantic, adhere to Western European Time (WET), maintaining a one-hour difference. This allows for an additional hour of daylight in the evenings for the islands, showcasing a practical adaptation to their unique geographical position."
+    },
+    "culture": {
+      "title": "El Colacho: The Baby-Jumping Festival",
+      "content": "One of Spain's most unusual traditions is El Colacho, the 'baby-jumping festival,' held annually in Castrillo de Murcia. During this 17th-century ritual, men dressed as devils leap over mattresses laid in the street, on which newborn babies are placed. This daring act is believed to cleanse the infants of original sin and protect them from illness."
+    },
+    "news": {
+      "title": "Spain Breaks Tourism Records in July 2026, Nearing 100 Million Visitors Annually",
+      "content": "Spain's tourism sector is experiencing a remarkable boom, with July 2026 marking its busiest month ever for international visitors. A staggering 11.5 million tourists arrived, pushing Spain closer to an unprecedented milestone of 100 million foreign visitors in a single year. This surge underscores the country's continued appeal and robust recovery in the global travel market.",
+      "url": "https://www.theolivepress.es/spain-news/2026/09/01/spain-smashes-tourism-records-in-july-as-visitors-spend-18-2bn/"
+    },
+    "id": "1788594339923-spain",
+    "date": "2026-09-05T07:45:39.923Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "Italy's Alpine Dominance Beyond the Stereotype",
+      "content": "Despite its long coastlines and rolling hills, Italy boasts more high mountain terrain (above 2000 meters) and more high mountain peaks (above 4000 meters) than any other European country, with the exception of Switzerland. The entire southern face of the majestic Alps, including many of its formidable peaks, lies within Italian borders, showcasing a rugged geographical diversity often overshadowed by its Mediterranean image."
+    },
+    "culture": {
+      "title": "The 'Cornicello' and the Evil Eye: Warding off 'Malocchio'",
+      "content": "A unique Italian superstition involves the 'malocchio,' or evil eye, believed to bring bad luck due to envy or jealousy. To ward off this misfortune, many Italians carry a 'cornicello' (little horn), a horn-shaped amulet, often made of red coral, gold, or silver. This ancient charm, particularly popular in Southern Italy, is thought to repel negative energy and protect its wearer."
+    },
+    "news": {
+      "title": "Italy to Introduce New National Holiday Honoring St. Francis of Assisi in 2026",
+      "content": "Starting in 2026, Italy will add a new national public holiday on October 4th, dedicated to honoring St. Francis of Assisi, one of the country's patron saints. This addition will bring the total number of national public holidays to twelve, offering Italians an extra day to celebrate and reflect on their cultural and religious heritage.",
+      "url": "https://www.facebook.com/Exploring.page/posts/big-news-for-italy-in-2026-italy-is-adding-one-extra-national-public-holiday-star/312015555319889/"
+    },
+    "id": "1788594351170-italy",
+    "date": "2026-09-05T07:45:51.170Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "Hotokegaura's Enigmatic Rock Formations",
+      "content": "On the western edge of Japan's remote Shimokita Peninsula, Hotokegaura presents a dramatic landscape of uniquely sculpted rock formations. These majestic natural wonders, stretching over two kilometers, were shaped millions of years ago from hardened volcanic ash and subsequently carved by the relentless forces of sea waves and rain. Their otherworldly appearance has long captivated visitors, making them a hidden geographical marvel."
+    },
+    "culture": {
+      "title": "Kōdō: The Way of Incense",
+      "content": "Kōdō, or 'The Way of Incense,' is one of Japan's three classical arts of refinement, alongside the tea ceremony and flower arrangement. This unique tradition involves the appreciation of delicate incense fragrances within a structured, codified conduct, where participants 'listen' to the scents rather than merely smelling them. Historically enjoyed by samurai and aristocracy, Kōdō promotes mental well-being and a refined sensory experience, sometimes even including incense-comparing games."
+    },
+    "news": {
+      "title": "Men's Child Care Leave Surpasses 50% for the First Time in Japan",
+      "content": "In a significant social shift, the rate of men taking child care leave in Japan reached 50.9% in fiscal year 2025, marking the first time it has exceeded 50%. This achievement, a 10.4 percentage point increase from the previous fiscal year, signifies growing efforts by the government and companies to encourage fathers to participate more in child-rearing. The increase, particularly in small and midsize companies, suggests that male child care leave is becoming increasingly established in the workplace.",
+      "url": "https://japan-forward.com/mens-child-care-leave-exceeds-50-for-first-time/"
+    },
+    "id": "1788594368259-japan",
+    "date": "2026-09-05T07:46:08.259Z"
+  },
+  {
     "country": "Spain",
     "fact": {
       "title": "The World's Largest Crystal Cave",
