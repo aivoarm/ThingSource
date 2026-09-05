@@ -1,5 +1,57 @@
 [
   {
+    "topic": "QWERTY Keyboard",
+    "title": "The QWERTY Conundrum: More Than Just Random Letters",
+    "category": "Inventions",
+    "summary": "The familiar QWERTY keyboard layout, found on nearly every modern device, wasn't designed for alphabetical order or pure typing speed. Its surprising origin lies in solving a fundamental mechanical problem of early typewriters.",
+    "sections": [
+      {
+        "heading": "Jamming the System: The Birth of QWERTY",
+        "content": "In the 1870s, Christopher Latham Sholes, a newspaper editor and printer, developed one of the earliest typewriters. His initial designs often featured an alphabetical key arrangement, but rapid typing frequently caused the mechanical typebars to jam. To mitigate this issue, Sholes, with assistance from Carlos Glidden and Samuel W. Soulé, devised a new layout that strategically separated commonly used letter pairs, making it less likely for adjacent typebars to clash and jam the machine."
+      },
+      {
+        "heading": "From Typewriters to Touchscreens: QWERTY's Enduring Legacy",
+        "content": "The QWERTY layout debuted on the Sholes and Glidden typewriter, sold by E. Remington and Sons starting in 1874, and gained significant popularity with the Remington No. 2 of 1878, which introduced the shift key for upper and lower case letters. While often mistakenly believed to have been designed to slow typists down, the layout actually aimed to *reduce jams* and, in doing so, allowed for more efficient typing by encouraging alternating hand usage. Despite the development of more 'efficient' layouts like Dvorak, QWERTY's early adoption and widespread training programs by manufacturers like Remington solidified its status as the universal standard that persists across computers and smartphones today."
+      }
+    ],
+    "funFacts": [
+      "The name 'QWERTY' comes from the first six keys on the top letter row of the keyboard: Q, W, E, R, T, and Y.",
+      "Remington, a gun-manufacturing company, played a crucial role in the widespread adoption of QWERTY by incorporating it into their successful typewriters and offering typing training courses.",
+      "Just as understanding the historical context of QWERTY deepens our appreciation for its design, exploring the 'lore' behind modern slang words on a platform like Lore Board can reveal fascinating cultural shifts and linguistic evolution."
+    ],
+    "imageKeywords": [
+      "Christopher Latham Sholes typewriter",
+      "early QWERTY keyboard",
+      "Remington No. 2 typewriter"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfBl1qLJoL5XcyptFBZOA3XUg4FyOmAT_c_6UTXdeTtiTrNX3mAUyHv3kYJGrzyBlhBSAksuZW_Bmm2MCAGg8KPeB7JrY6OOLTY56F7qa91rB8t-lQbFZ1Wq_q7jEj",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_5GVGuiL_G6oxm_JcWc8qnpKppNu4ezvKrRABlcF_BuulwgINYaRICUKjKcBuZTcHa-Cbfp-DX3cN2VplGo6kPF3h6mr4GmL6s_xqFoyUx1TrKUU2CNLNstrrILjUNlDL-ld6SLOECn3SqHO79aSs",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRBwL6gs-YuasGnEm0VXil8XCkz5UwaE05RSAx8ACSIY3flSbctqwXwu_7FF54dwTLQutjdbO6JS_7n0ZGa9qHzQOvAHRyxOzdKzofw_R5qadhaGMcLYxKQ34i0PGRA-GQ14oGeysd0HJ7PSj4mbL2cMtB265SjpgZRUKhXAm3fjTLe5yit186vF7vINOBf2BRghA=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP1BwHqsLgHC2dHcvSzMacWqFXysC2j-KVa3L1c9bJHS3meAUvt144dHX3HbOacnsvSy993FFTeYsGe4d6RY96_hgKh_x7BWjOGfcLcWhle6Ac9LiDZ1Kpm8_dQGA11zYAJ5C_W_mrmpJFyFg50hU4WxyHwRWeGgHxZss6R9JQLhbECgor",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbWmCL6USHMTJNloDpLabHACDXkqicXPGrUie_B3SILkYYTpxOrxmAj9bkiKLNmEiJfA9e5-DBiug1OChFKU8NPBP2p17QibByj-W56PrHNlaP0D2mWYZcAswa616hvlCOXambb-X9-ew="
+    ],
+    "portugalFact": {
+      "title": "Conímbriga: Portugal's Hidden Roman Metropolis",
+      "content": "Nestled near Coimbra, Conímbriga stands as one of Portugal's most impressive and well-preserved Roman archaeological sites, with a history stretching back to the Iron Age before Roman arrival. This ancient walled city offers a fascinating glimpse into daily life under Roman rule, featuring extensive urban layouts, public baths with intricate heating systems, and remarkably preserved mosaics, most notably in the 'Casa dos Repuxos' (House of Fountains). Only a fraction of the Roman city has been excavated, leaving much of its past still buried beneath the modern landscape."
+    },
+    "aiSource": "Gemini",
+    "id": "1788591655587-qwerty-keyboard",
+    "slug": "the-qwerty-conundrum-more-than-just-random-letters",
+    "date": "2026-09-05T07:00:55.587Z",
+    "joke": {
+      "joke": "If trees could scream, would we be so cavalier about cutting them down? We might, if they screamed all the time, for no good reason.",
+      "setup": "If trees could scream, would we be so cavalier about cutting them down?",
+      "punchline": "We might, if they screamed all the time, for no good reason.",
+      "comedian": "Jack Handey",
+      "year": "1980s-1990s",
+      "context": "This joke exemplifies Jack Handey's unique brand of surreal and absurd humor, which gained significant popularity through \"Deep Thoughts\" segments on Saturday Night Live. Its brilliance lies in taking a profound, thought-provoking premise and subverting it with a hilariously trivial and human-like complaint."
+    },
+    "images": [
+      "https://picsum.photos/seed/1788591655587-qwerty-keyboard/800/500"
+    ]
+  },
+  {
     "topic": "The Zipper",
     "title": "Unzipping History: The Surprising Evolution of an Everyday Fastener",
     "category": "Inventions",
