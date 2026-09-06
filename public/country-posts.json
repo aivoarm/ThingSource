@@ -2,6 +2,60 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Second Official Language: Mirandese",
+      "content": "Beyond Portuguese, Portugal officially recognizes Mirandese (Mirandês) as a minority language, spoken in the northeastern region of Terra de Miranda. This unique Romance language, a descendant of Old Leonese, was officially recognized in 1999 to help preserve its distinct linguistic heritage. While Portuguese is universally spoken, Mirandese continues to be taught in schools and used locally, demonstrating Portugal's commitment to its diverse cultural tapestry."
+    },
+    "culture": {
+      "title": "Queima das Fitas: The Ribbon Burning Tradition",
+      "content": "Queima das Fitas, or the 'Burning of the Ribbons,' is a vibrant and historic academic tradition celebrated by university students across Portugal, most famously in Coimbra and Porto. This week-long festivity marks the end of the academic year, where graduating students ceremonially burn colored ribbons representing their faculties. The celebration includes parades, serenades, and various events, symbolizing the transition from student life to adulthood."
+    },
+    "news": {
+      "title": "Portugal Celebrates Major Literary Award for Lídia Jorge",
+      "content": "Renowned Portuguese novelist Lídia Jorge was recently honored with the prestigious Camões Prize, the highest literary distinction for Portuguese-language literature, jointly awarded by the governments of Portugal and Brazil. This recognition celebrates her outstanding body of work, which explores themes of memory, identity, and the human condition, further solidifying Portugal's standing in the global literary scene.",
+      "url": "https://www.portuguese-american-journal.com/honor-writer-lidia-jorge-awarded-the-2026-camoes-prize/"
+    },
+    "id": "1788680727483-portugal",
+    "date": "2026-09-06T07:45:27.483Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "Spain's Unique African Border",
+      "content": "Spain holds the distinction of being the only country in mainland Europe to share a physical land border with an African country. This unique geographical feature is due to its two autonomous cities, Ceuta and Melilla, located on the northern coast of Africa, bordering Morocco. These enclaves have a rich and complex history, serving as significant cultural and economic gateways between the two continents."
+    },
+    "culture": {
+      "title": "The Art of 'La Sobremesa'",
+      "content": "A cherished cultural custom in Spain is 'La Sobremesa,' which translates to the time spent lingering at the table after a meal, engaging in lively conversation and enjoying the company of family and friends. More than just eating, this tradition emphasizes the social ritual of sharing moments and conversation, often extending for hours. It highlights the Spanish value of sociability and connection over rushed mealtimes."
+    },
+    "news": {
+      "title": "Spain Advocates for European Climate Adaptation Fund",
+      "content": "Spain has recently taken a proactive stance on climate change, calling for the establishment of a dedicated European Climate Adaptation Fund. The Spanish government proposed that this fund, aimed at helping countries cope with increasingly extreme weather, could be partially financed by a levy on oil and gas profits. This initiative, announced in early September 2026, positions Spain as a leader in advocating for robust EU financial architecture to build climate resilience.",
+      "url": "https://www.euractiv.com/section/energy-environment/news/spain-calls-for-dedicated-european-climate-adaptation-fund/"
+    },
+    "id": "1788680745791-spain",
+    "date": "2026-09-06T07:45:45.791Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "Italy Sits Atop One of Europe's Largest Supervolcanoes",
+      "content": "Beyond the iconic Mount Vesuvius, Italy is home to the Campi Flegrei supervolcano, one of Europe's largest. Located near Naples, over half a million people reside within its vast, ancient caldera, making it one of the most closely monitored volcanic systems globally. Its colossal eruption approximately 39,000 years ago dramatically reshaped Southern Italy and blanketed much of Eastern Europe in ash."
+    },
+    "culture": {
+      "title": "The Enduring Tradition of the Italian Presepe",
+      "content": "While Christmas is celebrated globally, the Italian Presepe, or Nativity scene, holds a uniquely deep cultural significance. Rooted in Graeco-Roman and Judeo-Christian traditions, these intricate scenes, often featuring miniature figurines or even live reenactments, are considered Italy's most important Christmas tradition. Found across the country, the Presepe is a living testament to centuries of ingrained Italian culture."
+    },
+    "news": {
+      "title": "Italy Implements New Measures to Combat Overtourism",
+      "content": "In a proactive move to protect its cherished cultural heritage and local communities, Italy has begun implementing stricter tourism regulations for summer 2026. Cities like Florence have banned outdoor dining in historic centers, and popular destinations like Capri have limited the size of organized tour groups to reduce congestion. These initiatives aim to safeguard Italy's unique charm from the growing pressures of overtourism.",
+      "url": "https://www.forbes.com/sites/alexledsom/2026/03/30/italy-strengthens-defenses-against-tourism/"
+    },
+    "id": "1788680761188-italy",
+    "date": "2026-09-06T07:46:01.188Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Monsanto: The 'Most Portuguese Village' Built Among Boulders",
       "content": "Nestled high in central Portugal, Monsanto holds the distinction of being named the 'most Portuguese village in Portugal' in 1938, a title that hints at its truly unique character. Here, houses are ingeniously squeezed between enormous granite boulders, with some even using the colossal rocks as roofs. This ancient village presents a geological marvel, where staircases are carved directly into the rock and every path feels like a journey through a living, stony fable."
     },
