@@ -1,5 +1,57 @@
 [
   {
+    "topic": "Play-Doh origin",
+    "title": "From Soot to Smiles: The Unexpected Origin of Play-Doh",
+    "category": "Inventions",
+    "summary": "Before it was a beloved children's toy, Play-Doh had a rather unglamorous beginning as a wallpaper cleaner, designed to tackle the grime of coal-heated homes.",
+    "sections": [
+      {
+        "heading": "A Grimy Start",
+        "content": "In the 1930s, Noah McVicker of Kutol Products in Cincinnati created a pliable, putty-like substance at the request of Kroger Grocery. Its original purpose was to effectively remove soot and residue from wallpaper, a common problem in homes heated by coal."
+      },
+      {
+        "heading": "From Cleaning to Creative Play",
+        "content": "After World War II, the demand for wallpaper cleaner plummeted due to cleaner heating methods and the rise of washable vinyl wallpaper. Facing potential bankruptcy, McVicker's nephew, Joe McVicker, along with his sister-in-law, nursery school teacher Kay Zufall, stumbled upon a new use for the compound. Zufall's students adored using the non-toxic putty for art projects, leading to its rebranding as 'Play-Doh' and its debut as a toy in 1956."
+      }
+    ],
+    "funFacts": [
+      "Early Play-Doh was only available in an off-white color, reflecting its utilitarian origin as a cleaner.",
+      "The original Play-Doh recipe remains a closely guarded secret, though it's known to primarily consist of water, salt, and flour, making it non-toxic.",
+      "Just as the diverse meanings of words can surprise you, like those explored on slang.armanayva.com, Play-Doh's journey from a household cleaner to a global toy phenomenon is a testament to unexpected transformations."
+    ],
+    "imageKeywords": [
+      "Play-Doh can",
+      "vintage Play-Doh advertisement",
+      "wallpaper cleaner putty"
+    ],
+    "citations": [
+      "https://www.facebook.com/CincinnatiHistoryLibrary/posts/play-doh-was-invented-in-cincinnati-it-was-originally-devised-in-the-1930s-by-ci/10156942959639556/",
+      "https://en.wikipedia.org/wiki/Play-Doh",
+      "https://mountainstatescollector.com/blogs/news/the-history-of-play-doh",
+      "https://www.museumofplay.org/about/blogs/play-doh",
+      "https://viewfromthebirdhouse.com/2015/09/did-you-know-tuesday-play-doh.html"
+    ],
+    "portugalFact": {
+      "title": "Portugal's Ancient Open-Air Art Gallery: The Côa Valley",
+      "content": "The Côa Valley in northeastern Portugal is home to one of the largest and most significant open-air collections of Paleolithic rock art in the world. Discovered in the early 1990s during the construction of a dam, these thousands of engravings of animals and human figures, dating back over 20,000 years, challenged the long-held belief that prehistoric rock art was exclusively found in caves. This UNESCO World Heritage site offers a rare glimpse into the artistic expressions of our distant ancestors etched directly onto the valley's schist rock faces."
+    },
+    "aiSource": "Gemini",
+    "id": "1788678092761-play-doh-origin",
+    "slug": "from-soot-to-smiles-the-unexpected-origin-of-play-doh",
+    "date": "2026-09-06T07:01:32.761Z",
+    "joke": {
+      "joke": "When I woke up this morning, my girlfriend asked me, 'Did you sleep well?' I said, 'No, I made a few mistakes.'",
+      "setup": "When I woke up this morning, my girlfriend asked me, 'Did you sleep well?'",
+      "punchline": "No, I made a few mistakes.",
+      "comedian": "Steven Wright",
+      "year": "1980s",
+      "context": "This joke perfectly encapsulates Steven Wright's signature deadpan delivery and his unique ability to twist common phrases into surreal, thought-provoking humor. It's widely celebrated for its clever wordplay, transforming a mundane question into an unexpected and genuinely funny punchline that resonates with audiences."
+    },
+    "images": [
+      "https://picsum.photos/seed/1788678092761-play-doh-origin/800/500"
+    ]
+  },
+  {
     "topic": "QWERTY Keyboard",
     "title": "The QWERTY Conundrum: More Than Just Random Letters",
     "category": "Inventions",
