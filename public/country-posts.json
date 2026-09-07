@@ -2,6 +2,60 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Trás-os-Montes: Portugal's \"Beyond the Mountains\" Region",
+      "content": "The northeastern Portuguese region of Trás-os-Montes holds a name that perfectly encapsulates its historical isolation: \"Beyond the Mountains\". Separated from the coast by formidable mountain ranges like Marão, Alvão, and Gerês, this geographical barrier fostered a unique cultural identity and preserved ancient traditions, distinct from the rest of the country for centuries."
+    },
+    "culture": {
+      "title": "Porto's Proud Nickname: 'Tripeiros' (Tripe Eaters)",
+      "content": "The residents of Porto proudly carry the nickname 'Tripeiros,' or 'tripe eaters,' a unique cultural identity born from a significant historical sacrifice. In 1415, when Prince Henry the Navigator prepared his fleet for the conquest of Ceuta, the people of Porto generously donated all their quality meat to provision the ships, leaving only tripe for their own consumption. This act of selflessness led to the creation of the city's emblematic dish, 'Tripas à Moda do Porto,' and solidified their enduring, honorable nickname."
+    },
+    "news": {
+      "title": "Portugal, Brazil, and Cabo Verde Forge Stronger Trade Ties in Africa",
+      "content": "Portuguese and Brazilian business leaders are increasingly viewing Cabo Verde as a vital strategic hub for boosting trade and investment across West Africa. During a recent business forum in Praia, discussions highlighted opportunities in technology, tourism, and renewable energy, emphasizing the need for deeper trilateral cooperation to unlock the region's economic potential. This collaboration aims to position Cabo Verde as a central node for international tech companies and facilitate business between the three nations."
+    },
+    "url": "https://clubofmozambique.com/news/cape-verde-new-business-hub-for-brazil-and-portugal-263056/",
+    "id": "1788767138362-portugal",
+    "date": "2026-09-07T07:45:38.362Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "The Surprising Spanish Origin of the Modern Stapler",
+      "content": "The humble stapler, a ubiquitous office tool, has an unexpected origin in Spain. Records indicate that the first known stapler was crafted in the 18th century in the Basque Country specifically for King Louis XV of France. This fascinating piece of history highlights Spain's early contributions to practical innovations."
+    },
+    "culture": {
+      "title": "Santa Marta de Ribarteme: The Festival of the 'Almost Dead'",
+      "content": "In the Galician village of As Neves, a truly unique festival, Santa Marta de Ribarteme, celebrates life after a close call with death. People who have overcome serious illnesses or accidents parade in coffins as a thanksgiving offering to Santa Marta for their salvation. This medieval-rooted tradition is a poignant and powerful display of gratitude and devotion."
+    },
+    "news": {
+      "title": "Spain's Green Grid: Renewables Power the Nation",
+      "content": "Spain is making significant strides in renewable energy, with recent data from the power grid operator Red Eléctrica de España (REE) showing that renewables accounted for 53.6% of Spain's electricity generation in August, rising to 55.1% with self-consumption. Provisional data also indicates that renewables now supply approximately 60% of the electricity on the Spanish grid, positioning the country ahead of many European counterparts and demonstrating its commitment to a sustainable energy future.",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/spain-got-a-head-start-on-renewables-now-it-needs-a-battery-revolution"
+    },
+    "id": "1788767157434-spain",
+    "date": "2026-09-07T07:45:57.434Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "The Submerged Ancient Forest of Uozu and Its Mirages",
+      "content": "Off the coast of Uozu in Toyama Prefecture lies a rare and fascinating natural monument: a buried cedar forest submerged approximately 2,000 years ago by ancient river floods and rising sea levels. This unique environment, along with continuous underground spring water, has perfectly preserved giant cedar stumps and roots for millennia. The Uozu Buried Forest Museum allows visitors to explore this ancient wonder in both submerged and dry exhibition rooms, and the area is also famed for the frequent appearance of 'Uozu mirages' over Toyama Bay."
+    },
+    "culture": {
+      "title": "KFC as a Beloved Christmas Tradition",
+      "content": "Despite Christmas not being a traditional Japanese holiday, a unique and widespread custom involves celebrating with a bucket of Kentucky Fried Chicken (KFC). This tradition began in the 1970s with a successful marketing campaign that convinced many Japanese families that fried chicken was the ultimate Christmas dinner, akin to turkey in Western cultures. Today, it's so popular that many people pre-order their KFC Christmas meals weeks in advance to avoid long queues on December 25th."
+    },
+    "news": {
+      "title": "Scientists Announce Potential Dark Matter Breakthrough at Japan Conference",
+      "content": "Scientists have announced a possible breakthrough in the quest to detect dark matter, reporting hints of its interaction during an experiment conducted in South Dakota. This significant finding, which observed a particle interaction that might involve a 'weakly interacting massive particle' (WIMP), was unveiled at a scientific conference held in Japan. The observation involved a xenon atom and another particle interacting in a way consistent with a WIMP collision, producing a faint flash of UV light.",
+      "url": "https://www.japantimes.co.jp/news/2026/09/02/science-health/dark-matter-breakthrough-scientists/"
+    },
+    "id": "1788767191108-japan",
+    "date": "2026-09-07T07:46:31.108Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Second Official Language: Mirandese",
       "content": "Beyond Portuguese, Portugal officially recognizes Mirandese (Mirandês) as a minority language, spoken in the northeastern region of Terra de Miranda. This unique Romance language, a descendant of Old Leonese, was officially recognized in 1999 to help preserve its distinct linguistic heritage. While Portuguese is universally spoken, Mirandese continues to be taught in schools and used locally, demonstrating Portugal's commitment to its diverse cultural tapestry."
     },
