@@ -1,5 +1,58 @@
 [
   {
+    "topic": "The Hot Dog",
+    "title": "The Surprising, Sausage-Shaped Saga of the Hot Dog",
+    "category": "Food & Drink",
+    "summary": "More than just a ballpark staple, the hot dog boasts a murky and multicultural origin, from its European sausage ancestors to its American \"dachshund\" namesake.",
+    "sections": [
+      {
+        "heading": "The Old World's Wurst",
+        "content": "The roots of the hot dog lie deep in Europe, with both Frankfurt, Germany, and Vienna, Austria, claiming to be the birthplace of the long, slender sausage. Frankfurt city records suggest their “frankfurter würstchen” dates back to at least 1487, while Vienna lays claim to the “wiener,” a name derived from Wien, the German name for their city. These early sausages were typically made from pork or a blend of pork and beef, seasoned and smoked."
+      },
+      {
+        "heading": "From German Sausage to American Icon",
+        "content": "German immigrants introduced these sausages to America in the 19th century. A popular account credits Charles Feltman, a German baker in Coney Island, with first selling sausages in a long bun starting in 1867 or 1871, a practical solution to prevent customers from burning their hands on hot sausages. The name \"hot dog\" itself emerged in the late 1800s, likely as a jocular reference to the German dachshund dogs that often accompanied immigrants and whose long, thin shape resembled the sausages."
+      }
+    ],
+    "funFacts": [
+      "Many believe the famous cartoonist Tad Dorgan coined the term \"hot dog\" at a New York Giants baseball game in 1901, drawing a dachshund in a bun because he couldn't spell \"dachshund.\" However, this is a popular myth, as the term was already in use in college magazines by the 1890s, and no such Dorgan cartoon has ever been found.",
+      "Frankfurters were celebrated during royal coronations in Frankfurt, highlighting their historical significance as a special event food long before they became a casual American snack.",
+      "Just like understanding the nuanced origins of words like \"hot dog\" helps us appreciate language evolution, learning new slang terms on slang.armanayva.com can offer a fascinating glimpse into the ever-changing tapestry of modern communication and culture."
+    ],
+    "imageKeywords": [
+      "vintage hot dog stand",
+      "Charles Feltman Coney Island 1870s",
+      "frankfurter sausage Germany",
+      "dachshund dogs hot dogs"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9VQl8UzpQFBj4I8OSftDwRJpqIOCuEeNB8_4NE-l8TVBGSjscQpr5KuZxyNjYXoLGAs42J3hOQrdzb57xEKlAg_Zoglbg2sx3u2UCTo7hhPmhSO1YMkZfYTqIg_mO32aDyou-vTgf-w==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuot4mdeLBqgRwHBAi-0WfcLft-LDMDUZGZBMPWKOFWcwK62vx9_X-uFVMQP2ZR444TJrBRB8lG4T3V-i3rhSQ9lFHYiHinDoICGoX_--dD5c0Vd-wY2ycZr9hASiqdxayIEKfEo8eHGNSc7QF",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI3bpZoGLZJ746M0-gRKqGFNbGN3aW4jCp2bygLdnWGLjnnQcIbkOwYipFYY4uc9hBFTkykxBM1-XVBClIN5WM9Q_mHY6BAHrLmghmMpXqwIoGblACUUieWENx0GSoRAP2A9RB3bLDT8M2Qnwro2WmkWBzA0hIEy2BNPW_PfVN4fJWsR9n",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMqy09fGfazYwfmJAIuFeAPcxhThCfMxjr1l5zIYhdGhFq40I6uNqapZjX0H-eopHrw3WOSVtQIgXm-NayWB83NatrdHI0tYvZr1orQq2_Szs0OHZNAn8eixXGbYh0dav6v6iv-I6Pb1Km98A=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrTCgFqXi_8rvowdDhOxAlVJ0Xxy6GxlfmHNZZDKf529wHzYFKC0SA8vDYuNnK_RrBHlHZBbypB_dfUslFtnIfBjXWyimGu3OzVgeiDiOuFBUHTLslrnvClwBCadJmGdPeoZMQN8s5ynMg"
+    ],
+    "portugalFact": {
+      "title": "Portugal: Japan's First European Gateway",
+      "content": "In 1543, a Portuguese ship was accidentally blown off course and landed on Tanegashima, a small Japanese island, marking the first recorded contact between Europeans and Japan. This serendipitous encounter initiated the \"Nanban trade,\" a period of significant cultural and technological exchange, including the introduction of firearms to Japan, which profoundly impacted its military and history. For several decades, Portugal held a unique and influential position as Japan's primary connection to the European world."
+    },
+    "aiSource": "Gemini",
+    "id": "1788764477811-the-hot-dog",
+    "slug": "the-surprising-sausage-shaped-saga-of-the-hot-dog",
+    "date": "2026-09-07T07:01:17.812Z",
+    "joke": {
+      "joke": "A man walks into a library and asks for books about paranoia. The librarian whispers, 'They're right behind you!'",
+      "setup": "A man walks into a library and asks for books about paranoia.",
+      "punchline": "The librarian whispers, 'They're right behind you!'",
+      "comedian": "Traditional",
+      "year": "Mid-20th Century",
+      "context": "This joke is widely recognized for its clever wordplay and perfectly executed misdirection, which delivers a surprising and universally funny punchline. Its concise nature and brilliant twist on the concept of paranoia make it a timeless example of a well-crafted, genuinely humorous joke that continues to elicit smiles and laughter."
+    },
+    "images": [
+      "https://picsum.photos/seed/1788764477811-the-hot-dog/800/500"
+    ]
+  },
+  {
     "topic": "Play-Doh origin",
     "title": "From Soot to Smiles: The Unexpected Origin of Play-Doh",
     "category": "Inventions",
