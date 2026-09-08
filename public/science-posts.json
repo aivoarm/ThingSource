@@ -1,5 +1,32 @@
 [
   {
+    "title": "AI Masterpiece: Fermat's Last Theorem Verified in Record Time",
+    "summary": "A complex mathematical proof, a true pinnacle of human thought, has been formally verified by an AI in a stunning 11 days – a task previously estimated to take human experts years.",
+    "sections": [
+      {
+        "heading": "The Challenge of Certainty: Formalizing Math",
+        "content": "In mathematics, a proof is a logical sequence demonstrating a theorem's truth, but even human-written proofs can be incredibly complex and prone to subtle errors. 'Formalization' means translating such a proof into a highly precise, unambiguous code that a computer can meticulously check for absolute logical soundness, much like a meticulous auditor scrutinizing every line of a complex financial report."
+      },
+      {
+        "heading": "Fermat's Last Theorem: A Mountain Conquered",
+        "content": "Fermat's Last Theorem, famously simple to state but notoriously difficult to prove, baffled mathematicians for over 350 years before Andrew Wiles finally cracked it in the 1990s. His monumental proof, spanning hundreds of pages, is a towering achievement of human intellect, weaving together advanced mathematical concepts to finally put the ancient riddle to rest."
+      },
+      {
+        "heading": "AI's Lightning-Fast Logic",
+        "content": "What was expected to be a multi-year effort for human experts – converting Wiles' intricate proof into computer-verifiable code – was accomplished by Anthropic's Claude AI in a mere 11 days. This stunning speed highlights AI's rapidly advancing capability to understand, interpret, and formally encode abstract mathematical reasoning, heralding a new era for verifying and potentially discovering complex mathematical truths."
+      }
+    ],
+    "funFacts": [
+      "Fermat's Last Theorem was first proposed by Pierre de Fermat in 1637 and famously stated in the margin of a book, claiming he had a 'truly marvelous proof' that the margin was too small to contain.",
+      "Andrew Wiles's ultimate proof, published in 1995, took him nearly a decade of dedicated, secret work and combined advanced concepts from number theory, algebraic geometry, and modular forms.",
+      "Formalizing a mathematical proof makes it machine-checkable, eliminating any possibility of human error or misinterpretation and ensuring its absolute logical integrity, a gold standard for mathematical certainty."
+    ],
+    "originalTitle": "Fermat&#8217;s last theorem formalised by AI agents in just 11 days",
+    "originalUrl": "https://www.newscientist.com/article/2587839-fermats-last-theorem-formalised-by-ai-agents-in-just-11-days/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1788852637682-qdpfe",
+    "date": "2026-09-08T07:30:37.682Z"
+  },
+  {
     "title": "Indonesia's Hidden Fury: The Silent Blaze Burning Beneath Our Feet",
     "summary": "Deep beneath Indonesia's forests, a dangerous fire season has begun early, fueled by drought and an intensifying El Niño, with devastating implications for air quality and the climate.",
     "sections": [
