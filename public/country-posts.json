@@ -2,6 +2,78 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Posthumous Queen: Inês de Castro",
+      "content": "One of Portugal's most dramatic historical events revolves around Inês de Castro, who was posthumously crowned queen. After being assassinated in 1355 at the behest of King Afonso IV, her lover (and future King) Peter I, upon ascending the throne, exhumed her body and forced the entire court to swear allegiance to their dead queen by kissing her decaying hand. This macabre tale highlights a period of intense passion and political intrigue in Portuguese royal history."
+    },
+    "culture": {
+      "title": "Saudade: The Untranslatable Portuguese Emotion",
+      "content": "A unique and deeply ingrained cultural concept in Portugal is 'Saudade,' an almost untranslatable word describing a profound, melancholic longing or yearning for something or someone absent. This bittersweet emotion often reflects a sense of nostalgia for things past or unattainable, and it permeates Portuguese music, poetry, and daily life, offering a lens into the nation's reflective and emotional spirit."
+    },
+    "news": {
+      "title": "Guimarães Weaves Sustainability into Cherished Cultural Traditions",
+      "content": "As the European Green Capital 2026, Guimarães is integrating sustainability with its vibrant cultural identity, notably by leading the iconic Gualteriana Parade in August 2026. This initiative saw a parade float dedicated to biodiversity and environmental awareness, watched by thousands, demonstrating how environmental action can be harmonized with community participation and local heritage. This unique blend of tradition and modern ecological commitment showcases Guimarães' innovative approach to its green capital year.",
+      "url": "https://guimaraesgreencapital.pt/news/guimaraes-2026-brings-sustainability-to-life-through-culture-science-and-community"
+    },
+    "id": "1788853535482-portugal",
+    "date": "2026-09-08T07:45:35.483Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "The Enigmatic Basque Language: Europe's Linguistic Isolate",
+      "content": "Deep within the border region of Spain and France lies the Basque Country, home to Euskara, the Basque language. This ancient tongue is a linguistic isolate, meaning it has no known genetic relationship to any other living language in Europe or worldwide, posing a fascinating puzzle for linguists and cultural researchers alike. Its unique development, seemingly in complete isolation, sets it apart from all other European languages."
+    },
+    "culture": {
+      "title": "Las Doce Uvas de la Suerte: Spain's Lucky New Year Grapes",
+      "content": "As the clock strikes midnight on New Year's Eve, Spaniards across the country partake in the unique tradition of 'Las Doce Uvas de la Suerte' (The Twelve Grapes of Luck). Following the chimes from Madrid's Puerta del Sol clock, revelers quickly eat one grape for each of the twelve bell tolls, believing this ritual brings good luck for the upcoming twelve months. This sweet and frantic custom is a cherished part of Spain's festive calendar, symbolizing hopes for a prosperous new year."
+    },
+    "news": {
+      "title": "Spain's Renewable Energy Success Paves Way for Battery Revolution and Economic Growth",
+      "content": "Spain is demonstrating remarkable success in renewable energy, with these sources now accounting for approximately 60% of the electricity on its national grid. This pioneering effort has not only led to lower power bills but has also positioned Spain as the fastest-growing major economy in Europe. The focus is now shifting towards massive investment in battery technology and grid infrastructure to further enhance this green energy leadership and drive continued economic expansion.",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/spain-got-a-head-start-on-renewables-now-it-needs-a-battery-revolution"
+    },
+    "id": "1788853546522-spain",
+    "date": "2026-09-08T07:45:46.522Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "A Nation of Distinct Regional Identities and Dialects",
+      "content": "Despite its relatively recent unification in 1861, Italy remains a vibrant mosaic of 20 distinct regions, each boasting unique cultural identities, traditions, and even numerous regional dialects that continue to thrive. This deep-seated regionalism means that daily life, cuisine, and customs can vary significantly from one province to the next, reflecting centuries of diverse historical influences."
+    },
+    "culture": {
+      "title": "The Culinary Commandment: No Cheese on Seafood",
+      "content": "A quintessential Italian culinary tradition dictates that cheese should never be paired with seafood, a rule deeply ingrained in the country's gastronomic etiquette. Italians believe that the strong flavor of cheese clashes with and overwhelms the delicate taste of seafood dishes, upholding a steadfast respect for the integrity of each ingredient."
+    },
+    "news": {
+      "title": "Italy Sees Significant Growth in Solar Energy Deployment",
+      "content": "Italy has made substantial strides in renewable energy in the first half of 2026, deploying 2.61 GW of solar capacity, which accounted for approximately 90% of all new renewable energy systems. This impressive growth has brought the country's cumulative photovoltaic capacity to around 46.8 GW by the end of June 2026, marking a positive step towards a greener future.",
+      "url": "https://www.pv-magazine.com/2026/09/07/italy-deploys-2-61-gw-of-solar-in-h1/"
+    },
+    "id": "1788853559137-italy",
+    "date": "2026-09-08T07:45:59.137Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "Okunoshima: Japan's 'Rabbit Island' with a Secret Wartime Past",
+      "content": "While Okunoshima is famously known today as 'Rabbit Island' due to its large population of friendly wild rabbits, this tranquil island in the Seto Inland Sea harbors a dark and lesser-known history. During World War II, Okunoshima was a top-secret site for the production of chemical weapons, including mustard gas and Lewisite, and was even erased from maps to maintain its clandestine operations."
+    },
+    "culture": {
+      "title": "Kintsugi: The Art of Golden Repair",
+      "content": "Kintsugi, meaning 'golden joinery,' is a unique Japanese art form that involves repairing broken pottery using a lacquer mixed with powdered gold, silver, or platinum. Rather than concealing the damage, kintsugi highlights the cracks, transforming imperfections into a beautiful part of the object's history and celebrating resilience, a philosophy deeply rooted in the Japanese concept of wabi-sabi."
+    },
+    "news": {
+      "title": "Japanese Golfer Kuwaki Shiho Wins Women's Open",
+      "content": "In a positive recent sporting event, Japanese golfer Kuwaki Shiho clinched her first major title by winning the Women's Open in a sudden-death playoff in August 2026. This victory marks a significant achievement for the athlete in the professional golf world.",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEngq4d6Bgm3CxjKsIcWSm3SOfembQWYoiKmCPwPerdf0OmXB3CrqOO7Ju5Mtie-qAclT_Xlasi6CuPr8-HqDr3Nw_BO1wnpHTOuEQ97XvFpQXnN7gVwlVz8nY5R4sRxljBw=="
+    },
+    "id": "1788853571623-japan",
+    "date": "2026-09-08T07:46:11.623Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Trás-os-Montes: Portugal's \"Beyond the Mountains\" Region",
       "content": "The northeastern Portuguese region of Trás-os-Montes holds a name that perfectly encapsulates its historical isolation: \"Beyond the Mountains\". Separated from the coast by formidable mountain ranges like Marão, Alvão, and Gerês, this geographical barrier fostered a unique cultural identity and preserved ancient traditions, distinct from the rest of the country for centuries."
     },
