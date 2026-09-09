@@ -2,6 +2,77 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Sole National Park: Peneda-Gerês",
+      "content": "Deep in the country's northern reaches lies the Peneda-Gerês National Park, a stunning labyrinth of mountains, valleys, and forests that stands as Portugal's only national park. Established in 1971, this protected area uniquely blends breathtaking natural landscapes with human activity, preserving ancient traditions within its borders."
+    },
+    "culture": {
+      "title": "The Legend of the Galo de Barcelos (Barcelos Rooster)",
+      "content": "One of Portugal's most recognizable symbols is the brightly colored ceramic Barcelos Rooster, or Galo de Barcelos. Its origin lies in a medieval folk tale about a Galician pilgrim falsely accused of theft and sentenced to hang in Barcelos. According to the legend, the pilgrim declared that a roasted rooster on the judge's dinner table would crow as proof of his innocence, and miraculously, it did, saving him from execution."
+    },
+    "news": {
+      "title": "Portugal Launches Ambitious National Nature Restoration Plan",
+      "content": "Portugal has initiated a comprehensive National Nature Restoration Plan (PNRN), committing an average annual investment of €500 million until 2030 to reverse biodiversity loss and combat climate change. Unveiled in June 2026, this strategic plan includes an ambitious goal to plant three million trees annually and focuses on restoring diverse ecosystems, from wetlands and rivers to coastal habitats and urban green spaces.",
+      "url": "https://www.theportugalnews.com/news/2026-06-02/portugal-to-invest-500-me-annually-to-accelerate-nature-restoration/89531"
+    },
+    "id": "1788939932318-portugal",
+    "date": "2026-09-09T07:45:32.318Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "The Underwater 'River' of the Strait of Gibraltar",
+      "content": "Beneath the surface of the Strait of Gibraltar lies a fascinating geographical phenomenon: a powerful, dense underwater current known as the Mediterranean Outflow. This 'river' of saltier, warmer Mediterranean water flows westward into the Atlantic Ocean, beneath the less saline Atlantic water flowing eastward into the Mediterranean. This deep current creates unique conditions and can even be traced for thousands of kilometers into the Atlantic before fully mixing."
+    },
+    "culture": {
+      "title": "Gigantes y Cabezudos: Spain's Parading Giants and Big-Heads",
+      "content": "A vibrant and cherished tradition across Spain's festivals are the 'Gigantes y Cabezudos,' or 'Giants and Big-Heads.' These towering papier-mâché figures, often representing historical or local characters, dance through the streets accompanied by music, while the 'Cabezudos' (big-heads) playfully chase onlookers, especially children. Originating as early as the 14th century, this colorful custom brings together communities and delights generations in parades and celebrations throughout the year."
+    },
+    "news": {
+      "title": "US Astronaut Christina Koch Awarded Top Spanish Prize",
+      "content": "Pioneering US astronaut Christina Koch, renowned as the first woman to participate in a lunar mission, has been honored with a prestigious Spanish award. She was recognized for her significant contributions in 'helping extend the frontiers of humanity'. This recent accolade highlights international appreciation for scientific achievement and human exploration."
+    },
+    "id": "1788939953981-spain",
+    "date": "2026-09-09T07:45:53.981Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "Italy's Enduring Arbëreshë Communities",
+      "content": "A fascinating, lesser-known aspect of Italy is the presence of the Arbëreshë people, an ethnolinguistic minority descended from Albanians who fled the Ottoman conquest of the Balkans between the 13th and 18th centuries. These communities settled across roughly 50 villages in seven southern Italian regions and Sicily, meticulously preserving their unique medieval Albanian dialect (Arbërisht), Byzantine religious rites, and distinct cultural traditions for over 500 years. This 'linguistic island' provides a rare glimpse into an ancient form of Albanian, setting them apart within the diverse tapestry of Italian culture."
+    },
+    "culture": {
+      "title": "The Art of Aperitivo: Italy's Pre-Dinner Ritual",
+      "content": "A quintessential Italian cultural custom is the 'aperitivo,' a delightful pre-meal ritual designed to stimulate the appetite and foster social connection. Typically enjoyed in the late afternoon or early evening, it involves gathering with friends for light, often bitter, alcoholic beverages like an Aperol Spritz or Campari, accompanied by complimentary small snacks ('stuzzichini') such as olives, bruschetta, and cured meats. Derived from the Latin 'aperire' meaning 'to open,' the aperitivo is a cherished occasion to unwind and socialize before dinner."
+    },
+    "news": {
+      "title": "Ancient Roman Shipwreck Discovered Off Sicily with Hundreds of Amphorae",
+      "content": "Archaeologists have recently made a significant underwater discovery off the coast of Mazara del Vallo, Sicily: a remarkably preserved Roman-era shipwreck dating back over 2,100 years. Found at a depth of approximately 150 feet, the site revealed hundreds of intact Dressel 1A type amphorae, along with lead anchor stocks. This exceptional find, announced by the Italian Ministry of Culture on September 8, 2026, is considered one of the most important underwater archaeological discoveries in recent years, shedding new light on ancient Mediterranean trade and civilizations.",
+      "url": "https://www.foxnews.com/lifestyle/divers-uncover-hundreds-ancient-relics-near-shipwreck-untouched-2100-years"
+    },
+    "id": "1788939972314-italy",
+    "date": "2026-09-09T07:46:12.314Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "Japan's Concentrated Population Amidst Mountainous Terrain",
+      "content": "Despite being an archipelago of over 6,800 islands, approximately 73-75% of Japan's land area is covered by mountains. This geographical reality means that nearly half of the country's population resides within less than 10% of its total land, leading to incredibly high population densities in the limited lowland and coastal regions."
+    },
+    "culture": {
+      "title": "Nanakusa no Sekku: The Festival of Seven Herbs",
+      "content": "Nanakusa no Sekku, or the Festival of Seven Herbs, is a unique Japanese custom celebrated annually on January 7th. On this day, people traditionally eat 'nanakusa-gayu,' a simple rice porridge made with seven specific spring herbs, believed to promote good health and longevity after the rich feasts of the New Year period."
+    },
+    "news": {
+      "title": "88-Year-Old Japanese Adventurer Kenichi Horie to Attempt Another Solo Pacific Crossing",
+      "content": "Veteran Japanese ocean adventurer Kenichi Horie, at 88 years old, announced on his birthday this September that he plans to undertake another solo, nonstop yacht voyage across the Pacific Ocean next spring. Horie aims to break his own Guinness World Record for the oldest person to complete this challenging feat, a record he set previously at age 83.",
+      "url": "https://japannews.yomiuri.co.jp/society/general-news/20260909-347852/"
+    },
+    "id": "1788939989464-japan",
+    "date": "2026-09-09T07:46:29.464Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Posthumous Queen: Inês de Castro",
       "content": "One of Portugal's most dramatic historical events revolves around Inês de Castro, who was posthumously crowned queen. After being assassinated in 1355 at the behest of King Afonso IV, her lover (and future King) Peter I, upon ascending the throne, exhumed her body and forced the entire court to swear allegiance to their dead queen by kissing her decaying hand. This macabre tale highlights a period of intense passion and political intrigue in Portuguese royal history."
     },
