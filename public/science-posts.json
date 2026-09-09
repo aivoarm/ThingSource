@@ -1,5 +1,78 @@
 [
   {
+    "title": "Beneath a Brazilian Construction Site, a New Giant Dinosaur Rewrites Ancient Maps",
+    "summary": "A routine construction project in Brazil has unearthed the colossal remains of a previously unknown dinosaur, approximately 20 meters long, whose surprising family ties to a species discovered in Spain are offering fresh insights into how ancient continents were once connected.",
+    "sections": [
+      {
+        "heading": "Meet Brazil's Ancient Colossus",
+        "content": "This newly identified giant, a formidable creature stretching about 20 meters (roughly 65 feet), roamed what is now Brazil some 120 million years ago. Its unexpected discovery during building excavations serves as a powerful reminder that incredible prehistoric secrets can lie hidden just beneath our modern world, waiting to be found."
+      },
+      {
+        "heading": "A Global Journey in Deep Time",
+        "content": "What truly excites scientists is this dinosaur's close evolutionary kinship with a species found across the Atlantic in Spain. This suggests its ancient ancestors made incredible journeys across land connections that existed when Europe, Africa, and South America were not yet separated by vast oceans, painting a vivid picture of continental drift in action."
+      }
+    ],
+    "funFacts": [
+      "Imagine a creature as long as two school buses end-to-end – that's roughly the size of this newly discovered Brazilian dinosaur!",
+      "The unexpected find in a modern construction zone underscores how much of Earth's prehistoric past still lies hidden beneath our feet.",
+      "This discovery reinforces how fossils are not just bones, but crucial pieces of a prehistoric puzzle, helping us reconstruct Earth's geography and the journeys of ancient life."
+    ],
+    "originalTitle": "Giant new dinosaur discovered beneath construction site in Brazil",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260907201603.htm",
+    "id": "1788939034567-5kuit",
+    "date": "2026-09-09T07:30:34.567Z"
+  },
+  {
+    "title": "Beyond Weight Loss: Ozempic and Wegovy's Surprising Link to Mental Well-being",
+    "summary": "The widely used medications Ozempic and Wegovy, containing the drug semaglutide, are gaining attention for an unexpected potential benefit: significantly reducing psychiatric hospitalizations in people with bipolar disorder.",
+    "sections": [
+      {
+        "heading": "An Unexpected Ally for Mood Stability",
+        "content": "A groundbreaking Swedish study involving nearly 15,000 individuals with bipolar disorder has revealed a compelling link between semaglutide use and a 21% lower risk of psychiatric hospitalization. This suggests the drug, primarily known for diabetes and weight management, might offer an exciting new avenue for managing severe mood fluctuations."
+      },
+      {
+        "heading": "Peering into the 'Why': Brains, Bodies, and Balance",
+        "content": "Scientists are exploring how semaglutide might achieve this mood-stabilizing effect. The leading theories point to its potential to reduce inflammation throughout the body, including the brain, and influence complex biological pathways that govern brain function and mood regulation. Think of it as potentially calming 'stormy weather' within the brain's intricate communication networks."
+      },
+      {
+        "heading": "What Makes Semaglutide Stand Out?",
+        "content": "Interestingly, not all drugs in the same class (called GLP-1 receptor agonists, which mimic natural gut hormones) showed this beneficial association. This hints that semaglutide may possess unique properties or interact with brain systems in a distinct way that other similar medications don't, making it a focus for further specialized research."
+      }
+    ],
+    "funFacts": [
+      "Semaglutide, the active ingredient, is marketed as Ozempic for type 2 diabetes and Wegovy for chronic weight management.",
+      "Bipolar disorder affects millions worldwide and is characterized by significant shifts in mood, energy, activity levels, and concentration.",
+      "This study suggests a 'repurposing' potential for semaglutide, where a drug designed for one condition might effectively treat another, opening new avenues for mental health treatment."
+    ],
+    "originalTitle": "Ozempic and Wegovy may have an unexpected mental health benefit",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260907201601.htm",
+    "id": "1788939045296-ln76b",
+    "date": "2026-09-09T07:30:45.296Z"
+  },
+  {
+    "title": "The American 'Cheetah' Was No Cheetah At All: Uncovering a Puma Relative's Surprisingly Flexible Life",
+    "summary": "For decades, scientists thought a swift ancient predator roaming North America was akin to today's cheetah. New fossil evidence dramatically reveals this majestic beast was actually a resourceful relative of the puma, capable of thriving on an unexpectedly diverse menu, even fish.",
+    "sections": [
+      {
+        "heading": "The Great Cat Identity Crisis",
+        "content": "For generations, paleontologists classified a distinctive extinct North American big cat as the 'American cheetah' due to its similar, lithe build. However, recent fossil analysis has dramatically rewritten its family tree, revealing it was not a cheetah relative at all, but rather a close cousin to modern pumas, cougars, and mountain lions."
+      },
+      {
+        "heading": "A Hunter of Many Appetites",
+        "content": "What makes this discovery even more remarkable is this cat's surprising dietary flexibility. Evidence from ancient Yukon fossils shows northern populations weren't just land hunters; they diversified their diet to include fish, possibly even salmon, a stark contrast to their southern counterparts who stuck to terrestrial prey. This adaptability likely played a crucial role in its survival during shifting prehistoric environments."
+      }
+    ],
+    "funFacts": [
+      "Imagine a large, agile cat, much like today's mountain lion, regularly fishing for its dinner! This unexpected dietary shift helped it survive.",
+      "Modern pumas, cougars, and mountain lions are all names for the same highly adaptable species (Puma concolor) found across the Americas.",
+      "This discovery highlights how radical behavioral and dietary adaptations can be key for species survival during drastic environmental changes, like those of the Ice Age."
+    ],
+    "originalTitle": "The American “cheetah” wasn’t a cheetah at all",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260907201558.htm",
+    "id": "1788939054633-tqy2x",
+    "date": "2026-09-09T07:30:54.633Z"
+  },
+  {
     "title": "AI Masterpiece: Fermat's Last Theorem Verified in Record Time",
     "summary": "A complex mathematical proof, a true pinnacle of human thought, has been formally verified by an AI in a stunning 11 days – a task previously estimated to take human experts years.",
     "sections": [
