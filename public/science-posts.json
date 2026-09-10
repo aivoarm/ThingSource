@@ -1,5 +1,79 @@
 [
   {
+    "title": "Earth's Scorching August: A Wake-Up Call as Global Temperatures Surge Past Critical Mark",
+    "summary": "Last August marked a concerning milestone, tying for the hottest on record, as Earth's average temperature briefly surged more than 1.5°C above its pre-industrial baseline, propelled by climate change and a potent El Niño.",
+    "sections": [
+      {
+        "heading": "The Double Whammy: Human Activity Meets Nature's Cycle",
+        "content": "This record heat isn't just a fluke; it's the result of a powerful combination. Long-term global warming, primarily driven by human activities like burning fossil fuels, sets the stage, making each year generally warmer than the last. Compounding this, a historic El Niño event, a natural warming of Pacific Ocean waters, added an extra boost, effectively turning up the planet's thermostat even higher."
+      },
+      {
+        "heading": "Crossing a Critical Line: What 1.5°C Means",
+        "content": "The 1.5°C figure is a key benchmark scientists use to gauge the severity of climate change, representing a level beyond which dangerous and irreversible impacts become much more likely. While this breach was a temporary monthly average, it serves as a stark reminder of our trajectory and the urgent need for action to curb emissions and prevent long-term exceedance of this critical threshold."
+      }
+    ],
+    "funFacts": [
+      "The 1.5°C threshold isn't just a random number; it's the ambitious long-term warming limit set by the Paris Agreement to avoid the most catastrophic climate impacts.",
+      "\"Pre-industrial average\" refers to temperatures recorded between 1850-1900, before large-scale industrialization significantly increased greenhouse gases in the atmosphere.",
+      "While El Niño is a natural climate pattern, its warming effects typically peak in winter, meaning its full impact on global temperatures is often felt in the following year."
+    ],
+    "originalTitle": "August was the joint hottest month on record",
+    "originalUrl": "https://www.newscientist.com/article/2588520-august-was-the-joint-hottest-month-on-record/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1789025437744-cvr1g",
+    "date": "2026-09-10T07:30:37.744Z"
+  },
+  {
+    "title": "High-Tech Hurricane Watch: How Satellites are Charting El Niño's Impact on Our Coasts",
+    "summary": "Two advanced satellites are now orbiting Earth in perfect sync, meticulously measuring our oceans to unlock better hurricane forecasts, a crucial endeavor as a powerful El Niño reshapes global weather patterns.",
+    "sections": [
+      {
+        "heading": "Eyes in the Sky: A Dynamic Duo for Ocean Monitoring",
+        "content": "Meet Sentinel-6 Michael Freilich and its new sibling, Sentinel-6B. Launched by NASA and European partners, these sophisticated spacecraft fly in tandem, with Sentinel-6B trailing its predecessor by a mere 30 seconds to provide an unparalleled view of our planet's oceans from above. Their shared mission is to continuously monitor sea surface height with extraordinary precision."
+      },
+      {
+        "heading": "The Ocean's Pulse: Unlocking Hurricane Secrets",
+        "content": "Why are sea level measurements so vital? Even subtle changes in ocean height can reveal critical information about ocean currents and the heat content of the upper ocean, which acts as fuel for developing hurricanes. By precisely tracking these changes, scientists gain crucial insights into where storms might form, their potential intensity, and their likely paths, especially during impactful climate phenomena like El Niño."
+      },
+      {
+        "heading": "El Niño and Our Future Forecasts: A Global Connection",
+        "content": "With oceanographers anticipating a significant El Niño event, these satellites are more critical than ever. El Niño dramatically influences global weather, including sea surface temperatures and atmospheric conditions, which directly affect hurricane seasons. The data collected by the Sentinel twins will empower scientists to create more accurate hurricane predictions, safeguarding coastal communities, vital infrastructure, and benefiting industries from shipping to disaster preparedness."
+      }
+    ],
+    "funFacts": [
+      "The two Sentinel satellites fly so closely together that Sentinel-6B is only 30 seconds behind its twin, allowing them to compare and validate each other's highly precise measurements.",
+      "El Niño, meaning \"the little boy\" in Spanish, was named by Peruvian fishermen who noticed the warming of ocean waters in the Pacific near Christmas time.",
+      "These satellites can detect changes in sea level as small as a few millimeters, equivalent to spotting a dime from space, showcasing their incredible precision."
+    ],
+    "originalTitle": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
+    "originalUrl": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
+    "id": "1789025448711-1jbij",
+    "date": "2026-09-10T07:30:48.711Z"
+  },
+  {
+    "title": "Cosmic Artistry: Unveiling the Enigmatic Giraffe Nebula",
+    "summary": "Dive into the captivating beauty of LDN 1295, famously dubbed the 'Giraffe Nebula,' a majestic cosmic cloud where interstellar dust and gas are sculpted into breathtaking celestial forms, hinting at the universe's grand cycle of creation.",
+    "sections": [
+      {
+        "heading": "What is the Giraffe Nebula?",
+        "content": "Imagine colossal clouds of cosmic dust and gas, vast enough to swallow our entire solar system many times over. The Giraffe Nebula, known scientifically as LDN 1295, is one such celestial marvel, earning its whimsical name from the distinctive, elongated shapes formed by its obscuring dust as it blocks light from more distant stars."
+      },
+      {
+        "heading": "A Nursery for Future Stars",
+        "content": "Far from being merely static cosmic artwork, these dense nebulae are dynamic regions where new stars are born. Gravity slowly draws together the scattered gas and dust, creating dense pockets that will eventually collapse and ignite, giving birth to brand new stars and potentially their accompanying planetary systems, continuing the universe's timeless story of creation."
+      }
+    ],
+    "funFacts": [
+      "Nebulae are often named for their resemblance to earthly objects, like the Horsehead, Eagle, or even a Giraffe, making distant cosmic structures relatable.",
+      "The material within nebulae is incredibly diffuse – far emptier than the best vacuum we can create on Earth, yet so vast that it contains enormous amounts of matter.",
+      "Dark nebulae like the Giraffe Nebula appear dark because their dense dust clouds absorb visible light, acting like cosmic curtains that hide the stars behind them.",
+      "These cosmic clouds are primarily composed of hydrogen and helium, the two lightest elements forged in the Big Bang, along with trace amounts of heavier elements that contribute to the dust."
+    ],
+    "originalTitle": "APOD: 2026 September 10 – LDN 1295: The Giraffe Nebula",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-september-10-ldn-1295-the-giraffe-nebula/",
+    "id": "1789025458991-ooqnw",
+    "date": "2026-09-10T07:30:58.991Z"
+  },
+  {
     "title": "Beneath a Brazilian Construction Site, a New Giant Dinosaur Rewrites Ancient Maps",
     "summary": "A routine construction project in Brazil has unearthed the colossal remains of a previously unknown dinosaur, approximately 20 meters long, whose surprising family ties to a species discovered in Spain are offering fresh insights into how ancient continents were once connected.",
     "sections": [
