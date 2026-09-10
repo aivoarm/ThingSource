@@ -2,6 +2,78 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Monarchical Extremes: The Shortest and Longest Reigns",
+      "content": "Portugal holds a unique historical distinction for having both one of the shortest and one of the longest monarchical reigns. While King Luís Filipe's time on the throne lasted a mere 20 minutes, King Afonso I Henrique, Portugal's first king, ruled for an impressive 73 years, shaping the nascent nation's early history."
+    },
+    "culture": {
+      "title": "Peixinhos da Horta: The Portuguese Dish Behind Japanese Tempura",
+      "content": "A fascinating culinary legacy connects Portugal to Japan through 'Peixinhos da Horta,' a traditional Portuguese dish of green beans coated in a light batter and fried. This humble vegetable fritter is believed to be the inspiration behind the famous Japanese tempura, introduced to Japan by Portuguese Jesuit missionaries in the 16th century."
+    },
+    "news": {
+      "title": "Portugal's Last Circus Elephant Finds Freedom in 1,000-Acre Sanctuary",
+      "content": "After four decades of performing, Portugal's last circus elephant, named Gandhi, has found a new home in July 2026 at a sprawling 1,000-acre sanctuary in the United States. This heartwarming move marks a significant step for animal welfare, allowing Gandhi to roam freely in a natural environment.",
+      "url": "https://www.goodnewsnetwork.org/last-circus-elephant-in-portugal-can-now-romp-and-roll-on-1000-acre-sanctuary-after-40-years-of-working/"
+    },
+    "id": "1789026335811-portugal",
+    "date": "2026-09-10T07:45:35.811Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "Spain's Diverse Volcanic Landscape: From Dormant Mainland Peaks to Active Island Chains",
+      "content": "While often associated with sunny beaches, Spain boasts a surprisingly diverse volcanic landscape, including Europe's most significant dormant volcanic zone, La Garrotxa in Catalonia, featuring over 40 ancient cones and 20 lava flows. Far to the southwest, the Canary Islands are home to several active volcanoes, such as Teide in Tenerife and Cumbre Vieja in La Palma, which last erupted in 2021. This geographical duality highlights Spain's unique geological position, encompassing both ancient, quiescent volcanic fields on the Iberian Peninsula and dynamically active island formations in the Atlantic."
+    },
+    "culture": {
+      "title": "Percebes: The Intriguing and Prized Gooseneck Barnacles of Galicia",
+      "content": "Among Spain's many culinary delights, *percebes* (gooseneck barnacles) stand out as a unique and highly valued seafood, particularly in the northwestern region of Galicia. These unusual-looking crustaceans, often described as resembling 'dinosaur claws,' are painstakingly harvested from wave-battered rocks, making them a costly delicacy. Historically, there was even a fascinating misconception that barnacle geese were born from these marine creatures, providing a loophole for some to consume them on meat-restricted holy days."
+    },
+    "news": {
+      "title": "Spain Mobilizes €8 Billion for 'Deep Tech' Innovation, Aiming for Technological Leadership by 2030",
+      "content": "Spain is making a significant push to transform its scientific capabilities into technological leadership with the approval of the 'Deep Tech Spain Strategy' in May 2026, mobilizing over €8 billion until 2030. This ambitious plan aims to support cutting-edge technologies like artificial intelligence, biotechnology, clean energy, and quantum computing, fostering a dynamic innovation ecosystem. The initiative underscores Spain's commitment to strategic investment in R&D, solidifying its position as an attractive destination for multinational innovation centers and a leader in European corporate investment for 2026.",
+      "url": "https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/190526-RefConsejoMinistros.aspx"
+    },
+    "id": "1789026353967-spain",
+    "date": "2026-09-10T07:45:53.967Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "Italy's Hidden Underground Cities: Beyond Rome's Catacombs",
+      "content": "Beneath the vibrant surface of many Italian towns lie fascinating subterranean worlds, revealing layers of history rarely seen. Beyond the well-known Catacombs of Rome or the underground of Naples, cities like Orvieto in Umbria boast an ancient Etruscan-era network of tunnels, caves, and wells carved into volcanic rock, used for everything from olive presses to pigeon breeding. Siena also harbors medieval water channels, known as 'bottini,' hidden beneath its famous Piazza del Campo, showcasing ancient engineering marvels."
+    },
+    "culture": {
+      "title": "The Historic Battle of the Oranges in Ivrea",
+      "content": "Each year, the Piedmontese town of Ivrea erupts in the exhilarating 'Battle of the Oranges,' a unique and chaotic carnival tradition. This historical reenactment sees townspeople divided into teams, hurling thousands of oranges at each other to symbolize a 12th-century rebellion against a tyrannical ruler. It's a vibrant and messy spectacle that vividly brings medieval history and civic pride to life, offering a truly distinctive Italian cultural experience."
+    },
+    "news": {
+      "title": "Italy Ranks Second in EU for European Research Council Grants",
+      "content": "Italy has demonstrated a strong presence in European research and innovation, securing the second-highest number of 'Starting Grants' from the European Research Council (ERC) in a recent allocation of 705 million euros. Announced on September 3, 2026, this achievement highlights the country's growing excellence, with 50 Italian researchers among the 421 recipients across Europe, attracting talent and reinforcing Italy's position as a dynamic hub for scientific advancement.",
+      "url": "https://eunews.it/en/2026/09/03/eu-allocates-705-million-euros-to-research-excellence-italy-ranks-second-for-award%E2%80%91winning-researchers/"
+    },
+    "id": "1789026368190-italy",
+    "date": "2026-09-10T07:46:08.190Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "Japan: A Nation of Nearly 14,000 Islands",
+      "content": "While often recognized for its four main islands, Japan is actually comprised of roughly 14,000 islands with a circumference of 100 meters or more. This vast number places Japan among the top five countries globally in terms of island count, with over 400 of these islands being inhabited. Many of these smaller islands boast unique cultures and ecosystems, offering diverse experiences beyond the major landmasses."
+    },
+    "culture": {
+      "title": "Funazushi: Japan's Ancient and Aromatic Fermented Sushi",
+      "content": "A true culinary marvel from the Lake Biwa region, Funazushi is an ancient form of sushi made by fermenting crucian carp with rice for an extraordinary period, sometimes up to four years. This intricate process results in a dish with a profoundly strong, unique flavor and aroma, making it one of Japan's most distinctive and historically significant fermented foods. It stands as a testament to traditional Japanese preservation techniques, predating modern sushi."
+    },
+    "news": {
+      "title": "Japanese Scientists Honored with Prestigious U.S. Lasker Awards",
+      "content": "Four Japanese researchers recently received the esteemed U.S. Lasker Awards, often considered 'America's Nobel Prizes,' for their groundbreaking contributions to medical science. Masashi Yanagisawa of the University of Tsukuba was recognized for co-identifying orexin, a brain peptide crucial for maintaining wakefulness, leading to new sleep-inducing medicines. Additionally, researchers from Chugai Pharmaceutical were honored for developing an innovative antibody therapy for hemophilia A, which has positively impacted over 30,000 patients.",
+      "url": "https://www.japantimes.co.jp/news/2026/09/10/science/japan-lasker-awards/"
+    },
+    "id": "1789026385030-japan",
+    "date": "2026-09-10T07:46:25.030Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Sole National Park: Peneda-Gerês",
       "content": "Deep in the country's northern reaches lies the Peneda-Gerês National Park, a stunning labyrinth of mountains, valleys, and forests that stands as Portugal's only national park. Established in 1971, this protected area uniquely blends breathtaking natural landscapes with human activity, preserving ancient traditions within its borders."
     },
