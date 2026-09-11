@@ -2,6 +2,78 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal: World Leader in Cork Production and the Unique Montado Ecosystem",
+      "content": "Portugal stands as the undisputed global leader in cork production, supplying approximately half of the world's cork. This industry is deeply intertwined with the unique Montado landscape, primarily in the Alentejo region, where cork oak trees (Quercus suber) are protected by law and harvested sustainably every nine years, ensuring the regeneration of this vital resource. The Montado ecosystem is not only an economic powerhouse but also one of Europe's most biodiverse environments, supporting numerous plant and animal species."
+    },
+    "culture": {
+      "title": "Festa das Fogaceiras: A Centuries-Old Vow of Gratitude",
+      "content": "The Festa das Fogaceiras, held annually on January 20th in Santa Maria da Feira, is a unique Portuguese tradition rooted in a centuries-old vow. Young girls, dressed in white, carry distinctive castle-shaped sweet bread called 'fogaças' on their heads in a procession. This custom originated from a pledge made by the community to the patron saint, São Sebastião, to protect them from the plague."
+    },
+    "news": {
+      "title": "Portugal Advances AI with AMALIA Language Model and Gigafactory Investment",
+      "content": "Portugal has made significant strides in artificial intelligence recently, launching AMALIA (Automatic Multimodal Language Assistant with Artificial Intelligence), the country's first large language model specifically designed for European Portuguese, on July 1, 2026. This open-source model aims to strengthen Portugal's digital sovereignty and is set to be integrated into public administration and the business ecosystem. Complementing this, in June 2026, the Portuguese Council of Ministers approved a €200 million investment to establish an AI Gigafactory, a strategic infrastructure to boost the national AI ecosystem and computing capacity.",
+      "url": "https://www.digital.gov.pt/en/news/amalia-multimodal-version-launched-on-1-july/"
+    },
+    "id": "1789112743081-portugal",
+    "date": "2026-09-11T07:45:43.081Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "The Ebro: Spain's Longest River Flowing Entirely Within its Borders",
+      "content": "While the Tagus River is the longest in the Iberian Peninsula, the Ebro holds the distinction of being the longest river that flows entirely within Spain. Rising in Cantabria and traversing 930 kilometers, it winds through numerous cities like Zaragoza and Tortosa before emptying into the Mediterranean Sea, forming a rich delta in southern Catalonia. The Ebro plays a vital role in irrigation, hydroelectric power, and has a basin covering over 80,000 square kilometers."
+    },
+    "culture": {
+      "title": "The Quirky Tradition of Napkins on the Bar Floor",
+      "content": "In many traditional Spanish bars and restaurants, particularly older establishments, it's a common sight to see used napkins and other debris, like olive pits or toothpick, scattered on the floor. Far from being a sign of poor hygiene, this unconventional custom often indicates a popular and bustling spot with delicious food, as locals toss their used serviettes to the ground as a testament to their enjoyment."
+    },
+    "news": {
+      "title": "Spain Achieves Record €82 Billion in Foreign Tourist Spending for First Seven Months of 2026",
+      "content": "Spain has reported a significant surge in its tourism sector, with foreign visitors spending a record €82 billion during the first seven months of 2026. This impressive figure highlights the country's continued appeal as a top global destination and signals robust economic recovery and growth within its vital tourism industry.",
+      "url": "https://www.spainenglish.com/2026/09/01/spain-sets-new-tourism-record-as-foreign-visitors-spend-e82-billion-in-first-seven-months-of-2026/"
+    },
+    "id": "1789112764224-spain",
+    "date": "2026-09-11T07:46:04.224Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "Isola del Garda: A Lake Island with a Multifaceted Past",
+      "content": "Isola del Garda, the largest island on Lake Garda, boasts a history spanning over two millennia. Once a Roman burial ground and later a refuge for pirates, it transformed into a site for a Franciscan monastery founded by Saint Francis of Assisi in the 13th century. Today, the island is privately owned by the Cavazza family and features a magnificent Venetian Neo-Gothic villa surrounded by lush gardens, offering a unique blend of natural beauty and profound historical layers."
+    },
+    "culture": {
+      "title": "New Year's Eve Red Underwear Tradition",
+      "content": "A unique Italian New Year's Eve tradition involves wearing red underwear, a custom believed to bring luck, love, and fertility in the coming year. This ritual, observed by both men and women, is so popular that stores across Italy feature special displays of red lingerie in December. It is even thought that the tradition may have roots dating back to Roman times, where red garments were considered a lucky charm."
+    },
+    "news": {
+      "title": "Italian Sanitation Workers Recover Million-Euro Lottery Ticket from Trash",
+      "content": "In a heartwarming turn of events, sanitation workers in southern Italy recovered a winning lottery ticket worth one million euros that a woman had mistakenly discarded. After realizing her mistake, the woman contacted the waste management company, which launched an extensive hours-long search through an entire truck of trash. The lucky ticket was miraculously found intact, ensuring she could claim her life-changing prize.",
+      "url": "https://www.goodnewsnetwork.org/garbage-workers-in-italy-help-woman-find-her-million-jackpot/"
+    },
+    "id": "1789112786757-italy",
+    "date": "2026-09-11T07:46:26.757Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "Aogashima: A Volcanic Island within a Volcano",
+      "content": "Located in the Philippine Sea, Aogashima is a uniquely captivating volcanic island that is part of Tokyo's Izu Islands. What makes it truly fascinating is its rare double caldera structure, meaning it is literally a volcano within a larger volcanic crater. This remote island is also notable for having the smallest population of any municipality in Japan, adding to its mystique."
+    },
+    "culture": {
+      "title": "Doyo no Ushi no Hi: Japan's Midsummer Eel Tradition",
+      "content": "Every summer, Japan observes Doyo no Ushi no Hi, often called 'Eel Day,' a unique cultural custom centered around eating unagi (eel). This tradition, dating back to the Edo period, is believed to help combat summer fatigue and gain stamina during the hottest days of the year. It stems from an ancient belief that consuming foods starting with the Japanese syllable 'u' on specific 'Ox Days' brings good fortune and health during seasonal transitions."
+    },
+    "news": {
+      "title": "JAXA's H3 Rocket Achieves Successful Return to Flight, Deploying Six Satellites",
+      "content": "The Japan Aerospace Exploration Agency (JAXA) successfully launched its H3 No. 6 rocket from the Tanegashima Space Center on June 12, 2026, marking a triumphant return to flight after a previous setback. The mission successfully deployed six ultra-small satellites into orbit, showcasing Japan's advancing capabilities in space technology. This launch was a significant step for the H3 program, demonstrating its reliability and cost-reduction efforts.",
+      "url": "https://www.space.com/japan-h3-rocket-successful-launch-6-satellites-june-2026"
+    },
+    "id": "1789112807630-japan",
+    "date": "2026-09-11T07:46:47.630Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal's Monarchical Extremes: The Shortest and Longest Reigns",
       "content": "Portugal holds a unique historical distinction for having both one of the shortest and one of the longest monarchical reigns. While King Luís Filipe's time on the throne lasted a mere 20 minutes, King Afonso I Henrique, Portugal's first king, ruled for an impressive 73 years, shaping the nascent nation's early history."
     },
