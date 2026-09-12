@@ -1,5 +1,74 @@
 [
   {
+    "title": "Cosmic Detective: Help NASA Distinguish Reality from Illusion in Deep Space",
+    "summary": "Imagine peering into the universe's farthest reaches, only to wonder if what you see is a real galaxy or just a trick of the light. NASA is inviting curious minds like yours to join a crucial mission: sifting through incredible telescope data to help scientists separate genuine cosmic phenomena from misleading visual 'artifacts'.",
+    "sections": [
+      {
+        "heading": "The Universe's Tricky Illusions",
+        "content": "When powerful telescopes capture images from hundreds of thousands of miles away, subtle distortions or errors, known as \"artifacts,\" can creep into the data. These aren't actual cosmic objects but rather glitches in the image processing or sensor readings, much like a smudge on a camera lens could be mistaken for a distant star. Distinguishing these from genuine celestial bodies is a critical challenge for astronomers trying to map the cosmos."
+      },
+      {
+        "heading": "Your Eyes, NASA's Breakthroughs",
+        "content": "That's where \"Artifact InSPECtor\" comes in, a new NASA citizen science project empowering you to become a vital part of cosmic discovery. By examining tiny sections of telescope data, you can help identify these elusive artifacts, essentially cleaning the universe's picture for scientists. Every artifact you help identify refines the data, ensuring that groundbreaking missions like Euclid and the Nancy Grace Roman Space Telescope yield the clearest, most accurate insights possible into the universe's biggest mysteries."
+      }
+    ],
+    "funFacts": [
+      "Space telescopes like Euclid and the Nancy Grace Roman Space Telescope collect vast amounts of data, equivalent to thousands of images every hour.",
+      "\"Artifacts\" are essentially digital noise or imperfections that can mimic real cosmic objects, making them tough for automated systems to always detect.",
+      "By participating in citizen science projects like Artifact InSPECtor, you're directly contributing to research that could reshape our understanding of the cosmos, without needing any prior scientific background."
+    ],
+    "originalTitle": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+    "originalUrl": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+    "id": "1789198239869-xlzik",
+    "date": "2026-09-12T07:30:39.869Z"
+  },
+  {
+    "title": "Cosmic Clash: Chandra Peers into a Violent Galactic Merge",
+    "summary": "NASA's Chandra X-ray Observatory has captured a stunning image of two galaxies locked in a ferocious cosmic dance, revealing the powerful black hole activity and superheated gas that fuel such monumental events.",
+    "sections": [
+      {
+        "heading": "When Galaxies Collide: A Furious Cosmic Dance",
+        "content": "Imagine two colossal cities made of stars, gas, and dust hurtling towards each other. That's essentially what's happening in the II Zw 096 system, where two galaxies are merging at an incredible speed. This isn't a gentle embrace but a violent reorganization of cosmic matter, sparking new star formation and dramatic transformations across vast distances."
+      },
+      {
+        "heading": "Peering Through the Chaos: Black Holes and Hot Gas",
+        "content": "While optical telescopes show the visual beauty of these merging galaxies, NASA's Chandra X-ray Observatory cuts through the dust and gas to reveal the unseen drama. Its X-ray data highlights intensely hot gas and the powerful activity of central supermassive black holes, which are voraciously feeding amidst the chaos. These glowing X-ray 'hot spots' are crucial clues to understanding the energetic processes that drive galactic evolution during such spectacular collisions."
+      }
+    ],
+    "funFacts": [
+      "X-ray telescopes like Chandra must operate in space because Earth's atmosphere blocks cosmic X-rays, shielding us but also requiring observatories beyond our planet.",
+      "Galactic mergers aren't rare; they're a fundamental process by which galaxies grow and evolve, with our own Milky Way destined to merge with the Andromeda galaxy in billions of years.",
+      "Supermassive black holes, though incredibly dense, play a vital role in shaping their host galaxies, sometimes even regulating star formation during such dramatic cosmic collisions."
+    ],
+    "originalTitle": "NASA&#8217;s Chandra Spots Galactic Gem",
+    "originalUrl": "https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem/",
+    "id": "1789198250402-45mn3",
+    "date": "2026-09-12T07:30:50.402Z"
+  },
+  {
+    "title": "Homeward Bound: International Space Crew Prepares for Earth Return After Inspiring Mission",
+    "summary": "An international crew of four astronauts and cosmonauts, having spent months aboard the International Space Station (ISS), is preparing for their journey back to Earth and will soon share insights from their extraordinary orbital mission.",
+    "sections": [
+      {
+        "heading": "Meet the Global Crew Ready for Landing",
+        "content": "NASA astronauts Jessica Meir and Jack Hathaway, alongside ESA's Sophie Adenot and Roscosmos cosmonaut Andrey Fedyaev, have been collaborating on vital scientific research and station maintenance hundreds of miles above Earth. Their upcoming news conference directly from the ISS offers a rare glimpse into the life and work of these dedicated space explorers as their mission nears its end."
+      },
+      {
+        "heading": "From Orbit to Home: The Journey Back",
+        "content": "The return journey from the International Space Station is a complex ballet of engineering and precision, culminating in a thrilling re-entry into Earth's atmosphere. This highly anticipated event marks the successful conclusion of their extended stay in microgravity, where they've contributed to a deeper understanding of our universe and the human body in space."
+      }
+    ],
+    "funFacts": [
+      "The International Space Station, a marvel of international collaboration, orbits Earth at approximately 17,500 miles per hour, completing an orbit every 90 minutes.",
+      "Astronauts aboard the ISS conduct a wide array of scientific experiments, from studying crystal growth in microgravity to observing Earth's changing climate.",
+      "Upon returning to Earth, astronauts undergo a period of readjustment to gravity, which can affect balance, coordination, and bone density after months in space."
+    ],
+    "originalTitle": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
+    "originalUrl": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-to-discuss-station-mission-upcoming-return/",
+    "id": "1789198258918-q6zcn",
+    "date": "2026-09-12T07:30:58.918Z"
+  },
+  {
     "title": "AI Takes on a Million-Dollar Math Mystery: OpenAI's Bold Claim Stuns Mathematicians",
     "summary": "OpenAI, the powerhouse behind popular AI tools, has thrown a curveball into the world of pure mathematics by claiming to have made a breakthrough on one of the incredibly difficult Millennium Prize Problems. This audacious announcement has set mathematicians scrambling to understand what could be a monumental shift in how we approach fundamental mathematical challenges.",
     "sections": [
