@@ -124,20 +124,19 @@ function buildPlainTextEmail(subscriberPreferences, post, unsubUrl, scienceArtic
     });
   }
 
-  if (prefs.countries && Array.isArray(prefs.countries) && prefs.countries.length > 0 && countryPosts && countryPosts.length > 0) {
-    prefs.countries.forEach(countryName => {
-      const countryPost = countryPosts.find(p => p.country.toLowerCase() === countryName.toLowerCase());
-      if (countryPost) {
-        text += `---\n🇵🇹 COUNTRIES CORNER: ${countryPost.country.toUpperCase()}\n\n`;
-        text += `Fact of the Day: ${countryPost.fact.title}\n`;
-        text += `${countryPost.fact.content}\n\n`;
-        text += `Cultural Insight: ${countryPost.culture.title}\n`;
-        text += `${countryPost.culture.content}\n\n`;
-        text += `News & Events: ${countryPost.news.title}\n`;
-        text += `${countryPost.news.content}\n`;
-        text += `Source: ${countryPost.news.url}\n\n`;
-      }
-    });
+  const hasCountriesPref = prefs.countries !== false && prefs.countries !== "false";
+  if (hasCountriesPref && countryPosts && countryPosts.length > 0) {
+    const countryPost = countryPosts[0];
+    if (countryPost) {
+      text += `---\n🌍 COUNTRIES CORNER: ${countryPost.country.toUpperCase()}\n\n`;
+      text += `Fact of the Day: ${countryPost.fact.title}\n`;
+      text += `${countryPost.fact.content}\n\n`;
+      text += `Cultural Insight: ${countryPost.culture.title}\n`;
+      text += `${countryPost.culture.content}\n\n`;
+      text += `News & Events: ${countryPost.news.title}\n`;
+      text += `${countryPost.news.content}\n`;
+      if (countryPost.news.url) text += `Source: ${countryPost.news.url}\n\n`;
+    }
   }
 
   text += `---\n`;
@@ -308,11 +307,11 @@ function buildEmailHtml(subscriberPreferences, post, unsubUrl, scienceArticles =
   ` : "";
 
   let countriesHtml = "";
-  if (prefs.countries && Array.isArray(prefs.countries) && prefs.countries.length > 0 && countryPosts && countryPosts.length > 0) {
-    prefs.countries.forEach(countryName => {
-      const countryPost = countryPosts.find(p => p.country.toLowerCase() === countryName.toLowerCase());
-      if (countryPost) {
-        countriesHtml += `
+  const hasCountriesPrefHtml = prefs.countries !== false && prefs.countries !== "false";
+  if (hasCountriesPrefHtml && countryPosts && countryPosts.length > 0) {
+    const countryPost = countryPosts[0];
+    if (countryPost) {
+      countriesHtml = `
   <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
   <div style="
     background: #FFF9E6;
@@ -329,7 +328,7 @@ function buildEmailHtml(subscriberPreferences, post, unsubUrl, scienceArticles =
       margin: 0 0 16px;
       font-weight: bold;
       font-family: Arial, sans-serif;">
-      🇵🇹 Countries Corner: ${countryPost.country}
+      🌍 Countries Corner: ${countryPost.country}
     </p>
     
     <!-- Fact section -->
@@ -344,6 +343,7 @@ function buildEmailHtml(subscriberPreferences, post, unsubUrl, scienceArticles =
     <h4 style="font-family:Georgia,serif;font-size:16px;color:#1C1C1E;margin:0 0 6px;line-height:1.3">📰 News & Events: ${countryPost.news.title}</h4>
     <p style="font-size:14px;line-height:1.6;color:#333;margin:0 0 12px">${countryPost.news.content}</p>
     
+    ${countryPost.news.url ? `
     <div>
       <a href="${countryPost.news.url}" style="
         display: inline-block;
@@ -354,9 +354,9 @@ function buildEmailHtml(subscriberPreferences, post, unsubUrl, scienceArticles =
         Read full news source →
       </a>
     </div>
+    ` : ""}
   </div>`;
-      }
-    });
+    }
   }
 
   return `<!DOCTYPE html>
@@ -445,17 +445,24 @@ exports.handler = async (event) => {
       siteID: process.env.NETLIFY_SITE_ID,
       token: process.env.NETLIFY_TOKEN,
     });
-    const { blobs } = await store.list();
-    log(`Subscribers found: ${blobs.length}`);
+    const dispatchStore = getStore({
+      name: "dispatch_logs",
+      siteID: process.env.NETLIFY_SITE_ID,
+      token: process.env.NETLIFY_TOKEN,
+    });
 
-    if (blobs.length === 0) {
+    const { blobs } = await store.list();
+    const subscriberBlobs = blobs.filter(b => b.key.startsWith("email:"));
+    log(`Subscribers found: ${subscriberBlobs.length}`);
+
+    if (subscriberBlobs.length === 0) {
       log("No subscribers found. Skipping email sending.");
       return { statusCode: 200, body: JSON.stringify({ message: "No subscribers" }) };
     }
 
     const todayStr = new Date().toISOString().split("T")[0];
     const dispatchKey = `dispatch_log_${todayStr}_${postData.id}`;
-    const alreadyDispatched = await store.get(dispatchKey).catch(() => null);
+    const alreadyDispatched = await dispatchStore.get(dispatchKey).catch(() => null);
 
     if (alreadyDispatched && !postData.forceSend) {
       log(`Post "${postData.title}" (${postData.id}) was already emailed today (${todayStr}). Skipping duplicate batch send to save Resend quota.`);
@@ -468,8 +475,8 @@ exports.handler = async (event) => {
 
     // Send in batches of 100 (Resend free tier limit is 100/day)
     const batchSize = 100;
-    for (let i = 0; i < blobs.length; i += batchSize) {
-      const batch = blobs.slice(i, i + batchSize);
+    for (let i = 0; i < subscriberBlobs.length; i += batchSize) {
+      const batch = subscriberBlobs.slice(i, i + batchSize);
       await Promise.all(
         batch.map(async (blob) => {
           try {
@@ -486,7 +493,7 @@ exports.handler = async (event) => {
             const prefs = subscriberData.preferences || { thingsource: true };
             const hasThingsource = prefs.thingsource !== false;
             const hasScience = prefs.science === true && scienceArticles && scienceArticles.length > 0;
-            const hasCountries = prefs.countries && Array.isArray(prefs.countries) && prefs.countries.length > 0 && countryPosts && countryPosts.length > 0;
+            const hasCountries = prefs.countries !== false && prefs.countries !== "false" && countryPosts && countryPosts.length > 0;
 
             if (!hasThingsource && !hasScience && !hasCountries) {
               log(`Skipping ${subscriberData.email} (all preferred categories disabled for this post)`);
@@ -522,7 +529,7 @@ exports.handler = async (event) => {
     }
 
     // Save dispatch record to prevent accidental duplicate sends today
-    await store.set(dispatchKey, JSON.stringify({
+    await dispatchStore.set(dispatchKey, JSON.stringify({
       dispatchedAt: new Date().toISOString(),
       sentCount: sentEmails.size
     })).catch(err => log(`Warning: Failed to save dispatch key: ${err.message}`));

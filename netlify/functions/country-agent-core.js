@@ -53,6 +53,14 @@ Do all of the following in one response. Return ONLY a raw JSON object with no m
   }
 }
 
+const COUNTRY_POOL = [
+  "Portugal", "Spain", "Italy", "Japan", "France", "Greece", "Brazil",
+  "Mexico", "Iceland", "Egypt", "Norway", "South Korea", "Thailand",
+  "Ireland", "Switzerland", "Peru", "Australia", "Turkey", "Vietnam",
+  "Canada", "Argentina", "Morocco", "New Zealand", "India", "Scotland",
+  "Netherlands", "Sweden", "Costa Rica", "Indonesia", "Kenya"
+];
+
 async function runCountryAgent() {
   console.log("[country-agent] Starting run...");
 
@@ -62,39 +70,7 @@ async function runCountryAgent() {
   }
   const ai = new GoogleGenAI({ apiKey });
 
-  // 1. Determine active countries from subscribers Blob store
-  console.log("[country-agent] Fetching subscriber list to find active countries...");
-  const activeCountries = new Set(["Portugal"]); // Seed country always active
-  try {
-    const store = getStore({
-      name: "subscribers",
-      siteID: process.env.NETLIFY_SITE_ID,
-      token: process.env.NETLIFY_TOKEN,
-    });
-    const { blobs } = await store.list();
-    for (const blob of blobs) {
-      try {
-        const raw = await store.get(blob.key);
-        const sub = JSON.parse(raw || "{}");
-        if (sub.preferences && Array.isArray(sub.preferences.countries)) {
-          sub.preferences.countries.forEach(c => {
-            if (c && typeof c === "string") {
-              activeCountries.add(c.trim());
-            }
-          });
-        }
-      } catch (err) {
-        // ignore individual parse errors
-      }
-    }
-  } catch (err) {
-    console.warn("[country-agent] Failed to query Netlify Blobs for active countries. Using default: Portugal.", err.message);
-  }
-
-  const countriesList = Array.from(activeCountries);
-  console.log(`[country-agent] Active countries to process: ${countriesList.join(", ")}`);
-
-  // 2. Fetch existing country posts from GitHub
+  // 1. Fetch existing country posts from GitHub
   console.log("[country-agent] Fetching country-posts.json from GitHub...");
   const repoPath = `https://api.github.com/repos/${process.env.GITHUB_REPO}/contents/public/country-posts.json`;
   const headers = {
@@ -129,7 +105,16 @@ async function runCountryAgent() {
     console.error("[country-agent] Error checking remote country-posts.json:", err.message);
   }
 
-  // 3. Generate data for each country
+  // 2. Select randomized country not covered in the last 10 posts
+  const recentCountries = new Set(existingPosts.slice(0, 10).map(p => p.country?.toLowerCase()));
+  const availablePool = COUNTRY_POOL.filter(c => !recentCountries.has(c.toLowerCase()));
+  const selectedPool = availablePool.length > 0 ? availablePool : COUNTRY_POOL;
+  
+  const randomCountry = selectedPool[Math.floor(Math.random() * selectedPool.length)];
+  const countriesList = [randomCountry];
+  console.log(`[country-agent] Selected randomized country for today: ${randomCountry}`);
+
+  // 3. Generate data for selected country
   const newPosts = [];
   for (const country of countriesList) {
     try {

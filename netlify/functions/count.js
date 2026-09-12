@@ -14,11 +14,12 @@ exports.handler = async (event, context) => {
       token: process.env.NETLIFY_TOKEN,
     });
     const { blobs } = await store.list();
+    const count = blobs.filter(b => b.key.startsWith("email:")).length;
 
     return {
       statusCode: 200,
       headers,
-      body: JSON.stringify({ count: blobs.length })
+      body: JSON.stringify({ count })
     };
   } catch (error) {
     console.error("Error in count function:", error);

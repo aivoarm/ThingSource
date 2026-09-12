@@ -448,6 +448,7 @@
     <div class="controls-wrapper">
       <span style="font-weight: 600;">Choose Country:</span>
       <select id="country-select" class="country-dropdown">
+        <option value="ALL">All Countries 🌍</option>
         <option value="Portugal">Portugal 🇵🇹</option>
         <option value="Spain">Spain 🇪🇸</option>
         <option value="Italy">Italy 🇮🇹</option>
@@ -481,31 +482,9 @@
             <span>ScienceSimple (Daily Science Snippets)</span>
           </label>
           <label class="pref-label">
-            <input type="checkbox" id="sub-countries" checked class="pref-checkbox" onchange="document.getElementById('sub-country-select-box').style.display = this.checked ? 'block' : 'none'">
-            <span>About Countries (Trivia & News)</span>
+            <input type="checkbox" id="sub-countries" checked class="pref-checkbox">
+            <span>About Countries (Daily Trivia & News)</span>
           </label>
-          
-          <div id="sub-country-select-box" style="margin-top: 0.5rem; padding-left: 1.25rem;">
-            <p style="font-size: 0.75rem; opacity: 0.7; margin-bottom: 0.25rem;">Select Countries:</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem;">
-              <label style="display: flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; cursor: pointer;">
-                <input type="checkbox" class="sub-country-item" value="Portugal" checked>
-                <span>Portugal 🇵🇹</span>
-              </label>
-              <label style="display: flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; cursor: pointer;">
-                <input type="checkbox" class="sub-country-item" value="Spain">
-                <span>Spain 🇪🇸</span>
-              </label>
-              <label style="display: flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; cursor: pointer;">
-                <input type="checkbox" class="sub-country-item" value="Italy">
-                <span>Italy 🇮🇹</span>
-              </label>
-              <label style="display: flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; cursor: pointer;">
-                <input type="checkbox" class="sub-country-item" value="Japan">
-                <span>Japan 🇯🇵</span>
-              </label>
-            </div>
-          </div>
         </div>
 
         <div class="cf-turnstile" data-sitekey="0x4AAAAAAElXHUV1P7qCVpI7" data-theme="dark" style="display: flex; justify-content: center; margin: 0.5rem 0; min-height: 65px;"></div>

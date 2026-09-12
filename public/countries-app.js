@@ -42,7 +42,9 @@ function renderCountryFeed() {
   if (!feedContainer || !countrySelect) return;
   
   const selectedCountry = countrySelect.value;
-  const filtered = appState.posts.filter(p => p.country.toLowerCase() === selectedCountry.toLowerCase());
+  const filtered = selectedCountry === 'ALL'
+    ? appState.posts
+    : appState.posts.filter(p => p.country.toLowerCase() === selectedCountry.toLowerCase());
   
   if (filtered.length === 0) {
     feedContainer.innerHTML = `
@@ -105,19 +107,12 @@ async function handleSubscribe(e) {
   
   const thingsourcePref = document.getElementById('sub-thingsource')?.checked !== false;
   const sciencePref = document.getElementById('sub-science')?.checked === true;
-  const countriesCheck = document.getElementById('sub-countries')?.checked === true;
-  
-  const countries = [];
-  if (countriesCheck) {
-    document.querySelectorAll('.sub-country-item:checked').forEach(cb => {
-      countries.push(cb.value);
-    });
-  }
-  
+  const countriesCheck = document.getElementById('sub-countries')?.checked !== false;
+
   const preferences = {
     thingsource: thingsourcePref,
     science: sciencePref,
-    countries: countries
+    countries: countriesCheck
   };
   
   const b_hp_field = document.getElementById('b_hp_field')?.value || '';

@@ -96,7 +96,7 @@ exports.handler = async (event, context) => {
     const preferences = body.preferences || {
       thingsource: true,
       science: true,
-      countries: []
+      countries: true
     };
 
     const store = getStore({

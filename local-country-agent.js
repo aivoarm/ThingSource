@@ -53,6 +53,13 @@ Do all of the following in one response. Return ONLY a raw JSON object with no m
   return JSON.parse(text);
 }
 
+const COUNTRY_POOL = [
+  "Portugal", "Spain", "Italy", "Japan", "France", "Greece", "Brazil",
+  "Mexico", "Iceland", "Egypt", "Norway", "South Korea", "Thailand",
+  "Ireland", "Switzerland", "Peru", "Australia", "Turkey", "Vietnam",
+  "Canada", "Argentina", "Morocco", "New Zealand", "India", "Scotland"
+];
+
 async function runLocalCountryAgent() {
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
@@ -63,10 +70,6 @@ async function runLocalCountryAgent() {
   const ai = new GoogleGenAI({ apiKey });
   
   try {
-    // 1. In local testing, let's process "Portugal" and "Spain" as defaults
-    const countries = ["Portugal", "Spain"];
-    console.log(`Running local country agent for: ${countries.join(", ")}`);
-
     let existingPosts = [];
     if (fs.existsSync(postsPath)) {
       try {
@@ -75,6 +78,14 @@ async function runLocalCountryAgent() {
         console.warn("Could not read country-posts.json, starting fresh.");
       }
     }
+
+    const recentCountries = new Set(existingPosts.slice(0, 10).map(p => p.country?.toLowerCase()));
+    const availablePool = COUNTRY_POOL.filter(c => !recentCountries.has(c.toLowerCase()));
+    const selectedPool = availablePool.length > 0 ? availablePool : COUNTRY_POOL;
+    
+    const randomCountry = selectedPool[Math.floor(Math.random() * selectedPool.length)];
+    const countries = [randomCountry];
+    console.log(`Running local country agent for randomized country: ${randomCountry}`);
 
     const newPosts = [];
     for (const country of countries) {
