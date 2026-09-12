@@ -469,6 +469,35 @@ function openPost(id) {
   const twImg = document.querySelector('meta[name="twitter:image"]');
   if (twImg) twImg.setAttribute("content", coverImage);
 
+  const positiveThoughtHtml = post.positiveThought
+    ? `
+      <div class="positive-thought-box" style="
+        background-color: #F4F8F6;
+        border-left: 4px solid #0D7A6B;
+        border-radius: 8px;
+        padding: 1.25rem 1.5rem;
+        margin: 1.5rem 0 2rem 0;
+      ">
+        <p style="
+          font-family: var(--font-sans, sans-serif);
+          font-size: 0.75rem;
+          color: #0D7A6B;
+          text-transform: uppercase;
+          letter-spacing: 0.12em;
+          margin: 0 0 0.5rem 0;
+          font-weight: 700;
+        ">✨ Positive Thought for the Day</p>
+        <p style="
+          font-family: var(--font-serif, serif);
+          font-size: 1.05rem;
+          line-height: 1.65;
+          color: #2C3E35;
+          margin: 0;
+          font-style: italic;
+        ">&ldquo;${escapeHtml(post.positiveThought)}&rdquo;</p>
+      </div>
+    ` : '';
+
   modalContent.innerHTML = `
     <div class="post-detail-container">
       <div style="margin-bottom: 1.5rem;">
@@ -479,6 +508,7 @@ function openPost(id) {
         <span>📅 ${dateStr}</span>
         <span>🔍 Topic: ${escapeHtml(post.topic)}</span>
       </div>
+      ${positiveThoughtHtml}
       <div class="post-detail-hero-image">
         ${getPostImage(post)}
       </div>

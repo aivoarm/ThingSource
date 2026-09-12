@@ -207,6 +207,14 @@ Choose something completely different and not on that list.${categoryNudge}
    - It must be completely different from these recently used facts/topics:
      ${avoidPortugalFactsList || "None yet"}
 
+5. Generate a Positive Thought:
+   - A single original uplifting thought for the Positive Thoughts section at the very top of the daily email digest.
+   - Quote-style, 2–3 sentences max. No attribution.
+   - Warm, human, grounded, philosophical, or gently funny — NOT corporate-motivational or LinkedIn-style.
+   - NEVER use clichés like "believe in yourself", "every day is a gift", "you got this", or anything that sounds like a LinkedIn post.
+   - Can optionally tie into curiosity or finding wonder in small things, but don't force it every day.
+   - DO NOT reuse example quotes.
+
 ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
 - Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
@@ -239,6 +247,7 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   "imageKeywords": ["editorial scene/object keyword 1", "editorial scene/object keyword 2"],
   "wikiKeywords": "3-5 words matching a Wikipedia article with a real photo (person name, place name, historical event)",
   "citations": ["url1", "url2"],
+  "positiveThought": "2-3 sentence original uplifting thought (quote-style, warm/human, no clichés)",
   "portugalFact": {
     "title": "A short engaging title for the Portugal fact",
     "content": "2-3 engaging sentences describing the fact/history/culture."
@@ -276,6 +285,14 @@ Choose something completely different and not on that list.${categoryNudge}
    - It must be completely different from these recently used facts/topics:
      ${avoidPortugalFactsList || "None yet"}
 
+5. Generate a Positive Thought:
+   - A single original uplifting thought for the Positive Thoughts section at the very top of the daily email digest.
+   - Quote-style, 2–3 sentences max. No attribution.
+   - Warm, human, grounded, philosophical, or gently funny — NOT corporate-motivational or LinkedIn-style.
+   - NEVER use clichés like "believe in yourself", "every day is a gift", "you got this", or anything that sounds like a LinkedIn post.
+   - Can optionally tie into curiosity or finding wonder in small things, but don't force it every day.
+   - DO NOT reuse example quotes.
+
 ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
 - Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
@@ -308,6 +325,7 @@ Return ONLY a raw JSON object with no markdown, no backticks:
   "imageKeywords": ["editorial scene/object keyword 1", "editorial scene/object keyword 2"],
   "wikiKeywords": "3-5 words matching a Wikipedia article with a real photo (person name, place name, historical event)",
   "citations": ["url1", "url2"],
+  "positiveThought": "2-3 sentence original uplifting thought (quote-style, warm/human, no clichés)",
   "portugalFact": {
     "title": "A short engaging title for the Portugal fact",
     "content": "2-3 engaging sentences describing the fact/history/culture."

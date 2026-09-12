@@ -67,11 +67,42 @@ async function fetchCountryPosts() {
   return [];
 }
 
+const FALLBACK_POSITIVE_THOUGHTS = [
+  "The world is full of quiet craftsmanship. Someone spent weeks testing the exact curve of a door handle just so it would feel right in your palm when you open it.",
+  "Notice how many simple miracles you rely on before breakfast. Clean running water, a warm brew, and invisible signals carrying words across oceans.",
+  "You don't need to unravel the whole mystery today. Figuring out one small mechanism or paying attention to one detail is already a good day's work.",
+  "Patience isn't just waiting around; it's the quiet work of letting complex things take their natural time to settle.",
+  "Almost everything around you started as a tiny irritation that someone decided was worth fixing. Today, give yourself permission to fix one small nuisance.",
+  "The most interesting discoveries usually happen when you stop rushing to the destination and look closely at what everyone else walked past.",
+  "You don't have to be productive every single minute. Sometimes the most creative work happens when your mind is simply taking a walk.",
+  "Behind every routine tool in your life is a story of trial, error, and someone who refused to give up on a silly idea. We are all walking among monuments to stubborn curiosity.",
+  "Clear thinking doesn't come from having all the answers. It starts with asking one good question that nobody thought to ask.",
+  "Give yourself credit for the quiet progress no one else sees. Moving forward half an inch is still moving forward."
+];
+
+function getPositiveThought(post) {
+  if (post && post.positiveThought && typeof post.positiveThought === "string" && post.positiveThought.trim()) {
+    return post.positiveThought.trim();
+  }
+  let seed = 0;
+  const keyStr = (post && (post.id || post.date || post.title)) || "";
+  for (let i = 0; i < keyStr.length; i++) {
+    seed += keyStr.charCodeAt(i);
+  }
+  const idx = seed ? (seed % FALLBACK_POSITIVE_THOUGHTS.length) : Math.floor(Math.random() * FALLBACK_POSITIVE_THOUGHTS.length);
+  return FALLBACK_POSITIVE_THOUGHTS[idx];
+}
+
 // ─── Plain-text builder ────────────────────────────────────────────────────
 function buildPlainTextEmail(subscriberPreferences, post, unsubUrl, scienceArticles = [], countryPosts = []) {
   const prefs = subscriberPreferences || { thingsource: true };
+  const positiveThought = getPositiveThought(post);
   let text = "";
   text += `THINGSOURCE (https://ts.armanayva.com) — YOUR MORNING DIGEST\n\n`;
+
+  text += `✨ POSITIVE THOUGHT FOR THE DAY\n`;
+  text += `"${positiveThought}"\n\n`;
+  text += `---\n\n`;
 
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
 
@@ -168,6 +199,7 @@ function buildPlainTextEmail(subscriberPreferences, post, unsubUrl, scienceArtic
 function buildEmailHtml(subscriberPreferences, post, unsubUrl, scienceArticles = [], countryPosts = []) {
   const prefs = subscriberPreferences || { thingsource: true };
   const postUrl = `https://ts.armanayva.com/blog/${post.slug || post.id}`;
+  const positiveThought = getPositiveThought(post);
 
   let thingsourceHtml = "";
   if (prefs.thingsource !== false) {
@@ -371,6 +403,16 @@ function buildEmailHtml(subscriberPreferences, post, unsubUrl, scienceArticles =
   <p style="font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.08em;margin:0 0 24px">Your Morning Digest</p>
 
   <hr style="border:none;border-top:1px solid #eee;margin:0 0 24px">
+
+  <!-- Positive Thought Section -->
+  <div style="background:#F4F8F6;border-left:4px solid #0D7A6B;border-radius:8px;padding:20px 24px;margin:0 0 28px;">
+    <p style="font-family:Arial,sans-serif;font-size:11px;color:#0D7A6B;text-transform:uppercase;letter-spacing:0.12em;margin:0 0 10px;font-weight:bold;">
+      ✨ Positive Thought for the Day
+    </p>
+    <p style="font-family:Georgia,serif;font-size:16px;line-height:1.65;color:#2C3E35;margin:0;font-style:italic;">
+      &ldquo;${positiveThought}&rdquo;
+    </p>
+  </div>
 
   <!-- Content Sections -->
   ${thingsourceHtml}
