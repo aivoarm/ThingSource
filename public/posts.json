@@ -1,5 +1,58 @@
 [
   {
+    "topic": "T-shirt origin",
+    "title": "From Undergarment to Icon: The Surprisingly Humble Beginning of the T-Shirt",
+    "category": "Culture | Inventions",
+    "summary": "The ubiquitous t-shirt, a staple of casual wear around the world, began its life far from fashion runways as a practical undergarment for 19th-century laborers and U.S. Navy sailors.",
+    "sections": [
+      {
+        "heading": "From Union Suits to Naval Uniforms",
+        "content": "The modern t-shirt traces its earliest roots to the late 19th century, evolving from the one-piece 'union suit' underwear. Workers in hot environments began cutting these full-body garments in half, creating a two-piece undergarment with a top long enough to tuck in. The first mass-produced t-shirt in the United States was officially introduced in 1913 by the U.S. Navy, becoming a standard white, buttonless, crew-neck undershirt for sailors, prized for its quick-drying, breathable cotton fabric suitable for tropical climates."
+      },
+      {
+        "heading": "A Name is Born, An Icon Emerges",
+        "content": "The actual term \"t-shirt\" officially entered the English language in 1920, making its literary debut in F. Scott Fitzgerald's novel *This Side of Paradise*. While initially an undergarment, by the 1940s and 50s, WWII veterans often wore their undershirts as casual outerwear, leading to a cultural shift. The t-shirt's transformation into a symbol of youthful rebellion and cool was solidified by actors like Marlon Brando in *A Streetcar Named Desire* (1950) and James Dean in *Rebel Without a Cause* (1955), who famously sported the garment as a standalone fashion statement. The 1960s then saw the rise of the graphic tee, enabled by multicolor screen-printing technology, turning the simple shirt into a canvas for self-expression, advertising, and protest."
+      }
+    ],
+    "funFacts": [
+      "Before it was widely accepted as outerwear, the t-shirt was sometimes referred to as a 'gob,' a slang term for a sailor.",
+      "Early t-shirts were popular among young boys due to their ease of cleaning and comfortable fit, gradually opening up the idea of wearing them as general-purpose casual clothing.",
+      "Just as learning the surprising origins of everyday words on the Slang learning app can deepen your understanding of language, discovering the t-shirt's journey from a naval undergarment to a global fashion icon reveals a fascinating evolution in cultural expression."
+    ],
+    "imageKeywords": [
+      "vintage US Navy t-shirt",
+      "Marlon Brando A Streetcar Named Desire t-shirt",
+      "1950s James Dean t-shirt",
+      "early graphic tee 1960s"
+    ],
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6QxJ2HcA7LIpKt1F0obH6-_kMgR6DYYHZFBrDoJ8iQLesyRRKmOlgCvuvewsN233uGFUD_HfX2HsR1hUYbc0ZwrRzgrrxJ7WcuOWX4g6UY6zgrz0PIRAa6q7aQjRp5ITSgjtXOxIL",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX7cEuW-lFRiTRQLyPOjRN6dtLwIgaGQ7WMLcHHow6SkFqrNLSKJwCVYhBjF891R65ODBpIktj4hwP-Rp32c0Rt4DWL5qheExuIdD0ZtojOx9Euf3OdZLFmwye6PxEzg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9uv3M7C3sCLPJDL8qLuU7k0Rwn9sLpPwqIrbQaTXXuDhek3XWTLh80Ex8N-_3ckdZ-tTGufGp-Q8psnSjS93fLQ20oZxbCOF4C7WNsiRXlfzI9eHWq71afZI6h1345zNuCtGA5xxnPLyXLHQ3ywZVd694bhhElsOVRuWnnfmIMctj8TEkp76gG-fWyyFc4WcJv30GRC2A",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0xfzyb_Hz_glU7w4plRv28hKXpz2N-L-66LP3P5ifc_cC1NeRIUw5EESw0n3lTcDdW3Q9Vc5TiAXpQx5VocKiXTVIeLRHdKVv39pP3XiFybskwNIgL4PKbkZpqk8qZz5eB3p9KMmCvQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFewVogt6sE8ql7Lm9mDJSuXOKVeBXN7aPCrQV-4sxUbCisV30VUXhpf5YXkwYd63JT8UJNNfryVA1O0ZiX65WKkjKoiSfHEEx7vizyAg5tvePreZlVWgu-P3hfOrtPN4sJsS9GQ_dgpAsJCdh34_GRcTblTaHSMZiQtN-1h2KGE5KRNrdIaJ7VgTO6QNyYv8342JwZlNQLfnGuQtkwDvM="
+    ],
+    "portugalFact": {
+      "title": "Calçada Portuguesa: Lisbon's Artistic Pavements Born from Ingenuity",
+      "content": "The iconic mosaic-like \"Calçada Portuguesa,\" made from small, hand-laid stones, transformed Lisbon's urban landscape in the mid-19th century. While earlier functional stone paving existed since Roman times, the distinct artistic style emerged in 1842 when prisoners at São Jorge Castle, under Lieutenant-General Eusebio Pinheiro Furtado, created decorative patterns. This innovative method soon spread, most notably with the famous wave pattern laid in Rossio Square in 1848, a homage to Portugal's maritime exploration, turning city streets into vibrant works of art and a symbol of national identity."
+    },
+    "aiSource": "Gemini",
+    "id": "1789196463827-t-shirt-origin",
+    "slug": "from-undergarment-to-icon-the-surprisingly-humble-beginning-",
+    "date": "2026-09-12T07:01:03.827Z",
+    "joke": {
+      "joke": "Three men are in the middle of a desert when their car breaks down. For their hike to town, they each decide to take one thing with them. One man takes a jug of water. The second man takes a sandwich. The last man takes one of the car doors. The first man says to the last man, 'I'm bringing the water because if I get thirsty, I can take a drink. And it makes sense to bring a sandwich in case we get hungry, but why bring a car door?' The last man replies, 'If I get hot, I can just roll down the window.'",
+      "setup": "Three men are in the middle of a desert when their car breaks down. For their hike to town, they each decide to take one thing with them. One man takes a jug of water. The second man takes a sandwich. The last man takes one of the car doors. The first man says to the last man, 'I'm bringing the water because if I get thirsty, I can take a drink. And it makes sense to bring a sandwich in case we get hungry, but why bring a car door?'",
+      "punchline": "The last man replies, 'If I get hot, I can just roll down the window.'",
+      "comedian": "Traditional",
+      "year": "Classic/Traditional",
+      "context": "This joke is widely considered a classic due to its brilliant and unexpected punchline, which relies on a literal interpretation of the idiom 'rolling down the window' in a completely illogical context. Its simplicity and clever twist ensure it consistently elicits smiles and laughter, making it a timeless example of wordplay humor."
+    },
+    "images": [
+      "https://picsum.photos/seed/1789196463827-t-shirt-origin/800/500"
+    ]
+  },
+  {
     "topic": "The Christmas Tree",
     "title": "From Pagan Roots to Festive Centerpieces: The Surprising Origin of the Christmas Tree",
     "category": "Culture",
