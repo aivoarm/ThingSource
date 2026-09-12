@@ -75,41 +75,22 @@ async function getBestImage({ keywords, category, id, title }) {
     }
   }
 
-  // SOURCE 2: Unsplash Source API
+  // SOURCE 2: Unsplash Featured API with subject keywords
   try {
-    log(`Trying Unsplash Source API...`);
-    const kwList = [...(keywords || []), category || ""]
-      .join(",")
-      .toLowerCase()
-      .replace(/[^a-z0-9,]/g, "");
-
-    const unsplashUrl = `https://source.unsplash.com/800x500/?${kwList}`;
-    
-    // Follow redirects, check Content-Type starts with image/
-    const res = await fetch(unsplashUrl, { method: "HEAD" });
-    const finalUrl = res.url || unsplashUrl;
-    const contentType = res.headers.get("content-type") || "";
-
-    if (res.ok && contentType.startsWith("image/")) {
-      log(`Found Unsplash image: ${finalUrl}`);
-      return finalUrl;
-    }
+    log(`Trying Unsplash Featured API...`);
+    const kw = (keywords && keywords[0]) ? keywords[0] : (title || category || "history");
+    const cleanKw = kw.toLowerCase().replace(/[^a-z0-9\s]/g, "").trim().replace(/\s+/g, ",");
+    const unsplashUrl = `https://images.unsplash.com/featured/?${encodeURIComponent(cleanKw)}`;
+    log(`Using topic-relevant Unsplash URL: ${unsplashUrl}`);
+    return unsplashUrl;
   } catch (err) {
-    log(`Unsplash check failed: ${err.message}`);
+    log(`Unsplash featured failed: ${err.message}`);
   }
 
-  // SOURCE 3: Picsum with keyword-based seed (always works)
-  try {
-    log(`Trying Picsum fallback...`);
-    const seed = id || title || "thingsource";
-    const picsumUrl = `https://picsum.photos/seed/${encodeURIComponent(seed)}/800/500`;
-    log(`Using Picsum seed URL: ${picsumUrl}`);
-    return picsumUrl;
-  } catch (err) {
-    log(`Picsum failed: ${err.message}`);
-  }
-
-  throw new Error("No image sources could be resolved.");
+  // Fallback to topic search URL
+  const topicKw = (title || "discovery").toLowerCase().replace(/[^a-z0-9\s]/g, "").trim().replace(/\s+/g, ",");
+  return `https://images.unsplash.com/featured/?${encodeURIComponent(topicKw)}`;
+}
 }
 
 module.exports = { getBestImage };
