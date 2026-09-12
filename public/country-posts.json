@@ -2,6 +2,76 @@
   {
     "country": "Portugal",
     "fact": {
+      "title": "Portugal's Diverse UNESCO Global Geoparks",
+      "content": "Beyond its famous beaches and historic cities, Portugal boasts five UNESCO Global Geoparks, showcasing remarkable geological heritage and landscapes. These include Naturtejo, the first in Portugal with 17 geomonuments, and the Azores Geopark, unique for its 121 geosites scattered across its nine volcanic islands and surrounding marine area, revealing the archipelago's vast geodiversity. These geoparks preserve sites of international geological significance, offering breathtaking natural beauty and opportunities for adventure and learning."
+    },
+    "culture": {
+      "title": "The Social Ritual of Portuguese Café Culture and 'Café Pendente'",
+      "content": "Portuguese café culture is a cherished daily ritual, where enjoying a 'bica' (espresso) is more than just about coffee; it's a way of life deeply ingrained in social interactions. A unique tradition demonstrating Portuguese solidarity is the 'café pendente,' where a customer pays for an extra coffee for someone who cannot afford it, an anonymous act of kindness common in Lisbon and beyond. This practice exemplifies the strong community spirit found within Portugal's bustling cafés, which serve as vital social hubs."
+    },
+    "news": {
+      "title": "Ponta Delgada, Azores, Crowned Portuguese Capital of Culture 2026",
+      "content": "The city of Ponta Delgada on São Miguel, Azores, is taking center stage in 2026 as the 'Portuguese Capital of Culture,' showcasing the archipelago's rich heritage and creativity. Throughout the year, Ponta Delgada will host a diverse array of multidisciplinary events across all nine Azorean islands, emphasizing its unique role as Europe's western frontier and a cultural gateway to the Atlantic world. This initiative aims to serve as a catalyst for urban regeneration, enhance international visibility, and foster creative growth, with aspirations to become the European Capital of Culture in 2027."
+    },
+    "id": "1789199139345-portugal",
+    "date": "2026-09-12T07:45:39.345Z"
+  },
+  {
+    "country": "Spain",
+    "fact": {
+      "title": "Pheasant Island: A Unique Shared Territory Between Spain and France",
+      "content": "Spain shares a fascinating and lesser-known geographical curiosity with France: Pheasant Island (Isla de los Faisanes). This small fluvial island, located in the Bidasoa River, holds the unique distinction of being transferred between the two nations every six months, alternating sovereignty in a peaceful and long-standing agreement. It has also been the site of several significant historical events, including the signing of the Treaty of the Pyrenees."
+    },
+    "culture": {
+      "title": "La Danza de la Muerte: Catalonia's Macabre Medieval Dance",
+      "content": "In the Catalonian village of Verges, a unique and ancient tradition known as 'La Danza de la Muerte' (The Dance of Death) takes place. This macabre ritual, with roots in medieval plague epidemics, features people dressed as skeletons dancing through the town. It serves as a stark symbolic reminder of mortality, conveying the message that life is fleeting and death awaits everyone."
+    },
+    "news": {
+      "title": "Sagrada Familia on Track for Anticipated 2026 Completion",
+      "content": "Barcelona's iconic Sagrada Familia basilica, Antoni Gaudí's unfinished masterpiece, remains on schedule for its anticipated completion in 2026. This significant milestone, marking the culmination of over a century of construction, is a testament to perseverance and artistic vision. The completion will coincide with the centenary of Gaudí's death.",
+      "url": "https://rusticpathways.com/blog/11-fun-facts-about-spain-from-don-quixote-to-unesco-sites/"
+    },
+    "id": "1789199167623-spain",
+    "date": "2026-09-12T07:46:07.623Z"
+  },
+  {
+    "country": "Italy",
+    "fact": {
+      "title": "A Hidden Magma Reservoir Beneath Italy's 'Quiet' Apennines",
+      "content": "Scientists have recently uncovered a vast magma reservoir hidden deep beneath the Sannio-Matese mountain range in Italy's Apennines, an area previously considered tectonically inactive. This surprising discovery, located 15 to 25 kilometers below the Earth's crust, challenges previous understandings of magmatic activity on the Italian Peninsula, revealing internal heat where no active volcanoes are visible on the surface. The magma's cooling and decompression release CO2, which rises through geological faults, influencing local seismicity and providing a unique insight into a complex geological system without a direct volcanic vent."
+    },
+    "culture": {
+      "title": "The Italian Superstition Against Toasting with Water",
+      "content": "In Italy, a strong cultural superstition dictates that one should never toast with water, a belief deeply rooted in ancient Roman traditions and naval customs. While a toast typically symbolizes good fortune and health, using water is believed to bring bad luck, and some even suggest it condemns people to misfortune in the afterlife. This custom is so ingrained that Italians often actively remind guests to ensure their glasses contain wine or another beverage for a toast, upholding sincerity and respect in line with tradition."
+    },
+    "news": {
+      "title": "Italy Launches National Database for Underground Cavities and Sinkholes",
+      "content": "In a significant move to enhance public safety and preserve its historical subterranean heritage, Italy's Institute for Environmental Protection and Research (ISPRA) has launched the National Database of Underground Cavities and Sinkholes. This pioneering project, integrating historical archives, geological surveys, and machine learning, aims to map Italy's extensive network of hidden tunnels, quarries, and ancient structures. The initiative addresses the potential threat of sinkholes by making this 'invisible geography' visible and measurable, ensuring continuous monitoring and safeguarding vital infrastructure and urban centers."
+    },
+    "id": "1789199184550-italy",
+    "date": "2026-09-12T07:46:24.550Z"
+  },
+  {
+    "country": "Japan",
+    "fact": {
+      "title": "The Unique Circularity of the Shikoku Pilgrimage",
+      "content": "Japan is home to the Shikoku Pilgrimage, an extraordinary 1,400-kilometer journey encompassing 88 Buddhist temples across the island of Shikoku. This ancient pilgrimage stands out as one of the world's very few truly circular pilgrimages, allowing devotees to symbolically return to their starting point, having completed a full spiritual circuit."
+    },
+    "culture": {
+      "title": "Naki Sumo: The Crying Baby Festival",
+      "content": "Among Japan's more unusual traditions is the Naki Sumo festival, a 400-year-old event where sumo wrestlers hold babies while referees try to make them cry. Believed to ensure good health for the infants, the baby who cries loudest and longest is declared the winner, often with humorous and boisterous displays."
+    },
+    "news": {
+      "title": "Japan's Corporate Confidence Rebounds on AI and Tourism Demand",
+      "content": "Japan's large companies experienced a positive shift in business sentiment during the July-September quarter, marking the first rebound in two quarters. This optimistic outlook is fueled by increasing demand for semiconductor manufacturing equipment and AI data centers, alongside improvements in the hospitality, restaurant, and finance sectors, driven partly by strong tourism.",
+      "url": "https://www.news.onjapan.com/"
+    },
+    "id": "1789199201572-japan",
+    "date": "2026-09-12T07:46:41.572Z"
+  },
+  {
+    "country": "Portugal",
+    "fact": {
       "title": "Portugal: World Leader in Cork Production and the Unique Montado Ecosystem",
       "content": "Portugal stands as the undisputed global leader in cork production, supplying approximately half of the world's cork. This industry is deeply intertwined with the unique Montado landscape, primarily in the Alentejo region, where cork oak trees (Quercus suber) are protected by law and harvested sustainably every nine years, ensuring the regeneration of this vital resource. The Montado ecosystem is not only an economic powerhouse but also one of Europe's most biodiverse environments, supporting numerous plant and animal species."
     },
