@@ -193,35 +193,48 @@ async function runAgent(customTopic = null) {
     }
 
     // Combined Prompt
-    const prompt = `You are a research blogger with access to Google Search.
- 
+    const prompt = `You write origin stories, but not only for physical objects. Your scope includes:
+- everyday objects (stapler, Post-it)
+- rules and principles (the 80/20 rule, Murphy's Law)
+- concepts and frameworks (the five-second rule, the golden ratio)
+- cultural rituals and traditions (tipping, handshakes)
+- phrases and idioms (the origin of 'OK', 'sold')
+- industries and professions (why lawyers wear black, why doctors wear white)
+- units of measurement (the meter, the horsepower)
+- symbols (the @ sign, the hashtag, the peace sign)
+- phenomena or effects (the Streisand effect, the placebo effect, the butterfly effect)
+
+The format stays the same — an engaging, punchy origin story — but the subject can be any of these types.
+
 Do all of the following in one response:
- 
-1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known. ${customTopic ? `Specifically research: "${customTopic}"` : ''}
- 
+
+1. Pick one surprising, specific origin story from any of the scope types above. Choose something genuinely interesting, sharp, and not commonly known. ${customTopic ? `Specifically research: "${customTopic}"` : ''}
+
 IMPORTANT: Do NOT pick any of these topics that have already been covered:
 ${avoidList}
- 
+
 Choose something completely different and not on that list.${categoryNudge}
- 
+
 2. Use Google Search to research it thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
- 
-3. Write a complete blog post about i4. Generate a fascinating fact, historical snippet, or cultural discovery about Portugal.
+
+3. Write a complete blog post about it.
+
+4. Generate a fascinating fact, historical snippet, or cultural discovery about Portugal.
    - It must have a title and content (2-3 sentences).
    - It must be completely different from these recently used facts/topics:
      ${avoidPortugalFactsList || "None yet"}
- 
+
 ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
 - Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
 - If there is a popular myth or common misconception associated with the topic, explicitly address and debunk it using verified historical facts.
 - Choose highly descriptive, specific, and distinct imageKeywords (e.g. ["Post-it note yellow", "Spencer Silver 3M office"] instead of ["office", "paper"]) to help the image search engine find highly relevant photos.
- 
+
 Return ONLY a raw JSON object with no markdown, no backticks:
 {
   "topic": "the search term you used",
   "title": "Catchy headline",
-  "category": "Food & Drink | Culture | Language | Inventions | Science",
+  "category": "Objects | Rules & Principles | Concepts | Culture | Language | Professions | Symbols | Science & Phenomena | Food & Drink",
   "summary": "1-2 sentence compelling hook",
   "sections": [
     { "heading": "Section title", "content": "2-3 sentence paragraph" },
@@ -235,38 +248,49 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     "content": "2-3 engaging sentences describing the fact/history/culture."
   }
 }`;
- 
-    const claudePromptOverride = `You are a research blogger.
- 
+
+    const claudePromptOverride = `You write origin stories, but not only for physical objects. Your scope includes:
+- everyday objects (stapler, Post-it)
+- rules and principles (the 80/20 rule, Murphy's Law)
+- concepts and frameworks (the five-second rule, the golden ratio)
+- cultural rituals and traditions (tipping, handshakes)
+- phrases and idioms (the origin of 'OK', 'sold')
+- industries and professions (why lawyers wear black, why doctors wear white)
+- units of measurement (the meter, the horsepower)
+- symbols (the @ sign, the hashtag, the peace sign)
+- phenomena or effects (the Streisand effect, the placebo effect, the butterfly effect)
+
+The format stays the same — an engaging, punchy origin story — but the subject can be any of these types.
+
 Do all of the following in one response:
- 
-1. Pick one surprising, specific origin story of an everyday thing (food, word, custom, invention). Choose something genuinely interesting and not commonly known. ${customTopic ? `Specifically research: "${customTopic}"` : ''}
- 
+
+1. Pick one surprising, specific origin story from any of the scope types above. Choose something genuinely interesting, sharp, and not commonly known. ${customTopic ? `Specifically research: "${customTopic}"` : ''}
+
 IMPORTANT: Do NOT pick any of these topics that have already been covered:
 ${avoidList}
- 
+
 Choose something completely different and not on that list.${categoryNudge}
- 
+
 2. Using your training knowledge, research the topic thoroughly — find authentic origins, key dates, historical context, notable figures, common myths, and surprising trivia.
- 
+
 3. Write a complete blog post about it.
- 
+
 4. Generate a fascinating fact, historical snippet, or cultural discovery about Portugal.
    - It must have a title and content (2-3 sentences).
    - It must be completely different from these recently used facts/topics:
      ${avoidPortugalFactsList || "None yet"}
- 
+
 ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
 - Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
 - If there is a popular myth or common misconception associated with the topic, explicitly address and debunk it using verified historical facts.
 - Choose highly descriptive, specific, and distinct imageKeywords (e.g. ["Post-it note yellow", "Spencer Silver 3M office"] instead of ["office", "paper"]) to help the image search engine find highly relevant photos.
- 
+
 Return ONLY a raw JSON object with no markdown, no backticks:
 {
   "topic": "the term you chose",
   "title": "Catchy headline",
-  "category": "Food & Drink | Culture | Language | Inventions | Science",
+  "category": "Objects | Rules & Principles | Concepts | Culture | Language | Professions | Symbols | Science & Phenomena | Food & Drink",
   "summary": "1-2 sentence compelling hook",
   "sections": [
     { "heading": "Section title", "content": "2-3 sentence paragraph" },
