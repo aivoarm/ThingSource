@@ -130,7 +130,7 @@ function buildPlainTextEmail(subscriberPreferences, post, unsubUrl, scienceArtic
     }
   }
 
-  if (prefs.science === true && scienceArticles && scienceArticles.length > 0) {
+  if (prefs.science !== false && prefs.science !== "false" && scienceArticles && scienceArticles.length > 0) {
     text += `---\n🚀 SCIENCESIMPLE — DAILY SCIENCE MADE SIMPLE\n\n`;
     scienceArticles.forEach((art) => {
       text += `${art.title}\n`;
@@ -306,7 +306,7 @@ function buildEmailHtml(subscriberPreferences, post, unsubUrl, scienceArticles =
     `;
   }
 
-  const scienceArticlesHtml = prefs.science === true && scienceArticles && scienceArticles.length > 0 ? `
+  const scienceArticlesHtml = prefs.science !== false && prefs.science !== "false" && scienceArticles && scienceArticles.length > 0 ? `
   <hr style="border:none;border-top:1px solid #eee;margin:32px 0">
   <div style="margin:24px 0; background-color:#F5F3FF; border:1px solid #DDD6FE; border-radius:12px; padding:24px 28px;">
     <p style="font-family:Arial,sans-serif;font-size:12px;color:#7C3AED;text-transform:uppercase;letter-spacing:0.12em;margin:0 0 24px;font-weight:bold;text-align:center;">🚀 ScienceSimple — Daily Science Made Simple</p>
@@ -532,9 +532,9 @@ exports.handler = async (event) => {
               return;
             }
 
-            const prefs = subscriberData.preferences || { thingsource: true };
+            const prefs = subscriberData.preferences || { thingsource: true, science: true, countries: true };
             const hasThingsource = prefs.thingsource !== false;
-            const hasScience = prefs.science === true && scienceArticles && scienceArticles.length > 0;
+            const hasScience = prefs.science !== false && prefs.science !== "false" && scienceArticles && scienceArticles.length > 0;
             const hasCountries = prefs.countries !== false && prefs.countries !== "false" && countryPosts && countryPosts.length > 0;
 
             if (!hasThingsource && !hasScience && !hasCountries) {
