@@ -177,7 +177,8 @@ function buildPlainTextEmail(subscriberPreferences, post, unsubUrl, scienceArtic
   text += `Arman also makes original music on Spotify.\n`;
   text += `Every stream directly supports ThingSource and\n`;
   text += `keeps it free for everyone.\n\n`;
-  text += `To say thank you: search "Arman Ayva" on Spotify\n`;
+  text += `To say thank you: search "Arman Ayva" on Spotify:\n`;
+  text += `https://open.spotify.com/search/Arman%20Ayva\n`;
   text += `and give his music a listen. It costs you nothing.\n\n`;
 
   if (prefs.thingsource !== false) {
@@ -431,9 +432,9 @@ function buildEmailHtml(subscriberPreferences, post, unsubUrl, scienceArticles =
     <p style="font-size:14px;color:#444;line-height:1.7;margin:0 0 16px;font-family:Arial,sans-serif">
       Arman also creates and releases original music on Spotify. Every stream directly supports the cost of running ThingSource and keeps it free for all readers. If you enjoy these daily stories, the best way to say thank you is to search <strong>&ldquo;Arman Ayva&rdquo;</strong> on Spotify and give his music a listen.
     </p>
-    <div style="background:#1DB954;border-radius:6px;display:inline-block;padding:2px 12px 4px">
-      <p style="font-size:13px;color:white;font-weight:bold;margin:0;font-family:Arial,sans-serif">▶ Search &ldquo;Arman Ayva&rdquo; on Spotify</p>
-    </div>
+    <a href="https://open.spotify.com/search/Arman%20Ayva" target="_blank" style="display:inline-block;background:#1DB954;color:#ffffff;text-decoration:none;font-weight:bold;font-size:13px;padding:10px 18px;border-radius:6px;font-family:Arial,sans-serif">
+      ▶ Search &ldquo;Arman Ayva&rdquo; on Spotify
+    </a>
     <p style="font-size:12px;color:#999;margin:12px 0 0;font-family:Arial,sans-serif">Your streams cost nothing and mean everything. Thank you for supporting independent creators.</p>
   </div>
 
