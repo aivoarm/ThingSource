@@ -1,14 +1,17 @@
 const { SVG_ROOTS, SVG_SCROLL, SVG_LIGHTBULB, SVG_COMPASS, SVG_HOURGLASS, SVG_QUESTION } = require("../../../public/js/image-defaults.js");
 
-async function getBestImage({ keywords, category, id, title }) {
+async function getBestImage({ keywords, wikiKeywords, category, id, title }) {
   const log = (msg) => console.log(`[image-utils] ${msg}`);
 
   // SOURCE 1: Wikipedia Search & Page Images
   const queriesToTry = [];
+  if (wikiKeywords) {
+    if (typeof wikiKeywords === "string") queriesToTry.push(wikiKeywords);
+    else if (Array.isArray(wikiKeywords)) queriesToTry.push(...wikiKeywords.filter(Boolean));
+  }
   if (title) queriesToTry.push(title);
-  if (keywords && keywords.length > 0) {
-    queriesToTry.push(keywords[0]);
-    if (keywords[1]) queriesToTry.push(keywords[1]);
+  if (keywords && Array.isArray(keywords)) {
+    keywords.forEach(k => { if (k) queriesToTry.push(k); });
   }
 
   for (const query of queriesToTry) {
@@ -90,7 +93,6 @@ async function getBestImage({ keywords, category, id, title }) {
   // Fallback to topic search URL
   const topicKw = (title || "discovery").toLowerCase().replace(/[^a-z0-9\s]/g, "").trim().replace(/\s+/g, ",");
   return `https://images.unsplash.com/featured/?${encodeURIComponent(topicKw)}`;
-}
 }
 
 module.exports = { getBestImage };

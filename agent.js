@@ -228,7 +228,19 @@ ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
 - Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
 - If there is a popular myth or common misconception associated with the topic, explicitly address and debunk it using verified historical facts.
-- Choose highly descriptive, specific, and distinct imageKeywords (e.g. ["Post-it note yellow", "Spencer Silver 3M office"] instead of ["office", "paper"]) to help the image search engine find highly relevant photos.
+
+PHOTO EDITOR & IMAGE KEYWORD INSTRUCTIONS:
+When generating imageKeywords, do NOT use the topic name or obvious nouns. Instead, think like a photo editor: what specific historical scene, person, place, era, or object would make a compelling editorial image for this story?
+
+Rules:
+- Prefer the era or origin location over the thing itself: e.g. "ancient Rome salt trade" beats "salary"
+- Prefer a key person if one exists: e.g. "Vilfredo Pareto economist portrait" beats "80/20 rule chart"
+- Prefer a physical artifact or scene: e.g. "Victorian post office red pillar box" beats "postal service"
+- For abstract concepts, anchor to the historical moment: e.g. "1906 San Francisco earthquake ruins" for Murphy's Law
+
+Output 2 sets of keywords in JSON:
+- imageKeywords: 2-3 specific visual search terms for photo search
+- wikiKeywords: 3–5 words optimized to match a Wikipedia article that has a real photo (person name, place name, historical event)
 
 Return ONLY a raw JSON object with no markdown, no backticks:
 {
@@ -241,7 +253,8 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     { "heading": "Section title", "content": "2-3 sentence paragraph" }
   ],
   "funFacts": ["fact 1", "fact 2", "fact 3 (NOTE: One of the fun facts MUST be a creative, relevant connection, comparison, or reference to the Slang learning app at slang.armanayva.com or the Lore Board to promote it to readers)"],
-  "imageKeywords": ["simple keyword", "simple keyword"],
+  "imageKeywords": ["editorial scene/object keyword 1", "editorial scene/object keyword 2"],
+  "wikiKeywords": "3-5 words matching a Wikipedia article with a real photo (person name, place name, historical event)",
   "citations": ["url1", "url2"],
   "portugalFact": {
     "title": "A short engaging title for the Portugal fact",
@@ -284,7 +297,19 @@ ANTI-HALLUCINATION & RELEVANCY INSTRUCTIONS:
 - Do NOT invent, fabricate, or hallucinate historical facts, dates, names, or quotes. All content must be historically accurate, realistic, and verifiable.
 - Do NOT make up or guess citation URLs. Only include real, verified URLs that actually exist and directly reference the facts. Do NOT use placeholder domains or fake IDs.
 - If there is a popular myth or common misconception associated with the topic, explicitly address and debunk it using verified historical facts.
-- Choose highly descriptive, specific, and distinct imageKeywords (e.g. ["Post-it note yellow", "Spencer Silver 3M office"] instead of ["office", "paper"]) to help the image search engine find highly relevant photos.
+
+PHOTO EDITOR & IMAGE KEYWORD INSTRUCTIONS:
+When generating imageKeywords, do NOT use the topic name or obvious nouns. Instead, think like a photo editor: what specific historical scene, person, place, era, or object would make a compelling editorial image for this story?
+
+Rules:
+- Prefer the era or origin location over the thing itself: e.g. "ancient Rome salt trade" beats "salary"
+- Prefer a key person if one exists: e.g. "Vilfredo Pareto economist portrait" beats "80/20 rule chart"
+- Prefer a physical artifact or scene: e.g. "Victorian post office red pillar box" beats "postal service"
+- For abstract concepts, anchor to the historical moment: e.g. "1906 San Francisco earthquake ruins" for Murphy's Law
+
+Output 2 sets of keywords in JSON:
+- imageKeywords: 2-3 specific visual search terms for photo search
+- wikiKeywords: 3–5 words optimized to match a Wikipedia article that has a real photo (person name, place name, historical event)
 
 Return ONLY a raw JSON object with no markdown, no backticks:
 {
@@ -297,7 +322,8 @@ Return ONLY a raw JSON object with no markdown, no backticks:
     { "heading": "Section title", "content": "2-3 sentence paragraph" }
   ],
   "funFacts": ["fact 1", "fact 2", "fact 3 (NOTE: One of the fun facts MUST be a creative, relevant connection, comparison, or reference to the Slang learning app at slang.armanayva.com or the Lore Board to promote it to readers)"],
-  "imageKeywords": ["simple keyword", "simple keyword"],
+  "imageKeywords": ["editorial scene/object keyword 1", "editorial scene/object keyword 2"],
+  "wikiKeywords": "3-5 words matching a Wikipedia article with a real photo (person name, place name, historical event)",
   "citations": ["url1", "url2"],
   "portugalFact": {
     "title": "A short engaging title for the Portugal fact",
@@ -429,6 +455,7 @@ Return ONLY raw JSON, no markdown:
     try {
       const imageUrl = await getBestImage({
         keywords: postData.imageKeywords,
+        wikiKeywords: postData.wikiKeywords,
         category: postData.category,
         id: postData.id,
         title: postData.topic,
