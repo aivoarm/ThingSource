@@ -35,6 +35,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   
   <style>
     :root {
@@ -511,7 +512,7 @@
     }
   </style>
 </head>
-<body>
+<body class="dark-theme">
 
   <header>
     <div class="header-container">
@@ -527,8 +528,40 @@
         <a href="/science.html" class="nav-chip active">🚀 ScienceSimple</a>
         <a href="/countries.html" class="nav-chip">🌍 Countries</a>
       </nav>
+      <button class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
     </div>
   </header>
+
+  <!-- Mobile Navigation Overlay & Drawer -->
+  <div class="mobile-nav-overlay" aria-hidden="true">
+    <div class="mobile-nav-drawer">
+      <div class="mobile-drawer-header">
+        <span class="mobile-drawer-title">Navigation</span>
+        <button class="mobile-drawer-close" aria-label="Close menu">&times;</button>
+      </div>
+      
+      <div class="mobile-drawer-section-title">Ecosystem Apps</div>
+      <div class="mobile-drawer-menu">
+        <a href="https://ts.armanayva.com" class="mobile-drawer-link"><span class="link-icon">🔍</span> ThingSource</a>
+        <a href="https://slang.armanayva.com" target="_blank" rel="noopener" class="mobile-drawer-link"><span class="link-icon">🧠</span> Slang App</a>
+        <a href="https://bandpulse.armanayva.com" target="_blank" rel="noopener" class="mobile-drawer-link"><span class="link-icon">🎵</span> BandPulse</a>
+        <a href="https://lore.armanayva.com" target="_blank" rel="noopener" class="mobile-drawer-link"><span class="link-icon">🏆</span> Lore Board</a>
+      </div>
+
+      <div class="mobile-drawer-section-title">Discover Pages</div>
+      <div class="mobile-drawer-menu">
+        <a href="/science.html" class="mobile-drawer-link active"><span class="link-icon">🚀</span> ScienceSimple</a>
+        <a href="/countries.html" class="mobile-drawer-link"><span class="link-icon">🌍</span> Countries Corner</a>
+        <a href="/blog/" class="mobile-drawer-link"><span class="link-icon">📖</span> All Stories</a>
+        <a href="/about.html" class="mobile-drawer-link"><span class="link-icon">ℹ️</span> About Us</a>
+        <a href="/contact.html" class="mobile-drawer-link"><span class="link-icon">📬</span> Contact</a>
+      </div>
+    </div>
+  </div>
 
   <main>
     <div class="hero-banner">
@@ -629,6 +662,7 @@
     </div>
   </footer>
 
+  <script src="js/hamburger.js"></script>
   <script src="science-app.js"></script>
 </body>
 </html>

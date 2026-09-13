@@ -711,6 +711,196 @@ footer {
   color: #FFFFFF !important;
 }
 
+/* Hamburger Menu Toggle Button & Mobile Navigation Drawer */
+.hamburger-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 42px;
+  height: 42px;
+  background: rgba(28, 28, 30, 0.05);
+  border: 1px solid rgba(28, 28, 30, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1001;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.hamburger-btn:hover {
+  background: rgba(13, 122, 107, 0.1);
+  border-color: var(--accent-teal);
+}
+
+.hamburger-bar {
+  width: 100%;
+  height: 2px;
+  background-color: var(--text-dark, #1C1C1E);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.hamburger-btn.active .hamburger-bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger-btn.active .hamburger-bar:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-btn.active .hamburger-bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Mobile Drawer Overlay */
+.mobile-nav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 15, 20, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.mobile-nav-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-nav-drawer {
+  position: fixed;
+  top: 0;
+  right: -320px;
+  width: 300px;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: -5px 0 25px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+  overflow-y: auto;
+}
+
+.mobile-nav-overlay.open .mobile-nav-drawer {
+  transform: translateX(-320px);
+}
+
+.mobile-drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color, #EFECE6);
+}
+
+.mobile-drawer-title {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.mobile-drawer-close {
+  background: transparent;
+  border: none;
+  font-size: 1.8rem;
+  line-height: 1;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+
+.mobile-drawer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mobile-drawer-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-decoration: none;
+  background: rgba(28, 28, 30, 0.03);
+  transition: all 0.2s ease;
+}
+
+.mobile-drawer-link:hover, .mobile-drawer-link.active {
+  background: rgba(13, 122, 107, 0.1);
+  color: var(--accent-teal);
+  transform: translateX(4px);
+}
+
+.mobile-drawer-link .link-icon {
+  font-size: 1.2rem;
+}
+
+.mobile-drawer-section-title {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin: 1.5rem 0 0.5rem 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .hamburger-btn {
+    display: flex;
+  }
+  .nav-network-container {
+    display: none;
+  }
+}
+
+/* Dark Theme Variant Support */
+body.dark-theme .hamburger-btn, .dark-theme .hamburger-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+body.dark-theme .hamburger-bar, .dark-theme .hamburger-bar {
+  background-color: #f3f4f6;
+}
+body.dark-theme .mobile-nav-drawer, .dark-theme .mobile-nav-drawer {
+  background: #141530;
+  color: #f3f4f6;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+body.dark-theme .mobile-drawer-header, .dark-theme .mobile-drawer-header {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+body.dark-theme .mobile-drawer-title, .dark-theme .mobile-drawer-title {
+  color: #ffffff;
+}
+body.dark-theme .mobile-drawer-close, .dark-theme .mobile-drawer-close {
+  color: #9ca3af;
+}
+body.dark-theme .mobile-drawer-link, .dark-theme .mobile-drawer-link {
+  color: #f3f4f6;
+  background: rgba(255, 255, 255, 0.05);
+}
+body.dark-theme .mobile-drawer-link:hover, body.dark-theme .mobile-drawer-link.active,
+.dark-theme .mobile-drawer-link:hover, .dark-theme .mobile-drawer-link.active {
+  background: rgba(139, 92, 246, 0.2);
+  color: #c084fc;
+}
+
 /* Network Showcase Section */
 .network-showcase-section {
   background: linear-gradient(135deg, #F8F6F1 0%, #EFECE6 100%);
