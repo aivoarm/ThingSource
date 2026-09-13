@@ -1,5 +1,23 @@
 [
   {
+    "country": "Sweden",
+    "fact": {
+      "title": "The Buried Origins of Gravlax",
+      "content": "A fascinating historical fact about Sweden's culinary heritage lies in the origin of 'gravlax'. The name itself, deriving from 'gravad lax', translates to 'buried salmon' and refers to a medieval preservation technique. In the 14th century, Swedish fishermen would lightly ferment salmon by salting it and burying it in the sand above the high-tide line to preserve their catch."
+    },
+    "culture": {
+      "title": "Thursday Tradition of Pea Soup and Pancakes",
+      "content": "A unique and enduring Swedish cultural custom is the tradition of eating pea soup (ärtsoppa) and pancakes (pannkakor) every Thursday. This culinary ritual dates back to the Middle Ages when Sweden was predominantly Catholic, and a hearty meal was consumed on Thursday in preparation for the mandatory Friday fast."
+    },
+    "news": {
+      "title": "Swedish Midfielder Lucas Bergvall Signs New Tottenham Deal",
+      "content": "Swedish midfielder Lucas Bergvall has committed his long-term future to Tottenham, signing a new deal that was announced on Friday, September 11, 2026. The 20-year-old had reportedly considered leaving the club during the offseason, but Tottenham's head coach Roberto De Zerbi expressed confidence that Bergvall's best football is still ahead.",
+      "url": "https://apnews.com/article/sweden-lucas-bergvall-tottenham-contract-e9e1c3a61c3b4f6990b7933182b8a7f9"
+    },
+    "id": "1789285533470-sweden",
+    "date": "2026-09-13T07:45:33.470Z"
+  },
+  {
     "country": "Portugal",
     "fact": {
       "title": "Portugal's Diverse UNESCO Global Geoparks",
