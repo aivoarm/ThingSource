@@ -1,5 +1,23 @@
 [
   {
+    "country": "Morocco",
+    "fact": {
+      "title": "The World's Oldest Continuously Operating University",
+      "content": "Morocco is home to the University of Al-Karaouine in Fez, recognized by UNESCO and Guinness World Records as the oldest continuously operating university in the world, founded in 859 AD. Established by Fatima al-Fihri, it began as a mosque before evolving into a leading spiritual and educational center that has influenced scholars for centuries."
+    },
+    "culture": {
+      "title": "The Ritual of Moroccan Mint Tea",
+      "content": "More than just a beverage, Moroccan mint tea, or \"atay,\" is a cornerstone of Moroccan hospitality and social life, symbolizing a warm welcome and strong social bonds. This green tea, brewed with fresh mint and ample sugar, is traditionally prepared and poured from a height to create a delicate foam, signifying respect and generosity."
+    },
+    "news": {
+      "title": "Moroccan Cities Pioneer Permeable Pavement to Combat Urban Heat",
+      "content": "In a forward-thinking initiative to mitigate extreme urban temperatures, cities like Marrakech and Agadir are transforming their streets by installing innovative permeable pavement. This new infrastructure allows rainwater to seep into underlying layers, utilizing evaporation to cool the surrounding environment and reduce the detrimental \"urban heat island\" effect.",
+      "url": "https://en.as.com/latest_news/morocco-changes-course-and-starts-digging-up-its-streets-to-fight-southern-europes-greatest-enemy-n/"
+    },
+    "id": "1789371934419-morocco",
+    "date": "2026-09-14T07:45:34.419Z"
+  },
+  {
     "country": "Sweden",
     "fact": {
       "title": "The Buried Origins of Gravlax",
