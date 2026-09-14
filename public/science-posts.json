@@ -1,5 +1,75 @@
 [
   {
+    "title": "AI's Digital Dive Uncovers Potential New Signals for Popular Diabetes and Weight-Loss Drugs",
+    "summary": "Cutting-edge artificial intelligence has combed through hundreds of thousands of online discussions, revealing previously unnoticed patterns of symptoms reported by users of popular medications like Ozempic, prompting new areas for scientific investigation.",
+    "sections": [
+      {
+        "heading": "AI as a Digital Health Detective",
+        "content": "Imagine artificial intelligence not just as a calculating machine, but as a tireless detective sifting through millions of online conversations. In a groundbreaking study, AI meticulously analyzed over 400,000 Reddit posts, specifically focusing on discussions from individuals using GLP-1 agonist drugs like Ozempic, Wegovy, Mounjaro, and Zepbound, which are widely prescribed for diabetes and weight management."
+      },
+      {
+        "heading": "Spotting Unreported User Experiences",
+        "content": "This digital deep dive brought to light a range of previously unhighlighted symptoms frequently mentioned by users, including menstrual changes, chills, hot flashes, and fatigue. While these patterns don't definitively prove the medications caused the issues, they act as important 'red flags' for researchers, indicating potential areas that warrant further, traditional medical investigation."
+      }
+    ],
+    "funFacts": [
+      "The medications studied (like Ozempic and Wegovy) belong to a class called GLP-1 agonists, which work by mimicking a natural hormone that helps regulate blood sugar and suppress appetite.",
+      "Mining social media for health insights, sometimes called 'infodemiology,' offers a vast, real-time database of user experiences beyond controlled clinical trials.",
+      "This study highlights how AI can act as an early warning system, spotting subtle trends in patient-reported data that might otherwise go unnoticed by conventional surveillance methods."
+    ],
+    "originalTitle": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm",
+    "id": "1789371037158-dhp0q",
+    "date": "2026-09-14T07:30:37.158Z"
+  },
+  {
+    "title": "Cosmic Crossroads: Top Physicists Disagree on the Universe's Grand Plan",
+    "summary": "A groundbreaking global survey of physicists reveals a striking lack of consensus on the universe's most fundamental questions, signaling that our understanding of reality's deepest secrets is far from settled.",
+    "sections": [
+      {
+        "heading": "The Universe's Biggest Puzzles Remain Wide Open",
+        "content": "This massive worldwide poll of physicists found no single leading explanation for some of the universe's most profound mysteries. Key areas like the 'Standard Cosmological Model' – our current best map of how the cosmos evolved – or the enigmatic nature of dark matter and dark energy, failed to gather majority support, underscoring just how much we still don't know."
+      },
+      {
+        "heading": "The Big Bang: Not Necessarily the Beginning of Everything",
+        "content": "While disagreements were common, one surprising area of consensus emerged: 68% of physicists believe the Big Bang, our universe's dramatic expansion from a hot, dense state, doesn't necessarily mark the absolute 'beginning of time.' This suggests that fascinating possibilities, like a preceding universe or other dimensions, remain very much on the table for exploration."
+      }
+    ],
+    "funFacts": [
+      "The Standard Cosmological Model is our best current framework for describing the universe's history, but it relies on components like dark matter and dark energy, whose true nature remains a mystery.",
+      "Dark matter is an invisible, undetectable substance that physicists believe makes up about 27% of the universe, acting as a gravitational glue for galaxies.",
+      "Quantum gravity attempts to unify Einstein's theory of general relativity (gravity for large objects) with quantum mechanics (physics for tiny particles), a challenge that has eluded scientists for decades.",
+      "This survey highlights that even at the cutting edge of science, agreement is hard-won, and new discoveries constantly push the boundaries of what we thought we knew."
+    ],
+    "originalTitle": "Physicists can’t agree on how the Universe works",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260912220041.htm",
+    "id": "1789371047515-ggpbh",
+    "date": "2026-09-14T07:30:47.515Z"
+  },
+  {
+    "title": "A Hidden Dimension of Alzheimer's: How Our DNA's 3D Shape May Drive the Disease",
+    "summary": "Scientists have uncovered a fascinating new facet of Alzheimer's disease, finding that the intricate 3D architecture of our DNA is fundamentally disrupted in affected brain cells, profoundly altering how vital genes function.",
+    "sections": [
+      {
+        "heading": "Beyond the Code: DNA's Dynamic Architecture",
+        "content": "Our DNA isn't just a linear string of genetic instructions; within each cell's nucleus, it's meticulously folded into a complex three-dimensional sculpture. This precise 'origami' acts like an intricate control panel, determining which genes are easily accessible and 'switched on' or tucked away and 'switched off.' New research reveals that in brain cells affected by Alzheimer's, this crucial 3D organization becomes severely jumbled."
+      },
+      {
+        "heading": "A New Path to Understanding and Treatment",
+        "content": "When this delicate 3D DNA structure is disrupted, it's like a finely tuned orchestra suddenly playing out of sync: critical genes are activated or silenced at the wrong times, potentially fueling the progression of Alzheimer's in previously unrecognized ways. This groundbreaking discovery unveils a completely novel 'layer' of the disease, moving beyond the familiar hallmarks like amyloid plaques, and offering exciting new targets for therapies that could restore proper gene function and halt disease development."
+      }
+    ],
+    "funFacts": [
+      "If stretched out, the DNA from a single human cell would be approximately six feet long, yet it's expertly folded to fit inside a microscopic nucleus.",
+      "The 3D organization of DNA is not static; it dynamically shifts throughout life, influencing everything from brain development to aging and disease.",
+      "This discovery represents a significant shift in Alzheimer's research, moving beyond a focus solely on genetic mutations or protein buildup to examine the very structure and regulation of our genetic material."
+    ],
+    "originalTitle": "Scientists find a new layer of Alzheimer’s hidden in the genome",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260912220051.htm",
+    "id": "1789371058062-sclvm",
+    "date": "2026-09-14T07:30:58.062Z"
+  },
+  {
     "title": "Cosmic Detective: Help NASA Distinguish Reality from Illusion in Deep Space",
     "summary": "Imagine peering into the universe's farthest reaches, only to wonder if what you see is a real galaxy or just a trick of the light. NASA is inviting curious minds like yours to join a crucial mission: sifting through incredible telescope data to help scientists separate genuine cosmic phenomena from misleading visual 'artifacts'.",
     "sections": [
