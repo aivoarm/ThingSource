@@ -1,5 +1,78 @@
 [
   {
+    "title": "Your Brain's Hidden Superpower: Local Connections Protect Against Aging",
+    "summary": "New research reveals that even as our brains naturally shrink with age, a previously overlooked network of local brain connections might be working overtime to keep our thinking and language skills razor-sharp.",
+    "sections": [
+      {
+        "heading": "The Brain's Shrinking Landscape and Its Local Heroes",
+        "content": "It's a normal part of aging: the brain's 'gray matter,' home to our processing centers, gradually diminishes. This can sometimes lead to a decline in mental sharpness. Scientists have now discovered a vital, hidden network of 'short-range wiring' nestled just beneath the brain's surface, acting like local communication lines that help maintain cognitive function."
+      },
+      {
+        "heading": "Boosting Brain Resilience, One Connection at a Time",
+        "content": "These healthy, bustling local connections appear to compensate for the loss of gray matter, effectively buffering the impact of age on our mental abilities. Specifically, individuals with robust short-range wiring showed stronger language skills, highlighting how these internal pathways contribute significantly to maintaining overall brain health and adaptability as we get older."
+      }
+    ],
+    "funFacts": [
+      "Gray matter is primarily composed of nerve cell bodies and is crucial for processing information, essentially acting as the brain's 'computing power.'",
+      "These newly recognized 'short-range wires' are part of the brain's white matter, typically known for long-distance communication, but this study emphasizes their critical local support role.",
+      "Understanding these protective brain mechanisms could pave the way for future strategies, from lifestyle recommendations to medical interventions, aimed at preserving cognitive function as we age."
+    ],
+    "originalTitle": "Hidden brain wiring may help keep the mind sharp as gray matter shrinks",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260913081921.htm",
+    "id": "1789457438858-45awx",
+    "date": "2026-09-15T07:30:38.858Z"
+  },
+  {
+    "title": "A Century of Chemistry Textbooks Just Got a Rewrite: How Electrons Really Behave",
+    "summary": "For nearly a century, a foundational concept taught in chemistry classrooms worldwide about how electrons influence molecules has been incorrect. New research suggests this core principle, vital to understanding molecular behavior, is significantly different than previously believed, potentially reshaping organic chemistry education and future innovation.",
+    "sections": [
+      {
+        "heading": "A Fundamental Shift in Chemistry",
+        "content": "Imagine a cornerstone rule in a complex game, taught the same way for generations. New research reveals that one such rule in chemistry, concerning how electrons 'tug' on their molecular neighbors, has been largely misunderstood for almost 100 years. This discovery directly challenges a foundational concept that impacts how we understand the very building blocks of matter."
+      },
+      {
+        "heading": "The Electron Tug-of-War: Shorter Than We Thought",
+        "content": "This critical concept, known as the 'inductive effect,' describes how certain atoms can pull or push electrons through the connections (chemical bonds) of a molecule, influencing its overall properties. Textbooks have long stated this influence gradually weakens but extends across three or four bonds. However, the new findings indicate this electron 'tug-of-war' is far more localized, effectively reaching only across a single chemical bond in neutral molecules."
+      },
+      {
+        "heading": "Why This Discovery Matters for Science and Beyond",
+        "content": "Correcting this long-held misconception isn't just a minor tweak; it's a significant advancement. An updated, more accurate understanding of the inductive effect could make the often-challenging subject of organic chemistry much clearer for students. More importantly, it provides a more precise lens for researchers, potentially paving the way for new drug development, advanced materials, and unforeseen technological innovations built on a stronger molecular foundation."
+      }
+    ],
+    "funFacts": [
+      "This discovery challenges a chemical principle that has been taught globally for nearly a century.",
+      "The 'inductive effect' helps explain how molecules react and behave, impacting diverse fields from medicine to materials science.",
+      "Updating this fundamental concept could simplify organic chemistry for students and unlock new avenues for scientific innovation."
+    ],
+    "originalTitle": "Chemistry textbooks have been getting this wrong for nearly 100 years",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260913082157.htm",
+    "id": "1789457448480-85w77",
+    "date": "2026-09-15T07:30:48.480Z"
+  },
+  {
+    "title": "Witness a Daytime Cosmic Hide-and-Seek: Moon Occults Venus in 2026",
+    "summary": "Mark your calendars for September 15, 2026, when the Moon will perform a celestial disappearing act, briefly hiding brilliant Venus from our daytime skies. This rare cosmic alignment offers a spectacular opportunity to witness a planet vanish behind our natural satellite, visible even when the Sun is up.",
+    "sections": [
+      {
+        "heading": "What Exactly is a Daytime Occultation?",
+        "content": "On September 15, 2026, from certain parts of the world, keen skywatchers will witness our Moon slowly glide in front of Venus. This isn't an eclipse of the Sun, but rather an 'occultation' — a fancy term for when one celestial body passes directly in front of another from our perspective, temporarily blocking it from view. What makes this event particularly remarkable is its visibility during broad daylight."
+      },
+      {
+        "heading": "Why This Cosmic Hide-and-Seek is So Special",
+        "content": "Seeing Venus in the daytime sky is already a noteworthy feat, as its brilliance sometimes allows it to pierce through the Sun's glare. However, observing the Moon, also visible during the day, perfectly align to cover Venus is a truly rare and captivating spectacle. It's like watching a cosmic magic trick unfold, offering a unique chance to appreciate the precise dance of objects in our solar system against a blue sky."
+      }
+    ],
+    "funFacts": [
+      "Venus is the second brightest object in our night sky (after the Moon), and its brilliant glow is often why it can be seen in daylight, especially when conditions are right.",
+      "While often called an 'eclipse,' an occultation specifically refers to one celestial body passing in front of another, as seen from an observer, temporarily hiding it. Total solar eclipses are a type of occultation, where the Moon occults the Sun.",
+      "Although the Moon and Venus will be visible during the day, binoculars or a small telescope might enhance the view, allowing for a clearer observation of Venus as it approaches and disappears behind the Moon's limb."
+    ],
+    "originalTitle": "APOD: 2026 September 15 – A Daytime Eclipse: Moon Occults Venus",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-september-15-a-daytime-eclipse-moon-occults-venus/",
+    "id": "1789457458870-c41a1",
+    "date": "2026-09-15T07:30:58.870Z"
+  },
+  {
     "title": "AI's Digital Dive Uncovers Potential New Signals for Popular Diabetes and Weight-Loss Drugs",
     "summary": "Cutting-edge artificial intelligence has combed through hundreds of thousands of online discussions, revealing previously unnoticed patterns of symptoms reported by users of popular medications like Ozempic, prompting new areas for scientific investigation.",
     "sections": [
