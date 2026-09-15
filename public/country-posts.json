@@ -1,5 +1,23 @@
 [
   {
+    "country": "Argentina",
+    "fact": {
+      "title": "Pioneering Fingerprinting in Criminal Investigations",
+      "content": "Argentina holds a unique place in forensic history as the first country to implement fingerprinting as a definitive method for identifying criminals. This groundbreaking technique was famously used in June 1892 to link Francisca Rojas to a murder, marking a significant advancement in police work worldwide."
+    },
+    "culture": {
+      "title": "Gnocchi on the 29th: A Monthly Culinary Tradition",
+      "content": "A charming and widespread cultural custom in Argentina, influenced by its strong Italian heritage, is the tradition of eating gnocchi (ñoquis) on the 29th of every month. Families gather to enjoy this potato pasta dish, and it's customary to place money under the plate, believed to bring prosperity for the coming month."
+    },
+    "news": {
+      "title": "Argentine Court Orders Return of Nazi-Looted Painting",
+      "content": "In a recent act of historical justice, an Argentine court ruled in early September 2026 that a Nazi-looted painting must be returned to the heir of a Jewish art dealer. This significant decision rectifies a decades-old injustice, ensuring the artwork is reunited with its rightful owner.",
+      "url": "https://apnews.com/article/argentina-nazi-painting-heir-return-court-b3261f951e7075c3d47c28d2d6d03d15"
+    },
+    "id": "1789458327633-argentina",
+    "date": "2026-09-15T07:45:27.633Z"
+  },
+  {
     "country": "Morocco",
     "fact": {
       "title": "The World's Oldest Continuously Operating University",
