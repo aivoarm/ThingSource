@@ -1,5 +1,78 @@
 [
   {
+    "title": "The Hidden Curves of Roman Roads: How Winding Paths Shaped Ancient Engineering and Modern Europe",
+    "summary": "New, unprecedented analysis of the entire Roman road network reveals that these iconic routes were far less straight than commonly believed, offering fresh insights into Roman engineering ingenuity and their profound, enduring influence on Europe's geography.",
+    "sections": [
+      {
+        "heading": "Beyond the Straight Line: A New Look at Roman Engineering",
+        "content": "For centuries, we've pictured Roman roads as unwavering lines across the landscape, a testament to their engineering prowess. However, cutting-edge analysis of the entire Roman road system reveals a more complex reality: many routes adapted to terrain and existing settlements, showcasing a practical flexibility often overlooked. This isn't a flaw, but a deeper understanding of their sophisticated, adaptable approach to infrastructure."
+      },
+      {
+        "heading": "Practical Prowess and Europe's Enduring Blueprint",
+        "content": "These surprising curves demonstrate that Roman engineers weren't just about conquering land with rigid lines, but about efficient, strategic connectivity, often integrating with existing paths or natural features. This pragmatic approach allowed them to build a vast, resilient network that didn't just facilitate their empire, but laid down an infrastructural blueprint that continues to influence European cities, trade routes, and even national borders centuries later."
+      }
+    ],
+    "funFacts": [
+      "The Roman road network once stretched over 250,000 miles across three continents, connecting diverse regions of their vast empire.",
+      "While often depicted as perfectly straight, many roads were meticulously designed to minimize elevation changes, cross rivers at narrow points, or link existing towns, highlighting practical engineering over absolute straightness.",
+      "The strategic placement and enduring construction of Roman roads had such a lasting impact that many modern European highways and city layouts still trace their ancient paths."
+    ],
+    "originalTitle": "Roman roads weren&#8217;t so straight after all",
+    "originalUrl": "https://www.newscientist.com/article/2589330-roman-roads-werent-so-straight-after-all/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1789543836521-mgn88",
+    "date": "2026-09-16T07:30:36.521Z"
+  },
+  {
+    "title": "The Parthenon's Famous 'Optical Illusions': A Modern Myth Debunked?",
+    "summary": "For centuries, we've marveled at the Parthenon's seemingly perfect design, believing its ancient Greek architects cleverly incorporated subtle optical 'illusions' to achieve visual flawlessness—but new research suggests this iconic secret might just be a story.",
+    "sections": [
+      {
+        "heading": "The Enduring Belief of Architectural Trickery",
+        "content": "For generations, scholars attributed the Parthenon's visual grandeur to masterful optical corrections: subtly curved platforms and slightly bulging columns, all supposedly designed to counteract how our eyes distort straight lines over grand scales. This theory posited that ancient builders deliberately warped elements to make them *appear* perfectly straight, a testament to their sophisticated understanding of human perception."
+      },
+      {
+        "heading": "New Scrutiny Reveals a Simpler Truth",
+        "content": "However, recent investigations applying rigorous analysis cast doubt on this long-held architectural legend. Researchers now argue that the supposed evidence for these intentional optical adjustments is either missing entirely or the observed deviations are so minute they wouldn't register as a purposeful correction to the human eye, suggesting simpler construction methods may have been at play."
+      }
+    ],
+    "funFacts": [
+      "The Parthenon, completed in 438 BCE, served as a temple to the goddess Athena and is considered a pinnacle of Classical Greek architecture.",
+      "Building such a monumental structure with immense blocks of marble, even without complex optical corrections, speaks volumes about the precision and engineering skill of ancient artisans.",
+      "The idea of 'optical corrections' in Greek temples gained significant traction in the 19th century, influencing how architects and art historians viewed ancient design for over a hundred years."
+    ],
+    "originalTitle": "The Parthenon&#8217;s architectural illusions are a myth",
+    "originalUrl": "https://www.newscientist.com/article/2589400-the-parthenons-architectural-illusions-are-a-myth/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1789543845405-9nqf5",
+    "date": "2026-09-16T07:30:45.405Z"
+  },
+  {
+    "title": "The Quantum Computer Scorecard: Finally, a Way to Rate Their Real-World Usefulness",
+    "summary": "For years, comparing the true capabilities of different quantum computers has been a frustrating mystery; now, researchers have unveiled a groundbreaking method to finally measure their actual usefulness. This breakthrough promises to accelerate the development and application of these revolutionary machines.",
+    "sections": [
+      {
+        "heading": "The Quantum Riddle: Why Comparison Was So Hard",
+        "content": "Unlike traditional computers measured by gigahertz or RAM, quantum machines operate on fundamentally different principles, making direct comparisons incredibly difficult. It was like trying to assess a chef's true skill by only looking at their knives, not the delicious dishes they cook. Different quantum computers excel at specific tasks, leaving a confusing picture of overall performance and potential."
+      },
+      {
+        "heading": "Introducing the 'Quantum Usefulness Score'",
+        "content": "Researchers have developed a new framework that assesses a quantum computer's ability to solve actual, real-world problems, not just its raw components. This method focuses on how effectively a machine handles complex quantum algorithms, providing a more holistic and practical measure of its true capabilities and impact."
+      },
+      {
+        "heading": "What This Means for the Future of Quantum Tech",
+        "content": "This unified metric will be crucial for guiding scientists and engineers in building better quantum computers and will help investors identify the most promising technologies. Ultimately, it allows businesses to choose the right quantum tool for their specific challenges, marking a significant step towards unlocking the full potential of quantum computing for drug discovery, advanced materials, and beyond."
+      }
+    ],
+    "funFacts": [
+      "Traditional computers use bits (0s or 1s), but quantum computers use 'qubits' which can be both 0 and 1 simultaneously (superposition), allowing for exponentially more complex calculations.",
+      "Imagine comparing two different types of cars: one is incredibly fast on a straight track, while the other excels off-road. This new method helps create a more universal 'usefulness score' like a total vehicle performance rating, considering all aspects.",
+      "Quantum computers are not meant to replace regular computers but to solve specific, incredibly difficult problems currently impossible for even the most powerful supercomputers, such as simulating complex molecular interactions or breaking advanced encryption."
+    ],
+    "originalTitle": "We may finally have a way to rate a quantum computer’s usefulness",
+    "originalUrl": "https://www.newscientist.com/article/2589378-we-may-finally-have-a-way-to-rate-a-quantum-computers-usefulness/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1789543854933-e6dtz",
+    "date": "2026-09-16T07:30:54.933Z"
+  },
+  {
     "title": "Your Brain's Hidden Superpower: Local Connections Protect Against Aging",
     "summary": "New research reveals that even as our brains naturally shrink with age, a previously overlooked network of local brain connections might be working overtime to keep our thinking and language skills razor-sharp.",
     "sections": [
