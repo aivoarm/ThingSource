@@ -1,5 +1,23 @@
 [
   {
+    "country": "Switzerland",
+    "fact": {
+      "title": "Austria's Vorarlberg Voted to Join Switzerland, But Was Declined",
+      "content": "In 1919, the Austrian state of Vorarlberg held a referendum where over 80% of its population voted in favor of joining Switzerland. Despite this overwhelming desire, Switzerland ultimately declined the initiative. The decision was influenced by concerns about adding another predominantly Catholic, German-speaking canton, which faced significant internal resistance at the time."
+    },
+    "culture": {
+      "title": "The Quirky Tradition of 'Sleeping with Cheese'",
+      "content": "Among Switzerland's many unique customs is the intriguing belief in 'sleeping with cheese.' Some Swiss people believe that consuming cheese before bed can significantly influence their dreams, often leading to vivid nocturnal visions. There's a particular fascination with how strong-smelling cheeses like Gruyère or Emmental might trigger these vivid dream experiences."
+    },
+    "news": {
+      "title": "Switzerland to Host First IBM Quantum Computer with New Innovation Hub",
+      "content": "Switzerland is set to become a hub for quantum innovation as IBM and Lockheed Martin announced plans to establish a new facility at ETH Zurich, which will host the country's first IBM Quantum System Two. This initiative, unveiled on September 10, 2026, will significantly expand access to cutting-edge quantum computing resources for Swiss academic institutions and industries, fostering advancements in scientific and industrial research.",
+      "url": "https://news.ibm.com/2026-09-10-IBM-Lockheed-Martin-Announce-Swiss-Quantum-Innovation-Hub-at-ETH-Zurich-Anchored-by-Switzerland-First-IBM-Quantum-Computer"
+    },
+    "id": "1789544729807-switzerland",
+    "date": "2026-09-16T07:45:29.807Z"
+  },
+  {
     "country": "Argentina",
     "fact": {
       "title": "Pioneering Fingerprinting in Criminal Investigations",
