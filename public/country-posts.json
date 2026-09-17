@@ -1,5 +1,23 @@
 [
   {
+    "country": "Scotland",
+    "fact": {
+      "title": "Europe's Ancient Sentinel: The Fortingall Yew",
+      "content": "Scotland is home to one of Europe's most ancient living organisms, the Fortingall Yew. Nestled in a churchyard in Perthshire, this venerable tree is estimated to be between 3,000 and 9,000 years old, making it a silent witness to millennia of Scottish history and a profound symbol of endurance."
+    },
+    "culture": {
+      "title": "First-Footing: A Hogmanay Tradition for Luck",
+      "content": "A unique Scottish New Year's (Hogmanay) tradition is 'first-footing,' where the first person to cross the threshold of a home after midnight on New Year's Eve is believed to bring good luck for the coming year. Traditionally, this 'first-foot' should be a tall, dark-haired male carrying symbolic gifts such as whisky, coal, or shortbread, representing prosperity, warmth, and sustenance."
+    },
+    "news": {
+      "title": "Tartan Army Praised for World Cup Antics, Fostering Global Connections",
+      "content": "Scotland's national football fans, affectionately known as the Tartan Army, garnered widespread positive attention during the recent World Cup in June 2026. They were lauded for their exemplary behaviour, significant charitable donations, and efforts to clean up after themselves in the host cities, contributing to a reputational boost for the nation and even leading to Glasgow and Boston becoming twinned cities.",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrVgq0g3_Ih7HzupV0tpzFQli36ZJX-6Un9557qEN13phtrMfZ4AJJ3P01KyL8emC9k-TjHFk2voOLm6010QsrUQZHHm8jv-T0LiZqG4sk6_jJw6W9WfRh3sUtqyLgTOZq0nLAZ8k8Pcut_rcLSIZ7ef94-Ui3K4PKq9uisRPcLTbNWp597ROVWjZbeHuQ5eeIHHei"
+    },
+    "id": "1789631130888-scotland",
+    "date": "2026-09-17T07:45:30.888Z"
+  },
+  {
     "country": "Switzerland",
     "fact": {
       "title": "Austria's Vorarlberg Voted to Join Switzerland, But Was Declined",
