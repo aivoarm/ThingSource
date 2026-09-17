@@ -1,5 +1,74 @@
 [
   {
+    "title": "Against the Storm: NASA's Vital Guam Station Reborn for Space Exploration",
+    "summary": "After enduring extensive damage from Super Typhoon Mawar, NASA's crucial Guam Remote Station is fully back online, restoring a vital communication link that helps guide spacecraft across the solar system and beyond.",
+    "sections": [
+      {
+        "heading": "A Triumph of Resilience: Rebuilding a Celestial Lifeline",
+        "content": "The Guam Remote Station has endured a challenging period, culminating in extensive damage from Super Typhoon Mawar in 2023. After more than three years of dedicated recovery and rebuild efforts by engineers from across NASA, the vital station was finally declared fully restored in September, a testament to incredible resilience and scientific determination."
+      },
+      {
+        "heading": "Guam's Critical Role in Deep Space Communications",
+        "content": "This facility is a key component of NASA's Deep Space Network, acting as a direct communication link to distant spacecraft like the Voyager probes and Mars rovers. Its strategic location in the Pacific Ocean ensures continuous contact with missions as Earth rotates, preventing communication blackouts and enabling constant data flow from the cosmos."
+      }
+    ],
+    "funFacts": [
+      "NASA's Deep Space Network (DSN), which includes the Guam station, consists of three complexes strategically placed around the world to ensure continuous contact with spacecraft, no matter Earth's rotation.",
+      "The DSN handles communications for missions exploring the moon, Mars, Jupiter, Saturn, and even those venturing beyond our solar system, sending commands and receiving scientific data.",
+      "Think of the Guam station as a giant ear and mouth for Earth, capable of listening for incredibly faint signals from robotic explorers millions of miles away and relaying commands back to them."
+    ],
+    "originalTitle": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
+    "originalUrl": "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/",
+    "id": "1789630244113-82c82",
+    "date": "2026-09-17T07:30:44.113Z"
+  },
+  {
+    "title": "Astronomers Witness a Lunar Transformation: A New Crater Forms Before Our Eyes",
+    "summary": "For the first time, scientists have directly observed a massive asteroid impact on the Moon, watching as a vast new crater formed and hurled debris over 120 kilometers, offering critical insights for future lunar missions and understanding planetary formation.",
+    "sections": [
+      {
+        "heading": "Catching a Cosmic Smackdown",
+        "content": "Imagine watching a new landmark appear on a celestial body – that's precisely what astronomers have accomplished. They've captured the spectacular moment a significant asteroid slammed into the Moon, creating a fresh, enormous crater that offers an unprecedented view into cosmic impacts as they happen."
+      },
+      {
+        "heading": "Far-Flung Clues for Future Explorers",
+        "content": "Beyond the visual spectacle, this event yielded invaluable data. The impact not only carved out a substantial crater but also ejected rock fragments an incredible 120 kilometers away. This extreme dispersal helps scientists better understand the physics of impacts on airless worlds, crucial knowledge for protecting future lunar outposts and exploring other planets."
+      }
+    ],
+    "funFacts": [
+      "While the Moon is constantly peppered by meteoroids, directly observing a large impact and the immediate formation of a substantial crater is incredibly rare.",
+      "The distance rock was flung – 120 kilometers – is roughly the distance from London to Brighton, showcasing the immense energy released in this lunar collision.",
+      "Studying freshly formed craters helps scientists refine models for dating planetary surfaces and understanding how material is redistributed across airless worlds, impacting everything from resource location to seismic activity."
+    ],
+    "originalTitle": "Asteroid hit the moon and flung rocks 120 kilometres from the crater",
+    "originalUrl": "https://www.newscientist.com/article/2589435-asteroid-hit-the-moon-and-flung-debris-120-kilometres-from-the-crater/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1789630253043-cs4hm",
+    "date": "2026-09-17T07:30:53.043Z"
+  },
+  {
+    "title": "T. Rex's Inner Furnace: New Evidence Confirms a Warm-Blooded Predator",
+    "summary": "Groundbreaking new research, by examining the chemistry locked within T. rex's formidable tooth enamel, offers compelling evidence that this ancient predator was a warm-blooded creature, radically reshaping our understanding of its formidable power and lifestyle.",
+    "sections": [
+      {
+        "heading": "Unraveling an Ancient Mystery: Warm-Blooded or Cold?",
+        "content": "For generations, a central mystery surrounding dinosaurs like T. rex has been whether they were active, warm-blooded creatures like us, or more akin to modern cold-blooded reptiles. This isn't just a scientific curiosity; understanding their metabolism fundamentally changes how we picture their speed, hunting prowess, and overall lifestyle within their ancient ecosystems. This new research provides a significant piece of that puzzle."
+      },
+      {
+        "heading": "The Truth in T. Rex's Terrifying Teeth",
+        "content": "Scientists unearthed this groundbreaking insight by meticulously analyzing the chemical signatures preserved within T. rex's fearsome tooth enamel. These 'clumped isotopes' — specific arrangements of oxygen and carbon atoms — act like tiny fossilized thermometers, recording the dinosaur's internal body temperature as its teeth grew. The consistent, elevated temperatures found within the teeth strongly indicate T. rex was indeed a warm-blooded predator, actively generating its own heat."
+      }
+    ],
+    "funFacts": [
+      "Warm-blooded animals, like T. rex appears to be, require significantly more energy and food to maintain their internal furnace, painting a picture of an even more ravenous and active predator.",
+      "This finding suggests T. rex could have been active and agile across a wider range of temperatures and for longer periods, rather than being limited by environmental warmth like a typical reptile.",
+      "The study of 'clumped isotopes' in tooth enamel is like a microscopic thermometer, revealing the body temperature of an animal that lived millions of years ago, offering unprecedented insights into their physiology."
+    ],
+    "originalTitle": "T. rex teeth show the enormous predatory dinosaur was warm-blooded",
+    "originalUrl": "https://www.newscientist.com/article/2589534-t-rex-teeth-show-the-enormous-predatory-dinosaur-was-warm-blooded/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1789630266309-x8jlq",
+    "date": "2026-09-17T07:31:06.309Z"
+  },
+  {
     "title": "The Hidden Curves of Roman Roads: How Winding Paths Shaped Ancient Engineering and Modern Europe",
     "summary": "New, unprecedented analysis of the entire Roman road network reveals that these iconic routes were far less straight than commonly believed, offering fresh insights into Roman engineering ingenuity and their profound, enduring influence on Europe's geography.",
     "sections": [
