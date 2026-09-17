@@ -1,5 +1,67 @@
 [
   {
+    "topic": "The Origin of the Dollar Sign ($)",
+    "title": "From Pesos to Power: The Surprising Journey of the Dollar Sign",
+    "category": "Symbols",
+    "summary": "The ubiquitous dollar sign ($) has a surprisingly humble and contested origin, far removed from grand design, deeply rooted in centuries of global trade and a simple shorthand for Spanish currency.",
+    "sections": [
+      {
+        "heading": "The Spanish Connection: A World Currency",
+        "content": "Before the U.S. dollar, the Spanish milled dollar, also known as the 'peso de ocho reales' or 'piece of eight,' was the dominant currency in circulation across the Americas and beyond. Its reliability, due to its high silver content, made it the de facto world currency by the late 18th century. The newly independent United States even based its own dollar on the Spanish coin in the Coinage Act of 1792."
+      },
+      {
+        "heading": "The Shorthand Evolution: 'Ps' to '$'",
+        "content": "The most widely accepted theory posits that the dollar sign evolved from a handwritten abbreviation for 'pesos.' Scribes and merchants would abbreviate 'pesos' as 'Ps,' with the 's' often written smaller and superimposed above the 'P.' Over time, in the haste of business correspondence, these letters merged, and the 'P' gradually simplified into a single (or sometimes double) vertical stroke, creating the familiar '$' symbol."
+      },
+      {
+        "heading": "America's Adoption: Oliver Pollock and Robert Morris",
+        "content": "Irish trader Oliver Pollock, a financier of the American Revolution, is often credited with popularizing this 'Ps' shorthand. His ledger books from 1778 show the 'Ps' abbreviation run together in a way that closely resembles the dollar sign. Robert Morris, Superintendent of Finance for the United States, later adopted this notation, and by the end of the 18th century, the dollar sign began appearing in print."
+      },
+      {
+        "heading": "Debunking Myths: Not from 'US' or Hercules",
+        "content": "Several popular but unsubstantiated theories exist regarding the dollar sign's origin. One common myth, notably propagated by Ayn Rand, suggests it's an amalgamation of 'U' and 'S' for 'United States' or 'units of silver.' However, historical evidence contradicts this, as the symbol was in use before the United States was formed. Another theory links it to the 'Pillars of Hercules' symbol found on Spanish coins, but this too lacks strong historical backing."
+      }
+    ],
+    "funFacts": [
+      "The dollar sign originally had two vertical strokes, and in some regions and currencies, like the Brazilian Real (R$) or the old Portuguese Escudo, the two-stroke variant (cifrão) is still used or remembered.",
+      "While the symbol is most strongly associated with the U.S. dollar, it is also widely used for other currencies called 'dollar' (e.g., Canadian, Australian) and 'peso' (e.g., Mexican) across the globe.",
+      "Just as understanding the nuanced origins of symbols like the dollar sign deepens your grasp of global history and commerce, expanding your vocabulary with the Slang learning app can unlock new dimensions in language, allowing you to connect complex concepts and cultural narratives with ease."
+    ],
+    "imageKeywords": [
+      "18th century colonial trade ledger",
+      "Spanish peso silver coin",
+      "Oliver Pollock handwritten document"
+    ],
+    "wikiKeywords": "Dollar sign origin, Spanish peso symbol, Oliver Pollock",
+    "citations": [
+      "https://www.wikipedia.org/wiki/Dollar_sign",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw-pGXlo6mHjn3qVSixqAlVeQR58s8QQ21KAX_We76zl4YFRunyc-P0WKpFUdXoeARe05HAkTLETuHvH3YznbLeaHS_t58EcPIW5JQwzFe_phTgXlFfnZffrqGwRxl9_MdRbzO",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOGavhpkowDzDEogT73ktUcmIsyFNcZ3sIs5hrV6MwhzxYkhpxztrf7qdR-Bj7HVaurVLokx978Gw1IOcGJKmURpIHEy2pHCwNYP3_ymuNI3fAmY2D_pgtd4RONJ4WQeh66b5vV24c",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7EuKhyMDF1daCp1KxGy7jxIH7ZdhKcAoNqXfqq56YAkmjMODn-nu4GXubsUU31kt2MKVyT_VmV4s7ZLnXWPbKkZfipL3CGb1WbjH6WflYuV94OzILv_om03GYfHC-iFJQOMTF51fC76XgcWnySjxRn2ju95ioW0Xzq9sOhTuACXUdLi16CGfCaxLqVDgQ",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPKIFCc874pv865A10myjzMiC5jC0-aJm2WwjAUraJC_1_OnUaxR5VHtnqMQKTopHvExgaWWArdLFbjY0AcjZiH5vPRDzNtqC2NborUI2lePZCoTUaAub0Vl4EYnWnLf1tCULimoDjrNQhS64LZMk2gQnIVsUuqvxGLJZ76HzZnRU8L_SNxs3-WTmo78x9Cg=="
+    ],
+    "positiveThought": "The world is an endless tapestry of untold stories, hidden just beneath the surface of the familiar. Let your curiosity lead you, for in uncovering the unexpected origins of everyday things, you unlock a deeper appreciation for the intricate journey of human ingenuity and culture.",
+    "portugalFact": {
+      "title": "Ginjinha: Portugal's Sweet Cherry Secret",
+      "content": "Ginjinha, a beloved Portuguese cherry liqueur, is deeply rooted in the country's culinary traditions, especially in Lisbon and Óbidos. Its creation is widely attributed to a 19th-century friar from Lisbon's Church of Santo António, who experimented with macerating sour cherries (ginjas) in aguardente (a distilled spirit) with sugar and other ingredients. This sweet, potent drink quickly gained popularity among all social classes and is traditionally enjoyed in small glasses, often 'com elas' (with the cherries at the bottom), or in a chocolate cup when in Óbidos."
+    },
+    "aiSource": "Gemini",
+    "id": "1789628464643-the-origin-of-the-dollar-sign-",
+    "slug": "from-pesos-to-power-the-surprising-journey-of-the-dollar-sig",
+    "date": "2026-09-17T07:01:04.643Z",
+    "joke": {
+      "joke": "I don't want to achieve immortality through my work. I want to achieve it through not dying.",
+      "setup": "I don't want to achieve immortality through my work.",
+      "punchline": "I want to achieve it through not dying.",
+      "comedian": "Woody Allen",
+      "year": "1960s (often quoted from his stand-up and later works like 'Without Feathers' 1975)",
+      "context": "This joke is iconic for its brilliant subversion of a common, lofty aspiration with a darkly humorous and relatable human desire for simple, literal immortality. It perfectly encapsulates Woody Allen's signature neurotic wit and existential pondering, making a profound philosophical concept genuinely funny and accessible."
+    },
+    "images": [
+      "https://images.unsplash.com/featured/?18th%2Ccentury%2Ccolonial%2Ctrade%2Cledger"
+    ]
+  },
+  {
     "topic": "The Ampersand",
     "title": "From Roman Scrolls to 'Ampersand': The Surprising Journey of the '&' Symbol",
     "category": "Symbols",
