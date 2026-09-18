@@ -1,5 +1,23 @@
 [
   {
+    "country": "Brazil",
+    "fact": {
+      "title": "The Desert Lagoons of Lençóis Maranhenses",
+      "content": "Brazil is home to the stunning Lençóis Maranhenses National Park, a vast desert landscape of white sand dunes. Annually, between January and June, torrential rains transform this arid region as thousands of turquoise lagoons mysteriously appear among the dunes, remarkably teeming with fish. This unique phenomenon is possible because impermeable rock beneath the sand prevents the water from draining away, creating a temporary aquatic paradise within a desert."
+    },
+    "culture": {
+      "title": "Capoeira: A Rhythmic Blend of Martial Arts and Dance",
+      "content": "A captivating and unique cultural tradition in Brazil is Capoeira, an Afro-Brazilian art form that masterfully combines elements of martial arts, dance, acrobatics, and music. Developed by enslaved Africans in Brazil, it served as a disguised form of self-defense and resistance. Today, Capoeira is celebrated globally for its fluid movements, intricate footwork, and accompanying musical instruments and songs, reflecting a powerful historical legacy and vibrant cultural expression."
+    },
+    "news": {
+      "title": "Brazil's Secret to Longevity: A Global Hub for Supercentenarians",
+      "content": "Recent demographic research suggests that Brazil may host one of the highest concentrations of supercentenarians worldwide, individuals living to 110 and beyond. Researchers are exploring the unique aspects of Brazilian life that contribute to this remarkable longevity, offering potential insights that differ significantly from highly engineered approaches to aging. This surprising finding highlights a positive and intriguing dimension of the country's population dynamics.",
+      "url": "https://www.positive.news/society/what-brazils-supercentenarians-can-teach-us-about-living-to-120/"
+    },
+    "id": "1789717530858-brazil",
+    "date": "2026-09-18T07:45:30.858Z"
+  },
+  {
     "country": "Scotland",
     "fact": {
       "title": "Europe's Ancient Sentinel: The Fortingall Yew",
