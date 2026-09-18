@@ -1,5 +1,78 @@
 [
   {
+    "title": "Amazon's Secret Singer: Scientists Uncover a New Frog Through Its Unique Tune",
+    "summary": "Deep within the Amazon's watery embrace, scientists have uncovered a brand new frog species, a master of disguise whose secret was revealed not by its looks, but by its distinctive song. This discovery vividly reminds us of the immense, unexplored biodiversity still hidden in our world's most vital ecosystems, even as they face increasing threats.",
+    "sections": [
+      {
+        "heading": "A Tiny Enigma in the Flooded Forest",
+        "content": "In the western Amazon's vast, seasonally flooded forests, a seemingly familiar frog has been quietly living a double life. Visually, this newly identified species, named Adenomera varcena, is almost indistinguishable from its known relatives, expertly blending into the complex green tapestry of its wetland home. For years, it likely went unnoticed, a testament to nature's incredible camouflage."
+      },
+      {
+        "heading": "The Song and the Code: Unmasking a Hidden Identity",
+        "content": "What finally gave this frog away wasn't its appearance, but its voice. Scientists realized that while it looked like others, its unique call created a distinct \"vocal fingerprint.\" This auditory clue was then confirmed by DNA analysis, which revealed a unique genetic blueprint, proving Adenomera varcena was indeed a separate and previously unknown species, hidden in plain sight."
+      },
+      {
+        "heading": "Why Every New Discovery Matters",
+        "content": "The finding of Adenomera varcena highlights a critical truth: our planet, especially the Amazon, holds countless hidden wonders we have yet to discover. Each new species adds another thread to the intricate web of life, emphasizing the urgent need for conservation efforts. As habitat loss and climate change accelerate, we risk losing entire species, and their unique roles in the ecosystem, before we even know they exist."
+      }
+    ],
+    "funFacts": [
+      "Frogs often rely on their unique calls to attract mates and distinguish themselves from other species, acting like a specific password for reproduction.",
+      "The Amazon rainforest is one of the most biodiverse regions on Earth, estimated to harbor about 10% of the world's known species, with millions more likely undiscovered.",
+      "Adenomera varcena is the scientific name given to this new frog, where 'Adenomera' is its genus (a group of closely related species) and 'varcena' is its unique species identifier."
+    ],
+    "originalTitle": "Scientists discover a mysterious new frog hiding in the Amazon",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260917003737.htm",
+    "id": "1789716641088-uidtv",
+    "date": "2026-09-18T07:30:41.088Z"
+  },
+  {
+    "title": "Carina Nebula: Unearthing a Stellar Treasure Trove",
+    "summary": "Dive into the breathtaking beauty of the Carina Nebula, a vibrant cosmic nursery where new stars are born, revealing a \"treasure chest\" of astronomical wonders and dynamic celestial activity.",
+    "sections": [
+      {
+        "heading": "The Carina Nebula: A Cradle of Stars",
+        "content": "The Carina Nebula is one of the brightest and largest nebulae in our galaxy, serving as an immense stellar factory. Here, colossal clouds of gas and dust collapse under their own gravity to ignite the birth of new stars, making it a critical laboratory for understanding how stars and planetary systems form across the universe."
+      },
+      {
+        "heading": "A 'Treasure Chest' of Cosmic Wonders",
+        "content": "This magnificent nebula lives up to its 'treasure chest' moniker, brimming with an extraordinary array of cosmic phenomena. Within its glowing expanse, you can find towering pillars of gas sculpted by intense stellar winds, young massive stars blasting radiation, and intricate dust formations that hint at future stellar generations, all contributing to a spectacular and ever-evolving celestial landscape."
+      }
+    ],
+    "funFacts": [
+      "The Carina Nebula is located about 7,500 light-years away from Earth and spans over 300 light-years across, making it many times larger and more luminous than the famous Orion Nebula.",
+      "It is home to some of the most massive and luminous stars known, including Eta Carinae, a hypergiant star whose explosive past and unstable present offer a glimpse into the dramatic lives of giant stars.",
+      "The intense ultraviolet radiation from massive stars within the nebula carves out dramatic shapes in the surrounding gas and dust, creating ethereal pillars and dense knots that are often called 'elephant trunks' or 'finger-like' structures."
+    ],
+    "originalTitle": "APOD: 2026 September 17 – A Treasure Chest in the Carina Nebula",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-september-17-a-treasure-chest-in-the-carina-nebula/",
+    "id": "1789716648876-g1fhy",
+    "date": "2026-09-18T07:30:48.876Z"
+  },
+  {
+    "title": "Beam Me Up, NASA! How Star Trek Fans Named the First Space Shuttle",
+    "summary": "Fifty years ago, NASA unveiled its revolutionary Space Shuttle Enterprise, a craft designed to reimagine space travel. Its iconic name, however, wasn't originally planned, but rather the result of an unprecedented public campaign by devoted Star Trek fans.",
+    "sections": [
+      {
+        "heading": "A New Era in Spaceflight Takes Shape",
+        "content": "In 1976, as America celebrated its bicentennial, NASA introduced the world to OV-101, the testbed for its groundbreaking Space Shuttle program. This wasn't a spacecraft destined for orbit, but a crucial prototype designed to prove the concept of a reusable 'space plane,' forever changing how we imagined journeys beyond Earth."
+      },
+      {
+        "heading": "The Name That Launched a Legacy",
+        "content": "NASA initially planned to christen this pioneering vehicle 'Constitution,' a nod to the nation's bicentennial. However, an unprecedented letter-writing campaign—almost 100,000 passionate pleas from Star Trek fans—convinced the White House and NASA to rename it the 'Enterprise,' honoring the iconic starship and demonstrating the profound cultural reach of science fiction."
+      }
+    ],
+    "funFacts": [
+      "While iconic, the Space Shuttle Enterprise never actually journeyed into space; it was built for critical atmospheric flight and landing tests.",
+      "The campaign to name the shuttle 'Enterprise' was a grassroots phenomenon, with nearly 100,000 Star Trek fans writing letters to the White House – a staggering number for the pre-internet era!",
+      "The unveiling took place on September 17, 1976, which is Constitution Day in the United States, adding another layer of historical significance to the event."
+    ],
+    "originalTitle": "NASA Unveils Enterprise, the First Space Shuttle",
+    "originalUrl": "https://www.nasa.gov/image-article/nasa-unveils-enterprise-the-first-space-shuttle/",
+    "id": "1789716657594-0ko7y",
+    "date": "2026-09-18T07:30:57.594Z"
+  },
+  {
     "title": "Against the Storm: NASA's Vital Guam Station Reborn for Space Exploration",
     "summary": "After enduring extensive damage from Super Typhoon Mawar, NASA's crucial Guam Remote Station is fully back online, restoring a vital communication link that helps guide spacecraft across the solar system and beyond.",
     "sections": [
