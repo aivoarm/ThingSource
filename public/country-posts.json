@@ -1,5 +1,23 @@
 [
   {
+    "country": "Norway",
+    "fact": {
+      "title": "A Penguin in the King's Guard",
+      "content": "Norway has a unique honorary member of its King's Guard: Brigadier Sir Nils Olav, a king penguin residing at Edinburgh Zoo in Scotland. Since 1972, the Norwegian King's Guard has adopted a penguin, with Nils Olav III currently holding the distinguished rank of Brigadier. He is the mascot and Colonel-in-Chief of His Majesty The King's Guard."
+    },
+    "culture": {
+      "title": "Påskekrim: Norway's Easter Crime Wave",
+      "content": "A curious and deeply ingrained Norwegian Easter tradition is 'Påskekrim,' or Easter crime. Publishers release a plethora of crime novels specifically for the Easter week, and Norwegians eagerly immerse themselves in these whodunits, often while enjoying chocolate eggs during their mountain cabin getaways. This custom combines the national love for outdoor recreation with a unique literary focus."
+    },
+    "news": {
+      "title": "Andfjorden Designated as Norway's Largest Marine Protected Area",
+      "content": "In a significant move for environmental conservation, the Norwegian government officially established the Andfjorden Marine Protected Area on September 18, 2026. This expansive new protected area, covering approximately 1,848.5 km² in the municipalities of Andøy, Harstad, and Senja, aims to safeguard the region's rich and diverse marine ecosystems, including coral reefs and crucial spawning grounds for fish. The initiative demonstrates a commitment to balancing nature protection with sustainable local activities like fisheries and tourism.",
+      "url": "https://www.regjeringen.no/en/aktuelt/andfjorden-becomes-norways-largest-marine-protected-area/id3054174/"
+    },
+    "id": "1789803930961-norway",
+    "date": "2026-09-19T07:45:30.962Z"
+  },
+  {
     "country": "Brazil",
     "fact": {
       "title": "The Desert Lagoons of Lençóis Maranhenses",
