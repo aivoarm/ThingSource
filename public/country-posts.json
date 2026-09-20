@@ -1,5 +1,23 @@
 [
   {
+    "country": "New Zealand",
+    "fact": {
+      "title": "Zealandia: The Lost Continent Beneath New Zealand",
+      "content": "New Zealand is not merely a collection of islands but the most prominent part of Zealandia, a vast, mostly submerged microcontinent. This continental mass, nearly half the size of Australia, broke away from the ancient supercontinent Gondwana approximately 83 million years ago. Only about 6% of Zealandia is above water, making New Zealand a visible tip of this fascinating geological formation."
+    },
+    "culture": {
+      "title": "Kai Moana: The Indigenous Seafood Tradition",
+      "content": "\"Kai moana,\" meaning \"food from the sea,\" is a fundamental element of Māori cuisine, culture, and identity in New Zealand. This comprehensive term for seafood is central to traditional Māori diet and is governed by intricate customs known as \"tikanga.\" These practices ensure respectful harvesting and sustainable management of marine resources, reflecting a deep connection to the ocean and its bounty for generations."
+    },
+    "news": {
+      "title": "New Zealand Launches Institute for Advanced Technology to Boost Innovation",
+      "content": "New Zealand has taken a significant step in enhancing its technological future with the official launch of the New Zealand Institute for Advanced Technology (NZIAT) in Auckland on August 21, 2026. This new Public Research Organisation is set to drive the development and commercialization of cutting-edge technologies like AI, quantum technologies, and advanced materials. The initiative aims to improve national productivity and strengthen New Zealand's standing in global innovation.",
+      "url": "https://www.beehive.govt.nz/release/new-zealand-institute-advanced-technology-launches-auckland"
+    },
+    "id": "1789890333154-new-zealand",
+    "date": "2026-09-20T07:45:33.154Z"
+  },
+  {
     "country": "Norway",
     "fact": {
       "title": "A Penguin in the King's Guard",
