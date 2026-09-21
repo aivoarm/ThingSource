@@ -1,5 +1,23 @@
 [
   {
+    "country": "India",
+    "fact": {
+      "title": "The Enduring Flame of Dhekiakhowa Bornamghor",
+      "content": "In the Dhekiakhowa village of Jorhat, Assam, lies a sacred place of worship called Dhekiakhowa Bornamghor, where an earthen lamp has been burning continuously for nearly five centuries. Lit by the saint-reformer Madhavdeva in 1528, priests diligently refill it with mustard oil, maintaining a flame that has defied time and become a symbol of enduring faith and tradition."
+    },
+    "culture": {
+      "title": "Bhagoria Festival: A Unique Tribal Marriage Market",
+      "content": "Deep in Madhya Pradesh, the Bhil and Bhilala tribes celebrate the Bhagoria Festival, a unique pre-Holi celebration that doubles as a vibrant marriage market. Young men and women gather at village haats (markets) and temples, and a woman's acceptance of colored powder from a man signifies her agreement to marriage, blending ancient tribal customs with Hindu traditions."
+    },
+    "news": {
+      "title": "India Launches First Hydrogen Train Amidst Strong Environmental Push",
+      "content": "India's commitment to clean energy recently saw Prime Minister Narendra Modi inaugurate the country's first indigenously built hydrogen-powered train on September 19, 2026, marking a significant stride in sustainable transportation. This initiative was highlighted at the NGT International Conference on 'The Future of Environment and Climate Dynamics,' where India reaffirmed its position as a global leader in climate action and renewable energy adoption.",
+      "url": "https://www.scconline.com/blog/post/2026/09/19/pm-modi-inaugurates-ngt-international-conference-2026-cji-surya-kant-traces-evolution-of-environmental-jurisprudence/"
+    },
+    "id": "1789976730269-india",
+    "date": "2026-09-21T07:45:30.269Z"
+  },
+  {
     "country": "New Zealand",
     "fact": {
       "title": "Zealandia: The Lost Continent Beneath New Zealand",
