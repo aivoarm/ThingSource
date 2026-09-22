@@ -1,5 +1,23 @@
 [
   {
+    "country": "Japan",
+    "fact": {
+      "title": "Japan's Ancient Land Bridge to Asia",
+      "content": "Approximately 15 million years ago, Japan was not an archipelago but rather an eastern edge of the Eurasian mainland. Intense tectonic activity caused the land to rift and stretch, eventually leading to the formation of the Sea of Japan and the dramatic separation of the islands from the continent. This profound geological event significantly shaped Japan's long-standing isolation and contributed to its unique cultural and natural development."
+    },
+    "culture": {
+      "title": "Omurice: A Beloved Japanese Culinary Innovation",
+      "content": "Despite its seemingly foreign name, Omurice, a popular dish combining an omelet with rice, is an entirely Japanese creation. This comforting meal typically features ketchup-seasoned rice, often stir-fried with chicken and onions, elegantly wrapped in a fluffy, golden omelet. A staple in both Japanese homes and charming retro cafes, Omurice is frequently customized with various delightful toppings."
+    },
+    "news": {
+      "title": "Revolutionary Food Preservation Technology Developed in Japan",
+      "content": "Japan has unveiled groundbreaking cold storage technology that promises a new era for food systems and global food security. This innovative method dramatically extends the freshness of food, offering significant potential to reduce waste and create a more sustainable circular food economy. The development was highlighted in February 2026, showcasing Japan's continuous commitment to scientific and environmental advancement.",
+      "url": "https://www.japan.go.jp/news/science_technology/"
+    },
+    "id": "1790063140346-japan",
+    "date": "2026-09-22T07:45:40.346Z"
+  },
+  {
     "country": "India",
     "fact": {
       "title": "The Enduring Flame of Dhekiakhowa Bornamghor",
