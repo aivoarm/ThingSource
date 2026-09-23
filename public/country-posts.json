@@ -1,5 +1,23 @@
 [
   {
+    "country": "Thailand",
+    "fact": {
+      "title": "Thailand's Logging Ban",
+      "content": "Despite its lush appearance, Thailand has faced significant deforestation, leading to a nationwide ban on logging. This environmental measure was enacted after roughly three-quarters of the country's hardwood forests were lost, a stark fact highlighting historical ecological challenges."
+    },
+    "culture": {
+      "title": "The Arrival of Chili Peppers in Thai Cuisine",
+      "content": "While often synonymous with spicy food, chili peppers were not originally native to Thailand. They were introduced to Thai cuisine by Portuguese missionaries and traders in the 16th and 17th centuries, who brought them from the Americas. This introduction dramatically transformed Thai cooking, adding the signature heat we know today."
+    },
+    "news": {
+      "title": "Thailand Prepares for Royal Barge Procession 2026",
+      "content": "Thailand is inviting visitors to witness the majestic Royal Barge Procession in 2026, a grand cultural spectacle along Bangkok's Chao Phraya River. Preparations are already underway, with rehearsals taking place in August 2026, showcasing the nation's rich heritage and elaborate traditions.",
+      "url": "https://www.tourismthailand.org/news-and-activities/news-detail/Thailand-invites-visitors-to-witness-the-Royal-Barge-Procession-2026-and-rehearsals-on-Bangkok-s-Chao-Phraya-River_11059"
+    },
+    "id": "1790149534036-thailand",
+    "date": "2026-09-23T07:45:34.036Z"
+  },
+  {
     "country": "Japan",
     "fact": {
       "title": "Japan's Ancient Land Bridge to Asia",
