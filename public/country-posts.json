@@ -1,5 +1,23 @@
 [
   {
+    "country": "Kenya",
+    "fact": {
+      "title": "Kenya's Steeplechase Dominance",
+      "content": "A fascinating, lesser-known fact about Kenya is its unparalleled dominance in the Olympic men's 3,000-meter steeplechase. Since 1968, Kenyan athletes have won nearly every gold medal in this event, with exceptions only during years the country boycotted the Games. This remarkable streak includes multiple clean sweeps of the medals, showcasing a deep-rooted athletic tradition in this specific discipline."
+    },
+    "culture": {
+      "title": "The Maasai Custom of Spitting as a Blessing",
+      "content": "Among the Maasai community in Kenya, spitting is a unique cultural practice that signifies respect, greeting, or a blessing, rather than disrespect. For example, Maasai men might spit on a newborn baby and say it is bad, believing that praising the child would curse it. Warriors also traditionally spit on their hands before greeting elders as a sign of deference."
+    },
+    "news": {
+      "title": "Kenyan Startup Develops Robotic Hands for Deaf Students",
+      "content": "A recent positive development in Kenya involves a local startup that has created robotic hands designed to translate a teacher's voice into sign language for deaf students. This innovative technology aims to bridge communication gaps in classrooms, offering a significant boost to inclusive education for hearing-impaired children. The initiative highlights Kenya's growing focus on technological solutions for social challenges.",
+      "url": "https://www.goodnewsnetwork.org/kenyan-startup-makes-robotic-hands-that-translate-teachers-voice-into-signs-for-deaf-students/"
+    },
+    "id": "1790235931190-kenya",
+    "date": "2026-09-24T07:45:31.190Z"
+  },
+  {
     "country": "Thailand",
     "fact": {
       "title": "Thailand's Logging Ban",
