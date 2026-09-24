@@ -1,5 +1,74 @@
 [
   {
+    "title": "A Green Surge: High-Tech Maps Show Scotland's Ancient Forests Are Healing",
+    "summary": "Cutting-edge aerial surveys have unveiled a remarkable green resurgence across Scotland's iconic Cairngorms National Park, confirming that native woodlands are beginning a large-scale, natural recovery.",
+    "sections": [
+      {
+        "heading": "Seeing Nature's Comeback from Above",
+        "content": "Instead of trekking through dense forests, researchers harnessed advanced aerial surveys and sophisticated 3D mapping technology. These detailed bird's-eye views allowed them to accurately track and quantify the exciting progress of new tree growth across the vast, rugged terrain of the Cairngorms."
+      },
+      {
+        "heading": "Why This Green Sprout Matters",
+        "content": "This isn't just about more trees; it signifies a vital step towards restoring the rich biodiversity and ecological balance of Scotland's treasured national park. The resurgence of these native woodlands provides crucial habitats for wildlife, helps capture carbon, and contributes to the overall health of the entire ecosystem."
+      }
+    ],
+    "funFacts": [
+      "The Cairngorms National Park is the UK's largest national park, covering an area larger than Luxembourg, and is a vital stronghold for unique Scottish wildlife like red squirrels and capercaillie.",
+      "\"Native woodland\" in Scotland primarily refers to ancient Caledonian pine forests and broadleaf species such as birch and oak, which are critical to the region's historical ecology.",
+      "This large-scale expansion highlights the success of decades-long conservation efforts aimed at reducing grazing pressure from deer and carefully reintroducing native species."
+    ],
+    "originalTitle": "Aerial maps reveal successful woodland expansion in Scotland&#039;s Cairngorms",
+    "originalUrl": "https://phys.org/news/2026-09-aerial-reveal-successful-woodland-expansion.html",
+    "id": "1790235042505-crww2",
+    "date": "2026-09-24T07:30:42.505Z"
+  },
+  {
+    "title": "NASA Greenlights PRIMA: A New Vision to Explore the Universe's Dawn",
+    "summary": "NASA is developing PRIMA, a groundbreaking far-infrared space telescope designed to act as a cosmic time machine, revealing how the first galaxies formed and evolved throughout the universe's tumultuous history.",
+    "sections": [
+      {
+        "heading": "Seeing the Universe's Hidden Heat",
+        "content": "PRIMA, or the PRobe far-Infrared Mission for Astrophysics, will be an extraordinary new eye in space, specialized in detecting 'far-infrared' light. Unlike visible light, which our eyes perceive, far-infrared is a form of heat radiation that can effortlessly penetrate thick cosmic dust clouds, much like a thermal camera sees through smoke. This unique capability allows PRIMA to observe processes that are otherwise completely obscured, providing a clearer view of the universe's most shrouded regions."
+      },
+      {
+        "heading": "Unlocking Cosmic History and Galactic Evolution",
+        "content": "By peering through the dust, PRIMA will allow scientists to rewind the cosmic clock, studying the birth and growth of the very first stars and galaxies in the early universe. It will help us understand the complete lifecycle of galaxies, from their initial chaotic formation to their present-day structures, and even shed light on the origins of water and the essential ingredients for life across the cosmos. This mission promises to fill crucial gaps in our understanding of how everything we see around us came to be."
+      }
+    ],
+    "funFacts": [
+      "Far-infrared light is essentially 'cosmic heat,' similar to the invisible warmth you feel from a hot stove, emitted by cool gas and dust throughout the universe.",
+      "PRIMA's observations will complement other famous telescopes like the James Webb Space Telescope, offering a fuller, multi-wavelength picture of the cosmos.",
+      "This mission is the very first of NASA's new 'Probe Explorer' class, signifying a medium-scale, high-impact observatory designed to be a pioneering force in astrophysics."
+    ],
+    "originalTitle": "NASA Selects Far-Infrared Telescope as First in New Mission Class",
+    "originalUrl": "https://www.nasa.gov/news-release/nasa-selects-far-infrared-telescope-as-first-in-new-mission-class/",
+    "id": "1790235053279-1z888",
+    "date": "2026-09-24T07:30:53.279Z"
+  },
+  {
+    "title": "Croatia Joins Global Pact for Peaceful and Sustainable Space Exploration",
+    "summary": "Croatia has officially joined the Artemis Accords, an international agreement laying the groundwork for how humanity will explore the Moon and beyond, marking a significant step towards a globally cooperative future in space.",
+    "sections": [
+      {
+        "heading": "What are the Artemis Accords?",
+        "content": "The Artemis Accords are a set of international principles designed to guide peaceful and responsible space exploration, particularly as humanity looks to return to the Moon. Much like a global roadmap for space, these accords aim to prevent conflict, foster cooperation, and establish common sense rules for nations venturing into the cosmos."
+      },
+      {
+        "heading": "Why is Croatia Joining Significant?",
+        "content": "By becoming the 74th nation to sign, Croatia reinforces the growing international consensus around these shared values for space. This commitment not only broadens the coalition dedicated to safe and transparent lunar missions but also opens doors for Croatian scientific and industrial contributions to future space endeavors."
+      }
+    ],
+    "funFacts": [
+      "The Artemis Accords are built upon the foundation of the 1967 Outer Space Treaty, providing more specific guidelines for modern activities like lunar exploration and resource utilization.",
+      "The name 'Artemis' refers to NASA's program to return humans to the Moon, named after the Greek goddess of the Moon and twin sister of Apollo, reflecting a new era of lunar exploration.",
+      "Signatory nations commit to principles such as transparency, registering space objects, providing emergency assistance to astronauts, and avoiding harmful interference, creating a safer and more predictable environment for everyone in space."
+    ],
+    "originalTitle": "NASA Welcomes Croatia as Newest Artemis Accords Signatory",
+    "originalUrl": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-croatia-as-newest-artemis-accords-signatory/",
+    "id": "1790235061401-7tcai",
+    "date": "2026-09-24T07:31:01.401Z"
+  },
+  {
     "title": "Raising a Family: Why Denmark's Approach to New Parents Stands Out",
     "summary": "A recent comparison between having a baby in Denmark and the UK reveals distinct differences, shedding light on why Scandinavian nations consistently rank as top places to raise a family. This study explores the real-world impact of societal support on new parents and infants.",
     "sections": [
