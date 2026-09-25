@@ -1,5 +1,23 @@
 [
   {
+    "country": "Canada",
+    "fact": {
+      "title": "A Gravitational Anomaly in Hudson Bay",
+      "content": "A peculiar geographical phenomenon exists in Canada's Hudson Bay region, where the force of gravity is slightly weaker than in other parts of the world. This unusual anomaly is attributed to the rebound effect of the Earth's crust after the massive Laurentide ice sheet, which once covered the area during the last ice age, melted away thousands of years ago. The lingering 'dent' in the Earth's surface and the slower-than-average mantle convection beneath contribute to this fascinating gravitational dip."
+    },
+    "culture": {
+      "title": "Thrilling Ice Canoe Racing in Quebec",
+      "content": "A unique and daring Canadian tradition is ice canoe racing, particularly prominent during Quebec's Carnival. Teams of paddlers navigate courses that involve both paddling through open water and pushing their canoes over sheets of ice. This challenging sport showcases incredible bravery and winter resilience, offering a captivating spectacle of human endurance against the elements."
+    },
+    "news": {
+      "title": "Canada Introduces Legislation to Accelerate Infrastructure Development",
+      "content": "In a move to bolster its economy and ensure sustainable growth, the Canadian government recently introduced Bill C-39, the 'Building Canada Strong Act.' This new legislation aims to significantly streamline and accelerate the review process for major infrastructure projects, ensuring decisions are made within a year of a comprehensive application. The initiative is designed to attract investment, strengthen trade corridors, and create high-paying jobs while upholding environmental protections and Indigenous rights.",
+      "url": "https://www.canada.ca/en/employment-social-development/news/2026/09/government-of-canada-introduces-legislation-to-transform-how-canada-builds.html"
+    },
+    "id": "1790322336746-canada",
+    "date": "2026-09-25T07:45:36.746Z"
+  },
+  {
     "country": "Kenya",
     "fact": {
       "title": "Kenya's Steeplechase Dominance",
