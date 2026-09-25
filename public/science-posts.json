@@ -1,5 +1,74 @@
 [
   {
+    "title": "Your Smart Backpack Just Became Your Personal Masseuse",
+    "summary": "Imagine a backpack that doesn't just carry your gear, but also acts as your personal therapist, automatically detecting muscle fatigue and delivering a soothing massage exactly when you need it.",
+    "sections": [
+      {
+        "heading": "Listening to Your Muscles",
+        "content": "This innovative backpack isn't just about comfort; it's a marvel of engineering that actively monitors your well-being. Equipped with tiny sensors, or electrodes, it 'listens' to the subtle electrical signals your muscles emit, acting like a real-time health monitor for your back. When these signals hint at muscle fatigue, the backpack springs into action, knowing precisely when and where to offer relief."
+      },
+      {
+        "heading": "Relief on the Go",
+        "content": "Once fatigue is detected, a soft, integrated massage head gently kneads the affected muscles, providing targeted comfort without you lifting a finger. This intelligent design means relief can be proactive, not just reactive, transforming how we approach muscle recovery and support in daily life, whether you're hiking, commuting, or simply carrying a heavy load."
+      }
+    ],
+    "funFacts": [
+      "The backpack uses electrodes to 'read' the electrical activity of your muscles, much like a miniature, personal EKG.",
+      "Instead of a bulky massage chair, this technology integrates discreetly into everyday wear, offering personalized relief on the go.",
+      "This invention points towards a future where everyday items are integrated with smart health monitoring and personalized wellness solutions."
+    ],
+    "originalTitle": "Backpack massages muscles when it detects they&#8217;re fatigued",
+    "originalUrl": "https://www.newscientist.com/article/2590732-backpack-massages-muscles-when-it-detects-theyre-fatigued/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1790321442396-hy35x",
+    "date": "2026-09-25T07:30:42.396Z"
+  },
+  {
+    "title": "Decoding Doggie Dialogue: Why Your Pup Pays More Attention to Consonants",
+    "summary": "Ever wonder how your dog processes all those 'good boy's and 'walkies'? New research using gentle brain scans reveals a surprising insight: dogs tune into the crisp, distinct sounds of consonants far more than the flowing melodies of vowels, offering a fresh perspective on how they perceive human speech.",
+    "sections": [
+      {
+        "heading": "The Secret Sounds of Canine Comprehension",
+        "content": "When we speak, our words are made of two basic sound types: vowels (like 'a', 'e', 'i', 'o', 'u') and consonants (like 'p', 't', 's', 'm'). Scientists have now discovered that dogs' brains react much more strongly to consonants. This suggests that the sharp, distinct sounds of consonants are the key 'signposts' they use to navigate and understand our verbal commands and affections, rather than the more fluid vowel sounds."
+      },
+      {
+        "heading": "Peeking Inside a Dog's Mind with EEGs",
+        "content": "To uncover this, researchers used non-invasive electroencephalography (EEG) on awake, calm dogs. This technology, much like listening to a radio, measures electrical activity on the surface of the brain, allowing scientists to see how their brains respond to different sounds without any discomfort. This gentle method provided unprecedented insight into which parts of our speech truly capture a dog's attention at a neurological level."
+      }
+    ],
+    "funFacts": [
+      "While humans use both consonants and vowels to differentiate words (think \"bat\" vs. \"pat\"), consonants often carry more precise information, acting like the structural beams of a word.",
+      "This discovery might influence how we train dogs, suggesting that emphasizing the initial consonant sounds in commands could make them clearer and more effective for our furry friends.",
+      "The ability to differentiate speech sounds isn't unique to humans; even some birds, like parrots, show a similar sensitivity to speech components, highlighting a broader biological capacity for auditory processing."
+    ],
+    "originalTitle": "Dogs pay more attention to consonants than vowels when we speak",
+    "originalUrl": "https://www.newscientist.com/article/2590694-dogs-pay-more-attention-to-consonants-than-vowels-when-we-speak/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1790321451155-gnf1m",
+    "date": "2026-09-25T07:30:51.155Z"
+  },
+  {
+    "title": "Timing is Key: How HRT in Perimenopause May Offer Heart Protection",
+    "summary": "New research suggests that starting hormone replacement therapy (HRT) during the perimenopause transition could significantly lower a woman's risk of heart attacks and stroke, highlighting that when treatment begins makes all the difference.",
+    "sections": [
+      {
+        "heading": "Navigating Perimenopause and HRT",
+        "content": "Perimenopause is the natural, often challenging, transition period leading up to menopause, marked by fluctuating hormone levels that cause symptoms like hot flashes and mood swings. Hormone Replacement Therapy (HRT) works by supplementing these declining hormones, primarily estrogen, to alleviate these discomforts and improve quality of life."
+      },
+      {
+        "heading": "The Critical Window for Your Heart",
+        "content": "This study suggests HRT isn't just about symptom relief; starting it specifically during perimenopause—the 'window of opportunity' before full menopause—appears crucial for cardiovascular benefits. This early intervention could act as a powerful preventative measure, potentially shielding the heart and blood vessels from damage that might occur as natural estrogen levels decline."
+      }
+    ],
+    "funFacts": [
+      "Heart disease is the leading cause of death for women, with risk often increasing significantly after menopause.",
+      "Estrogen plays a vital protective role in women's cardiovascular health, influencing blood vessel flexibility and cholesterol levels.",
+      "The concept that the timing of HRT profoundly impacts its benefits, particularly for the heart, has been a key area of scientific debate and is supported by this new research."
+    ],
+    "originalTitle": "Taking HRT in perimenopause may ward off cardiovascular disease",
+    "originalUrl": "https://www.newscientist.com/article/2590688-taking-hrt-in-perimenopause-may-ward-off-cardiovascular-disease/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1790321461320-2n6uk",
+    "date": "2026-09-25T07:31:01.320Z"
+  },
+  {
     "title": "A Green Surge: High-Tech Maps Show Scotland's Ancient Forests Are Healing",
     "summary": "Cutting-edge aerial surveys have unveiled a remarkable green resurgence across Scotland's iconic Cairngorms National Park, confirming that native woodlands are beginning a large-scale, natural recovery.",
     "sections": [
