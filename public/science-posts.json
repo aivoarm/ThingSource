@@ -1,5 +1,78 @@
 [
   {
+    "title": "Earth's Underbelly Unraveling: Scientists Witness a Tectonic Plate Breaking Apart",
+    "summary": "New research reveals that the Earth's powerful tectonic plates don't always break up dramatically; off Vancouver Island, a massive subduction zone is slowly tearing itself apart, piece by piece, fundamentally changing our understanding of how these geological giants die.",
+    "sections": [
+      {
+        "heading": "Beneath the Pacific Northwest: A Tectonic Tale",
+        "content": "The Earth's surface is a jigsaw puzzle of immense tectonic plates constantly moving, and where one slides beneath another, we find a \"subduction zone\"—a powerful engine for earthquakes and volcanoes. Off the coast of Vancouver Island, scientists have made a remarkable discovery: one such zone, previously thought to be robust, is actually in the slow, agonizing process of tearing itself apart from within. This isn't a sudden collapse, but a gradual, internal fracturing."
+      },
+      {
+        "heading": "Reshaping Our View of Earth's Dynamics",
+        "content": "This \"piecemeal demise\" of a subduction zone is a significant departure from previous ideas that tectonic plates die all at once. The finding offers crucial insights into long-standing geological mysteries, helping to explain ancient fragments of oceanic crust found far inland and illuminating the origins of some perplexing volcanic activity. Crucially, understanding these hidden breaks beneath regions like Cascadia could refine our predictions for future earthquake risks, providing a vital new perspective on Earth's deep, dynamic processes."
+      }
+    ],
+    "funFacts": [
+      "The Cascadia Subduction Zone, where this tearing is happening, stretches from northern California to British Columbia and is capable of producing magnitude 9+ earthquakes.",
+      "This discovery challenges the long-held scientific assumption that subducting plates typically 'die' as a single, cohesive unit.",
+      "Understanding how plates break up piece by piece can help geologists interpret fossil plate fragments found deep within the Earth's mantle today."
+    ],
+    "originalTitle": "Earth is tearing apart beneath the Pacific Northwest",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260924231343.htm",
+    "id": "1790407843053-28tr9",
+    "date": "2026-09-26T07:30:43.053Z"
+  },
+  {
+    "title": "Unveiling Deep-Sea Wonders: Two Bizarre New Sea Spiders Discovered",
+    "summary": "In a fascinating dive into the mysterious depths of the Salish Sea, scientists have uncovered two entirely new species of sea spiders, revealing surprising adaptations and hinting at a rich, undiscovered biodiversity.",
+    "sections": [
+      {
+        "heading": "Meet the Ocean's Latest Oddities",
+        "content": "Among the fascinating finds is a creature with striking hairy legs, piercing red eyes, and specialized comb-like tools it uses to meticulously groom itself—a truly unique behavior for a sea spider. The second newly identified species presents a different kind of peculiarity, often found encrusted with tiny parasites, painting a picture of its challenging marine existence."
+      },
+      {
+        "heading": "Unlocking the Salish Sea's Hidden Biodiversity",
+        "content": "These discoveries are more than just new entries in the biological catalog; they underscore the incredible, often unseen, biodiversity teeming within the Salish Sea. Researchers believe that these two peculiar creatures are likely just the tip of the iceberg, suggesting countless other unique marine life forms await discovery in this vibrant underwater ecosystem."
+      }
+    ],
+    "funFacts": [
+      "Despite their name, sea spiders are not true spiders (arachnids) but belong to an ancient and distinct group of marine arthropods called Pycnogonida, with their own unique evolutionary path.",
+      "The Salish Sea, located off the Pacific Northwest coast of North America, is a vast and biologically diverse inland sea known for its unique ecosystems and abundant marine life.",
+      "The self-grooming behavior observed in one of the new species, using specialized comb-like appendages, is a remarkably sophisticated adaptation for maintaining hygiene in the challenging deep-sea environment."
+    ],
+    "originalTitle": "Scientists discovered two bizarre new sea spiders that are “nightmare fuel”",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260925005412.htm",
+    "id": "1790407853648-ktdlz",
+    "date": "2026-09-26T07:30:53.648Z"
+  },
+  {
+    "title": "CERN's Grand Upgrade: Supercharging the Universe's Ultimate Microscope",
+    "summary": "The Large Hadron Collider, humanity's most powerful tool for exploring the universe's fundamental particles, is undergoing a monumental upgrade to dramatically increase its collision rate, promising a new era of discoveries.",
+    "sections": [
+      {
+        "heading": "Powering Down for a Powerful Boost",
+        "content": "Engineers at CERN have begun the intricate process of disconnecting parts of the Large Hadron Collider. This isn't a shutdown, but a vital pause to replace critical components, paving the way for its most ambitious upgrade yet: the High-Luminosity LHC."
+      },
+      {
+        "heading": "The Magic of Stronger Magnets",
+        "content": "At the heart of this upgrade are powerful new superconducting magnets, capable of generating magnetic fields 40% stronger than their predecessors. These act like precision lenses, focusing the particle beams into incredibly dense packets just before they smash together, ensuring more direct hits."
+      },
+      {
+        "heading": "A Flood of New Discoveries Awaits",
+        "content": "This enhanced focusing means billions more collisions for experiments like ATLAS and CMS to analyze, generating an unprecedented volume of data. Each collision provides crucial clues about the universe's fundamental particles and forces, offering physicists a much clearer, larger window into its deepest mysteries."
+      }
+    ],
+    "funFacts": [
+      "The LHC is a 27-kilometer (17-mile) underground ring, primarily spanning the border between France and Switzerland.",
+      "\"Superconducting\" means the magnets operate at extremely low temperatures, allowing electricity to flow with virtually no resistance and generate incredibly strong magnetic fields.",
+      "When fully operational, the upgraded LHC is expected to produce ten times more data than its original design, equivalent to analyzing hundreds of petabytes of information."
+    ],
+    "originalTitle": "CERN has begun disconnecting the Large Hadron Collider",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260925005430.htm",
+    "id": "1790407863208-hmujk",
+    "date": "2026-09-26T07:31:03.208Z"
+  },
+  {
     "title": "Your Smart Backpack Just Became Your Personal Masseuse",
     "summary": "Imagine a backpack that doesn't just carry your gear, but also acts as your personal therapist, automatically detecting muscle fatigue and delivering a soothing massage exactly when you need it.",
     "sections": [
