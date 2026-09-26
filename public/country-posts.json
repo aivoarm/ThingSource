@@ -1,5 +1,23 @@
 [
   {
+    "country": "Italy",
+    "fact": {
+      "title": "San Marino: The World's Oldest Republic Enclaved by Italy",
+      "content": "Italy is home to one of the world's smallest and oldest independent states, the Republic of San Marino, which is completely surrounded by Italian territory. Founded in 301 AD, San Marino boasts a continuous republican history spanning over 1,700 years, making it the oldest constitutional republic on Earth. This microstate, nestled within the Apennine Mountains, has maintained its sovereignty despite the unification of Italy, offering a fascinating geographical and historical anomaly on the peninsula."
+    },
+    "culture": {
+      "title": "Ferragosto: Italy's Ancient Mid-August Holiday",
+      "content": "Ferragosto, celebrated annually on August 15th, is a deeply ingrained Italian public holiday with roots tracing back to the Roman Empire. Originally established by Emperor Augustus as 'Feriae Augusti' to mark the end of agricultural labors, it later coincided with the Catholic Feast of the Assumption of Mary. Today, Italians traditionally observe Ferragosto by closing businesses and heading to beaches, mountains, or countryside for relaxation, picnics, and festivities often culminating in fireworks."
+    },
+    "news": {
+      "title": "Ancient Rome's Largest Wall Mosaic Unveiled to the Public in Italy",
+      "content": "Thirty years after its initial discovery, ancient Rome's largest-known wall mosaic, along with a vibrant fresco, is now being unveiled to the public for the first time in Italy. These monumental artworks were uncovered during excavations within the expansive Baths of Trajan, built in the early second century A.D., though their origins might even predate to Emperor Nero’s opulent Domus Aurea. Measuring 33 feet high and 52 feet long, the 'Great Mosaic' depicts walled city scenes and theatrical motifs, made from blue and white marble and gemstones to mimic the sea.",
+      "url": "https://www.archaeology.org/news/12818-260915-rome-mosaic-fresco"
+    },
+    "id": "1790408739506-italy",
+    "date": "2026-09-26T07:45:39.506Z"
+  },
+  {
     "country": "Canada",
     "fact": {
       "title": "A Gravitational Anomaly in Hudson Bay",
