@@ -1,5 +1,23 @@
 [
   {
+    "country": "Sweden",
+    "fact": {
+      "title": "A City on the Move: Kiruna's Grand Relocation",
+      "content": "In a truly extraordinary geographical undertaking, the entire city of Kiruna in northern Sweden is being systematically relocated. This massive project is necessitated by the expansion of the underlying iron ore mine, which is causing ground deformation and making the old city center unstable. Buildings, homes, and infrastructure are being dismantled and rebuilt or moved to a new site a few kilometers away to safeguard the city's future."
+    },
+    "culture": {
+      "title": "The Fiery Tradition of the Gävle Goat",
+      "content": "Each year since 1966, the Swedish town of Gävle erects a colossal straw goat, known as the Gävlebocken, in its town square for the Advent season. While intended as a festive Christmas symbol, the goat has become famously known for its unfortunate tendency to be illegally burned down before Christmas. This unique, often fiery tradition has made the Gävle Goat a quirky and attention-grabbing spectacle, drawing international interest in its annual fate."
+    },
+    "news": {
+      "title": "Sweden Establishes New Expert Group to Enhance Global Health Role",
+      "content": "Sweden is reinforcing its commitment to global health by establishing a new independent expert group, led by Karolinska Institutet. This initiative aims to develop strategic recommendations for Sweden's future engagement in addressing international health challenges. The findings from this group will be presented in early 2027, focusing on how Sweden can strengthen its contributions through research, innovation, and international partnerships.",
+      "url": "https://news.ki.se/new-swedish-expert-group-to-strengthen-swedens-future-role-in-global-health"
+    },
+    "id": "1790495131362-sweden",
+    "date": "2026-09-27T07:45:31.362Z"
+  },
+  {
     "country": "Italy",
     "fact": {
       "title": "San Marino: The World's Oldest Republic Enclaved by Italy",
