@@ -1,5 +1,78 @@
 [
   {
+    "title": "Greenland's Secret Plumbing: A Revolutionary Map Reveals Hidden Valleys Beneath the Ice",
+    "summary": "Scientists have created an unprecedented map of the rugged landscape beneath Greenland's massive ice sheet, revealing a vast, interconnected network of valleys previously unknown or fragmented. This breakthrough offers critical insights into how the ice flows and melts, profoundly impacting global sea-level rise predictions.",
+    "sections": [
+      {
+        "heading": "Peering Beneath the Ice with Radar Vision",
+        "content": "Imagine trying to map a continent buried under miles of ice – that's the challenge scientists faced. Using specialized ice-penetrating radar, researchers effectively 'saw' through the frozen expanse, stitching together fragmented data points into a continuous, detailed picture of the bedrock below. This new map unveils hundreds of valleys that act like a hidden river system, linking together across the vast subglacial landscape."
+      },
+      {
+        "heading": "Why This Hidden Landscape is a Game-Changer",
+        "content": "These newly mapped valleys aren't just geological curiosities; they are crucial pathways influencing the fate of Greenland's ice. They guide meltwater and ice flow towards the ocean, effectively acting as a natural drainage system. Understanding these channels is vital for accurately predicting how fast the ice sheet will melt and contribute to future sea-level rise, directly affecting coastal communities worldwide."
+      }
+    ],
+    "funFacts": [
+      "Greenland's ice sheet covers approximately 80% of the island and holds enough water to raise global sea levels by about 24 feet (7.4 meters) if it were to completely melt.",
+      "Ice-penetrating radar works by sending radio waves through the ice; these waves bounce off the bedrock below and return, allowing scientists to measure the depth and shape of the hidden terrain.",
+      "The terrain beneath the ice is surprisingly mountainous and varied, not just a flat surface, with these valleys acting as critical conduits for ice and water movement."
+    ],
+    "originalTitle": "Uncovering the Valleys Hidden Below Greenland’s Ice",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/",
+    "id": "1790580641921-e5clv",
+    "date": "2026-09-28T07:30:41.921Z"
+  },
+  {
+    "title": "Unveiling Andromeda: How 'Digital Darkroom' Magic Transforms Cosmic Glimpses",
+    "summary": "Discover the hidden artistry behind stunning cosmic images as we explore how advanced digital processing reveals the spectacular details of our galactic neighbor, Andromeda, from raw telescope data.",
+    "sections": [
+      {
+        "heading": "Beyond the Raw Lens: What Telescopes Really 'See'",
+        "content": "When telescopes capture light from distant galaxies like Andromeda, they collect raw data that often appears far less vibrant or detailed than the breathtaking images we admire. This initial capture is more like a black-and-white sketch than a finished painting, containing a wealth of information but lacking the visual pop we've come to expect from cosmic photography."
+      },
+      {
+        "heading": "The Cosmic Artist: Painting with Data and Light",
+        "content": "Just as a photographer develops film or enhances a digital photo, astronomers and astrophotographers use sophisticated software, much like a cosmic version of Photoshop, to bring out the galaxy's true beauty. This involves combining different wavelengths of light, adjusting contrast, sharpening details, and carefully applying color to transform faint signals into the vivid spirals and starfields we see, revealing structures otherwise lost in the initial data."
+      },
+      {
+        "heading": "Andromeda's Grandeur: Our Closest Galactic Neighbor",
+        "content": "The Andromeda Galaxy, our nearest large spiral galaxy, is a prime subject for this digital enhancement. By processing its images, scientists can better study its vast dust lanes, star-forming regions, and individual stars, gaining crucial insights into galaxy evolution and our place in the universe. It's a testament to both scientific rigor and artistic vision, allowing us to connect with the cosmos in an incredibly profound way."
+      }
+    ],
+    "funFacts": [
+      "Andromeda is so large and relatively close (about 2.5 million light-years away) that it is the most distant object visible to the naked eye from Earth under dark sky conditions.",
+      "Our Milky Way galaxy and Andromeda are on a collision course, destined to merge in about 4.5 billion years to form a new, larger 'Milkomeda' galaxy.",
+      "The 'Photoshop' techniques used for astronomical images are rooted in scientific principles, helping to interpret real data and often reveal details that would be invisible in raw observations."
+    ],
+    "originalTitle": "APOD: 2026 September 27 – Andromeda Before and After Photoshop",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop/",
+    "id": "1790580649718-momdv",
+    "date": "2026-09-28T07:30:49.718Z"
+  },
+  {
+    "title": "The Dreaming Brain's Big Secret: Why Our Most Vivid Sleep Might Actually Drain Our Energy",
+    "summary": "Scientists have uncovered a surprising energy paradox in the brain during REM sleep, the stage most associated with vivid dreams, revealing that our brains might be working so hard they consume energy faster than it can be replenished. This challenges long-held assumptions about how the brain fuels its most creative and intense nocturnal activities.",
+    "sections": [
+      {
+        "heading": "A Puzzling Energy Dip During Deep Dreams",
+        "content": "Imagine your brain as a busy factory. During REM sleep, the period when your most vivid dreams unfold, scientists observed a counterintuitive situation: while the 'delivery trucks' bringing fresh fuel (blood supply) start rolling in more frequently, the factory's immediate 'cash reserves' of usable energy actually begin to drop."
+      },
+      {
+        "heading": "Is Dreaming More Demanding Than We Thought?",
+        "content": "This unexpected energy deficit suggests that the complex internal processing involved in creating our dream worlds—from fantastical narratives to intricate sensations—is incredibly demanding. It appears our brain cells are burning through their immediate energy supply so quickly that even an increased blood flow can't quite keep pace, hinting that dreaming might be a more energetically intensive process than previously understood."
+      }
+    ],
+    "funFacts": [
+      "REM stands for Rapid Eye Movement, named for the characteristic darting eye movements observed during this sleep stage.",
+      "Though you might feel rested, your brain is highly active during REM sleep, sometimes showing similar electrical patterns to when you're awake.",
+      "This discovery suggests that dreaming isn't just a passive replay of daily events, but an active, energy-intensive creative process."
+    ],
+    "originalTitle": "REM sleep paradox: Dreaming may drain the brain’s energy even as fuel supply rises",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260925093206.htm",
+    "id": "1790580658844-hm6ec",
+    "date": "2026-09-28T07:30:58.844Z"
+  },
+  {
     "title": "Zepbound & Mounjaro: Unlocking Your Body's Inner Calorie Burner",
     "summary": "Groundbreaking research hints that popular weight-loss and diabetes medications Zepbound and Mounjaro might not just curb your hunger, but also actively switch on a special type of 'good' fat designed to burn calories, offering a powerful new angle on their effectiveness.",
     "sections": [
