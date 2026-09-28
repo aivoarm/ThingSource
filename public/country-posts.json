@@ -1,5 +1,23 @@
 [
   {
+    "country": "Scotland",
+    "fact": {
+      "title": "Scotland's Unique 'Not Proven' Verdict",
+      "content": "Scotland's legal system stands apart with its distinctive 'not proven' verdict, which has been in use since the 17th century. This third verdict, alongside 'guilty' and 'not guilty,' allows a jury to indicate that the prosecution has not proven the defendant's guilt beyond a reasonable doubt, even if there is suspicion. Although considered exculpatory, it is a subject of ongoing debate within the Scottish judiciary system."
+    },
+    "culture": {
+      "title": "The Ancient Fire Festival of Burning the Clavie",
+      "content": "In the small fishing village of Burghead, Moray, an ancient pagan fire festival known as the Burning of the Clavie takes place annually on January 11th. This unique tradition, rooted in pre-Christian times, involves constructing a 'clavie'—a burning tar barrel on a pole—which is carried through the village before being placed on a ruined altar. It is believed to bring good fortune to the community for the coming year."
+    },
+    "news": {
+      "title": "Glasgow Successfully Hosts the 2026 Commonwealth Games",
+      "content": "Glasgow recently concluded its successful hosting of the 2026 Commonwealth Games, which took place from July 23rd to August 2nd, 2026. As only the third city in history to host the Games twice, Glasgow brought deep experience and a distinctive character to this global event. The Games attracted hundreds of thousands of additional visitors, generating significant benefits for tourism across Scotland.",
+      "url": "https://www.stay-scotland.co.uk/biggest-events-in-scotland-2026/"
+    },
+    "id": "1790581536197-scotland",
+    "date": "2026-09-28T07:45:36.197Z"
+  },
+  {
     "country": "Sweden",
     "fact": {
       "title": "A City on the Move: Kiruna's Grand Relocation",
