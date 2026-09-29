@@ -1,5 +1,78 @@
 [
   {
+    "title": "A Popular Joint Supplement's Surprising Brain Connection: Glucosamine and Alzheimer's Risk",
+    "summary": "New research suggests that glucosamine, a widely used supplement for joint pain, might play an unexpected role in accelerating the progression of Alzheimer's disease, raising important questions for millions of users.",
+    "sections": [
+      {
+        "heading": "An Unsettling Connection: Glucosamine and Cognitive Decline",
+        "content": "A massive review of health records found that individuals taking glucosamine were about 25% more likely to see their mild cognitive impairment (MCI) worsen into full-blown dementia. This correlation highlights a significant statistical trend, suggesting a potential link between the supplement and how quickly cognitive issues advance."
+      },
+      {
+        "heading": "Beyond Correlation: What's Happening in the Brain?",
+        "content": "Lab experiments offer a clue into how glucosamine might exert this effect: it appears to intensify an abnormal 'sugar-tagging' process within Alzheimer's-affected brain cells. Imagine crucial brain proteins getting unwanted sugar decorations that disrupt their normal function, potentially speeding up the disease's damaging impact."
+      },
+      {
+        "heading": "Important Caveats and Future Directions",
+        "content": "While these findings are compelling, it's crucial to remember that this study shows an association, not definitive proof that glucosamine *causes* harm in humans. Researchers stress the urgent need for clinical trials to confirm these links and understand the full implications for those who use this popular supplement."
+      }
+    ],
+    "funFacts": [
+      "Glucosamine is a top-selling supplement, often used by millions worldwide hoping to ease joint pain.",
+      "The brain's 'sugar-tagging' system (glycosylation) is normally vital for cell function, but when it goes awry, it can contribute to diseases like Alzheimer's.",
+      "Correlation isn't causation: This study identifies a strong link, but definitive proof of harm from glucosamine in humans will require dedicated clinical trials."
+    ],
+    "originalTitle": "Glucosamine, a popular joint supplement, linked to faster Alzheimer’s progression",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
+    "id": "1790667044886-u2uxp",
+    "date": "2026-09-29T07:30:44.886Z"
+  },
+  {
+    "title": "NASA and Boeing Supercharge Human Space Travel with Starliner Expansions",
+    "summary": "Get ready for more humans in space! NASA and Boeing are significantly expanding their partnership, bringing more crewed missions and a powerful new rocket into play for the Starliner spacecraft, promising a busier future for low Earth orbit.",
+    "sections": [
+      {
+        "heading": "Boosting Our 'Space Taxi' Fleet",
+        "content": "Boeing's Starliner is a crucial part of NASA's commercial crew program, acting as a privately built 'space taxi' to carry astronauts to and from the International Space Station. These recent updates signify a robust commitment to expanding our capacity for human spaceflight, providing more frequent and reliable access to low Earth orbit."
+      },
+      {
+        "heading": "More Journeys, New Liftoffs",
+        "content": "The updated plans include adding several new crew missions, ensuring a steady stream of astronauts can travel to space. Crucially, a new rocket is also being certified for Starliner launches, offering more launch flexibility and reinforcing the safety and reliability of these vital trips for humanity's ongoing presence in space."
+      }
+    ],
+    "funFacts": [
+      "The Starliner is part of NASA's 'Commercial Crew Program,' where private companies like Boeing and SpaceX build and operate spacecraft, shifting NASA's role from owner to customer.",
+      "This era of space exploration is being compared by NASA's administrator to the excitement of the Apollo missions, highlighting a renewed surge of human activity and ambition beyond Earth.",
+      "Low Earth Orbit (LEO) is where the International Space Station resides, about 250 miles above Earth, making it a bustling hub for scientific research and human habitation."
+    ],
+    "originalTitle": "NASA, Boeing Share Update on Commercial Starliner Development Plans",
+    "originalUrl": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+    "id": "1790667053869-xxeil",
+    "date": "2026-09-29T07:30:53.869Z"
+  },
+  {
+    "title": "Algol: The 'Demon Star' That Actually Blinks in Your Autumn Sky",
+    "summary": "This autumn, discover Algol, famously known as the 'Demon Star' or 'The Ghoul,' whose eerie, rhythmic 'blinking' in the night sky has inspired chilling myths for millennia. Learn when and where to easily spot this captivating star, a celestial spectacle in the constellation Perseus.",
+    "sections": [
+      {
+        "heading": "Your Guide to Spotting the Celestial Ghoul",
+        "content": "As the nights grow longer, direct your attention to the northeastern sky after 9 PM to find Algol, a fascinating star within the constellation Perseus. Look for it alongside familiar constellations like Cassiopeia and Andromeda, making it an easy target for autumn stargazing."
+      },
+      {
+        "heading": "The Ancient Mystery of Algol's Blinking Eye",
+        "content": "For centuries, Algol's peculiar behavior fueled its fearful reputation, inspiring myths such as representing the 'blinking eye' of Medusa in Greek lore. This 'blinking' isn't sinister magic, but a natural phenomenon: Algol is a variable star, meaning its brightness noticeably dims and brightens on a regular cycle as a smaller companion star periodically eclipses its light from our perspective, like a cosmic wink."
+      }
+    ],
+    "funFacts": [
+      "Algol's name comes from the Arabic 'ra's al-ghūl', meaning 'the demon's head', reflecting its ancient, fearsome reputation.",
+      "This 'Demon Star' is an example of an 'eclipsing binary' system, where two stars orbit each other and one periodically passes in front of the other, causing the observed 'blink'.",
+      "You can observe Algol dimming and brightening over a period of about 2.87 days, a cycle noticeable even to the naked eye if you know what to look for."
+    ],
+    "originalTitle": "October’s Night Sky Notes: Spooky Stargazing",
+    "originalUrl": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/spooky-stargazing/",
+    "id": "1790667062413-kj241",
+    "date": "2026-09-29T07:31:02.413Z"
+  },
+  {
     "title": "Greenland's Secret Plumbing: A Revolutionary Map Reveals Hidden Valleys Beneath the Ice",
     "summary": "Scientists have created an unprecedented map of the rugged landscape beneath Greenland's massive ice sheet, revealing a vast, interconnected network of valleys previously unknown or fragmented. This breakthrough offers critical insights into how the ice flows and melts, profoundly impacting global sea-level rise predictions.",
     "sections": [
