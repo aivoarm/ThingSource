@@ -1,5 +1,23 @@
 [
   {
+    "country": "Mexico",
+    "fact": {
+      "title": "The World's Largest Pyramid is Hidden in Plain Sight",
+      "content": "Mexico is home to the Great Pyramid of Cholula, also known as Tlachihualtepetl, which is the largest pyramid in the world by volume, surpassing even Egypt's Great Pyramid of Giza. This monumental structure often goes unnoticed as it is largely overgrown with vegetation and topped by a Spanish colonial church, making it appear like a natural hill."
+    },
+    "culture": {
+      "title": "Pulque: The Ancient 'Drink of the Gods'",
+      "content": "Before tequila and mezcal, Mexico's indigenous peoples cherished pulque, a milky, viscous alcoholic beverage made from the fermented sap of the maguey (agave) plant. Dating back millennia, this pre-Hispanic drink, once considered sacred and reserved for royalty and religious ceremonies, is still enjoyed today, particularly in central Mexico."
+    },
+    "news": {
+      "title": "Mexico's Women's Blind Football Team Makes Historic International Debut",
+      "content": "In a inspiring display of determination, Mexico's first-ever women's blind football team, Chilangas FC, made its international debut at the Copa América in Brazil in September 2026. The team, formed to create opportunities for visually impaired women in sports, competed against other national teams and impressively secured a bronze medal.",
+      "url": "https://www.aljazeera.com/news/2026/8/15/how-blind-football-is-helping-women-overcome-barriers-in-mexico"
+    },
+    "id": "1790667939007-mexico",
+    "date": "2026-09-29T07:45:39.007Z"
+  },
+  {
     "country": "Scotland",
     "fact": {
       "title": "Scotland's Unique 'Not Proven' Verdict",
