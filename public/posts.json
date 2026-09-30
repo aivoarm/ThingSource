@@ -1,5 +1,63 @@
 [
   {
+    "topic": "Why Surgeons Wear Green or Blue Scrubs",
+    "title": "Beyond White: The Surprising Reason Surgeons Wear Green or Blue",
+    "category": "Professions",
+    "summary": "Step into any operating room today, and you'll likely see surgeons clad in calming shades of green or blue. But it wasn't always this way. The shift from crisp white to these specific hues isn't just a matter of style; it's a fascinating story rooted in human physiology and the quest for better surgical outcomes.",
+    "sections": [
+      {
+        "heading": "The Age of White: A Symbol of Purity (and Problems)",
+        "content": "For centuries, the image of a doctor was synonymous with white. In the late 19th and early 20th centuries, as hygiene became paramount, white coats and uniforms became standard in hospitals, symbolizing cleanliness, purity, and scientific rigor. However, the bright, stark white, especially under the intense operating room lights, soon presented a glaring problem for surgeons."
+      },
+      {
+        "heading": "The Blinding Effect and Ghostly Afterimages",
+        "content": "Staring at brilliant white surfaces for prolonged periods caused significant eye strain and headaches for surgeons, sometimes leading to a temporary 'snow blindness' effect as their eyes struggled to adjust. Even more problematic was a phenomenon known as 'afterimages.' After intensely focusing on the red blood and tissues of a patient during surgery, when a surgeon glanced away at a white surface, their eyes would briefly perceive distracting green 'ghosts' of the red image. These visual distortions could interfere with precision and concentration during delicate procedures."
+      },
+      {
+        "heading": "The Soothing Shift to Green and Blue",
+        "content": "Around the early 20th century, a pioneering doctor reportedly switched to green scrubs, recognizing their benefit for eye comfort. By the 1960s and 1970s, green and blue surgical attire became widely adopted, and by the 1980s, they were the standard in operating rooms globally. These colors are complementary to red on the color wheel, meaning they help 'reset' the surgeon's eyes, reduce afterimages, and enhance their sensitivity to the subtle shades of red in human anatomy. This choice not only eased visual fatigue but also made blood stains less visually overwhelming and easier to ignore, contributing to a calmer operating environment."
+      }
+    ],
+    "funFacts": [
+      "Before the widespread adoption of white, 18th and 19th-century surgeons often wore dark wool frock coats, which were notoriously stained during procedures and earned the grim nickname “blood and pus-soaked” coats.",
+      "The term 'scrubs' originates from the practice of 'scrubbing in'—the rigorous handwashing routine performed before surgery.",
+      "Just as surgeons learn the vital 'language' of color in the operating room, platforms like the Lore Board help unravel the hidden stories behind countless everyday objects and concepts, turning common curiosities into engaging insights."
+    ],
+    "imageKeywords": [
+      "1960s operating room",
+      "surgical scrub colors",
+      "vintage surgical team"
+    ],
+    "wikiKeywords": "Surgical scrubs history, Operating room attire, Color theory medicine",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6B32N0hb19l-CSR6ZHiy0A8ij8z6ynN3cNCJrk0gZ1Z98NPNjzcIHgn3baVbCiwNkHq9iV04Gsb2gvsR3m9BaveodJUkY6yD5hiOT9hgD-DlqYbvW0ArywmHmt-bXx2jGgQGTFJY4tWjd2WyMu5aoPUW1id3gwaJ3QnJaxt4fCwz6-kXTr96g9fAJCsvHF90_IA==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH7hI15WOkgVAtzXkewnuIEpUsjMwWPPs5tn5IplRYnrT83I66VMxY9a7IZdilZRLASKlTvWPGCqRrujS3RTOQRme6aRRaABIJCwmnYyzEKbqhAXFx3ErubNoxsndMGjRn74n_VkqtjSU-nXBt2VxeQ3IxDWEDQ88hlQxB80JZYAtyqpjUNaF1fBhtblXeiLch0w==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFs6eMb5CR3VFUVtKBIlFERbKwJXOnvLYWbOf88JdxYhuJksj6YCmQVMYwJl1fJGgWbgF4cSxZkbxAYfGHF2VTfrfK0w72BlSc-rwzZEljwCv-uqkD5t_P5nvyTD9jIO0tcr5giXFM=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9J60Etuadyv7T5rOJZzf_sHlGDg1G2_tBJ8p0CdzvNHJWYdAG_5IXlrks2suECDkkbV27ah5aoUUFfd__6EHmETiomOpm9tdCsMcDRyDYwVm9aciAd1jQJAyOrpujkYaYAwpseF6jQ6kfgj0hscBHmmLEfno2LZtFmlc=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkUeqTawWW4E1RxZprj0OI0KhS84DGn9dqZNXxSdCdS522kPPw_U6ONPAbo-AITMrnL4isuOGFk9eBe_fbrEduVWO7tZygjACcNshMe5d4tPadTaifhs5EA_vcNecdXxYcF5yOFPtiKxsUPUPrNLROSeKzO__MT2CrYag=="
+    ],
+    "positiveThought": "Every corner turned, every question asked, unveils another layer of wonder in the ordinary. Embrace the quiet thrill of discovery, for the world’s most profound stories often whisper from unexpected places.",
+    "portugalFact": {
+      "title": "Portugal's Distinctive Black Pottery of Barcelos",
+      "content": "The city of Barcelos in northern Portugal is renowned for its traditional black pottery, known as 'Louça Preta'. This unique craft utilizes local black clay and a specific firing process that imparts a characteristic dark hue and earthy finish to the pieces. While often seen in vibrant colors today, even the iconic 'Galo de Barcelos' (Rooster of Barcelos) has roots in this ancient black pottery tradition."
+    },
+    "aiSource": "Gemini",
+    "id": "1790751719312-why-surgeons-wear-green-or-blue-scrubs",
+    "slug": "beyond-white-the-surprising-reason-surgeons-wear-green-or-bl",
+    "date": "2026-09-30T07:01:59.312Z",
+    "joke": {
+      "joke": "My computer beat me at chess, but it was no match for me at kickboxing!",
+      "setup": "My computer beat me at chess,",
+      "punchline": "but it was no match for me at kickboxing!",
+      "comedian": "Emo Philips",
+      "year": "1980s",
+      "context": "This joke is widely recognized for its absurd and unexpected twist, a hallmark of Emo Philips' unique comedic style. It plays on the audience's expectation of logical comparison, then delivers a perfectly illogical and hilarious punchline, which has made it a memorable and frequently quoted example of his work."
+    },
+    "images": [
+      "https://images.unsplash.com/featured/?1960s%2Coperating%2Croom"
+    ]
+  },
+  {
     "topic": "The Origin of 'Goodbye'",
     "title": "From Divine Blessing to Casual Farewell: The Surprising Origin of 'Goodbye'",
     "category": "Language",
