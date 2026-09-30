@@ -1,5 +1,23 @@
 [
   {
+    "country": "Vietnam",
+    "fact": {
+      "title": "The Mythical Origins: Children of the Dragon and the Fairy",
+      "content": "A captivating legend tells that the Vietnamese people are descended from Lạc Long Quân, a Dragon Lord from the sea, and Âu Cơ, a beautiful mountain fairy. This foundational myth, often expressed as 'con Rồng cháu Tiên' (children of the Dragon and the Fairy), explains the deep connection Vietnamese people feel to both land and water. This unique origin story highlights the blend of natural elements and mythical lineage integral to Vietnamese identity."
+    },
+    "culture": {
+      "title": "Bánh Mì: A Culinary Icon Born from Fusion",
+      "content": "Bánh mì, the iconic Vietnamese sandwich, is a testament to the country's fascinating cultural fusion, originating from French colonial influence with a distinct Vietnamese twist. This beloved street food typically features a crispy baguette filled with a variety of savory ingredients like pâté, various meats, fresh herbs, and pickled vegetables. Its global appeal was recently celebrated with the first-ever Vietnam Bánh Mì Festival held in Tokyo, showcasing its delicious cultural impact worldwide."
+    },
+    "news": {
+      "title": "Vietnam Crowned 'Asia's Leading Destination' at World Travel Awards 2026",
+      "content": "Vietnam's tourism sector achieved significant international recognition at the World Travel Awards 2026, securing the prestigious title of 'Asia's Leading Destination' for the fifth consecutive year. The country also earned 'Asia's Leading Heritage Destination,' with Ta Xua in Son La province being named 'Asia's Leading Emerging Tourism Destination.' These accolades underscore Vietnam's growing appeal and diverse offerings for international travelers.",
+      "url": "https://baoaovietnam.vn/en/ta-xua-named-asias-leading-emerging-tourism-destination-2026-20261314.html"
+    },
+    "id": "1790754335110-vietnam",
+    "date": "2026-09-30T07:45:35.110Z"
+  },
+  {
     "country": "Mexico",
     "fact": {
       "title": "The World's Largest Pyramid is Hidden in Plain Sight",
