@@ -1,5 +1,74 @@
 [
   {
+    "title": "Arp 78: The Cosmic Oddball Sculpted by a Gravitational Dance",
+    "summary": "Gaze upon Arp 78, a striking spiral galaxy in the constellation Aries whose unusually lopsided appearance reveals the dramatic results of a past gravitational encounter. This \"peculiar\" galaxy offers astronomers a fascinating look into how celestial interactions reshape the vast islands of stars we call galaxies.",
+    "sections": [
+      {
+        "heading": "What Makes a Galaxy \"Peculiar\"?",
+        "content": "While most galaxies fit into neat categories like elegant spirals or majestic ellipticals, \"peculiar\" galaxies like Arp 78 stand out for their unusual, often distorted shapes that defy easy classification. These cosmic anomalies are typically caused by intense gravitational interactions, ranging from close flybys to outright mergers with other galaxies, acting as slow-motion celestial collisions that dramatically reconfigure stellar structures."
+      },
+      {
+        "heading": "Arp 78's Asymmetrical Beauty",
+        "content": "Arp 78, also known as NGC 772, is a prime example of a peculiar galaxy, notable for its distinctive, extended spiral arm and off-center bulge that defy the typical symmetric galaxy pattern. This lopsided beauty is believed to be the enduring mark of a gravitational tug-of-war with a smaller companion galaxy, NGC 770, which has stretched and sculpted Arp 78 over millions of years, much like a cosmic tidal force."
+      }
+    ],
+    "funFacts": [
+      "Halton Arp's \"Atlas of Peculiar Galaxies\" compiled hundreds of these unusual objects, believing they held crucial clues to how galaxies evolve and interact across the universe.",
+      "Our own Milky Way is on a collision course with the Andromeda galaxy, meaning that in billions of years, our home galaxy will likely become a \"peculiar galaxy\" itself.",
+      "Studying peculiar galaxies helps scientists understand the mechanics of galactic mergers, star formation triggered by collisions, and the distribution of dark matter within interacting systems."
+    ],
+    "originalTitle": "APOD: 2026 September 30 – Arp 78: Peculiar Galaxy in Aries",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/",
+    "id": "1790753446846-rny51",
+    "date": "2026-09-30T07:30:46.846Z"
+  },
+  {
+    "title": "Pacific's Fury: Unpacking an Unusually Active Hurricane Season",
+    "summary": "The Pacific Ocean is currently experiencing an exceptionally active hurricane season, marked by powerful storms like Polo and Nolo delivering significant destructive impacts to coastal regions and raising questions about evolving weather patterns.",
+    "sections": [
+      {
+        "heading": "An Unusually Restless Pacific",
+        "content": "This year, the northeastern and central Pacific Ocean basins have become a bustling highway for tropical storms, far surpassing typical activity levels. Scientists are closely monitoring this heightened period, trying to understand the underlying factors contributing to such a prolific and powerful hurricane season."
+      },
+      {
+        "heading": "Polo and Nolo: A Dual Strike",
+        "content": "Among the many systems, Hurricanes Polo and Nolo recently stood out for their destructive capabilities, battering coastlines with powerful winds, torrential rain, and storm surges. These storms serve as stark reminders of the immense forces at play in our atmosphere and the devastating consequences for communities in their path."
+      }
+    ],
+    "funFacts": [
+      "Tropical cyclones (which include hurricanes) are named alphabetically each year to help track them, with names retired if a storm is particularly destructive.",
+      "Ocean temperatures play a critical role in hurricane formation and intensity; warmer waters act as fuel, potentially leading to stronger and more frequent storms.",
+      "While natural cycles influence storm activity, scientists are increasingly studying how climate change might alter the frequency, intensity, and pathways of future tropical cyclones worldwide."
+    ],
+    "originalTitle": "Powerful Storms Continue to Prowl the Pacific",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/powerful-storms-continue-to-prowl-the-pacific/",
+    "id": "1790753455977-nlged",
+    "date": "2026-09-30T07:30:55.977Z"
+  },
+  {
+    "title": "Silent Moon No More: NASA Challenges Students to Engineer Our Future Lunar Communications",
+    "summary": "NASA is inviting university students to tackle a crucial problem for our future on the Moon: building reliable communication networks that will keep astronauts connected to Earth and each other during long-term lunar missions. This challenge recognizes that constant, clear communication is as vital for sustained lunar presence as the spacecraft themselves.",
+    "sections": [
+      {
+        "heading": "The Next Frontier: Reliable Communication on the Moon",
+        "content": "NASA's 2027 Human Lander Challenge is seeking fresh, innovative ideas from college and university students to design communication systems robust enough for lunar exploration. As humanity prepares for an extended stay on the Moon through programs like Artemis and future Moon Bases, the ability to send and receive information without interruption becomes paramount."
+      },
+      {
+        "heading": "Connecting Lunar Explorers to Home and Each Other",
+        "content": "Imagine living hundreds of thousands of miles from Earth – how would you share discoveries, request supplies, or handle an emergency? These communication networks aren't just for casual conversation; they are critical for real-time data transmission, navigation, health monitoring, and maintaining a vital link to mission control and loved ones back home."
+      }
+    ],
+    "funFacts": [
+      "The Moon's rugged terrain, with its mountains and craters, can easily block direct radio signals, making a complex network essential for comprehensive coverage.",
+      "Communication delays between Earth and the Moon can range from 1.3 to 2.6 seconds each way, a seemingly small lag that can significantly impact real-time decision-making.",
+      "Reliable communication systems on the Moon need to withstand extreme temperatures, radiation, and lunar dust, which can degrade electronics and signal quality."
+    ],
+    "originalTitle": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
+    "originalUrl": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/",
+    "id": "1790753464349-mlbnm",
+    "date": "2026-09-30T07:31:04.349Z"
+  },
+  {
     "title": "A Popular Joint Supplement's Surprising Brain Connection: Glucosamine and Alzheimer's Risk",
     "summary": "New research suggests that glucosamine, a widely used supplement for joint pain, might play an unexpected role in accelerating the progression of Alzheimer's disease, raising important questions for millions of users.",
     "sections": [
