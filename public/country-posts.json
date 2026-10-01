@@ -1,5 +1,23 @@
 [
   {
+    "country": "Ireland",
+    "fact": {
+      "title": "Ireland's Earlier Guillotine Use",
+      "content": "Evidence suggests a guillotine-like device was used in Ireland for an execution near Merton in County Galway as early as 1307, predating its more famous use in France by approximately 500 years. The unfortunate victim and their crime remain unknown, adding a layer of mystery to this macabre historical detail."
+    },
+    "culture": {
+      "title": "The Puck Fair: Crowning a Wild Goat King",
+      "content": "A truly unique Irish tradition is the Puck Fair, an ancient festival held annually in Killorglin, County Kerry. For three days, a wild goat, captured from the Kerry mountains, is crowned \"King Puck\" and reigns over the festivities before being safely returned to its mountain home."
+    },
+    "news": {
+      "title": "Shannon Airport Records Strongest Growth Among Major Irish Airports",
+      "content": "Shannon Airport has been recognized as Ireland's fastest-growing major airport for the fourth consecutive month, including throughout Summer 2026. Recent figures from the Irish Tourism Industry Confederation show an 8.8% increase in traffic at Shannon in September 2026, significantly outpacing other major Irish airports.",
+      "url": "https://clareecho.ie/shannon-airport-is-irelands-fastest-growing-airport-for-fourth-month-in-a-row/"
+    },
+    "id": "1790840737505-ireland",
+    "date": "2026-10-01T07:45:37.505Z"
+  },
+  {
     "country": "Vietnam",
     "fact": {
       "title": "The Mythical Origins: Children of the Dragon and the Fairy",
