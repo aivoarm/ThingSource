@@ -1,5 +1,23 @@
 [
   {
+    "country": "Peru",
+    "fact": {
+      "title": "Gran Pajatén: The Enigmatic Lost City of the Chachapoya",
+      "content": "Beyond the famed Inca sites, Peru is home to Gran Pajatén, an extraordinary archaeological complex nestled deep within the northeastern Amazon rainforest. This ancient city, often referred to as the \"Lost City of the Chachapoya,\" features intricate circular stone buildings adorned with slate mosaics depicting birds, human figures, and geometric patterns. Discovered in 1963 and estimated to be over 800 years old, its remote location within the Río Abiseo National Park has preserved its mysteries and earned it a designation as a mixed UNESCO World Heritage Site, recognizing both its cultural and natural significance."
+    },
+    "culture": {
+      "title": "Q'eswachaka: The Last Inca Rope Bridge",
+      "content": "A testament to ancient Inca engineering and community spirit, Q'eswachaka is the last remaining hand-woven grass rope bridge from the Inca Empire, spanning the Apurímac River. Every year, local villagers in the Cusco region gather for a unique festival to entirely rebuild the bridge using traditional techniques, twisting grass into cords to form massive cables. This annual renewal highlights a vibrant, living tradition that celebrates shared heritage and ensures the passage across the canyon for another year."
+    },
+    "news": {
+      "title": "Undisturbed Pre-Inca Mausoleum Discovered at Chan Chan",
+      "content": "Archaeologists in Peru recently unearthed an incredibly rare, undisturbed mausoleum at Chan Chan, once the capital of the pre-Inca Chimú civilization, sealed for approximately 600 years. This monumental discovery included the remains of at least 38 individuals, accompanied by a rich collection of grave goods such as metal weapons, gold and copper artifacts, ornate jewelry, and colorful textiles, suggesting they were high-status individuals. The find is considered a 'discovery of the decade' for providing unprecedented scientific insight into elite Chimú burials.",
+      "url": "https://www.smithsonianmag.com/smart-news/unsealed-for-the-first-time-in-600-years-this-tomb-in-peru-was-just-declared-the-discovery-of-the-decade-180984857/"
+    },
+    "id": "1790927135615-peru",
+    "date": "2026-10-02T07:45:35.615Z"
+  },
+  {
     "country": "Ireland",
     "fact": {
       "title": "Ireland's Earlier Guillotine Use",
