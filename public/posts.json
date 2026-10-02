@@ -1,5 +1,56 @@
 [
   {
+    "topic": "The Baker's Dozen",
+    "title": "The Sweet (and Scary) Secret Behind the Baker's Dozen",
+    "category": "Language",
+    "summary": "Ever wondered why a 'baker's dozen' means thirteen instead of a neat twelve? The surprising origin of this common phrase isn't about generosity, but rather a chilling tale of medieval laws, fear, and a dash of extra bread.",
+    "sections": [
+      {
+        "heading": "An Extra Loaf, or a Flogging?",
+        "content": "In medieval England, bakers operated under strict regulations governed by the 'Assize of Bread and Ale,' a law first promulgated in the 12th century and notably reinforced by King Henry III in 1266. This legislation dictated the precise weight, quality, and price of bread relative to the cost of wheat. Bakers caught selling underweight loaves faced severe penalties that could include hefty fines, public humiliation, imprisonment, or even a brutal flogging."
+      },
+      {
+        "heading": "The Inevitable Imperfection of Baking",
+        "content": "Despite their best efforts, medieval bakers grappled with the inherent inconsistencies of their craft. Factors like varying rise times, air content, and moisture loss during baking made it incredibly difficult to guarantee every loaf met the exact legal weight. With imprecise scales often unavailable, the risk of unknowingly short-changing customers was a constant threat. To safeguard themselves from harsh punishments, bakers developed a simple, cautious solution: they added an extra loaf to every dozen sold."
+      },
+      {
+        "heading": "The 'Vantage Loaf' and Beyond",
+        "content": "This additional loaf, often called an 'inbread' or 'vantage loaf,' served as a crucial insurance policy, ensuring the total weight of the purchase would meet or exceed the legal requirement. The custom became so ingrained that sometimes bakers would even throw in fourteen loaves just to be extra cautious. The phrase 'baker's dozen' itself appeared in print much later, with early iterations found in works like Thomas Nash's 'Haue Vvith You to Saffron-Vvalden' in 1596."
+      }
+    ],
+    "funFacts": [
+      "The Assize of Bread and Ale was one of the first laws in British history to regulate the production and sale of food, remaining in force in some form until 1863.",
+      "In some parts of Central Europe, dishonest bakers faced a punishment known as 'baker's baptism' or 'baker's dunking,' where they were repeatedly plunged into water while townspeople watched.",
+      "Just as medieval bakers added a 'vantage loaf' to ensure fairness, Slang's 'Lore Board' offers an extra layer of context and fascinating trivia, ensuring you get more than just the basics with every new word you learn at slang.armanayva.com!"
+    ],
+    "imageKeywords": [
+      "medieval English market",
+      "13th century bakery scene",
+      "King Henry III court"
+    ],
+    "wikiKeywords": "Assize of Bread and Ale, Henry III of England, Medieval English law",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElQLG_9j7OBd7BbUzUpobMWg7V4f8tGkdFpl56bU59CGTa7hGSUk6yU6R2dRNDo5oJIAjAf9ClQPIOyWW_vb65vGW1ymYftI54kpgrYMUvRprKIMhwibvsT348h8rPkMoyGnxPwRq3Ugqw6lfdv4L7mhilbS_rywfgrd8lMg==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-uM5Fc3e2_wUypZ1aNBrRhto0bkTT86wIDdqwkNmw671FVp16lOFj-zBkOY7dFXZWjjajCbZ1CU4kqOYpI7o7ssN5DRDUwISJIPe0RAjYwA8vRFIDco8Si7BMu6d5NFUPc1D-bSL632G3UFjzt-IIS7Ib",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFITeAh4E2shMZybU1nVs_yeF_97nphtVLnKJ9oMybp-bDtVKWh6jlgz21Vyikb29MjPGQK0NcL6iW4iwQbEH8YmS-TrMOr8S0JN2NE8i11453pWkP4u1di9Dc-OXAQemWreu6KPtJF0BWzZ-_Cq88TJPxVLc7_rEq4OwU=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjn-N6cYx4d17tGftt1UzZ49ntbkvn8DTUSamN0CUt4g8N-kGmAO_RjV0u3AORjqebSwFh8ULzIwKgxEjzOJWnN17lYbxSJO3svNO4NuIh2-k7RYsfz9rTDeCKTZ9QrT4I_ZaU5ARJ-1YsOAJt7g==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLs1Jsl5I7a4TUXW3aejdsdqO0UQK1sh-Z3UbnQTz1XvheSas2MZSx0I5pVZeFpOMyGbV1mO0jawe7gifokV9uMEcSSs33sIIEicWRBzaxZAvkbuIRezAnMui0grU1CQbcfk8VEOocDWXxPdWX_xXk11DmcHbS6287NFQDXG5Lx9eD8l1dMUBFesFCXfv01XhdtRLrng=="
+    ],
+    "positiveThought": "The world around us holds countless stories, waiting to be discovered in the most unexpected places. Embrace the gentle nudge of curiosity, for it often leads to a deeper appreciation of the ordinary and illuminates the extraordinary hidden within.",
+    "portugalFact": {
+      "title": "Portugal's Painted Poetry: The Enduring Legacy of Azulejos",
+      "content": "Walk through any Portuguese city, and you'll be captivated by the vibrant ceramic tiles adorning buildings, churches, and public spaces. These iconic 'azulejos,' derived from the Arabic word 'al zuleique' meaning 'polished stone,' were introduced to the Iberian Peninsula by the Moors in the 13th century and became a defining feature of Portuguese art and architecture, evolving from geometric patterns to intricate narrative scenes."
+    },
+    "aiSource": "Gemini",
+    "id": "1790924469944-the-baker-s-dozen",
+    "slug": "the-sweet-and-scary-secret-behind-the-baker-s-dozen",
+    "date": "2026-10-02T07:01:09.944Z",
+    "joke": null,
+    "images": [
+      "https://images.unsplash.com/featured/?medieval%2Cenglish%2Cmarket"
+    ]
+  },
+  {
     "topic": "The Origin of Ketchup",
     "title": "From Fish Brine to French Fry Friend: The Surprising Origin of Ketchup",
     "category": "Food & Drink",
