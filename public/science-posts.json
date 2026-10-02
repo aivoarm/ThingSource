@@ -1,5 +1,74 @@
 [
   {
+    "title": "Rewind Your Brain's Clock: How Diet Can Delay Aging by Years",
+    "summary": "New findings reveal that a specific eating pattern, the MIND diet, may physically slow brain aging, keeping your mind sharper for longer and potentially turning back its clock by years.",
+    "sections": [
+      {
+        "heading": "The MIND Diet: A Recipe for Brain Longevity",
+        "content": "This specialized eating plan is a clever blend of the well-known Mediterranean and DASH diets, uniquely designed to bolster brain health. It prioritizes foods packed with nutrients and antioxidants, such as leafy greens, whole grains, nuts, and specific proteins, while steering clear of ingredients that could accelerate aging."
+      },
+      {
+        "heading": "Unlocking a Younger Brain",
+        "content": "Research indicates that people who closely adhere to the MIND diet show remarkably less brain shrinkage and better preservation of their 'grey matter' – the vital tissue responsible for our thinking and processing. The most significant differences observed were equivalent to delaying brain aging by roughly 2.5 years, with berries and poultry linked to healthier changes, and sweets and fried foods tied to greater tissue loss."
+      }
+    ],
+    "funFacts": [
+      "MIND stands for 'Mediterranean-DASH Intervention for Neurodegenerative Delay,' highlighting its dual focus.",
+      "Grey matter is where the vast majority of our brain's neurons, the fundamental units of thought, memory, and consciousness, are located.",
+      "While some brain volume loss is normal with age, diet can influence the pace of this process, offering a controllable way to protect cognitive function."
+    ],
+    "originalTitle": "This diet may slow brain aging by 2.5 years",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
+    "id": "1790926244831-uv4kg",
+    "date": "2026-10-02T07:30:44.831Z"
+  },
+  {
+    "title": "Unmasking APOE4's Vulnerability: A Potential Turning Point in Alzheimer's Research",
+    "summary": "Scientists have uncovered a surprising 'Achilles' heel' in the APOE4 gene, a major risk factor for Alzheimer's, showing its damaging effects on brain blood vessels and waste removal systems may be reversible – a breakthrough that could reshape how we approach neurodegenerative diseases.",
+    "sections": [
+      {
+        "heading": "APOE4: A Saboteur in the Brain",
+        "content": "The APOE4 gene is widely known for significantly increasing the risk of Alzheimer's disease. New research now reveals exactly how it causes trouble: by actively damaging the intricate network of blood vessels in the brain and disrupting the vital cellular 'cleanup crews' responsible for flushing out harmful proteins."
+      },
+      {
+        "heading": "Finding the Reversible 'Off Switch'",
+        "content": "In a truly exciting development, researchers were able to experimentally reverse some of these detrimental effects, effectively mending the damaged blood vessels and restoring the brain's ability to clear toxic waste. This discovery points to specific targets within the APOE4 pathway that could be tweaked, offering promising avenues for future therapies not only for Alzheimer's but also for Parkinson's and other related brain conditions."
+      }
+    ],
+    "funFacts": [
+      "While inheriting the APOE4 gene significantly increases your risk for late-onset Alzheimer's, it does not guarantee you will develop the disease.",
+      "The brain's 'waste disposal' system, often called the glymphatic system, is most active during sleep, highlighting the importance of good rest for brain health.",
+      "Neurodegenerative diseases, like Alzheimer's and Parkinson's, are characterized by the progressive loss of nerve cells and brain function, affecting millions globally."
+    ],
+    "originalTitle": "Alzheimer’s risk gene APOE4 may have a reversible weakness",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260930225450.htm",
+    "id": "1790926253621-d7w0c",
+    "date": "2026-10-02T07:30:53.621Z"
+  },
+  {
+    "title": "Breaking the Space Speed Barrier: Crew-13's Rapid Journey to the ISS",
+    "summary": "Get ready for a swift journey to orbit! NASA's upcoming Crew-13 mission with SpaceX is set to blast off, aiming to deliver astronauts to the International Space Station faster than any U.S. mission before.",
+    "sections": [
+      {
+        "heading": "A New Record in Orbital Travel",
+        "content": "On October 1st, NASA's SpaceX Crew-13 mission will launch four astronauts towards the International Space Station (ISS). This isn't just another routine trip; the Dragon spacecraft is projected to reach our orbiting laboratory in an unprecedented 7 hours and 50 minutes, potentially making it the quickest U.S. spacecraft journey to the ISS in history."
+      },
+      {
+        "heading": "Why Speed Matters for Space Missions",
+        "content": "Achieving such a rapid transit demonstrates remarkable precision in orbital mechanics and spacecraft navigation. A shorter trip isn't just more comfortable for the astronauts; it also means less time exposed to the harsh radiation environment of space and a quicker start to their vital scientific work aboard the station. This streamlined approach highlights advancements in how we safely and efficiently get humans into space."
+      }
+    ],
+    "funFacts": [
+      "The International Space Station (ISS) orbits Earth at speeds around 17,500 miles per hour, circling the globe every 90 minutes.",
+      "Historically, some early space missions to the ISS could take two or even three days, requiring multiple orbits and careful alignment before docking.",
+      "The SpaceX Dragon spacecraft is designed to be reusable, significantly lowering the cost and increasing the frequency of missions carrying both cargo and crews to space."
+    ],
+    "originalTitle": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/09/260930020312.htm",
+    "id": "1790926262181-w84p2",
+    "date": "2026-10-02T07:31:02.181Z"
+  },
+  {
     "title": "Ditch the Sugar, Save Your Gut: A Simple Strategy Before Antibiotics",
     "summary": "Antibiotics, while life-saving, can wreak havoc on your gut's vital microbial community. New research suggests that simply cutting back on sugar *before* treatment could be a powerful way to protect this delicate internal ecosystem.",
     "sections": [
