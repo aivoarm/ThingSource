@@ -1,5 +1,22 @@
 [
   {
+    "country": "Spain",
+    "fact": {
+      "title": "Llívia: A Spanish Enclave Within France",
+      "content": "Nestled entirely within French territory, Llívia is a unique Spanish exclave in the Pyrénées-Orientales department of France. This geographical oddity dates back to the Treaty of the Pyrenees in 1659, which ceded numerous towns in the Cerdanya region to France, but Llívia retained its Spanish sovereignty due to its historical status as a 'villa' rather than a mere village. To this day, Llívia remains a fascinating testament to historical treaties and borders."
+    },
+    "culture": {
+      "title": "La Vijanera: Cantabria's Ancient Winter Masquerade",
+      "content": "In the Cantabrian village of Silió, the first Sunday of January (unless it falls on January 1st) comes alive with La Vijanera, a vibrant winter masquerade of pre-Roman origins. This unique tradition symbolizes the expulsion of evil spirits, bidding farewell to the old year and welcoming the new. Participants don elaborate costumes as symbolic characters like 'zarramacos' adorned with cowbells and 'the bear,' parading through the streets in a colorful and noisy spectacle."
+    },
+    "news": {
+      "title": "Frida Kahlo Exhibition Transforms Santander's Cultural Scene",
+      "content": "Santander's cultural landscape has been significantly enriched with the recent opening of the Faro Santander museum, which features works by iconic Mexican artist Frida Kahlo and other Mexican artists. Inaugurated on September 27, 2026, this landmark exhibition is poised to transform the city's appeal as a vibrant cultural destination, offering visitors a unique artistic experience."
+    },
+    "id": "1791013541025-spain",
+    "date": "2026-10-03T07:45:41.025Z"
+  },
+  {
     "country": "Peru",
     "fact": {
       "title": "Gran Pajatén: The Enigmatic Lost City of the Chachapoya",
