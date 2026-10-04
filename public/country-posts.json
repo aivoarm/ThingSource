@@ -1,5 +1,23 @@
 [
   {
+    "country": "France",
+    "fact": {
+      "title": "France's Unexpected Borders",
+      "content": "Beyond its European mainland, France shares land borders with some surprising nations. Due to its overseas territories, France borders Brazil and Suriname via French Guiana in South America, and with the Netherlands via the Caribbean island of Saint Martin. This makes France a country with diverse geographical connections stretching across multiple continents."
+    },
+    "culture": {
+      "title": "The Sacred Apéritif Ritual",
+      "content": "A quintessential French custom is the 'apéritif,' or 'l'apéro,' a cherished pre-dinner ritual. This social event involves gathering with friends or family for drinks like wine, pastis, or kir, accompanied by light snacks such as olives, nuts, or charcuterie. More than just whetting the appetite, it's a relaxed time for conversation and a transition from the day's activities to the evening's meal."
+    },
+    "news": {
+      "title": "French Farmers Adapt to Climate Change by Growing Tropical Fruit",
+      "content": "In an interesting display of resilience and adaptation, French farmers are increasingly cultivating tropical fruits within France. This development is a direct response to changing climatic conditions, allowing for the growth of produce typically found in warmer regions. This innovative approach by the agricultural sector highlights how French farmers are creatively navigating new environmental realities.",
+      "url": "https://www.goodnewsnetwork.org/resilient-french-farmers-use-warming-climate-to-grow-the-countrys-own-tropical-fruit/"
+    },
+    "id": "1791099932876-france",
+    "date": "2026-10-04T07:45:32.876Z"
+  },
+  {
     "country": "Spain",
     "fact": {
       "title": "Llívia: A Spanish Enclave Within France",
