@@ -1,5 +1,23 @@
 [
   {
+    "country": "Argentina",
+    "fact": {
+      "title": "Argentina's Surprising National Sport: El Pato",
+      "content": "Despite its global fame for football, Argentina's official national sport is actually 'El Pato,' which translates to 'The Duck.' This unique sport, played on horseback, originated in the 17th century and involves two teams attempting to carry a 'pato' (originally a live duck in a basket, now a ball with handles) to their opponents' goal. The game was once banned due to its violent nature but was later refined and declared the national sport in 1953."
+    },
+    "culture": {
+      "title": "The Enduring Social Ritual of Mate Drinking",
+      "content": "A cornerstone of Argentine culture is the communal act of drinking 'mate,' an herbal infusion made from yerba mate leaves. More than just a beverage, it's a profound social ritual where a gourd (also called a mate) filled with the brew is passed around among friends and family, each person sipping through a metal straw called a 'bombilla.' This shared experience fosters connection and is a quintessential part of daily life across the country."
+    },
+    "news": {
+      "title": "Argentina Secures Investment Pledges During 'Argentina Week' in Paris",
+      "content": "President Javier Milei recently concluded 'Argentina Week' in Paris, a diplomatic and economic roadshow aimed at attracting foreign investment. The initiative proved successful, with various French firms pledging investments, including TotalEnergies committing nearly US$10 billion in oil and gas. This positive development signals growing international confidence in Argentina's economic potential and future.",
+      "url": "https://www.batimes.com.ar/news/argentina/javier-in-paris-macron-hosts-milei-at-elysee-palace.phtml"
+    },
+    "id": "1791186333929-argentina",
+    "date": "2026-10-05T07:45:33.929Z"
+  },
+  {
     "country": "France",
     "fact": {
       "title": "France's Unexpected Borders",
