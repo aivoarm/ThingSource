@@ -1,5 +1,22 @@
 [
   {
+    "country": "Thailand",
+    "fact": {
+      "title": "Thailand: The Only Southeast Asian Nation Never Colonized",
+      "content": "Unlike its neighbors, Thailand stands alone as the only Southeast Asian country to have never been colonized by a European power. This remarkable achievement, maintained through a combination of diplomatic skill and strategic reforms, has allowed Thailand to preserve its unique cultural identity and traditions largely uninfluenced by direct colonial rule."
+    },
+    "culture": {
+      "title": "A Daily Pause: Thailand's National Anthem",
+      "content": "A unique daily tradition in Thailand involves the national anthem, 'Phleng Chat', playing publicly at 8 AM and 6 PM across the country. During these times, people in public spaces, from schools and train stations to parks, pause what they are doing and stand still to show respect for the nation. This collective act of reverence highlights the strong sense of national unity and respect for the monarchy deeply embedded in Thai culture."
+    },
+    "news": {
+      "title": "Thailand Issues Asia-Pacific's First Sovereign Nature-Linked Bond",
+      "content": "In a pioneering move towards sustainable finance, Thailand successfully raised approximately $750 million (USD) through Asia-Pacific's first sovereign nature-linked bond on October 5, 2026. This 15-year sustainability-linked bond is tied to ambitious targets for both emissions reduction and critical nature conservation efforts, marking a significant step in the country's commitment to environmental stewardship."
+    },
+    "id": "1791272742310-thailand",
+    "date": "2026-10-06T07:45:42.311Z"
+  },
+  {
     "country": "Argentina",
     "fact": {
       "title": "Argentina's Surprising National Sport: El Pato",
