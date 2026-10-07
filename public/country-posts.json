@@ -1,5 +1,23 @@
 [
   {
+    "country": "Italy",
+    "fact": {
+      "title": "The World's Oldest Continuously Operating University",
+      "content": "Beyond its ancient ruins and artistic masterpieces, Italy is home to the University of Bologna, recognized as the oldest continuously operating university in the world. Founded in 1088, this prestigious institution predates many modern nations and has been a beacon of learning and intellectual pursuit for over nine centuries, shaping European legal and academic traditions."
+    },
+    "culture": {
+      "title": "The Morning Ritual: Cappuccino as a Breakfast-Only Delight",
+      "content": "A quintessential Italian cultural habit revolves around coffee, particularly the cappuccino. In Italy, this beloved milky coffee is strictly considered a breakfast beverage, often enjoyed with a pastry. Ordering a cappuccino after lunch or dinner is generally viewed as unusual by Italians, who prefer an espresso to conclude their meals."
+    },
+    "news": {
+      "title": "FAI Autumn Days Open Italy's Hidden Artistic and Craft Heritage",
+      "content": "In a celebration of Italy's rich cultural tapestry, the Fondo per l'Ambiente Italiano (FAI) is hosting its 15th edition of 'FAI Autumn Days' on October 10th and 11th, 2026. This initiative will open over 700 sites across 350 Italian cities and towns, many of which are normally inaccessible or little known, focusing on craftsmanship and the 'Made in Italy' tradition. Visitors will have a unique opportunity to explore private residences, historic workshops, and institutional buildings, revealing the people, tools, and knowledge behind the country's manufacturing heritage.",
+      "url": "https://italiani.it/fai-autumn-days-2026-italys-know-how/"
+    },
+    "id": "1791359139984-italy",
+    "date": "2026-10-07T07:45:39.984Z"
+  },
+  {
     "country": "Thailand",
     "fact": {
       "title": "Thailand: The Only Southeast Asian Nation Never Colonized",
