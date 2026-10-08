@@ -1,5 +1,23 @@
 [
   {
+    "country": "Greece",
+    "fact": {
+      "title": "A Land of Mountains and Myriad Islands",
+      "content": "While often envisioned as solely an archipelago, Greece is remarkably mountainous, with 80% of its landmass covered by peaks, predominantly the Pindus range. Beyond its dramatic mainland, Greece also boasts an astounding number of islands and islets, estimated to be around 6,000, many of which were formed over millions of years through intense geological processes like volcanic activity and tectonic shifts."
+    },
+    "culture": {
+      "title": "The Ancient Roots of Flatbread and Toppings",
+      "content": "Greek culinary traditions are renowned for their fresh, local ingredients and the central role of olive oil. A fascinating, lesser-known aspect is the ancient Greek practice of baking large, unleavened flatbreads topped with olive oil, herbs, spices, and even dates, a custom that predates and arguably influenced what we now know as pizza. This highlights the long and rich history of Greek food, which has influenced Western cuisine for millennia."
+    },
+    "news": {
+      "title": "Greece Climbs Global Travel & Tourism Development Index",
+      "content": "Greece has shown significant improvement in its tourism sector, climbing four places to 21st globally in the latest Travel & Tourism Development Index 2026. This World Economic Forum report, released in September, assesses countries' ability to attract and support visitors, indicating Greece's enhanced infrastructure and conditions for travelers. The country's score rose by 3.6% since 2019, reflecting a strong performance in tourism development.",
+      "url": "https://greekreporter.com/2026/10/07/greece-jumps-4-places-travel-tourism-development-index/"
+    },
+    "id": "1791445545097-greece",
+    "date": "2026-10-08T07:45:45.097Z"
+  },
+  {
     "country": "Italy",
     "fact": {
       "title": "The World's Oldest Continuously Operating University",
