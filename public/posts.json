@@ -1,5 +1,67 @@
 [
   {
+    "topic": "The @ Symbol",
+    "title": "From Ancient Amphorae to Digital Addresses: The Unexpected Journey of the @ Symbol",
+    "category": "Symbols",
+    "summary": "This humble spiral has a history far richer than its ubiquitous presence in email addresses suggests, tracing its roots back to medieval scribes and Renaissance trade.",
+    "sections": [
+      {
+        "heading": "A Scribe's Shorthand",
+        "content": "Before the digital age, the '@' symbol had a practical, albeit less glamorous, existence. Its origins are often linked to medieval monastic scribes in Europe who sought ways to abbreviate common Latin words. One prominent theory suggests it began as a ligature for 'ad,' meaning 'at' or 'to,' with the 'd' curling around the 'a' to form the distinctive shape we recognize today. The earliest discovered use of a symbol in this shape is found in a 1345 Bulgarian translation of a Greek chronicle, where it replaces the capital 'A' in 'Amen.'"
+      },
+      {
+        "heading": "From Monasteries to Merchants",
+        "content": "The symbol made a significant leap from the quiet scriptorium to the bustling world of commerce. Its first known appearance in a commercial context dates back to a 1536 letter by Florentine merchant Francesco Lapi. He used the '@' to denote 'an amphora' of wine, a unit of measurement, in a trading document sent from Seville to Rome, effectively meaning 'at the rate of' or 'each at.' This established its early role in accounting and pricing, particularly in Mediterranean trade."
+      },
+      {
+        "heading": "The Spanish 'Arroba' Connection",
+        "content": "The '@' symbol became especially prevalent in Spain and Portugal, where it was adopted as an abbreviation for 'arroba,' a traditional unit of weight or volume derived from the Arabic word 'ar-rubʿ' (meaning 'a quarter'). This widespread use solidified its commercial identity long before computers were even a distant dream. The 'arroba' context further entrenched its meaning of 'at the rate of' or 'per unit,' a concept that surprisingly echoes its modern function."
+      },
+      {
+        "heading": "The Digital Revolution",
+        "content": "The true global stardom of the '@' symbol arrived in 1971, thanks to computer programmer Ray Tomlinson. Tasked with finding a way to address messages between computers on ARPANET, Tomlinson needed a character that could separate a user's name from their host computer. He chose '@' because it was rarely used in names or programming, was already on the keyboard, and crucially, meant 'at' – signifying 'user at host.' This ingenious decision transformed a historical accounting mark into the indispensable cornerstone of digital communication."
+      }
+    ],
+    "funFacts": [
+      "Before Ray Tomlinson popularized it for email, the '@' symbol was occasionally called the 'commercial a' or 'each at,' reflecting its use in pricing and accounting. It even appeared on some early typewriters as far back as 1885.",
+      "Did you know that in various languages, the '@' symbol isn't called 'at'? Koreans call it 'golbaengi' (snail), the Dutch say 'apenstaartje' (monkey's tail), and Russians know it as 'sobachka' (little dog). Learning these quirky linguistic differences is like unlocking secret codes, much like how the Slang learning app helps you master the nuances of a new language by diving into specific contexts and idiomatic expressions.",
+      "In 2010, the Museum of Modern Art added the '@' symbol to its architecture and design collection, crediting Ray Tomlinson with designing the symbol and recognizing its importance in the Information Age."
+    ],
+    "imageKeywords": [
+      "medieval scribe writing",
+      "Renaissance merchant ledger",
+      "Ray Tomlinson 1970s computer"
+    ],
+    "wikiKeywords": "At sign",
+    "citations": [
+      "https://www.smithsonianmag.com/innovation/the-secret-history-of-the-symbol-180979601/",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmh24PuC5Pdd-VOPfXfa68OR6u94rZ3J72vHU9I4ILJbNQLVoxYRXDXYsvZSIQb5Fu-LkuSvx4t3NX28dNXd5F3qSsi6Ey9FaPMIJLzGcc0oQze7bkFBBtS54IG8wt6hK52UZ_uODzBa02TyoO6RuiEqLVyQzMWIs2WSyv",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvBFW5HXNEbTtRo_k7oJvz5SI0-YjoTgNVg9ClOLQkX_a9H2JPmbV7OsVMJmfh1qBi_4uMir7qLbeIL9oCdqgSnz-7xATGSSwxqLCUFGTDFdUc_l9XAeCM8rpa5X8KcdUh9QE=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAK5PTPHkmWQGELo71hyXWCjvdyhDNT-l0-baqwFwIMuawNZdX9ffe1xglk6SVY_v9PujJSIw6BKppj_9r9dAqwmNJ4hmHppzwi1M2KpMvxv6aVibxcESIPjzaLY25oBQ=",
+      "https://blog.lingoda.com/en/what-is-the-at-symbol-called-in-other-languages/"
+    ],
+    "positiveThought": "Every small discovery, whether in the quiet corners of history or the gentle hum of daily life, reminds us that the world is an endless tapestry of wonder. Let curiosity be your compass, guiding you to new perspectives and unexpected joys.",
+    "portugalFact": {
+      "title": "Portugal's Dominance in Cork Production",
+      "content": "Portugal is home to the world's largest cork oak forests, known as 'montados,' which cover vast areas of the country. This makes Portugal the leading producer of cork globally, accounting for approximately half of the world's total supply. The sustainable harvesting of cork bark, without felling the trees, is a centuries-old tradition that plays a vital role in Portugal's economy and ecology."
+    },
+    "aiSource": "Gemini",
+    "id": "1791529324491-the-symbol",
+    "slug": "from-ancient-amphorae-to-digital-addresses-the-unexpected-jo",
+    "date": "2026-10-09T07:02:04.491Z",
+    "joke": {
+      "joke": "Before the lethal injection, they do an alcohol swab. Which is so nice. What the f*** are you doing? We don't want you to get that last-second infection!",
+      "setup": "Before the lethal injection, they do an alcohol swab. Which is so nice.",
+      "punchline": "What the f*** are you doing? We don't want you to get that last-second infection!",
+      "comedian": "Robin Williams",
+      "year": "Late 20th / Early 21st Century",
+      "context": "This joke brilliantly highlights the absurdities and ironies of life and death, a signature of Williams' incisive observational humor. It's considered iconic for its sharp wit and ability to find humor in dark subjects, delivered with his characteristic frenetic energy and inimitable style."
+    },
+    "images": [
+      "https://images.unsplash.com/featured/?medieval%2Cscribe%2Cwriting"
+    ]
+  },
+  {
     "topic": "The Stethoscope",
     "title": "The Embarrassing Secret Behind the Stethoscope's Invention",
     "category": "Inventions",
