@@ -1,5 +1,23 @@
 [
   {
+    "country": "India",
+    "fact": {
+      "title": "India's Unique Floating Post Office",
+      "content": "Did you know that India is home to the world's only floating post office? Located on Dal Lake in Srinagar, Kashmir, this unique post office operates from an intricately carved houseboat and provides all regular postal services. It even uses a special seal featuring a boatman rowing a shikara on the lake."
+    },
+    "culture": {
+      "title": "Frog Weddings to Appease Rain Gods",
+      "content": "In several Indian states, a fascinating and unusual tradition of 'frog weddings' is performed to appease the rain gods during times of drought. This ritual involves symbolically marrying two frogs, believed to bring about much-needed rainfall and ensure a bountiful harvest."
+    },
+    "news": {
+      "title": "Namo Bharat Stations to Showcase India's Rich Cultural Heritage",
+      "content": "In a positive move to integrate culture into public spaces, Namo Bharat stations in India will soon serve as venues for art exhibitions, heritage showcases, and cultural programs. A recent Memorandum of Understanding (MoU) between the National Capital Region Transport Corporation (NCRTC) and the Indira Gandhi National Centre for the Arts (IGNCA) aims to bring India's diverse artistic and cultural traditions closer to daily commuters.",
+      "url": "https://theprint.in/india/namo-bharat-stations-to-showcase-indias-art-culture-and-heritage-under-ncrtc-ignca-pact/2034177/"
+    },
+    "id": "1791531937161-india",
+    "date": "2026-10-09T07:45:37.161Z"
+  },
+  {
     "country": "Greece",
     "fact": {
       "title": "A Land of Mountains and Myriad Islands",
