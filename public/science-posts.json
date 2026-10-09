@@ -1,5 +1,78 @@
 [
   {
+    "title": "Moon Base Blueprint: NASA's Quest to Uncover Lunar Living Spaces",
+    "summary": "To establish humanity's first sustainable outpost on the Moon, NASA is actively exploring the lunar subsurface for natural shelters, vital ice reserves, and crucial data on environmental hazards, transforming our celestial neighbor into a future home.",
+    "sections": [
+      {
+        "heading": "Why Underground? The Need for Lunar Havens",
+        "content": "Building a home on the Moon presents unique challenges, from shielding against harmful cosmic radiation and extreme temperature swings to protecting against micrometeorite impacts. NASA's strategy involves seeking out naturally occurring underground shelters, like lava tubes, which could provide ready-made, robust protection for future lunar inhabitants."
+      },
+      {
+        "heading": "A Three-Pronged Approach for Survival and Exploration",
+        "content": "This ambitious quest involves three key investigations: mapping potential underground shelters, locating vital reserves of hidden water ice – essential for drinking, oxygen, and even rocket fuel – and continuously tracking hazardous surface conditions. Success on the Moon not only ensures astronaut survival and well-being but also refines the strategies and technologies crucial for future human missions to Mars."
+      }
+    ],
+    "funFacts": [
+      "Lunar lava tubes, formed by ancient volcanic activity, are thought to be massive, potentially kilometers long and wide – large enough for entire lunar cities!",
+      "Water ice on the Moon isn't just for drinking; it can be broken down into hydrogen for rocket fuel and oxygen for breathing, making it a game-changer for long-duration missions.",
+      "Without Earth's protective atmosphere and magnetic field, the Moon's surface experiences radiation levels hundreds of times higher than on Earth, making underground shelters critical for astronaut safety."
+    ],
+    "originalTitle": "NASA is searching for hidden caves to build its first Moon base",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261008005247.htm",
+    "id": "1791531050145-cz7au",
+    "date": "2026-10-09T07:30:50.145Z"
+  },
+  {
+    "title": "A Tiny Pond Organism Just Rewrote a Fundamental Rule of Life's Genetic Code",
+    "summary": "Scientists have stumbled upon a microscopic organism that defies what was thought to be a nearly universal rule of the genetic code, forcing us to rethink the very language life uses to build itself.",
+    "sections": [
+      {
+        "heading": "Life's Instruction Manual: A Universal Language?",
+        "content": "Imagine DNA as the blueprint for all life, and the 'genetic code' as the instruction manual translating that blueprint into proteins, the workhorses of our cells. For decades, scientists believed this code followed a set of nearly universal rules, including specific 'stop' signals that tell the cell, 'Okay, this protein is finished!' This universal language has been a cornerstone of biology."
+      },
+      {
+        "heading": "A Microbe's Secret Dialect: Turning 'Stop' into 'Go'",
+        "content": "During tests of a new DNA sequencing technique, researchers unexpectedly discovered a previously unknown protist—a single-celled organism from an Oxford pond—that interprets these instructions differently. Instead of using two specific 'stop' signals to end a protein sequence, this quirky microbe bizarrely uses them to encode two entirely different amino acids, the building blocks of proteins. It's like finding a book where a period suddenly means 'add a new word' instead of 'end the sentence!'"
+      },
+      {
+        "heading": "Rethinking the Foundations of Life",
+        "content": "This accidental discovery is profound because it challenges a long-held assumption that these particular genetic signals evolve in a coordinated, unbreaking fashion. Finding an organism that deviates from such a fundamental rule suggests there's far more flexibility in the genetic code than previously imagined, opening up new avenues for understanding biological diversity and the evolutionary adaptability of life on Earth."
+      }
+    ],
+    "funFacts": [
+      "The organism is a 'protist,' a diverse group of mostly single-celled creatures that aren't plants, animals, or fungi, often found in everyday environments like pond water.",
+      "This discovery was entirely accidental, highlighting the serendipitous nature of scientific breakthroughs—sometimes the biggest findings come from unexpected detours.",
+      "While some genetic code variations exist, this specific re-purposing of two distinct 'stop' signals is exceptionally rare and significantly challenges our understanding of the code's 'universality.'"
+    ],
+    "originalTitle": "Scientists accidentally discover a genetic code that breaks the rules of life",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261007233136.htm",
+    "id": "1791531059260-3lme1",
+    "date": "2026-10-09T07:30:59.260Z"
+  },
+  {
+    "title": "Rewriting Humanity's Early Story: Homo erectus Arrived 200,000 Years Sooner",
+    "summary": "Prepare to rethink human history: new fossil finds in South Africa reveal that Homo erectus, a key ancestor, walked the Earth an astonishing 200,000 years earlier than scientists previously believed.",
+    "sections": [
+      {
+        "heading": "A Major Leap Back in Time for Our Ancestors",
+        "content": "Imagine finding a missing chapter in your family's oldest history book! That's essentially what scientists have achieved, uncovering Homo erectus fossils in South Africa that date back a remarkable two million years. This incredible discovery, particularly a skull fragment from Drimolen Cave, pushes back the known presence of this crucial early human relative in southern Africa by an astounding 200,000 years."
+      },
+      {
+        "heading": "Ancient Neighbors Adapting to a Changing World",
+        "content": "Our ancient past wasn't a lonely one for Homo erectus. The same fossil trove reveals that a contemporary cousin, Paranthropus robustus, was also evolving, developing even larger teeth and stronger chewing muscles. This shows how different early human relatives adapted uniquely to shifting climates and food sources, with Paranthropus becoming a 'super-chewer' alongside our direct ancestors."
+      }
+    ],
+    "funFacts": [
+      "Homo erectus was a significant trailblazer, being the first known human ancestor to migrate out of Africa and spread across vast parts of Asia and potentially Europe.",
+      "The Drimolen Cave, where these fossils were found, is part of South Africa's 'Cradle of Humankind,' a UNESCO World Heritage site renowned for its abundant early human fossils.",
+      "While Homo erectus was built for long-distance walking, their robust contemporary, Paranthropus, evolved powerful chewing muscles and massive teeth, likely specializing in tough plant foods to survive changing environments."
+    ],
+    "originalTitle": "Scientists found Homo erectus 200,000 years earlier than expected",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261007042113.htm",
+    "id": "1791531069465-t4iwr",
+    "date": "2026-10-09T07:31:09.465Z"
+  },
+  {
     "title": "Hijacking Cancer's Own Engine: A New Molecule Forces Tumors to Self-Destruct",
     "summary": "Imagine tricking cancer's own growth engine into becoming its self-destruct button. Stanford scientists have engineered a molecule that does just that, completely eliminating aggressive lymphoma tumors in mice by forcing them to commit cellular suicide.",
     "sections": [
