@@ -1,5 +1,23 @@
 [
   {
+    "country": "Iceland",
+    "fact": {
+      "title": "Unique Patronymic and Matronymic Naming System",
+      "content": "Unlike most Western countries, Icelanders typically do not use traditional family surnames. Instead, their surnames are formed from their father's or mother's first name, followed by 'son' for males or 'dóttir' for females. This unique system emphasizes individual identity over lineage and is ingrained in official registries and daily address."
+    },
+    "culture": {
+      "title": "Outdoor Naps for Babies",
+      "content": "A common and often surprising cultural practice in Iceland is for parents to let their babies nap outdoors in strollers, even during cold weather. This tradition is believed to promote better and more restful sleep for infants, with parents often keeping a watchful eye from nearby cafes or homes."
+    },
+    "news": {
+      "title": "Borealis Data Center Expands Blönduós Campus for AI Infrastructure",
+      "content": "Borealis Data Center announced in July 2026 the expansion of its Blönduós campus, bolstered by a new renewable energy agreement and significant investment in AI infrastructure. This development further solidifies Iceland's growing role in providing sustainable data center solutions, leveraging its abundant green energy resources and cool climate.",
+      "url": "https://borealisdatacenters.com/insights/"
+    },
+    "id": "1791618341375-iceland",
+    "date": "2026-10-10T07:45:41.375Z"
+  },
+  {
     "country": "India",
     "fact": {
       "title": "India's Unique Floating Post Office",
