@@ -1,5 +1,23 @@
 [
   {
+    "country": "Australia",
+    "fact": {
+      "title": "Australia's Accelerating Journey North",
+      "content": "Did you know that the entire Australian continent is steadily drifting northward at a remarkable pace? The Australian tectonic plate is moving north and slightly clockwise at approximately 2.7 inches (7 centimeters) per year. This movement is so significant that Australia's GPS systems actually need to be regularly updated to maintain accuracy."
+    },
+    "culture": {
+      "title": "The Iconic Bunnings Warehouse Sausage Sizzle",
+      "content": "A quintessential Australian cultural custom is the 'Bunnings sausage sizzle', often held on weekends outside Bunnings Warehouse hardware stores. These community fundraisers involve volunteers grilling sausages and serving them in a slice of bread with onions, typically for a few dollars. It's a beloved tradition that combines fundraising, community spirit, and a casual, outdoor dining experience."
+    },
+    "news": {
+      "title": "High Court Blocks Major Coal Mine Expansion in New South Wales",
+      "content": "In a significant victory for climate justice, Australia's highest court recently ruled against proposals to expand a massive coal mine in New South Wales. This pivotal decision, stemming from a legal challenge initiated by retired teachers, sets a new precedent for fossil fuel project approvals across the country, emphasizing the need to consider downstream climate impacts.",
+      "url": "https://www.positive.news/society/good-news-stories-from-week-41-of-2026/"
+    },
+    "id": "1791704735019-australia",
+    "date": "2026-10-11T07:45:35.019Z"
+  },
+  {
     "country": "Iceland",
     "fact": {
       "title": "Unique Patronymic and Matronymic Naming System",
