@@ -1,5 +1,23 @@
 [
   {
+    "country": "Scotland",
+    "fact": {
+      "title": "Eas a' Chual Aluinn: Britain's Tallest Waterfall",
+      "content": "Scotland is home to Eas a' Chual Aluinn, the United Kingdom's tallest waterfall, cascading an impressive 200 meters (658 feet) in the remote Assynt region of the Scottish Highlands. This stunning natural wonder is more than three times the height of Niagara Falls, yet remains a relatively lesser-known gem. Its Gaelic name poetically translates to \"waterfall of the beautiful tresses,\" perfectly describing the water's shimmering ribbons against ancient cliffs."
+    },
+    "culture": {
+      "title": "The \"Blackening\" of the Bride and Groom",
+      "content": "A unique and messy Scottish pre-wedding custom, \"Blackening\" involves friends and family \"capturing\" the bride and/or groom days or weeks before their wedding. The couple is covered in various sticky, unpleasant substances like treacle, soot, or flour, and then paraded publicly through the village. This boisterous tradition, especially prevalent in rural areas of the Highlands and Northern Isles, is believed to ward off evil and bring good luck for a long and happy marriage."
+    },
+    "news": {
+      "title": "Saving Wildcats Project Celebrates 50 Releases into Scottish Highlands",
+      "content": "Conservationists recently celebrated a significant milestone in efforts to save the critically endangered Scottish wildcat, often called the 'Highland tiger'. The 'Saving Wildcats' project confirmed in September 2026 that four more wildcats were released into the Cairngorms National Park this summer, bringing the total number released since 2023 to 50. This program, led by the Royal Zoological Society of Scotland (RZSS), aims to re-establish a viable wild population and has seen females successfully breeding in the wild for three consecutive years."
+    },
+    "url": "https://www.thenational.scot/news/23955636.scottish-wildcat-project-celebrates-50-releases-highlands/",
+    "id": "1791791140858-scotland",
+    "date": "2026-10-12T07:45:40.858Z"
+  },
+  {
     "country": "Australia",
     "fact": {
       "title": "Australia's Accelerating Journey North",
