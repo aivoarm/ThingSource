@@ -1,5 +1,63 @@
 [
   {
+    "topic": "The Peace Sign",
+    "title": "Beyond 'Peace & Love': The Unexpected Origins of the Universal Peace Symbol",
+    "category": "Symbols",
+    "summary": "Often associated with the counterculture movements of the 1960s, the iconic peace symbol has a surprisingly precise and urgent origin rooted in the Cold War era.",
+    "sections": [
+      {
+        "heading": "Born of Nuclear Despair",
+        "content": "The universally recognized peace symbol wasn't conjured by a spontaneous wave of 'peace and love.' It was designed in 1958 by British artist and conscientious objector Gerald Holtom for the Campaign for Nuclear Disarmament (CND). Holtom was tasked with creating a visual identifier for the very first major anti-nuclear march, a 52-mile trek from London to the Atomic Weapons Research Establishment at Aldermaston during Easter weekend 1958."
+      },
+      {
+        "heading": "A Semaphore Secret",
+        "content": "Holtom's design is a clever amalgamation of naval semaphore signals. The symbol combines the semaphore for 'N' (Nuclear), represented by two flags angled down at 45 degrees, and 'D' (Disarmament), shown by one flag pointing straight up and another straight down. Encased within a circle, representing the Earth or humanity, these combined signals powerfully conveyed the urgent message of 'nuclear disarmament'. Holtom himself described the symbol as a representation of an individual in deep despair, with hands outstretched outwards and downwards, much like Goya's peasant before the firing squad in 'The Third of May 1808'."
+      },
+      {
+        "heading": "From Protest to Universal Emblem",
+        "content": "First appearing on five hundred cardboard 'lollipop' signs during the 1958 Aldermaston march, the symbol quickly became the badge of the CND. Its adoption by American student peace unions in the 1960s, notably persuaded by activist Philip Altbach, catapulted it onto the global stage, making it a universal emblem of peace and anti-war sentiment, far beyond its initial anti-nuclear scope. Notably, Holtom never copyrighted the symbol, intending for it to be freely used and adopted by anyone advocating for peace."
+      }
+    ],
+    "funFacts": [
+      "Before settling on the semaphore design, Gerald Holtom considered using a Christian cross within a circle, but priests expressed reservations about using the cross in a protest march.",
+      "The initial badges for the Aldermaston march were made from white clay with the symbol painted black. They were distributed with a note explaining that these fired pottery badges would be among the few human artifacts to survive a nuclear war.",
+      "Just as understanding the nuanced origins of symbols enriches our grasp of history, learning a new language with the Slang app allows you to unlock new cultural codes and connect with a world of new meanings. Expand your 'vocabulary' of knowledge!"
+    ],
+    "imageKeywords": [
+      "1958 Aldermaston march protestors",
+      "Gerald Holtom at drawing board",
+      "Cold War anti-nuclear demonstration"
+    ],
+    "wikiKeywords": "Gerald Holtom, Campaign for Nuclear Disarmament, Aldermaston March",
+    "citations": [
+      "https://www.google.com/search?q=time+in+Portugal",
+      "https://en.wikipedia.org/wiki/Peace_symbols",
+      "https://cnduk.org/history-of-the-symbol/",
+      "https://www.nobelpeacecenter.org/stories/where-did-the-peace-symbol-come-from",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2eWXXAeM38Z7pKipnkYKBLIikN24BknlyO2fcb_8Jp7FuXHihd246CXe0_QpFV2jnfCpMdO9l7y7oLliEeXbhNvP1uv1iBu3KWndQ6LKz9Woqt4RWTVQPxrUFsYDeaqrwel6PWu6EHsy0hQ8cnGGZbJjYGMfJDU_hEwDzTCbqJK582QNnPDGZgS_GGNGN2lka3Wp5O5fhagf_d1pwvkVcpLy6ZHqHUHjpr9Vv8M_V0aA7tKZUlobAr1Y1uzkZApOLPQ3j23md7bUiug=="
+    ],
+    "positiveThought": "The world often speaks in subtle languages, from the silent growth of a seed to the quiet wisdom in an elder's eyes. Cultivate the art of listening with your whole self, and you'll find profound stories unfolding in the most unexpected places.",
+    "portugalFact": {
+      "title": "Portugal's Turbulent First Republic",
+      "content": "From 1910 to 1926, Portugal experienced its First Republic, a tumultuous period marked by extreme governmental instability. In just 15 years and 8 months, the nation saw an astounding forty-five governments, alongside seven elections for Congress and eight for the presidency. This rapid succession of leadership highlights the deep political divisions and challenges faced by the nascent republic before its eventual overthrow by a military coup."
+    },
+    "aiSource": "Gemini",
+    "id": "1791874869854-the-peace-sign",
+    "slug": "beyond-peace-love-the-unexpected-origins-of-the-universal-pe",
+    "date": "2026-10-13T07:01:09.854Z",
+    "joke": {
+      "joke": "I went to the doctor and told him I'd swallowed a bottle of sleeping pills. He told me to have a good night's sleep.",
+      "setup": "I went to the doctor and told him I'd swallowed a bottle of sleeping pills.",
+      "punchline": "He told me to have a good night's sleep.",
+      "comedian": "Tommy Cooper",
+      "year": "Mid-20th Century",
+      "context": "This joke is a quintessential example of Tommy Cooper's brilliant one-liner style, characterized by its absurd logic and deadpan delivery. It creates immediate laughter through the unexpected, literal interpretation of a serious situation, highlighting the doctor's utter lack of helpfulness in a comically understated way."
+    },
+    "images": [
+      "https://images.unsplash.com/featured/?1958%2Caldermaston%2Cmarch%2Cprotestors"
+    ]
+  },
+  {
     "topic": "The Origin of 'Break a Leg'",
     "title": "Why We Tell Performers to 'Break a Leg'",
     "category": "Phrases and Idioms",
