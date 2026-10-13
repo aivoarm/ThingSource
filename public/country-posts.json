@@ -1,5 +1,23 @@
 [
   {
+    "country": "Morocco",
+    "fact": {
+      "title": "Morocco: The First Nation to Recognize U.S. Independence",
+      "content": "A fascinating, lesser-known historical fact about Morocco is that it was the first country in the world to officially recognize the independence of the United States of America. This pivotal moment occurred on December 20, 1777, when Sultan Sidi Muhammad Ibn Abdullah welcomed American ships into Moroccan ports. Nine years later, the Morocco-American Treaty of Friendship was signed in 1786, establishing formal diplomatic relations that have endured ever since."
+    },
+    "culture": {
+      "title": "The Sacredness of Bread (Khobz) in Moroccan Culture",
+      "content": "In Morocco, bread, known as 'khobz,' holds a profound sacred status that extends beyond mere sustenance. It is considered a blessing from God, and therefore, disrespecting bread is deeply frowned upon. A unique custom dictates that if a piece of bread is accidentally dropped, it is picked up, kissed, and set aside reverently rather than being discarded or stepped on."
+    },
+    "news": {
+      "title": "Moroccan Film Industry Experiences Unprecedented Boom in 2026",
+      "content": "Morocco's film industry is experiencing a remarkable boom in 2026, establishing the country as a fully integrated production hub rather than just a scenic backdrop. With state-of-the-art facilities and a new tax rebate program, international studios are increasingly choosing Morocco for their projects, including major blockbusters. Moroccan films are also gaining international recognition, with multiple projects selected for the 79th Cannes Film Festival and a strong presence at the 2026 Cotonou film and digital forum.",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmJDRpfCcZ7irAvkqIgDXf2FtSZN_lrvbOUHRvV8EKq-kfgL-K68pryYo_S1e7oD5zy5BmSq53W2kBIG_5klfEwNOIcba71I3kM-j7ka7YAAMtJEGGvyuyaBuO7r6naBxwpy4G27t7XEJS3_JlZ6atmQ=="
+    },
+    "id": "1791877540556-morocco",
+    "date": "2026-10-13T07:45:40.556Z"
+  },
+  {
     "country": "Scotland",
     "fact": {
       "title": "Eas a' Chual Aluinn: Britain's Tallest Waterfall",
