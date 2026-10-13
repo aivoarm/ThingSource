@@ -1,5 +1,51 @@
 [
   {
+    "title": "COVID-19 Variants: When to Worry and When to Watch",
+    "summary": "As new COVID-19 variants continuously emerge, it's natural to wonder if each one signals a new health challenge. Scientists are refining our understanding, helping us discern which viral tweaks truly alter the pandemic landscape and which are simply part of a virus's natural evolution.",
+    "sections": [
+      {
+        "heading": "The Ever-Changing Viral Landscape",
+        "content": "Viruses are master shapeshifters, constantly mutating as they replicate inside hosts. While these genetic changes produce new variants all the time, many are inconsequential, like minor spelling errors in a constantly rewritten story, posing no new significant threat to human health."
+      },
+      {
+        "heading": "Decoding a Variant's True Threat",
+        "content": "Public health experts aren't just counting new variants; they're meticulously analyzing specific genetic changes for traits like increased transmissibility, higher severity, or the ability to evade our immune defenses. Only variants demonstrating these critical shifts warrant elevated concern, informing our strategies for vaccines, treatments, and public health measures."
+      }
+    ],
+    "funFacts": [
+      "Most viral mutations are either harmless or actually weaken the virus, making it less successful at spreading.",
+      "Our immune system, thanks to vaccines and prior infections, often develops a broad defense, meaning it can still offer some protection against many new variants, even if not perfectly.",
+      "Global genomic surveillance acts like an early warning system, allowing scientists to track variants worldwide and identify potentially dangerous ones before they spread widely."
+    ],
+    "originalTitle": "Does each new covid-19 variant pose a significant threat?",
+    "originalUrl": "https://www.newscientist.com/article/2593098-does-each-new-covid-19-variant-pose-a-significant-threat/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1791876651393-t263q",
+    "date": "2026-10-13T07:30:51.393Z"
+  },
+  {
+    "title": "The Shrinking Sea on Our Plates: How UK Seafood Choices Dwindled Over a Century",
+    "summary": "A fascinating new study, delving into a hundred years of recipes, reveals a surprising truth: the dazzling array of seafood once gracing UK dinner tables has dramatically dwindled, signaling a profound shift in our culinary habits.",
+    "sections": [
+      {
+        "heading": "A Culinary Time Capsule",
+        "content": "Researchers embarked on a unique historical journey, analyzing a century of seafood recipes published in the popular UK magazine Good Housekeeping. This extensive collection acted as a culinary time capsule, allowing scientists to track how recommendations for home cooks—and likely, national palates—have evolved from the early 20th century to today."
+      },
+      {
+        "heading": "From Bounty to Limited Menu",
+        "content": "What they uncovered was a significant 'narrowing' of the types of seafood featured. While earlier recipes showcased a rich diversity of fish and shellfish, modern offerings tend to concentrate on a much smaller, more familiar selection. This suggests a less adventurous approach to seafood today, with fewer species making it onto the average dinner plate."
+      }
+    ],
+    "funFacts": [
+      "The study highlights how historical consumer magazines can serve as valuable data sources for understanding long-term dietary changes.",
+      "This 'narrowing' of seafood options could reflect broader societal shifts, from changing supply chains to altered consumer preferences and even potential impacts on marine biodiversity.",
+      "Imagine a world where your local fishmonger offered dozens of unique fish types; this research suggests we might have been closer to that reality a century ago."
+    ],
+    "originalTitle": "100-year magazine study reveals &#039;narrowing&#039; of U.K. seafood recipes",
+    "originalUrl": "https://phys.org/news/2026-10-year-magazine-reveals-narrowing-uk.html",
+    "id": "1791876658961-tc3ne",
+    "date": "2026-10-13T07:30:58.961Z"
+  },
+  {
     "title": "Light-Switch Tattoos: The Dawn of Dynamic Body Art",
     "summary": "Imagine a tattoo that could appear and disappear on command. Scientists have developed a revolutionary new ink that responds to light, offering unprecedented control over body art and potentially eliminating the permanence dilemma.",
     "sections": [
