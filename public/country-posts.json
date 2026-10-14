@@ -1,5 +1,23 @@
 [
   {
+    "country": "Ireland",
+    "fact": {
+      "title": "Ireland's Lack of Native Snakes",
+      "content": "A widespread misconception attributes the absence of snakes in Ireland to Saint Patrick banishing them. However, the true reason is geological: Ireland became separated from mainland Europe by rising sea levels after the last Ice Age, preventing snakes from ever colonizing the island naturally."
+    },
+    "culture": {
+      "title": "Wren Day (Lá an Dreoilín)",
+      "content": "On December 26th, St. Stephen's Day, some rural parts of Ireland celebrate Wren Day, known as Lá an Dreoilín. Participants, often referred to as 'Wren Boys,' dress in straw costumes and go from house to house, singing, dancing, and playing music in exchange for donations."
+    },
+    "news": {
+      "title": "Ireland's Dry Stone Construction Gains UNESCO Recognition",
+      "content": "Ireland's traditional practice of Dry Stone Construction has recently achieved international acclaim by being inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity in September 2026. This recognition highlights the intricate craftsmanship and historical significance of dry stone walls found across the country.",
+      "url": "https://nationalinventoryich.chg.gov.ie/latest-news/"
+    },
+    "id": "1791963939563-ireland",
+    "date": "2026-10-14T07:45:39.563Z"
+  },
+  {
     "country": "Morocco",
     "fact": {
       "title": "Morocco: The First Nation to Recognize U.S. Independence",
