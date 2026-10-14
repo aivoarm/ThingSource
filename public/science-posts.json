@@ -1,5 +1,74 @@
 [
   {
+    "title": "A Century in the Making: Britain's Brand New, Long-Clawed Predator Dinosaur",
+    "summary": "After over a hundred years, a fearsome dinosaur fossil unearthed on the Isle of Wight has finally been identified as a completely new species, revealing a formidable predator that once roamed ancient Britain.",
+    "sections": [
+      {
+        "heading": "A Century of Unveiling Secrets",
+        "content": "For over 100 years, a collection of fossil bones found on the UK's dinosaur-rich Isle of Wight remained a scientific puzzle. Now, after meticulous study, paleontologists have finally identified these remains as belonging to a completely new species of dinosaur, adding a thrilling chapter to Britain's prehistoric past. This century-long wait highlights the painstaking work involved in classifying ancient life and the enduring mysteries hidden in the Earth."
+      },
+      {
+        "heading": "Unveiling Invictibellatrix: Britain's Fierce New Hunter",
+        "content": "This newly named dinosaur, *Invictibellatrix amberina*, was a formidable predator from the megaraptoran family, an agile group known for their impressive weaponry. Stalking ancient Britain approximately 120 million years ago, this beast likely wielded terrifying 20-centimeter-long claws, making it a powerful and swift hunter in its ecosystem. Its discovery offers fresh insights into the diversity of top predators during the early Cretaceous period."
+      }
+    ],
+    "funFacts": [
+      "The dinosaur's full name, *Invictibellatrix amberina*, translates to 'Invincible huntress of Amber,' honoring the Isle of Wight and local fossil hunter Amber Griffiths.",
+      "Megaraptorans were a group of agile, carnivorous dinosaurs known for their relatively long arms and exceptionally large, sickle-shaped claws, making them formidable hunters.",
+      "The Isle of Wight is often called 'Dinosaur Island' due to its rich fossil beds, which have yielded numerous significant dinosaur discoveries over the centuries, cementing its status as a paleontological hotspot."
+    ],
+    "originalTitle": "Dinosaur named new species 102 years after fossil found on Isle of Wight",
+    "originalUrl": "https://www.newscientist.com/article/2593437-dinosaur-named-new-species-102-years-after-fossil-found-on-isle-of-wight/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1791963054343-8da8y",
+    "date": "2026-10-14T07:30:54.343Z"
+  },
+  {
+    "title": "AI Discovers Hidden Chemical Blueprint to Turn Carbon Pollution into Fuel",
+    "summary": "Artificial intelligence has unveiled nearly 10,000 previously unknown chemical 'shortcuts' that could revolutionize how we transform carbon dioxide into valuable fuels and chemicals, offering a powerful new pathway in the fight against climate change.",
+    "sections": [
+      {
+        "heading": "AI: The Chemistry Super-Sleuth",
+        "content": "For decades, scientists have sought ways to transform excess carbon dioxide, a major greenhouse gas, into useful materials like fuels. This complex task involves understanding intricate chemical reactions, many of which remain hidden to traditional scientific methods. Now, advanced artificial intelligence acts as a super-sleuth, sifting through a mind-boggling number of potential chemical interactions to map out reactions human scientists might never have found."
+      },
+      {
+        "heading": "Unlocking CO2's Hidden Potential",
+        "content": "The AI didn't just find more reactions; it uncovered crucial, efficient pathways, including a surprising role for hydrogen, that were completely missed by previous models. These newfound chemical 'recipes' dramatically improve our ability to predict how CO2 can be converted, laying the groundwork for designing far more efficient catalysts – the chemical 'accelerators' that speed up these conversions and make them economically viable."
+      }
+    ],
+    "funFacts": [
+      "Imagine trying to find the perfect recipe for a complex dish from millions of possible ingredients and steps; AI helps scientists narrow down the best combinations for CO2 conversion.",
+      "Turning CO2 into fuel is like giving it a second life, transforming a climate pollutant into a valuable resource, much like recycling plastic bottles into new products.",
+      "Catalysts are critical for making these conversions practical. Think of them as chemical dating apps, connecting molecules that wouldn't normally react, but doing so much faster and more efficiently."
+    ],
+    "originalTitle": "AI reveals a hidden chemical shortcut that could turn CO2 into fuel",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261013015758.htm",
+    "id": "1791963064763-23s46",
+    "date": "2026-10-14T07:31:04.763Z"
+  },
+  {
+    "title": "India Unearths Vasuki: A Prehistoric Serpent Rivaling Earth's Largest Ever Known",
+    "summary": "Imagine a snake longer than a school bus slithering through ancient forests. Scientists have just unearthed the fossilized remains of such a creature in India, named Vasuki indicus, a colossal serpent that could redefine our understanding of prehistoric giants.",
+    "sections": [
+      {
+        "heading": "The Colossal Discovery from Ancient India",
+        "content": "Researchers in India recently uncovered fossilized vertebrae belonging to an ancient snake, dubbed Vasuki indicus. This incredible find dates back approximately 47 million years, offering a rare glimpse into the colossal reptilian life that once roamed our planet."
+      },
+      {
+        "heading": "A Titan Among Serpents",
+        "content": "Based on the size of its bones, scientists estimate Vasuki could have stretched up to a staggering 50 feet long, making it a true rival to Titanoboa, previously considered the largest snake known to science. Its immense size suggests it was a powerful, slow-moving ambush predator, much like today's anacondas, patiently waiting to strike unsuspecting prey."
+      }
+    ],
+    "funFacts": [
+      "This ancient giant lived roughly 47 million years ago, long before the rise of humanity.",
+      "Estimated at up to 50 feet in length, Vasuki was longer than a typical school bus.",
+      "Its enormous body likely meant it preferred a slow, stealthy approach, ambushing its meals rather than actively hunting them."
+    ],
+    "originalTitle": "Gigantic prehistoric snake discovered in India may have been one of the largest ever",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261014001406.htm",
+    "id": "1791963074639-g56o6",
+    "date": "2026-10-14T07:31:14.639Z"
+  },
+  {
     "title": "COVID-19 Variants: When to Worry and When to Watch",
     "summary": "As new COVID-19 variants continuously emerge, it's natural to wonder if each one signals a new health challenge. Scientists are refining our understanding, helping us discern which viral tweaks truly alter the pandemic landscape and which are simply part of a virus's natural evolution.",
     "sections": [
