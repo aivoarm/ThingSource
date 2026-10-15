@@ -1,5 +1,23 @@
 [
   {
+    "country": "Spain",
+    "fact": {
+      "title": "Maestrazgo Geopark: A Window into 200 Million Years of Earth's History",
+      "content": "Spain is home to the Maestrazgo Geopark in Teruel, one of the four founding members of the European Geoparks Network. This unique geological site allows visitors to observe 200 million years of Earth's history imprinted within its rock layers and folds, akin to reading a natural history book. Recognized by UNESCO, the geopark has played a significant role in revitalizing this sparsely populated and lesser-known area of the Iberian Peninsula, offering scientific and cultural tourism."
+    },
+    "culture": {
+      "title": "Rabo de Toro: A Culinary Tradition Born from the Bullring",
+      "content": "A unique Spanish culinary tradition is 'Rabo de Toro', or bull's tail stew, a hearty dish with origins dating back to Roman times. The popular version we know today originated in 16th-century Cordoba, traditionally served after bullfights at the exit of the bullring. This rich stew, often prepared with various ingredients, showcases Spain's ability to transform unusual ingredients into gourmet experiences deeply rooted in its heritage."
+    },
+    "news": {
+      "title": "Benidorm Crowned Europe's Greenest Town for 2028",
+      "content": "In recent positive news for Spain, Benidorm has been awarded the prestigious European Green Leaf 2028 title, recognizing it as Europe's greenest town. The popular holiday resort was commended for successfully balancing its massive tourism industry with robust environmental protection efforts.",
+      "url": "https://www.olivepress.es/spain-news/2026/10/13/spain-cleans-up-at-green-cities-award-benidorm-beats-mass-tourism-image-to-be-crowned-europes-greenest-town/"
+    },
+    "id": "1792050345902-spain",
+    "date": "2026-10-15T07:45:45.902Z"
+  },
+  {
     "country": "Ireland",
     "fact": {
       "title": "Ireland's Lack of Native Snakes",
