@@ -1,5 +1,23 @@
 [
   {
+    "country": "Mexico",
+    "fact": {
+      "title": "Mexico is Home to the World's Longest Underwater Cave Systems",
+      "content": "Beneath Mexico's Yucatán Peninsula lies an extraordinary labyrinth of interconnected underground rivers and cenotes, forming the longest underwater cave systems on Earth. The Sac Actun and Ox Bel Ha systems are recognized as the world's most extensive flooded caverns, offering a unique glimpse into ancient geological formations and a trove of Maya artifacts. These spectacular submerged worlds attract divers globally, showcasing breathtaking stalactites, stalagmites, and crystal-clear waters."
+    },
+    "culture": {
+      "title": "The Ancient and Revered Xoloitzcuintli Dog",
+      "content": "Mexico is the ancestral home of the Xoloitzcuintli, often called the Mexican hairless dog, an ancient breed deeply intertwined with Mesoamerican mythology and culture. Revered by the Aztecs as a companion to the living and a guide for souls through the underworld, Xolos were considered sacred and protective guardians. This unique breed, which has existed for over 3,000 years, is celebrated as Mexico's national dog and even found its way into the art of renowned figures like Frida Kahlo."
+    },
+    "news": {
+      "title": "Mérida Crowned the World's Friendliest City",
+      "content": "In a testament to its renowned hospitality, Mérida, the capital of Mexico's Yucatán state, was recently named the 'World's Friendliest City' in the 2026 Friendliest Cities Index. Compiled by the research platform Fernwayer, Mérida earned the top honor globally, surpassing numerous international destinations. This recognition highlights the city's deeply ingrained cultural traditions of warmth, respect, and a welcoming atmosphere for visitors.",
+      "url": "https://yucatanmagazine.com/merida-crowned-as-the-worlds-friendliest-city-in-new-travel-list/"
+    },
+    "id": "1792136739153-mexico",
+    "date": "2026-10-16T07:45:39.153Z"
+  },
+  {
     "country": "Spain",
     "fact": {
       "title": "Maestrazgo Geopark: A Window into 200 Million Years of Earth's History",
