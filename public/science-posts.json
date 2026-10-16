@@ -1,5 +1,75 @@
 [
   {
+    "title": "Satellite Eyes Reveal Hurricane Isaias's Impact on Power Grids",
+    "summary": "New insights from high-definition satellite images reveal the precise areas where Hurricane Isaias plunged the Florida Panhandle into darkness and, crucially, how quickly the lights came back on, offering a vital tool for disaster assessment.",
+    "sections": [
+      {
+        "heading": "Seeing the Darkness from Space",
+        "content": "Imagine a map that shows every light bulb across an entire region. Satellites orbiting Earth can do just that, capturing 'nighttime lights' with incredible detail. This unique perspective allows scientists to pinpoint exactly where electricity grids fail during major events like hurricanes, providing an immediate, objective overview of the damage."
+      },
+      {
+        "heading": "Charting Isaias's Footprint and Recovery",
+        "content": "Following Hurricane Isaias, these high-definition images vividly illustrated the storm's impact on the Florida Panhandle, revealing widespread power outages. More importantly, the subsequent images chronicled the rapid return of light to affected areas, offering a quantifiable measure of the recovery teams' efficiency and the region's resilience."
+      }
+    ],
+    "funFacts": [
+      "Monitoring nighttime lights from space isn't just for disasters; it's also used to track economic development, urbanization, and even illegal fishing activities worldwide.",
+      "Traditional post-storm damage assessments often rely on slow, dangerous ground surveys or aerial flyovers. Satellite data offers a rapid, wide-area view, especially useful immediately after a storm passes.",
+      "The quick return of lights, as observed after Isaias, speaks to the robust infrastructure and efficient response efforts of utility companies and emergency services in affected regions."
+    ],
+    "originalTitle": "Isaias Dims the Gulf Coast",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
+    "id": "1792135857253-h5kdl",
+    "date": "2026-10-16T07:30:57.253Z"
+  },
+  {
+    "title": "Unlocking Mars's Moon Secrets: A Joint Mission to Phobos and Deimos",
+    "summary": "NASA is partnering with Japan's space agency, JAXA, on an ambitious mission to Mars' two unusual moons, Phobos and Deimos, aiming to collect samples and finally solve the enduring riddle of how these tiny cosmic companions came to be.",
+    "sections": [
+      {
+        "heading": "Solving the Martian Moon Mystery",
+        "content": "NASA is joining forces with Japan's JAXA on an ambitious mission called MMX (Martian Moons eXploration) to unravel the enduring enigma of Mars's two small moons, Phobos and Deimos. This mission aims to precisely characterize these celestial bodies and, crucially, determine whether they are captured asteroids or ancient fragments blasted off Mars itself."
+      },
+      {
+        "heading": "A Global Quest to Bring Home a Sample",
+        "content": "Building on NASA's long legacy of Red Planet exploration, the agency is playing a vital supporting role in JAXA's pioneering efforts to collect and return a sample from one of these moons. This precious material, once back on Earth, promises to provide unprecedented insights into their origins and the early history of our solar system."
+      }
+    ],
+    "funFacts": [
+      "Phobos, Mars's inner moon, is so close to the planet that it orbits three times a day, making it one of the fastest-orbiting moons in the solar system!",
+      "Both Phobos and Deimos are irregularly shaped, resembling cosmic potatoes more than the spherical moons we typically imagine.",
+      "Retrieving a sample from a Martian moon would be a scientific first, offering direct evidence to solve one of the solar system's great origin mysteries."
+    ],
+    "originalTitle": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
+    "originalUrl": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/",
+    "id": "1792135867345-llxrp",
+    "date": "2026-10-16T07:31:07.345Z"
+  },
+  {
+    "title": "Could AI Unlock the Universe's Secrets, Revolutionizing Physics as We Know It?",
+    "summary": "After revolutionizing fields like computer programming and mathematics, artificial intelligence is now poised to tackle the fundamental laws of the universe, promising a profound transformation in how we understand physics.",
+    "sections": [
+      {
+        "heading": "AI's Proven Track Record: From Code to Complex Calculations",
+        "content": "Artificial intelligence has already proven its remarkable ability to master incredibly complex tasks, excelling in areas like writing computer programs and solving advanced mathematical equations. These achievements demonstrate AI's capacity to process vast information and identify intricate patterns, setting the stage for its next ambitious leap into fundamental science."
+      },
+      {
+        "heading": "How AI Could Unravel the Universe's Deepest Mysteries",
+        "content": "The potential impact on physics is profound, as AI could help scientists sift through immense experimental data, uncover hidden symmetries in quantum mechanics, or even assist in formulating entirely new theories about the cosmos. This revolutionary partnership promises to accelerate discovery, offering unprecedented ways to explore the fundamental laws governing our universe and potentially challenging long-held assumptions."
+      }
+    ],
+    "funFacts": [
+      "AI is already assisting astronomers in classifying galaxies and identifying distant exoplanets from vast datasets.",
+      "Modern physics experiments, like particle accelerators, generate petabytes of data, making AI essential for finding subtle clues for new discoveries.",
+      "Some researchers envision AI not just analyzing data, but potentially proposing entirely new theoretical frameworks or experiments to test them.",
+      "The ability of AI to model complex systems could lead to breakthroughs in fields from fusion energy to quantum computing."
+    ],
+    "originalTitle": "Will physics be the next field to be turned upside down by AI?",
+    "originalUrl": "https://www.newscientist.com/article/2593273-will-physics-be-the-next-field-to-get-turned-upside-down-by-ai/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1792135877422-frlu7",
+    "date": "2026-10-16T07:31:17.422Z"
+  },
+  {
     "title": "Harvesting Hope: How Science is Making Australian Farms Climate-Friendly",
     "summary": "Australia's national science agency has unveiled a groundbreaking report, revealing that practical, climate-friendly farming solutions are not only available today but are also a smart investment for a sustainable food future.",
     "sections": [
