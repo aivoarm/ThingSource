@@ -1,5 +1,23 @@
 [
   {
+    "country": "Vietnam",
+    "fact": {
+      "title": "Son Doong Cave: A Hidden World Beneath the Earth",
+      "content": "Vietnam is home to Sơn Đoòng Cave, recognized as the world's largest cave, nestled within Phong Nha-Kẻ Bàng National Park. This immense natural wonder is so vast that it boasts its own unique climate, a thriving jungle, and even a flowing river within its subterranean depths. Discovered in 1991, parts of Sơn Đoòng are believed to be large enough to encompass an entire city block, offering a truly awe-inspiring geographical marvel."
+    },
+    "culture": {
+      "title": "Water Puppetry: An Ancient Aquatic Art Form",
+      "content": "A uniquely Vietnamese tradition, water puppetry (Múa rối nước) is a centuries-old art form that originated in the Red River Delta. Skilled puppeteers manipulate lacquered wooden puppets from behind a screen in waist-deep water, bringing ancient legends and folktales to life accompanied by traditional music. This mesmerizing spectacle offers a distinctive glimpse into Vietnam's rich storytelling heritage."
+    },
+    "news": {
+      "title": "Vietnam to Inaugurate First National Culture Day in November 2026",
+      "content": "Vietnam is set to celebrate its first-ever National Culture Day on November 24, 2026, aiming to deeply embed culture into social life and foster national pride. Deputy Prime Minister Pham Thi Thanh Tra has directed nationwide preparations, which will include cultural activities and a grand concert in Hanoi, designed to engage citizens across the country in preserving and enriching Vietnamese cultural values.",
+      "url": "https://english.vietnamnet.vn/deputy-pm-orders-nationwide-push-for-first-vietnamese-culture-day-2069818.html"
+    },
+    "id": "1792223141079-vietnam",
+    "date": "2026-10-17T07:45:41.079Z"
+  },
+  {
     "country": "Mexico",
     "fact": {
       "title": "Mexico is Home to the World's Longest Underwater Cave Systems",
