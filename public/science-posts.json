@@ -1,5 +1,78 @@
 [
   {
+    "title": "Journey into the Heart of a Comet: Exploring 67P in 3D",
+    "summary": "Scientists are unveiling an unprecedented 3D look at Comet 67P/Churyumov–Gerasimenko, offering curious minds a chance to virtually explore the dynamic, 'rubber ducky'-shaped world first extensively studied by the Rosetta mission.",
+    "sections": [
+      {
+        "heading": "Getting Up Close with a Cosmic Traveler",
+        "content": "Comet 67P/Churyumov–Gerasimenko has been a celebrity in the astronomy world since the European Space Agency's Rosetta mission spent two years orbiting it. Now, advanced 3D visualizations are allowing us to virtually navigate its icy surface, revealing intricate details like never before and transforming flat images into a navigable landscape."
+      },
+      {
+        "heading": "Unlocking Secrets with a New Dimension",
+        "content": "Beyond just pretty pictures, these 3D models are powerful scientific tools. They enable researchers to accurately map the comet’s unique, irregular shape, pinpoint where jets of gas and dust erupt, and understand how the sun’s warmth affects its diverse terrain. This depth of understanding is vital for deciphering comets' roles in the early solar system."
+      }
+    ],
+    "funFacts": [
+      "Comet 67P is famous for its distinctive 'rubber ducky' shape, formed by two lobes connected by a narrow neck.",
+      "The Rosetta mission, which extensively studied 67P, was the first to orbit a comet and deploy a lander (Philae) onto its surface.",
+      "Comets are often considered 'time capsules' because they harbor ancient material, offering clues about the conditions when our solar system was born."
+    ],
+    "originalTitle": "APOD: 2026 October 17 – 3D 67P",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+    "id": "1792222255639-oq032",
+    "date": "2026-10-17T07:30:55.639Z"
+  },
+  {
+    "title": "A Familiar Face Returns to Lead NASA's Rocket Powerhouse",
+    "summary": "NASA has announced Stephen Cash, a seasoned aerospace veteran, will take the helm as the new director of the Marshall Space Flight Center, a crucial hub for developing the powerful rockets that propel us to space.",
+    "sections": [
+      {
+        "heading": "Marshall Space Flight Center: The Heart of NASA's Rocketry",
+        "content": "Marshall isn't just a research facility; it's where the mighty engines and massive structures that lift spacecraft into orbit are conceived and tested. From the Saturn V rockets that took humanity to the Moon to the Space Launch System propelling the Artemis missions, Marshall's engineering prowess is foundational to American space exploration."
+      },
+      {
+        "heading": "A Veteran Engineer Returns to His Roots",
+        "content": "Stephen Cash brings over four decades of experience back to the center where his career began, having risen through the ranks as an engineer and later serving as a prominent aerospace executive. His deep institutional knowledge and leadership expertise are set to guide Marshall through its next era of groundbreaking contributions to human spaceflight and scientific discovery."
+      }
+    ],
+    "funFacts": [
+      "Marshall Space Flight Center was founded with Wernher von Braun and his rocket team, becoming instrumental in developing the Saturn V rocket for the Apollo Moon missions.",
+      "Today, Marshall leads the development of the Space Launch System (SLS), the most powerful rocket ever built, which is critical for NASA's Artemis program aiming to return humans to the Moon and eventually Mars.",
+      "The center director plays a pivotal role in overseeing billions of dollars in projects and thousands of personnel, shaping the future of NASA's heavy-lift capabilities and scientific instrumentation."
+    ],
+    "originalTitle": "NASA Names Stephen Cash Marshall Space Flight Center Director",
+    "originalUrl": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
+    "id": "1792222263125-acmy8",
+    "date": "2026-10-17T07:31:03.125Z"
+  },
+  {
+    "title": "Nature's Blueprint: A Single Gene Dictates Snail Shell Swirl – And Could Hint at Our Own Body Asymmetry",
+    "summary": "Scientists have pinpointed a specific gene that determines whether a snail's shell coils to the left or right, a fascinating discovery that offers new insights into the fundamental biological processes dictating body asymmetry, even in humans.",
+    "sections": [
+      {
+        "heading": "The Mystery of the Swirl",
+        "content": "Have you ever noticed that snail shells spiral in different directions? Some twist clockwise to the right, while others elegantly coil counter-clockwise to the left, creating a perfect mirror image of their counterparts. For years, the precise biological mechanism behind this intriguing 'handedness' has remained a profound puzzle."
+      },
+      {
+        "heading": "The Genetic Key Unlocked",
+        "content": "Researchers studying wild Japanese Euhadra snails have finally cracked this code, identifying a single gene responsible for dictating which way a shell will coil. This groundbreaking discovery shows that an organism's fundamental 'left-right' orientation can be traced back to its earliest genetic instructions."
+      },
+      {
+        "heading": "Beyond the Snail: Clues for Our Own Bodies",
+        "content": "While seemingly just about snails, this finding has profound implications for understanding 'handedness' across the animal kingdom, including within our own bodies. From the placement of our heart to whether we're right or left-handed, our bodies exhibit fundamental left-right asymmetry, and this snail gene offers a potential clue to its deep evolutionary roots."
+      }
+    ],
+    "funFacts": [
+      "Most snail species are predominantly right-coiling (dextral), making left-coiling (sinistral) individuals quite rare and often a genetic anomaly.",
+      "This left-right body asymmetry isn't unique to snails; our own bodies exhibit it, from the placement of our heart on the left to our liver on the right.",
+      "The 'handedness' of a snail shell can sometimes prevent mating between left- and right-coiling individuals of the same species, as their reproductive organs may not align."
+    ],
+    "originalTitle": "Scientists uncover mystery of how snail shells coil to the right or to the left",
+    "originalUrl": "https://phys.org/news/2026-10-scientists-uncover-mystery-snail-shells.html",
+    "id": "1792222276105-oe7p6",
+    "date": "2026-10-17T07:31:16.105Z"
+  },
+  {
     "title": "Satellite Eyes Reveal Hurricane Isaias's Impact on Power Grids",
     "summary": "New insights from high-definition satellite images reveal the precise areas where Hurricane Isaias plunged the Florida Panhandle into darkness and, crucially, how quickly the lights came back on, offering a vital tool for disaster assessment.",
     "sections": [
