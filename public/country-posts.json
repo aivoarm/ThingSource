@@ -1,5 +1,23 @@
 [
   {
+    "country": "Italy",
+    "fact": {
+      "title": "Craco: Italy's Abandoned Cliff-Top Ghost Town",
+      "content": "Perched dramatically on a steep cliff in Basilicata, Craco is a medieval ghost town that has been completely abandoned since the 1980 Irpinia earthquake. Its history dates back to Greek settlements in the 8th century BC, and it once flourished with a university and monastery before a series of devastating landslides and floods, exacerbated by faulty infrastructure, led to its depopulation. Today, this eerie yet captivating site serves as a unique tourist attraction and a popular filming location, notably appearing in films like 'The Passion of the Christ' and 'Quantum of Solace'."
+    },
+    "culture": {
+      "title": "Pane Carasau: Sardinia's 'Sheet Music Bread'",
+      "content": "Hailing from the island of Sardinia, Pane Carasau is an ancient, paper-thin flatbread often dubbed 'Carta da Musica' due to its delicate, almost translucent quality. This unique bread, whose origins trace back to pastoral communities and the Nuragic Age over 3,000 years ago, was a staple for shepherds because of its remarkable shelf life, lasting up to a year. Made from durum wheat flour, water, salt, and yeast, Pane Carasau undergoes a distinctive double-baking process called 'carasatura' to achieve its signature crispness and flavor."
+    },
+    "news": {
+      "title": "Italy Adds 18th-19th Century Theatres to UNESCO World Heritage List",
+      "content": "In July 2026, Italy further cemented its position as a global leader in cultural heritage when UNESCO's World Heritage Committee recognized a 'System of condominium theatres in central Italy from the 18th to the 19th century'. This significant addition, which includes 10 historic theatres across Marche, Umbria, and Emilia-Romagna, raises Italy's total number of UNESCO World Heritage Sites to 62. The inscription celebrates the architectural and historical value of these venues, supporting their conservation and expanding cultural programming.",
+      "url": "https://www.initaly.com/new-unesco-sites-2026-italy-reaches-62-world-heritage-sites-with/"
+    },
+    "id": "1792309548719-italy",
+    "date": "2026-10-18T07:45:48.719Z"
+  },
+  {
     "country": "Vietnam",
     "fact": {
       "title": "Son Doong Cave: A Hidden World Beneath the Earth",
