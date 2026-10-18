@@ -1,5 +1,80 @@
 [
   {
+    "title": "The Nightjar's Flight Paradox: How This Bird Soars Thousands of Miles with an Upside-Down Wing Trick",
+    "summary": "Scientists have uncovered the remarkable flight secrets of the European nightjar, a migratory bird that sacrifices efficient long-distance speed for astonishing mid-air agility, powered by a truly unique upward wingbeat. This discovery challenges conventional understanding of bird flight and offers exciting possibilities for future aviation technology.",
+    "sections": [
+      {
+        "heading": "The Agile Migrant: A Hunter's Trade-Off",
+        "content": "The European nightjar embarks on impressive migrations spanning thousands of kilometers, but researchers found its wings are built for more than just endurance. Unlike many long-distance flyers optimized for straight, efficient travel, the nightjar's wing design prioritizes agility, allowing it to snatch insects from the air with remarkable precision."
+      },
+      {
+        "heading": "An Unconventional Lift: Thrust on the Upstroke",
+        "content": "Perhaps the most astonishing discovery is how the nightjar generates power: it creates significant thrust not only on the downward flap, which is typical for birds, but also on the upward sweep of its wings. This 'double-action' flight mechanism, like getting an extra boost when you'd normally just be recovering, provides extraordinary maneuverability and offers a fresh perspective on avian aerodynamics."
+      }
+    ],
+    "funFacts": [
+      "European nightjars are nocturnal insect hunters, often catching prey like moths and beetles on the wing at dusk and dawn.",
+      "Their cryptic, mottled brown plumage acts as excellent camouflage, making them incredibly hard to spot during the day when they rest.",
+      "These birds migrate vast distances, often traveling between their breeding grounds in Europe and Asia to wintering grounds in sub-Saharan Africa.",
+      "The unique upward thrust mechanism could inspire more agile and efficient drone designs, potentially leading to quieter, more maneuverable flying robots.",
+      "This discovery challenges the long-held assumption that active thrust generation in flapping flight primarily occurs during the downstroke."
+    ],
+    "originalTitle": "This bird flies thousands of miles, but its wings have a catch",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261016070624.htm",
+    "id": "1792308655065-xlb66",
+    "date": "2026-10-18T07:30:55.065Z"
+  },
+  {
+    "title": "SpaceX's Out-of-This-World Delivery: Tiny Organs and Medical Breakthroughs Head to Orbit",
+    "summary": "This latest SpaceX mission isn't just about delivering supplies; it's a bold step forward in medicine, sending miniature human organs and advanced tissue cultures to the International Space Station to unlock treatments for devastating diseases and revolutionize healthcare here on Earth. Imagine growing new body parts and testing life-saving drugs in space – that's precisely what's happening.",
+    "sections": [
+      {
+        "heading": "Mini-Organs, Major Hopes: Advancing Medicine from Orbit",
+        "content": "The latest SpaceX resupply mission brought truly unique passengers to the ISS: \"organoids\" – miniature, lab-grown versions of human brains and heart tissue. Scientists are using the microgravity environment to study how these complex biological structures grow and function differently in space, hoping to gain unprecedented insights into diseases like Alzheimer's or develop new heart therapies. This unique orbital laboratory could accelerate breakthroughs that are challenging to achieve on Earth."
+      },
+      {
+        "heading": "From Artificial Eyesight to Super-Materials: Broader Horizons",
+        "content": "Beyond the organoids, the shipment includes groundbreaking technology aimed at creating artificial retinas in space, offering hope for restoring vision to those with degenerative eye conditions. The mission also explores manufacturing exotic new types of glass in microgravity, which could have unique properties impossible to achieve on Earth. This diverse cargo underscores the International Space Station's role as a vital platform for cutting-edge research across multiple scientific frontiers."
+      }
+    ],
+    "funFacts": [
+      "The 'tiny brain models' are actually brain organoids, intricate clusters of human brain cells that allow scientists to study complex neurological diseases like Alzheimer's in a controlled environment.",
+      "Microgravity offers a unique advantage for growing tissues because cells can assemble into more realistic, three-dimensional structures than they often can on Earth, mimicking how they behave inside the human body.",
+      "The pursuit of 'unusual glass' in space leverages microgravity to create materials with fewer imperfections and unique properties, potentially leading to stronger fibers for optics or more durable components."
+    ],
+    "originalTitle": "SpaceX just delivered some very strange cargo to the International Space Station",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261016070628.htm",
+    "id": "1792308665495-fpza0",
+    "date": "2026-10-18T07:31:05.495Z"
+  },
+  {
+    "title": "Japan's Mission to Phobos: Unlocking Mars's Century-Old Moon Mystery",
+    "summary": "Japan is embarking on an ambitious space mission to Phobos, Mars's largest moon, aiming to bring back crucial samples that promise to finally unravel a century-old mystery surrounding its very existence and how it came to orbit the Red Planet.",
+    "sections": [
+      {
+        "heading": "The Cosmic Conundrum of Phobos",
+        "content": "For over 100 years, scientists have been baffled by Phobos, Mars's larger moon, and its smaller sibling Deimos. These oddly shaped, potato-like objects orbit surprisingly close to Mars, leading to a cosmic detective story: Are they captured asteroids, or chunks of Mars itself flung into space?"
+      },
+      {
+        "heading": "Japan's Daring Journey to Bring Back Answers",
+        "content": "Japan's Martian Moons eXploration (MMX) spacecraft, launching this October, is designed to settle this debate once and for all. It will perform a daring maneuver to collect samples from Phobos's surface, acting like a cosmic archaeologist gathering clues from another world."
+      },
+      {
+        "heading": "Why Samples Hold the Key to the Past",
+        "content": "By analyzing these precious samples back on Earth, scientists can determine Phobos's composition. If it matches ancient Martian rock, it suggests a violent planetary collision; if it resembles primitive space rocks, it points to an asteroid capture. This insight will revolutionize our understanding of how planets and moons form in our solar system."
+      }
+    ],
+    "funFacts": [
+      "Phobos orbits Mars closer than any other moon in our solar system orbits its parent planet, completing an orbit in just 7 hours and 39 minutes!",
+      "Phobos is slowly spiraling inward towards Mars, destined to either crash into the planet or break apart into a ring in about 30 to 50 million years.",
+      "The 'moon mystery' is rooted in the moons' irregular shapes and dark surfaces, which don't quite fit either a captured asteroid or an impact-ejected origin perfectly, making sample return critical."
+    ],
+    "originalTitle": "Japan is launching a mission to Mars’s largest moon Phobos",
+    "originalUrl": "https://www.newscientist.com/article/2594332-japan-is-launching-a-mission-to-marss-largest-moon-phobos/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1792308675782-e9lq4",
+    "date": "2026-10-18T07:31:15.782Z"
+  },
+  {
     "title": "Journey into the Heart of a Comet: Exploring 67P in 3D",
     "summary": "Scientists are unveiling an unprecedented 3D look at Comet 67P/Churyumov–Gerasimenko, offering curious minds a chance to virtually explore the dynamic, 'rubber ducky'-shaped world first extensively studied by the Rosetta mission.",
     "sections": [
