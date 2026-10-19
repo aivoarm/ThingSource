@@ -1,5 +1,67 @@
 [
   {
+    "topic": "Daylight Saving Time",
+    "title": "Spring Forward: The Surprising Origins of Daylight Saving Time",
+    "category": "Rules & Principles",
+    "summary": "That annual ritual of 'springing forward' and 'falling back' often sparks debate, but few know its true origins. Far from an ancient tradition or a farmer's friend, Daylight Saving Time emerged from a peculiar blend of scientific curiosity, wartime necessity, and a British builder's persistent idea.",
+    "sections": [
+      {
+        "heading": "More Than Just a Joke: Franklin's Flirtation with Frugality",
+        "content": "A common misconception credits Benjamin Franklin with inventing Daylight Saving Time. While living in Paris in 1784, Franklin did indeed publish a satirical essay in the *Journal de Paris* titled \"An Economical Project.\" He playfully suggested that Parisians could save money on candles by waking earlier to utilize morning sunlight, even proposing drastic measures like taxing window shutters and firing cannons at dawn to rouse the sleepy populace. However, Franklin's humorous suggestion was merely about adjusting personal schedules, not altering official clock times, a concept not yet feasible in 18th-century Europe where universal time didn't even exist."
+      },
+      {
+        "heading": "An Entomologist's Dream: The Modern DST Proposal",
+        "content": "The actual spark for modern Daylight Saving Time came from an unexpected source: George Hudson, a New Zealand entomologist and postal worker. In 1895, his shift-work schedule left him with ample after-hours daylight, fueling his passion for collecting insects. Wishing for more evening light, Hudson proposed a two-hour daylight-saving shift to the Wellington Philosophical Society. While his initial idea wasn't immediately adopted, he followed up with another paper in 1898, solidifying his place as the first to propose the systematic clock changes we recognize today."
+      },
+      {
+        "heading": "A Builder's Campaign and a World at War",
+        "content": "Across the globe, British builder William Willett independently championed a similar idea in 1907. Struck by the waste of daylight on early summer mornings while riding his horse, Willett published a pamphlet, \"The Waste of Daylight,\" advocating for clocks to be advanced by 80 minutes in incremental steps during April and reversed in September. Willett tirelessly lobbied the British Parliament, even gaining support from Winston Churchill, but tragically died in 1915 without seeing his vision realized. It was Germany, grappling with coal shortages during World War I, that first implemented DST nationally on April 30, 1916, as a wartime measure to conserve energy. Many European nations, including Britain, quickly followed suit."
+      },
+      {
+        "heading": "From Wartime Measure to Widespread Practice",
+        "content": "The United States adopted Daylight Saving Time with the Standard Time Act of 1918, also as a wartime effort to conserve fuel and power. However, it proved unpopular after the war, particularly among farmers whose schedules were dictated by the sun, not the clock, and it was repealed in 1919. DST returned during World War II as \"War Time\" and was later standardized across most of the US with the Uniform Time Act of 1966, ending a period of confusing local variations. Today, while still debated for its actual energy savings and impact on health, over 70 countries observe DST, a practice born from a blend of practical concerns and the desire to make better use of our most abundant natural resource: daylight."
+      }
+    ],
+    "funFacts": [
+      "Farmers were actually one of the strongest lobbying groups *against* Daylight Saving Time when it was first implemented, as it disrupted their sun-dependent agricultural schedules, contradicting a popular myth.",
+      "The first locality to officially enact Daylight Saving Time was Port Arthur (now Thunder Bay), Ontario, Canada, on July 1, 1908.",
+      "Just as Daylight Saving Time shifts our perception of the day, using the Slang learning app shifts your perception of language acquisition, proving that sometimes, a small change in approach can yield surprisingly illuminating results."
+    ],
+    "imageKeywords": [
+      "George Hudson entomologist specimen collection",
+      "William Willett Edwardian London street",
+      "WWI German propaganda poster saving fuel"
+    ],
+    "wikiKeywords": "Daylight Saving Time history, George Hudson entomologist, William Willett",
+    "citations": [
+      "https://www.google.com/search?q=time+in+Germany",
+      "https://en.wikipedia.org/wiki/Daylight_saving_time",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiCdFzL67HGFI-y9sx6IOMUPYggAhB14_2DPfpm6JHIZhHftHbm3K3s3zTdk4-DOP-2v3iyitPe6b9OgXNwqN8rqWM80tlpoD1-oesjrdo2XB0QOmRRN4PJLbNxcdjPvEHkh6-YXd6td7QtbbRpYCY69-8iRtEKrA03IZ5brIqHfweoBysrH2qX27vmqB5hi-h-oRyog==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEo7Q5F90sjuAIPa1o4egIiVoAh3NLcpZ7wOevzkqXth9VqJH02zeNzMbG92x0niRBOlDu750NAjl3_rlegSK0nowo_LbC5-_3oq6FpxLIEE6xp2GQ91vdg6jqVLnRZHvzuh2kJZLKEBQY62w==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIh4t8W3bf3LB_TDfiEU_ahBBrdJq1kzwFj8IPDUrp6RA1FadeiJVcpMwBPJkGDK_1kdKAGfCtx5b2OVlA8HqmcmG0oJym7nnh1Zg2k-qI18CJmdrPR3lbLgjaA0LUjn44vnlKw3-Tgtm9aHxuprCBLjXjopYKg4vM1BGZjPTVIqkMDS_xy2HLag=="
+    ],
+    "positiveThought": "Every day offers a subtle invitation to notice something new, a tiny shift in light or a fresh perspective on a familiar path. Embrace these small discoveries, for they remind us that wonder isn't always grand; it often whispers in the quiet corners of our attention.",
+    "portugalFact": {
+      "title": "The Legend of the Barcelos Rooster: Portugal's Symbol of Justice",
+      "content": "The vibrant Barcelos Rooster (Galo de Barcelos) is one of Portugal's most iconic symbols, representing honesty, justice, and good luck. Its legend tells of a pilgrim unjustly sentenced to hang in Barcelos, who proclaimed that a roasted rooster on the judge's dinner plate would crow as proof of his innocence—which it miraculously did. This charming tale has made the colorful rooster a beloved emblem across the country."
+    },
+    "aiSource": "Gemini",
+    "id": "1792393328173-daylight-saving-time",
+    "slug": "spring-forward-the-surprising-origins-of-daylight-saving-tim",
+    "date": "2026-10-19T07:02:08.173Z",
+    "joke": {
+      "joke": "I was walking down the street the other day and I saw this beautiful woman. I said, 'Hey, baby, what's your sign?' She said, 'Do not walk on the grass.'",
+      "setup": "I was walking down the street the other day and I saw this beautiful woman. I said, 'Hey, baby, what's your sign?'",
+      "punchline": "She said, 'Do not walk on the grass.'",
+      "comedian": "Emo Philips",
+      "year": "1980s",
+      "context": "This joke is a quintessential example of Emo Philips' unique brand of surreal, deadpan humor, widely recognized for its unexpected and brilliant twist. It masterfully subverts the common pickup line, leading to a punchline that is both absurd and genuinely funny, solidifying its place as an iconic stand-up classic."
+    },
+    "images": [
+      "https://images.unsplash.com/featured/?george%2Chudson%2Centomologist%2Cspecimen%2Ccollection"
+    ]
+  },
+  {
     "topic": "The Dunning-Kruger Effect",
     "title": "The Curious Case of Confident Incompetence: Unpacking the Dunning-Kruger Effect",
     "category": "Science & Phenomena",
