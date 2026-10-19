@@ -1,5 +1,23 @@
 [
   {
+    "country": "Kenya",
+    "fact": {
+      "title": "Kenya: The Cradle of Humanity",
+      "content": "Kenya holds a profound place in human history, often referred to as the \"Cradle of Humanity.\" Extensive archaeological discoveries of ancient hominid fossils in regions like Turkana have provided crucial insights into early human evolution, with some remains dating back millions of years. This rich paleontological heritage underscores Kenya's significance as the birthplace of humankind."
+    },
+    "culture": {
+      "title": "Samburu's Unique 'Champagne Pool Party'",
+      "content": "Among the Samburu people of northern Kenya, a fascinating tradition known as the 'Champagne Pool Party' marks the start of their dry season. This event involves herding cattle into muddy pools created by heavy rains, serving as both a practical way to water livestock and a vibrant community gathering. This distinctive custom highlights the close relationship between the Samburu and their environment."
+    },
+    "news": {
+      "title": "President Ruto Hands Over Homes in Affordable Housing Project",
+      "content": "In a positive development for housing, Kenyan President William Ruto recently handed over keys to 2,157 homeowners at the Pioneer Affordable Housing Project in Eldoret City, Uasin Gishu County. This initiative, reported on October 18, 2026, aims to provide accessible housing solutions and marks a significant step in the government's commitment to improving living standards for its citizens.",
+      "url": "https://www.kenyamoja.com/news/president-william-ruto-hands-over-keys-to-2157-homeowners-at-the-pioneer-affordable-housing-project-in-eldoret-city-uasin-gishu"
+    },
+    "id": "1792395943410-kenya",
+    "date": "2026-10-19T07:45:43.410Z"
+  },
+  {
     "country": "Italy",
     "fact": {
       "title": "Craco: Italy's Abandoned Cliff-Top Ghost Town",
