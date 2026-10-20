@@ -1,5 +1,23 @@
 [
   {
+    "country": "Argentina",
+    "fact": {
+      "title": "The Silver Origin of Argentina's Name",
+      "content": "The name \"Argentina\" stems from the Latin word \"argentum,\" meaning silver. Early Spanish conquistadors, eager to find mineral wealth, christened the region \"the land of silver\" to entice explorers and investors. Ironically, significant silver deposits were never discovered in the country, which instead flourished through its agricultural prowess, yet the evocative name endured."
+    },
+    "culture": {
+      "title": "Argentina's Late-Night Dinner Tradition",
+      "content": "A unique aspect of Argentine daily life is the notably late dinner schedule, with many Argentines, especially in the provinces, not beginning their evening meal until 9 or 10 PM. This later dining custom is deeply ingrained in the social rhythm, often following the traditional siesta in some regions, and sets Argentina apart from many other cultures worldwide."
+    },
+    "news": {
+      "title": "Andean Tubers Revitalize Remote Argentine Village Economy",
+      "content": "In a display of resilience, the indigenous community of Iruya, a remote village in Argentina's Salta province, has successfully revitalized its local economy through the cultivation and sale of unique Andean tubers, known as \"papines.\" This initiative provided a crucial alternative income source after a decline in tourism, demonstrating the community's agricultural ingenuity and adaptability.",
+      "url": "https://english.elpais.com/international/2026-10-13/no-small-potatoes-andean-tubers-rescue-the-economy-of-a-remote-village-in-argentina.html"
+    },
+    "id": "1792482348741-argentina",
+    "date": "2026-10-20T07:45:48.741Z"
+  },
+  {
     "country": "Kenya",
     "fact": {
       "title": "Kenya: The Cradle of Humanity",
