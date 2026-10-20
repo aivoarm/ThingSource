@@ -1,5 +1,85 @@
 [
   {
+    "title": "Alaska's Sky-High Tsunami: A Warning from a Shifting World",
+    "summary": "Imagine a wave so tall it could dwarf New York City's Empire State Building. Scientists are now uncovering the dramatic story behind Alaska's unprecedented tsunami, revealing crucial warning signs for a planet grappling with a changing climate.",
+    "sections": [
+      {
+        "heading": "A Mountain of Water: The Unprecedented Alaska Tsunami",
+        "content": "In a remote Alaskan fjord, a colossal landslide recently unleashed the second-highest tsunami ever recorded, sending a wall of water and debris an astonishing 1,580 feet up a mountainside. This incredible event, triggered just hours after tourists had visited the area, offers a stark reminder of nature's immense power and the precariousness of our planet's wild places."
+      },
+      {
+        "heading": "Nature's Whispers: What Scientists Heard Before the Roar",
+        "content": "Researchers delving into this natural marvel discovered the disaster wasn't entirely unexpected. For months prior, the landscape offered clues: glaciers were rapidly shrinking, heavy rainfall soaked the slopes, and thousands of tiny ground tremors, like subtle shivers in the earth, hinted at instability. These precursors are vital pieces of a puzzle scientists are now piecing together."
+      },
+      {
+        "heading": "A Shifting Landscape: The Global Implications of Retreating Glaciers",
+        "content": "This Alaskan event is more than just a remarkable anecdote; it’s a powerful lesson for a world facing climate change. As glaciers continue to retreat globally, the stability of mountainous coastal regions is compromised, increasing the potential for similar landslide-triggered tsunamis. Understanding these warning signs is critical for predicting and mitigating future dangers in vulnerable areas worldwide."
+      }
+    ],
+    "funFacts": [
+      "The tsunami's astonishing height of 1,580 feet is roughly equivalent to the combined height of the Empire State Building and the Statue of Liberty!",
+      "This Alaskan event was the second-highest tsunami ever recorded globally, a testament to the immense energy released by the landslide.",
+      "The disaster was a near miss for tourists, occurring just hours after they had safely left the area, highlighting the unpredictable timing of such powerful natural events.",
+      "Scientists identified three key warning signs: rapid glacier retreat, unusually heavy rainfall, and thousands of tiny, undetectable-to-humans ground tremors leading up to the event."
+    ],
+    "originalTitle": "Alaska’s monster tsunami sent water 1,580 feet up a mountain",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
+    "id": "1792481460735-lsjyf",
+    "date": "2026-10-20T07:31:00.735Z"
+  },
+  {
+    "title": "Your Daily Walk: A Simple Step Towards Slowing Alzheimer's",
+    "summary": "Remarkable new research suggests that even a modest amount of daily walking, starting at just 3,000 steps, could significantly slow brain changes associated with Alzheimer's disease. This discovery highlights an accessible and powerful way to potentially safeguard cognitive health.",
+    "sections": [
+      {
+        "heading": "Small Steps, Big Brain Benefits",
+        "content": "Scientists have found compelling evidence that daily physical activity, specifically walking, is linked to positive brain changes related to Alzheimer's. Their work reveals that a stroll as short as 3,000 steps a day can help reduce the buildup of harmful 'tau' proteins—tangled clumps inside brain cells that are a hallmark of the disease."
+      },
+      {
+        "heading": "More Movement, Slower Decline",
+        "content": "Beyond reducing protein buildup, consistent physical activity was associated with nearly halving the rate of cognitive and functional decline, even in individuals already showing early signs of Alzheimer's. While 3,000 steps provided clear benefits, the strongest protective effects were observed in those taking between 5,000 to 7,500 steps daily, suggesting that highly achievable goals can make a significant difference."
+      }
+    ],
+    "funFacts": [
+      "You don't need to hit 10,000 steps: the study found the strongest benefits for Alzheimer's prevention between 5,000 and 7,500 daily steps.",
+      "The research directly observed a link between walking and less accumulation of 'tau' proteins, which are like sticky internal roadblocks that disrupt brain cell communication in Alzheimer's.",
+      "The protective benefits were evident even for people who had already started to develop early symptoms of Alzheimer's, offering hope for intervention at various stages.",
+      "Walking just 3,000 steps, roughly 1.5 miles, proved enough to show a measurable positive impact on brain health in the study."
+    ],
+    "originalTitle": "Just 3,000 steps a day may help slow Alzheimer&#039;s, scientists find",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261018205058.htm",
+    "id": "1792481470862-0alme",
+    "date": "2026-10-20T07:31:10.862Z"
+  },
+  {
+    "title": "The Brain's Secret Weapon: How a Rare Gene Shields Against Alzheimer's",
+    "summary": "Scientists have uncovered why some individuals with a strong genetic predisposition to Alzheimer's remain mentally vibrant into old age. They discovered a rare protective gene mutation that acts as a natural shield, preventing the brain from harmful protein buildup and offering a promising new direction for future treatments.",
+    "sections": [
+      {
+        "heading": "The Mystery of Resilience",
+        "content": "For years, a perplexing question has challenged Alzheimer's researchers: how do some individuals, carrying genes that significantly increase their risk, manage to escape the disease? These 'resilient' individuals hold crucial insights into the brain's natural defenses against cognitive decline, defying what genetics would predict."
+      },
+      {
+        "heading": "Unveiling a Protective Mutation",
+        "content": "The answer lies in a newly discovered, rare genetic mutation that actively protects the brain. This unique variant prevents the accumulation of sticky, toxic proteins like amyloid-beta and tau, which are the primary culprits behind the brain damage and memory loss seen in Alzheimer's disease."
+      },
+      {
+        "heading": "A Blueprint for Future Therapies",
+        "content": "This groundbreaking finding provides a potential roadmap for developing entirely new treatments. By understanding and mimicking this natural protective mechanism, scientists aim to create therapies that could prevent the disease's earliest stages, safeguarding at-risk individuals from developing Alzheimer's."
+      }
+    ],
+    "funFacts": [
+      "Alzheimer's disease is the most common cause of dementia, affecting millions worldwide and gradually destroying memory and other critical mental functions.",
+      "The harmful protein clumps associated with Alzheimer's can begin accumulating in the brain years, even decades, before any symptoms appear.",
+      "Studying individuals who naturally resist diseases, despite genetic risk, often reveals unexpected biological pathways that can be targeted for new drug development.",
+      "This protective gene mutation offers hope for designing treatments that don't just manage symptoms but actively prevent the disease from taking hold in the first place."
+    ],
+    "originalTitle": "Why some people escape Alzheimer’s despite carrying a high-risk gene",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261018205044.htm",
+    "id": "1792481482400-miip0",
+    "date": "2026-10-20T07:31:22.400Z"
+  },
+  {
     "title": "Ancient Art's Secret Language: Unlocking What Animals Meant to Our Ancestors",
     "summary": "At Portugal's vast Côa Valley, archaeologists are unearthing groundbreaking clues about how prehistoric hunter-gatherers perceived the animal engravings they left behind, offering a rare window into their ancient worldview.",
     "sections": [
