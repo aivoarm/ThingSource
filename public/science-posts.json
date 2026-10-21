@@ -1,5 +1,78 @@
 [
   {
+    "title": "UN Delivers Stark Climate Warning: 1.5°C Goal Is Now Out of Reach",
+    "summary": "A new report from the United Nations reveals that the ambitious global warming limit of 1.5°C above pre-industrial levels is now effectively unattainable, with the planet currently headed for a far more perilous 2.8°C increase.",
+    "sections": [
+      {
+        "heading": "The Significance of the 1.5°C Target",
+        "content": "The 1.5°C warming target, enshrined in the 2015 Paris Agreement, represents a critical threshold beyond which scientists predict a significant escalation of climate impacts, from more frequent and intense heatwaves to devastating sea-level rise. Surpassing this limit, even temporarily, means navigating harsher realities that will impact ecosystems, economies, and human lives worldwide."
+      },
+      {
+        "heading": "Our Current Trajectory: Heading Towards 2.8°C",
+        "content": "Despite numerous global commitments to reduce greenhouse gas emissions, the UN's latest assessment indicates that current climate pledges are woefully insufficient. This places the world on a trajectory for an average global warming of 2.8°C, a projection that would unlock far more severe and potentially irreversible consequences, dramatically reshaping our planet and posing unprecedented challenges for future generations."
+      }
+    ],
+    "funFacts": [
+      "The 1.5°C limit was set to avoid the most catastrophic effects of climate change, emphasizing global cooperation as outlined in the landmark Paris Agreement.",
+      "A 2.8°C rise in global temperatures could lead to the virtual disappearance of many coral reefs, ice-free Arctic summers, and a dramatic increase in the frequency and intensity of extreme weather events like floods and droughts.",
+      "Even if global temperatures briefly overshoot 1.5°C, scientists suggest it's technically possible to bring them back down through aggressive emission cuts and advanced carbon removal technologies, though the environmental and societal costs during the overshoot period would still be substantial."
+    ],
+    "originalTitle": "UN says 1.5°C is over and world is on track for 2.8°C of global warming",
+    "originalUrl": "https://www.newscientist.com/article/2594831-un-says-1-5c-is-over-and-world-is-on-track-for-2-8c-of-global-warming/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1792567862648-88zyf",
+    "date": "2026-10-21T07:31:02.648Z"
+  },
+  {
+    "title": "Solved: The Surprising Reason Statins Can Cause Muscle Pain",
+    "summary": "Scientists have finally pinpointed the surprising cellular mechanism behind muscle pain for statin users, revealing how these vital heart medications can inadvertently cause a calcium overload in muscle cells.",
+    "sections": [
+      {
+        "heading": "Lifesaving Drugs, Persistent Puzzle",
+        "content": "Statins are powerhouse medications, widely prescribed to lower cholesterol and dramatically reduce the risk of heart attacks and strokes. For millions, they're a crucial shield against cardiovascular disease. However, a significant number of people experience an unwelcome side effect: muscle pain, ranging from mild aches to severe weakness, sometimes leading them to stop their essential treatment. For years, the exact reason behind this pain remained a puzzling medical mystery."
+      },
+      {
+        "heading": "The Calcium Connection: A Leaky Faucet in Your Muscles",
+        "content": "Using cutting-edge imaging, researchers discovered that statins don't directly damage muscles, but rather interfere with a microscopic 'gatekeeper' protein inside muscle cells. This protein normally controls a tiny channel, much like a carefully regulated faucet, which manages the flow of calcium – a vital mineral for muscle contraction and repair. The study found that statins can latch onto this gatekeeper, forcing the calcium faucet to stay open, leading to a continuous, uncontrolled leak of calcium into the muscle cell."
+      },
+      {
+        "heading": "Why Too Much Calcium Hurts and What's Next",
+        "content": "While calcium is essential, a constant flood can overwhelm and stress muscle cells, potentially leading to the pain and damage experienced by some statin users. This groundbreaking insight not only explains a long-standing side effect but also opens new doors. Understanding this specific mechanism could pave the way for developing safer statins, or even creating new therapies that protect muscles from this calcium overload, ensuring more patients can safely benefit from these life-saving drugs."
+      }
+    ],
+    "funFacts": [
+      "Statins are among the most prescribed drugs globally, with millions relying on them to manage cholesterol.",
+      "Muscle pain affects an estimated 10-25% of statin users, making it a common reason for discontinuing treatment.",
+      "Calcium is critical for almost all bodily functions, including nerve signaling, bone health, and heart rhythm, but its levels within cells must be tightly controlled."
+    ],
+    "originalTitle": "Scientists finally uncover why statins can cause muscle pain",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261019093447.htm",
+    "id": "1792567870816-0qycm",
+    "date": "2026-10-21T07:31:10.816Z"
+  },
+  {
+    "title": "A Daily Dose of Hope? Vitamin C Shows Surprising Promise in Blood Cancer Battle",
+    "summary": "In a groundbreaking clinical trial, a simple daily vitamin C supplement remarkably improved survival and reduced complications for individuals facing precancerous blood disorders and early-stage blood cancers, offering an unexpected glimmer of hope.",
+    "sections": [
+      {
+        "heading": "An Everyday Vitamin's Extraordinary Impact",
+        "content": "A recent clinical trial has unveiled a truly surprising connection: daily vitamin C supplementation significantly improved outcomes for patients with certain precancerous blood conditions and early-stage blood cancers. Participants who received the vitamin not only showed a promising boost in their survival rates but also experienced fewer complications often associated with these conditions."
+      },
+      {
+        "heading": "Opening Doors to Gentler Care",
+        "content": "This breakthrough suggests that a readily available and inexpensive vitamin could offer a new, gentler strategy in managing serious blood disorders, potentially protecting against complications that often arise in the progression towards leukemia. It represents a significant step towards understanding how simple nutritional interventions might play a crucial role in cancer care."
+      }
+    ],
+    "funFacts": [
+      "Vitamin C is a powerful antioxidant, crucial for protecting our cells from damage and supporting a healthy immune system.",
+      "While typically known for fending off colds and scurvy, this research explores a novel role for vitamin C specifically in blood cell health and cancer progression.",
+      "The potential of a common, inexpensive supplement to improve serious health outcomes offers a compelling direction for future research in cancer treatment."
+    ],
+    "originalTitle": "Scientists discover a surprising link between vitamin C and cancer survival",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261019093437.htm",
+    "id": "1792567879743-h03bd",
+    "date": "2026-10-21T07:31:19.743Z"
+  },
+  {
     "title": "Alaska's Sky-High Tsunami: A Warning from a Shifting World",
     "summary": "Imagine a wave so tall it could dwarf New York City's Empire State Building. Scientists are now uncovering the dramatic story behind Alaska's unprecedented tsunami, revealing crucial warning signs for a planet grappling with a changing climate.",
     "sections": [
