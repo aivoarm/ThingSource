@@ -1,5 +1,23 @@
 [
   {
+    "country": "New Zealand",
+    "fact": {
+      "title": "The Ancient Carved Wonders of the Ōpārara Basin",
+      "content": "Hidden on the West Coast of New Zealand's South Island, the Ōpārara Basin is a geological marvel sculpted over millions of years. Here, a powerful river system has carved spectacular limestone formations, including expansive caves and dramatic arches, from 35-million-year-old rock. This 'lost world' offers a fascinating glimpse into the country's ancient geological history, often overlooked by mainstream tourism."
+    },
+    "culture": {
+      "title": "Parāoa Rēwena: The Unique Māori Sourdough",
+      "content": "A distinctive culinary tradition in New Zealand is Parāoa Rēwena, a traditional Māori sourdough bread. Unlike typical sourdoughs, its leavening agent is a unique 'bug' or starter cultured from potatoes, rather than flour. This nourishing bread has been a staple in Māori communities for generations, reflecting an ingenious adaptation of local ingredients."
+    },
+    "news": {
+      "title": "New Zealand's Black Robin, a Conservation Success, Crowned Bird of the Year",
+      "content": "In a heartening story of conservation, New Zealand's black robin, a species once reduced to a mere single breeding pair, was recently voted the country's Bird of the Year in September 2026. This victory highlights a remarkable recovery effort and celebrates the nation's unique biodiversity. The critically endangered Chatham Islands species' win underscores New Zealand's commitment to protecting its rare native birds.",
+      "url": "https://www.theguardian.com/world/2026/sep/20/the-black-robin-once-down-to-just-a-single-breeding-pair-wins-nz-bird-of-the-year"
+    },
+    "id": "1792568748676-new-zealand",
+    "date": "2026-10-21T07:45:48.676Z"
+  },
+  {
     "country": "Argentina",
     "fact": {
       "title": "The Silver Origin of Argentina's Name",
