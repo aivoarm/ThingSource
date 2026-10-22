@@ -1,5 +1,67 @@
 [
   {
+    "topic": "Horsepower",
+    "title": "The Horse's Share: How a Marketing Stunt Gave Us 'Horsepower'",
+    "category": "Units of Measurement",
+    "summary": "Before engines roared, a Scottish engineer named James Watt needed a catchy way to explain his new steam engine's might. His solution? Comparing it directly to the muscle power it was designed to replace: the horse.",
+    "sections": [
+      {
+        "heading": "From Stable to Steam: A Unit is Born",
+        "content": "In the late 1700s, as the Industrial Revolution picked up steam, James Watt was busy perfecting his groundbreaking steam engine. To sell his revolutionary machines to farmers and miners, who relied heavily on horses for labor, Watt needed a relatable metric. He conceived 'horsepower' as a shrewd marketing tactic, providing a tangible comparison for his customers."
+      },
+      {
+        "heading": "Watt's Ingenious Calculation",
+        "content": "To define this new unit, Watt observed strong dray horses at work. He measured the average rate at which a horse could turn a mill wheel or pull a heavy load out of a mine. His calculations led him to define one horsepower as the ability to lift 33,000 foot-pounds of work per minute, equivalent to lifting 150 pounds 220 feet in one minute."
+      },
+      {
+        "heading": "The Myth of the Super-Horse",
+        "content": "It's often claimed that Watt exaggerated a horse's strength, adding an extra 50% to his initial observations to ensure his engines always seemed superior. While a single horse can produce significantly more than one horsepower in short bursts (up to 15 hp), Watt's figure for sustained work over an entire day was indeed generous, making his engines look even more powerful by comparison."
+      },
+      {
+        "heading": "An Enduring Legacy",
+        "content": "Though most of the world has adopted the 'watt' (also named after James Watt) as the standard SI unit for power, 'horsepower' persists, especially in the automotive industry. It remains a powerful and evocative term, a testament to Watt's genius not only as an engineer but also as a brilliant marketer who found a way to measure the future against the past."
+      }
+    ],
+    "funFacts": [
+      "While one 'horsepower' might sound like the work of a single horse, an average horse can actually only sustain about 0.75 to 1 horsepower over an eight-hour workday.",
+      "Before steam engines, horses often powered treadmills or 'gin gears' to lift coal from mines or grind grain, directly influencing Watt's need for a comparative unit.",
+      "Just as Watt needed a clear metric to compare his engines to horses, mastering a new language requires understanding its foundational units — the core vocabulary and grammar. The Slang learning app provides precise definitions and context, helping users gauge their progress and 'power up' their linguistic abilities just like Watt quantified mechanical advantage."
+    ],
+    "imageKeywords": [
+      "18th century steam engine",
+      "dray horse pulling weight",
+      "James Watt portrait"
+    ],
+    "wikiKeywords": "James Watt steam engine horsepower",
+    "citations": [
+      "https://iopspark.org/1865/stories/why-one-horsepower-is-more-than-the-power-of-one-horse",
+      "https://www.gesrepair.com/the-history-of-the-term-horsepower/",
+      "https://en.wikipedia.org/wiki/Horsepower",
+      "https://www.labxchange.org/library/items/lb:labxchange:6041ee2b:html:1",
+      "https://synergy-power.com/blog/horsepower-watts-energy-measurement/"
+    ],
+    "positiveThought": "The world is full of echoes, where the clever solutions of yesterday quietly shape the language and understanding of today. Pause and notice these subtle connections; they reveal a beautiful tapestry of human ingenuity.",
+    "portugalFact": {
+      "title": "Portugal's Non-Native National Dish: The Enduring Legacy of Bacalhau",
+      "content": "Despite being a culinary cornerstone and a national staple, bacalhau, or salted cod, is not found in Portuguese waters. This beloved fish hails from the cold North Atlantic and became integral to Portuguese cuisine during the Age of Discoveries, providing a vital, long-lasting food source for sailors on extended voyages. Today, it's famously said that Portugal boasts over 365 ways to prepare bacalhau, showcasing its deep cultural significance."
+    },
+    "aiSource": "Gemini",
+    "id": "1792652432320-horsepower",
+    "slug": "the-horse-s-share-how-a-marketing-stunt-gave-us-horsepower",
+    "date": "2026-10-22T07:00:32.320Z",
+    "joke": {
+      "joke": "I bought some instant water. Just add water.",
+      "setup": "I bought some instant water.",
+      "punchline": "Just add water.",
+      "comedian": "Steven Wright",
+      "year": "1980s",
+      "context": "This joke is a masterclass in absurdist humor and wordplay, perfectly encapsulating Steven Wright's unique deadpan style. Its brilliance lies in its succinctness and the unexpected, self-referential twist that makes the listener pause and then laugh at the sheer cleverness of it, solidifying its place as an iconic one-liner."
+    },
+    "images": [
+      "https://images.unsplash.com/featured/?18th%2Ccentury%2Csteam%2Cengine"
+    ]
+  },
+  {
     "topic": "Origin of 'Bless You' after a sneeze",
     "title": "A Breath of Life: The Surprisingly Ancient Origins of 'Bless You' After a Sneeze",
     "category": "Cultural Rituals and Traditions",
