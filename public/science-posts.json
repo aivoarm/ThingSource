@@ -1,5 +1,74 @@
 [
   {
+    "title": "Beyond the Limit: Why Some Climate Damage Is Already Locked In",
+    "summary": "Even if humanity successfully slashes carbon emissions and eventually brings global temperatures back down, scientists warn that certain significant climate damages are now unavoidable, marking a critical shift in our understanding of climate change.",
+    "sections": [
+      {
+        "heading": "The Critical 1.5°C Threshold",
+        "content": "For years, the international community has aimed to limit global warming to 1.5°C above pre-industrial levels, a critical boundary to avoid the most catastrophic climate impacts. However, current projections suggest we are likely to temporarily exceed this target, even with ambitious future efforts to reduce greenhouse gases. This 'overshoot' period, however brief, carries significant risks."
+      },
+      {
+        "heading": "The Enduring Legacy of Warming",
+        "content": "The concerning finding is that certain climate impacts aren't like a switch that can simply be turned off once temperatures fall. Even if global temperatures are eventually brought back down, phenomena like ice sheet melt, sea-level rise, and changes to ecosystems could continue for centuries. This means the temporary warming beyond 1.5°C will leave a lasting legacy on our planet, shaping our future regardless of subsequent climate action."
+      }
+    ],
+    "funFacts": [
+      "Think of the climate system like a massive ship: even if you cut the engines, it takes a long time and distance to stop or change direction, illustrating climate's inherent inertia.",
+      "Even if global average temperatures eventually decrease, the expansion of ocean water from past heating and the melting of ice sheets could cause sea levels to continue rising for hundreds of years.",
+      "The 1.5°C warming target isn't arbitrary; it's a scientific consensus point identified to significantly reduce the risks of extreme heatwaves, droughts, floods, and ecosystem collapses compared to higher warming levels."
+    ],
+    "originalTitle": "Some climate damage is now unavoidable even if we clean up our act",
+    "originalUrl": "https://www.newscientist.com/article/2594773-some-climate-damage-is-now-unavoidable-even-if-we-clean-up-our-act/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1792654246363-2h8gz",
+    "date": "2026-10-22T07:30:46.363Z"
+  },
+  {
+    "title": "Decades Younger: Scientists Reverse Cellular Aging in Human Cells",
+    "summary": "In a groundbreaking experiment, researchers have effectively reversed over 60 years of cellular aging in human cells, offering a fresh perspective on how we might tackle the challenges of getting older and related illnesses.",
+    "sections": [
+      {
+        "heading": "Winding Back the Cellular Clock",
+        "content": "Scientists performed a remarkable feat, taking ordinary blood cells from an 80-year-old individual and, through a special reprogramming process, transforming them into a different type: neural stem cells. What's truly astonishing is that these newly formed cells didn't carry the age of their origin; instead, their internal 'molecular clock' indicated they were less than 20 years old, effectively reversing over 60 years of cellular aging."
+      },
+      {
+        "heading": "Why This Matters for Health and Disease",
+        "content": "This breakthrough provides an unprecedented opportunity to study the intricate mechanisms of aging at a cellular level, helping us understand *how* cells actually become younger. By deciphering these biological secrets, researchers hope to gain critical insights into debilitating age-related conditions like Alzheimer's disease, potentially leading to new therapeutic strategies."
+      }
+    ],
+    "funFacts": [
+      "This cellular 'time travel' represents the largest age reversal ever achieved in human cells in a laboratory setting, essentially giving them a fresh start.",
+      "The ability to make cells younger could transform how we study age-related illnesses, allowing scientists to observe disease progression and test treatments on truly 'young' and 'old' cells from the same person.",
+      "It's crucial to remember this breakthrough is at the cellular level, not yet for entire organisms. Think of it as rejuvenating a single building block, not the entire structure."
+    ],
+    "originalTitle": "Rejuvenation breakthrough: Scientists reverse 60 years of aging in human cells",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm",
+    "id": "1792654258403-i6499",
+    "date": "2026-10-22T07:30:58.403Z"
+  },
+  {
+    "title": "Unlocking Antimatter's Secrets: A Single Particle Held for Months",
+    "summary": "Scientists have achieved a groundbreaking feat, successfully trapping a single antimatter particle for months—a first that promises to unlock crucial insights into why our universe is made of matter and not its elusive counterpart.",
+    "sections": [
+      {
+        "heading": "A Record-Breaking Catch",
+        "content": "For the first time ever, physicists have successfully isolated a single positron, the antimatter twin of an electron, and held it securely within a specialized magnetic trap for months. This incredible feat allows researchers to study an individual antimatter particle without it instantly vanishing upon contact with normal matter."
+      },
+      {
+        "heading": "Unraveling a Universe-Sized Mystery",
+        "content": "This unprecedented long-term confinement provides a critical opportunity to meticulously study the positron's properties with unmatched precision. By comparing its behavior to its matter counterpart, the electron, scientists hope to uncover subtle differences that could explain the biggest mystery in cosmology: why our universe is filled with matter when the Big Bang should have created equal amounts of matter and antimatter."
+      }
+    ],
+    "funFacts": [
+      "Antimatter particles are essentially mirror images of ordinary matter, sharing the same mass but possessing opposite electrical charge.",
+      "When matter and antimatter meet, they annihilate each other in a flash of energy, making it incredibly difficult to store antimatter without it instantly disappearing.",
+      "One of particle physics' greatest unsolved mysteries is why the observable universe is almost entirely made of matter, given that the Big Bang is thought to have produced equal amounts of matter and antimatter."
+    ],
+    "originalTitle": "A single antimatter particle was held in a trap for months",
+    "originalUrl": "https://www.newscientist.com/article/2594955-a-single-antimatter-particle-was-held-in-a-trap-for-months/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1792654267909-88a9t",
+    "date": "2026-10-22T07:31:07.909Z"
+  },
+  {
     "title": "UN Delivers Stark Climate Warning: 1.5°C Goal Is Now Out of Reach",
     "summary": "A new report from the United Nations reveals that the ambitious global warming limit of 1.5°C above pre-industrial levels is now effectively unattainable, with the planet currently headed for a far more perilous 2.8°C increase.",
     "sections": [
