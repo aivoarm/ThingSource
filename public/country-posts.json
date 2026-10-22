@@ -1,5 +1,23 @@
 [
   {
+    "country": "Portugal",
+    "fact": {
+      "title": "The Ancient Open-Air Rock Art of the Côa Valley",
+      "content": "Portugal is home to the Côa Valley Archaeological Park, a UNESCO World Heritage site featuring one of the largest open-air galleries of Palaeolithic rock art in Europe. These ancient engravings, dating back over 20,000 years to the Upper Palaeolithic period, depict thousands of figures, including horses, aurochs, and deer, some even illustrating movement through superimposed limbs. The art provides a rare glimpse into prehistoric human creativity, carved into the rocks along the Côa River before the advent of written language."
+    },
+    "culture": {
+      "title": "Cante Alentejano: Portugal's Polyphonic Singing Tradition",
+      "content": "Unique to the Alentejo region of southern Portugal is 'Cante Alentejano,' a traditional two-part polyphonic singing genre performed by amateur choral groups without any musical instrumentation. Recognized by UNESCO as Intangible Cultural Heritage of Humanity in 2014, this vocal tradition is characterized by distinctive melodies and vocal styles that foster social cohesion across generations. The songs, often exploring both traditional and contemporary themes, are a deeply ingrained part of social gatherings in the region."
+    },
+    "news": {
+      "title": "Solar Power Becomes Portugal's Primary Electricity Source in July",
+      "content": "For the first time ever, solar power emerged as Portugal's main source of electricity in July 2026, marking a significant milestone in the nation's energy transition. According to data from Redes Energéticas Nacionais (REN), renewable energy sources collectively supplied 53 percent of the country's electricity consumption during the month, with photovoltaic generation contributing 19 percent of the mix. This achievement highlights Portugal's ongoing commitment to clean energy, with renewables accounting for 68 percent of consumption in the first seven months of the year."
+    },
+    "url": "https://www.euronews.com/2026/08/05/solar-power-was-portugals-main-source-of-electricity-in-july-a-first-for-the-country",
+    "id": "1792655148565-portugal",
+    "date": "2026-10-22T07:45:48.566Z"
+  },
+  {
     "country": "New Zealand",
     "fact": {
       "title": "The Ancient Carved Wonders of the Ōpārara Basin",
