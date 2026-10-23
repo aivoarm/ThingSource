@@ -1,5 +1,23 @@
 [
   {
+    "country": "France",
+    "fact": {
+      "title": "France's Longest Land Border is with Brazil",
+      "content": "Surprisingly, France shares its longest land border, stretching 730 kilometers, not with a European neighbor, but with Brazil. This is due to French Guiana, an overseas department and region of France located on the northern coast of South America, which is legally a full part of France. This unique geographical connection means that a part of the Amazon rainforest is actually French territory."
+    },
+    "culture": {
+      "title": "La Chandeleur: France's Festive Crêpe Day",
+      "content": "On February 2nd each year, France celebrates La Chandeleur, also known as Crêpe Day. This tradition, blending pagan and Christian roots, marks the end of the Christmas season and the return of light, symbolizing the approaching spring. Families make and flip crêpes, often holding a coin in one hand while flipping the pancake with the other, as a ritual believed to bring good fortune and prosperity for the year ahead."
+    },
+    "news": {
+      "title": "Stolen Renoir Paintings Recovered After French Museum Heist",
+      "content": "Two valuable Renoir paintings, \"Portrait of Madame Colonna Romano\" and \"Young Woman at the Well,\" stolen from the Renoir Museum in Cagnes-sur-Mer, France, last month, have been successfully recovered. Six individuals were arrested in connection with the heist, with investigators utilizing DNA evidence and vehicle tracking to crack the case. Although both artworks sustained some damage and will require restoration, their recovery represents a significant success for French authorities.",
+      "url": "https://www.cnn.com/2026/10/11/style/renoir-paintings-recovered-france/index.html"
+    },
+    "id": "1792741537707-france",
+    "date": "2026-10-23T07:45:37.707Z"
+  },
+  {
     "country": "Portugal",
     "fact": {
       "title": "The Ancient Open-Air Rock Art of the Côa Valley",
