@@ -1,5 +1,78 @@
 [
   {
+    "title": "Cracking the Sun's Hottest Secret: Lab-Made Mini-Flares Explain Corona Mystery",
+    "summary": "The Sun's outer atmosphere is a million-degree puzzle, baffling scientists for decades. Now, groundbreaking experiments recreating miniature solar flares here on Earth offer a compelling explanation for this scorching phenomenon.",
+    "sections": [
+      {
+        "heading": "The Sun's Fiery Paradox",
+        "content": "Imagine moving away from a campfire, only for the air to get hotter – that's essentially the Sun's corona mystery. While the Sun's surface simmers at a \"mere\" 5,500 degrees Celsius, its wispy outer atmosphere, the corona, inexplicably blazes at over a million degrees, a perplexing thermal inversion."
+      },
+      {
+        "heading": "Mini-Flares in a Lab",
+        "content": "To tackle this cosmic conundrum, scientists built a miniature solar environment in the lab, generating intense magnetic fields and plasma. Within this setup, they observed tiny, fleeting energy bursts – \"nanoflares\" – which are scaled-down versions of the colossal solar flares seen erupting from the Sun."
+      },
+      {
+        "heading": "A Heating Solution",
+        "content": "These lab-created nanoflares demonstrate that small, frequent eruptions, each individually weak but collectively powerful, can inject immense amounts of energy into the surrounding plasma. This continuous bombardment of tiny bursts could be the constant, localized heating mechanism that supercharges the Sun's corona to its extraordinary temperatures."
+      }
+    ],
+    "funFacts": [
+      "The Sun's corona is usually only visible from Earth during a total solar eclipse, appearing as a spectacular white halo.",
+      "A single full-sized solar flare can release as much energy as a billion hydrogen bombs, creating dazzling auroras on Earth.",
+      "Despite its million-degree temperature, the corona is so thin and tenuous that it would feel cold to touch due to its extremely low density."
+    ],
+    "originalTitle": "Tiny &#8216;solar flares&#8217; recreated in the lab may explain corona mystery",
+    "originalUrl": "https://www.newscientist.com/article/2595244-tiny-solar-flares-recreated-in-the-lab-may-explain-corona-mystery/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1792740643886-8q9d0",
+    "date": "2026-10-23T07:30:43.886Z"
+  },
+  {
+    "title": "The Clock is Ticking for Our Coral Reefs: A Dire Warning",
+    "summary": "A stark new warning reveals that the vibrant, life-sustaining coral reefs found in shallow tropical waters could be entirely gone within the next 50 years, triggering devastating consequences for marine life and human communities alike.",
+    "sections": [
+      {
+        "heading": "An Urgent Forecast for Our Oceans",
+        "content": "At a recent United Nations biodiversity conference, the International Union for Conservation of Nature (IUCN) delivered a chilling forecast: all of the world's shallow-water tropical coral reefs are now critically endangered and could vanish completely by 2075. This urgent declaration underscores the unprecedented speed at which these vital ocean ecosystems are deteriorating, leaving scientists and conservationists deeply concerned."
+      },
+      {
+        "heading": "More Than Just Pretty Places: Why Reefs Matter",
+        "content": "The potential loss of these underwater cities isn't just an ecological tragedy; it spells disaster for millions of people across the globe. Beyond devastating countless marine species that call them home, their disappearance would decimate global fisheries, threatening food security and livelihoods, while also leaving coastal communities exposed to intensified erosion and severe storm damage."
+      }
+    ],
+    "funFacts": [
+      "Coral reefs, though covering less than 0.1% of the ocean floor, provide habitat for over 25% of all marine species, earning them the nickname 'rainforests of the sea'.",
+      "These magnificent underwater structures act as natural breakwaters, significantly protecting coastlines from powerful waves, storms, and the gradual wear of erosion.",
+      "Millions of people worldwide rely on healthy coral reefs for their livelihoods through fishing and tourism, highlighting their critical role in both environmental and economic well-being."
+    ],
+    "originalTitle": "All tropical coral reefs could collapse within 50 years",
+    "originalUrl": "https://www.newscientist.com/article/2595378-all-tropical-coral-reels-could-collapse-within-50-years/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1792740652127-ywg65",
+    "date": "2026-10-23T07:30:52.127Z"
+  },
+  {
+    "title": "A $10 Chip That Puts a Precision Lab on Your Wrist",
+    "summary": "Cambridge researchers have engineered a groundbreaking $10 optical sensor, delivering laboratory-grade analysis in a device small enough for smartwatches, promising unprecedented personal health monitoring and instant identification of everyday substances.",
+    "sections": [
+      {
+        "heading": "The Power of Light, Miniaturized and Affordable",
+        "content": "This revolutionary $10 chip uses light to analyze substances with the same incredible accuracy you'd expect from expensive laboratory equipment. Its ingenious design means this powerful \"optical sensor\" is tiny enough to fit into future smartwatches and other wearable devices. This breakthrough dramatically reduces the cost and size barriers to advanced chemical analysis."
+      },
+      {
+        "heading": "A Versatile Tool for Health and Everyday Life",
+        "content": "Beyond its small size and cost, this sensor excels in performance, accurately identifying foods, plastics, and medicines in tests with 100% precision. Critically, it also shows immense promise for non-invasively monitoring vital health indicators like blood glucose levels and alcohol, potentially replacing needles with a simple wrist scan for personalized wellness insights."
+      }
+    ],
+    "funFacts": [
+      "This tiny chip achieves the sophisticated precision of complex laboratory instruments, but at an astonishingly low cost of just $10 per unit.",
+      "While exciting for health, the chip's ability to identify materials like plastics and medicines opens doors for applications in quality control, food safety, or even environmental monitoring.",
+      "One of the most significant implications is the potential to monitor health markers like blood glucose and alcohol completely non-invasively, making daily health checks far more comfortable and accessible."
+    ],
+    "originalTitle": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+    "id": "1792740662686-e60mf",
+    "date": "2026-10-23T07:31:02.686Z"
+  },
+  {
     "title": "Beyond the Limit: Why Some Climate Damage Is Already Locked In",
     "summary": "Even if humanity successfully slashes carbon emissions and eventually brings global temperatures back down, scientists warn that certain significant climate damages are now unavoidable, marking a critical shift in our understanding of climate change.",
     "sections": [
