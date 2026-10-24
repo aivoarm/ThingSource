@@ -1,5 +1,23 @@
 [
   {
+    "country": "Morocco",
+    "fact": {
+      "title": "Home to the Oldest Homo Sapiens Fossils",
+      "content": "Morocco holds a remarkable secret to human history, being the site where the oldest known Homo sapiens fossils were discovered. These groundbreaking findings at Jebel Irhoud date back approximately 315,000 years, pushing back the timeline for the emergence of our species. This makes Morocco a crucial location for understanding early human evolution and dispersal across Africa."
+    },
+    "culture": {
+      "title": "The Imilchil Marriage Festival: A Berber Tradition",
+      "content": "Deep in the High Atlas Mountains, Morocco hosts the unique Imilchil Marriage Festival, an annual event where young Berber men and women from various tribes come together to find their spouses. This traditional gathering, rooted in folklore and community, features music, dancing, and ceremonies, offering an extraordinary glimpse into Morocco's indigenous nomadic culture and its enduring customs."
+    },
+    "news": {
+      "title": "African Development Bank Approves $487 Million for Economic and Climate Reforms",
+      "content": "The African Development Bank Group (AfDB) recently approved a significant $487 million package to support Morocco's economic reforms, bolster climate resilience, and promote inclusive growth. This funding, approved in October 2026, aims to increase private sector investment, strengthen governance in the water and electricity sectors, and accelerate the nation's transition towards a low-carbon economy.",
+      "url": "https://channelafrica.co.za/88164-2/"
+    },
+    "id": "1792827933789-morocco",
+    "date": "2026-10-24T07:45:33.789Z"
+  },
+  {
     "country": "France",
     "fact": {
       "title": "France's Longest Land Border is with Brazil",
