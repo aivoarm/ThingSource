@@ -1,5 +1,23 @@
 [
   {
+    "country": "Netherlands",
+    "fact": {
+      "title": "A Caribbean Volcano as the Netherlands' Highest Point",
+      "content": "Surprisingly, the highest point in the entire Kingdom of the Netherlands is not found in its European mainland, but rather on a Caribbean island. Mount Scenery, an active volcano on the island of Saba, reaches an elevation of 887 meters (2,910 feet) above sea level, making it the true pinnacle of the Dutch realm."
+    },
+    "culture": {
+      "title": "The Culinary Origin of 'Kapsalon'",
+      "content": "A beloved Dutch fast-food dish, 'Kapsalon' (Dutch for 'hair salon'), has a surprisingly modern and local origin story. It was invented in 2003 by a hairdresser in Rotterdam who asked a nearby shawarma shop to combine his favorite ingredients: fries, döner meat, Gouda cheese, lettuce, garlic sauce, and sambal, layered and grilled in one dish. This unique combination quickly gained popularity, spreading from the barber's regular order to a nationwide sensation."
+    },
+    "news": {
+      "title": "Rotterdam's Poetic Bin Lorries Receive Cultural Status",
+      "content": "In an unusual and charming development, Rotterdam's bin lorries have been granted cultural status in October 2026. This recognition celebrates the city's unique initiative where refuse collection vehicles are adorned with poetry, transforming mundane city services into a mobile exhibition of art and literature.",
+      "url": "https://www.theguardian.com/world/2026/oct/15/verse-from-the-waste-land-rotterdams-poetic-bin-lorries-granted-cultural-status"
+    },
+    "id": "1792914334097-netherlands",
+    "date": "2026-10-25T07:45:34.097Z"
+  },
+  {
     "country": "Morocco",
     "fact": {
       "title": "Home to the Oldest Homo Sapiens Fossils",
