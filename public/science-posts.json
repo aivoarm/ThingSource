@@ -1,5 +1,51 @@
 [
   {
+    "title": "Lunar Leap Forward: NASA & Partners Speed Up Moon Lander Plans",
+    "summary": "NASA and its commercial partners, Blue Origin and SpaceX, are revamping their lunar lander designs and operational strategies to accelerate human missions to the Moon by 2028, aiming to establish a lasting presence on our closest celestial neighbor. This proactive approach signifies a major stride in making long-term lunar habitation a reality sooner than expected.",
+    "sections": [
+      {
+        "heading": "Setting Our Sights on a Sustainable Moon Presence",
+        "content": "NASA isn't just planning a fleeting visit to the Moon; the ambitious goal is to establish a permanent human outpost there. This long-term vision requires robust and reliable transportation systems, capable of repeatedly ferrying astronauts and supplies to and from the lunar surface, marking a pivotal step in humanity's space exploration journey."
+      },
+      {
+        "heading": "Smarter Designs to Expedite Lunar Landings",
+        "content": "To achieve this challenging goal, NASA has collaborated closely with private space companies, Blue Origin and SpaceX, to significantly streamline their human lunar lander designs. By optimizing these complex vehicles and rethinking operational procedures, they are cutting down development time without compromising safety or capability, ensuring human boots are back on the Moon by 2028."
+      }
+    ],
+    "funFacts": [
+      "This accelerated timeline means engineers are working smarter, not just harder, by simplifying complex systems and integrating lessons learned from previous space missions.",
+      "These human landing systems are essentially sophisticated 'space elevators' designed to safely lower astronauts from lunar orbit to the Moon's surface and then lift them back up again.",
+      "Establishing a long-term presence on the Moon could pave the way for future human missions to Mars, using the Moon as a critical proving ground and potential resource hub."
+    ],
+    "originalTitle": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+    "originalUrl": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+    "id": "1792913442516-cjd0g",
+    "date": "2026-10-25T07:30:42.516Z"
+  },
+  {
+    "title": "Cosmic Dust Reveals Jupiter's Surprising Role in Shaping Our Young Solar System",
+    "summary": "Tiny fragments from asteroid Bennu are rewriting the story of our Solar System's birth, showing it was a much more dynamic and mixed-up place than previously imagined, with Jupiter playing an unexpected but pivotal role.",
+    "sections": [
+      {
+        "heading": "A Celestial Cocktail: Inner and Outer Worlds Mix",
+        "content": "For decades, scientists largely believed the inner and outer parts of our Solar System formed quite separately. However, the minuscule grains from Bennu reveal it's a cosmic blend – containing materials typically found close to the Sun mixed with components usually relegated to the colder, distant reaches of space, challenging long-held assumptions."
+      },
+      {
+        "heading": "Jupiter: The Unexpected Cosmic Stirrer",
+        "content": "This surprising mixture points to the early, powerful influence of Jupiter. Our Solar System's largest planet, during its infancy, likely acted like a colossal gravitational blender, stirring up the primordial cloud of gas and dust and effectively flinging materials from different regions together to form objects like Bennu."
+      }
+    ],
+    "funFacts": [
+      "Bennu is considered a 'time capsule' from the very beginning of our Solar System, preserving materials that are approximately 4.5 billion years old.",
+      "The samples were collected by NASA's OSIRIS-REx mission, which traveled billions of miles to rendezvous with Bennu and snatch a small handful of its surface material.",
+      "Understanding the formation of asteroids like Bennu helps scientists better understand the raw ingredients and conditions that eventually led to the creation of Earth and other planets."
+    ],
+    "originalTitle": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261023023734.htm",
+    "id": "1792913449346-t08np",
+    "date": "2026-10-25T07:30:49.346Z"
+  },
+  {
     "title": "Artemis III: The Crucial Rehearsal for Humanity's Lunar Return",
     "summary": "NASA's Artemis III mission in 2027 is a pivotal dress rehearsal for humanity's return to the Moon, sending a diverse astronaut crew to low Earth orbit to meticulously test the systems and procedures crucial for future lunar landings.",
     "sections": [
