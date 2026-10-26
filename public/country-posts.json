@@ -1,5 +1,23 @@
 [
   {
+    "country": "Turkey",
+    "fact": {
+      "title": "Göbekli Tepe: The World's Oldest Known Temple",
+      "content": "Located in southeastern Turkey, Göbekli Tepe stands as the world's oldest known temple, predating Stonehenge and the Egyptian pyramids by thousands of years. Dating back to approximately 9600 BCE, this Neolithic site offers a profound glimpse into the spiritual and architectural capabilities of early human societies. Its intricately carved megalithic structures challenge previous assumptions about the timeline of complex civilization and organized religion."
+    },
+    "culture": {
+      "title": "Askıda Ekmek: The Tradition of Suspended Bread",
+      "content": "A beautiful and lesser-known Turkish tradition is 'Askıda Ekmek,' meaning 'suspended bread.' In this custom, individuals who can afford to, pay for an extra loaf of bread at a bakery and ask for it to be 'suspended' or set aside. Those in need can then take this bread for free, allowing for discreet charity and demonstrating a deep-seated cultural value of solidarity and generosity within Turkish communities."
+    },
+    "news": {
+      "title": "Türkiye and Armenia Advance Joint Restoration of Historic Ani Bridge",
+      "content": "Türkiye has completed the tender process for the joint restoration of the historic Ani Bridge, located on the Turkish-Armenian border. This project, announced on October 25, 2026, signifies a positive step in cross-border cooperation and cultural heritage preservation between the two nations, aiming to revive a significant historical landmark.",
+      "url": "https://www.hurriyetdailynews.com/"
+    },
+    "id": "1793000737670-turkey",
+    "date": "2026-10-26T07:45:37.670Z"
+  },
+  {
     "country": "Netherlands",
     "fact": {
       "title": "A Caribbean Volcano as the Netherlands' Highest Point",
