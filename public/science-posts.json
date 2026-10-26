@@ -1,5 +1,74 @@
 [
   {
+    "title": "Pancreatic Cancer's Shifting Blueprint Revealed: Scientists Find a Way to Stop Its Escape",
+    "summary": "Scientists have uncovered pancreatic cancer's remarkable ability to constantly rewrite its genetic instructions, allowing it to become more aggressive and slip past existing treatments. This crucial discovery also points to a new weakness in the cancer's armor, offering a promising avenue for future therapies.",
+    "sections": [
+      {
+        "heading": "The Cancer's Master of Disguise",
+        "content": "Imagine cancer cells as highly adaptable spies constantly altering their genetic 'blueprint' – their DNA – to change their appearance and behavior. This constant reshaping allows pancreatic cancer, a particularly aggressive type, to outmaneuver treatments and spread throughout the body."
+      },
+      {
+        "heading": "Unmasking the Weakness",
+        "content": "Researchers pinpointed a specific gene crucial for this genetic shapeshifting. When they blocked this gene in laboratory experiments, the cancer cells' dangerous evolution was significantly slowed or even reversed, suggesting we might finally have a way to disrupt its cunning escape strategy."
+      }
+    ],
+    "funFacts": [
+      "Pancreatic cancer is often called a 'silent killer' because symptoms typically appear late, making early detection very challenging.",
+      "This study highlights how cancer isn't a static enemy but a dynamic one, constantly evolving its defenses, much like bacteria developing antibiotic resistance.",
+      "While these are early lab findings, understanding this genetic 'rewrite' mechanism is a vital step toward developing targeted therapies that could potentially disarm pancreatic cancer's ability to evade treatment."
+    ],
+    "originalTitle": "Scientists discover how pancreatic cancer rewrites its DNA to escape treatment",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261024221849.htm",
+    "id": "1792999843019-6yy30",
+    "date": "2026-10-26T07:30:43.020Z"
+  },
+  {
+    "title": "Autumn's Grand Reveal: Satellites Track the Season's Colors",
+    "summary": "The age-old delight of watching autumn leaves transform is getting a high-tech upgrade. Thanks to modern satellites, we can now track the vibrant progression of fall foliage from orbit, offering unprecedented insights and helping plan the perfect leaf-peeping adventure.",
+    "sections": [
+      {
+        "heading": "From Forest Floor to Orbital Views",
+        "content": "For centuries, people have marveled at the spectacular show of autumn leaves. Now, advanced satellites are taking this cherished tradition to new heights, allowing us to observe the changing hues of entire forests from a unique vantage point miles above Earth. This isn't just a pretty picture; it provides scientists and enthusiasts alike with a comprehensive view of seasonal change."
+      },
+      {
+        "heading": "How Satellites Spot the Reds",
+        "content": "It takes more than just a camera to 'see' the subtle shifts in autumn's palette from space. Modern satellites employ specialized sensors that can detect precise changes in light reflected by vegetation. These instruments can differentiate between green chlorophyll and the other pigments like carotenoids and anthocyanins that produce yellows, oranges, and reds, even before our eyes can fully appreciate the change on the ground."
+      }
+    ],
+    "funFacts": [
+      "Satellites can help predict peak foliage times with greater accuracy, aiding tourism and outdoor enthusiasts in planning their trips.",
+      "The brilliant red colors of autumn leaves are often a 'sunscreen' protecting the tree as it reabsorbs vital nutrients from its leaves before winter.",
+      "Observing foliage from space also helps scientists monitor plant health, track climate change impacts, and understand ecosystem dynamics on a vast scale."
+    ],
+    "originalTitle": "Hunting Red Leaves with Satellites",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/",
+    "id": "1792999851021-lxe8a",
+    "date": "2026-10-26T07:30:51.021Z"
+  },
+  {
+    "title": "Spinosaurus: The True Water Dinosaur Revealed, Shaking Up Ancient Aquatic Lore",
+    "summary": "For millions of years, some land-dwelling creatures made the ultimate evolutionary U-turn, returning to the water. Now, groundbreaking research reveals the mighty Spinosaurus was far more aquatic than we ever imagined, while also challenging long-held beliefs about other ancient 'marine' reptiles.",
+    "sections": [
+      {
+        "heading": "Spinosaurus: A Prehistoric River Monster?",
+        "content": "Forget the image of Spinosaurus as just another land-striding predator; new evidence paints a vivid picture of this colossal dinosaur as an expert aquatic hunter, spending the vast majority of its life submerged. This finding fundamentally reshapes our understanding of how this iconic dinosaur lived and hunted in ancient waterways."
+      },
+      {
+        "heading": "Unveiling Ancient Lifestyles with Modern Tech",
+        "content": "Scientists at Yale used advanced machine learning to analyze thousands of fossil measurements, essentially creating a 'fitness tracker' for prehistoric creatures to discern their preferred habitats. This powerful approach not only pinpointed Spinosaurus as a true water-dweller but also surprisingly revealed that some ancient marine reptiles, once thought to be fully aquatic, actually spent significant time on land."
+      }
+    ],
+    "funFacts": [
+      "Millions of years ago, some animals made an incredible evolutionary 'U-turn,' abandoning land to return to the water, a journey similar to whales evolving from land mammals.",
+      "By analyzing thousands of bone measurements with machine learning, scientists could accurately predict whether an ancient creature was primarily aquatic or terrestrial, like a sophisticated prehistoric algorithm.",
+      "This research doesn't just reclassify Spinosaurus; it also shows that some ancient marine reptiles, long imagined as deep-sea dwellers, actually spent considerable time sunning themselves or hunting on land."
+    ],
+    "originalTitle": "New evidence suggests spinosaurus spent most of its life underwater",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261024221956.htm",
+    "id": "1792999859966-zwy5e",
+    "date": "2026-10-26T07:30:59.966Z"
+  },
+  {
     "title": "Lunar Leap Forward: NASA & Partners Speed Up Moon Lander Plans",
     "summary": "NASA and its commercial partners, Blue Origin and SpaceX, are revamping their lunar lander designs and operational strategies to accelerate human missions to the Moon by 2028, aiming to establish a lasting presence on our closest celestial neighbor. This proactive approach signifies a major stride in making long-term lunar habitation a reality sooner than expected.",
     "sections": [
