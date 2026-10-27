@@ -1,5 +1,78 @@
 [
   {
+    "title": "From Blood Cells to Bots: A New Era of Biological Computing",
+    "summary": "In a groundbreaking development, scientists have successfully used a computer powered by human blood cells to control a robotic dog, showcasing a revolutionary new way to merge biology with technology. This milestone hints at a future where computing could be dramatically more energy-efficient and deeply integrated with living systems.",
+    "sections": [
+      {
+        "heading": "Unpacking the 'Bio-Computer': What is it?",
+        "content": "Imagine a computer that doesn't rely on silicon chips or traditional electricity. This innovative 'biological computer' harnesses the power of human blood cells, using their natural metabolic processes to perform calculations. It's a radical departure from conventional computing, essentially turning living cells into tiny, organic processing units."
+      },
+      {
+        "heading": "From Simple Games to Complex Robot Control",
+        "content": "This isn't just a theoretical concept; the technology has already proven its mettle by playing the classic video game Pong. Now, researchers have pushed its capabilities even further, demonstrating its ability to send commands and control a robotic dog. This progression from a simple game to complex real-time robot movements highlights the rapid advancement and growing sophistication of biological computing."
+      },
+      {
+        "heading": "Why This Breakthrough Matters for Our Future",
+        "content": "This development isn't just fascinating; it opens doors to entirely new possibilities. Biological computers could offer unparalleled energy efficiency, potentially consuming far less power than their silicon counterparts. Furthermore, they could pave the way for seamless integration with biological systems, leading to advancements in areas like medical technology, bio-hybrid robotics, and even new forms of artificial intelligence that blur the lines between life and machine."
+      }
+    ],
+    "funFacts": [
+      "The 'power source' for this new computer isn't a wall socket, but the inherent metabolic energy of living human blood cells.",
+      "This technology moves beyond the silicon chips that have defined computing for decades, proposing a completely new foundation for processing information.",
+      "The leap from playing a simple video game like Pong to orchestrating the complex movements of a robotic dog demonstrates a significant surge in the bio-computer's capabilities."
+    ],
+    "originalTitle": "Robotic dog controlled with a computer powered by human blood cells",
+    "originalUrl": "https://www.newscientist.com/article/2594537-robotic-dog-controlled-with-a-computer-powered-by-human-blood-cells/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1793086246402-xl1rm",
+    "date": "2026-10-27T07:30:46.402Z"
+  },
+  {
+    "title": "Your Heart's Secret Upgrade: Exercise Doesn't Just Strengthen, It Rewires Its Control System",
+    "summary": "We've always known exercise is good for your heart, but new research reveals it's not just about stronger muscles. It turns out regular physical activity profoundly reshapes the very nerves that control your heart's functions, a surprising 'rewiring' that could transform how we understand heart health.",
+    "sections": [
+      {
+        "heading": "The Heart's Hidden Control Panel",
+        "content": "For years, our understanding of exercise benefits focused on making your heart muscle bigger and more efficient. However, your heart isn't just a simple pump; it's intricately controlled by a complex network of nerves, acting like a sophisticated internal control panel, dictating everything from rhythm to blood flow. This groundbreaking study shows that exercise doesn't just work on the muscle, but actively sculpts these vital neural pathways, optimizing their function."
+      },
+      {
+        "heading": "A Tale of Two Sides: Left vs. Right",
+        "content": "What makes this discovery even more fascinating is that the nerve changes induced by exercise aren't uniform across the heart. Researchers found surprisingly distinct differences in how the left and right sides of the heart's nervous system respond to physical activity. This asymmetry suggests a highly specialized and targeted adaptation, hinting at how exercise might precisely fine-tune different aspects of heart function."
+      }
+    ],
+    "funFacts": [
+      "Your heart contains its own 'mini-brain' – a complex network of neurons called the intrinsic cardiac nervous system, which can operate somewhat independently from your brain.",
+      "Beyond cardiovascular benefits, regular exercise is also known to improve mood, boost cognitive function, and even enhance immune response.",
+      "Understanding how exercise reshapes these nerve pathways could pave the way for new therapies that 'rewire' damaged hearts in conditions like heart failure or arrhythmias."
+    ],
+    "originalTitle": "Exercise doesn't just strengthen your heart. It rewires it",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261025222848.htm",
+    "id": "1793086256059-wpave",
+    "date": "2026-10-27T07:30:56.059Z"
+  },
+  {
+    "title": "Time Travel by Starlight: An Ancient Eclipse Unlocks Earth's Past Rotation",
+    "summary": "An astronomical detective story stretching back 2,700 years just revealed a surprising secret: a long-lost solar eclipse has offered scientists an unprecedented window into how fast our planet was spinning millennia ago.",
+    "sections": [
+      {
+        "heading": "A Celestial Time Capsule",
+        "content": "Imagine looking back in time to glimpse our planet's past. That's exactly what researchers did by analyzing a meticulously recorded solar eclipse from ancient China in 709 BCE. This rare celestial alignment, where the Moon perfectly blocks the Sun, acts like a precise timestamp, allowing scientists to pinpoint events with remarkable accuracy across millennia."
+      },
+      {
+        "heading": "Unlocking Earth's Ancient Spin",
+        "content": "For decades, scientists puzzled over inconsistencies when using historical eclipse records to model Earth's rotation speed. The breakthrough came from correcting a subtle, yet crucial, 8-kilometer error in the known location of the ancient Chinese capital. This seemingly small adjustment allowed them to precisely reconstruct the 709 BCE total solar eclipse, finally yielding the most accurate measurement to date of how fast our planet was spinning nearly three millennia ago, and revealing new details about the Sun's historical activity."
+      }
+    ],
+    "funFacts": [
+      "Solar eclipses have been recorded for millennia across various cultures, often holding immense cultural and scientific significance.",
+      "Earth's rotation isn't perfectly constant; it gradually slows down due to factors like the Moon's gravitational pull, adding roughly 1.7 milliseconds to each day per century.",
+      "Precisely reconstructing historical astronomical events like eclipses helps us understand long-term changes in our planet's dynamics and even the solar system."
+    ],
+    "originalTitle": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261025073055.htm",
+    "id": "1793086264230-c8vux",
+    "date": "2026-10-27T07:31:04.230Z"
+  },
+  {
     "title": "Pancreatic Cancer's Shifting Blueprint Revealed: Scientists Find a Way to Stop Its Escape",
     "summary": "Scientists have uncovered pancreatic cancer's remarkable ability to constantly rewrite its genetic instructions, allowing it to become more aggressive and slip past existing treatments. This crucial discovery also points to a new weakness in the cancer's armor, offering a promising avenue for future therapies.",
     "sections": [
