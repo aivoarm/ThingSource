@@ -1,5 +1,23 @@
 [
   {
+    "country": "Peru",
+    "fact": {
+      "title": "Caral-Supe: The Oldest Civilization in the Americas",
+      "content": "North of Lima lies Caral-Supe, recognized as the oldest civilization in the Americas. Dating back approximately 5,000 years, this ancient site rivals Mesopotamia and ancient Egypt in age, showcasing sophisticated urban planning with mud-brick structures and ziggurats. Its early inhabitants developed effective farming and fishing techniques, influencing subsequent South American cultures long before the rise of the Incas."
+    },
+    "culture": {
+      "title": "Pachamanca: An Earth Oven Feast",
+      "content": "A unique culinary tradition in Peru is the \"Pachamanca,\" an ancient method of cooking that predates the Incas. This communal feast involves slow-cooking meats, potatoes, corn, and vegetables using heated stones buried underground, creating distinct Andean flavors. More than just a meal, Pachamanca is a social occasion and a tribute to Pachamama (Mother Earth)."
+    },
+    "news": {
+      "title": "Peru Crowned South America's Leading Destination for Fourth Consecutive Year",
+      "content": "Peru recently swept the 2026 World Travel Awards South America, securing six regional trophies, including the prestigious title of \"South America's Leading Destination\" for the fourth year in a row. The country was recognized across various categories such as cuisine, culture, nature, and sustainable tourism, affirming its diverse appeal to international visitors. This achievement highlights Peru's continued excellence and strong position in the global tourism landscape.",
+      "url": "https://www.latintimes.com/the-crown-of-south-american-tourism-peru-wins-six-awards-and-a-fourth-consecutive-title-15886"
+    },
+    "id": "1793173534628-peru",
+    "date": "2026-10-28T07:45:34.628Z"
+  },
+  {
     "country": "India",
     "fact": {
       "title": "Lonar Lake: India's Meteorite Crater Lake",
