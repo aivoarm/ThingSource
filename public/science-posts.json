@@ -1,5 +1,74 @@
 [
   {
+    "title": "How Our Brains Learn Faces: New Insights into Autism and Social Perception",
+    "summary": "A groundbreaking study reveals that the brains of autistic children process faces in a fundamentally different way, with these distinctions potentially emerging much earlier than previously believed. This discovery offers crucial insights into why some autistic individuals experience challenges recognizing faces and understanding emotions.",
+    "sections": [
+      {
+        "heading": "The Brain's Developing \"Face File\"",
+        "content": "As neurotypical children grow, their brains typically become increasingly specialized, much like creating a dedicated mental \"file\" just for recognizing and interpreting faces. However, new research reveals that this process of developmental specialization unfolds differently in autistic children, showing significantly less change over time in how these brain signals mature."
+      },
+      {
+        "heading": "Connecting the Dots to Social Cues",
+        "content": "This distinct pathway in face processing offers a potential explanation for why some autistic individuals may experience challenges recognizing familiar faces or interpreting subtle emotional expressions. Understanding these fundamental brain differences deepens our appreciation for neurological diversity and could pave the way for more tailored support strategies."
+      }
+    ],
+    "funFacts": [
+      "The human brain has a dedicated network of areas highly specialized for processing faces, crucial for our social interactions.",
+      "Recognizing faces isn't just about identifying a person; it's also key to reading emotions and understanding complex social situations.",
+      "This research emphasizes that differences in brain processing are a fundamental aspect of neurological diversity, not a choice or a deficit."
+    ],
+    "originalTitle": "The autistic brain processes faces differently than scientists thought",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
+    "id": "1793172645789-im6t8",
+    "date": "2026-10-28T07:30:45.789Z"
+  },
+  {
+    "title": "James Webb Spots a Fiery Lava Planet That Defies Atmospheric Expectations",
+    "summary": "Astronomers using the James Webb Space Telescope have uncovered a scorching lava planet 280 light-years away that surprisingly maintains a thick atmosphere, challenging our fundamental understanding of how planets survive extreme conditions.",
+    "sections": [
+      {
+        "heading": "A Fiery World Defying Expectations",
+        "content": "Imagine a planet so close to its star that its surface is a global ocean of molten rock. This is TOI-561 b, located 280 light-years away, where intense radiation should have stripped away any atmosphere billions of years ago, yet observations from the James Webb Space Telescope reveal it still possesses a thick one. This discovery presents a significant puzzle, pushing the boundaries of what we thought possible for planetary survival in extreme environments."
+      },
+      {
+        "heading": "Nature's Own Sunscreen and a Self-Repairing Atmosphere",
+        "content": "Scientists propose two ingenious mechanisms for TOI-561 b's resilience. First, its atmosphere appears to reflect an astounding 75% of incoming starlight, likely due to bright, mineral-rich clouds acting like a giant, reflective shield. Secondly, the planet's vast molten rock ocean may be continuously spewing gases into the atmosphere, effectively replenishing it faster than it can be lost to the harsh stellar winds."
+      }
+    ],
+    "funFacts": [
+      "This scorching world, TOI-561 b, is located 280 light-years away, meaning the light we observe from it today started its journey centuries ago.",
+      "The 'giant sunscreen' effect of its atmosphere is incredibly efficient, reflecting three-quarters of the incoming starlight and making it one of the most reflective planets ever studied.",
+      "A 'global ocean of molten rock' isn't just hot; it implies a surface perpetually churning with liquid rock, similar to Earth's volcanic lava but on an unimaginable, planetary scale."
+    ],
+    "originalTitle": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
+    "id": "1793172655958-muzrm",
+    "date": "2026-10-28T07:30:55.958Z"
+  },
+  {
+    "title": "Shielding Our Planet's Watchdog: NASA's NEO Surveyor Gets Its Cool Shield",
+    "summary": "NASA's crucial mission to scan for potentially hazardous asteroids is taking shape, with its massive sunshade undergoing final checks—a vital component that will keep the asteroid-hunting telescope frosty enough to spot distant threats.",
+    "sections": [
+      {
+        "heading": "Earth's Vigilant Eye in Space",
+        "content": "The NEO Surveyor mission is NASA's dedicated space telescope designed to meticulously search our cosmic neighborhood for Near-Earth Objects (NEOs), specifically asteroids and comets that might pose a future impact risk to our planet. Early detection of these cosmic wanderers is paramount, providing humanity with crucial lead time to potentially mitigate any threats."
+      },
+      {
+        "heading": "The Art of Staying Cool to See the Unseen",
+        "content": "This advanced telescope operates in infrared, meaning it detects the faint heat signatures emitted by asteroids as they absorb sunlight. To effectively \"see\" these subtle thermal glows, the telescope must remain incredibly cold itself – far colder than the objects it observes – making its colossal, 20-foot-tall sunshade absolutely essential for blocking out the overwhelming heat from the Sun."
+      }
+    ],
+    "funFacts": [
+      "The sunshade is an impressive 20 feet (6 meters) tall, taller than a giraffe, and 8 feet (2.4 meters) wide at its base, designed to create a permanent shadow for the telescope.",
+      "By operating in infrared, the NEO Surveyor can spot dark asteroids that are difficult to see with visible light telescopes, much like seeing an object in a dark room by its warmth.",
+      "Identifying potentially hazardous asteroids years or even decades in advance gives scientists time to study them and develop strategies, like deflection missions, if needed to protect Earth."
+    ],
+    "originalTitle": "NASA&#8217;s Neo Surveyor Sunshade",
+    "originalUrl": "https://www.nasa.gov/image-article/nasas-neo-surveyor-sunshade/",
+    "id": "1793172665162-jnq91",
+    "date": "2026-10-28T07:31:05.162Z"
+  },
+  {
     "title": "From Blood Cells to Bots: A New Era of Biological Computing",
     "summary": "In a groundbreaking development, scientists have successfully used a computer powered by human blood cells to control a robotic dog, showcasing a revolutionary new way to merge biology with technology. This milestone hints at a future where computing could be dramatically more energy-efficient and deeply integrated with living systems.",
     "sections": [
