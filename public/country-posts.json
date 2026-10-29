@@ -1,5 +1,23 @@
 [
   {
+    "country": "Italy",
+    "fact": {
+      "title": "Venice: A City Built on a Submerged Forest",
+      "content": "Beneath the iconic canals and grand palaces of Venice lies a truly remarkable feat of ancient engineering: the city is founded on millions of wooden piles driven deep into the soft lagoon sediment. These piles, primarily made from alder, oak, and larch, do not rot underwater due to the anaerobic (oxygen-free) conditions and the petrifying effect of mineral-rich water, which gradually hardens the wood into a stone-like substance over centuries. This ingenious foundation has supported the 'Floating City' for over a millennium, defying conventional construction logic."
+    },
+    "culture": {
+      "title": "La Passeggiata: The Art of the Evening Stroll",
+      "content": "A beloved and distinctly Italian tradition is 'La Passeggiata,' a leisurely evening stroll taken by community members between roughly 5:00 p.m. and 8:00 p.m.. Italians dress smartly for this social ritual, walking along central streets or piazzas to see and be seen, greet acquaintances, and engage in unhurried conversation, reinforcing a strong sense of community and shared life. This tradition has roots stretching back to ancient Roman 'deambulatio' and the social life of Renaissance cities."
+    },
+    "news": {
+      "title": "Ancient Bronze Age Sword Discovered in Italian Volcanic Lake",
+      "content": "Archaeologists have recently recovered a remarkably well-preserved 3,300-year-old Bronze Age sword from Lake Mezzano, a volcanic crater lake located northwest of Rome. The weapon, found alongside intact vases and other artifacts, has maintained its sharp edge, suggesting it may have been a ritual offering or belonged to a high-status warrior. This significant discovery, reported in late October 2026, offers new insights into Italy's pre-Roman history.",
+      "url": "https://www.livescience.com/archaeology/bronze-age-sword-discovered-in-an-italian-lake-is-still-sharp-after-3300-years"
+    },
+    "id": "1793259940191-italy",
+    "date": "2026-10-29T07:45:40.191Z"
+  },
+  {
     "country": "Peru",
     "fact": {
       "title": "Caral-Supe: The Oldest Civilization in the Americas",
