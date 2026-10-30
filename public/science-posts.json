@@ -1,5 +1,74 @@
 [
   {
+    "title": "Uncovering the Deep Roots of Randomness in Quantum Physics",
+    "summary": "Prepare to rethink how the universe works: a new analysis suggests that the inherent randomness we see in quantum physics isn't just a quirk, but a foundational pillar embedded deep within its very mathematical structure.",
+    "sections": [
+      {
+        "heading": "The Universe's Quirky Rulebook",
+        "content": "Classical physics, which governs our everyday world, allows us to predict outcomes with certainty – like where a thrown ball will land. But at the incredibly tiny scale of quantum mechanics, things get weird. Instead of precise predictions, we often only get probabilities, as if the universe is constantly rolling a set of invisible dice for every outcome."
+      },
+      {
+        "heading": "Probability: Deeper Than Anticipated",
+        "content": "For a long time, scientists debated if this randomness was a true feature of reality or if we just lacked enough information. Now, new research delves into the mathematical heart of quantum theory, suggesting that this probabilistic nature isn't a surface-level quirk but is fundamentally woven into the very fabric of its equations, making it an inescapable cornerstone of the quantum world."
+      }
+    ],
+    "funFacts": [
+      "Albert Einstein famously struggled with this concept, declaring, 'God does not play dice with the universe,' believing there must be a deeper, deterministic reality.",
+      "This inherent randomness is what makes technologies like quantum computing and quantum encryption possible, harnessing the unpredictable nature of particles for powerful new applications.",
+      "The finding strengthens the idea that the quantum world truly operates on probabilities at its most fundamental level, rather than being a deterministic system with hidden variables we haven't yet discovered."
+    ],
+    "originalTitle": "Key oddity of quantum physics may run even deeper than anticipated",
+    "originalUrl": "https://www.newscientist.com/article/2596105-key-oddity-of-quantum-physics-may-run-even-deeper-than-anticipated/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1793345443858-zp8i2",
+    "date": "2026-10-30T07:30:43.858Z"
+  },
+  {
+    "title": "The Surprising Breath That Could Mend Nerves",
+    "summary": "Imagine if a simple breath could help repair damaged nerves, even in adults. New research in mice suggests that controlling carbon dioxide levels might unlock our body's dormant ability to regrow neural tissue, a discovery that could revolutionize treatments for nerve injuries.",
+    "sections": [
+      {
+        "heading": "Why Do We Lose Our Repair Powers?",
+        "content": "For a long time, scientists have puzzled over why newborn animals can regenerate tissues much better than adults. This new study suggests a surprising answer: the very act of taking our first breath after birth, and the subsequent change in carbon dioxide levels, might flip a switch that slows down our body's natural repair mechanisms, especially for nerves."
+      },
+      {
+        "heading": "Rebooting Regeneration with CO2",
+        "content": "The research, conducted in mice, found that introducing slightly higher levels of carbon dioxide reversed this 'off switch,' allowing damaged nerves to regain their ability to grow and repair themselves. This incredible finding suggests that what was thought to be a permanent loss of regenerative power might actually be a controllable pathway, offering a surprising new avenue for therapeutic intervention."
+      }
+    ],
+    "funFacts": [
+      "Most adult mammals, including humans, have a very limited capacity to regenerate damaged nerve cells, which is why spinal cord injuries are often permanent.",
+      "Carbon dioxide isn't just a waste product; it's a vital signaling molecule that helps regulate everything from blood flow to breathing.",
+      "This discovery in mice opens up exciting possibilities for treating conditions like paralysis or peripheral nerve damage, offering a truly novel approach."
+    ],
+    "originalTitle": "Inhaling CO2 may rescue nerves’ ability to regrow",
+    "originalUrl": "https://www.newscientist.com/article/2596332-inhaling-co2-rescues-nerves-ability-to-regrow/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1793345452188-b70m3",
+    "date": "2026-10-30T07:30:52.188Z"
+  },
+  {
+    "title": "Unlocking the Unexpected: A Journey Through Science's Strangest Discoveries",
+    "summary": "For 70 years, New Scientist has chronicled the extraordinary breadth of scientific inquiry, unearthing discoveries that stretch the imagination. This collection highlights the most astonishing findings, from quirky human behaviors to surprising animal intelligence, reminding us that science is anything but predictable.",
+    "sections": [
+      {
+        "heading": "Peeking into the Peculiar",
+        "content": "Science often unveils truths stranger than fiction, exploring everything from the subtle habits of the human mind—like unconscious finger sniffing—to the surprising capabilities of animals, such as rats learning to drive. These findings challenge our everyday perceptions and reveal the hidden oddities of the natural world, often right under our noses."
+      },
+      {
+        "heading": "The Thrill of the Unexpected",
+        "content": "Why do these bizarre breakthroughs captivate us? They push the boundaries of what we thought possible, forcing us to rethink intelligence, instinct, and even our own subconscious actions. Such wild discoveries don't just entertain; they deepen our understanding of life's intricate and often whimsical tapestry, proving science is truly an adventure."
+      }
+    ],
+    "funFacts": [
+      "Science isn't always about grand theories; sometimes the most fascinating insights come from observing the surprisingly mundane or the utterly bizarre.",
+      "From tiny quirks of human behavior to groundbreaking animal capabilities, scientific inquiry spans an incredible and often unexpected range.",
+      "For seven decades, New Scientist has been a window into these extraordinary discoveries, proving that the universe is always ready to surprise us."
+    ],
+    "originalTitle": "The 12 strangest science stories we can’t stop thinking about",
+    "originalUrl": "https://www.newscientist.com/article/2591690-the-12-strangest-science-stories-we-cant-stop-thinking-about/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1793345460086-qmp6k",
+    "date": "2026-10-30T07:31:00.086Z"
+  },
+  {
     "title": "The Unexpected Link: How the Indian Ocean Fuels Europe's Early Winter Storms",
     "summary": "Forget just the Atlantic: new research reveals that the distant Indian Ocean plays a surprising, yet significant, role in shaping Europe's early winter rain and storms, challenging our traditional views of global weather patterns.",
     "sections": [
