@@ -1,5 +1,23 @@
 [
   {
+    "country": "Brazil",
+    "fact": {
+      "title": "A Football Stadium Divided by the Equator",
+      "content": "Brazil boasts a truly unique geographical feature in its football stadium, Estádio Milton Corrêa, affectionately known as Zerão. This stadium in Macapá, Amapá, is built directly on the Equator, meaning one half of the pitch lies in the Northern Hemisphere and the other half in the Southern Hemisphere. Players literally cross hemispheres during a game."
+    },
+    "culture": {
+      "title": "Bumba Meu Boi: The Ox's Death and Resurrection",
+      "content": "Bumba Meu Boi is an vibrant and deeply rooted Brazilian folk festival, particularly celebrated in the Northeast, especially Maranhão. This interactive play, recognized as Intangible Cultural Heritage by UNESCO, tells a comedic folklore story through song and dance about the death and resurrection of an ox, often subtly critiquing social hierarchies."
+    },
+    "news": {
+      "title": "Deep-Sea Expedition Uncovers Over Two Dozen New Species Off Brazil's Coast",
+      "content": "An international deep-sea expedition recently discovered more than two dozen new marine species off the coast of Brazil in the tropical South Atlantic Ocean. Utilizing advanced imaging, researchers confirmed new midwater species, including various jellyfish, comb jellies, and crustaceans, in Earth's largest and least-explored habitable ecosystem.",
+      "url": "https://www.bbc.com/wildlife/article/20260603-deep-sea-vehicle-descends-into-south-atlantic-ocean-and-finds-mysterious-creatures-in-the-darkness"
+    },
+    "id": "1793346336039-brazil",
+    "date": "2026-10-30T07:45:36.039Z"
+  },
+  {
     "country": "Italy",
     "fact": {
       "title": "Venice: A City Built on a Submerged Forest",
