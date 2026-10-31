@@ -1,5 +1,23 @@
 [
   {
+    "country": "Costa Rica",
+    "fact": {
+      "title": "A Unique Wayfinding System: The Land of 'Historical' Directions",
+      "content": "Unlike most countries that rely on conventional street names and house numbers, Costa Rica has long used an informal system of directions based on 'historical' landmarks. Locals often guide others by referencing distances from a now non-existent mango tree, a 'pulpería' (small grocery store) that might have changed names, or '100 meters north of the old church,' even if the church is new. This distinctive approach to navigation reflects a community-oriented culture and a relaxed pace of life, though official street signs have been introduced more recently to modernize the system."
+    },
+    "culture": {
+      "title": "The Cherished Christmas 'Tamaleada' Tradition",
+      "content": "During the Christmas season, Costa Ricans engage in a beloved tradition known as the 'Tamaleada,' a communal tamal-making event that brings families and friends together. This isn't just about preparing food; it's a festive ritual symbolizing family bonds, generosity, and togetherness. Large batches of tamales, made with seasoned corn dough and various fillings wrapped in banana leaves, are meticulously prepared and then shared with loved ones throughout the holidays."
+    },
+    "news": {
+      "title": "Biodiversity Flourishes in Costa Rica's Restored Rainforests",
+      "content": "Costa Rica is celebrating a significant environmental victory as a May 2026 study, published in July, confirmed that biodiversity is successfully returning to the country's restored rainforests. Researchers utilized ecoacoustic monitoring to 'listen' to the forests, revealing that once-degraded areas are now teeming with the complex sounds of birds, insects, and mammals, resembling untouched ecosystems. This groundbreaking finding reinforces Costa Rica's global reputation as a leader in ecological recovery and sustainable tourism, demonstrating the positive impact of decades of conservation efforts.",
+      "url": "https://ecotours.travel/biodiversity-is-returning-to-restored-rainforests-in-costa-rica/"
+    },
+    "id": "1793432735921-costa-rica",
+    "date": "2026-10-31T07:45:35.921Z"
+  },
+  {
     "country": "Brazil",
     "fact": {
       "title": "A Football Stadium Divided by the Equator",
