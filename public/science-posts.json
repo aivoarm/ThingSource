@@ -1,5 +1,82 @@
 [
   {
+    "title": "Ancient Mars: The Unexpected Role of Rust in Its Warm, Wet Past",
+    "summary": "Scientists have long puzzled over how ancient Mars hosted liquid water. A groundbreaking new theory suggests a surprising culprit for its past warmth and wetness: rust hiding deep beneath its surface.",
+    "sections": [
+      {
+        "heading": "Mars's Enduring Watery Riddle",
+        "content": "For years, evidence of ancient riverbeds and lakebeds on Mars has tantalized scientists, pointing to a past where liquid water flowed freely. Yet, Mars is currently a frozen desert, leaving the question of how it was once warm enough to support such conditions a major planetary science mystery."
+      },
+      {
+        "heading": "The Surprising Role of Subsurface Rust",
+        "content": "A bold new theory suggests the answer lies deep underground: vast amounts of iron-rich rock, or 'rust,' reacting with water. This process, happening beneath the surface, could have released significant amounts of hydrogen gas into the planet's early atmosphere."
+      },
+      {
+        "heading": "A Catalytic Warm-Up",
+        "content": "This released hydrogen, while not a strong greenhouse gas itself, would have dramatically altered Mars's early atmosphere. It could have reacted with carbon dioxide, creating a powerful greenhouse effect that trapped heat and kept liquid water flowing across the Martian landscape for extended periods."
+      }
+    ],
+    "funFacts": [
+      "Mars gets its iconic red color from iron oxide (rust) on its surface, but this new theory points to *subsurface* rust as the key to its past warmth.",
+      "Understanding Mars's watery past is crucial for scientists searching for signs of ancient life, as liquid water is a fundamental requirement for life as we know it.",
+      "This new perspective offers an alternative to older theories about how Mars stayed warm enough for water, such as a much denser carbon dioxide atmosphere or intense volcanic activity."
+    ],
+    "originalTitle": "Rusty crust made Mars warm and wet",
+    "originalUrl": "https://www.newscientist.com/article/2596726-rusty-crust-made-mars-warm-and-wet/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1793431845691-jybwv",
+    "date": "2026-10-31T07:30:45.691Z"
+  },
+  {
+    "title": "Rethink Your Peel: The Hidden Fiber Power in Your Produce",
+    "summary": "New scientific findings reveal that the parts of fruits and vegetables we often discard, like skins, stems, and seeds, are surprisingly rich in fiber—often containing even more beneficial nutrients than the fleshy parts we usually eat.",
+    "sections": [
+      {
+        "heading": "Unveiling Nature's Overlooked Bounty",
+        "content": "Scientists have discovered a surprising nutritional treasure hiding in plain sight: the peels, seeds, and stems of common fruits and vegetables. Their research shows that these often-discarded plant components are not just edible, but are actually packed with more dietary fiber than the delicious inner flesh we typically consume. Think kiwi skins, squash seeds, and even the tougher parts of leafy greens—these are nutritional powerhouses we've been throwing away."
+      },
+      {
+        "heading": "Your Free Ticket to Better Health",
+        "content": "This discovery offers a remarkably simple and free way to boost your daily fiber intake, which is crucial for gut health, digestion, and even managing blood sugar levels. Instead of peeling that apple or scooping out those squash seeds, consider incorporating them into your meals to effortlessly enhance your nutritional profile. It's an easy win for your body and your grocery budget."
+      }
+    ],
+    "funFacts": [
+      "Most adults in Western countries struggle to meet the recommended daily fiber intake, making this a simple solution to a common nutritional gap.",
+      "Beyond fiber, these 'wasted' parts often contain a higher concentration of vitamins, minerals, and antioxidants compared to the inner flesh.",
+      "Eating the skin of produce like apples, potatoes, and even kiwis can significantly increase your fiber intake without adding extra calories or cost."
+    ],
+    "originalTitle": "Scientists confirm fruit and vegetable skin really is good for you",
+    "originalUrl": "https://www.newscientist.com/article/2596529-scientists-have-discovered-a-completely-free-way-to-eat-more-fibre/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1793431858139-toju6",
+    "date": "2026-10-31T07:30:58.139Z"
+  },
+  {
+    "title": "Unmasking the Universe's Elusive Messengers: Radio Telescopes Join the Hunt for Cosmic Neutrino Origins",
+    "summary": "Neutrinos are fundamental particles that barely interact with anything, making them incredible cosmic messengers but incredibly hard to trace. Scientists are now exploring how radio telescopes could provide a promising new way to pinpoint their mysterious origins from the universe's most extreme events.",
+    "sections": [
+      {
+        "heading": "What Are Neutrinos, the Universe's Shyest Particles?",
+        "content": "Imagine tiny cosmic whisperers, almost weightless and notoriously elusive—these are neutrinos. They are among the universe's most fundamental building blocks, constantly streaming through everything, including you, without leaving a trace. From the gentle radioactive decay of a banana to the violent explosion of a supernova, neutrinos are born from countless cosmic and earthly events."
+      },
+      {
+        "heading": "Why Tracking These Ghostly Signals Is So Challenging",
+        "content": "Neutrinos are often called 'ghost particles' because they rarely interact with matter, zipping through light-years of space and even entire planets without a hitch. This makes them pristine messengers, carrying unfiltered information directly from their distant, extreme birthplaces, but also incredibly difficult to detect and trace back to their source. Understanding where they come from is key to unlocking secrets of the universe's most energetic phenomena."
+      },
+      {
+        "heading": "A New Hope: Radio Telescopes as Cosmic Detectives",
+        "content": "Pinpointing the exact cosmic origin of these elusive particles has long been a monumental challenge for astrophysicists. However, scientists are now exploring a novel approach: using radio telescopes to detect the faint, unique signals that *could* be produced when high-energy neutrinos finally interact. This innovative strategy offers a promising new tool in the quest to map the universe's most powerful events and their 'ghostly' emissions."
+      }
+    ],
+    "funFacts": [
+      "Billions of neutrinos, mostly from the Sun, pass through your thumbnail every second, completely unnoticed.",
+      "Neutrinos are so incredibly light that scientists still aren't exactly sure what their exact mass is, only that it's astonishingly tiny.",
+      "Beyond supernovas, everyday sources like our own bodies, nuclear reactors, and even common bananas produce a steady stream of neutrinos through natural radioactive decay."
+    ],
+    "originalTitle": "Figuring out where cosmic neutrinos come from is tricky—radio telescopes could help find &#039;ghost particles&#039; origin",
+    "originalUrl": "https://phys.org/news/2026-10-figuring-cosmic-neutrinos-tricky-radio.html",
+    "id": "1793431868300-n3a9w",
+    "date": "2026-10-31T07:31:08.300Z"
+  },
+  {
     "title": "Uncovering the Deep Roots of Randomness in Quantum Physics",
     "summary": "Prepare to rethink how the universe works: a new analysis suggests that the inherent randomness we see in quantum physics isn't just a quirk, but a foundational pillar embedded deep within its very mathematical structure.",
     "sections": [
