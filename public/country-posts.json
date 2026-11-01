@@ -1,5 +1,23 @@
 [
   {
+    "country": "Thailand",
+    "fact": {
+      "title": "The Fascinating Origin of 'Siamese'",
+      "content": "Thailand, formerly known as Siam until 1939, is the origin of the term 'Siamese'. This name gained global recognition particularly through the conjoined twins Chang and Eng Bunker, born in Siam in 1811, who became world-famous. Additionally, the elegant Siamese cat breed, documented in Thai manuscripts centuries ago, also takes its name from this historical designation, a nod to the country's unique heritage."
+    },
+    "culture": {
+      "title": "Phi Ta Khon: Thailand's Playful Ghost Festival",
+      "content": "The Phi Ta Khon festival, or Ghost Festival, is a unique and vibrant tradition held annually in Dan Sai district, Loei province, northeastern Thailand. Participants don elaborate, handcrafted masks made from coconut husks and sticky rice steamers, often featuring exaggerated noses and bright colors, to parade as playful spirits. This lively three-day event blends Buddhist merit-making ceremonies with ancient animist beliefs, commemorating a legend where even the dead arose to celebrate the return of Prince Vessantara, a previous incarnation of the Buddha."
+    },
+    "news": {
+      "title": "Rare Leopard Sighting in Kaeng Krachan National Park",
+      "content": "A wildlife photographer recently captured a rare and fascinating sight in Kaeng Krachan National Park: two black and three spotted leopards together on a road, highlighting the rich biodiversity of this UNESCO World Heritage forest. This unusual encounter, involving what are believed to be juvenile siblings, is considered an important indicator of a healthy ecosystem with abundant prey populations within the park. Park officials are incorporating the footage into their wildlife monitoring database to help track leopard behavior and population distribution."
+    },
+    "url": "https://www.bangkokpost.com/thailand/general/2920272/black-spotted-leopards-filmed-together-in-kaeng-krachan",
+    "id": "1793519134838-thailand",
+    "date": "2026-11-01T07:45:34.838Z"
+  },
+  {
     "country": "Costa Rica",
     "fact": {
       "title": "A Unique Wayfinding System: The Land of 'Historical' Directions",
