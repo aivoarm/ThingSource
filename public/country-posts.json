@@ -1,5 +1,23 @@
 [
   {
+    "country": "Argentina",
+    "fact": {
+      "title": "The Resurfacing Ghost Town of Villa Epecuén",
+      "content": "Deep in Argentina lies Villa Epecuén, a former thriving lakeside resort town that spent 25 years submerged beneath a saltwater lake. In 2009, the waters receded, dramatically revealing the eerie, salt-encrusted ruins of what was once a popular tourist destination. This unique geographical phenomenon showcases a ghost town brought back from its watery grave."
+    },
+    "culture": {
+      "title": "Día de la Familia: A Quiet Celebration of Kinship",
+      "content": "Argentina observes Día de la Familia (Family Day) on the second Sunday of August, a holiday that profoundly emphasizes the nation's reverence for family bonds. Unlike more commercialized celebrations, this day is a quiet acknowledgment of kinship, often centered around shared meals, traditional asados, and intergenerational storytelling. It serves as a vital cultural anchor, reinforcing family ties amidst modern influences."
+    },
+    "news": {
+      "title": "Solar-Powered Train Debuts in the Andes",
+      "content": "Argentina recently launched a groundbreaking train in the Andes region that operates entirely on renewable and wireless electricity. This innovative 'Tren Solar de la Quebrada' represents a significant step towards sustainable public transport in the country, showcasing how solar power can keep local services running.",
+      "url": "https://www.euronews.com/2026/09/20/in-argentina-solar-power-from-the-andes-keeps-this-train-running"
+    },
+    "id": "1793605539561-argentina",
+    "date": "2026-11-02T07:45:39.561Z"
+  },
+  {
     "country": "Thailand",
     "fact": {
       "title": "The Fascinating Origin of 'Siamese'",
