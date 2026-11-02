@@ -1,5 +1,74 @@
 [
   {
+    "title": "Mars's Sky-High Secret: Unpacking the Mystery of a Colossal Martian Cloud",
+    "summary": "A remarkably long, wispy cloud has been spotted stretching for hundreds of miles across the Martian sky, providing scientists with a fascinating glimpse into the Red Planet's dynamic atmosphere and hidden water cycle.",
+    "sections": [
+      {
+        "heading": "What's So Special About This Martian Cloud?",
+        "content": "Imagine a cloud so vast it could span the length of an entire country – that's what scientists recently observed on Mars. This colossal, elongated formation is believed to be made of fine water ice crystals, similar to the wispy cirrus clouds we see high above Earth, but stretching for an astonishing distance in Mars's thin atmosphere."
+      },
+      {
+        "heading": "Why Do We Care About Clouds on Mars?",
+        "content": "Studying these grand atmospheric spectacles offers crucial clues about Martian weather patterns, wind currents, and the planet's elusive water reservoirs. By understanding how and where these clouds form, scientists can better piece together Mars's atmospheric dynamics, shedding light on its past climate and potential for future exploration."
+      }
+    ],
+    "funFacts": [
+      "This particular cloud can stretch for over a thousand kilometers, roughly the distance from New York City to Cleveland!",
+      "Unlike Earth's dense clouds, Martian clouds are often very thin due to the planet's sparse atmosphere, making their vast length even more remarkable.",
+      "Many long Martian clouds form near large volcanoes, where rising air currents (like those over a mountain range) lift moisture high enough to condense into ice crystals."
+    ],
+    "originalTitle": "APOD: 2026 November 2 – A Long Cloud on Mars",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
+    "id": "1793604645230-u5yay",
+    "date": "2026-11-02T07:30:45.230Z"
+  },
+  {
+    "title": "Delhi Declares War on Smog: Urgent Measures to Combat Choking Air",
+    "summary": "Facing dangerously high levels of toxic smog, New Delhi authorities are implementing urgent, far-reaching measures, including increased parking fees and mandatory work-from-home, to dramatically improve air quality in one of the world's most polluted capitals.",
+    "sections": [
+      {
+        "heading": "A City Under Smog: The Looming Air Quality Crisis",
+        "content": "New Delhi frequently grapples with some of the planet's worst air pollution, turning its skies into a dense, hazardous haze that directly threatens public health. This persistent smog crisis forces millions of residents to breathe air often deemed unsafe, demanding immediate and decisive action."
+      },
+      {
+        "heading": "New Strategies: Delhi's Battle Plan for Cleaner Air",
+        "content": "To combat the escalating pollution, authorities have introduced stricter regulations, including significantly higher parking fees to reduce vehicle emissions and mandatory work-from-home orders for employees. These comprehensive steps aim to curb the sources of pollution and clear the dangerous smog shrouding the metropolitan area."
+      }
+    ],
+    "funFacts": [
+      "The term 'smog' was coined in the early 20th century, combining 'smoke' and 'fog' to describe a pervasive, unhealthy atmospheric condition.",
+      "Breathing New Delhi's peak-season air can be equivalent to smoking dozens of cigarettes a day, significantly increasing risks for respiratory and cardiovascular diseases.",
+      "Vehicular emissions, industrial pollution, crop burning in surrounding regions, and construction dust are major contributors to Delhi's seasonal air quality crisis."
+    ],
+    "originalTitle": "New restrictions kick in as Delhi battles pollution",
+    "originalUrl": "https://phys.org/news/2026-11-restrictions-delhi-pollution.html",
+    "id": "1793604653262-yn45l",
+    "date": "2026-11-02T07:30:53.262Z"
+  },
+  {
+    "title": "Mars's Dusty Secret: Red Planet's Grit May Be Kinder to Astronauts Than the Moon's",
+    "summary": "NASA's Perseverance rover on Mars is carrying tiny pieces of future spacesuits, and early results suggest Martian dust might be surprisingly less abrasive than the Moon's, easing a major concern for human missions. This unexpected finding could significantly impact how we protect astronauts and equipment on the Red Planet.",
+    "sections": [
+      {
+        "heading": "The Invisible Threat: Why Mars Dust is a Big Deal",
+        "content": "Space dust isn't just a nuisance; it's a major engineering challenge and a health hazard for astronauts. Lunar dust, for example, is notoriously sharp and clingy, known to degrade seals, scratch optics, and even cause respiratory issues. Understanding the unique properties of Martian dust is critical for protecting both equipment and human explorers on future Red Planet missions."
+      },
+      {
+        "heading": "Perseverance's Spacesuit Test Reveals Promising News",
+        "content": "To directly measure this threat, NASA ingeniously attached small swatches of actual spacesuit material to the Perseverance rover, exposing them to the relentless Martian environment. Initial assessments from these samples are offering a hopeful surprise: Martian dust appears to be less abrasive than the Moon's, suggesting a potentially kinder environment for future human endeavors."
+      }
+    ],
+    "funFacts": [
+      "Lunar dust particles are often described as microscopic shards of glass, formed by meteoroid impacts without any atmospheric erosion to smooth them.",
+      "Unlike the Moon, Mars has a thin atmosphere and historical evidence of water, which might contribute to its dust being more weathered and less jagged.",
+      "Dust accumulation is a universal problem in space, impacting everything from solar panel efficiency and robotic joints to astronaut health and visibility."
+    ],
+    "originalTitle": "Mars dust may be less abrasive than lunar dust, spacesuit samples suggest",
+    "originalUrl": "https://phys.org/news/2026-10-mars-abrasive-lunar-spacesuit-samples.html",
+    "id": "1793604667251-d85pp",
+    "date": "2026-11-02T07:31:07.251Z"
+  },
+  {
     "title": "Human Ingenuity Meets AI: A New Era for Designing Life-Changing Enzymes",
     "summary": "Scientists have developed an innovative AI tool that doesn't replace human creativity, but rather amplifies it, accelerating the design of specialized enzymes with potential to revolutionize medicine, industry, and environmental solutions.",
     "sections": [
