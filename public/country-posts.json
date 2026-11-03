@@ -1,5 +1,23 @@
 [
   {
+    "country": "Egypt",
+    "fact": {
+      "title": "Cleopatra's Macedonian Roots",
+      "content": "Despite her iconic status as Egypt's last pharaoh, Cleopatra VII was not ethnically Egyptian. She belonged to the Ptolemaic dynasty, a line of Greek rulers descended from Ptolemy I Soter, one of Alexander the Great's generals. This means Cleopatra was of Macedonian Greek origin, rather than ancient Egyptian."
+    },
+    "culture": {
+      "title": "The 'Mulukhiya Gasp' Culinary Tradition",
+      "content": "A truly unique Egyptian culinary custom involves the 'Shah'et El-Mulukhiya', or the 'Mulukhiya Gasp'. When preparing the beloved leafy green soup, Mulukhiya, it's a long-standing tradition for the cook to make a distinct, audible gasp just before adding the garlic and coriander mixture. This dramatic inhale is believed by many to be essential in enhancing the dish's flavor and ensuring its deliciousness."
+    },
+    "news": {
+      "title": "Farmer Unearths Ancient Royal Statues in Nile Delta",
+      "content": "An Egyptian farmer recently made a remarkable archaeological discovery while working his land in the Nile Delta, unearthing pieces of colossal statues belonging to King Ramses II, who reigned from 1279 B.C. to 1213 B.C. His honest reporting of an 'unusual stone' led archaeologists to uncover a massive head depicting Ramses II wearing the double crown, along with most of a second royal statue. The Ministry of Tourism and Antiquities has since honored the farmer for his integrity.",
+      "url": "https://www.cbsnews.com/news/egypt-farmer-ramses-ii-statue-discovery-khaled-al-shahat/"
+    },
+    "id": "1793691934543-egypt",
+    "date": "2026-11-03T07:45:34.543Z"
+  },
+  {
     "country": "Argentina",
     "fact": {
       "title": "The Resurfacing Ghost Town of Villa Epecuén",
