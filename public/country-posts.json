@@ -1,5 +1,23 @@
 [
   {
+    "country": "Vietnam",
+    "fact": {
+      "title": "The Unique Phu Quoc Ridgeback Dog",
+      "content": "Vietnam is home to the Phu Quoc Ridgeback, a rare and distinctive dog breed originating from Phu Quoc Island. These intelligent, loyal, and skilled hunting dogs are one of only three breeds worldwide to possess a unique ridge of hair running along their spines. Their exact origins are debated, with some legends linking them to mythical Fu-dogs, while others suggest a connection to French explorers."
+    },
+    "culture": {
+      "title": "Tết Trung Thu: Vietnam's Vibrant Mid-Autumn Festival",
+      "content": "Tết Trung Thu, or the Mid-Autumn Festival, is a beloved Vietnamese tradition, often celebrated as a children's festival with glowing lantern parades and mooncakes. While sharing roots with other Asian Mid-Autumn festivals, Vietnam has its own cherished folktales, notably the story of Uncle Cuội, who is said to live on the moon with a magical banyan tree. This festive occasion, held on the 15th day of the 8th lunar month, emphasizes family reunion and is a time for parents to make up for time spent away during harvest season."
+    },
+    "news": {
+      "title": "FPT Inaugurates Vietnam's First Domestic Chip Testing and Packaging Plant",
+      "content": "Vietnamese tech giant FPT has commenced trial operations at its advanced semiconductor chip testing and packaging plant in Bac Ninh province, marking a significant step in the country's technological development. This facility, the first of its kind in Vietnam owned and operated by a domestic company, boasts a maximum design capacity of 300 million chips annually, showcasing Vietnam's growing capabilities in high-tech manufacturing.",
+      "url": "https://technode.global/2026/11/03/vietnams-fpt-starts-trial-operations-at-chip-testing-packaging-plant/"
+    },
+    "id": "1793778337275-vietnam",
+    "date": "2026-11-04T07:45:37.275Z"
+  },
+  {
     "country": "Egypt",
     "fact": {
       "title": "Cleopatra's Macedonian Roots",
