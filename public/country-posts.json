@@ -1,5 +1,23 @@
 [
   {
+    "country": "Greece",
+    "fact": {
+      "title": "The Ancient Antikythera Mechanism: World's First Analog Computer",
+      "content": "A truly astonishing artifact from ancient Greece is the Antikythera mechanism, often hailed as the world's oldest known analog computer. Discovered in an ancient shipwreck off the Greek island of Antikythera in 1901, this intricate device dates back to approximately 150-100 BC. It was designed to predict astronomical positions and eclipses with remarkable precision, serving calendrical and astrological purposes."
+    },
+    "culture": {
+      "title": "The 'Karavaki': A Unique Greek Christmas Decoration",
+      "content": "In a tradition distinct from the widespread Christmas tree, many Greek households and public spaces traditionally adorn a 'karavaki' or decorated wooden boat during the festive season. This custom pays homage to Greece's deep-rooted maritime history, symbolizing the safe return of sailors and a wish for prosperous journeys in the New Year."
+    },
+    "news": {
+      "title": "Greece Reopens Restored 11th-Century Byzantine Church to Public",
+      "content": "On November 4, 2026, Greece's Ministry of Culture announced the reopening of the meticulously restored 11th-century Byzantine church of Maximianoupolis, near Komotini, to the public. This significant cultural preservation effort makes the unique irregular hexagonal monument, the only tangible evidence of the ancient Byzantine city, accessible for visits and potential religious services.",
+      "url": "https://greekcitytimes.com/2026/11/05/greece-opens-restored-11th-century-byzantine-church-to-public/"
+    },
+    "id": "1793864736542-greece",
+    "date": "2026-11-05T07:45:36.542Z"
+  },
+  {
     "country": "Vietnam",
     "fact": {
       "title": "The Unique Phu Quoc Ridgeback Dog",
