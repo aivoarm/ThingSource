@@ -1,5 +1,82 @@
 [
   {
+    "title": "Unlocking Reading Support: Why Our Approach to Struggling Children Needs an Update",
+    "summary": "While a dyslexia diagnosis opens doors to crucial support for some struggling readers, many others are left without help, raising questions about whether our current system truly serves every child in need. This new perspective challenges us to find more inclusive and equitable ways to ensure all children can learn to read effectively.",
+    "sections": [
+      {
+        "heading": "The Double-Edged Sword of Diagnosis",
+        "content": "For children struggling to read, a dyslexia diagnosis can be a lifeline, unlocking access to specialized tools and teaching methods. However, this often comes at a steep price, with expensive private testing creating a barrier for many families and leaving others who don't perfectly fit the criteria without a clear path to help."
+      },
+      {
+        "heading": "Beyond the Label: Addressing All Reading Challenges",
+        "content": "The article highlights a critical flaw: many children face significant reading difficulties that don't neatly fit the official criteria for dyslexia, or their families simply cannot afford the diagnostic process. This oversight means a substantial number of young learners are overlooked, missing out on vital early interventions and specialized support that could transform their educational journey."
+      },
+      {
+        "heading": "A Call for Broader, More Equitable Support",
+        "content": "The conversation shifts towards a future where support isn't solely dependent on a specific diagnosis, but rather on the proven *need* for help. This could involve universal screening in schools and a wider range of accessible interventions, ensuring every child who struggles with reading receives timely and effective assistance, fostering literacy for all."
+      }
+    ],
+    "funFacts": [
+      "Approximately 1 in 5 children struggle with reading at some point, but only a fraction receive a dyslexia diagnosis.",
+      "Early intervention for reading difficulties is most effective, potentially preventing long-term academic struggles.",
+      "The cost of a private dyslexia assessment can range from hundreds to thousands of dollars, creating a significant barrier to support."
+    ],
+    "originalTitle": "A dyslexia diagnosis can help struggling children, but what about the rest?",
+    "originalUrl": "https://www.newscientist.com/article/2597138-a-dyslexia-diagnosis-can-help-struggling-children-but-what-about-the-rest/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1793863850813-iz8by",
+    "date": "2026-11-05T07:30:50.813Z"
+  },
+  {
+    "title": "Hubble's Grand Finale? NASA's Urgent Plan to Save an Icon",
+    "summary": "The beloved Hubble Space Telescope, a window to the cosmos for decades, is slowly descending towards Earth, prompting NASA to launch an ambitious quest for innovative solutions to either save it or orchestrate a graceful farewell.",
+    "sections": [
+      {
+        "heading": "A Celestial Legend Faces Its Final Descent",
+        "content": "After over 35 years of breathtaking discoveries, the venerable Hubble Space Telescope is gradually losing its battle against Earth's thin upper atmosphere. Like a high-flying satellite slowly sinking, Hubble is predicted to make a fiery, uncontrolled re-entry as early as 2033 or 2034 without intervention, marking a premature end to its unparalleled cosmic journey."
+      },
+      {
+        "heading": "NASA's Daring Mission: A Call for Innovative Solutions",
+        "content": "To prevent such a loss, NASA is actively seeking bold proposals from private aerospace companies. They're looking for groundbreaking ideas to gently nudge Hubble into a higher, safer orbit, potentially even upgrading its vital instruments, or, if necessary, meticulously guiding it to a safe, controlled disposal when its extraordinary mission finally concludes."
+      }
+    ],
+    "funFacts": [
+      "Hubble has traveled over 4 billion miles in orbit since its launch in 1990, completing over 150,000 orbits around Earth.",
+      "Atmospheric drag, even in the near-vacuum of space, acts like a very subtle brake, slowly pulling objects like Hubble closer to Earth over time.",
+      "Safely disposing of satellites avoids creating dangerous space debris that could threaten active missions and protects inhabited areas on Earth from uncontrolled impacts."
+    ],
+    "originalTitle": "NASA is racing against time to save the Hubble Space Telescope",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261104012254.htm",
+    "id": "1793863858621-4vnn3",
+    "date": "2026-11-05T07:30:58.621Z"
+  },
+  {
+    "title": "Beyond the Familiar Poles: Scientists Uncover a Mysterious Third Type of Magnetism",
+    "summary": "For nearly a century, we thought magnetism came in just two basic forms, but scientists have now confirmed a remarkable third type, called altermagnetism, that could revolutionize everything from our computers to quantum technology.",
+    "sections": [
+      {
+        "heading": "A Groundbreaking Discovery: Redefining Magnetism",
+        "content": "For almost 90 years, our understanding of magnetism was neatly divided into two categories: ferromagnets (like fridge magnets) and antiferromagnets. Now, researchers have definitively identified a unique third type, \"altermagnetism,\" which behaves in ways that defy our traditional expectations of how magnetic materials work, fundamentally shifting our foundational understanding of one of nature's most powerful forces."
+      },
+      {
+        "heading": "Unlocking the Secret: How Scientists Found It",
+        "content": "Using highly specialized X-rays at SLAC National Accelerator Laboratory, scientists were able to peer deep into these new materials and observe their atomic structure. They uncovered a distinct and never-before-seen magnetic signature, providing conclusive proof that altermagnets possess a unique internal arrangement that sets them apart from conventional magnets."
+      },
+      {
+        "heading": "Powering Tomorrow's Tech: Why Altermagnetism Matters",
+        "content": "What makes altermagnets so exciting is their unique combination of properties: they offer the stability needed for reliable technology, yet can also efficiently carry and process information. This dual capability could overcome significant hurdles in today's electronics, paving the way for faster, more powerful computers, vastly more efficient data centers, and groundbreaking advancements in fields like quantum computing."
+      }
+    ],
+    "funFacts": [
+      "For nearly 90 years, scientists believed all magnetism fell into just two main categories.",
+      "Altermagnetism could combine the best features of existing magnetic technologies: stability for storage and efficiency for data transfer.",
+      "The discovery was confirmed using specialized X-rays that allowed scientists to \"see\" the unique magnetic arrangement within these novel materials."
+    ],
+    "originalTitle": "SLAC scientists find conclusive proof of a mysterious third type of magnetism",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261104012256.htm",
+    "id": "1793863866877-iyqk7",
+    "date": "2026-11-05T07:31:06.877Z"
+  },
+  {
     "title": "Eighty-Eight Years Later: Unmasking the Killer of a Pioneering Archaeologist",
     "summary": "After nearly a century, groundbreaking research using historical archives has finally unveiled the truth behind the mysterious 1938 murder of British archaeologist James Starkey, revealing both his killers and their motive.",
     "sections": [
