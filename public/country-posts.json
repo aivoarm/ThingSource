@@ -1,5 +1,23 @@
 [
   {
+    "country": "Norway",
+    "fact": {
+      "title": "Norway is Home to an Active Arctic Volcano",
+      "content": "Far north in the Arctic, Norway boasts an active volcano on Jan Mayen island, a remote territory located between mainland Norway, Greenland, and Svalbard. This unique geographical feature, Beerenberg, is the world's northernmost active subaerial volcano, offering a fascinating glimpse into Norway's diverse and extreme landscapes beyond its famous fjords."
+    },
+    "culture": {
+      "title": "Hiding Brooms on Christmas Eve",
+      "content": "A charming and lesser-known Norwegian Christmas tradition involves hiding all brooms on Christmas Eve. This quirky custom stems from old Norse superstition, believed to prevent witches and mischievous spirits from stealing them for midnight rides, adding a touch of folklore to the festive season."
+    },
+    "news": {
+      "title": "Norway Flips Trump's 'Shithouse Country' Remark into Tourism Marketing Success",
+      "content": "Norway's tourism agency has cleverly transformed a disparaging remark made by former U.S. President Donald Trump in October into a successful destination marketing campaign. After Trump reportedly called Norway a 'shithouse country' for not awarding him the Nobel Peace Prize, Visit Norway updated its website to highlight the country's strikingly beautiful public bathrooms, effectively turning the insult into a badge of honor and attracting global attention.",
+      "url": "https://www.fastcompany.com/90977826/how-norway-flipped-trumps-name-calling-into-destination-marketing"
+    },
+    "id": "1793951136095-norway",
+    "date": "2026-11-06T07:45:36.095Z"
+  },
+  {
     "country": "Greece",
     "fact": {
       "title": "The Ancient Antikythera Mechanism: World's First Analog Computer",
