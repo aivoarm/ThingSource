@@ -1,5 +1,63 @@
 [
   {
+    "topic": "Parkinson's Law",
+    "title": "The Unseen Force Behind Our Never-Ending To-Do Lists: The Origin of Parkinson's Law",
+    "category": "Rules & Principles",
+    "summary": "Ever wondered why a task that should take an hour somehow stretches to fill an entire afternoon? Blame Parkinson's Law, a concept born from observations of bureaucratic inefficiency that profoundly impacts how we manage our time and tasks.",
+    "sections": [
+      {
+        "heading": "A Satirical Spark in The Economist",
+        "content": "The famous adage, \"Work expands so as to fill the time available for its completion,\" first appeared in a satirical essay by British naval historian C. Northcote Parkinson. Published in The Economist in 1955, his observations weren't just a witty remark; they were a sharp critique of the British civil service where, he noted, staff numbers tended to grow regardless of the actual workload."
+      },
+      {
+        "heading": "From Bureaucracy to Everyday Life",
+        "content": "Parkinson's insights extended beyond the multiplication of subordinates within government administrations. He famously illustrated the law with the whimsical example of a woman whose sole task for the day was to send a postcard. Despite its simplicity, the task ballooned to fill her entire day with related activities, from finding the card to deliberating on her attire for the walk to the mailbox. This tendency for tasks to expand to fit available time means that a project given a week will likely take a week, even if it could realistically be completed in a day."
+      },
+      {
+        "heading": "The Pursuit of Progress, and Perplexities",
+        "content": "The essay's popularity led Parkinson to expand his ideas into a full book, \"Parkinson's Law or The Pursuit of Progress,\" published in 1957. In it, he explored other bureaucratic dysfunctions, including the 'law of triviality'—now often called 'bike-shedding'—which states that the time spent on any agenda item is inversely proportional to the sum involved. While born from satire, Parkinson's Law is now a serious concept in management science and social psychology, explaining inefficiencies in everything from health management to individual productivity."
+      }
+    ],
+    "funFacts": [
+      "C. Northcote Parkinson wasn't just a satirist; he was a prolific naval historian, authoring some 60 books in his lifetime.",
+      "Parkinson's Law also applies to budgets and effort; people tend to use the full amount allocated, even when less would suffice.",
+      "Understanding Parkinson's Law can be a powerful tool for productivity. Just as you might explore new idioms on the Lore Board, recognizing this principle helps you set tighter, more effective deadlines, transforming potentially endless tasks into manageable sprints."
+    ],
+    "imageKeywords": [
+      "C. Northcote Parkinson portrait",
+      "1950s British civil service office",
+      "vintage economist magazine cover"
+    ],
+    "wikiKeywords": "Cyril Northcote Parkinson, The Economist (magazine), Bureaucracy",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv-UUzg0VjOAVy1z-ybthugzr8iiMuOZvdFZNQpo0OGsloK01_EEpQKmeI99HNoxFzfzzz2Nr8tnXttomYsO4Sqk9_8D-9oOxzA0ljWCZRG_DffaFqYlMs1KlaubvUg-VETYp4PwQPFXI=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-sqQNo1Tiim46YHMf8yiXREdGtk7CspEXfIwgmb5bTK0IXZcyZQpbm9hpdNtM3esTrOQ1o-rDIC68yvdo5qJdmfKtkSYmaB3FK8ln-Hwj6XDtRWI_zHGmmlH-0X2TRnKu22gyb-P2xN0nIPkYOr4cPoUe",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3c-pKiViui97jP4cIYe8mp2Rk--laGgkvZ4UBWAOkMTp7x8c11RehCXBsN3j8t6JTpS0x9wgEyqsRK5p-AkaCKrOh0y-FXFwUKr01z5IlDOqvUBXs3HdlivDzbdr8vqaMNdZ5gt6P3-8LFe-t",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErIPiDRK-YN-AV5vWWZWz79izSwWHkJFVldvOjWNdlt6l6vqzvInbqycodO_WIVmt_zOB20JUv8jBKBwqEFB_t9Zyxz99Hmi7fu9l_dSF5kdxsEbqV8wQV5hoLUdCY",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmi6a0nSWrx58nZWMLD1gZ52Yln8YWQbx0tdlXDdczmGmKS66D_e8OZ78rdfLLEegF5VRBmzk2Dc0QqoPnQmztyALFPynrzK5jrNcD8JtwHYvhI3Ae712lnIch-d2jt7OWAkaRN9roQ9aE57QiJyhrtKbUWGvX15FcGDQuzGKc5ZWukas="
+    ],
+    "positiveThought": "Look closer at the small moments today. The grand gestures often steal our attention, but profound joy and discovery frequently hide in the overlooked details, waiting for a curious heart to find them.",
+    "portugalFact": {
+      "title": "Portugal's Underwater Museum: Europe's First Artificial Reef Gallery",
+      "content": "Off the coast of Portimão, Portugal hosts Europe's first underwater museum and artificial reef. The Ocean Revival Park features four decommissioned Portuguese Navy ships intentionally sunk to create an artificial reef and an incredible dive site for marine life and enthusiasts alike."
+    },
+    "aiSource": "Gemini",
+    "id": "1793948482856-parkinson-s-law",
+    "slug": "the-unseen-force-behind-our-never-ending-to-do-lists-the-ori",
+    "date": "2026-11-06T07:01:22.856Z",
+    "joke": {
+      "joke": "I went down the street to the 24-hour grocery. When I got there, the guy was locking the front door. I said, 'Hey, the sign says you're open 24 hours.' He said, 'Yes, but not in a row.'",
+      "setup": "I went down the street to the 24-hour grocery. When I got there, the guy was locking the front door. I said, 'Hey, the sign says you're open 24 hours.'",
+      "punchline": "He said, 'Yes, but not in a row.'",
+      "comedian": "Steven Wright",
+      "year": "Mid-1980s",
+      "context": "This joke brilliantly uses a literal interpretation of a common phrase to create a surreal and unexpected punchline, a hallmark of Steven Wright's iconic deadpan style. It's widely celebrated for its clever wordplay and ability to challenge conventional thinking, making it a classic example of his unique comedic genius that consistently elicits smiles and laughter."
+    },
+    "images": [
+      "https://images.unsplash.com/featured/?c%2Cnorthcote%2Cparkinson%2Cportrait"
+    ]
+  },
+  {
     "topic": "The Peter Principle",
     "title": "The Uncomfortable Truth: Why Everyone Eventually Gets Promoted to Incompetence",
     "category": "Concepts",
