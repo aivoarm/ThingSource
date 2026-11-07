@@ -1,5 +1,23 @@
 [
   {
+    "country": "South Korea",
+    "fact": {
+      "title": "The Enigmatic Gaya Confederacy: An Ancient Iron Powerhouse",
+      "content": "Before the unified Silla Kingdom, the Korean Peninsula was home to the 'Three Kingdoms' of Goguryeo, Baekje, and Silla. However, a lesser-known entity called the Gaya Confederacy also flourished in the southern region from the 1st to 6th centuries AD. This confederacy of small city-states was renowned for its advanced ironworking, exporting iron armor and weapons across the region, including to Japan, and leaving behind rich tombs filled with impressive iron artifacts."
+    },
+    "culture": {
+      "title": "Jeju Island's Haenyeo: The Legendary Sea Women",
+      "content": "Unique to South Korea, particularly Jeju Island, are the Haenyeo, or 'sea women.' These remarkable female free-divers, many in their 60s to 80s, harvest seafood like abalone and conch from the ocean floor without the aid of oxygen masks, often diving to depths of 10 meters while holding their breath for over a minute. Their sustainable diving practices and unique matriarchal community culture were recognized by UNESCO in 2016 as an Intangible Cultural Heritage of Humanity."
+    },
+    "news": {
+      "title": "Traditional Korean Hanji Paper Nears UNESCO Heritage Status",
+      "content": "Traditional Korean paper, known as 'hanji,' is set to be inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity. The evaluation body recommended its inscription in early November 2026, recognizing the traditional knowledge and skills associated with its production and related cultural practices. Made from the inner bark of paper mulberry trees, hanji is celebrated for its softness and durability, having been used for centuries in various aspects of Korean life, from writing and art to traditional house interiors.",
+      "url": "https://www.koreaherald.com/view.php?ud=20261104000494"
+    },
+    "id": "1794037533746-south-korea",
+    "date": "2026-11-07T07:45:33.746Z"
+  },
+  {
     "country": "Norway",
     "fact": {
       "title": "Norway is Home to an Active Arctic Volcano",
