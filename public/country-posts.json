@@ -1,5 +1,23 @@
 [
   {
+    "country": "Ireland",
+    "fact": {
+      "title": "The Ancient Corlea Trackway: An Iron Age Wooden Road",
+      "content": "Ireland is home to the Corlea Trackway, a remarkably well-preserved Iron Age wooden road built across a bog in County Longford. Constructed around 148 BC, this ancient engineering feat spanned over a kilometer and was made from some three hundred massive oak trees. Archaeologists continue to debate its purpose, whether it served as a royal route, a sacred path, or a practical means of transport before the bog reclaimed it within a decade."
+    },
+    "culture": {
+      "title": "Nollaig na mBan: Women's Little Christmas",
+      "content": "Unique to Ireland, particularly in County Kerry, is 'Nollaig na mBan' or Women's Little Christmas, celebrated on January 6th. Traditionally, after the demanding Christmas season, women would gather, socialize, and rest while men took over household duties. This custom, while not as widely observed as in the past, sees a modern resurgence with women celebrating their friendships and contributions."
+    },
+    "news": {
+      "title": "Ireland's Coast Honored at 2026 Photography Awards",
+      "content": "Breathtaking images showcasing Ireland's stunning coastline have been celebrated at the 2026 Love Your Coast photography competition. The annual awards, now in their 17th year, highlight the country's natural beauty and encourage appreciation for its coastal environment. The recognition of these captivating images brings positive attention to Ireland's picturesque shores and talented photographers.",
+      "url": "https://weareirish.ie/breathtaking-images-of-irelands-coast-honoured-at-2026-photography-awards/"
+    },
+    "id": "1794123938150-ireland",
+    "date": "2026-11-08T07:45:38.150Z"
+  },
+  {
     "country": "South Korea",
     "fact": {
       "title": "The Enigmatic Gaya Confederacy: An Ancient Iron Powerhouse",
