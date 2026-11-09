@@ -1,5 +1,23 @@
 [
   {
+    "country": "France",
+    "fact": {
+      "title": "France's Twelve Time Zones",
+      "content": "Despite its seemingly compact mainland, France holds the record for the most time zones of any country in the world, totaling twelve. This unique geographical distinction is due to its numerous overseas departments and territories scattered across the globe, from the Pacific Ocean to the Caribbean Sea and Indian Ocean."
+    },
+    "culture": {
+      "title": "The Morning Bowl: A French Coffee Ritual",
+      "content": "A distinctive French custom involves starting the day by drinking coffee, particularly café au lait, from a bowl rather than a cup. This tradition allows for the convenient dipping of breakfast pastries like croissants or slices of baguette, creating a uniquely French morning experience."
+    },
+    "news": {
+      "title": "Carlos Alcaraz Crowned Paris Masters Champion",
+      "content": "In recent positive sports news, Spanish tennis sensation Carlos Alcaraz secured the Paris Masters title on November 8, 2026, by defeating Ben Shelton. This victory marks a significant achievement for Alcaraz and adds an exciting highlight to the French sporting calendar.",
+      "url": "https://www.aljazeera.com/news/2026/11/8/alcaraz-beats-shelton-to-win-paris-masters-avenges-us-open-loss"
+    },
+    "id": "1794210340602-france",
+    "date": "2026-11-09T07:45:40.603Z"
+  },
+  {
     "country": "Ireland",
     "fact": {
       "title": "The Ancient Corlea Trackway: An Iron Age Wooden Road",
