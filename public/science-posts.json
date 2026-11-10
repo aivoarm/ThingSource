@@ -1,5 +1,78 @@
 [
   {
+    "title": "Is Math Anxiety Blocking Our Path to an AI-Savvy Future?",
+    "summary": "New research suggests that a common hurdle – math anxiety – might be inadvertently preventing students from grasping essential Artificial Intelligence and data skills, even as these technologies rapidly reshape our world.",
+    "sections": [
+      {
+        "heading": "The Unexpected Barrier: Math Anxiety",
+        "content": "While Artificial Intelligence can perform complex calculations instantly, truly understanding and utilizing it still demands a foundational grasp of logic, data interpretation, and critical thinking. This study highlights how a common issue, math anxiety, acts as an unexpected mental roadblock, potentially preventing students from engaging with the fundamental concepts that underpin AI and data science."
+      },
+      {
+        "heading": "Beyond Calculations: The Human Element in AI",
+        "content": "Even as AI tools become incredibly sophisticated, they don't eliminate the human need for critical analysis and conceptual understanding. To effectively leverage AI and prevent misinterpretations, individuals must understand the data and logic feeding these systems—skills often developed through quantitative reasoning, which math anxiety can undermine. Ensuring students can overcome this psychological barrier is vital for creating an AI-literate society."
+      }
+    ],
+    "funFacts": [
+      "AI isn't just for scientists; it's embedded in everyday tools like your phone's smart assistant, personalized recommendations, and even generating text.",
+      "Despite AI's advanced capabilities, human critical thinking remains indispensable for evaluating its outputs, understanding biases, and asking the right questions.",
+      "Math anxiety is a widespread phenomenon, impacting a significant portion of the population and potentially limiting engagement with crucial STEM fields."
+    ],
+    "originalTitle": "Math anxiety may be stopping students from learning useful AI and data skills",
+    "originalUrl": "https://phys.org/news/2026-11-math-anxiety-students-ai-skills.html",
+    "id": "1794295848490-byei5",
+    "date": "2026-11-10T07:30:48.490Z"
+  },
+  {
+    "title": "Shedding Light on the Future: Barium Titanate's Optical Secrets Unlocked",
+    "summary": "Researchers have finally charted the precise way light moves through barium titanate, a crucial material set to power tomorrow's lightning-fast communication devices, paving the way for revolutionary new technologies.",
+    "sections": [
+      {
+        "heading": "Why Barium Titanate is a Big Deal",
+        "content": "Barium titanate (BTO) is a promising cornerstone for next-generation technology, especially in designing the ultra-fast optical communication devices that will power future internet and data networks. Unlike traditional electronics, these devices use light to transmit information, offering unprecedented speed and efficiency."
+      },
+      {
+        "heading": "Solving a Long-Standing Optical Mystery",
+        "content": "For decades, scientists struggled to get a clear picture of how light truly behaves inside BTO, with its complex atomic structure causing wildly inconsistent measurements. This new study provides the definitive \"roadmap,\" precisely detailing how light travels through and is absorbed by the material, overcoming a major hurdle for engineers."
+      }
+    ],
+    "funFacts": [
+      "Optical communication, using light to carry information, is far more energy-efficient and can transmit vastly more data than traditional electrical wires.",
+      "This improved understanding of BTO could accelerate innovations from faster fiber optics to miniature lasers and next-generation computer chips.",
+      "Barium titanate is also known for its 'smart' properties, like expanding or contracting when an electric field is applied, making it useful in sensors and actuators."
+    ],
+    "originalTitle": "Barium titanate&#039;s optical properties emerge more clearly after decades of widely varying measurements",
+    "originalUrl": "https://phys.org/news/2026-11-barium-titanate-optical-properties-emerge.html",
+    "id": "1794295859109-1r4o5",
+    "date": "2026-11-10T07:30:59.109Z"
+  },
+  {
+    "title": "Mars's Hidden Sparkle: Perseverance Rover Detects Unexpected, Gem-Like Minerals",
+    "summary": "NASA's Perseverance rover has stumbled upon a truly unexpected find on Mars, potentially revealing precious, ruby-like minerals that could redefine our understanding of the Red Planet's geological past.",
+    "sections": [
+      {
+        "heading": "What Did Perseverance Discover?",
+        "content": "While not actual rubies for a jewelry box, the Perseverance rover's advanced instruments have detected mineral signatures on Mars that point to the presence of unexpected, gem-like compounds. These findings suggest a surprisingly rich and varied geological history for the Red Planet, far beyond what scientists initially anticipated."
+      },
+      {
+        "heading": "How Are These Martian Minerals Spotted?",
+        "content": "The rover's high-tech tools, PIXL and SuperCam, are acting as a Martian geologist's dream team, scrutinizing rock formations with incredible precision. PIXL uses X-rays to map the chemical makeup of rocks, while SuperCam fires a laser to analyze their composition, together revealing the hidden elemental secrets of Mars."
+      },
+      {
+        "heading": "Why Are These 'Rubies' Important to Science?",
+        "content": "Finding such minerals isn't just about pretty rocks; it provides crucial clues about Mars's ancient environment, including the presence of water and intense geological processes. These unexpected discoveries help scientists piece together the planet's dramatic past and assess its potential for supporting life."
+      }
+    ],
+    "funFacts": [
+      "The Perseverance rover landed in Jezero Crater, an ancient lakebed, precisely because it's an ideal location to look for signs of past microbial life.",
+      "Corundum, the mineral family that includes rubies and sapphires on Earth, forms under high temperature and pressure, often in igneous or metamorphic rocks, hinting at complex Martian geology.",
+      "The instruments PIXL and SuperCam are just two of seven on Perseverance, each designed for a unique aspect of Martian exploration, from imaging to ground-penetrating radar."
+    ],
+    "originalTitle": "Rubies on Mars?",
+    "originalUrl": "https://science.nasa.gov/blog/rubies-on-mars/",
+    "id": "1794295869957-jkt9e",
+    "date": "2026-11-10T07:31:09.957Z"
+  },
+  {
     "title": "Mars's Fiery Secret: New Clues Hint at an Active Red Planet",
     "summary": "Forget everything you thought about a cold, dead Mars: recent discoveries suggest the Red Planet might still be volcanically active deep underground, potentially harboring hidden havens for life.",
     "sections": [
