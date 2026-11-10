@@ -1,5 +1,23 @@
 [
   {
+    "country": "Japan",
+    "fact": {
+      "title": "Japan's Centuries of Isolation: The Sakoku Edict",
+      "content": "For over two centuries, from 1635 to 1852, Japan was largely closed off to the rest of the world under the 'Sakoku Edict'. This strict policy banned foreign travel and trade, leading to a period of limited external contact. While it caused a technology lag compared to some nations, it also allowed unique aspects of Japanese culture to flourish in isolation."
+    },
+    "culture": {
+      "title": "The Art of Slurping Noodles",
+      "content": "Unlike many Western cultures where noisy eating is frowned upon, in Japan, slurping your noodles is often considered a sign of appreciation and enjoyment. This culinary custom signals to the chef that you are savoring your meal, especially with dishes like ramen. It's a unique aspect of Japanese dining etiquette that celebrates the joy of food."
+    },
+    "news": {
+      "title": "Japan's Hotel Rates Rise Amid Record South Korean Tourist Influx",
+      "content": "Japan's hotel industry recently saw an 8.8% increase in average room rates in September, reaching JPY20,657 (US$135) per night. This surge was largely driven by a record number of South Korean visitors, with 842,300 arrivals in September—a 25.6% jump year-on-year. Despite an overall slight decline in foreign visitor numbers, the increase in per-visitor spending signals a robust and higher-value tourism market.",
+      "url": "https://e.vnexpress.net/news/travel/japan-hotel-rates-climb-8-8-amid-record-korean-arrivals-4988775.html"
+    },
+    "id": "1794296752610-japan",
+    "date": "2026-11-10T07:45:52.610Z"
+  },
+  {
     "country": "France",
     "fact": {
       "title": "France's Twelve Time Zones",
