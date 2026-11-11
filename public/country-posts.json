@@ -1,5 +1,23 @@
 [
   {
+    "country": "Indonesia",
+    "fact": {
+      "title": "An Island Within a Lake, Within an Island",
+      "content": "Indonesia is home to Lake Toba, the world's largest volcanic lake, located on the island of Sumatra. This immense caldera lake remarkably contains an island within it, Samosir Island, which itself is almost the size of Bahrain. This creates a unique geographical phenomenon of an island nestled within a lake, which in turn lies within a larger island."
+    },
+    "culture": {
+      "title": "Ngaben: The Celebratory Balinese Cremation Ceremony",
+      "content": "In Bali, death is not always a somber affair. The Ngaben ceremony is a vibrant and elaborate cremation ritual where the deceased's body is cremated on a grand pyre with music, prayers, and flowers, often resembling a festival more than a mourning event. This tradition aims to free the soul and facilitate its reincarnation, embodying a grand farewell rather than a sorrowful goodbye."
+    },
+    "news": {
+      "title": "Indonesian Documentary Heritage Recognized by UNESCO",
+      "content": "Indonesia recently achieved a significant cultural milestone with three of its documentary heritage items—Bo' Sangaji Kai, Kidung Bhuwana Wina, and the HB Jassin Literature Documentation Center collection—being designated as part of UNESCO's Memory of the World. This recognition, announced at the 11th UNESCO Memory of the World Committee for Asia and the Pacific General Meeting in Jakarta, highlights Indonesia's commitment to preserving its rich historical and intellectual traditions.",
+      "url": "https://en.antaranews.com/news/305263/indonesian-documentary-heritages-enter-unescos-memory-of-the-world"
+    },
+    "id": "1794383140922-indonesia",
+    "date": "2026-11-11T07:45:40.922Z"
+  },
+  {
     "country": "Japan",
     "fact": {
       "title": "Japan's Centuries of Isolation: The Sakoku Edict",
