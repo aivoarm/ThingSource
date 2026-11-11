@@ -1,5 +1,75 @@
 [
   {
+    "title": "Germany's Pandemic Price Cut: Did Lower Taxes Get People Spending?",
+    "summary": "During the 2020 pandemic, Germany temporarily cut its sales tax to kickstart the economy. A new study reveals this move successfully boosted consumer spending, especially among younger and less wealthy households, offering key insights for future economic boosts.",
+    "sections": [
+      {
+        "heading": "A Pandemic Experiment: Germany's Bold Move",
+        "content": "In the summer of 2020, as the world grappled with COVID-19's economic shockwaves, Germany took a direct approach to stimulate its economy: it temporarily reduced its Value-Added Tax (VAT), essentially a sales tax. The idea was simple—make everyday goods and services cheaper, encouraging people to open their wallets and keep businesses afloat during uncertain times."
+      },
+      {
+        "heading": "Who Benefited Most from Cheaper Prices?",
+        "content": "This new research confirms the strategy worked, significantly increasing private consumption across Germany. Interestingly, the study found the biggest spending boost came from younger, middle-aged, and lower-wealth households, suggesting that making things more affordable directly empowered those who might have otherwise held back on purchases, regardless of their financial know-how."
+      }
+    ],
+    "funFacts": [
+      "Value-Added Tax (VAT) is a consumption tax added to goods and services, similar to a sales tax you might see in other countries.",
+      "Germany's VAT cut was a substantial reduction, from 19% down to 16%, and lasted for a six-month period.",
+      "The study highlights that making everyday items cheaper encouraged spending even among those less focused on financial planning, showing a strong link between price and purchasing decisions for these groups."
+    ],
+    "originalTitle": "New study shows COVID value-added tax cut significantly boosted private consumption",
+    "originalUrl": "https://phys.org/news/2026-11-covid-added-tax-significantly-boosted.html",
+    "id": "1794382252051-3jtu0",
+    "date": "2026-11-11T07:30:52.051Z"
+  },
+  {
+    "title": "Breaking the Cycle: New App Offers Dual Support for Unemployed Job Seekers",
+    "summary": "Losing a job can be incredibly tough, often leading to stress and anxiety that make finding new work even harder. Now, a pioneering app developed by Northwestern University is showing promise in tackling both the emotional toll and practical challenges of unemployment, potentially helping people get back on their feet.",
+    "sections": [
+      {
+        "heading": "The Hidden Struggle of Unemployment",
+        "content": "Losing a job extends far beyond financial stress, often triggering significant mental health challenges like anxiety and depression. This emotional toll can create a difficult loop, sapping motivation and making the already arduous task of finding new work feel overwhelming."
+      },
+      {
+        "heading": "DRIVEN: A Smart Solution for Mind and Career",
+        "content": "Northwestern University researchers have introduced DRIVEN, a new smartphone app designed to break this cycle by offering a unique blend of support. It delivers weekly, self-guided exercises focused on improving mental well-being and boosting motivation, alongside practical strategies to sharpen job-seeking skills and enhance the search process. A six-week clinical trial suggests this dual approach shows promising results in helping unemployed individuals get back on their feet."
+      }
+    ],
+    "funFacts": [
+      "The app, named DRIVEN, is designed to be self-guided, allowing users to engage with mental health and job-seeking exercises at their own pace.",
+      "This innovative intervention comes from a clinical trial led by Northwestern University, highlighting a serious research effort behind its development.",
+      "The core idea is that addressing mental health directly can be just as vital as resume building and networking in successfully returning to employment."
+    ],
+    "originalTitle": "Mental health app may help unemployed people find jobs, six-week trial suggests",
+    "originalUrl": "https://phys.org/news/2026-11-mental-health-app-unemployed-people.html",
+    "id": "1794382264983-lhtzo",
+    "date": "2026-11-11T07:31:04.983Z"
+  },
+  {
+    "title": "A Spider's Web: Home Sweet Home for an Uninvited Tiny Tenant",
+    "summary": "Imagine an insect that lives its entire life not just *near* spiders, but directly *on* their webs! Scientists in China have just discovered a tiny new bug doing exactly that, revealing an astonishing tale of an uninvited tenant.",
+    "sections": [
+      {
+        "heading": "The Ultimate Web Dweller",
+        "content": "Researchers in China have identified a peculiar new insect, lovingly dubbed a “web-loving bug,” that has an incredibly intimate relationship with spiders. Unlike other creatures that might just visit, this tiny species seems to spend its whole existence literally dwelling on the sticky threads of a spider's web, even following its arachnid host wherever it goes."
+      },
+      {
+        "heading": "Why the Spider Doesn't Mind Its Tiny Tenant",
+        "content": "This unique arrangement raises a fascinating question: why doesn't the formidable spider simply eat its unwanted guest? The answer appears to lie in the bug's minuscule size; it's likely far too small for the spider to perceive it as a worthwhile meal or even a threat, allowing it to live unnoticed on the eight-legged predator's intricate hunting ground."
+      }
+    ],
+    "funFacts": [
+      "This newly described insect hails from China, adding to the vast biodiversity of the region.",
+      "It's so incredibly small that the host spider likely doesn't even bother attacking it.",
+      "The insect seems to follow its spider host around, suggesting a close, though one-sided, relationship.",
+      "This unique lifestyle makes it a prime example of an insect that permanently cohabits a spider's web."
+    ],
+    "originalTitle": "Newly described insect may live its whole life on a spider&#8217;s web",
+    "originalUrl": "https://www.newscientist.com/article/2598153-newly-described-bug-lives-its-whole-life-on-a-spider-web/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1794382274560-uyu49",
+    "date": "2026-11-11T07:31:14.560Z"
+  },
+  {
     "title": "Is Math Anxiety Blocking Our Path to an AI-Savvy Future?",
     "summary": "New research suggests that a common hurdle – math anxiety – might be inadvertently preventing students from grasping essential Artificial Intelligence and data skills, even as these technologies rapidly reshape our world.",
     "sections": [
