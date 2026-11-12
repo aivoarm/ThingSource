@@ -1,5 +1,74 @@
 [
   {
+    "title": "Mars' Quirky Geology: Curiosity Finds 'Potato Chip' Crystals",
+    "summary": "NASA's Curiosity rover recently completed a drilling campaign at a unique Martian site named 'Nazca,' uncovering intriguing bedrock formations filled with unusual disk-shaped crystals, playfully likened to 'potato chips'.",
+    "sections": [
+      {
+        "heading": "Drilling into Martian Bedrock",
+        "content": "During its latest exploration, NASA's Curiosity rover meticulously drilled into a rocky outcrop at a location scientists call 'Nazca.' This crucial step allowed the rover to collect samples from the subsurface, revealing features not visible on the dusty Martian surface."
+      },
+      {
+        "heading": "The Mystery of the 'Potato Chip' Crystals",
+        "content": "What makes these samples particularly exciting are the distinct crystal forms embedded within the bedrock – described as disk-shaped, or even 'potato chip-shaped.' These peculiar shapes provide valuable clues about the geological processes and conditions that once prevailed in this ancient Martian environment."
+      }
+    ],
+    "funFacts": [
+      "A 'Sol' is a Martian day, slightly longer than an Earth day, lasting about 24 hours and 39 minutes.",
+      "Scientists on Earth meticulously plan Curiosity's every move, often scheduling tasks based on 'Earth planning dates' well in advance of the rover's execution on Mars.",
+      "The playful naming of Martian features, like the 'Nazca' drill hole and the 'potato chip' crystals, helps scientists visualize and communicate complex geological findings."
+    ],
+    "originalTitle": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
+    "originalUrl": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+    "id": "1794468649327-mu9l0",
+    "date": "2026-11-12T07:30:49.327Z"
+  },
+  {
+    "title": "The Flow Country: Scotland's Spongy Superheroes in the Climate Fight",
+    "summary": "Deep within the Scottish Highlands lies a unique landscape of blanket bogs, known as the Flow Country, quietly holding immense power in the global fight against climate change by locking away vast amounts of carbon.",
+    "sections": [
+      {
+        "heading": "What are Blanket Bogs?",
+        "content": "Imagine a vast, waterlogged carpet covering entire landscapes, not just valleys. These unique 'blanket bogs' are layers of partially decayed plant matter, called peat, built up over thousands of years in cool, wet environments like Scotland's Flow Country. Unlike typical soils, they're like giant, living sponges, constantly soaking up water and preventing full decomposition."
+      },
+      {
+        "heading": "Nature's Carbon Safes",
+        "content": "This waterlogged environment is key: it starves dead plants of oxygen, slowing down their decay and preventing the carbon they absorbed from the atmosphere from returning. Over millennia, this process has turned the Flow Country into one of the world's most significant natural carbon sinks, storing more carbon than all of the UK's forests combined. Protecting these ancient landscapes is crucial for stabilizing our climate."
+      }
+    ],
+    "funFacts": [
+      "Peatlands, globally, cover only about 3% of Earth's land surface but store twice as much carbon as all the world's forests combined.",
+      "The Flow Country alone holds an estimated 400 million tons of carbon, equivalent to many years of Scotland's total annual emissions.",
+      "Some peat deposits in the Flow Country are over 10 meters (33 feet) deep and have been accumulating for more than 10,000 years, since the last Ice Age."
+    ],
+    "originalTitle": "Scotland’s Flow Country",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/",
+    "id": "1794468659844-2ec7j",
+    "date": "2026-11-12T07:30:59.844Z"
+  },
+  {
+    "title": "From Dust to Deluge: New Mexico's Navajo Reservoir Gets a Dramatic Refill",
+    "summary": "In a surprising turnaround for the often-parched U.S. Southwest, intense rainfall recently transformed New Mexico’s vital Navajo Reservoir, causing its water levels to surge dramatically and offering a temporary reprieve from persistent drought conditions.",
+    "sections": [
+      {
+        "heading": "A Sudden Surge in the Desert Landscape",
+        "content": "The U.S. Southwest, typically grappling with prolonged drought, experienced an extraordinary series of heavy rains that rapidly swelled local rivers. These rain-fed torrents funneled directly into the Navajo Reservoir, quickly raising its water levels to an extent rarely seen in such a short period."
+      },
+      {
+        "heading": "Understanding the Impact on a Critical Lifeline",
+        "content": "As New Mexico's second-largest reservoir, Navajo is a crucial water source for agriculture, communities, and tribal nations across the arid region. This dramatic refill offers a significant, though potentially temporary, boost to water reserves, highlighting both the vulnerability of water supplies and the powerful, unpredictable nature of regional weather patterns."
+      }
+    ],
+    "funFacts": [
+      "The U.S. Southwest has been experiencing a multi-decade 'megadrought,' making such substantial reservoir gains particularly noteworthy.",
+      "Navajo Reservoir holds billions of gallons of water and is vital for managing the flow of the San Juan River, a major tributary of the Colorado River.",
+      "While a surge in water is beneficial, intense, rapid rainfall can also lead to flash flooding and erosion, presenting a complex challenge for water management."
+    ],
+    "originalTitle": "Water Surges Into Navajo Reservoir",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/",
+    "id": "1794468669521-sp3m7",
+    "date": "2026-11-12T07:31:09.521Z"
+  },
+  {
     "title": "Germany's Pandemic Price Cut: Did Lower Taxes Get People Spending?",
     "summary": "During the 2020 pandemic, Germany temporarily cut its sales tax to kickstart the economy. A new study reveals this move successfully boosted consumer spending, especially among younger and less wealthy households, offering key insights for future economic boosts.",
     "sections": [
