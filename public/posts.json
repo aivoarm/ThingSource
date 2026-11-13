@@ -1,5 +1,64 @@
 [
   {
+    "topic": "Tipping",
+    "title": "The Controversial Journey of Tipping: From Medieval 'Vails' to Modern Day Dilemma",
+    "category": "Cultural rituals and traditions",
+    "summary": "Tipping, a ubiquitous custom today, has a surprisingly complex and often contentious history, evolving from a benevolent gesture in medieval Europe to a system intertwined with social status and even racial inequality.",
+    "sections": [
+      {
+        "heading": "From Feudal Favors to Tudor 'Vails'",
+        "content": "The practice of tipping traces its roots back to medieval Europe, where wealthy landowners would occasionally offer small sums of money to their servants or laborers for exceptional effort. By the Tudor era in England, this paternalistic gesture evolved into a more formalized custom known as 'vails,' where guests in aristocratic households were expected to give payments to the household staff at the end of their stay. These payments quickly became obligatory, often leading to resentment from the guests."
+      },
+      {
+        "heading": "The Rise of 'Promptitude' (and the Myth Behind It)",
+        "content": "As the 17th century arrived, the concept of tipping found its way into English coffeehouses and other commercial establishments, with patrons offering money to ensure prompt and good service. Interestingly, the word 'tip' itself originated as a slang term, likely stemming from 17th-century thieves' cant meaning 'to give' or 'to hand over'. A popular but ultimately false myth suggests that 'TIP' is an acronym for 'To Insure Promptitude,' a notion that only appeared much later in history."
+      },
+      {
+        "heading": "An 'Un-American' Import",
+        "content": "Tipping made its way to the United States in the mid-19th century, particularly in the 1850s and 1860s, as wealthy Americans returning from European travels sought to mimic aristocratic customs. However, the practice met fierce resistance, with many Americans deeming it 'undemocratic,' 'un-American,' and a vestige of European class systems. Critics famously called tipping a 'cancer on the breast of democracy', and several states even enacted anti-tipping laws in the early 20th century, though these were eventually repealed by 1926."
+      },
+      {
+        "heading": "Tipping's Troubling Turn in Post-Civil War America",
+        "content": "The most controversial chapter in tipping's history in the U.S. unfolded after the Civil War during the Reconstruction Era. As newly freed Black Americans entered the workforce with limited economic opportunities, employers in industries like railroads and restaurants saw an opportunity. Companies like the Pullman Company hired Black porters at extremely low wages, explicitly expecting passengers' tips to make up the difference, effectively institutionalizing tipping as a means to avoid paying a living wage and perpetuating racial inequality. This allowed business owners to shift their labor costs onto customers."
+      },
+      {
+        "heading": "Modern Day Gratuity: A Global Divide",
+        "content": "The practice was further cemented in American law with the 1938 Fair Labor Standards Act, which established a federal minimum wage but notably excluded restaurant workers, creating a separate, lower tipped minimum wage. Today, while tipping remains deeply ingrained in American culture, its acceptance varies drastically worldwide; many European countries, for instance, include service charges by law, and in some Asian cultures, tipping can even be considered insulting."
+      }
+    ],
+    "funFacts": [
+      "The commonly believed origin of 'TIP' as an acronym for 'To Insure Promptitude' is a persistent myth; the word 'tip' actually predates this phrase and likely comes from a 17th-century slang term for 'to give'.",
+      "In the early 20th century, strong anti-tipping movements emerged in the United States, leading several states like Washington, Arkansas, and Mississippi to temporarily ban the practice, viewing it as un-American and undemocratic.",
+      "Understanding the nuanced history of cultural practices like tipping, which vary so much globally, is essential for truly connecting with different societies – much like how the comprehensive resources on Slang (slang.armanayva.com) or the rich historical context on the Lore Board help you dive deeper than just surface-level understanding."
+    ],
+    "imageKeywords": [
+      "17th century English coffee house patrons",
+      "Gilded Age American railway porter",
+      "Medieval European noble giving coins"
+    ],
+    "wikiKeywords": "History of tipping gratuity",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJWzTY4YWhpHf6XsqMJIn4mkOxLpp1j-G5y6b2xFP9myQimNl3v8fpcmG72ILMTo9wsyjGnlDsB3EoLD-I9BNwinQug3jk3pbrNbtnS9eHfw_bPpCVc-b1WDmdwx20b6aRn_lskQFX2D-v_U5Youpd0QCqrt5YFTMbp5kqOVHw4Sl_9w5vrhQWYMvToI=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpY5p_aDukXP2xaANoean55n4xbFdCZRz0qXpiitWHDWR2hboBoHjbNepnuContdKdP1qqJQRH92CGtMlsQzIM3Z-efWarylNHL6rY3pOsBxM_cBbwVKz1hwsqHeqXvgBV",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJxBRvN96nChmfbMWZhTDnracvxvAZf7MuppklfXud2mUam396FdTAINv377Y6lhZMT11CTUWpdHNpFwjrpcbx5lv-o56FT5_WMCQ5RHt_ZvrlwGbgjlfO_rSPqzWgHkDXSFvBl0Ea6tYpF9gz3ksdayJ_OGykVA==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEErHqcH5kuC9yDaPPZixaiaUSbRMG7nocwwNbnSM5XuvycbRZgJr3nMy7kds4hCZVrm3o4QHqbI749NZmcUrOBTc8vBkP4jW3Z83KT6uxiFi7VLtX1Ds7xUxV1SSKnmiZzkWKnlbetOtWmPFBi57k=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOgWgvIt7EGoKg1P1eaKnEPRmEvsxmmYmr_J1JpJFKeFexGW8GRDHmtKVTJeJnYqCqNyiohEr1hWpNqhak75mwO44fBUiXmpmHQcDkuq3apGfZUTQUYWtDdGa71FyhkK8vgfShRxwtfoX9tzB-oUlNJez78WMl3Jh9wxwiMNJ2fuJQT1TfBQaLZXwGtyjrBSAj1NOAFIwor90boTtDw-b-PIgtH6icAs1BHQeZ"
+    ],
+    "positiveThought": "The world is an intricate tapestry, woven with countless tiny wonders waiting to be noticed. Take a moment today to truly see one small, overlooked detail, and let its simple existence fill you with a quiet sense of awe.",
+    "portugalFact": {
+      "title": "Portugal's Cork Convent: A Testament to Extreme Austerity",
+      "content": "Nestled deep within the Sintra hills lies the Convento dos Capuchos, a 16th-century Franciscan monastery famously known as the 'Cork Convent'. Built in 1560, it epitomizes radical poverty and harmony with nature, featuring incredibly small cells, low doorways designed to induce genuflection, and extensive use of local cork for insulation and decoration. Upon visiting in 1581, King Philip I of Portugal famously declared, 'Of all my kingdoms, there are two places I esteem highly – the Escorial, for being so rich, and the Convent of Santa Cruz, for being so poor,' highlighting its unique and deliberate humility."
+    },
+    "aiSource": "Gemini",
+    "id": "1794553301041-tipping",
+    "slug": "the-controversial-journey-of-tipping-from-medieval-vails-to-",
+    "date": "2026-11-13T07:01:41.041Z",
+    "joke": null,
+    "images": [
+      "https://images.unsplash.com/featured/?17th%2Ccentury%2Cenglish%2Ccoffee%2Chouse%2Cpatrons"
+    ]
+  },
+  {
     "topic": "the semicolon",
     "title": "The Semicolon: A Pause Born from Renaissance Ambiguity",
     "category": "Symbols",
