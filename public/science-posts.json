@@ -1,5 +1,74 @@
 [
   {
+    "title": "Kids Aren't Colorblind: Why Open Conversations About Race Are Essential",
+    "summary": "The common belief that children don't notice race is a misconception; new findings highlight why engaging in early, age-appropriate discussions about race and racism is crucial for children's development and fostering an inclusive society.",
+    "sections": [
+      {
+        "heading": "Beyond 'Colorblind': What Kids Really See",
+        "content": "Despite a well-intentioned desire for children to be 'colorblind,' research consistently shows that kids recognize racial differences from a very young age. This natural observation isn't inherently negative, but without guidance, children are left to interpret complex societal messages about race on their own, potentially internalizing harmful stereotypes and misunderstandings."
+      },
+      {
+        "heading": "Navigating Discomfort for a Brighter Future",
+        "content": "Many adults find discussions about race and racism challenging, often due to personal discomfort, a fear of saying the wrong thing, or confronting their own implicit biases and privileges. However, experts emphasize that avoiding these conversations deprives children of crucial tools to understand the world, develop empathy, and actively contribute to a more just and equitable society."
+      }
+    ],
+    "funFacts": [
+      "Studies indicate infants can distinguish faces by race, often showing preferences for familiar racial groups, even before they can speak.",
+      "Avoiding conversations about race doesn't shield children from prejudice; it can instead leave them ill-equipped to understand and challenge it.",
+      "Early, thoughtful conversations about race help children develop critical thinking skills, a stronger sense of self, and the ability to advocate for fairness."
+    ],
+    "originalTitle": "Children are not colorblind: Why early conversations about race are essential",
+    "originalUrl": "https://phys.org/news/2026-11-children-colorblind-early-conversations-essential.html",
+    "id": "1794555053299-tfvoi",
+    "date": "2026-11-13T07:30:53.299Z"
+  },
+  {
+    "title": "Crows: Brains Built for Blazing-Fast Decisions",
+    "summary": "New research reveals crows can process visual information and make accurate decisions twice as fast as humans, fundamentally shifting our understanding of high-speed intelligence in the animal kingdom.",
+    "sections": [
+      {
+        "heading": "A Blink-and-You-Miss-It Brain",
+        "content": "Scientists have uncovered that crows possess an extraordinary ability to process visual information and make snap judgments. In a visual task requiring them to identify the direction of moving dots, these clever birds consistently made accurate decisions in an astonishing 235 milliseconds – that's twice as fast as humans and even monkeys performing the exact same challenge."
+      },
+      {
+        "heading": "Unlocking the Secrets of Efficient Intelligence",
+        "content": "This rapid decision-making isn't just a quirky talent; it points to a highly efficient neural architecture. Despite their comparatively smaller brains, crows demonstrate a remarkable capacity for quick, accurate cognitive processing, offering fresh insights into how complex intelligence can manifest across different species without necessarily needing massive brain size."
+      }
+    ],
+    "funFacts": [
+      "Crows are renowned for their problem-solving skills, including using tools and remembering human faces for years.",
+      "Their brain-to-body size ratio is one of the largest among birds, which hints at their advanced cognitive capabilities.",
+      "This study highlights that intelligence isn't just about 'raw processing power' but also about the efficiency and speed of information flow within the brain."
+    ],
+    "originalTitle": "Crows can make decisions twice as fast as humans, scientists discover",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
+    "id": "1794555062297-dmw08",
+    "date": "2026-11-13T07:31:02.297Z"
+  },
+  {
+    "title": "Light-Speed Leap: Scientists Pave the Way for Photon-Powered Quantum Computers",
+    "summary": "Imagine computers that process information at the speed of light – new research is bringing this sci-fi concept closer to reality by making strides in building quantum computers that use particles of light, or photons, as their core components. This breakthrough promises not only unprecedented speed for complex calculations but also dramatically improved energy efficiency for the next generation of supercomputing.",
+    "sections": [
+      {
+        "heading": "Understanding Quantum Qubits and the Power of Light",
+        "content": "Traditional computers use 'bits' that are either 0 or 1, but quantum computers use 'qubits' that can be 0, 1, or both simultaneously, allowing for mind-bogglingly complex calculations. While many current quantum systems use particles like electrons, this new research explores using photons – the tiny packets of light – as qubits because they inherently travel at the speed of light and are less prone to disturbances from their surroundings."
+      },
+      {
+        "heading": "The Dual Advantage: Speed and Energy Efficiency",
+        "content": "Building quantum computers with photons offers a dual advantage: incredible speed and significantly reduced energy consumption. Because photons interact minimally with their environment and move at light speed, they could enable quantum processors to perform calculations much quicker and without generating as much heat as their electron-based counterparts, making powerful computing far more sustainable."
+      }
+    ],
+    "funFacts": [
+      "Quantum computers, especially light-based ones, could solve problems in minutes that would take today's fastest supercomputers billions of years.",
+      "Photons travel at roughly 186,000 miles per second (the speed of light), making them the ultimate high-speed data carriers for future computing.",
+      "These advanced quantum machines could revolutionize fields from drug discovery and material science to cryptography and artificial intelligence, tackling challenges previously considered impossible."
+    ],
+    "originalTitle": "Research advances quantum computing that harnesses speed of light",
+    "originalUrl": "https://phys.org/news/2026-11-advances-quantum-harnesses.html",
+    "id": "1794555073127-rij9d",
+    "date": "2026-11-13T07:31:13.127Z"
+  },
+  {
     "title": "Mars' Quirky Geology: Curiosity Finds 'Potato Chip' Crystals",
     "summary": "NASA's Curiosity rover recently completed a drilling campaign at a unique Martian site named 'Nazca,' uncovering intriguing bedrock formations filled with unusual disk-shaped crystals, playfully likened to 'potato chips'.",
     "sections": [
