@@ -1,5 +1,23 @@
 [
   {
+    "country": "Turkey",
+    "fact": {
+      "title": "Tulips Originated in Turkey, Not the Netherlands",
+      "content": "Contrary to popular belief, the vibrant tulip, often associated with the Netherlands, actually originated in Turkey. These beautiful flowers were cultivated by Turks as wild blooms as early as the 10th century and were later introduced to Europe in the 16th century, becoming a symbol of wealth and prestige during the Ottoman Empire."
+    },
+    "culture": {
+      "title": "Hıdırellez: The Spring Festival of Fortune",
+      "content": "Hıdırellez is a unique spring festival celebrated annually on May 6th in Turkey, recognized by UNESCO. This ancient tradition centers on themes of good fortune, fertility, and prosperity, with distinctive rituals such as leaving wallets open overnight to invite wealth or crafting miniature models of desired homes. The festival marks the day the prophets Hızır and İlyas are believed to have met."
+    },
+    "news": {
+      "title": "Turkey Hosts COP31 Climate Summit in Antalya, Pushing Electrification Agenda",
+      "content": "Turkey is currently hosting the COP31 United Nations Climate Summit in Antalya in November 2026, where leaders are focusing on climate action, implementation, and climate finance. The nation is actively pushing for electrification to be a top agenda item, aiming for electricity to account for 35 percent of global energy demand by 2035, and has signed significant deals for green investments.",
+      "url": "https://www.aa.com.tr/en/climate-change/turkish-president-says-political-commitment-at-cop31-encouraging-for-efforts-under-paris-agreement/3052822"
+    },
+    "id": "1794555936953-turkey",
+    "date": "2026-11-13T07:45:36.953Z"
+  },
+  {
     "country": "Indonesia",
     "fact": {
       "title": "An Island Within a Lake, Within an Island",
