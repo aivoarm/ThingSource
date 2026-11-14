@@ -1,5 +1,23 @@
 [
   {
+    "country": "Canada",
+    "fact": {
+      "title": "The World's Smallest Desert: Carcross, Yukon",
+      "content": "Surprisingly, Canada is home to the world's smallest desert, located near the community of Carcross in Yukon. Spanning just one square mile, the Carcross Desert features a unique landscape of northern dunes, with a history dating back over 10,000 years. This miniature marvel is a fascinating geographical anomaly amidst Canada's vast wilderness."
+    },
+    "culture": {
+      "title": "The Sweet Origins of the Butter Tart",
+      "content": "A true Canadian culinary delight, the butter tart is a distinctive dessert with a rich history. While the first published recipe appeared in a 1900 Ontario hospital cookbook, historians trace its origins to the late 1600s with the arrival of the 'filles du roi' in New France, who adapted European pastry recipes using local ingredients. This unique flaky pastry with a gooey, sweet filling has since become an iconic Canadian treat."
+    },
+    "news": {
+      "title": "Canada's Last Epishelf Lake Disappears",
+      "content": "A recent study confirmed the permanent disappearance of Canada's last epishelf lake, Milne Fiord, following the 2020 breakup of the Milne Ice Shelf on northern Ellesmere Island, Nunavut. This millennia-old ecosystem, where a freshwater layer floated above seawater, drained into the Arctic Ocean. The findings highlight the rapid changes occurring even in the Arctic's most protected ice refuges.",
+      "url": "https://www.eurekalert.org/news-releases/1000676"
+    },
+    "id": "1794642334956-canada",
+    "date": "2026-11-14T07:45:34.956Z"
+  },
+  {
     "country": "Turkey",
     "fact": {
       "title": "Tulips Originated in Turkey, Not the Netherlands",
