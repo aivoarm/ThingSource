@@ -1,5 +1,55 @@
 [
   {
+    "title": "Sunlight Powers Up Quantum Clocks for the First Time",
+    "summary": "In a significant leap, researchers have built the world's first quantum clock powered by ordinary sunlight, a breakthrough that could make these incredibly precise timekeepers more accessible and less reliant on complex lab equipment.",
+    "sections": [
+      {
+        "heading": "Precision Timekeeping, Redefined",
+        "content": "Quantum clocks are the gold standard for accuracy, measuring time by tracking the super-fast \"ticks\" of individual atoms, often losing less than a second over billions of years. Traditionally, this required isolating atoms in a perfect vacuum and hitting them with highly specialized, perfectly tuned lasers in a pristine lab setting."
+      },
+      {
+        "heading": "Harnessing the Sun's Natural Light",
+        "content": "This new experiment shatters that conventional wisdom by demonstrating that the same fundamental quantum clock design can operate using the broad-spectrum light from the sun instead of sophisticated lasers. It's like replacing a custom-made, high-precision instrument with a natural, abundant energy source to achieve the same intricate task."
+      }
+    ],
+    "funFacts": [
+      "Quantum clocks are so accurate they could measure changes in gravity from just a few centimeters' difference in height.",
+      "This breakthrough opens the door for quantum technologies to potentially move out of specialized labs and into more practical, real-world applications.",
+      "The sun's light, often seen as chaotic, is now being carefully harnessed to drive the most precise timekeeping devices known to humankind."
+    ],
+    "originalTitle": "Researchers build the first ever quantum clock that uses sunlight",
+    "originalUrl": "https://www.newscientist.com/article/2598583-researchers-built-the-first-ever-quantum-clock-that-uses-sunlight/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1794727849588-hw9sg",
+    "date": "2026-11-15T07:30:49.588Z"
+  },
+  {
+    "title": "The Arctic's Shield is Weakening: Is El Niño Driving Europe's Coming Cold?",
+    "summary": "An unusually early and strong weakening of the polar vortex, a high-altitude wind system that normally bottles up Arctic cold, is prompting scientists to investigate whether the powerful El Niño is the unexpected trigger for potential deep freezes across Europe.",
+    "sections": [
+      {
+        "heading": "Earth's Arctic Wind Wall: The Polar Vortex Explained",
+        "content": "Imagine a gigantic, invisible fence of fast-moving winds high in the stratosphere, circling the North Pole. This is the polar vortex, and its primary job is to keep bitterly cold Arctic air locked up tight, preventing it from spreading southward into inhabited regions."
+      },
+      {
+        "heading": "An Unprecedented Weakening and its Chilling Implications",
+        "content": "Recently, this powerful wind wall has shown an early and significant slowdown, making it wobbly and less effective at containing the cold. This 'weakening' could allow frigid air to escape its usual Arctic confines, potentially ushering in unusually severe cold spells for parts of Europe."
+      },
+      {
+        "heading": "Is El Niño the Distant Culprit?",
+        "content": "Scientists are now exploring a fascinating connection: could this record-breaking El Niño, a warming pattern in the Pacific Ocean that profoundly impacts global weather, be remotely influencing the polar vortex's unusual behavior? It suggests a complex web of atmospheric interactions spanning thousands of miles."
+      }
+    ],
+    "funFacts": [
+      "The polar vortex isn't a single storm; it's a persistent, high-altitude atmospheric circulation pattern always present, though its strength fluctuates.",
+      "When the polar vortex weakens, it often becomes stretched or splits, allowing lobes of extreme cold air to 'dip' much further south than usual.",
+      "While polar vortex events can affect North America, this particular weakening is currently raising concerns for potential deep freezes primarily across Europe."
+    ],
+    "originalTitle": "Did El Niño cause an early breakdown in the polar vortex?",
+    "originalUrl": "https://www.newscientist.com/article/2599008-did-el-nino-cause-an-early-breakdown-in-the-polar-vortex/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1794727860678-wrvfz",
+    "date": "2026-11-15T07:31:00.678Z"
+  },
+  {
     "title": "Andromeda's Brilliant Star Factories: A Window into Cosmic Creation",
     "summary": "This captivating image from the Andromeda galaxy unveils a breathtaking region, NGC 206, a colossal stellar nursery where thousands of new stars are being born, offering a stunning glimpse into the dynamic processes that build galaxies. It highlights how astronomers observe star formation in our closest large galactic neighbor.",
     "sections": [
