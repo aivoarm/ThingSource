@@ -1,5 +1,23 @@
 [
   {
+    "country": "Kenya",
+    "fact": {
+      "title": "Lamu Island's Timeless Transport and Ancient Roots",
+      "content": "Lamu Island, off Kenya's coast, stands as the country's oldest continuously inhabited settlement, dating back to 1370. Its narrow, winding streets are famously car-free, with over 6,000 donkeys serving as the primary mode of transport, including one unique ambulance dedicated to them. This historical gem offers a fascinating glimpse into a way of life largely untouched by modern vehicular traffic."
+    },
+    "culture": {
+      "title": "The Enduring Spirit of Harambee",
+      "content": "Harambee, a Swahili term meaning 'pulling together,' embodies a profound cultural custom of collective self-help in Kenya. This tradition encourages communities to unite and pool resources for local development projects, such as building schools or clinics, fostering a strong sense of shared responsibility and progress. It reflects a fundamental philosophy of mutual support and cooperation ingrained in Kenyan society."
+    },
+    "news": {
+      "title": "Kenya Explores Innovative Building Technologies for Affordable Housing",
+      "content": "Habitat for Humanity Kenya recently showcased alternative building technologies, like Compressed Stabilized Soil Blocks (CSSB) and Interlocking Stabilized Soil Blocks (ISSB), at the Laikipia Housing Expo 2026. These innovations aim to reduce construction costs, shorten building timelines, and create local economic opportunities by utilizing readily available materials. The initiative represents a positive step towards expanding access to sustainable and affordable housing solutions in the country.",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdFKsZJKWJuHlHuErGYJk3S_popNEfVzMR7yDnxlas7ecsfsAVx-WExSEkbG0BB3KAMYtKlHcE90tfIYHpOVnEFqo_UXK3_Ux3RosjCk0esOr6IdcDI-vSxlb6sZCGOsH6H1qtfN0_AtYexCFWLaCaGexCXCGQYOowIpyXWFJIlhMeW3TZZj-Ujtc1llfZs8CWKakL4rZfPjyAFwDKxx9G2fsdgA_5zw5N3H9d"
+    },
+    "id": "1794728739577-kenya",
+    "date": "2026-11-15T07:45:39.577Z"
+  },
+  {
     "country": "Canada",
     "fact": {
       "title": "The World's Smallest Desert: Carcross, Yukon",
