@@ -1,5 +1,74 @@
 [
   {
+    "title": "Cosmic Riddle: Astronomers Detect Strange Signals from a Speed-Demon Dead Star",
+    "summary": "Deep in space, scientists have uncovered a bizarre stellar pair: a rapidly spinning 'dead' star beaming out mysterious radio pulses while orbiting a Sun-like companion, offering new clues to a cosmic enigma.",
+    "sections": [
+      {
+        "heading": "A Spinning Stellar Ghost",
+        "content": "Astronomers have identified a peculiar celestial duo more than 5,000 light-years away. At its heart is a 'dead star'—the incredibly dense leftover core of a once-massive star—that astonishingly completes a full rotation every eight minutes, a blistering speed for such a colossal object. Adding to its mystique, this cosmic speedster is also emitting strange radio pulses, signals that don't neatly fit into our existing understanding of how such objects should behave, presenting a fascinating riddle for scientists."
+      },
+      {
+        "heading": "The Cosmic Dance and Its Clues",
+        "content": "This rapidly spinning dead star isn't alone; it's locked in a tight orbital embrace with a star remarkably similar to our own Sun, a partnership that is rarer than expected for objects emitting these mysterious pulses. Intriguingly, powerful magnetic storms were also observed raging across the surface of the Sun-like companion, suggesting intense and complex interactions between the two stars that could be key to understanding the dead star's strange behavior and what drives its enigmatic radio signals."
+      }
+    ],
+    "funFacts": [
+      "The 'dead star' is likely a neutron star, an incredibly dense remnant packing more mass than our Sun into a sphere roughly the size of a city.",
+      "While eight minutes might seem slow, for an object the size of a star, it's an incredibly rapid spin, generating immense forces that challenge easy explanation.",
+      "This discovery suggests there's still much we don't know about how celestial objects interact and evolve, especially in these rare binary star systems."
+    ],
+    "originalTitle": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
+    "id": "1794814253272-fsaem",
+    "date": "2026-11-16T07:30:53.272Z"
+  },
+  {
+    "title": "Hidden Clues: Alzheimer's Signals Emerge Years Before Memory Loss",
+    "summary": "Groundbreaking new research suggests that Alzheimer's disease may begin altering our brains up to a decade before memory problems even appear, offering a crucial window for earlier detection and potential intervention.",
+    "sections": [
+      {
+        "heading": "Beyond the Usual Suspect",
+        "content": "For a long time, the hippocampus, a brain region vital for forming new memories, has been the primary focus for spotting early Alzheimer's changes. However, this new study reveals that two other brain areas, crucial for both memory and emotion, start shrinking significantly earlier—sometimes a full decade in advance—before the hippocampus even shows these tell-tale signs."
+      },
+      {
+        "heading": "The Silent Signals of Tau",
+        "content": "These newly identified, subtle changes in brain size aren't random; they're strongly linked to the accumulation of abnormal 'tau' proteins, which are sticky, tangled proteins that disrupt brain cell function in Alzheimer's. Uncovering these early shifts could pave the way for powerful new diagnostic tools, allowing us to identify individuals at high risk long before any symptoms of memory loss become apparent."
+      }
+    ],
+    "funFacts": [
+      "This research suggests Alzheimer's might be a 'long game,' silently progressing for years before noticeable memory issues begin.",
+      "Abnormal tau proteins act like tiny, tangled wires inside brain cells, disrupting their communication and leading to damage.",
+      "Catching these early warning signs could enable future treatments to start much sooner, potentially slowing or even preventing the disease's progression."
+    ],
+    "originalTitle": "Alzheimer’s may start shrinking two brain regions years before memory loss",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
+    "id": "1794814261143-zy80n",
+    "date": "2026-11-16T07:31:01.143Z"
+  },
+  {
+    "title": "Indonesia's Last Tropical Glaciers Are Vanishing",
+    "summary": "A poignant sign of our changing climate, the last remaining glaciers atop Indonesia's Puncak Jaya, once mighty ice formations, have now dwindled to mere fragmented patches too small to even move.",
+    "sections": [
+      {
+        "heading": "The Fading Giants of Puncak Jaya",
+        "content": "High atop Puncak Jaya, Indonesia's tallest mountain, what were once true glaciers—massive, flowing rivers of ice—have now fragmented into isolated, static patches. This drastic shrinkage means the ice is no longer robust enough to move under its own weight, signaling the end of an era for these unique tropical ice formations."
+      },
+      {
+        "heading": "A Barometer for Global Climate Change",
+        "content": "The dramatic retreat of Puncak Jaya's ice is more than just a local phenomenon; it serves as a powerful indicator of accelerating global climate change. As one of the very few remaining tropical glaciers on Earth, its imminent disappearance offers a stark, visible reminder of rising global temperatures."
+      }
+    ],
+    "funFacts": [
+      "Puncak Jaya is not just Indonesia's highest mountain, but also the tallest peak in Oceania, making its tropical glaciers incredibly rare globally.",
+      "For ice to be considered a 'glacier,' it must be large enough to deform and flow under its own weight, something Puncak Jaya's remaining ice can no longer do.",
+      "These tropical glaciers are like sensitive climate barometers, rapidly shrinking in response to even slight increases in global average temperatures."
+    ],
+    "originalTitle": "The Last Ice on Puncak Jaya",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/",
+    "id": "1794814268025-ltzlp",
+    "date": "2026-11-16T07:31:08.025Z"
+  },
+  {
     "title": "Sunlight Powers Up Quantum Clocks for the First Time",
     "summary": "In a significant leap, researchers have built the world's first quantum clock powered by ordinary sunlight, a breakthrough that could make these incredibly precise timekeepers more accessible and less reliant on complex lab equipment.",
     "sections": [
