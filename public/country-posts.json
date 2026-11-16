@@ -1,5 +1,23 @@
 [
   {
+    "country": "Portugal",
+    "fact": {
+      "title": "The World's Smallest International Bridge",
+      "content": "Portugal is home to the world's smallest international bridge, a quaint structure spanning just over 10 feet. Located in Esperança, deep within the Alentejo region, this miniature bridge uniquely connects Portugal and Spain. It serves as a charming and literal link between the two Iberian nations."
+    },
+    "culture": {
+      "title": "The Mischievous Caretos of Podence",
+      "content": "During Carnival in the village of Podence, in the Trás-os-Montes region, the 'Caretos' emerge – masked figures clad in vibrant, fringed wool costumes adorned with bells. Rooted in ancient Celtic fertility rituals, these mischievous characters playfully chase women and rattle their belts to ward off evil spirits, creating a surreal and lively spectacle."
+    },
+    "news": {
+      "title": "Positive Outlook on Portugal's Credit Rating",
+      "content": "In a positive economic development, DBRS Morningstar reviewed Portugal's credit rating with a positive outlook in November 2026. This assessment came six months after the agency initially turned its outlook positive, suggesting growing confidence in the nation's economic stability and performance.",
+      "url": "https://theportugalbrief.pt/dbrs-could-lift-portugal-into-the-aa-band-on-friday-six-months-after-turning-its-outlook-positive/"
+    },
+    "id": "1794815145161-portugal",
+    "date": "2026-11-16T07:45:45.161Z"
+  },
+  {
     "country": "Kenya",
     "fact": {
       "title": "Lamu Island's Timeless Transport and Ancient Roots",
