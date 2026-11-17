@@ -1,5 +1,82 @@
 [
   {
+    "title": "Canada's Students: The Hidden Story Behind Their Pandemic Report Cards",
+    "summary": "A significant new report uncovers a concerning truth: despite what many report cards might suggest, Canadian students experienced widespread learning setbacks during the pandemic, with a notable gap emerging between classroom grades and actual test performance.",
+    "sections": [
+      {
+        "heading": "A National Dip in Learning",
+        "content": "Across every province and territory examined, students showed a measurable decline in academic performance. This isn't just a few isolated cases; the report indicates a consistent trend of learning loss impacting students from coast to coast during the COVID-19 disruption."
+      },
+      {
+        "heading": "The 'Grade Inflation' Paradox",
+        "content": "While classroom grades often remained stable or even improved, standardized tests told a different story, revealing students understood less than their marks suggested. This phenomenon, often called 'grade inflation,' means that report card grades may not accurately reflect students' true grasp of the material, making it harder to identify who needs extra help."
+      },
+      {
+        "heading": "Unmasking the True Impact",
+        "content": "This discrepancy between grades and test scores has effectively 'hidden' the full extent of pandemic-related learning challenges. Understanding this gap is crucial for educators and policymakers to develop targeted strategies and allocate resources effectively, ensuring students get the support they truly need to catch up."
+      }
+    ],
+    "funFacts": [
+      "The report provides the first comprehensive national picture of learning trends across Canada since the pandemic began.",
+      "Standardized tests offer an objective snapshot of student knowledge, unlike classroom grades which can sometimes be influenced by factors like participation or effort.",
+      "Identifying 'grade inflation' allows for a more honest assessment of educational needs, guiding efforts to address specific learning gaps rather than being misled by deceptively high marks."
+    ],
+    "originalTitle": "Report finds consistent pandemic learning loss and gaps between grades and test scores across Canada",
+    "originalUrl": "https://phys.org/news/2026-11-pandemic-loss-gaps-grades-scores.html",
+    "id": "1794900649733-ciup8",
+    "date": "2026-11-17T07:30:49.733Z"
+  },
+  {
+    "title": "Cosmic Catchers: How Planets and Stars Might Reveal Dark Matter's Secrets",
+    "summary": "Scientists are proposing a groundbreaking new approach to finding elusive dark matter, suggesting that planets and stars—from our Earth to distant white dwarfs—could be silently collecting these mysterious particles, potentially revealing their presence through subtle, observable effects.",
+    "sections": [
+      {
+        "heading": "The Universe's Invisible Mystery",
+        "content": "Dark matter remains one of cosmology's greatest puzzles, an invisible substance making up about 85% of all matter in the universe, yet it doesn't interact with light or typical matter in ways we can easily see. Our current search efforts often involve specialized underground detectors hoping to catch a rare 'ping' from a dark matter particle, but so far, the universe has kept its secrets locked away."
+      },
+      {
+        "heading": "Celestial Bodies: Nature's Own Detectors?",
+        "content": "This innovative theory suggests that rather than chasing faint signals in labs, we should look to celestial giants like the Sun, Jupiter, Earth, and super-dense white dwarfs as natural dark matter traps. Slower-moving dark matter particles, which might be too subtle for our artificial detectors, could be more readily captured and accumulate within these massive objects, gradually altering their internal dynamics or temperature in ways our existing instruments could detect."
+      }
+    ],
+    "funFacts": [
+      "Dark matter is essential for the structure of the cosmos; without its extra gravitational pull, galaxies like our Milky Way wouldn't have formed or held together.",
+      "Imagine the universe as a vast ocean – visible matter is just the foam on top, while dark matter is the unseen ocean beneath, making up the vast majority.",
+      "Instead of building ever-larger, more sensitive human-made detectors, this novel strategy proposes using entire celestial bodies as colossal, natural dark matter observatories."
+    ],
+    "originalTitle": "The sun, Earth, Jupiter and white dwarfs: Potential traps for dark matter",
+    "originalUrl": "https://phys.org/news/2026-11-sun-earth-jupiter-white-dwarfs.html",
+    "id": "1794900661554-nzruw",
+    "date": "2026-11-17T07:31:01.554Z"
+  },
+  {
+    "title": "Notcho's Legacy: How One Whale's Death Illuminates Our Collective Grief for Nature",
+    "summary": "The tragic death of Notcho, a familiar humpback whale, after a ferry collision sparked more than just sadness; it brought into sharp focus the emerging concept of 'ecological grief' – the profound sorrow we feel for environmental loss.",
+    "sections": [
+      {
+        "heading": "A Tragic Encounter and its Aftermath",
+        "content": "When a BC Ferries vessel fatally struck Notcho, a beloved humpback whale, it wasn't just a sad accident; it was a deeply disturbing event that resonated with passengers and observers alike. This incident became a powerful symbol, prompting us to examine our emotional connections to the natural world and the devastating impact of human activity."
+      },
+      {
+        "heading": "Understanding 'Ecological Grief'",
+        "content": "Ecological grief isn't simply feeling sad about nature; it's a profound, complex, and often overlooked emotional response to the loss or degradation of ecosystems, species, and beloved natural landscapes. Much like grieving a loved one, this sorrow encompasses feelings of helplessness, fear for the future, and a deep sense of loss for what's vanishing before our eyes."
+      },
+      {
+        "heading": "Our Shared Future and the Power of Emotion",
+        "content": "Recognizing ecological grief is crucial because it validates the deep emotional ties many of us have to the planet and can motivate meaningful action for conservation. By acknowledging this grief, we move beyond scientific data alone to connect with the emotional weight of environmental challenges, fostering empathy and inspiring collective efforts to protect what remains."
+      }
+    ],
+    "funFacts": [
+      "Humpback whales, like Notcho, are known for their complex songs and acrobatic breaches, making them charismatic figures in the ocean.",
+      "Ship strikes are a significant threat to large whales globally, often leading to fatal injuries that can impact endangered populations.",
+      "Ecological grief is increasingly recognized by psychologists and environmental scientists as a legitimate and growing concern in the face of climate change and biodiversity loss."
+    ],
+    "originalTitle": "Mourning Notcho: What one whale&#039;s death teaches us about ecological grief",
+    "originalUrl": "https://phys.org/news/2026-11-notcho-whale-death-ecological-grief.html",
+    "id": "1794900672341-g74hg",
+    "date": "2026-11-17T07:31:12.341Z"
+  },
+  {
     "title": "Cosmic Riddle: Astronomers Detect Strange Signals from a Speed-Demon Dead Star",
     "summary": "Deep in space, scientists have uncovered a bizarre stellar pair: a rapidly spinning 'dead' star beaming out mysterious radio pulses while orbiting a Sun-like companion, offering new clues to a cosmic enigma.",
     "sections": [
