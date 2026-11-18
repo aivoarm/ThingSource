@@ -1,5 +1,78 @@
 [
   {
+    "title": "A Single Space Blast: How One Nuclear Bomb Could Unleash Global Chaos",
+    "summary": "Experts warn that a solitary nuclear explosion high above Earth could swiftly cripple nearly every satellite, plunging our interconnected world into years of unprecedented technological disruption.",
+    "sections": [
+      {
+        "heading": "The Unseen Threat Above Us",
+        "content": "A single nuclear bomb detonated in Earth's upper atmosphere or low-Earth orbit wouldn't just be an isolated incident. New research reveals such an event could disable an astonishing 98% of all operational satellites within a week, far surpassing previous estimates and posing a catastrophic threat to our increasingly satellite-dependent daily lives."
+      },
+      {
+        "heading": "More Than Just a Flash: The Radiation Belt Effect",
+        "content": "While many know about an electromagnetic pulse (EMP) from a high-altitude nuclear blast, the long-term danger is even more insidious. Such an explosion injects a massive surge of highly energetic charged particles into Earth's magnetic field, creating an intense, artificial radiation belt. This 'space weather' phenomenon would steadily fry satellite electronics as they orbit through it, accumulating damage until they fail."
+      },
+      {
+        "heading": "Our Interconnected World in Peril",
+        "content": "Imagine a world without GPS, accurate weather forecasts, global communication networks, or reliable financial transactions. These are just a few of the critical services that rely on our orbiting satellites. Losing almost all of them would not only cause immediate widespread chaos but also set humanity back years in terms of technological recovery, profoundly impacting everything from navigation and internet access to emergency services and national security."
+      }
+    ],
+    "funFacts": [
+      "The U.S. conducted a high-altitude nuclear test called Starfish Prime in 1962, which famously damaged several satellites and even caused electrical grid issues in Hawaii, offering an early glimpse into these profound space effects.",
+      "Recovery wouldn't just be about launching new satellites; the artificial radiation belt created by such an explosion could linger for years, making the space environment too hazardous for immediate reconstruction of our satellite fleets.",
+      "From GPS navigation and mobile phone communication to financial transactions and crucial weather forecasting, modern society's backbone relies heavily on the thousands of satellites currently orbiting Earth."
+    ],
+    "originalTitle": "Nuclear bomb in space would disable 98 per cent of satellites within a week",
+    "originalUrl": "https://www.newscientist.com/article/2598378-nuclear-bomb-in-space-would-disable-98-per-cent-of-satellites-within-a-week/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1794987052944-llsse",
+    "date": "2026-11-18T07:30:52.944Z"
+  },
+  {
+    "title": "Winter's Early Gift: Sierra Snow Kicks Off Crucial Water Season for California",
+    "summary": "California's vital water supply just received a welcome boost as an early, widespread snowstorm transformed the Sierra Nevada mountains into a pristine white landscape in mid-November 2026, signaling a potentially strong start to the state's critical snow season.",
+    "sections": [
+      {
+        "heading": "The Sierra Nevada: California's Natural Water Tower",
+        "content": "The Sierra Nevada mountain range acts as California's primary natural water tower, collecting and storing precipitation in its snowpack. This 'frozen reservoir' slowly melts through spring and summer, gradually releasing water into rivers and reservoirs, supplying a significant portion of the state's drinking water, agricultural irrigation, and environmental needs."
+      },
+      {
+        "heading": "A Promising Start to the Snow Season",
+        "content": "In mid-November 2026, a substantial and widespread snowstorm swept across California's majestic Sierra Nevada, blanketing the peaks in a pristine white. This early-season snowfall is a highly anticipated event, offering a promising initial deposit into the state's natural water bank and setting a positive tone for the crucial winter snow season ahead."
+      }
+    ],
+    "funFacts": [
+      "Roughly 60% of California's developed water supply originates from the Sierra Nevada snowpack, highlighting its indispensable role.",
+      "Scientists regularly measure 'snow water equivalent' (the amount of water contained within the snow) to provide crucial forecasts for the state's water managers and drought planning.",
+      "The Sierra Nevada mountain range stretches approximately 400 miles long and 70 miles wide, covering a vast area critical for collecting precipitation that feeds California's water system."
+    ],
+    "originalTitle": "Sierra Snow Season Spins Up",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/",
+    "id": "1794987062543-l4aru",
+    "date": "2026-11-18T07:31:02.543Z"
+  },
+  {
+    "title": "Your Digital Twin for Space: NASA's Challenge to Protect Astronauts",
+    "summary": "NASA is launching an innovative challenge to create 'digital avatars' – virtual versions of astronauts – to simulate and predict how the human body will react to the harsh conditions of deep space. This groundbreaking initiative aims to ensure the safety and success of future long-duration missions to destinations like Mars.",
+    "sections": [
+      {
+        "heading": "Navigating the Biological Gauntlet of Deep Space",
+        "content": "When astronauts venture beyond Earth's protective embrace, their bodies encounter a unique and formidable array of challenges. Prolonged exposure to microgravity weakens bones and muscles, while cosmic radiation can damage DNA, and even elevated carbon dioxide levels in spacecraft can impact health. NASA's Space Biology Program is dedicated to unraveling how these distinct stressors affect every level of our biology, from individual cells to entire organ systems."
+      },
+      {
+        "heading": "Engineering the Future of Astronaut Health with Virtual Models",
+        "content": "To proactively address these complex health concerns, NASA is spearheading the 'BPS Digital AVATAR Challenge.' This exciting initiative invites brilliant minds to develop sophisticated computer models—essentially, highly detailed 'digital twins' of human physiology. These virtual avatars will simulate and forecast how an astronaut's body might respond to the extreme environment of deep space, providing invaluable insights to safeguard our pioneers on upcoming missions."
+      }
+    ],
+    "funFacts": [
+      "Imagine the health of an astronaut meticulously mapped out in a computer, allowing scientists to test potential medical solutions long before any human leaves Earth.",
+      "Space stressors like microgravity and radiation can uniquely impact everything from an astronaut's vision and balance to their immune system and even brain function.",
+      "The ultimate goal of this research is to enable safe, multi-year missions to destinations like Mars, where comprehensive understanding of human health responses will be absolutely critical."
+    ],
+    "originalTitle": "BPS Digital AVATAR Challenge",
+    "originalUrl": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge/",
+    "id": "1794987074962-r40y8",
+    "date": "2026-11-18T07:31:14.962Z"
+  },
+  {
     "title": "Canada's Students: The Hidden Story Behind Their Pandemic Report Cards",
     "summary": "A significant new report uncovers a concerning truth: despite what many report cards might suggest, Canadian students experienced widespread learning setbacks during the pandemic, with a notable gap emerging between classroom grades and actual test performance.",
     "sections": [
