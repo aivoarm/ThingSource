@@ -1,5 +1,22 @@
 [
   {
+    "country": "Peru",
+    "fact": {
+      "title": "Peru's Enigmatic Stone Forests",
+      "content": "Beyond its famous mountains, Peru is home to numerous 'stone forests'—vast landscapes where erosion has sculpted incredible rock formations into whimsical shapes. One such lesser-known marvel is Pampachiri in Apurímac, often called the 'Smurfs' house' due to its conical rocks, some up to 10 meters high, which local legends say are an Andean goblins' village turned to stone. These ancient volcanic formations, dating back millions of years, offer an otherworldly glimpse into Peru's diverse geological wonders."
+    },
+    "culture": {
+      "title": "The Lord of Miracles Procession: Lima's Purple Month",
+      "content": "Every October, Lima is transformed into the 'Purple Month' as hundreds of thousands of faithful Peruvians participate in the Lord of Miracles (El Señor de los Milagros) procession, one of the largest Catholic processions in South America. Devotees dress in purple to honor a 17th-century painting of a dark-skinned Jesus Christ, an image believed to have miraculously survived major earthquakes. This profound tradition unites people from all walks of life in a vibrant display of faith, history, and Peruvian identity."
+    },
+    "news": {
+      "title": "Peru Repatriates Hundreds of Cultural Assets from Abroad",
+      "content": "In a significant victory for cultural heritage, Peru recently repatriated 342 cultural assets recovered from six countries across Europe and the Americas. This October 2026 effort marks the largest number of cultural items returned to the country this year, safeguarding invaluable testimonies of Peruvian history and identity. The successful repatriation highlights Peru's leading role in combating the illicit trafficking of cultural property through strong international cooperation and diplomatic action."
+    },
+    "id": "1795074342713-peru",
+    "date": "2026-11-19T07:45:42.713Z"
+  },
+  {
     "country": "Portugal",
     "fact": {
       "title": "The World's Smallest International Bridge",
