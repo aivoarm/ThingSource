@@ -1,5 +1,23 @@
 [
   {
+    "country": "Switzerland",
+    "fact": {
+      "title": "Switzerland's Landlocked Merchant Navy",
+      "content": "Despite being a landlocked nation with no direct access to the ocean, Switzerland remarkably maintains its own merchant fleet. This unusual arrangement began for strategic reasons, ensuring the country's access to vital goods in times of crisis, with Swiss-registered cargo ships sailing the world's oceans under the Swiss flag."
+    },
+    "culture": {
+      "title": "Zurich's Fiery 'Böögg' and the Sechseläuten Festival",
+      "content": "A unique spring custom in Zurich, Sechseläuten, culminates in the ceremonial burning of the 'Böögg' – a snowman-like effigy filled with firecrackers. The speed with which the Böögg's head explodes is traditionally believed to predict the quality of the coming summer, with a quick detonation signaling a good season."
+    },
+    "news": {
+      "title": "Swiss Components Head to Mercury Aboard BepiColombo Space Probe",
+      "content": "The European-Japanese space probe BepiColombo is set to reach Mercury on November 21, 2026, after an eight-year journey. Notably, the probe carries components manufactured by Empa researchers in collaboration with the University of Bern, marking a significant contribution from Switzerland to this international scientific endeavor.",
+      "url": "https://www.news.admin.ch/gov/en/aktuell/news/tagesschau.html"
+    },
+    "id": "1795160741182-switzerland",
+    "date": "2026-11-20T07:45:41.182Z"
+  },
+  {
     "country": "Peru",
     "fact": {
       "title": "Peru's Enigmatic Stone Forests",
