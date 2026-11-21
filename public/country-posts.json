@@ -1,5 +1,23 @@
 [
   {
+    "country": "Scotland",
+    "fact": {
+      "title": "North Uist: An Island More Water Than Land",
+      "content": "A fascinating geographical anomaly in Scotland is the island of North Uist, part of the Outer Hebrides. Over half of its surface area is covered by lochs, pools, and flooded terrain. Local pilots have even described North Uist not as an island surrounded by water, but rather as land occasionally interrupted by water, creating a truly unique landscape."
+    },
+    "culture": {
+      "title": "The Joyful Tradition of a Scottish Ceilidh",
+      "content": "A vibrant and enduring cultural custom unique to Scotland is the Ceilidh (pronounced 'kay-lee'), a traditional social gathering featuring folk music, dancing, and storytelling. Participants of all ages come together to dance lively, often energetic, traditional dances such as the Gay Gordons and Strip the Willow, with instructions frequently provided for newcomers. It's a spirited event that fosters community and celebrates Scottish heritage through movement and music."
+    },
+    "news": {
+      "title": "Wild Oysters Return to Scottish Waters",
+      "content": "In positive environmental news, conservationists are successfully reintroducing wild oysters to the Scottish coast, bringing the shellfish back from local extinction. This initiative aims to restore the vital ecosystem services that oyster reefs provide, such as improving water quality and supporting marine biodiversity. The return of these native oysters marks a significant step in marine conservation efforts in Scotland.",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/15/return-of-the-wild-oyster-conservationists-bring-shellfish-back-from-local-extinction-off-scottish-coast"
+    },
+    "id": "1795247137757-scotland",
+    "date": "2026-11-21T07:45:37.757Z"
+  },
+  {
     "country": "Switzerland",
     "fact": {
       "title": "Switzerland's Landlocked Merchant Navy",
