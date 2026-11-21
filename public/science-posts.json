@@ -1,5 +1,78 @@
 [
   {
+    "title": "Voyager 2: Our Historic Glimpse of Distant Neptune",
+    "summary": "Decades ago, humanity sent a lone probe to the solar system's outermost reaches. Voyager 2's iconic flyby of Neptune offered our only close-up look at this mysterious blue giant, revealing breathtaking details about its atmosphere, rings, and enigmatic moon Triton, forever changing our understanding of the outer solar system.",
+    "sections": [
+      {
+        "heading": "Neptune Revealed: A World of Extreme Weather",
+        "content": "Before Voyager 2, Neptune was a distant, fuzzy dot; afterward, it was a dynamic world. The probe captured stunning images of its deep blue atmosphere, driven by powerful winds – the fastest recorded in our solar system, reaching over 2,000 km/h (1,200 mph). It also spotted the 'Great Dark Spot,' a massive storm system akin to Jupiter's Great Red Spot, which provided clues about the planet's internal heat and atmospheric dynamics."
+      },
+      {
+        "heading": "Triton: An Icy Moon Full of Surprises",
+        "content": "Perhaps the biggest revelation was Triton, Neptune’s largest moon. Voyager 2 discovered it has a retrograde orbit, meaning it moves backward compared to Neptune's rotation, suggesting it was likely captured from the Kuiper Belt. Even more astonishing were active nitrogen geysers erupting from its frigid surface, indicating a dynamic, cryovolcanic world unlike anything seen before, hinting at a subsurface ocean or internal geological activity."
+      }
+    ],
+    "funFacts": [
+      "Voyager 2 remains the *only* spacecraft ever to visit Neptune, making its 1989 flyby our sole close-up encounter with this distant ice giant.",
+      "Neptune boasts the fastest winds in the solar system, with gusts recorded by Voyager 2 exceeding 2,000 kilometers per hour (1,200 mph).",
+      "Triton, Neptune's largest moon, is unique for its retrograde orbit and active nitrogen geysers, suggesting it might be a captured object from the distant Kuiper Belt."
+    ],
+    "originalTitle": "APOD: 2026 November 21 – Voyager’s Neptune",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
+    "id": "1795246253300-fhnja",
+    "date": "2026-11-21T07:30:53.300Z"
+  },
+  {
+    "title": "The Secret to Better Berries: Engineers Create a Tool for Tougher Strawberries",
+    "summary": "A clever new device engineered by university students is helping strawberry breeders identify tougher varieties, promising an end to squished berries and a boost for fruit quality from farm to fridge.",
+    "sections": [
+      {
+        "heading": "The Problem with Perfect Produce",
+        "content": "Strawberries are delicious but notoriously delicate, often bruising or getting damaged during picking, packing, and transit. This fragility leads to significant food waste and disappointment for consumers expecting pristine fruit. Breeders have long sought tougher varieties, but assessing skin strength has been a subjective and time-consuming challenge."
+      },
+      {
+        "heading": "A Smart Solution for Stronger Berries",
+        "content": "Enter a groundbreaking new tool from University of Queensland engineering students. This prototype precisely measures the force required to break a strawberry's skin, providing an objective, quantifiable score for its resilience. It's like a tiny, specialized pressure gauge for fruit, quickly revealing which berries are naturally more robust."
+      },
+      {
+        "heading": "What This Means for Your Fruit Bowl",
+        "content": "By easily identifying varieties with robust skins, strawberry breeding programs can develop fruit that withstands the journey from farm to market much better. This innovation means less waste for growers, fresher-looking berries for shoppers, and ultimately, a more sustainable and enjoyable strawberry experience for everyone."
+      }
+    ],
+    "funFacts": [
+      "Strawberries are surprisingly delicate; an estimated 20-30% of fresh produce can be lost to spoilage or damage before reaching consumers.",
+      "It can take 10-15 years to develop and release a new fruit variety through traditional breeding programs.",
+      "Globally, billions of dollars are lost annually due to damaged fresh produce, making innovations like this crucial for economic and environmental sustainability."
+    ],
+    "originalTitle": "Device that measures strawberry skin's strength will aid breeders",
+    "originalUrl": "https://phys.org/news/2026-11-device-strawberry-skin-strength-aid.html",
+    "id": "1795246261748-cyeez",
+    "date": "2026-11-21T07:31:01.748Z"
+  },
+  {
+    "title": "Curiosity Captures Ethereal Clouds Drifting Across Martian Sunsets",
+    "summary": "NASA's Curiosity rover has delivered stunning views of delicate, high-altitude clouds painting the Martian twilight sky, providing precious insights into the Red Planet's subtle atmospheric activity and weather patterns.",
+    "sections": [
+      {
+        "heading": "A Glimpse of Martian Skyscapes",
+        "content": "Just after the sun dips below the horizon in Gale Crater, Curiosity's cameras captured these beautiful 'twilight clouds.' Unlike Earth's fluffy formations, these wispy clouds appear only briefly during the Martian autumn, offering a rare spectacle as they catch the last rays of sunlight."
+      },
+      {
+        "heading": "Decoding Mars' Subtle Atmosphere",
+        "content": "These drifting clouds are more than just a pretty picture; they're vital clues for scientists. Their presence helps us understand the Martian atmosphere's temperatures, how water vapor (or carbon dioxide ice) moves around, and the very subtle, dynamic weather systems on a planet often thought of as barren."
+      }
+    ],
+    "funFacts": [
+      "Martian clouds form much higher than those on Earth, often tens of miles up, typically composed of water ice or sometimes frozen carbon dioxide.",
+      "The 'twilight' phenomenon makes these clouds glow against the darkening sky because they are still illuminated by the sun even after it has set from the rover's perspective.",
+      "Curiosity has been exploring Gale Crater for over 5,000 Martian days (called 'sols'), steadily gathering data that paints a more complex picture of Mars than previously imagined."
+    ],
+    "originalTitle": "Curiosity Spots Drifting Twilight Clouds",
+    "originalUrl": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+    "id": "1795246271963-04h6s",
+    "date": "2026-11-21T07:31:11.963Z"
+  },
+  {
     "title": "A Breakthrough in Weight Loss: Compound Burns Fat While Sparing Muscle",
     "summary": "Imagine a weight loss treatment that specifically targets stubborn fat, ramps up your body's natural calorie-burning power, and crucially, leaves your valuable muscle intact. Researchers have identified just such a compound, potentially transforming how we approach healthy weight management.",
     "sections": [
