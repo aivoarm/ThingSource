@@ -1,5 +1,83 @@
 [
   {
+    "title": "Could Gravity *Push*? New Quantum Theories Challenge Our Universe's Core Force",
+    "summary": "Imagine a universe where gravity doesn't just pull things together, but can also push them apart. Groundbreaking theoretical research suggests that under specific quantum conditions, gravity might actually become a repulsive force, potentially upending our fundamental understanding of the cosmos and even challenging Einstein's cornerstone theories.",
+    "sections": [
+      {
+        "heading": "Gravity's Unexpected Flip",
+        "content": "For thousands of years, our understanding of gravity has been simple: it's an attractive force, pulling apples to the ground and planets around the sun. However, recent theoretical work delves into mind-bending scenarios where gravity could actually become repulsive, pushing objects away rather than drawing them in. This radical idea comes from exploring the deepest levels of physics, far beyond our everyday experience."
+      },
+      {
+        "heading": "The Quantum Twist and Einstein's Legacy",
+        "content": "This potential reversal isn't just a whimsical thought; it emerges from intricate mathematical investigations rooted in the enigmatic realm of quantum mechanics. If these theories prove correct, they would represent a profound shift, challenging the very fabric of Albert Einstein's General Theory of Relativity, which elegantly describes gravity as a warp in spacetime, always resulting in attraction."
+      }
+    ],
+    "funFacts": [
+      "Unlike other fundamental forces, gravity, in our current understanding, is always attractive, leading to the formation of stars, planets, and galaxies.",
+      "Einstein's General Theory of Relativity, published in 1915, revolutionized our view of gravity, explaining it as the curvature of spacetime caused by mass and energy.",
+      "Physicists are actively working on a 'quantum theory of gravity' to unite General Relativity with the strange rules of the quantum world, and this new work offers a glimpse into that frontier."
+    ],
+    "originalTitle": "Quantum effect could reverse gravity and violate Einstein’s theory of relativity",
+    "originalUrl": "https://www.newscientist.com/article/2599897-quantum-effect-could-reverse-gravity-and-violate-einsteins-theory-of-relativity/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1795332652837-73rq8",
+    "date": "2026-11-22T07:30:52.837Z"
+  },
+  {
+    "title": "AI Takes on Math's Grandest Challenge: The Riemann Hypothesis",
+    "summary": "The mathematical world is abuzz after an AI researcher announced a potential proof for the Riemann Hypothesis, one of the field's most formidable and sought-after puzzles. If verified, this groundbreaking claim could redefine our understanding of prime numbers and the role of artificial intelligence in fundamental discovery.",
+    "sections": [
+      {
+        "heading": "Decoding the Riemann Hypothesis: Math's 'Holy Grail'",
+        "content": "For over 160 years, mathematicians have grappled with the Riemann Hypothesis, a profound conjecture about the distribution of prime numbers—those numbers only divisible by one and themselves. Often called the 'holy grail' of mathematics, solving it would provide a fundamental roadmap for how primes are scattered across the number line, impacting fields from pure math to cryptography. A correct proof carries a million-dollar prize and could unlock secrets about the very structure of numbers."
+      },
+      {
+        "heading": "AI Enters the Equation: A Novel Approach",
+        "content": "What makes this recent claim particularly astonishing is its origin: an Anthropic researcher utilized artificial intelligence to arrive at the potential solution. This marks a fascinating and unconventional method for tackling such a foundational mathematical problem, prompting questions about the evolving synergy between human intuition and machine intelligence in scientific discovery. The involvement of AI adds an entirely new layer to the already immense significance of the potential proof."
+      },
+      {
+        "heading": "A Community on Edge: Awaiting Verification",
+        "content": "The news has been met with a mix of awe, excitement, and healthy skepticism within the tight-knit mathematical community. Proving a conjecture like the Riemann Hypothesis requires rigorous peer review, where every step of the argument is meticulously scrutinized for flaws, a process that can take years. While the possibility of a solution is thrilling, mathematicians are now poised to carefully examine this groundbreaking claim, with at least one other researcher reportedly working on a competing proof."
+      }
+    ],
+    "funFacts": [
+      "The Riemann Hypothesis is one of seven 'Millennium Prize Problems' designated by the Clay Mathematics Institute. Solving any of them earns a million-dollar reward, highlighting their profound difficulty and importance.",
+      "Prime numbers, at the heart of the Riemann Hypothesis, are critical for modern cybersecurity. The encryption that protects your online transactions, from banking to messaging, relies heavily on the difficulty of factoring large numbers into their prime components.",
+      "While AI has excelled in areas like game playing and pattern recognition, its potential to contribute to abstract mathematical proofs represents a significant and emerging frontier, pushing the boundaries of what machine intelligence can achieve."
+    ],
+    "originalTitle": "Mathematicians are amazed by ‘holy grail’ proof of Riemann hypothesis",
+    "originalUrl": "https://www.newscientist.com/article/2600235-mathematicians-are-amazed-by-holy-grail-proof-of-riemann-hypothesis/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1795332663424-nevr1",
+    "date": "2026-11-22T07:31:03.424Z"
+  },
+  {
+    "title": "A Cosmic Feast: How Two Giant Stars Might Be Secretly Feeding Our Galaxy's Black Hole",
+    "summary": "Astronomers have uncovered a surprising potential food source for our galaxy's supermassive black hole, Sagittarius A*: mysterious gas clouds generated by the powerful, colliding winds of two colossal stars, revealing an unexpected cosmic connection.",
+    "sections": [
+      {
+        "heading": "Unmasking a Black Hole's Dinner Suppliers",
+        "content": "For years, puzzling clumps of gas have swirled near the Milky Way's central supermassive black hole, Sagittarius A*, their origin a mystery. New research now points to a surprising culprit: a dynamic duo of exceptionally massive stars whose powerful outflows are creating these potential black hole snacks."
+      },
+      {
+        "heading": "When Stellar Winds Collide",
+        "content": "Imagine two cosmic hurricanes crashing head-on; the intense shockwaves from these colliding stellar winds compress surrounding gas into remarkably dense clumps. These newly formed, compact clouds are then caught in the black hole's immense gravitational pull, offering a direct pathway to fuel its growth."
+      },
+      {
+        "heading": "A New Perspective on Cosmic Growth",
+        "content": "This discovery provides a crucial piece of the puzzle regarding how supermassive black holes gain mass and evolve over cosmic timescales. It highlights an intimate and surprising connection between the dramatic lives of individual stars and the long-term history of our entire galaxy's central giant."
+      }
+    ],
+    "funFacts": [
+      "Our Milky Way's central supermassive black hole, Sagittarius A*, is an incredible four million times the mass of our Sun, yet it's often surprisingly quiet.",
+      "Stellar winds are continuous streams of gas and particles blasted away from stars, far more potent than the gentle solar wind from our own Sun.",
+      "The two stars in question are so enormous that their powerful 'winds' collide with enough force to literally squeeze interstellar gas into dense, black-hole-bound morsels.",
+      "This research suggests that what happens even relatively far from a black hole's immediate vicinity can still significantly influence its appetite and growth over millions of years."
+    ],
+    "originalTitle": "Two massive stars may be secretly feeding the Milky Way’s supermassive black hole",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm",
+    "id": "1795332675694-z8j0b",
+    "date": "2026-11-22T07:31:15.694Z"
+  },
+  {
     "title": "Voyager 2: Our Historic Glimpse of Distant Neptune",
     "summary": "Decades ago, humanity sent a lone probe to the solar system's outermost reaches. Voyager 2's iconic flyby of Neptune offered our only close-up look at this mysterious blue giant, revealing breathtaking details about its atmosphere, rings, and enigmatic moon Triton, forever changing our understanding of the outer solar system.",
     "sections": [
