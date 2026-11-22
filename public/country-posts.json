@@ -1,5 +1,23 @@
 [
   {
+    "country": "Brazil",
+    "fact": {
+      "title": "Rio de Janeiro: Once a European Imperial Capital",
+      "content": "In a unique historical turn, Rio de Janeiro served as the capital of a European empire. Following Napoleon's invasion of Portugal in 1807, the Portuguese royal court relocated to Brazil, making Rio the seat of the United Kingdom of Portugal, Brazil, and Algarves from 1808 to 1821. This made it the only European capital ever to be located outside of Europe."
+    },
+    "culture": {
+      "title": "Festa Junina: A Blending of Traditions",
+      "content": "Festa Junina, or the June Festival, is a vibrant and unique annual celebration in Brazil that fuses Portuguese Catholic traditions with indigenous and Afro-Brazilian influences. Festivities feature colorful decorations, bonfires, traditional dances like 'quadrilha' with mock weddings, and delicious seasonal foods such as pamonha (sweet corn paste) and quentão (a spiced mulled wine made with cachaça)."
+    },
+    "news": {
+      "title": "Brazil's Policy Significantly Cuts Amazon Deforestation",
+      "content": "A recent study has demonstrated the remarkable effectiveness of Brazil's 'Priority List' (PL) policy in curbing Amazon deforestation. By targeting municipalities with high rates of forest loss through intensified monitoring, enforcement, and economic restrictions, the policy achieved an average annual reduction of 33% in deforestation within these areas, with no evidence of displacement to neighboring regions.",
+      "url": "https://www.miragenews.com/brazils-deforestation-approach-cuts-amazon-forest-1123493/"
+    },
+    "id": "1795333544270-brazil",
+    "date": "2026-11-22T07:45:44.270Z"
+  },
+  {
     "country": "Scotland",
     "fact": {
       "title": "North Uist: An Island More Water Than Land",
