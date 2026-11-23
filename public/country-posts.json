@@ -1,5 +1,23 @@
 [
   {
+    "country": "Mexico",
+    "fact": {
+      "title": "Mexico is Home to the Impact Site of the Dinosaur-Killing Asteroid",
+      "content": "A fascinating, lesser-known geographical and historical fact about Mexico is that the Yucatán Peninsula is home to the Chicxulub crater. This massive impact structure was formed approximately 66 million years ago by the asteroid believed to have caused the extinction event that wiped out the dinosaurs. Its discovery provides critical evidence for this catastrophic moment in Earth's history."
+    },
+    "culture": {
+      "title": "The Ancient and Revered Voladores de Papantla Ritual",
+      "content": "A unique cultural tradition of Mexico is the 'Voladores de Papantla' (Papantla Flyers) ritual, originating from Veracruz. This mesmerizing ceremony involves five participants, one of whom plays a flute and drum while standing on a small platform atop a tall pole, representing the center of the earth. The other four 'fliers' launch themselves from the platform, descending headfirst while tied by their feet, circling the pole 13 times, symbolizing the 52 years of the Mesoamerican calendar cycle when multiplied by four, ultimately touching the earth to invoke fertility."
+    },
+    "news": {
+      "title": "Mexico's Social Programs Lead to Significant Poverty Reduction",
+      "content": "Recent reports highlight Mexico's significant social transformation, with initiatives by the Federal Government leading to improved living conditions and a notable reduction in poverty. According to Mexico's National Council for the Evaluation of Social Development Policy (CONEVAL), between 2020 and 2022, the number of people living in poverty decreased by approximately 5.1 million individuals, dropping from 43.9% to 36.3% of the population. This progress is attributed to strengthened social programs and increased labor income, achieved without a substantial rise in public debt or federal tax rates.",
+      "url": "https://www.wongfleming.com/mexico-hits-the-headlines-the-wellbeing-transformation-behind-mexicos-changing-economic-story/"
+    },
+    "id": "1795419943982-mexico",
+    "date": "2026-11-23T07:45:43.983Z"
+  },
+  {
     "country": "Brazil",
     "fact": {
       "title": "Rio de Janeiro: Once a European Imperial Capital",
