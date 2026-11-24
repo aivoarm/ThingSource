@@ -1,5 +1,23 @@
 [
   {
+    "country": "South Korea",
+    "fact": {
+      "title": "Jikji: The World's Oldest Metal Type Printed Book",
+      "content": "South Korea is home to a groundbreaking historical artifact: the \"Jikji\" (Buljo jikji simche yojeol), which holds the title of the world's oldest surviving book printed with movable metal type. This significant Korean Buddhist text was printed in 1377 during the Goryeo Dynasty in Cheongju, predating Johannes Gutenberg's acclaimed Bible by 78 years. Its immense historical value was recognized by UNESCO, which confirmed its status in 2001 and inscribed it on the Memory of the World Register."
+    },
+    "culture": {
+      "title": "Kimjang: A Communal Kimchi-Making Tradition",
+      "content": "A unique and deeply ingrained cultural tradition in South Korea is \"Kimjang,\" the annual practice of communities coming together in late autumn to prepare and preserve large quantities of kimchi for the upcoming winter. More than just a culinary task, Kimjang serves as a vital social custom that fosters cooperation and strengthens community bonds, with families, relatives, and neighbors sharing the labor and camaraderie. This rich tradition was recognized for its cultural significance in 2013 when UNESCO inscribed it on its Representative List of the Intangible Cultural Heritage of Humanity."
+    },
+    "news": {
+      "title": "South Korea's Exports Hit Record High Driven by Chip Demand",
+      "content": "South Korea's exports saw a remarkable surge in November 2026, more than doubling in the first 20 days of the month to reach a record $77.4 billion. This impressive growth was primarily fueled by a nearly fourfold increase in semiconductor shipments, which accounted for almost half of the total exports during this period. The country also achieved a significant milestone, with cumulative exports for the year through November 20 surpassing $1 trillion for the first time, making it only the fourth nation globally to reach this economic benchmark.",
+      "url": "https://www.thepressofasia.com/2026/11/23/south-korean-exports-reach-record-77-4-billion-in-first-20-days-of-november/"
+    },
+    "id": "1795506345598-south-korea",
+    "date": "2026-11-24T07:45:45.598Z"
+  },
+  {
     "country": "Mexico",
     "fact": {
       "title": "Mexico is Home to the Impact Site of the Dinosaur-Killing Asteroid",
