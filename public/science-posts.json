@@ -1,5 +1,78 @@
 [
   {
+    "title": "The Digital Magnets: What Really Pulls Data Centers to Your Town?",
+    "summary": "New research shines a light on the often-hidden factors that attract massive data centers to specific communities, offering crucial insights for towns weighing the complex opportunities and challenges these digital giants present.",
+    "sections": [
+      {
+        "heading": "Decoding Data Center Desires",
+        "content": "These sprawling digital warehouses, the backbone of our online lives, don't pick homes randomly. Recent research reveals they seek a precise cocktail of accessible land, robust energy grids, and high-speed fiber optic networks. Understanding these core needs empowers communities to anticipate and plan for their arrival, rather than being caught off guard."
+      },
+      {
+        "heading": "The Local Equation: Costs and Benefits",
+        "content": "While data centers promise some jobs and potential tax revenue, they also bring significant demands on local resources like water and power, and can transform local landscapes. This new study helps communities evaluate the full spectrum of local impact, ensuring decisions are made with a clear understanding of both the potential boons and strains."
+      }
+    ],
+    "funFacts": [
+      "Every time you stream a movie, send an email, or use cloud storage, you're tapping into a data center somewhere.",
+      "These facilities are massive energy hogs, often consuming as much electricity as a small city, making a stable, affordable power supply a top priority for their location.",
+      "Beyond power, access to reliable cooling (often water) and dense fiber optic cables are non-negotiable for these digital nerve centers to operate efficiently 24/7."
+    ],
+    "originalTitle": "What draws data centers to a community?",
+    "originalUrl": "https://phys.org/news/2026-11-centers-community.html",
+    "id": "1795591854732-jubpy",
+    "date": "2026-11-25T07:30:54.732Z"
+  },
+  {
+    "title": "Our Climate's Unseen Tug-of-War: How Global Warming Interrupted the Next Ice Age",
+    "summary": "A fascinating new study reveals Earth was subtly preparing for its next glacial period, a natural planetary deep freeze, when global warming unexpectedly stepped in and reversed the process.",
+    "sections": [
+      {
+        "heading": "Clues from an Ancient Freezer",
+        "content": "To understand Earth's climate past, scientists dug beneath the Barnes Ice Cap in the Canadian Arctic, a relic of a much larger ancient ice sheet. There, perfectly preserved ancient plants acted as a natural time capsule, recording the subtle advances and retreats of the ice over millennia."
+      },
+      {
+        "heading": "The Ice Age That Almost Was",
+        "content": "What they found was surprising: around 2,000 years ago, these icy remnants began to expand, covering the thriving vegetation. This slow, steady growth signaled Earth was naturally embarking on its next glacial period, a long cycle of global cooling and ice sheet expansion."
+      },
+      {
+        "heading": "A Warming World's Unexpected Intervention",
+        "content": "However, this impending deep freeze was abruptly halted. By the 1960s, rising global temperatures, predominantly driven by human activity, reversed the ancient ice's expansion. The Barnes Ice Cap, which had been slowly creeping forward, began to shrink instead, demonstrating a profound intersection of natural cycles and human impact."
+      }
+    ],
+    "funFacts": [
+      "Ice ages are natural, long periods of reduced global temperatures and expanding continental ice sheets, occurring roughly every 100,000 years.",
+      "The Barnes Ice Cap is one of the last remnants of the vast Laurentide Ice Sheet that once covered much of North America during the last major ice age.",
+      "This research suggests that global warming isn't just affecting current weather patterns, but may also be powerful enough to override Earth's long-term natural climate cycles."
+    ],
+    "originalTitle": "Earth's next ice age may have already begun. Global warming stopped it",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm",
+    "id": "1795591866558-cjpzt",
+    "date": "2026-11-25T07:31:06.558Z"
+  },
+  {
+    "title": "The Quarter-Sized Spider with a Genome Bigger Than Yours",
+    "summary": "Imagine a spider no bigger than a quarter, yet its genetic instruction book is 50% larger than a human's. This tiny trapdoor spider, playfully named after Stephen Colbert, is rewriting our understanding of evolution with its unexpectedly massive genome.",
+    "sections": [
+      {
+        "heading": "A Genetic Blueprint of Epic Proportions",
+        "content": "Scientists recently uncovered that a California trapdoor spider, no bigger than a quarter and humorously dubbed after Stephen Colbert, possesses a genome surprisingly 50% larger than a human's. This minuscule arachnid carries an astounding 4.6 billion DNA base pairs packed into 52 chromosomes, far exceeding what its small stature would suggest."
+      },
+      {
+        "heading": "Rewriting the Rulebook on Evolution",
+        "content": "This colossal genetic library offers more than just a size comparison; it provides crucial, unexpected insights into how spiders have evolved over millions of years. Discoveries like this challenge our preconceptions about the relationship between an organism's physical size, its genetic complexity, and its evolutionary path, hinting at unique genetic strategies in the arachnid world."
+      }
+    ],
+    "funFacts": [
+      "This quarter-sized arachnid packs 4.6 billion DNA base pairs, dwarfing the human genome by a staggering 50%.",
+      "The spider, *Aptostichus colberti*, was named after Stephen Colbert by scientist Jason Bond, a fan of the comedian.",
+      "Its massive genetic architecture offers surprising new clues about the intricate evolutionary history of spiders, showing that a larger genome doesn't always mean a more physically complex organism."
+    ],
+    "originalTitle": "This tiny spider named after Stephen Colbert has a genome 50% larger than a human’s",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261122060343.htm",
+    "id": "1795591876148-mxf2f",
+    "date": "2026-11-25T07:31:16.148Z"
+  },
+  {
     "title": "When Galaxies Collide: A Gravitational Showdown in the NGC 7771 Group",
     "summary": "Beyond what our eyes can see, galaxies engage in spectacular gravitational duels, dramatically reshaping themselves and the cosmos around them. A prime example is the NGC 7771 group, where a cosmic dance of destruction and creation is unfolding before our very eyes.",
     "sections": [
