@@ -1,5 +1,23 @@
 [
   {
+    "country": "Iceland",
+    "fact": {
+      "title": "Iceland's Dramatic Deforestation Post-Settlement",
+      "content": "A fascinating, lesser-known geographical and historical fact about Iceland is that its landscape was once significantly forested, covering about 40% of the land. However, early Norse settlers, upon their arrival in the late 9th century, rapidly cleared almost all of these trees for fuel, building materials, and to create grazing land for livestock. Today, only about 2% of Iceland remains forested, a stark contrast to its original verdant appearance and a testament to the early human impact on its environment."
+    },
+    "culture": {
+      "title": "Þorrablót: A Midwinter Feast of Traditional Icelandic Delicacies",
+      "content": "Þorrablót is a unique Icelandic midwinter festival, typically held between late January and mid-February, dedicated to celebrating traditional Icelandic cuisine. Rooted in 19th-century romantic nationalism, it revives old Norse traditions by featuring a buffet called 'þorramatur,' comprising preserved foods like fermented shark (hákarl), singed sheep's head (svið), and pickled ram's testicles. This culinary custom offers a challenging yet authentic taste of Iceland's resourceful past, reflecting how early settlers preserved food through harsh winters."
+    },
+    "news": {
+      "title": "Iceland Urges Apple to Integrate Icelandic Language Support",
+      "content": "In a recent initiative launched on Icelandic Language Day (November 19, 2026), Iceland's center for language technology, Almannarómur, and Business Iceland commenced a campaign urging Apple to incorporate full Icelandic language support into its devices and software, including operating systems and Siri. This push highlights Iceland's ongoing efforts to ensure its unique language thrives in the digital age, with government-funded programs already providing Icelandic language data to other major tech companies like Google, Microsoft, and Amazon. The campaign underscores the nation's commitment to language preservation amidst technological advancement.",
+      "url": "https://www.icelandreview.com/culture-living/iceland-steps-up-pressure-on-apple-to-embrace-icelandic/"
+    },
+    "id": "1795592744421-iceland",
+    "date": "2026-11-25T07:45:44.421Z"
+  },
+  {
     "country": "South Korea",
     "fact": {
       "title": "Jikji: The World's Oldest Metal Type Printed Book",
