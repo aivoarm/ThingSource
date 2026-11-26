@@ -1,5 +1,74 @@
 [
   {
+    "title": "Can Cash Payments Save the Amazon? Peru Launches Bold Conservation Experiment",
+    "summary": "A bold new trial in Peru is exploring whether giving direct, no-strings cash payments to Indigenous communities can be the key to dramatically reducing deforestation and protecting the Amazon rainforest.",
+    "sections": [
+      {
+        "heading": "A Direct Approach to Rainforest Protection",
+        "content": "Starting in 2027, this pioneering initiative will provide unconditional cash payments to Indigenous communities residing deep within the Peruvian Amazon. The goal is to empower these vital forest guardians with financial security, enabling them to make sustainable choices free from economic pressures that might otherwise lead to environmentally damaging activities like illegal logging."
+      },
+      {
+        "heading": "Empowering Communities, Preserving Ecosystems",
+        "content": "The underlying principle of this 'basic income' for conservation is that stable financial support can remove the urgent need for activities contributing to deforestation. Researchers hope these payments will not only improve local livelihoods but also significantly reduce pressure on the rainforest, showcasing a novel pathway to protect one of Earth's most critical ecosystems while fostering community well-being."
+      }
+    ],
+    "funFacts": [
+      "Indigenous territories are widely recognized as some of the most effective barriers against deforestation globally, yet these communities often operate with limited resources.",
+      "Unlike traditional conditional aid, 'basic income' offers payments without specific requirements on how the money is spent, trusting communities to make their own best decisions.",
+      "The Amazon rainforest, often called the 'lungs of the Earth,' plays a crucial role in regulating global climate patterns and houses an incredible diversity of life."
+    ],
+    "originalTitle": "Basic income trial in Peru aims to prove rainforest protection merits",
+    "originalUrl": "https://www.newscientist.com/article/2600784-new-basic-income-trial-in-peru-aims-to-prove-rainforest-protection-merits/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1795678255464-dfzdp",
+    "date": "2026-11-26T07:30:55.464Z"
+  },
+  {
+    "title": "AI Discovers the Ultimate Speed Limit for Software's Core Math",
+    "summary": "OpenAI's artificial intelligence has made a groundbreaking discovery, revealing the absolute theoretical speed limit for matrix multiplication, a fundamental operation that underpins nearly all modern software from your phone to advanced AI models. This unprecedented insight provides a profound new benchmark for how efficiently computers can theoretically operate.",
+    "sections": [
+      {
+        "heading": "The Silent Powerhouse Behind Your Screens",
+        "content": "Imagine combining massive grids of numbers, much like complex spreadsheets, at lightning speed; this is matrix multiplication. It's a foundational mathematical operation crucial for everything from the stunning graphics in your favorite video game to the complex calculations powering artificial intelligence and big data analysis, silently enabling modern computing."
+      },
+      {
+        "heading": "AI Unlocks a Fundamental Speed Limit",
+        "content": "In a remarkable twist, OpenAI's AI didn't just find a faster way to perform this vital math; it uncovered the ultimate theoretical efficiency limit – essentially, the 'speed limit' for how quickly any algorithm can ever perform matrix multiplication. This groundbreaking discovery means we now know the absolute best an algorithm can theoretically achieve, setting a new frontier for computer science."
+      }
+    ],
+    "funFacts": [
+      "This discovery showcases AI's increasing capability to not just solve problems, but to deepen our understanding of fundamental mathematical and computational principles.",
+      "While AI has revealed the theoretical maximum efficiency, actually developing algorithms that consistently reach this ultimate 'speed limit' remains a significant challenge for human programmers.",
+      "Optimizing matrix multiplication has massive ripple effects, potentially making everything from scientific simulations to advanced AI models run significantly faster and more efficiently across all computing devices."
+    ],
+    "originalTitle": "OpenAI discovers efficiency limit for multiplying large sets of numbers",
+    "originalUrl": "https://www.newscientist.com/article/2600728-openai-discovers-efficiency-limit-for-multiplying-large-sets-of-numbers/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1795678266352-oyp1r",
+    "date": "2026-11-26T07:31:06.352Z"
+  },
+  {
+    "title": "Feathered Detectives: How Seabirds Can Help Catch Illegal Ocean Activity",
+    "summary": "Imagine tiny, feathered agents patrolling the vast oceans to expose hidden crimes. New research reveals that seabirds, equipped with miniature tech, are surprisingly effective at detecting vessels that deliberately operate in the shadows, offering a powerful new tool against illegal fishing.",
+    "sections": [
+      {
+        "heading": "Equipping Our Feathered Fleet",
+        "content": "Researchers fitted seabirds, such as albatrosses or petrels, with tiny GPS trackers to map their movements and sensitive audio recorders to capture sounds from their environment. As these birds traverse enormous expanses of ocean, their on-board technology picks up the distinct acoustic signatures of passing ships, even those intentionally 'going dark' by not transmitting their locations."
+      },
+      {
+        "heading": "Unmasking 'Dark' Ships and Protecting Our Oceans",
+        "content": "Illegal, unreported, and unregulated (IUU) fishing is a major threat to marine ecosystems and global food security, depleting fish stocks and undermining conservation efforts. By identifying vessels that switch off their transponders to avoid detection, these 'spy birds' provide crucial data that can help authorities pinpoint illegal activities, enhancing surveillance in remote areas where human patrols are scarce."
+      }
+    ],
+    "funFacts": [
+      "Illegal, unreported, and unregulated (IUU) fishing accounts for an estimated 11-26 million tons of fish annually, costing the global economy billions.",
+      "Seabirds are natural, wide-ranging scouts, covering hundreds of kilometers daily, making them ideal for monitoring vast, remote ocean areas that are difficult and expensive for humans to patrol.",
+      "Many commercial vessels are legally required to broadcast their location, but 'dark' ships intentionally disable these systems to avoid detection, often engaging in illegal activities like poaching or trafficking."
+    ],
+    "originalTitle": "Seabird ‘spies’ could help spot ships that aren&#8217;t broadcasting their location",
+    "originalUrl": "https://www.newscientist.com/article/2600830-seabird-spies-could-help-spot-ships-that-arent-broadcasting-their-location/?utm_campaign=RSS|NSNS&#038;utm_content=news&#038;utm_medium=RSS&#038;utm_source=NSNS",
+    "id": "1795678277499-98b9w",
+    "date": "2026-11-26T07:31:17.499Z"
+  },
+  {
     "title": "The Digital Magnets: What Really Pulls Data Centers to Your Town?",
     "summary": "New research shines a light on the often-hidden factors that attract massive data centers to specific communities, offering crucial insights for towns weighing the complex opportunities and challenges these digital giants present.",
     "sections": [
