@@ -1,5 +1,23 @@
 [
   {
+    "country": "Ireland",
+    "fact": {
+      "title": "Ancient Irish 'Walking Marriages' in Teltown",
+      "content": "A fascinating historical fact reveals that up until the 1920s, couples in Ireland could legally marry simply by walking towards each other in Teltown, County Meath, on Saint Bridget's Day. This custom, rooted in old Irish Brehon laws, also allowed for divorce at the same spot on the same day by walking away from each other. It provided a unique form of temporary marriage contract, highlighting a lesser-known aspect of Irish marital traditions."
+    },
+    "culture": {
+      "title": "Respect for Fairy Forts and Hawthorn Trees",
+      "content": "A deeply ingrained cultural custom in Ireland involves showing profound respect for 'fairy forts' and lone hawthorn trees. These ancient ring forts and solitary whitethorns are believed to be portals to the Otherworld and sacred to the 'aos sí' or fairies. Many Irish farmers and developers still avoid disturbing these sites, with roads and construction projects often rerouted to prevent misfortune or illness, reflecting a persistent link to ancient folklore."
+    },
+    "news": {
+      "title": "Ireland's Ambition to Become a Global AI Hub Gains Momentum",
+      "content": "Ireland is actively positioning itself as a leading global hub for applied Artificial Intelligence, building on its strong reputation for attracting major technology companies. In a significant move to foster homegrown innovation, the country established a national AI Office in August 2026 and plans to open a regulatory sandbox in 2027, allowing startups to test AI products with regulators. This strategic push, outlined in the 'Intelligence:Applied' blueprint, aims to support 1,000 startups by 2030, reinforcing Ireland's commitment to future-forward industries.",
+      "url": "https://www.forbes.com/sites/alexknapp/2026/11/19/ireland-wants-to-be-an-ai-hub-can-it-keep-its-startups-from-leaving/"
+    },
+    "id": "1795679143574-ireland",
+    "date": "2026-11-26T07:45:43.574Z"
+  },
+  {
     "country": "Iceland",
     "fact": {
       "title": "Iceland's Dramatic Deforestation Post-Settlement",
