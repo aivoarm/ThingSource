@@ -1,5 +1,22 @@
 [
   {
+    "country": "Thailand",
+    "fact": {
+      "title": "Thailand's Unique Calendar System",
+      "content": "Thailand officially operates on the Buddhist calendar (B.E. - Buddhist Era), which predates the Gregorian calendar (A.D.) by 543 years. This means that while the Western world might be in 2026, Thailand is observing the year 2569 B.E. This fascinating difference in timekeeping reflects Thailand's deep-rooted Buddhist heritage and is commonly seen on local signage and official documents."
+    },
+    "culture": {
+      "title": "Loy Krathong: A Festival of Gratitude and Renewal",
+      "content": "The enchanting Loy Krathong festival, celebrated annually on the full moon night of the twelfth lunar month (typically November), sees Thais float 'krathongs'—decorated baskets made from banana leaves, flowers, candles, and incense—on waterways. This ancient tradition is a beautiful way to express gratitude to the Water Goddess, Phra Mae Khongkha, for her bounty and to symbolically cast away misfortunes and sins, welcoming new beginnings. While a popular origin story attributes it to a Sukhothai noblewoman, historical scholarship suggests its roots lie in ancient Hindu festivals adapted by Thai Buddhists."
+    },
+    "news": {
+      "title": "Thailand Forecasts Significant Tourism Revenue for Loy Krathong 2026",
+      "content": "Thailand's government anticipates the Loy Krathong festival in 2026 to generate approximately 6 billion baht in tourism revenue. This projection, announced on November 19, reflects an expected 8% increase in tourism income compared to the previous year for the same period. The forecast highlights the continued importance of cultural festivals in boosting the nation's economic recovery and attracting visitors."
+    },
+    "id": "1795765542000-thailand",
+    "date": "2026-11-27T07:45:42.000Z"
+  },
+  {
     "country": "Ireland",
     "fact": {
       "title": "Ancient Irish 'Walking Marriages' in Teltown",
