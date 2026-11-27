@@ -1,5 +1,74 @@
 [
   {
+    "title": "When the Night Sky Opens Up: Experiencing the Milky Way's Grandeur",
+    "summary": "Prepare to be awestruck by a stunning photograph of our galaxy, the Milky Way, unfurling like a shimmering river across a pristine night sky. This daily feature from NASA reminds us of the universe's breathtaking beauty and our incredible vantage point on Earth.",
+    "sections": [
+      {
+        "heading": "Our Galactic Home, Illuminated",
+        "content": "This featured image brings the Milky Way to life, showcasing our home galaxy in breathtaking detail as it stretches across the night. Seen from a remarkably dark location, the galaxy's bright central band appears like a luminous 'eye,' a majestic reminder of the billions of stars and countless wonders nestled within."
+      },
+      {
+        "heading": "A Daily Glimpse into the Cosmos",
+        "content": "NASA's 'Astronomy Picture of the Day' (APOD) is a beloved tradition, offering curious minds a fresh view of the universe every single day. Each selected image, accompanied by an explanation from a professional astronomer, serves as a captivating portal, inviting us to explore the cosmos and deepen our appreciation for scientific discovery."
+      }
+    ],
+    "funFacts": [
+      "The Milky Way is a barred spiral galaxy, estimated to contain between 100 and 400 billion stars.",
+      "From a truly dark-sky location, far from city lights, the Milky Way appears as a faint, cloudy band of light because we are looking into the dense plane of our disc-shaped galaxy.",
+      "Only about 1 in 10 people in the world can experience seeing the Milky Way from their homes due to increasing light pollution, making views like the one in this image increasingly rare and cherished."
+    ],
+    "originalTitle": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
+    "originalUrl": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+    "id": "1795764658519-w16ba",
+    "date": "2026-11-27T07:30:58.519Z"
+  },
+  {
+    "title": "Unlocking the Brain's Hidden Talent: Your Neurons Are Master Multitaskers!",
+    "summary": "For years, we thought individual brain cells were like specialized tools, each doing one job. But a groundbreaking new study reveals that most neurons are actually incredible multitaskers, processing a vast array of information and dramatically reshaping our understanding of how our brains achieve their amazing feats.",
+    "sections": [
+      {
+        "heading": "From Specialists to Super-Generalists: A Brain Paradigm Shift",
+        "content": "For a long time, the prevailing idea was that each neuron, or brain cell, was a specialist — dedicated to one specific task, like recognizing a face or moving a finger. This new research flips that script entirely, showing that while some specialists exist, the vast majority of neurons are actually dynamic multitaskers, capable of responding to a wide range of different inputs."
+      },
+      {
+        "heading": "Peering Inside the Brain's Versatility Engine",
+        "content": "By meticulously observing brain activity across 43 different regions in mice, scientists saw neurons light up in response to many different kinds of information, not just one. This groundbreaking discovery suggests that the brain's incredible flexibility and ability to learn might stem from these adaptable cells, constantly re-interpreting and integrating diverse signals."
+      }
+    ],
+    "funFacts": [
+      "This study fundamentally challenges a widely held assumption about brain function that has stood for decades, highlighting the dynamic nature of scientific discovery.",
+      "Instead of a dedicated \"face neuron\" or \"sound neuron,\" imagine cells that juggle multiple tasks, much like a versatile professional managing various projects.",
+      "This newfound versatility in individual neurons could help explain the brain's remarkable adaptability, learning capacity, and efficiency in processing complex information."
+    ],
+    "originalTitle": "For decades, scientists may have misunderstood how brain cells work",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261125045302.htm",
+    "id": "1795764667368-o3nb6",
+    "date": "2026-11-27T07:31:07.368Z"
+  },
+  {
+    "title": "A 345-Million-Year-Old Fossil's Shocking Secret Rewrites Evolutionary History",
+    "summary": "For decades, a renowned 345-million-year-old fossil was believed to be an early reptile, a true pioneer of land life. Now, cutting-edge X-rays reveal it was actually a creature of the water, dramatically shifting our understanding of how life transitioned from sea to land.",
+    "sections": [
+      {
+        "heading": "Unmasking a 345-Million-Year-Old Misconception",
+        "content": "For decades, paleontologists studied a famous 345-million-year-old fossil, confidently classifying it as one of Earth's earliest reptiles, a vital link in the story of life moving onto dry land. However, thanks to sophisticated X-ray imaging technology, scientists peeked inside the stone and discovered a breathtaking secret: hidden gills and thousands of minuscule teeth, completely changing its identity."
+      },
+      {
+        "heading": "Watery Roots for Land Adaptations",
+        "content": "This revelation transforms our understanding of animal evolution, particularly the critical period when creatures began transitioning from water to land. It suggests that many adaptations we typically associate with terrestrial life, like certain skull structures or ways of breathing, may have actually developed in animals still deeply connected to aquatic environments, long before they fully embraced dry land."
+      }
+    ],
+    "funFacts": [
+      "This ancient creature lived during the Carboniferous period, a time when Earth's continents were coalescing and vast swampy forests dominated the landscape.",
+      "Advanced X-ray computed tomography (CT) allowed scientists to 'see through' the rock without damaging the invaluable fossil, much like a medical scanner for ancient bones.",
+      "The discovery implies that the 'first steps' onto land might have been taken by creatures already possessing some 'land-ready' features, evolving them in their watery homes rather than on dry ground."
+    ],
+    "originalTitle": "This 345-million-year-old fossil had scientists fooled for decades",
+    "originalUrl": "https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+    "id": "1795764676690-a1t42",
+    "date": "2026-11-27T07:31:16.690Z"
+  },
+  {
     "title": "Can Cash Payments Save the Amazon? Peru Launches Bold Conservation Experiment",
     "summary": "A bold new trial in Peru is exploring whether giving direct, no-strings cash payments to Indigenous communities can be the key to dramatically reducing deforestation and protecting the Amazon rainforest.",
     "sections": [
