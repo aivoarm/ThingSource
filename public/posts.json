@@ -1,5 +1,63 @@
 [
   {
+    "topic": "The Universal Power Symbol (⏻)",
+    "title": "The Secret Binary History of the Universal Power Symbol",
+    "category": "Symbols",
+    "summary": "That ubiquitous circle-and-line symbol you press daily hides a surprisingly nuanced past, rooted in binary code and international standardization, with an original meaning that might surprise you.",
+    "sections": [
+      {
+        "heading": "Before the Icon: The 'I' and 'O' Era",
+        "content": "Before the instantly recognizable power symbol graced our devices, engineers grappled with a simple yet critical challenge: how to universally indicate 'on' and 'off'. Early power controls often featured the words 'On' and 'Off', but language barriers quickly proved problematic. The solution emerged from the fundamental language of computing: binary code. Engineers adopted 'I' for 'on' and 'O' for 'off', directly representing binary '1' (on, or a closed electrical circuit) and '0' (off, or an open circuit). This clever visual shorthand began appearing on mechanical switches, laying the groundwork for a truly international understanding."
+      },
+      {
+        "heading": "Birth of the Combined Symbol (and a Misconception)",
+        "content": "The familiar combined symbol – a circle with a vertical line breaking through its top – was officially born in 1973, standardized by the International Electrotechnical Commission (IEC) in its IEC 60417 document. However, here's the twist: this specific symbol (IEC 60417-5009) was *not* originally intended as a general 'on/off' toggle. Instead, it was designated as the 'standby' symbol, indicating a low-power or 'sleep' state where the device wasn't fully disconnected."
+      },
+      {
+        "heading": "From Standby to Universal Power",
+        "content": "Despite its initial 'standby' definition, the combined symbol's practical application evolved with technology. As devices increasingly featured soft-off or low-power states controlled by a single push button, the symbol naturally morphed into a general 'power' indicator in the public consciousness. Recognizing this widespread adoption, an international committee of scientists and engineers, followed by the Institute of Electrical and Electronics Engineers (IEEE) in 2004, formally recommended that this symbol should represent its commonly accepted meaning: generic power control. This standardization not only solved a universal communication problem but also played a significant role in promoting energy efficiency by making standby modes a clear, identifiable feature across countless devices."
+      }
+    ],
+    "funFacts": [
+      "While the most common power symbol combines '1' and '0', the IEC actually has distinct symbols for 'Power On' (just the line 'I', IEC 60417-5007) and 'Power Off' (just the circle 'O', IEC 60417-5008) for toggle switches.",
+      "The modern binary number system, the basis for these power symbols, was developed by Gottfried Leibniz in 1689.",
+      "Just like deciphering the nuanced meanings of power symbols that evolved over time, mastering slang requires an understanding of context and cultural shifts. If you're keen to decode the unwritten rules of language and stay current, the Lore Board on the Slang learning app (slang.armanayva.com) offers fascinating insights into how words and phrases transform, much like the 'standby' symbol became 'power'."
+    ],
+    "imageKeywords": [
+      "1970s electronics control panel",
+      "early computer switches",
+      "binary code symbols illustration"
+    ],
+    "wikiKeywords": "International Electrotechnical Commission, Power symbol, Binary code",
+    "citations": [
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERfbKfOszBIkQSS6fAxdvS6hQVAtIYMBUXXikCfZsZdjToJV4SX0Zrew3NdzUYU6oVi9m2gnzLL1bPImam6KPTJyAPSlrOfbPaxlW7x5IYFZNTRlAXLezM3Eer7m15YICJJbL51Vki",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSvpJ1hsENF8sFhQGKGhUqsHnNDdiMxpIb6zdxJztUjS1hWP4mZRpoAIRZ8g5iunRS8NlHheuzsSSf3-xlXonFbHoN5OLdpIOROPqipEwoUy9bpFpa8RGDp88bzZfzmn1QWQ==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrYliDY0ukwVArzBmBInMWQDcaHo_1ktq0hacAiwv8aKJ852ujo8p_zizaxMi8ZsFtOI6y_PM-WLeDYf29lbFQgikb7uPWojTDMB_w2Sv4NJSFenQAmPxHh_X8HIGTqRKKFj4JSE19MVNxXH-eZY5IEAnJu6GzvG0ugkcFnqG4ZQE=",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQoarnmgkUJqYLi8nAUP2kPDXjEjqEH61WTfPRsommp9HU7Smvsim57W6OkNstcHI33XCYqrhympXOvyne_oRVhTNcbKd3MaA8BzrRYNQex7gGWKBRZ7Sh4PNDxkItaBKaQZKisA33gETZ7AgkVa1CLMFgLZOzw==",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKAVCNrZGocxZ63iPeGr7NogiTwKqFn4jOfMkYN66pSVmxNmGu2EY22gjqfyfDgPri3nwjvJ4nq2Xp0cbDESfAPoIxh_AInGvO2fQJjieyEPRKz3i1ie23jRQnQ8XCJuqkxeUrM-l2TPhy5PQkbK1nbmLiixYfRro9nSva"
+    ],
+    "positiveThought": "The world is an intricate tapestry, woven with threads of forgotten histories and subtle connections. Take a moment to trace a familiar pattern and uncover the delightful, unexpected story beneath its surface.",
+    "portugalFact": {
+      "title": "Portugal's Padrões: Stone Sentinels of Discovery",
+      "content": "During the Age of Discovery, Portuguese navigators employed a unique method to mark their territorial claims: the *padrão*. These substantial stone pillars, often carved with the Portuguese coat of arms and an inscription, were erected on newly discovered lands, serving as physical declarations of sovereignty and testaments to their pioneering voyages across the globe."
+    },
+    "aiSource": "Gemini",
+    "id": "1795849304071-the-universal-power-symbol-",
+    "slug": "the-secret-binary-history-of-the-universal-power-symbol",
+    "date": "2026-11-28T07:01:44.071Z",
+    "joke": {
+      "joke": "My wife and I were happy for twenty years. Then we met.",
+      "setup": "My wife and I were happy for twenty years.",
+      "punchline": "Then we met.",
+      "comedian": "Rodney Dangerfield",
+      "year": "1970s-1980s",
+      "context": "This joke perfectly encapsulates Rodney Dangerfield's self-deprecating, 'no respect' persona, delivering a surprising twist that redefines the initial statement. Its concise structure and universal theme of marital disillusionment resonate deeply, making it a timeless example of comedic brilliance."
+    },
+    "images": [
+      "https://images.unsplash.com/featured/?1970s%2Celectronics%2Ccontrol%2Cpanel"
+    ]
+  },
+  {
     "topic": "The Origin of the Dollar Sign ($)",
     "title": "From Pesos to Power: The Surprising Origin of the Dollar Sign",
     "category": "Symbols",
