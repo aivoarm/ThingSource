@@ -1,5 +1,23 @@
 [
   {
+    "country": "Japan",
+    "fact": {
+      "title": "Japan's Ancient Tsunami Stones: Warnings Across Generations",
+      "content": "Along Japan's coastline stand hundreds of centuries-old 'tsunami stones,' monuments carved with warnings to future generations about the destructive power of tidal waves and often indicating safe elevations for building homes. Some of these stones, dating back over 600 years, played a crucial role in saving lives during the devastating 2011 Tōhoku earthquake and tsunami, as communities that heeded their ancestors' advice and built above the markers were spared."
+    },
+    "culture": {
+      "title": "Ōharae: Japan's Great Purification Ceremony",
+      "content": "The Ōharae is an ancient Shinto purification ritual performed twice a year, on June 30 and December 31, to cleanse people and the entire nation from spiritual impurities and misfortunes. Participants use human-shaped paper effigies (katashiro) to transfer their impurities, which are then collected by priests and burned in a sacred fire, symbolizing a spiritual reset and preparing for a fresh start."
+    },
+    "news": {
+      "title": "JAXA Unveils Lunar Rover for Joint Mission with India to Search for Moon Water",
+      "content": "The Japan Aerospace Exploration Agency (JAXA) recently unveiled a test model of a lunar rover, designed for a joint mission with India called Lunar Polar Exploration (LUPEX). Slated for launch in fiscal 2028 aboard Japan's H3 rocket, the rover will explore the moon's south pole, searching for water sources with the potential for producing rocket fuel and supporting future space exploration.",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/japan/science-health/jaxa-rover-moon-water-india/"
+    },
+    "id": "1795851951025-japan",
+    "date": "2026-11-28T07:45:51.025Z"
+  },
+  {
     "country": "Thailand",
     "fact": {
       "title": "Thailand's Unique Calendar System",
